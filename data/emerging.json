@@ -1,5 +1,6 @@
 {
- "checked": "2026-10-08T19:57:39+00:00",
+ "version": 2,
+ "checked": "2026-10-08T20:04:23+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -19,47 +20,15 @@
      "url": "https://clinicaltrials.gov/study/NCT05092295",
      "date": "2026-08-12",
      "detail": "NCT05092295 · Active Not Recruiting"
-    },
-    {
-     "type": "Clinical trial",
-     "title": "An Early Prospective Study of the Traq™ Device for Characterization of Binocular Ocular Function in Normal Subjects and Subjects With Recent Traumatic Brain Injury",
-     "url": "https://clinicaltrials.gov/study/NCT07742878",
-     "date": "2026-08-03",
-     "detail": "NCT07742878 · Recruiting"
-    },
-    {
-     "type": "Clinical trial",
-     "title": "mTBI Identification and Monitoring Through Retinal Scanning",
-     "url": "https://clinicaltrials.gov/study/NCT06142435",
-     "date": "2026-05-20",
-     "detail": "NCT06142435 · Recruiting"
     }
    ],
    "last_seen": "2026-10-08",
    "tbi": true,
-   "score": 16,
+   "score": 13,
    "latest": "2026-08-12"
   },
   {
-   "key": "siemens medical solutions usa",
-   "name": "Siemens Medical Solutions USA",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "FDA clearance",
-     "title": "K260055: syngo.CT Brain Quantification",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260055",
-     "date": "2026-09-25",
-     "detail": "Substantially Equivalent · product code QIH"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": true,
-   "score": 11,
-   "latest": "2026-09-25"
-  },
-  {
-   "key": "b&b",
+   "key": "b b",
    "name": "B&B",
    "first_seen": "2026-10-08",
    "signals": [
@@ -75,67 +44,6 @@
    "tbi": true,
    "score": 11,
    "latest": "2026-09-24"
-  },
-  {
-   "key": "reemerge",
-   "name": "ReEmerge",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "Clinical trial",
-     "title": "Cognitive Network Restoration Therapy for Moderate to Severe Traumatic Brain Injury: A Feasibility Study",
-     "url": "https://clinicaltrials.gov/study/NCT07730099",
-     "date": "2026-07-28",
-     "detail": "NCT07730099 · Not Yet Recruiting"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": true,
-   "score": 11,
-   "latest": "2026-07-28"
-  },
-  {
-   "key": "nexstim oyj",
-   "name": "Nexstim Oyj",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "FDA clearance",
-     "title": "K252358: Nexstim Navigated Brain Stimulation (NBS) 6 System (NBS6)",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252358",
-     "date": "2026-03-20",
-     "detail": "Substantially Equivalent · product code OBP"
-    },
-    {
-     "type": "FDA clearance",
-     "title": "K253098: Nexstim Navigated Brain Stimulation (NBS) 6 System (NBS6)",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253098",
-     "date": "2026-03-20",
-     "detail": "Substantially Equivalent · product code OBP"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": true,
-   "score": 11,
-   "latest": "2026-03-20"
-  },
-  {
-   "key": "cereneo",
-   "name": "Cereneo",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "Clinical trial",
-     "title": "Vestibular Stimulation in Sleep for Neurorehabilitation Patients",
-     "url": "https://clinicaltrials.gov/study/NCT07658027",
-     "date": "2026-06-18",
-     "detail": "NCT07658027 · Not Yet Recruiting"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": true,
-   "score": 10,
-   "latest": "2026-06-18"
   },
   {
    "key": "ceribell",
@@ -156,169 +64,94 @@
    "latest": "2026-04-03"
   },
   {
-   "key": "siemens healthcare",
-   "name": "Siemens Healthcare",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "FDA clearance",
-     "title": "K253057: AI-Rad Companion Brain MR",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253057",
-     "date": "2026-01-22",
-     "detail": "Substantially Equivalent · product code QIH"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": true,
-   "score": 10,
-   "latest": "2026-01-22"
-  },
-  {
-   "key": "neosoma",
-   "name": "Neosoma",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "FDA clearance",
-     "title": "K252922: Neosoma Brain Mets",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252922",
-     "date": "2025-12-17",
-     "detail": "Substantially Equivalent · product code QIH"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": true,
-   "score": 10,
-   "latest": "2025-12-17"
-  },
-  {
-   "key": "avatar medical",
-   "name": "Avatar Medical",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "FDA clearance",
-     "title": "K252665: brAIn Shoulder Positioning",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252665",
-     "date": "2025-10-20",
-     "detail": "Substantially Equivalent · product code QIH"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": true,
-   "score": 10,
-   "latest": "2025-10-20"
-  },
-  {
-   "key": "ischemaview",
-   "name": "Ischemaview",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "FDA clearance",
-     "title": "K261368: Rapid Platform (R6.7)",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261368",
-     "date": "2026-09-21",
-     "detail": "Substantially Equivalent · product code QIH"
-    },
-    {
-     "type": "FDA clearance",
-     "title": "K261085: Rapid Vessel Occlusion (Rapid VO)",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261085",
-     "date": "2026-07-13",
-     "detail": "Substantially Equivalent · product code QAS"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": false,
-   "score": 7,
-   "latest": "2026-09-21"
-  },
-  {
-   "key": "medtronic ireland",
-   "name": "Medtronic Ireland",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "FDA clearance",
-     "title": "K261428: NC Euphora Rapid Exchange Balloon Dilatation Catheter",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261428",
-     "date": "2026-08-14",
-     "detail": "Substantially Equivalent · product code LOX"
-    },
-    {
-     "type": "FDA clearance",
-     "title": "K261759: Euphora Rapid Exchange (RX) Balloon Dilatation Catheter",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261759",
-     "date": "2026-07-27",
-     "detail": "Substantially Equivalent · product code LOX"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": false,
-   "score": 7,
-   "latest": "2026-08-14"
-  },
-  {
-   "key": "tectraum",
-   "name": "TecTraum",
+   "key": "crainio ltda",
+   "name": "Crainio Ltda",
    "first_seen": "2026-10-08",
    "signals": [
     {
      "type": "Clinical trial",
-     "title": "Pro-2-Cool Pivotal Trial II",
-     "url": "https://clinicaltrials.gov/study/NCT06929923",
-     "date": "2026-08-12",
-     "detail": "NCT06929923 · Recruiting"
+     "title": "Crainio Non-invasive ICP Monitor for TBI",
+     "url": "https://clinicaltrials.gov/study/NCT06453733",
+     "date": "2026-03-18",
+     "detail": "NCT06453733 · Recruiting"
     }
    ],
    "last_seen": "2026-10-08",
-   "tbi": false,
-   "score": 5,
-   "latest": "2026-08-12"
+   "tbi": true,
+   "score": 10,
+   "latest": "2026-03-18"
   },
   {
-   "key": "imgfax",
-   "name": "IMGFAX",
+   "key": "biodirection",
+   "name": "BioDirection",
    "first_seen": "2026-10-08",
    "signals": [
     {
-     "type": "FDA clearance",
-     "title": "K261288: Handheld Ultrasound Scanner",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261288",
-     "date": "2026-07-30",
-     "detail": "Substantially Equivalent · product code IYN"
+     "type": "Clinical trial",
+     "title": "Tbit System Precision and Correlation of Different Blood Samples",
+     "url": "https://clinicaltrials.gov/study/NCT04478812",
+     "date": "2024-04-05",
+     "detail": "NCT04478812 · Unknown"
     }
    ],
    "last_seen": "2026-10-08",
-   "tbi": false,
-   "score": 5,
-   "latest": "2026-07-30"
+   "tbi": true,
+   "score": 10,
+   "latest": "2024-04-05"
   },
   {
-   "key": "cercare medical a/s",
-   "name": "Cercare Medical A/S",
+   "key": "impact applications",
+   "name": "ImPACT Applications",
    "first_seen": "2026-10-08",
    "signals": [
     {
-     "type": "FDA clearance",
-     "title": "K260316: CMN Capillary Function with Oncology Virtual Expert",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260316",
-     "date": "2026-06-22",
-     "detail": "Substantially Equivalent · product code QIH"
-    },
-    {
-     "type": "FDA clearance",
-     "title": "K253831: CMN Capillary Function with Virtual Expert for MRI, CT and CBCT",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253831",
-     "date": "2026-05-18",
-     "detail": "Substantially Equivalent · product code LLZ"
+     "type": "Clinical trial",
+     "title": "Development of a Neurocognitive Screening Test",
+     "url": "https://clinicaltrials.gov/study/NCT02597504",
+     "date": "2023-09-29",
+     "detail": "NCT02597504 · Terminated"
     }
    ],
    "last_seen": "2026-10-08",
-   "tbi": false,
-   "score": 5,
-   "latest": "2026-06-22"
+   "tbi": true,
+   "score": 10,
+   "latest": "2023-09-29"
+  },
+  {
+   "key": "cyban",
+   "name": "Cyban",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "Clinical trial",
+     "title": "Brain Oximeter Calibration and Validation Study",
+     "url": "https://clinicaltrials.gov/study/NCT05397704",
+     "date": "2023-08-02",
+     "detail": "NCT05397704 · Completed"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 10,
+   "latest": "2023-08-02"
+  },
+  {
+   "key": "neurolytixs",
+   "name": "Neurolytixs",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "Clinical trial",
+     "title": "Blood Biomarker Study to Diagnose Adolescent Sport Concussion",
+     "url": "https://clinicaltrials.gov/study/NCT05287997",
+     "date": "2023-04-04",
+     "detail": "NCT05287997 · Unknown"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 10,
+   "latest": "2023-04-04"
   },
   {
    "key": "ihealth labs",
@@ -364,24 +197,6 @@
    "latest": "2026-06-01"
   },
   {
-   "key": "stryker endoscopy",
-   "name": "Stryker Endoscopy",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "FDA clearance",
-     "title": "K261037: 780 nm SPY Portable Handheld Imaging (SPY-PHI) System",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261037",
-     "date": "2026-05-28",
-     "detail": "Substantially Equivalent · product code IZI"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": false,
-   "score": 4,
-   "latest": "2026-05-28"
-  },
-  {
    "key": "hangzhou alltest biotech",
    "name": "Hangzhou AllTest Biotech",
    "first_seen": "2026-10-08",
@@ -418,24 +233,6 @@
    "latest": "2026-04-13"
   },
   {
-   "key": "becton, dickinson and",
-   "name": "Becton, Dickinson and",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "FDA clearance",
-     "title": "K252378: BD® MiniDraw Capillary Blood Collection System with BD® MiniDraw SST Capillary Blood Collection Tube",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252378",
-     "date": "2026-04-10",
-     "detail": "Substantially Equivalent · product code JKA"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": false,
-   "score": 4,
-   "latest": "2026-04-10"
-  },
-  {
    "key": "hangzhou clongene biotech",
    "name": "Hangzhou Clongene Biotech",
    "first_seen": "2026-10-08",
@@ -452,24 +249,6 @@
    "tbi": false,
    "score": 4,
    "latest": "2026-01-30"
-  },
-  {
-   "key": "medtronic, ireland",
-   "name": "Medtronic, Ireland",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "FDA clearance",
-     "title": "K251970: Sprinter Legend Rapid Exchange Balloon Dilatation Catheter",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251970",
-     "date": "2026-01-17",
-     "detail": "Substantially Equivalent · product code LOX"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": false,
-   "score": 4,
-   "latest": "2026-01-17"
   },
   {
    "key": "inbios international",
@@ -506,6 +285,24 @@
    "tbi": false,
    "score": 4,
    "latest": "2025-10-10"
+  },
+  {
+   "key": "sense diagnostics",
+   "name": "Sense Diagnostics",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "Clinical trial",
+     "title": "Evaluate the SENSE Device's Ability to Monitor and Detect Intracranial Hemorrhage",
+     "url": "https://clinicaltrials.gov/study/NCT04642443",
+     "date": "2023-09-28",
+     "detail": "NCT04642443 · Unknown"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 4,
+   "latest": "2023-09-28"
   }
  ],
  "news": [
