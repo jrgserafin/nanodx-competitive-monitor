@@ -38,7 +38,8 @@
   "first_seen": "2026-10-08T18:38:02+00:00",
   "signal": [
    "approval"
-  ]
+  ],
+  "alert": true
  },
  {
   "id": "7df76065447fa8f0",
