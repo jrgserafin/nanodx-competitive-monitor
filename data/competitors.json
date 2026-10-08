@@ -1,7 +1,7 @@
 [
  {
   "name": "Abbott",
-  "category": "TBI blood test",
+  "category": "Direct · TBI blood test (POC)",
   "website": "https://www.abbott.com",
   "kind": "competitor",
   "watch_pages": [
@@ -21,17 +21,33 @@
   "jobs": null,
   "federal_register_query": null,
   "profile": {
+   "hq": "Abbott Park, Illinois",
+   "founded": "1888",
+   "stage": "Mature",
+   "employees": "100,000+",
    "ticker": "ABT (NYSE)",
    "products": [
-    "i-STAT TBI",
-    "Alinity i TBI"
+    "i-STAT Alinity (i-STAT TBI cartridge)",
+    "GFAP + UCH-L1, 20-60 min, venous blood"
    ],
-   "notes": ""
+   "key_events": [
+    "Apr 2024: FDA 510(k) clearance",
+    "Dec 2021: CE Mark",
+    "Jun 2025: Health Canada"
+   ],
+   "partnerships": [
+    "DoW",
+    "Acquisition of Exact Sciences",
+    "TRACK-TBI",
+    "Orlando Health"
+   ],
+   "customers": "Hospitals/ER, urgent care, military, sports; adults 18+, within 24 h of injury; POC or lab",
+   "notes": "Focus: POC test measuring biomarker levels (screening). Go-to-market: commercialization."
   }
  },
  {
   "name": "bioMérieux",
-  "category": "TBI blood test",
+  "category": "Direct · TBI blood test (lab)",
   "website": "https://www.biomerieux.com",
   "kind": "competitor",
   "watch_pages": null,
@@ -48,43 +64,261 @@
   "jobs": null,
   "federal_register_query": null,
   "profile": {
+   "hq": "Marcy-l'Étoile, France",
+   "founded": "1963",
+   "stage": "Mature growth",
+   "employees": "14,600",
    "ticker": "BIM (Euronext Paris)",
    "products": [
-    "VIDAS TBI (GFAP",
-    "UCH-L1)"
+    "VIDAS TBI (GFAP, UCH-L1) - ELFA, serum, 90-120 min"
    ],
-   "notes": ""
+   "key_events": [
+    "May 2024: FDA 510(k) clearance",
+    "2023: CE Mark",
+    "2021: Acquired Banyan Biomarkers"
+   ],
+   "customers": "Hospitals/ER, urgent care, military; adults 18+, within 12 h of injury",
+   "notes": "Focus: blood biomarkers to reduce unnecessary CT scans in mild TBI. Go-to-market: commercialization."
   }
  },
  {
-  "name": "Roche",
-  "category": "TBI blood test",
-  "website": "https://diagnostics.roche.com",
+  "name": "BrainScope",
+  "category": "Direct · EEG brain function",
+  "website": "https://www.brainscope.com",
   "kind": "competitor",
   "watch_pages": null,
   "news_queries": [
-   "\"Roche\" \"Elecsys\" (GFAP OR \"UCH-L1\" OR \"brain injury\")",
-   "\"Roche Diagnostics\" concussion"
+   "\"BrainScope\""
   ],
-  "fda_applicant": "Roche",
-  "trials_sponsor": null,
-  "pubmed_query": "Elecsys AND (GFAP OR \"UCH-L1\")",
+  "fda_applicant": "BrainScope",
+  "trials_sponsor": "BrainScope",
+  "pubmed_query": "BrainScope AND (concussion OR \"traumatic brain injury\")",
   "rss": null,
   "sec_ticker": null,
-  "patent_assignee": "Roche",
+  "patent_assignee": "BrainScope",
   "jobs": null,
   "federal_register_query": null,
   "profile": {
-   "ticker": "ROG (SIX Swiss Exchange)",
+   "hq": "Rockville, MD",
+   "founded": "2006",
+   "stage": "Growth",
+   "employees": "11-50",
+   "ticker": "private",
    "products": [
-    "Elecsys immunoassays (GFAP / UCH-L1)"
+    "BrainScope One / Ahead - EEG + AI, <20 min, no blood"
    ],
-   "notes": ""
+   "key_events": [
+    "Jan 2019: FDA 510(k) clearance",
+    "2026: EEG biomarker predicts dementia risk up to 7 years early"
+   ],
+   "partnerships": [
+    "General Electric",
+    "NFL",
+    "BARDA",
+    "DoW"
+   ],
+   "customers": "ED, military; ages 18-85, within 72 h of injury",
+   "notes": "Focus: POC brain function + concussion assessment. Go-to-market: commercial growth."
+  }
+ },
+ {
+  "name": "InfraScan",
+  "category": "Direct · Near-infrared hematoma",
+  "website": "https://infrascanner.com",
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"Infrascanner\"",
+   "\"InfraScan\" brain"
+  ],
+  "fda_applicant": "InfraScan",
+  "trials_sponsor": null,
+  "pubmed_query": "Infrascanner",
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "InfraScan",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "Philadelphia, PA",
+   "founded": "2004",
+   "stage": "Growth",
+   "employees": "1-15",
+   "ticker": "private",
+   "products": [
+    "Infrascanner 2500 - handheld near-infrared, 2-3 min"
+   ],
+   "key_events": [
+    "Dec 2024: FDA 510(k) clearance"
+   ],
+   "partnerships": [
+    "DoW",
+    "USAMMDA",
+    "US Marine Corps",
+    "US Navy",
+    "DVBIC"
+   ],
+   "notes": "Focus: military and trauma-center adoption (intracranial hematoma screening)."
+  }
+ },
+ {
+  "name": "BrainBox Solutions",
+  "category": "Direct · Multi-modal biomarkers + AI",
+  "website": null,
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"BrainBox Solutions\"",
+   "\"HeadSMART\""
+  ],
+  "fda_applicant": "BrainBox",
+  "trials_sponsor": "BrainBox Solutions",
+  "pubmed_query": "\"BrainBox\" AND (concussion OR \"traumatic brain injury\")",
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "BrainBox",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "Richmond, VA",
+   "founded": "2018",
+   "stage": "Late-stage development",
+   "employees": "15-17",
+   "ticker": "private",
+   "products": [
+    "TBI Evaluation Station - 8 biomarkers (ELISA) + neurocognitive + AI"
+   ],
+   "key_events": [
+    "2026: Pivotal HeadSMART II trial",
+    "2026: Richard H. Noel appointed Chief Product & Commercial Officer",
+    "FDA Breakthrough Device program"
+   ],
+   "partnerships": [
+    "Oragenics",
+    "Prolight Diagnostics",
+    "Virginia Innovation Venture Partners"
+   ],
+   "customers": "Adults 18+, within 96 h of injury, venous draw; not portable",
+   "notes": "Focus: diagnosis and prognosis of concussion. Pre-commercial (near FDA clearance)."
+  }
+ },
+ {
+  "name": "EzDiatech",
+  "category": "Direct · TBI blood test (POC)",
+  "website": null,
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"EzDiatech\"",
+   "\"VEUPLEX\""
+  ],
+  "fda_applicant": "EzDiatech",
+  "trials_sponsor": null,
+  "pubmed_query": "VEUPLEX OR EzDiatech",
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "EzDiatech",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "South Korea",
+   "founded": "2016",
+   "stage": "Growth",
+   "employees": "11-50",
+   "ticker": "",
+   "products": [
+    "VEUPLEX TBI assay - GFAP + UCH-L1, magnetic-particle fluorescence, 50 min, 6 samples"
+   ],
+   "key_events": [
+    "2021: CE Mark",
+    "Jun 2024: Korea MFDS",
+    "2023: Initiated US FDA 510(k) pathway"
+   ],
+   "customers": "Hospitals, labs, trauma centers, military; skilled tech required",
+   "notes": "Early commercial; preparing global expansion."
+  }
+ },
+ {
+  "name": "STATA DX",
+  "category": "Direct · Fingerstick biosensor (early)",
+  "website": null,
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"STATA DX\"",
+   "\"Stata Dx\" biosensor"
+  ],
+  "fda_applicant": null,
+  "trials_sponsor": null,
+  "pubmed_query": "eRapid AND (GFAP OR NfL) AND electrochemical",
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "Stata",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "Boston, MA",
+   "founded": "2021",
+   "stage": "Seed / early",
+   "employees": "~8",
+   "ticker": "private",
+   "products": [
+    "eRapid electrochemical biosensor (Wyss license) - NfL/GFAP/S100B, fingerstick"
+   ],
+   "key_events": [
+    "Sep 2026: Product video",
+    "May 2026: BioTools Innovator",
+    "2026: Raised $1.89M ($6.38M total)"
+   ],
+   "partnerships": [
+    "Wyss Institute (exclusive license)",
+    "Boston University",
+    "MassVentures"
+   ],
+   "notes": "MS first; TBI is 4th of 4 programs. No FDA submission (likely De Novo)."
+  }
+ },
+ {
+  "name": "GLIA Diagnostics",
+  "category": "Direct · Fingerstick microRNA (early)",
+  "website": null,
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"GLIA Diagnostics\""
+  ],
+  "fda_applicant": null,
+  "trials_sponsor": null,
+  "pubmed_query": null,
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "Glia Diagnostics",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "Sydney, Australia",
+   "founded": "2015",
+   "stage": "Early development (pre-seed)",
+   "ticker": "private",
+   "products": [
+    "Handheld electrochemical reader + cartridge, up to 7 miRNA biomarkers, ~20 min"
+   ],
+   "key_events": [
+    "Sep 2026: Raising investor funding",
+    "No FDA clearance or CE mark"
+   ],
+   "partnerships": [
+    "Alfred Hospital / Monash",
+    "CSIRO",
+    "Australian Defence Force",
+    "US DoW (I-TAB)"
+   ],
+   "notes": "Pre-commercial; 18-24 month goal: MVP and first FDA feedback."
   }
  },
  {
   "name": "Quanterix",
-  "category": "Biomarker platform",
+  "category": "Indirect · Biomarker platform",
   "website": "https://www.quanterix.com",
   "kind": "competitor",
   "watch_pages": null,
@@ -100,38 +334,438 @@
   "jobs": null,
   "federal_register_query": null,
   "profile": {
+   "hq": "Billerica, MA",
+   "founded": "2007",
+   "stage": "Public growth",
+   "employees": "450+",
    "ticker": "QTRX (Nasdaq)",
    "products": [
-    "Simoa platform (HD-X",
-    "SR-X",
-    "SP-X)"
+    "Simoa SR-X / HD-X - NfL, GFAP, UCH-L1, BD-Tau"
    ],
-   "notes": ""
+   "key_events": [
+    "Feb 2026: FDA 510(k) submission, multi-analyte Alzheimer's blood test",
+    "May 2026: Tempus AI + Life Line Screening collaboration"
+   ],
+   "notes": "Focus: novel biomarkers for early diagnosis."
   }
  },
  {
-  "name": "BrainScope",
-  "category": "TBI device",
-  "website": "https://www.brainscope.com",
+  "name": "Genalyte",
+  "category": "Indirect · POC multiplex",
+  "website": "https://www.genalyte.com",
   "kind": "competitor",
   "watch_pages": null,
   "news_queries": [
-   "\"BrainScope\""
+   "\"Genalyte\""
   ],
-  "fda_applicant": "BrainScope",
-  "trials_sponsor": "BrainScope",
+  "fda_applicant": "Genalyte",
+  "trials_sponsor": null,
   "pubmed_query": null,
   "rss": null,
   "sec_ticker": null,
-  "patent_assignee": "BrainScope",
+  "patent_assignee": "Genalyte",
   "jobs": null,
   "federal_register_query": null,
   "profile": {
+   "hq": "San Diego, CA",
+   "founded": "2007",
+   "stage": "Growth",
+   "employees": "90+",
    "ticker": "private",
    "products": [
-    "Ahead (EEG-based brain function assessment)"
+    "Maverick (silicon photonic rings, 26 tests/sample)",
+    "Merlin"
    ],
-   "notes": ""
+   "key_events": [
+    "2021, 2024: FDA clearances",
+    "Apr 2025: Burjeel partnership"
+   ],
+   "notes": "Transitioning focus from Maverick to Merlin."
+  }
+ },
+ {
+  "name": "Oculogica",
+  "category": "Indirect · Eye-tracking (SNAP, EyeBOX)",
+  "website": "https://oculogica.com",
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"Oculogica\"",
+   "\"EyeBOX\" concussion"
+  ],
+  "fda_applicant": "Oculogica",
+  "trials_sponsor": "Oculogica",
+  "pubmed_query": "EyeBOX AND concussion",
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "Oculogica",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "New Richmond, WI",
+   "founded": "2013",
+   "stage": "Early commercial",
+   "employees": "25-50",
+   "ticker": "private",
+   "products": [
+    "SNAP - 90 s eye-tracking + symptoms, $19,500 + $2,500/yr, ages 15-25",
+    "EyeBOX - 4 min, De Novo 2018, ages 5-67"
+   ],
+   "key_events": [
+    "Jun 2026: SNAP FDA 510(k) clearance",
+    "Dec 2018: EyeBOX De Novo"
+   ],
+   "partnerships": [
+    "XcelAble",
+    "US Army MRDC",
+    "NIH",
+    "TitletownTech"
+   ]
+  }
+ },
+ {
+  "name": "Sense Neuro Diagnostics",
+  "category": "Indirect · Brain scanner",
+  "website": null,
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"Sense Neuro Diagnostics\"",
+   "\"NeuroHawk\""
+  ],
+  "fda_applicant": "Sense Neuro",
+  "trials_sponsor": null,
+  "pubmed_query": null,
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "Sense Neuro",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "West Chester, OH",
+   "founded": "2014",
+   "stage": "Late clinical / pre-commercial",
+   "employees": "10",
+   "ticker": "private",
+   "products": [
+    "NeuroHawk - 2.5 s whole-cranium scan"
+   ],
+   "key_events": [
+    "Sep 2025: FDA application for NeuroHawk",
+    "2021 & 2024: DoW funding"
+   ],
+   "notes": "Stroke, TBI, hemorrhage detection; clinical, ambulance, military."
+  }
+ },
+ {
+  "name": "Medicortex",
+  "category": "Indirect · Saliva/urine TBI test",
+  "website": "https://www.medicortex.fi",
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"Medicortex\"",
+   "\"Nosium\""
+  ],
+  "fda_applicant": null,
+  "trials_sponsor": null,
+  "pubmed_query": "Medicortex OR ProbTBI",
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "Medicortex",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "Turku, Finland",
+   "founded": "2014",
+   "stage": "Pre-commercial",
+   "employees": "2-10",
+   "ticker": "Nosium AB (reverse takeover Jul 2026)",
+   "products": [
+    "ProbTBI - glycan lateral-flow (urine/saliva)"
+   ],
+   "key_events": [
+    "Jul 2026: Reverse takeover with Nosium AB",
+    "Jun 2024: DoW $1.4M contract",
+    "Jan 2024: EU patent"
+   ],
+   "notes": "Market entry expected 2028 (company, May 2026)."
+  }
+ },
+ {
+  "name": "Roche",
+  "category": "Indirect · TBI blood test (clinical trials)",
+  "website": "https://diagnostics.roche.com",
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"Roche\" \"Elecsys\" (GFAP OR \"UCH-L1\" OR \"brain injury\")",
+   "\"Roche Diagnostics\" concussion"
+  ],
+  "fda_applicant": "Roche",
+  "trials_sponsor": "Roche",
+  "pubmed_query": "Elecsys AND (GFAP OR \"UCH-L1\")",
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "Roche",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "Basel, Switzerland",
+   "founded": "1896",
+   "stage": "Mature global enterprise",
+   "employees": "110,000+",
+   "ticker": "ROG (SIX)",
+   "products": [
+    "Blood biomarker TBI test in clinical trials (likely cobas)"
+   ],
+   "notes": "Trial focus: diagnose and monitor secondary events in suspected TBI (18+, CT done)."
+  }
+ },
+ {
+  "name": "AeHealth",
+  "category": "Indirect · POC immunoassay",
+  "website": null,
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"AeHealth\"",
+   "\"Lamuno\""
+  ],
+  "fda_applicant": null,
+  "trials_sponsor": null,
+  "pubmed_query": null,
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": null,
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "Manchester / London, UK",
+   "founded": "2015",
+   "stage": "Commercial",
+   "employees": "51-200",
+   "ticker": "private",
+   "products": [
+    "Lamuno Pro - 60+ tests/cartridge, 3-15 min"
+   ],
+   "key_events": [
+    "CE certification",
+    "2026: ADLM",
+    "Brazil approval"
+   ],
+   "partnerships": [
+    "BfArM",
+    "ANVISA",
+    "SFDA",
+    "CDSCO"
+   ]
+  }
+ },
+ {
+  "name": "Wondfo",
+  "category": "Indirect · POC diagnostics",
+  "website": null,
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"Wondfo\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)"
+  ],
+  "fda_applicant": "Wondfo",
+  "trials_sponsor": null,
+  "pubmed_query": null,
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "Wondfo",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "Guangzhou, China",
+   "founded": "1992",
+   "stage": "Public",
+   "employees": "2,443",
+   "ticker": "300482 (Shenzhen)",
+   "products": [
+    "Blood gas & coagulation platform (30 s)"
+   ],
+   "key_events": [
+    "2025: 510(k) Flu A&B",
+    "NIH RADx ITAP participant"
+   ]
+  }
+ },
+ {
+  "name": "ACON",
+  "category": "Indirect · POC diagnostics",
+  "website": "https://www.aconlabs.com",
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"ACON Laboratories\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)"
+  ],
+  "fda_applicant": "ACON",
+  "trials_sponsor": null,
+  "pubmed_query": null,
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "ACON",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "San Diego, CA",
+   "founded": "1996",
+   "stage": "Mature growth",
+   "employees": "1,500",
+   "ticker": "private",
+   "products": [
+    "Fluorescence lateral-flow immunoassays",
+    "Multi-analyte POC system (HbA1c, ACR, CRP)"
+   ],
+   "key_events": [
+    "2025: 510(k) Flowflex Plus RSV + Flu + COVID home test"
+   ]
+  }
+ },
+ {
+  "name": "Hotgen",
+  "category": "Indirect · POC diagnostics",
+  "website": null,
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"Hotgen\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)"
+  ],
+  "fda_applicant": "Hotgen",
+  "trials_sponsor": null,
+  "pubmed_query": null,
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "Hotgen",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "Beijing, China",
+   "founded": "2005",
+   "stage": "Mature growth",
+   "employees": "~1,000",
+   "ticker": "",
+   "products": [
+    "Up-converting phosphor quantitative POC platform"
+   ],
+   "key_events": [
+    "Jul 2025: Chikungunya rapid test",
+    "2022: COVID home test EUA"
+   ]
+  }
+ },
+ {
+  "name": "QuidelOrtho",
+  "category": "Indirect · IVD (POC + lab)",
+  "website": "https://www.quidelortho.com",
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"QuidelOrtho\""
+  ],
+  "fda_applicant": "Quidel",
+  "trials_sponsor": null,
+  "pubmed_query": null,
+  "rss": null,
+  "sec_ticker": "QDEL",
+  "patent_assignee": "Quidel",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "San Diego, CA",
+   "founded": "1979",
+   "stage": "Mature growth",
+   "employees": "~6,500",
+   "ticker": "QDEL (Nasdaq)",
+   "products": [
+    "Sofia fluorescence immunoassay platform",
+    "LEX molecular (acquired)"
+   ],
+   "key_events": [
+    "2026: Completed acquisition of LEX Diagnostics",
+    "May 2022: Quidel + Ortho merger"
+   ],
+   "partnerships": [
+    "Lifotronic",
+    "BYG4lab",
+    "BARDA"
+   ]
+  }
+ },
+ {
+  "name": "Boditech Med",
+  "category": "Indirect · POC immunoassay",
+  "website": "https://www.boditech.co.kr",
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"Boditech\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)"
+  ],
+  "fda_applicant": "Boditech",
+  "trials_sponsor": null,
+  "pubmed_query": null,
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "Boditech",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "Chuncheon, South Korea",
+   "founded": "1998",
+   "stage": "Mature / commercial",
+   "employees": "~600",
+   "ticker": "206640 (KOSDAQ)",
+   "products": [
+    "AFIAS automated fluorescence immunoassay"
+   ],
+   "key_events": [
+    "2025: AFIAS penKid launch (IVDR)",
+    "2017: 510(k) AFIAS TSH"
+   ],
+   "partnerships": [
+    "A. Menarini Diagnostics",
+    "SphingoTec",
+    "4TEEN4 Pharmaceuticals"
+   ]
+  }
+ },
+ {
+  "name": "Getein Biotech",
+  "category": "Indirect · POC immunoassay",
+  "website": null,
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"Getein\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)"
+  ],
+  "fda_applicant": "Getein",
+  "trials_sponsor": null,
+  "pubmed_query": null,
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "Getein",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "hq": "Nanjing, China",
+   "founded": "2002",
+   "stage": "Mature / commercial",
+   "employees": "~1,700",
+   "ticker": "603387 (Shanghai)",
+   "products": [
+    "Getein 1150 / 1160 / 1600 / 1180 immunofluorescence POC analyzers"
+   ],
+   "key_events": [
+    "2025: Getein 1160 FDA-listed (Class I, 510(k)-exempt)"
+   ],
+   "partnerships": [
+    "BSI",
+    "400+ distributors in 130+ countries"
+   ]
   }
  },
  {

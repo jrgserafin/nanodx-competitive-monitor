@@ -1,12 +1,12 @@
 {
- "checked": "2026-10-08T15:55:09+00:00",
+ "checked": "2026-10-08T16:08:31+00:00",
  "sources": [
   {
    "entity": "Abbott",
    "source": "News: \"Abbott\" \"TBI\" test",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Abbott",
@@ -27,28 +27,28 @@
    "source": "Page: https://abbott.mediaroom.com/press-releases",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.6
   },
   {
    "entity": "Abbott",
    "source": "FDA: Abbott",
    "ok": true,
    "count": 120,
-   "secs": 1.4
+   "secs": 0.6
   },
   {
    "entity": "Abbott",
    "source": "Trials: Abbott",
    "ok": true,
    "count": 10,
-   "secs": 0.1
+   "secs": 0.3
   },
   {
    "entity": "Abbott",
    "source": "PubMed: \"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 2,
-   "secs": 0.6
+   "secs": 0.8
   },
   {
    "entity": "Abbott",
@@ -80,7 +80,7 @@
    "source": "News: \"bioMerieux\" traumatic brain injury",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "bioMérieux",
@@ -94,7 +94,7 @@
    "source": "Trials: bioMérieux",
    "ok": true,
    "count": 3,
-   "secs": 0.0
+   "secs": 0.1
   },
   {
    "entity": "bioMérieux",
@@ -113,36 +113,200 @@
    "secs": 0
   },
   {
-   "entity": "Roche",
-   "source": "News: \"Roche\" \"Elecsys\" (GFAP OR \"UCH-L1\" OR \"brain injury\")",
+   "entity": "BrainScope",
+   "source": "News: \"BrainScope\"",
    "ok": true,
    "count": 0,
    "secs": 0.2
   },
   {
-   "entity": "Roche",
-   "source": "News: \"Roche Diagnostics\" concussion",
+   "entity": "BrainScope",
+   "source": "FDA: BrainScope",
    "ok": true,
    "count": 0,
    "secs": 0.3
   },
   {
-   "entity": "Roche",
-   "source": "FDA: Roche",
+   "entity": "BrainScope",
+   "source": "Trials: BrainScope",
    "ok": true,
-   "count": 44,
+   "count": 10,
+   "secs": 0.1
+  },
+  {
+   "entity": "BrainScope",
+   "source": "PubMed: BrainScope AND (concussion OR \"traumatic brain injury\")",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "BrainScope",
+   "source": "Patents: BrainScope",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "InfraScan",
+   "source": "News: \"Infrascanner\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "InfraScan",
+   "source": "News: \"InfraScan\" brain",
+   "ok": true,
+   "count": 0,
    "secs": 0.3
   },
   {
-   "entity": "Roche",
-   "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
+   "entity": "InfraScan",
+   "source": "FDA: InfraScan",
+   "ok": true,
+   "count": 0,
+   "secs": 0.3
+  },
+  {
+   "entity": "InfraScan",
+   "source": "PubMed: Infrascanner",
    "ok": true,
    "count": 0,
    "secs": 0.1
   },
   {
-   "entity": "Roche",
-   "source": "Patents: Roche",
+   "entity": "InfraScan",
+   "source": "Patents: InfraScan",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "BrainBox Solutions",
+   "source": "News: \"BrainBox Solutions\"",
+   "ok": true,
+   "count": 1,
+   "secs": 0.2
+  },
+  {
+   "entity": "BrainBox Solutions",
+   "source": "News: \"HeadSMART\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "BrainBox Solutions",
+   "source": "FDA: BrainBox",
+   "ok": true,
+   "count": 0,
+   "secs": 0.3
+  },
+  {
+   "entity": "BrainBox Solutions",
+   "source": "Trials: BrainBox Solutions",
+   "ok": true,
+   "count": 2,
+   "secs": 0.1
+  },
+  {
+   "entity": "BrainBox Solutions",
+   "source": "PubMed: \"BrainBox\" AND (concussion OR \"traumatic brain injury\")",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "entity": "BrainBox Solutions",
+   "source": "Patents: BrainBox",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "EzDiatech",
+   "source": "News: \"EzDiatech\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "entity": "EzDiatech",
+   "source": "News: \"VEUPLEX\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "EzDiatech",
+   "source": "FDA: EzDiatech",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "EzDiatech",
+   "source": "PubMed: VEUPLEX OR EzDiatech",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "entity": "EzDiatech",
+   "source": "Patents: EzDiatech",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "STATA DX",
+   "source": "News: \"STATA DX\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "STATA DX",
+   "source": "News: \"Stata Dx\" biosensor",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "STATA DX",
+   "source": "PubMed: eRapid AND (GFAP OR NfL) AND electrochemical",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "entity": "STATA DX",
+   "source": "Patents: Stata",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "GLIA Diagnostics",
+   "source": "News: \"GLIA Diagnostics\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "GLIA Diagnostics",
+   "source": "Patents: Glia Diagnostics",
    "ok": true,
    "skipped": true,
    "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
@@ -154,7 +318,7 @@
    "source": "News: \"Quanterix\"",
    "ok": true,
    "count": 15,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "Quanterix",
@@ -168,7 +332,7 @@
    "source": "Trials: Quanterix",
    "ok": true,
    "count": 1,
-   "secs": 0.0
+   "secs": 0.1
   },
   {
    "entity": "Quanterix",
@@ -196,29 +360,331 @@
    "secs": 0
   },
   {
-   "entity": "BrainScope",
-   "source": "News: \"BrainScope\"",
+   "entity": "Genalyte",
+   "source": "News: \"Genalyte\"",
    "ok": true,
    "count": 0,
    "secs": 0.2
   },
   {
-   "entity": "BrainScope",
-   "source": "FDA: BrainScope",
+   "entity": "Genalyte",
+   "source": "FDA: Genalyte",
    "ok": true,
    "count": 0,
    "secs": 0.3
   },
   {
-   "entity": "BrainScope",
-   "source": "Trials: BrainScope",
+   "entity": "Genalyte",
+   "source": "Patents: Genalyte",
    "ok": true,
-   "count": 10,
-   "secs": 0.0
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
   },
   {
-   "entity": "BrainScope",
-   "source": "Patents: BrainScope",
+   "entity": "Oculogica",
+   "source": "News: \"Oculogica\"",
+   "ok": true,
+   "count": 1,
+   "secs": 0.2
+  },
+  {
+   "entity": "Oculogica",
+   "source": "News: \"EyeBOX\" concussion",
+   "ok": true,
+   "count": 1,
+   "secs": 0.2
+  },
+  {
+   "entity": "Oculogica",
+   "source": "FDA: Oculogica",
+   "ok": true,
+   "count": 1,
+   "secs": 0.3
+  },
+  {
+   "entity": "Oculogica",
+   "source": "Trials: Oculogica",
+   "ok": true,
+   "count": 7,
+   "secs": 0.1
+  },
+  {
+   "entity": "Oculogica",
+   "source": "PubMed: EyeBOX AND concussion",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "entity": "Oculogica",
+   "source": "Patents: Oculogica",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "Sense Neuro Diagnostics",
+   "source": "News: \"Sense Neuro Diagnostics\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Sense Neuro Diagnostics",
+   "source": "News: \"NeuroHawk\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Sense Neuro Diagnostics",
+   "source": "FDA: Sense Neuro",
+   "ok": true,
+   "count": 0,
+   "secs": 0.3
+  },
+  {
+   "entity": "Sense Neuro Diagnostics",
+   "source": "Patents: Sense Neuro",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "Medicortex",
+   "source": "News: \"Medicortex\"",
+   "ok": true,
+   "count": 1,
+   "secs": 0.2
+  },
+  {
+   "entity": "Medicortex",
+   "source": "News: \"Nosium\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Medicortex",
+   "source": "PubMed: Medicortex OR ProbTBI",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "entity": "Medicortex",
+   "source": "Patents: Medicortex",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "Roche",
+   "source": "News: \"Roche\" \"Elecsys\" (GFAP OR \"UCH-L1\" OR \"brain injury\")",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Roche",
+   "source": "News: \"Roche Diagnostics\" concussion",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Roche",
+   "source": "FDA: Roche",
+   "ok": true,
+   "count": 44,
+   "secs": 0.3
+  },
+  {
+   "entity": "Roche",
+   "source": "Trials: Roche",
+   "ok": true,
+   "count": 10,
+   "secs": 0.1
+  },
+  {
+   "entity": "Roche",
+   "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "entity": "Roche",
+   "source": "Patents: Roche",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "AeHealth",
+   "source": "News: \"AeHealth\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
+  },
+  {
+   "entity": "AeHealth",
+   "source": "News: \"Lamuno\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Wondfo",
+   "source": "News: \"Wondfo\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Wondfo",
+   "source": "FDA: Wondfo",
+   "ok": true,
+   "count": 3,
+   "secs": 0.4
+  },
+  {
+   "entity": "Wondfo",
+   "source": "Patents: Wondfo",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "ACON",
+   "source": "News: \"ACON Laboratories\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+   "ok": true,
+   "count": 1,
+   "secs": 0.2
+  },
+  {
+   "entity": "ACON",
+   "source": "FDA: ACON",
+   "ok": true,
+   "count": 4,
+   "secs": 0.3
+  },
+  {
+   "entity": "ACON",
+   "source": "Patents: ACON",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "Hotgen",
+   "source": "News: \"Hotgen\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Hotgen",
+   "source": "FDA: Hotgen",
+   "ok": true,
+   "count": 0,
+   "secs": 0.3
+  },
+  {
+   "entity": "Hotgen",
+   "source": "Patents: Hotgen",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "QuidelOrtho",
+   "source": "News: \"QuidelOrtho\"",
+   "ok": true,
+   "count": 15,
+   "secs": 0.2
+  },
+  {
+   "entity": "QuidelOrtho",
+   "source": "FDA: Quidel",
+   "ok": true,
+   "count": 0,
+   "secs": 0.3
+  },
+  {
+   "entity": "QuidelOrtho",
+   "source": "SEC: QDEL",
+   "ok": true,
+   "skipped": true,
+   "note": "SEC requires a contact email — add a SEC_CONTACT secret (e.g. your work email)",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "QuidelOrtho",
+   "source": "Patents: Quidel",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "Boditech Med",
+   "source": "News: \"Boditech\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Boditech Med",
+   "source": "FDA: Boditech",
+   "ok": true,
+   "count": 0,
+   "secs": 0.3
+  },
+  {
+   "entity": "Boditech Med",
+   "source": "Patents: Boditech",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
+   "entity": "Getein Biotech",
+   "source": "News: \"Getein\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+   "ok": true,
+   "count": 1,
+   "secs": 0.2
+  },
+  {
+   "entity": "Getein Biotech",
+   "source": "FDA: Getein",
+   "ok": true,
+   "count": 0,
+   "secs": 0.3
+  },
+  {
+   "entity": "Getein Biotech",
+   "source": "Patents: Getein",
    "ok": true,
    "skipped": true,
    "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
@@ -229,8 +695,8 @@
    "entity": "TBI diagnostics market",
    "source": "News: \"traumatic brain injury\" blood test",
    "ok": true,
-   "count": 12,
-   "secs": 0.3
+   "count": 13,
+   "secs": 0.2
   },
   {
    "entity": "TBI diagnostics market",

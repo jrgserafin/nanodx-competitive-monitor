@@ -1,5 +1,18 @@
 [
  {
+  "id": "ce77a00b0f98c490",
+  "competitor": "ACON",
+  "source": "News",
+  "title": "High Density Lipoprotein Blood Test Strips Market To 2035: POC Adoption and Cardiac Screening Fuel Growth - News and Statistics",
+  "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPTjFGZW9JLW12eVZEN3NFRVkwOEVncHRvTEU0aGpJbEM3T2N5Vmwyc3p3ZDRReEVRRExFdnNDbWJFZ0k4b2VrZ3FQVUxabUdWVTdLbHN5SW91bHVrUWE1alJoQkV3NGpLb3NNVk1aaUJ1RENWNXYtZmJYb3ZSbk5wbW1GdHQ5ajU3bFhOSzJEV3luajl2OWlrbkY0REZPNHhhN3p3VUdZbGZRdVRfekxYRWFYclFZVUNKRk95TVpOZTlDMllNVXFFVmJSWll2eGhTVmJpUFVsamdNSzRGSGdwenBvaUFCYjZDVFFmOU84N3lFdmRMZ2hCcV9hLVVob1NH?oc=5",
+  "date": "2026-10-08",
+  "snippet": "",
+  "publisher": "IndexBox",
+  "query": "\"ACON Laboratories\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
   "id": "94ff7f253b5140c7",
   "competitor": "Lab reimbursement (CMS)",
   "source": "News",
@@ -23,6 +36,97 @@
   "publisher": "Australian Institute for Bioengineering and Nanotechnology",
   "query": "\"traumatic brain injury\" blood test",
   "first_seen": "2026-10-08T13:40:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "e1d544b3fc71ad0e",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Appoints Sanjeev Sharma as Vice President of Investor Relations",
+  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUF9sQWVHZElScWJOVUk1bC1fTWFrcWtzRnFucnI3cFF3LVFIM2lZeFowd0ttNzRxa28yMUVmTTlEUFhuYV85SjYwd3JoclB5YW9MVjN1alNmSTZFTjFZSVZRMjNRUkR4Zmg1RUpSRFk5RHJuYXdLbGJpdTRGbkM3LU5vb1VwWkQ4Mm9iM2VuRm94ODFqaDNhZllEanR3NDNlNlVZVzhTcE9ZRUtleHNXT3N4RTBRSzhqLTRDaUt5N2JQaUc0b1lYRUlEOA?oc=5",
+  "date": "2026-10-07",
+  "snippet": "",
+  "publisher": "PR Newswire",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "c445b88893927640",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "A new executive brings more than 20 years of experience to QuidelOrtho.",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjZ2bnRCM1Noa2ZVb2FNb1ptMjN1VHlRZzhRYVoxUkZUTWpHQkZFZS1kTFcwdnpaYUJrQ1lYT0hoaHZ1TUdHbUVSdzZIQkFXaVU0WUJwVGNsdjQ1dGFWUWdZS3o3YkxjN3hpOEQyemlXNF9xcUcwY0wycDNHUUxWSWFpWTlQeDNMWnJfOVBPUlVtblg4alpsT0Q3MmtFTGsyS2VmdDhkNnhLWW9UdVRBU2tuX1QwVVV2elNhYVN3?oc=5",
+  "date": "2026-10-07",
+  "snippet": "",
+  "publisher": "Stock Titan",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "9cfa462a74657782",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Names Sanjeev Sharma Vice President of Investor Relations",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa3hCaHN5cVBPU2hsT0dZXzJ6MlVKNUVvV2dQa1BfLS1JOS13Zmx1Q3ZrbHc4cDVnV29JREFyUlEyZDFLQUZ0SDkzZ0Q2MGE3b1RsQ2xDQjZvUld2VUNKSEIzSWRjUmQ0UDNfUEttNlMzdlQxS295TEVOU0VVY3Z2WGoxMmR3WktPc3BHYk10MUhUbmg1VTFjZElOTVdlQlV0X3Vsc1NfMW45UzJK?oc=5",
+  "date": "2026-10-07",
+  "snippet": "",
+  "publisher": "citybiz",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "eaeb3f15fbf31a2f",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho appoints Sanjeev Sharma as VP of investor relations By Investing.com",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWk1WdGJzZmN3MFhiZEpoektNbkZUTmwydTBHVjFnWlVuZkNTZVZtX0tVUTVFSkdMOXQ5RTZtdS1OSVZDRzZnbG1KUkIwVjdaTEhYWURLOWIyR1hBQXphTWlFZ09aXzF3el9RSG54VVprMlBUOUxRSXNnRDFEdHFpMldPeHUwSFI2ZzZ5OURlcnRCRThSbkJoVlJxckl0WnEtSmNXR18yQ1dnSVN1dURZMFJKTTU1TFc4UTltWQ?oc=5",
+  "date": "2026-10-07",
+  "snippet": "",
+  "publisher": "Investing.com",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "6021e69c46b16d73",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho names Sanjeev Sharma as new VP of I...",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTDVOZUVIbURqTnlDdFZLOTNyT3l4S0xtV1NJVFZfV29BUHQxTmJxSWZ5RDlFZGFiSU05S1NNTHVKTTd6em9oUEpMVTV5WTZNeFVmeUUtd0l0d0JsdjlYRTFTUEVfbFlnTTA1VzlmRFJsMTRKb2dPMFFMRDBteVRJZ0dzSE1Mc0NVb0ZaaVhwRjFPY28zNk1qYm9kOTZQVG8?oc=5",
+  "date": "2026-10-07",
+  "snippet": "",
+  "publisher": "Pluang",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "1f6de9f55ded896d",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho: Margins Recover, Cash Does Not (NASDAQ:QDEL)",
+  "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPckEyLTdMTnVtQjNzMEZfNk55Q2ZBVlFweWt1TFg3YTAzYXBwVXItTUNCc1prR1BnVWJyZDFhQ0dsNk1kWXpXWENfcWdLVDdjeVhmQTQ2VUg3akRsOWpTenFnQi0ybnVlMVo2b0tIdC10TnBrTVNXampXUXlUakg3V0J3SHdwbks1SWc?oc=5",
+  "date": "2026-10-07",
+  "snippet": "",
+  "publisher": "Seeking Alpha",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "c57c2a52f08cf7ba",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Blood protein prestin emerges as potential biomarker for chronic tinnitus detection",
+  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX2Q5S2o2a2dWc1MwR0I3VTkwVDFZM3NxVUJlYW51Q1FSTkdXR0VPZHhSZ3FXTlNuN1U0dGUwLV9wcFdfU21EdXg5djFjUFNLbnMyNVF5QUU1LU9BM1Rqc1FKV2RyaTVSbElzUk5ScmppaUp6N3J3dmZtRWlQMy1wZ2VvdEJzUkt0RkJFa1JIR3pVZDFTUTA5STJoS25aUXZJckxuS1M2blpRRzlJNzhwUzloU19RaWlO?oc=5",
+  "date": "2026-10-07",
+  "snippet": "",
+  "publisher": "https://streamlinefeed.co.ke/",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-08T16:08:31+00:00",
   "signal": []
  },
  {
@@ -151,6 +255,45 @@
   ]
  },
  {
+  "id": "8cdbaa31419658e2",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho to close longtime Raritan facility in 2027",
+  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd1ZqZlZQTWxvNGRfc1ZkcHo3d21hOV9nSkF3SnY3Rk9vWnU1MzFZaTRmU1RsOXRJYlEtNFVDeUF1ejYtTHQ1cDgyOGpBMUIzalhSb3p4RWJaVzlqZWdTcDk2VjIwelM4cHVPaUpfTGZweE9vUTlnWmhLOUFvRTh2UkVwbmR6d3hjaHZHVDh1bHFJLTgxbG5QM3g3N0t4bXd0cWpDelNwOVpadGxQMjJFWmFOeEttcnZ2ODQyenhCQkdZcXBsN3hxYjlR?oc=5",
+  "date": "2026-10-06",
+  "snippet": "",
+  "publisher": "Central New Jersey News",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "89454ce37f8e02eb",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho stock gained 12.72 percent as debt terms reset",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVWVEQlBwNDFpT3dZY2Z4eVg5a2Y2Y0taUnQ3NWs1dVNucG1lcEQzRktzQUY5VEN5XzQ3czBoejhXOVczOTNMQUpiSERVMDJrUmxpVndQUy1BbF9TckJ1NWNKOWc4R0xhV29qNUJKOXZRYVBOS2VBWVoyajJIZzRqb3FyQmxWWjZoVHRFcFdUZkJaUHVZdWdLYmt4MktiTVA1RmNiMVhvSmR3RDFfWGpHaWxaU1ZSamJvSFRzXzNB?oc=5",
+  "date": "2026-10-06",
+  "snippet": "",
+  "publisher": "AD HOC NEWS",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "760354651d27f065",
+  "competitor": "Getein Biotech",
+  "source": "News",
+  "title": "Getein Biotech (XSSC:603387) - Stock Analysis",
+  "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOelc0aThtdkI1TVZfNG1WMDluYjdiSG5pN3FocEFNS19WQjg1OW9TcXEzY01FU2tkQmF2N0ZvTGd2Mjd5Qi0yUFBSendDQ3J5dDhXYmJfbjBubF85TG83Q28yY2ZkSnlhUHNvYlpoU1ZaZnRHeGNIWDJsZnZIeXhLMklB?oc=5",
+  "date": "2026-10-06",
+  "snippet": "",
+  "publisher": "Simply Wall Street",
+  "query": "\"Getein\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
   "id": "9dc674c4e2517b7e",
   "competitor": "TBI diagnostics market",
   "source": "Federal Register",
@@ -216,6 +359,32 @@
   "signal": []
  },
  {
+  "id": "372311563e281e13",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho rallies 13% to multi-week high (QDEL:NASDAQ)",
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLVNkTmhsMzA1SnJ0NW9vRlFCeDNsWlJrOG1TQmFuc0tMMjVxblJOLVp2MXBqcFJvRk9raGVQLVU4SWNFanNRWlBfWjJ4cUtMaTRKOUlHRzI3dm5waGhrdGp4a0Rnem5GTnNLeFAzRHZFbkI5TnpqcG52ZlMwR0RDZG92Y3NyZw?oc=5",
+  "date": "2026-10-05",
+  "snippet": "",
+  "publisher": "Seeking Alpha",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "c7b813ed1fd8ecfc",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho (QDEL) Shares Surge 12.7% on October 5, 2026, Amid E",
+  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMklmTmlWVmRKRjFzcFBVV1RmZ1VlR0tYa2RmMXpPUXV2b3FpMzE4N2JHS2RKTVRBNkplVHpORUpMUEFpZndqWWV4MGo4SW1qQWp2bEtmSHdKTDZqMlFOSDYtaGxqcUd6RkNRMXBVN3I1OXVlTE04UWFhaVRvbi1KWUt0dzFVZmdZa3VfVnh5Wmg2UDJZcmhxcDkxNGVxakFPeUFRNW8yU1BYdHNaQ0tzMXVpQkN6UUROZnk4?oc=5",
+  "date": "2026-10-05",
+  "snippet": "",
+  "publisher": "GuruFocus",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
   "id": "d7d33e224f9f902a",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -267,6 +436,19 @@
   "publisher": "Mirage News",
   "query": "\"traumatic brain injury\" blood test",
   "first_seen": "2026-10-08T13:40:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "e18b0ae22d66bc50",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "A Look at QuidelOrtho Corp (QDEL) After 3.8% Gain -- GF Value $3",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdHdLcnZRanhIWDdiZEEyXzdrbnM4eDNIMEZMZmRjNTRPdGZnR2VNeXUwMmhGbUVabTI5UlY5YlpzUmd2MENXc0E0enRsYm9vTFE3ZUtBdE5lRjdPcHZNVE1QV01wOWdSQ25IbnBUN2xiLURQOXpwWmZKc1UzRjFNNnJJZ09XdUZtQUd1Q05uM1NFMVYybXVUNUprcmVhVWVrVUxsbmZWTGU0MDJFb1pBMGF3?oc=5",
+  "date": "2026-10-03",
+  "snippet": "",
+  "publisher": "GuruFocus",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
   "signal": []
  },
  {
@@ -403,6 +585,45 @@
   "signal": []
  },
  {
+  "id": "c5f63fb28c8cf42e",
+  "competitor": "BrainBox Solutions",
+  "source": "News",
+  "title": "Certain Shares of Prolight Diagnostics AB are subject to a Lock-Up Agreement Ending on 30-SEP-2026.",
+  "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdm5TZ0NjUHBtcVYwb25LUmk3d3FCaVMtRC05azg0LTdUc3dYTVVHVmQ4aXUzNjZfQ2tucFRWV0lEMUJDaGY4SzNMNEUwSUIyRlNqWlo1MzZ3SXctcFFUMHBncXFjRUFtcjRQRjNEcHd4VFB3SGtRVHFnd1VqX0JmZnRBRXFlUFFVQ0x0Z0xmeFloUDJOTGZ5ei1fRzhmcFR5eFpVM3Bid1lObGVMeXo5TjFjbVk3WVNsZGl1cGdfWmp6TzUxMnlqTE15YkRVWERYRVZSejh1UWdtZGprdE9EeEVKYnNPZw?oc=5",
+  "date": "2026-09-30",
+  "snippet": "",
+  "publisher": "www.marketscreener.com",
+  "query": "\"BrainBox Solutions\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "05d4585bd8817003",
+  "competitor": "Medicortex",
+  "source": "News",
+  "title": "Nine out of ten brain injuries are mild – and often missed",
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeW9iRFZPTFFnZTNFb3NkNmgyY3M3dzlsTExVaXhWbHZUZ2owcGtBYXpOM1ZOandBN2RmaURvZUp6aFRCdW9mY3lBdVhhLUp3UHAxd2h6ZWdXeUgzZWhKekpSekRXc2Z3UUxHbWo2bzlzTGVtUlNuMTdvZEJjVkFLWXREczhvUQ?oc=5",
+  "date": "2026-09-30",
+  "snippet": "",
+  "publisher": "Biostock",
+  "query": "\"Medicortex\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "2722eaced4c30a95",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Corporation (QDEL) Stock Forecasts",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdEtRQjFiUGJyWEtkWnZlOUtZdnhyNWtnV0J6SXVsMG16X21JUmhRQlhtM0hkbkZmVnZHa3dBSW9rNTViQy1tWnBmZWZiWXMtalU5cVpzRkN6VXY3NmRrZGZBM3pDYmw2bGNCRk5KVkV1UmlIeVRTZzZBbl9NQTRzS1pEX3RrR0hjNjFaamRSMA?oc=5",
+  "date": "2026-09-30",
+  "snippet": "",
+  "publisher": "Yahoo Finance",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
   "id": "ebeffd8c3d16fb56",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -432,6 +653,19 @@
   ]
  },
  {
+  "id": "aecf4ae05491e19f",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "Precision Trading with Quidelortho Corp Com (QDEL) Risk Zones",
+  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVXpRRUlPRWNUaG9XeFgyREhnLU9TMjZITTRVWEJRblNsdzFSVW5IZkR6NVFXdE8wM3hVZ1E5SThINTNHWU9YMVp5Y20zTGpLVElpWHJTNzZPLTVpLWlwQjFJWHRPcnNMYUtXR0FDYTFEanU2NW1xQUpJWW96UnNLYTdRZ0hVS3RTMGFyZl9BbFBFTVFxX1BJM3pjT0V2d3pNUEhGSklUbWhMa1pLY0xrY09MYXNTREllclJ4UTFNaVFfbVhFQkVZXy1wTzQ4aFVNVW9qcEt3?oc=5",
+  "date": "2026-09-29",
+  "snippet": "",
+  "publisher": "Stock Traders Daily",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
   "id": "951fe497328b05bc",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -456,6 +690,21 @@
   "snippet": "Notice · Health and Human Services Department, Children and Families Administration. In accordance with the requirements of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS) is modifying an existing system of records maintained by the Office…",
   "first_seen": "2026-10-08T15:46:29+00:00",
   "signal": []
+ },
+ {
+  "id": "211dcab1d9024b72",
+  "competitor": "Oculogica",
+  "source": "News",
+  "title": "Identifying Concussions",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzI3NmhETklrWmRQUGJscTNRYUhkdnhEQ1FyTlFOS1RkaDNCSWF0aUhmeXhxZWVITktCRXJCZW9KbGszRzUyRU5ybUxQRTZ4ZWlDWTh3VDRtWjdxVnpBd1c5b2JKaUxLVUVYSG1BaUZDMEJzemdGQk9aR252Q0hnUmMtT0FHcW1LVTJsMHpIdEF3cFNuT0s3c2FfZmtEbmtlSGtZYQ?oc=5",
+  "date": "2026-09-26",
+  "snippet": "",
+  "publisher": "Northwestern Magazine",
+  "query": "\"Oculogica\"",
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": [
+   "concussion"
+  ]
  },
  {
   "id": "cb5cc6b36bf36064",
@@ -534,6 +783,18 @@
   "snippet": "Epileptic disorders : international epilepsy journal with videotape. Calió ML, Foresti ML, Santos LE et al.",
   "stale": true,
   "first_seen": "2026-10-08T13:40:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "d9b70b967e08a3a6",
+  "competitor": "Roche",
+  "source": "Clinical trial",
+  "title": "A Study to Develop a Blood-based Test for Aiding the Diagnosis/Prognosis of Traumatic Brain Injury in Adults and for Monitoring the Development of Secondary Events in Patients Diagnosed With Traumatic Brain Injury (Recruiting)",
+  "url": "https://clinicaltrials.gov/study/NCT07455136",
+  "date": "2026-09-21",
+  "snippet": "NCT07455136 · lead sponsor Hoffmann-La Roche · updated 2026-09-21",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
   "signal": []
  },
  {
@@ -628,6 +889,23 @@
   "signal": []
  },
  {
+  "id": "287fe850e5d72f22",
+  "competitor": "ACON",
+  "source": "FDA",
+  "title": "FDA 510(k) K261212: Flowflex Plus RSV + Flu A/B + COVID Rapid Test",
+  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261212",
+  "date": "2026-07-10",
+  "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+  "fda_kind": "510(k)",
+  "fda_number": "K261212",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": [
+   "FDA",
+   "510(k)"
+  ]
+ },
+ {
   "id": "98982da24f1a9da9",
   "competitor": "Lab reimbursement (CMS)",
   "source": "Federal Register",
@@ -688,6 +966,35 @@
   "signal": []
  },
  {
+  "id": "4d1462b11fdc903b",
+  "competitor": "Oculogica",
+  "source": "FDA",
+  "title": "FDA 510(k) K254086: EyeBOX SNAP",
+  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254086",
+  "date": "2026-06-05",
+  "snippet": "Applicant: Oculogica, Inc.. Decision: Substantially Equivalent.",
+  "fda_kind": "510(k)",
+  "fda_number": "K254086",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": [
+   "FDA",
+   "510(k)"
+  ]
+ },
+ {
+  "id": "a12818f2d3f195e1",
+  "competitor": "BrainBox Solutions",
+  "source": "Clinical trial",
+  "title": "Safety, Parameterization, and Mechanism of Transcranial Focused Ultrasound (Not Yet Recruiting)",
+  "url": "https://clinicaltrials.gov/study/NCT05792020",
+  "date": "2026-05-22",
+  "snippet": "NCT05792020 · lead sponsor Medical University of South Carolina · updated 2026-05-22",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
   "id": "50b2aeff7ed9956a",
   "competitor": "TBI diagnostics market",
   "source": "Federal Register",
@@ -699,6 +1006,23 @@
   "first_seen": "2026-10-08T15:46:29+00:00",
   "signal": [
    "FDA"
+  ]
+ },
+ {
+  "id": "ed5037a0e84cfe92",
+  "competitor": "Wondfo",
+  "source": "FDA",
+  "title": "FDA 510(k) K260065: SAFElife T-Dip Multi-Drug Urine Test Panel; SAFElife T-Dip Multi-Drug Urine Test Panel Dx",
+  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260065",
+  "date": "2026-04-28",
+  "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+  "fda_kind": "510(k)",
+  "fda_number": "K260065",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": [
+   "FDA",
+   "510(k)"
   ]
  },
  {
@@ -774,6 +1098,23 @@
   "signal": []
  },
  {
+  "id": "b59851b1266ce1b8",
+  "competitor": "ACON",
+  "source": "FDA",
+  "title": "FDA 510(k) K251697: Flowflex® Plus Strep A Rapid Test Cassette; Flowflex® Plus Strep A Rapid Test Strip",
+  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251697",
+  "date": "2025-11-26",
+  "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+  "fda_kind": "510(k)",
+  "fda_number": "K251697",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": [
+   "FDA",
+   "510(k)"
+  ]
+ },
+ {
   "id": "acb7bf6383c4c527",
   "competitor": "Lab reimbursement (CMS)",
   "source": "Federal Register",
@@ -783,6 +1124,86 @@
   "snippet": "Rule · Health and Human Services Department, Centers for Medicare & Medicaid Services, . This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar…",
   "stale": true,
   "first_seen": "2026-10-08T15:41:11+00:00",
+  "signal": []
+ },
+ {
+  "id": "42e89c8db91c3247",
+  "competitor": "Wondfo",
+  "source": "FDA",
+  "title": "FDA 510(k) K252550: SAFElife T-Cup Multi-Drug Urine Test Cup; SAFElife T-Cup Multi-Drug Urine Test Cup Dx",
+  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252550",
+  "date": "2025-11-18",
+  "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+  "fda_kind": "510(k)",
+  "fda_number": "K252550",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": [
+   "FDA",
+   "510(k)"
+  ]
+ },
+ {
+  "id": "6db823ce3d8c5ec0",
+  "competitor": "Wondfo",
+  "source": "FDA",
+  "title": "FDA 510(k) K251289: WELLlife COVID-19 Antigen Test Rx",
+  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251289",
+  "date": "2025-10-22",
+  "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+  "fda_kind": "510(k)",
+  "fda_number": "K251289",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": [
+   "FDA",
+   "510(k)"
+  ]
+ },
+ {
+  "id": "c3c4d784cee8e56b",
+  "competitor": "ACON",
+  "source": "FDA",
+  "title": "FDA 510(k) K251749: Flowflex Plus RSV + Flu A/B + COVID Home Test",
+  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251749",
+  "date": "2025-10-22",
+  "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+  "fda_kind": "510(k)",
+  "fda_number": "K251749",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": [
+   "FDA",
+   "510(k)"
+  ]
+ },
+ {
+  "id": "7df3efdf56844c07",
+  "competitor": "ACON",
+  "source": "FDA",
+  "title": "FDA 510(k) K250085: On Call® Sure GK Blood Glucose & Ketone Monitoring System; On Call® Sure Sync GK Blood Glucose & Ketone Monitoring System",
+  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250085",
+  "date": "2025-10-10",
+  "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+  "fda_kind": "510(k)",
+  "fda_number": "K250085",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": [
+   "FDA",
+   "510(k)"
+  ]
+ },
+ {
+  "id": "b2b39d5a5d954e76",
+  "competitor": "Oculogica",
+  "source": "Clinical trial",
+  "title": "A Highly Portable Device for Assessment of Mild Traumatic Brain Injury in Deployed and Far-Forward Settings (Enrolling By Invitation)",
+  "url": "https://clinicaltrials.gov/study/NCT05527041",
+  "date": "2025-07-31",
+  "snippet": "NCT05527041 · lead sponsor Oculogica, Inc. · updated 2025-07-31",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
   "signal": []
  },
  {
@@ -885,6 +1306,18 @@
   "signal": []
  },
  {
+  "id": "8dcec7073f8dcca5",
+  "competitor": "Roche",
+  "source": "Clinical trial",
+  "title": "Study To Evaluate The Efficacy And Safety Of Balovaptan In Adults With Post-Traumatic Stress Disorder (PTSD) (Completed)",
+  "url": "https://clinicaltrials.gov/study/NCT05401565",
+  "date": "2024-04-18",
+  "snippet": "NCT05401565 · lead sponsor Hoffmann-La Roche · updated 2024-04-18",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
   "id": "9197e0c9bc68bcd3",
   "competitor": "Lab reimbursement (CMS)",
   "source": "Federal Register",
@@ -894,6 +1327,56 @@
   "snippet": "Rule · Health and Human Services Department, Centers for Medicare & Medicaid Services, . This final rule with comment period revises the Medicare hospital outpatient prospective payment system (OPPS) and the Medicare ambulatory surgical center (ASC) payment system for calendar…",
   "stale": true,
   "first_seen": "2026-10-08T15:41:11+00:00",
+  "signal": []
+ },
+ {
+  "id": "1b3c3a17d0ffa34c",
+  "competitor": "Oculogica",
+  "source": "Clinical trial",
+  "title": "EyeBOX Concussion Study and Registry (Completed)",
+  "url": "https://clinicaltrials.gov/study/NCT03966404",
+  "date": "2023-09-07",
+  "snippet": "NCT03966404 · lead sponsor Oculogica, Inc. · updated 2023-09-07",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": [
+   "concussion"
+  ]
+ },
+ {
+  "id": "dfc9d24582e61291",
+  "competitor": "Oculogica",
+  "source": "Clinical trial",
+  "title": "Oculogica Portable EyeBOX Study (Completed)",
+  "url": "https://clinicaltrials.gov/study/NCT05047003",
+  "date": "2023-09-07",
+  "snippet": "NCT05047003 · lead sponsor Oculogica, Inc. · updated 2023-09-07",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "3948b438da569331",
+  "competitor": "Oculogica",
+  "source": "Clinical trial",
+  "title": "Non-invasive Diagnostic for Assessing Elevated Intracranial Pressure (Completed)",
+  "url": "https://clinicaltrials.gov/study/NCT03418753",
+  "date": "2023-09-07",
+  "snippet": "NCT03418753 · lead sponsor Oculogica, Inc. · updated 2023-09-07",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "146974eb52eee2be",
+  "competitor": "Oculogica",
+  "source": "Clinical trial",
+  "title": "Oculomotor Assessment of Traumatic Brain Injury (TBI) (Completed)",
+  "url": "https://clinicaltrials.gov/study/NCT03156010",
+  "date": "2023-08-23",
+  "snippet": "NCT03156010 · lead sponsor Walter Reed National Military Medical Center · updated 2023-08-23",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
   "signal": []
  },
  {
@@ -946,6 +1429,30 @@
   "snippet": "NCT04074486 · lead sponsor BrainScope Company, Inc. · updated 2022-06-10",
   "stale": true,
   "first_seen": "2026-10-08T13:40:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "d09cded97697d96d",
+  "competitor": "Oculogica",
+  "source": "Clinical trial",
+  "title": "Eye Movement Tracking to Detect Impairment Due to Acute Cannabis Intoxication (Completed)",
+  "url": "https://clinicaltrials.gov/study/NCT04799093",
+  "date": "2021-09-13",
+  "snippet": "NCT04799093 · lead sponsor Oculogica, Inc. · updated 2021-09-13",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "807a5959aecdab8d",
+  "competitor": "BrainBox Solutions",
+  "source": "Clinical trial",
+  "title": "HEAD Injury Serum Markers and Multi-modalities for Assessing Response to Trauma (Unknown)",
+  "url": "https://clinicaltrials.gov/study/NCT04423198",
+  "date": "2021-08-04",
+  "snippet": "NCT04423198 · lead sponsor BRAINBox Solutions Inc · updated 2021-08-04",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
   "signal": []
  },
  {
@@ -1040,6 +1547,18 @@
   "snippet": "Rule · Health and Human Services Department, Centers for Medicare & Medicaid Services. This final rule with comment period revises the Medicare hospital outpatient prospective payment system (OPPS) and the Medicare ambulatory surgical center (ASC) payment system for CY 2019 to…",
   "stale": true,
   "first_seen": "2026-10-08T15:41:11+00:00",
+  "signal": []
+ },
+ {
+  "id": "d9fa678b1b339202",
+  "competitor": "Oculogica",
+  "source": "Clinical trial",
+  "title": "Use of Eye Movement Tracking to Detect Oculomotor Abnormality in Traumatic Brain Injury Patients (Completed)",
+  "url": "https://clinicaltrials.gov/study/NCT02776462",
+  "date": "2018-09-07",
+  "snippet": "NCT02776462 · lead sponsor Oculogica, Inc. · updated 2018-09-07",
+  "stale": true,
+  "first_seen": "2026-10-08T16:08:31+00:00",
   "signal": []
  },
  {
