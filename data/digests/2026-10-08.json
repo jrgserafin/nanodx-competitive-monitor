@@ -1,0 +1,685 @@
+{
+ "date": "2026-10-08",
+ "generated": "2026-10-08T13:40:13+00:00",
+ "title": "NanoDx Competitive Digest",
+ "first_run": true,
+ "only": null,
+ "items": [
+  {
+   "id": "60a9e331c368d014",
+   "competitor": "Abbott",
+   "source": "FDA",
+   "title": "FDA PMA P230036 S020: Esprit BTK Everolimus Eluting Resorbable Scaffold System",
+   "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230036S020",
+   "date": "2026-09-24",
+   "snippet": "Applicant: ABBOTT MEDICAL. Decision: APPR.",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "FDA"
+   ]
+  },
+  {
+   "id": "e99279cb9ef35b0a",
+   "competitor": "Abbott",
+   "source": "FDA",
+   "title": "FDA PMA P960043 S137: Perclose ProGlide Suture-Mediated Closure System; Perclose ProStyle Suture-Mediated Closure and Repair System",
+   "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P960043S137",
+   "date": "2026-09-24",
+   "snippet": "Applicant: Abbott Vascular, Inc.. Decision: OK30.",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "FDA"
+   ]
+  },
+  {
+   "id": "e0e451771a14c9ee",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix launches PhenoCode 2.0 kit. Wall Street Zen upgrades Quanterix stock to Hold",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMjlTQVU2Y1RHTXh0Rm03VURzNk1xa1ZPc3lucFBXRFhtdHNEUXFoR1h6cTZ5N3QxNjl0RjYzZk16aHVXdjlsdHdyV1J6djdka1ZXeVpiLU0tX3ktSVNQX1M4bExZUlJ4cVAtX01tNHlCdldCVGFFYURSV1JWd2dyeTd1MjdtV1dKbVF3VzNybjlYMS1hbjY0NXdUaWVNaWJzMGdEU3hXZ1NpYjY2T3d2MUZITjR6bWhYVGh4azlKbmJfUWExNUI4UU5uQUVSU2hMcHFQYkhHWWhYTVFD?oc=5",
+   "date": "2026-10-04",
+   "snippet": "",
+   "publisher": "AD HOC NEWS",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "launch"
+   ]
+  },
+  {
+   "id": "25f94a31aaae4fc7",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Receives Chinese Regulatory Approvals, Inks Expanded Licensing Deal With Alzpath",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQkwtV3cxa1lrcGdUX0lqU0lPOERKVGJqTjEtQ1FMQkNDZV9QRTd0QkFkaWI3eHo4VW5KN1Q1MmNKdEg4cDJYb1lNOXpfTHgxbm8wX1lQbEVCdzBmcGkyWk03ZlkwRF9IWVZORDVjdWltdFltaHQzSTU3bF9ObkJxQmFzNDFIdkM4Yno2dGd2TWhhOFpuOFVVSUhWZGpCX2tOODhzbVM1SGY?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Genome Web",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "approval"
+   ]
+  },
+  {
+   "id": "16f4952b7db363c9",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix and Innovita win China approval for Alzheimer's blood tests",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWDBNZklPOWVKaExYdzN4MHB2Uk54ZW1WQ1RiLWtIOTFsOFdZSVA4T0d4RHVOdWxXb2NMcXhYSWtaVVdrSHJqVmRrRzIyMzUwSkZsMENkYWhWQkp6dnhVMmd5UTVub0pIXzRjcDlOYnlVZElWb2JaOWFQX1ZwNlNobHFlRnltX0JCZVhjZEtlNERMRzV4V3JyQjZMQlBmQ1NMVTFyMnNzVXdKWjM0UkpmZmJZNmItM0V3ekg0ZllPWGVKLWlFelE?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "StreetInsider",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "approval"
+   ]
+  },
+  {
+   "id": "2ff7bccc383b35ac",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix partner receives China approval for neurology tests By Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSXhpY3Jrdmg0MlhGOUVpSThvN2JnSkFKLWRTTFFmLWFsRlFOZVpJUWtobGZSZUdxOTR2WDdHemdfdmV2dU1pVldscHU5eXZVSDI4RzdZc25CbUY1Y3FRYXlIbXJ1TDU5U0FFSlJWMDRwWE1CWnlneHBnZDBhS21sd0xpd0VINDdZa2Fpa09WZ0VSSmVNbjItS3hkc0tUTHFJT25tV1BFYy0tTWNRSDN0Zkx1X0tFLUtIanZDd3dWNA?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Investing.com UK",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "approval"
+   ]
+  },
+  {
+   "id": "f7d31309c50493b1",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix, Innovita announce NMPA approvals for SIMOA tech, testing",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVERzMW9icmMyWlgzU3BsdDRibmpVT0taTVV6bnJhbWVPM0psdmNva1Nad1dBb0FxdTJtSUFheVA4Tk1ZcUp5T3FrSzYtLTdieGcxWjU5NDdxSHJJbXB3MXhoMFZJb3NNUnd4WHRFTk5oeWVZMFNsQzhLQkRJenRUWEROXzBuUGg3a1MtalY2QTNLZnJCRy1iZE5KZHFkYVVZbVVNUXZsbEc0Q2k4eW1abExlRGlPQQ?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "TipRanks",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "approval"
+   ]
+  },
+  {
+   "id": "9af59049a93142a3",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Cancer blood test wins FDA advisors' backing, plus a new mRNA flu shot, vascular warning signs and an AI enzyme search",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcE1iRVk4WnZkMksySEEtbVRjZlo5WnhvNHkyODJaMFpLcFp0WjhBNWRydmJ2UmpUa0VPVVR1Sk05UjVhZHpzVXY4cXFWV2FYRkZibnVuejdmcHVoazNmUHVNQmNkQ2hWa3NEaWJJUWgtRV8xbjh2UGVuX0ZXeEVlNVBCOGJtR1NIcWRoWjF2WU5sbHlPd0c5bllTNXAxWHFtRU1XazkxemtBckEzb2lCTThRRDd5WXB1Z0N1V2RsSWNlb0pYYk1sWUtTNnRMMDB2N0pwTTF2ck9DNnp0UXNDS1h6M2J1YWtRZ0c4UklOdHJCZDFxNGlzNmRNT2hTdU0?oc=5",
+   "date": "2026-09-25",
+   "snippet": "",
+   "publisher": "WCNC",
+   "query": "concussion blood test FDA",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "FDA"
+   ]
+  },
+  {
+   "id": "5cb49a48c27e8509",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Astrocyte raises $9.5M to test first concussion drug in athletes",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ3QwOGxNcmFfaWN4V0RJVHVQc205ejl5WFJhTHh1OEZzeE9DNnZ6dEFqSXV2TXhhMGpwQy1oNDRFOWNSczY4bjdkWnVJRHYtTF9wZWk5RGY4SkpxU2ZUVGRaYjBwLUNFaG83N2l4VjY3enJ4ZTlUV0d4T3lXTE0zTGUwM3R5bE1QcWtYMUFZblJ2b2tjUFJXanJkREhOdw?oc=5",
+   "date": "2026-09-30",
+   "snippet": "",
+   "publisher": "Dealroom",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "concussion",
+    "raises"
+   ]
+  },
+  {
+   "id": "54706438eff5dac0",
+   "competitor": "bioMérieux",
+   "source": "Publication",
+   "title": "Accuracy of the novel automated VIDAS TBI (GFAP, UCH-L1) assay for ruling out acute intracranial traumatic lesions in patients under 65 years of age with mild traumatic brain injury in an Emergency Department: an exploratory study.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42820670/",
+   "date": "2026-10-01",
+   "snippet": "Annals of clinical biochemistry. Pérez Fernández E, Montoro Jorquera E, Noblia L et al.",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "GFAP",
+    "UCH-L1"
+   ]
+  },
+  {
+   "id": "3fde6ad782bb267b",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Left Bundle Branch Area Pacing (LBBAP) PMCF Study (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT07217392",
+   "date": "2026-09-25",
+   "snippet": "NCT07217392 · lead sponsor Abbott Medical Devices · updated 2026-09-25",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "f48824306840eea0",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Nutrition in Patient With Critical Limb Ischemia (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT03529019",
+   "date": "2026-09-29",
+   "snippet": "NCT03529019 · lead sponsor Boston Medical Center · updated 2026-09-29",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "32bd40bfb5b37cc1",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Patient-Centered Surgical Prehabilitation (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT05715684",
+   "date": "2026-09-30",
+   "snippet": "NCT05715684 · lead sponsor Brigham and Women's Hospital · updated 2026-09-30",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "745df1e925cd81e5",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Assessment of Coronary Microvascular Dysfunction After STEMI Using Continuous Saline Thermodilution (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT06795035",
+   "date": "2026-10-01",
+   "snippet": "NCT06795035 · lead sponsor The Cleveland Clinic · updated 2026-10-01",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "9ee9cf1964eae3c2",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Glycemic Control and Quality of Life Evolution for Patients With T1D Using the myLoop Powered by CamAPS FX System in Combination With FreeStyle Libre 3 / 3 Plus Sensors in France (Not Yet Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT07835685",
+   "date": "2026-10-01",
+   "snippet": "NCT07835685 · lead sponsor mylife Diabetes Care AG · updated 2026-10-01",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "63457c73a07eb530",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Optical Coherence Tomography in Acute Vessel Evaluation (Enrolling By Invitation)",
+   "url": "https://clinicaltrials.gov/study/NCT07422688",
+   "date": "2026-10-02",
+   "snippet": "NCT07422688 · lead sponsor Aarhus University Hospital Skejby · updated 2026-10-02",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "887dbe9a5ce23fc0",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "A Post-Market Assessment of the Safety and Performance of the TriClip™ System (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT07586995",
+   "date": "2026-10-06",
+   "snippet": "NCT07586995 · lead sponsor Abbott Medical Devices · updated 2026-10-06",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "1800bb0607a8e7a0",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Amplatzer Piccolo Occluder Japan Post-marketing Database Surveillance (Active Not Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT04371081",
+   "date": "2026-10-06",
+   "snippet": "NCT04371081 · lead sponsor Abbott Medical Devices · updated 2026-10-06",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "5591ad173d91051d",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "PULSed Field Ablation for Atrial Fibrillation Using a Balloon for Early Intervention - Study (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT07621003",
+   "date": "2026-10-06",
+   "snippet": "NCT07621003 · lead sponsor Asklepios proresearch · updated 2026-10-06",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "d4f9dfb4cf0db292",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Delivers on Spatial Biology Content Innovation Commitments at ESSB 2026",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNM0EzNG9qLUdUc0F5Mk5IczYxdFhuWDlLYzhkYkEybnlmY055REtQcjNMb1h5ZmVjNTJ0cG52dmpwbFlRSkgtVU9oYUdSbDAyVHpoTUtKMHR2TFNwRGx1RDNVdHN6MUh0b0p5b0MwdTdmYUloakNCQS1MbU9FdXR0TnhUY1JMODB1QXZaZXlDMFpHOXNiN09TdWduNjZNeXZzb1lWMXN3?oc=5",
+   "date": "2026-09-25",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "0c8339154162d85f",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Advances Spatial Biology Content Innovation",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS0pUOHZTams4VExaVy1EMzNROEFhMVhoMUJQUGRsVnRwM1JEaTc4bllMYmUybnlQazVRYy1GdlRFRlBBd0VHSG1KdktJMnpNN284MlJzOVdQeHo4cWpPeENoNXBKVFpJaFoyQmZyUlcxMGVkUjc5OWU5Mk14eWN2V0pkcVpBVTFnR245clA1T2JPckVqd0NBaTNTT3lRNnYzbHVUeXo4a3VRMkpITUJOMg?oc=5",
+   "date": "2026-10-01",
+   "snippet": "",
+   "publisher": "Technology Networks",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "9e89837230ec9ec6",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "A 4,398-share grant replaces Q3 cash fees for Quanterix (QTRX) director Scott Mendel.",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQWxnNEhHWW1FY3ZlRUFGSW1YU0FTaUxEZS14aHJtWEFSanFKcWtfMTJ3NGF0azhnakd0Z09FOHh0MEJ4cDlTOXY1UUNabVR5MXZHMXZDVkZYZHV4b2tjck04U3NpV1I0VG1pd2M0XzU5d3dYMlZrRUxFZUVWYXhvZEZ3Z1FsaVJ0QUhQTHhEUWwtWTR2Ujh4OGRiVldWbm1ZclRNa1hOTUtUWXlQ?oc=5",
+   "date": "2026-10-02",
+   "snippet": "",
+   "publisher": "Stock Titan",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "5932cd63fb3c71c9",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "For Q3 board service, Quanterix (QTRX) grants director Donnelly 6,964 shares instead of cash.",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaUJTdnFfOW12NVRmbzBTcm02YzBmSTliR2FYRlNXc3pSU2pzanJvREhtR2ZPbk82WUZVOFpmdm42bktMdzhxQUFCbmhxQmtEMkVVOVczNG9lT3psUkZRclNfWUNuakxncjJ3cXIxNTBMbzhWM19OUFhCeW9NdEMwVHV2Q2FtVHF1d3hlY2ZTaFdBV0tHSm1pV283YXpaenRBZjQ5aVI2aWEtanNM?oc=5",
+   "date": "2026-10-02",
+   "snippet": "",
+   "publisher": "Stock Titan",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "b06a82d8276eff56",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "A director converts awards into 4,224 shares at Quanterix (QTRX), bringing her holdings to 15,883 shares.",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObmR1S2dRZjcxcEtkVWU1SDU2ZVVTYkVsVE1xQjRfTDdPRnV5YUdxTkNaUVg3QzQyTlJKa3g5X2d1Snh5Q3l2OWNHREdPUHBLNGRHQW5yWGVxLU0xRlRnNjNnTkhXZV9JQlZxWFc4Q2VhaUtDbzJGVHBBRWVLUlIxQUplbEs0MTZmaEh5bHdtZ0dVWWhGZkc2TkUySmVwakhNR0NGRllzSU5kM0Nk?oc=5",
+   "date": "2026-10-02",
+   "snippet": "",
+   "publisher": "Stock Titan",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "a574d02bbe87aa84",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "China Clears Quanterix and Innovita SIMOA Instruments and Blood-Based Neurology Tests",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVzBwNTFDNjBUSmFKSzJ0MDdtdlpxMHRZUWNaTXZFbmVCVkNCNTFTaXpyMF8wcHk4dHJOalVHRnphekFmVVRuYUhYc2pFRGhtUUpWUnpjb1BPQWxwRzhuTmtCTGkyeEdBcTRBRUNybXRQMk9SOTBPaG02VFJNeXMxOW96OE9welZZNTRuSlBENVpuMDJ1VFlxQVdoZUFYeGRLTnF0YWJWanZDcmxfWGtZMTV4RzFaUQ?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Clinical Lab Products",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "f62b7d11bc6af7cd",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix (QTRX) Expands SIMOA Neurology Biomarker Testing Acces",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQTlDY2kwOGZQNWNvbVJiaXl5dEZxd0NtcXM1cTdUcjNvQTJGSkFPak9RLWxqT0QtdkJyZnJvSnpJUmlZTkkyejdicS12ODRHVTJGMTJkaXB5Mkw1YzNpNWdMWlB3RUx6M1l2TnFVMjg3bGluWUktV1g2cFBxZ3ZYMktsWUphNVhvcGhXUF9iNkJyVnotbzFjdm42Ny1oQTA2TTR5eDcwV1I5cERQanFnaTJqdi1zNTZ3NHBIYkdsR2p3WWlUc0ZfWDB1bnloSFZjOFE?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "GuruFocus",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "b167cdd24f70ed60",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Alzpath And Quanterix Expand Strategic Licensing Agreement To Advance Next Generation Alzheimer's Disease Biomarker Research",
+   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPbTlGakotVC1VaF90UzRaMEg0QXpQYjd4MG1yWVBTZGZQeUYyemJ5UVI0cjl6M1ZxdUtfSTFkLUpVYUZSaGxkRjBHbWtUOUNJUElLOHZtdnR5Rk1kVk5TWjQxSWVLN1czM20tRnFvb19ldTBpSGpQbGlGaHhRbWJlbU5sWWNKMTZ6WktLWkl6TnJBcVV5Z0RGY05WWXBnV3plbnRBOXZRTEdSaG9RekdSc0NwUEVqSWRiMWRYWWcwcTJaQTFseDM1eUNpSV9TQkVzVDNTZHNxSFB2VnNKVlNvSjNWMzBWTjU5dnJJMVpRX0hWNWNvb19kYnBZT3ROVy1zQUgxeFd3cS1VTVBJX2czVjNiWFF2dmRyNUxpWGk3Zw?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "a7668ea020f7776f",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix stock fell 9.06 percent as Q2 reset weighs",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWVhxUE9KTzluU1ZLd1Y3bWhLTkRxeWVNWWdKazl1TmVEeW1ucTU4MmNvNmpsN09BN2JjUXFsdXE4WTE3R0lpY3BvZklBLS02VzIwUFp2c0t3NHNTNnZEUzVJWTBVQ1gtX3dSdUxoZFlMc1F4RWRSWHlLMFdUdWpMNWhzZnRoVlU1V2FmVERyTjlSM3Y3ekZzbGNoMXRETjQ1ZlVYRjRnd2w5aFhkZi1ZUA?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "AD HOC NEWS",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "a85a6d7fb1ac0c7c",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Traumatic Brain Injury May Reduce Accuracy of Alzheimer's Blood Tests: JAMA",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNREt5bV95aW1uRGVIdjlqNmZQZzRaWTBob19WY2FiVGxtTmxtOWkwZWcwR3Q2d3YyQkZReTdjNTJpQTN3c0ZQVXZ1N0dJNXdXNTFWcGhjU0dNazc5Rmh0MmduczVLZmxHSXRFaGRrb1VZQVoxbmpjWVVvSGJuRVlVZzFkMTdXZVdYUVFvWUdXXzl1YXJDOENXUXpCbnhCRG1QNGRYekE3X0g2NndldldpR2tQdUUwbmxtWHQzTnhQeUVNZG9GVGg4TUtiQjRwTUNFOGfSAdcBQVVfeXFMUFJkd0Uyd3RZYkI0b01rbUE5OXhtWWY2SUtRTWZxRTU0VURyd0wyNVF6emZkVVlVcVFfM1l6Vk9tRFFvZTZzUHFrY0VNRkdrcmRlMUJNal85UmVDQXNEWFBBOF9kZmx1bGdwVlY1VExNck5SdzhmRWh2Wk9SMUlUNk45MEFLb21KdjZtaVZ1VUtzNDRFZTh0eUFkVGUxR1d6enR3WEdlYUhQa1hxanFibnlZUHpMZU9YS2hqNmtGV1J4TjVqclMwOGc1X1dYcmVnbF9DenRzOE0?oc=5",
+   "date": "2026-09-24",
+   "snippet": "",
+   "publisher": "Medical Dialogues",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "ebeffd8c3d16fb56",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Researchers in various studies looking for participants",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMlE5X1JMMDE1SlllS19DTlh0QVZJRXhycUFUUUFfWVVZNUw5eHVrVGZsR3JTdmRqVzlfNjdJMi11a2FOa1hRNzF3dlhkcXVjYmNIdVdWaDRfdUlSaXNGUmtPVVdQU29yNmRDOUVwYzhMNWpuMjE3ZXM3MTJUZE9vUC03cWppT3JUTTlFZzRjQXc5QjZFUC1ESUZFdmdkYThuc3FjSjMzWUJlLVU?oc=5",
+   "date": "2026-09-30",
+   "snippet": "",
+   "publisher": "Purdue University",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "668dac24c27bca58",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Predictors of mortality available at emergency department arrival in massively transfused trauma patients without severe TBI: A single-center retrospective cohort study",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWldmcWJ2cW1lLUhQQmxhbHpBOUxJOUxLa1FBZzlUdFl4ejhud0hETjhTWXBLSjRiS0Z6NjRqTnNWdnkyWmoyeWRQTmdoNUJ1dGsxVENQalN5dUNaME5DTkhBNF9fai1FSXF3cUxKNFctZDYyc2NQX3AtLVotd3hIWndTbHhFU1V3?oc=5",
+   "date": "2026-10-01",
+   "snippet": "",
+   "publisher": "PLOS",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "9c3c43d60e718414",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "The understanding of dementia has accelerated – the services to support and prevent dementia have not",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVW5pVWJkN3NrV3JqTXpfSTFfYlpoaG1JYXR1NldSa0Y2bEhad0I4RHcydkJUVFJPMEZKeXdQemRTZlBXX3V3d05vREJYS29WcG9ySmFiNEFUTS1ucUR1bWZzc3NPY0x3RHBSUmVBT0RIZlI2c3VfVmdxTnBWYWo0WGF5TVpUUEJtUTZmYTNERm9KRnhEZDBSX0JVTlNnZU1uWG00Z2NsSGlpQ3NrdTczUGVVdnVzN0JYUnpHWVF3T2tlT0hGOHZzRS1HS2hUWlotMGlwMA?oc=5",
+   "date": "2026-10-01",
+   "snippet": "",
+   "publisher": "Irish Medical Times",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "fc543fb0361c4316",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "What Your Next Blood Test Might Reveal About Your Brain Health",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUW0tcHVxYTQzdWNyWkN6M0dYNzNPNVRpemRreml0SDYydWVmcjRBRW5fMS0zV1l6YjY5WTB4QlhZalY3MURzWndEaU5iSjZOaWxZcnFQMkJCdzhhZXJVT3RnN0JRRnVBNGlTeDdFYmY0dGE4OG9pemdSeF9lSTRfSGsyaWJGME9nSW5EcGEtbmZpRHBrX0RYTWFiY3YtMTE3STJRVWc5a2JxUzNMbnQ5TTlMbHhYdGFYaWszSWh0NTNfQkpEZEp1REtMNG1DRUdmb0xjSmdwNzVoZw?oc=5",
+   "date": "2026-10-03",
+   "snippet": "",
+   "publisher": "MindBodyGreen",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "747e58377ff2d1bc",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Brain Cell Study Uncovers New Alzheimer's Drug Target",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVlBZVFEzaTRwNzBVZUF0czlUcTREOGYtMWlGMTctTGo3Tnh4cXdzYkxMVEVfcVlzY0Q5bXFKV0xtVUFTbm94QUN2Z09URms0YUJpbVNwekZBMXhqTlRITnZ4WGFUNTJrSDI2VUdlUUdYNVZxcVBIMVhBYm1ROWJxY2JWUUVrai1s?oc=5",
+   "date": "2026-10-04",
+   "snippet": "",
+   "publisher": "Mirage News",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "d7d33e224f9f902a",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Can biomarkers and AI transform traumatic brain injury care?",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbFJ6dnpyMncyNWNMSlNzWjV5NnNkYWV4LVQ3OGZHZFNPbXl3SHgzakxlbmlqNkFuckRHc0V4bldTdXh5ME9BTzdfbm13cEJuOUV1OVc4ZDRucjJDazJJWG4yc09URTNIeFM3UjN0NHpQVU5FN0JtVXlRMkZHd0V1ZzRCNmVwLUZHd05wWEFqRWhzQlBZY0txLUREQi1IUQ?oc=5",
+   "date": "2026-10-05",
+   "snippet": "",
+   "publisher": "Select Science",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "3e7b6e9ddb86ac15",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Diabetes Drugs May Boost Survival After Brain Injury Surgery, Study Suggests",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ1g5bXJiS1VFWWR2Z2hiblFoRU9EaUQ5ZENjQzQ0czZGV3J3NXU0dzA4ZEZBUHpfRWJpQ3JvRTBlU2dBdUJtazR4YlJ5S3FOclUtRDhlQVRqRUtWVmRpM3BGNXozZnFQaFF3X0VPTTJ0SU1BVkdkNWpUTVpodlU3QjJTUE9VdF9NTUhESHNOUmxnUmFDb25xRDl0TGE3SXhKblE?oc=5",
+   "date": "2026-10-05",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "a3eb730e64adc4ac",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Cannabidiol Sponge Implanted at Injury Site Cuts Brain Swelling After Trauma in Rats",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOV9HTl90OEYxRDBqNjd2ZVM2NFYtSVhod1luWTBBbkkxVTAzcnRfQncyNlNMVUdhekVTS3kyWF9rR0ZhQWQ4b3hXMXNSUDV1Z2d0LTBPelA5bWVZZU9EQzZMbk5RU2oxd1l3ZUFjSDBXTDZpWUN5NHgzeDlZMEQ3aXFMSmRGcnExNGNTLVV1bUtBYU5FSEpZcVpLSEJwdDFmSi1GeFJyaFcwaUpvanc?oc=5",
+   "date": "2026-10-06",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "2318a6f5e131ff51",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Improving lives through health translation",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcGNCTDBkclpCWjYxc2QxVEtMT2diS3dqb0N6SHV2R0hvX19LTFJkV1dFbTkxMDcybHlPNjJXc3FKaVBBY1RZNzBrdk1oVGdIemtRa3daeGJFSG9ZTUtqX05qUkFTenRad1c1dzBYQXRuNmRlZF9mbDJuZXNWV3Y4ZERVODJHc2Yz?oc=5",
+   "date": "2026-10-08",
+   "snippet": "",
+   "publisher": "Australian Institute for Bioengineering and Nanotechnology",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  }
+ ],
+ "health": [
+  {
+   "entity": "Abbott",
+   "source": "News: \"Abbott\" \"TBI\" test",
+   "ok": true,
+   "count": 0,
+   "secs": 0.3
+  },
+  {
+   "entity": "Abbott",
+   "source": "News: \"i-STAT TBI\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Abbott",
+   "source": "News: \"Alinity\" TBI",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Abbott",
+   "source": "Page: https://abbott.mediaroom.com/press-releases",
+   "ok": true,
+   "count": 0,
+   "secs": 0.8
+  },
+  {
+   "entity": "Abbott",
+   "source": "FDA: Abbott",
+   "ok": true,
+   "count": 20,
+   "secs": 0.7
+  },
+  {
+   "entity": "Abbott",
+   "source": "Trials: Abbott",
+   "ok": true,
+   "count": 10,
+   "secs": 0.3
+  },
+  {
+   "entity": "Abbott",
+   "source": "PubMed: \"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
+   "ok": true,
+   "count": 2,
+   "secs": 1.0
+  },
+  {
+   "entity": "bioMérieux",
+   "source": "News: \"bioMerieux\" \"VIDAS TBI\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "bioMérieux",
+   "source": "News: \"bioMerieux\" traumatic brain injury",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "bioMérieux",
+   "source": "FDA: bioMerieux",
+   "ok": true,
+   "count": 3,
+   "secs": 0.2
+  },
+  {
+   "entity": "bioMérieux",
+   "source": "Trials: bioMérieux",
+   "ok": true,
+   "count": 10,
+   "secs": 0.1
+  },
+  {
+   "entity": "bioMérieux",
+   "source": "PubMed: \"VIDAS TBI\"",
+   "ok": true,
+   "count": 1,
+   "secs": 0.9
+  },
+  {
+   "entity": "Roche",
+   "source": "News: \"Roche\" \"Elecsys\" (GFAP OR \"UCH-L1\" OR \"brain injury\")",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Roche",
+   "source": "News: \"Roche Diagnostics\" concussion",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Roche",
+   "source": "FDA: Roche",
+   "ok": true,
+   "count": 20,
+   "secs": 0.3
+  },
+  {
+   "entity": "Roche",
+   "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Quanterix",
+   "source": "News: \"Quanterix\"",
+   "ok": true,
+   "count": 15,
+   "secs": 0.2
+  },
+  {
+   "entity": "Quanterix",
+   "source": "FDA: Quanterix",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Quanterix",
+   "source": "Trials: Quanterix",
+   "ok": true,
+   "count": 1,
+   "secs": 0.1
+  },
+  {
+   "entity": "Quanterix",
+   "source": "PubMed: Simoa AND (\"traumatic brain injury\" OR concussion)",
+   "ok": true,
+   "count": 1,
+   "secs": 0.8
+  },
+  {
+   "entity": "BrainScope",
+   "source": "News: \"BrainScope\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "BrainScope",
+   "source": "FDA: BrainScope",
+   "ok": true,
+   "count": 0,
+   "secs": 0.6
+  },
+  {
+   "entity": "BrainScope",
+   "source": "Trials: BrainScope",
+   "ok": true,
+   "count": 10,
+   "secs": 0.1
+  },
+  {
+   "entity": "TBI diagnostics market",
+   "source": "News: \"traumatic brain injury\" blood test",
+   "ok": true,
+   "count": 11,
+   "secs": 0.2
+  },
+  {
+   "entity": "TBI diagnostics market",
+   "source": "News: concussion blood test FDA",
+   "ok": true,
+   "count": 1,
+   "secs": 0.2
+  },
+  {
+   "entity": "TBI diagnostics market",
+   "source": "PubMed: (\"traumatic brain injury\" OR concussion) AND (GFAP OR \"UCH-L1\") AND \"point-of-care\"",
+   "ok": true,
+   "count": 1,
+   "secs": 0.9
+  }
+ ]
+}

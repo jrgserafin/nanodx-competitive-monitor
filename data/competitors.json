@@ -1,0 +1,93 @@
+[
+ {
+  "name": "Abbott",
+  "category": "TBI blood test",
+  "website": "https://www.abbott.com",
+  "kind": "competitor",
+  "watch_pages": [
+   "https://abbott.mediaroom.com/press-releases"
+  ],
+  "news_queries": [
+   "\"Abbott\" \"TBI\" test",
+   "\"i-STAT TBI\"",
+   "\"Alinity\" TBI"
+  ],
+  "fda_applicant": "Abbott",
+  "trials_sponsor": "Abbott",
+  "pubmed_query": "\"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
+  "rss": null
+ },
+ {
+  "name": "bioMérieux",
+  "category": "TBI blood test",
+  "website": "https://www.biomerieux.com",
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"bioMerieux\" \"VIDAS TBI\"",
+   "\"bioMerieux\" traumatic brain injury"
+  ],
+  "fda_applicant": "bioMerieux",
+  "trials_sponsor": "bioMérieux",
+  "pubmed_query": "\"VIDAS TBI\"",
+  "rss": null
+ },
+ {
+  "name": "Roche",
+  "category": "TBI blood test",
+  "website": "https://diagnostics.roche.com",
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"Roche\" \"Elecsys\" (GFAP OR \"UCH-L1\" OR \"brain injury\")",
+   "\"Roche Diagnostics\" concussion"
+  ],
+  "fda_applicant": "Roche",
+  "trials_sponsor": null,
+  "pubmed_query": "Elecsys AND (GFAP OR \"UCH-L1\")",
+  "rss": null
+ },
+ {
+  "name": "Quanterix",
+  "category": "Biomarker platform",
+  "website": "https://www.quanterix.com",
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"Quanterix\""
+  ],
+  "fda_applicant": "Quanterix",
+  "trials_sponsor": "Quanterix",
+  "pubmed_query": "Simoa AND (\"traumatic brain injury\" OR concussion)",
+  "rss": null
+ },
+ {
+  "name": "BrainScope",
+  "category": "TBI device",
+  "website": "https://www.brainscope.com",
+  "kind": "competitor",
+  "watch_pages": null,
+  "news_queries": [
+   "\"BrainScope\""
+  ],
+  "fda_applicant": "BrainScope",
+  "trials_sponsor": "BrainScope",
+  "pubmed_query": null,
+  "rss": null
+ },
+ {
+  "name": "TBI diagnostics market",
+  "category": null,
+  "website": null,
+  "kind": "topic",
+  "watch_pages": null,
+  "news_queries": [
+   "\"traumatic brain injury\" blood test",
+   "concussion blood test FDA"
+  ],
+  "fda_applicant": null,
+  "trials_sponsor": null,
+  "pubmed_query": "(\"traumatic brain injury\" OR concussion) AND (GFAP OR \"UCH-L1\") AND \"point-of-care\"",
+  "rss": null
+ }
+]
