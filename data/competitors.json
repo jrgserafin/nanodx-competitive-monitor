@@ -151,7 +151,7 @@
   "sec_ticker": null,
   "patent_assignee": null,
   "jobs": null,
-  "federal_register_query": "\"traumatic brain injury\" OR \"glial fibrillary acidic protein\" OR concussion",
+  "federal_register_query": "traumatic brain injury",
   "profile": null
  },
  {
