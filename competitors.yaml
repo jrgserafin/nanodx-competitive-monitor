@@ -23,7 +23,7 @@
 #   profile         Battlecard notes your team maintains: hq, ticker, products,
 #                   pricing, positioning, notes. The AI battlecard reads these.
 #
-# STARTER LIST — replace with George's list.
+# Source: NanoDx Competitive Intelligence Report, Sept 2026 — 8 direct + 13 indirect companies (Oculogica SNAP and EyeBOX combined).
 
 settings:
   digest_title: "NanoDx Competitive Digest"
@@ -68,98 +68,497 @@ settings:
     - raises
 
 competitors:
-  - name: Abbott
-    category: TBI blood test
-    website: https://www.abbott.com
-    watch_pages:
-      - https://abbott.mediaroom.com/press-releases
-    news_queries:
-      - '"Abbott" "TBI" test'
-      - '"i-STAT TBI"'
-      - '"Alinity" TBI'
-    fda_applicant: "Abbott"
-    trials_sponsor: "Abbott"
-    pubmed_query: '"i-STAT TBI" OR "i-STAT Alinity" AND (GFAP OR "UCH-L1")'
-    relevance_keywords: [brain injury, TBI, concussion, GFAP, UCH-L1, head injury, traumatic]
-    sec_ticker: ABT
-    patent_assignee: Abbott
-    profile:
-      ticker: ABT (NYSE)
-      products: [i-STAT TBI, Alinity i TBI]
-      notes: ""   # public! keep to non-confidential facts
-
-  - name: bioMérieux
-    category: TBI blood test
-    website: https://www.biomerieux.com
-    news_queries:
-      - '"bioMerieux" "VIDAS TBI"'
-      - '"bioMerieux" traumatic brain injury'
-    fda_applicant: "bioMerieux"
-    trials_sponsor: "bioMérieux"
-    pubmed_query: '"VIDAS TBI"'
-    relevance_keywords: [brain injury, TBI, concussion, GFAP, UCH-L1, head injury, traumatic]
-    patent_assignee: bioMerieux
-    profile:
-      ticker: BIM (Euronext Paris)
-      products: [VIDAS TBI (GFAP, UCH-L1)]
-      notes: ""
-
-  - name: Roche
-    category: TBI blood test
-    website: https://diagnostics.roche.com
-    news_queries:
-      - '"Roche" "Elecsys" (GFAP OR "UCH-L1" OR "brain injury")'
-      - '"Roche Diagnostics" concussion'
-    fda_applicant: "Roche"
-    pubmed_query: 'Elecsys AND (GFAP OR "UCH-L1")'
-    relevance_keywords: [brain injury, TBI, concussion, GFAP, UCH-L1, head injury, traumatic]
-    patent_assignee: Roche
-    profile:
-      ticker: ROG (SIX Swiss Exchange)
-      products: [Elecsys immunoassays (GFAP / UCH-L1)]
-      notes: ""
-
-  - name: Quanterix
-    category: Biomarker platform
-    website: https://www.quanterix.com
-    news_queries:
-      - '"Quanterix"'
-    fda_applicant: "Quanterix"
-    trials_sponsor: "Quanterix"
-    pubmed_query: 'Simoa AND ("traumatic brain injury" OR concussion)'
-    sec_ticker: QTRX
-    patent_assignee: Quanterix
-    # jobs: {greenhouse: quanterix}   # uncomment if they use a public Greenhouse/Lever/Ashby board
-    profile:
-      ticker: QTRX (Nasdaq)
-      products: [Simoa platform (HD-X, SR-X, SP-X)]
-      notes: ""
-
-  - name: BrainScope
-    category: TBI device
-    website: https://www.brainscope.com
-    news_queries:
-      - '"BrainScope"'
-    fda_applicant: "BrainScope"
-    trials_sponsor: "BrainScope"
-    patent_assignee: BrainScope
-    profile:
-      ticker: private
-      products: [Ahead (EEG-based brain function assessment)]
-      notes: ""
-
-# Market-level topics (not tied to one company)
+- name: Abbott
+  category: Direct · TBI blood test (POC)
+  website: https://www.abbott.com
+  watch_pages:
+  - https://abbott.mediaroom.com/press-releases
+  news_queries:
+  - '"Abbott" "TBI" test'
+  - '"i-STAT TBI"'
+  - '"Alinity" TBI'
+  fda_applicant: Abbott
+  trials_sponsor: Abbott
+  pubmed_query: '"i-STAT TBI" OR "i-STAT Alinity" AND (GFAP OR "UCH-L1")'
+  relevance_keywords: &id001
+  - brain injury
+  - TBI
+  - concussion
+  - GFAP
+  - UCH-L1
+  - head injury
+  - traumatic
+  sec_ticker: ABT
+  patent_assignee: Abbott
+  profile:
+    hq: Abbott Park, Illinois
+    founded: '1888'
+    stage: Mature
+    employees: 100,000+
+    ticker: ABT (NYSE)
+    products:
+    - i-STAT Alinity (i-STAT TBI cartridge)
+    - GFAP + UCH-L1, 20-60 min, venous blood
+    key_events:
+    - 'Apr 2024: FDA 510(k) clearance'
+    - 'Dec 2021: CE Mark'
+    - 'Jun 2025: Health Canada'
+    partnerships:
+    - DoW
+    - Acquisition of Exact Sciences
+    - TRACK-TBI
+    - Orlando Health
+    customers: Hospitals/ER, urgent care, military, sports; adults 18+, within 24 h of injury; POC or lab
+    notes: 'Focus: POC test measuring biomarker levels (screening). Go-to-market: commercialization.'
+- name: bioMérieux
+  category: Direct · TBI blood test (lab)
+  website: https://www.biomerieux.com
+  news_queries:
+  - '"bioMerieux" "VIDAS TBI"'
+  - '"bioMerieux" traumatic brain injury'
+  fda_applicant: bioMerieux
+  trials_sponsor: bioMérieux
+  pubmed_query: '"VIDAS TBI"'
+  relevance_keywords: *id001
+  patent_assignee: bioMerieux
+  profile:
+    hq: Marcy-l'Étoile, France
+    founded: '1963'
+    stage: Mature growth
+    employees: 14,600
+    ticker: BIM (Euronext Paris)
+    products:
+    - VIDAS TBI (GFAP, UCH-L1) - ELFA, serum, 90-120 min
+    key_events:
+    - 'May 2024: FDA 510(k) clearance'
+    - '2023: CE Mark'
+    - '2021: Acquired Banyan Biomarkers'
+    customers: Hospitals/ER, urgent care, military; adults 18+, within 12 h of injury
+    notes: 'Focus: blood biomarkers to reduce unnecessary CT scans in mild TBI. Go-to-market: commercialization.'
+- name: BrainScope
+  category: Direct · EEG brain function
+  website: https://www.brainscope.com
+  news_queries:
+  - '"BrainScope"'
+  fda_applicant: BrainScope
+  trials_sponsor: BrainScope
+  patent_assignee: BrainScope
+  pubmed_query: BrainScope AND (concussion OR "traumatic brain injury")
+  profile:
+    hq: Rockville, MD
+    founded: '2006'
+    stage: Growth
+    employees: 11-50
+    ticker: private
+    products:
+    - BrainScope One / Ahead - EEG + AI, <20 min, no blood
+    key_events:
+    - 'Jan 2019: FDA 510(k) clearance'
+    - '2026: EEG biomarker predicts dementia risk up to 7 years early'
+    partnerships:
+    - General Electric
+    - NFL
+    - BARDA
+    - DoW
+    customers: ED, military; ages 18-85, within 72 h of injury
+    notes: 'Focus: POC brain function + concussion assessment. Go-to-market: commercial growth.'
+- name: InfraScan
+  category: Direct · Near-infrared hematoma
+  website: https://infrascanner.com
+  news_queries:
+  - '"Infrascanner"'
+  - '"InfraScan" brain'
+  fda_applicant: InfraScan
+  patent_assignee: InfraScan
+  pubmed_query: Infrascanner
+  profile:
+    hq: Philadelphia, PA
+    founded: '2004'
+    stage: Growth
+    employees: 1-15
+    ticker: private
+    products:
+    - Infrascanner 2500 - handheld near-infrared, 2-3 min
+    key_events:
+    - 'Dec 2024: FDA 510(k) clearance'
+    partnerships:
+    - DoW
+    - USAMMDA
+    - US Marine Corps
+    - US Navy
+    - DVBIC
+    notes: 'Focus: military and trauma-center adoption (intracranial hematoma screening).'
+- name: BrainBox Solutions
+  category: Direct · Multi-modal biomarkers + AI
+  news_queries:
+  - '"BrainBox Solutions"'
+  - '"HeadSMART"'
+  fda_applicant: BrainBox
+  trials_sponsor: BrainBox Solutions
+  patent_assignee: BrainBox
+  pubmed_query: '"BrainBox" AND (concussion OR "traumatic brain injury")'
+  profile:
+    hq: Richmond, VA
+    founded: '2018'
+    stage: Late-stage development
+    employees: 15-17
+    ticker: private
+    products:
+    - TBI Evaluation Station - 8 biomarkers (ELISA) + neurocognitive + AI
+    key_events:
+    - '2026: Pivotal HeadSMART II trial'
+    - '2026: Richard H. Noel appointed Chief Product & Commercial Officer'
+    - FDA Breakthrough Device program
+    partnerships:
+    - Oragenics
+    - Prolight Diagnostics
+    - Virginia Innovation Venture Partners
+    customers: Adults 18+, within 96 h of injury, venous draw; not portable
+    notes: 'Focus: diagnosis and prognosis of concussion. Pre-commercial (near FDA clearance).'
+- name: EzDiatech
+  category: Direct · TBI blood test (POC)
+  news_queries:
+  - '"EzDiatech"'
+  - '"VEUPLEX"'
+  fda_applicant: EzDiatech
+  patent_assignee: EzDiatech
+  pubmed_query: VEUPLEX OR EzDiatech
+  profile:
+    hq: South Korea
+    founded: '2016'
+    stage: Growth
+    employees: 11-50
+    ticker: ''
+    products:
+    - VEUPLEX TBI assay - GFAP + UCH-L1, magnetic-particle fluorescence, 50 min, 6 samples
+    key_events:
+    - '2021: CE Mark'
+    - 'Jun 2024: Korea MFDS'
+    - '2023: Initiated US FDA 510(k) pathway'
+    customers: Hospitals, labs, trauma centers, military; skilled tech required
+    notes: Early commercial; preparing global expansion.
+- name: STATA DX
+  category: Direct · Fingerstick biosensor (early)
+  news_queries:
+  - '"STATA DX"'
+  - '"Stata Dx" biosensor'
+  patent_assignee: Stata
+  pubmed_query: eRapid AND (GFAP OR NfL) AND electrochemical
+  profile:
+    hq: Boston, MA
+    founded: '2021'
+    stage: Seed / early
+    employees: ~8
+    ticker: private
+    products:
+    - eRapid electrochemical biosensor (Wyss license) - NfL/GFAP/S100B, fingerstick
+    key_events:
+    - 'Sep 2026: Product video'
+    - 'May 2026: BioTools Innovator'
+    - '2026: Raised $1.89M ($6.38M total)'
+    partnerships:
+    - Wyss Institute (exclusive license)
+    - Boston University
+    - MassVentures
+    notes: MS first; TBI is 4th of 4 programs. No FDA submission (likely De Novo).
+- name: GLIA Diagnostics
+  category: Direct · Fingerstick microRNA (early)
+  news_queries:
+  - '"GLIA Diagnostics"'
+  patent_assignee: Glia Diagnostics
+  profile:
+    hq: Sydney, Australia
+    founded: '2015'
+    stage: Early development (pre-seed)
+    ticker: private
+    products:
+    - Handheld electrochemical reader + cartridge, up to 7 miRNA biomarkers, ~20 min
+    key_events:
+    - 'Sep 2026: Raising investor funding'
+    - No FDA clearance or CE mark
+    partnerships:
+    - Alfred Hospital / Monash
+    - CSIRO
+    - Australian Defence Force
+    - US DoW (I-TAB)
+    notes: 'Pre-commercial; 18-24 month goal: MVP and first FDA feedback.'
+- name: Quanterix
+  category: Indirect · Biomarker platform
+  website: https://www.quanterix.com
+  news_queries:
+  - '"Quanterix"'
+  fda_applicant: Quanterix
+  trials_sponsor: Quanterix
+  sec_ticker: QTRX
+  patent_assignee: Quanterix
+  pubmed_query: Simoa AND ("traumatic brain injury" OR concussion)
+  profile:
+    hq: Billerica, MA
+    founded: '2007'
+    stage: Public growth
+    employees: 450+
+    ticker: QTRX (Nasdaq)
+    products:
+    - Simoa SR-X / HD-X - NfL, GFAP, UCH-L1, BD-Tau
+    key_events:
+    - 'Feb 2026: FDA 510(k) submission, multi-analyte Alzheimer''s blood test'
+    - 'May 2026: Tempus AI + Life Line Screening collaboration'
+    notes: 'Focus: novel biomarkers for early diagnosis.'
+- name: Genalyte
+  category: Indirect · POC multiplex
+  website: https://www.genalyte.com
+  news_queries:
+  - '"Genalyte"'
+  fda_applicant: Genalyte
+  patent_assignee: Genalyte
+  profile:
+    hq: San Diego, CA
+    founded: '2007'
+    stage: Growth
+    employees: 90+
+    ticker: private
+    products:
+    - Maverick (silicon photonic rings, 26 tests/sample)
+    - Merlin
+    key_events:
+    - '2021, 2024: FDA clearances'
+    - 'Apr 2025: Burjeel partnership'
+    notes: Transitioning focus from Maverick to Merlin.
+- name: Oculogica
+  category: Indirect · Eye-tracking (SNAP, EyeBOX)
+  website: https://oculogica.com
+  news_queries:
+  - '"Oculogica"'
+  - '"EyeBOX" concussion'
+  fda_applicant: Oculogica
+  patent_assignee: Oculogica
+  trials_sponsor: Oculogica
+  pubmed_query: EyeBOX AND concussion
+  profile:
+    hq: New Richmond, WI
+    founded: '2013'
+    stage: Early commercial
+    employees: 25-50
+    ticker: private
+    products:
+    - SNAP - 90 s eye-tracking + symptoms, $19,500 + $2,500/yr, ages 15-25
+    - EyeBOX - 4 min, De Novo 2018, ages 5-67
+    key_events:
+    - 'Jun 2026: SNAP FDA 510(k) clearance'
+    - 'Dec 2018: EyeBOX De Novo'
+    partnerships:
+    - XcelAble
+    - US Army MRDC
+    - NIH
+    - TitletownTech
+- name: Sense Neuro Diagnostics
+  category: Indirect · Brain scanner
+  news_queries:
+  - '"Sense Neuro Diagnostics"'
+  - '"NeuroHawk"'
+  fda_applicant: Sense Neuro
+  patent_assignee: Sense Neuro
+  profile:
+    hq: West Chester, OH
+    founded: '2014'
+    stage: Late clinical / pre-commercial
+    employees: '10'
+    ticker: private
+    products:
+    - NeuroHawk - 2.5 s whole-cranium scan
+    key_events:
+    - 'Sep 2025: FDA application for NeuroHawk'
+    - '2021 & 2024: DoW funding'
+    notes: Stroke, TBI, hemorrhage detection; clinical, ambulance, military.
+- name: Medicortex
+  category: Indirect · Saliva/urine TBI test
+  website: https://www.medicortex.fi
+  news_queries:
+  - '"Medicortex"'
+  - '"Nosium"'
+  patent_assignee: Medicortex
+  pubmed_query: Medicortex OR ProbTBI
+  profile:
+    hq: Turku, Finland
+    founded: '2014'
+    stage: Pre-commercial
+    employees: 2-10
+    ticker: Nosium AB (reverse takeover Jul 2026)
+    products:
+    - ProbTBI - glycan lateral-flow (urine/saliva)
+    key_events:
+    - 'Jul 2026: Reverse takeover with Nosium AB'
+    - 'Jun 2024: DoW $1.4M contract'
+    - 'Jan 2024: EU patent'
+    notes: Market entry expected 2028 (company, May 2026).
+- name: Roche
+  category: Indirect · TBI blood test (clinical trials)
+  website: https://diagnostics.roche.com
+  news_queries:
+  - '"Roche" "Elecsys" (GFAP OR "UCH-L1" OR "brain injury")'
+  - '"Roche Diagnostics" concussion'
+  fda_applicant: Roche
+  trials_sponsor: Roche
+  pubmed_query: Elecsys AND (GFAP OR "UCH-L1")
+  relevance_keywords: *id001
+  patent_assignee: Roche
+  profile:
+    hq: Basel, Switzerland
+    founded: '1896'
+    stage: Mature global enterprise
+    employees: 110,000+
+    ticker: ROG (SIX)
+    products:
+    - Blood biomarker TBI test in clinical trials (likely cobas)
+    notes: 'Trial focus: diagnose and monitor secondary events in suspected TBI (18+, CT done).'
+- name: AeHealth
+  category: Indirect · POC immunoassay
+  news_queries:
+  - '"AeHealth"'
+  - '"Lamuno"'
+  profile:
+    hq: Manchester / London, UK
+    founded: '2015'
+    stage: Commercial
+    employees: 51-200
+    ticker: private
+    products:
+    - Lamuno Pro - 60+ tests/cartridge, 3-15 min
+    key_events:
+    - CE certification
+    - '2026: ADLM'
+    - Brazil approval
+    partnerships:
+    - BfArM
+    - ANVISA
+    - SFDA
+    - CDSCO
+- name: Wondfo
+  category: Indirect · POC diagnostics
+  news_queries:
+  - '"Wondfo" (FDA OR "point-of-care" OR TBI OR acquisition OR launch)'
+  fda_applicant: Wondfo
+  patent_assignee: Wondfo
+  profile:
+    hq: Guangzhou, China
+    founded: '1992'
+    stage: Public
+    employees: 2,443
+    ticker: 300482 (Shenzhen)
+    products:
+    - Blood gas & coagulation platform (30 s)
+    key_events:
+    - '2025: 510(k) Flu A&B'
+    - NIH RADx ITAP participant
+- name: ACON
+  category: Indirect · POC diagnostics
+  website: https://www.aconlabs.com
+  news_queries:
+  - '"ACON Laboratories" (FDA OR "point-of-care" OR TBI OR acquisition OR launch)'
+  fda_applicant: ACON
+  patent_assignee: ACON
+  profile:
+    hq: San Diego, CA
+    founded: '1996'
+    stage: Mature growth
+    employees: 1,500
+    ticker: private
+    products:
+    - Fluorescence lateral-flow immunoassays
+    - Multi-analyte POC system (HbA1c, ACR, CRP)
+    key_events:
+    - '2025: 510(k) Flowflex Plus RSV + Flu + COVID home test'
+- name: Hotgen
+  category: Indirect · POC diagnostics
+  news_queries:
+  - '"Hotgen" (FDA OR "point-of-care" OR TBI OR acquisition OR launch)'
+  fda_applicant: Hotgen
+  patent_assignee: Hotgen
+  profile:
+    hq: Beijing, China
+    founded: '2005'
+    stage: Mature growth
+    employees: ~1,000
+    ticker: ''
+    products:
+    - Up-converting phosphor quantitative POC platform
+    key_events:
+    - 'Jul 2025: Chikungunya rapid test'
+    - '2022: COVID home test EUA'
+- name: QuidelOrtho
+  category: Indirect · IVD (POC + lab)
+  website: https://www.quidelortho.com
+  news_queries:
+  - '"QuidelOrtho"'
+  fda_applicant: Quidel
+  sec_ticker: QDEL
+  patent_assignee: Quidel
+  profile:
+    hq: San Diego, CA
+    founded: '1979'
+    stage: Mature growth
+    employees: ~6,500
+    ticker: QDEL (Nasdaq)
+    products:
+    - Sofia fluorescence immunoassay platform
+    - LEX molecular (acquired)
+    key_events:
+    - '2026: Completed acquisition of LEX Diagnostics'
+    - 'May 2022: Quidel + Ortho merger'
+    partnerships:
+    - Lifotronic
+    - BYG4lab
+    - BARDA
+- name: Boditech Med
+  category: Indirect · POC immunoassay
+  website: https://www.boditech.co.kr
+  news_queries:
+  - '"Boditech" (FDA OR "point-of-care" OR TBI OR acquisition OR launch)'
+  fda_applicant: Boditech
+  patent_assignee: Boditech
+  profile:
+    hq: Chuncheon, South Korea
+    founded: '1998'
+    stage: Mature / commercial
+    employees: ~600
+    ticker: 206640 (KOSDAQ)
+    products:
+    - AFIAS automated fluorescence immunoassay
+    key_events:
+    - '2025: AFIAS penKid launch (IVDR)'
+    - '2017: 510(k) AFIAS TSH'
+    partnerships:
+    - A. Menarini Diagnostics
+    - SphingoTec
+    - 4TEEN4 Pharmaceuticals
+- name: Getein Biotech
+  category: Indirect · POC immunoassay
+  news_queries:
+  - '"Getein" (FDA OR "point-of-care" OR TBI OR acquisition OR launch)'
+  fda_applicant: Getein
+  patent_assignee: Getein
+  profile:
+    hq: Nanjing, China
+    founded: '2002'
+    stage: Mature / commercial
+    employees: ~1,700
+    ticker: 603387 (Shanghai)
+    products:
+    - Getein 1150 / 1160 / 1600 / 1180 immunofluorescence POC analyzers
+    key_events:
+    - '2025: Getein 1160 FDA-listed (Class I, 510(k)-exempt)'
+    partnerships:
+    - BSI
+    - 400+ distributors in 130+ countries
 topics:
-  - name: TBI diagnostics market
-    news_queries:
-      - '"traumatic brain injury" blood test'
-      - 'concussion blood test FDA'
-    pubmed_query: '("traumatic brain injury" OR concussion) AND (GFAP OR "UCH-L1") AND "point-of-care"'
-    # CMS payment rules, FDA notices and guidance in the Federal Register
-    federal_register_query: 'traumatic brain injury'
-
-  - name: Lab reimbursement (CMS)
-    category: Market topic
-    federal_register_query: '"clinical laboratory fee schedule" OR "Medicare Physician Fee Schedule" OR "proprietary laboratory analyses"'
-    news_queries:
-      - 'CMS "clinical laboratory fee schedule"'
+- name: TBI diagnostics market
+  news_queries:
+  - '"traumatic brain injury" blood test'
+  - concussion blood test FDA
+  pubmed_query: ("traumatic brain injury" OR concussion) AND (GFAP OR "UCH-L1") AND "point-of-care"
+  federal_register_query: traumatic brain injury
+- name: Lab reimbursement (CMS)
+  category: Market topic
+  federal_register_query: '"clinical laboratory fee schedule" OR "Medicare Physician Fee Schedule" OR "proprietary laboratory analyses"'
+  news_queries:
+  - CMS "clinical laboratory fee schedule"

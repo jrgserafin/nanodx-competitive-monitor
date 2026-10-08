@@ -658,7 +658,10 @@ footer{margin-top:28px;font-size:11px;color:var(--ink-3);letter-spacing:.08em;te
       + '<div class="panel"><div class="ph"><h2>Products & notes</h2><span class="meta">from competitors.yaml</span></div>'
       + ((prof.products||[]).map(function(p){ return '<span class="tag2">'+esc(p)+'</span>'; }).join("") || '<div class="empty-s">Add products in the profile block.</div>')
       + (prof.notes ? '<p style="font-size:13px;color:var(--ink-2)">'+esc(prof.notes)+'</p>' : '')
-      + Object.keys(prof).filter(function(k){ return ["products","notes","ticker"].indexOf(k) < 0 && prof[k]; }).map(function(k){ return '<p style="font-size:13px;margin:4px 0"><b>'+esc(k)+':</b> '+esc(prof[k])+'</p>'; }).join("")
+      + Object.keys(prof).filter(function(k){ return ["products","notes","ticker"].indexOf(k) < 0 && prof[k] && String(prof[k]).length; }).map(function(k){
+          var label = k === "hq" ? "HQ" : esc(k.replace(/_/g," ").replace(/^./, function(c){ return c.toUpperCase(); }));
+          return Array.isArray(prof[k]) ? '<div style="font-size:13px;margin:6px 0 0"><b>'+label+'</b><ul style="margin:2px 0 0">'+prof[k].map(function(x){ return '<li>'+esc(x)+'</li>'; }).join("")+'</ul></div>'
+            : '<p style="font-size:13px;margin:4px 0"><b>'+label+':</b> '+esc(prof[k])+'</p>'; }).join("")
       + '</div>'
       + '<div class="panel full"><div class="ph"><h2>FDA regulatory record</h2><span class="meta">openFDA · relevance-filtered</span></div>'
       + (reg.length ? '<div class="tablewrap" style="border:0"><table><thead><tr><th>Decision date</th><th>Record</th><th>Decision</th></tr></thead><tbody>'
