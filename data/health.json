@@ -1,12 +1,12 @@
 {
- "checked": "2026-10-08T18:38:02+00:00",
+ "checked": "2026-10-08T18:54:33+00:00",
  "sources": [
   {
    "entity": "Abbott",
    "source": "News: \"Abbott\" \"TBI\" test",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Abbott",
@@ -20,7 +20,7 @@
    "source": "News: \"Alinity\" TBI",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Abbott",
@@ -48,7 +48,7 @@
    "source": "PubMed: \"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 2,
-   "secs": 0.6
+   "secs": 0.8
   },
   {
    "entity": "Abbott",
@@ -84,10 +84,17 @@
   },
   {
    "entity": "bioMérieux",
+   "source": "Homepage: https://www.biomerieux.com",
+   "ok": true,
+   "count": 0,
+   "secs": 0.4
+  },
+  {
+   "entity": "bioMérieux",
    "source": "FDA: bioMerieux",
    "ok": true,
    "count": 3,
-   "secs": 1.9
+   "secs": 0.3
   },
   {
    "entity": "bioMérieux",
@@ -115,6 +122,13 @@
   {
    "entity": "BrainScope",
    "source": "News: \"BrainScope\"",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "BrainScope",
+   "source": "Homepage: https://www.brainscope.com",
    "ok": true,
    "count": 0,
    "secs": 0.2
@@ -154,7 +168,7 @@
    "source": "News: \"Infrascanner\"",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "InfraScan",
@@ -165,10 +179,17 @@
   },
   {
    "entity": "InfraScan",
+   "source": "Homepage: https://infrascanner.com",
+   "ok": true,
+   "count": 0,
+   "secs": 0.5
+  },
+  {
+   "entity": "InfraScan",
    "source": "FDA: InfraScan",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.3
   },
   {
    "entity": "InfraScan",
@@ -205,7 +226,7 @@
    "source": "FDA: BrainBox",
    "ok": true,
    "count": 0,
-   "secs": 0.5
+   "secs": 0.3
   },
   {
    "entity": "BrainBox Solutions",
@@ -322,6 +343,13 @@
   },
   {
    "entity": "Quanterix",
+   "source": "Homepage: https://www.quanterix.com",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Quanterix",
    "source": "FDA: Quanterix",
    "ok": true,
    "count": 0,
@@ -339,7 +367,7 @@
    "source": "PubMed: Simoa AND (\"traumatic brain injury\" OR concussion)",
    "ok": true,
    "count": 1,
-   "secs": 0.5
+   "secs": 0.6
   },
   {
    "entity": "Quanterix",
@@ -368,10 +396,17 @@
   },
   {
    "entity": "Genalyte",
+   "source": "Homepage: https://www.genalyte.com",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Genalyte",
    "source": "FDA: Genalyte",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.4
   },
   {
    "entity": "Genalyte",
@@ -395,6 +430,13 @@
    "ok": true,
    "count": 1,
    "secs": 0.2
+  },
+  {
+   "entity": "Oculogica",
+   "source": "Homepage: https://oculogica.com",
+   "ok": true,
+   "count": 0,
+   "secs": 0.4
   },
   {
    "entity": "Oculogica",
@@ -472,6 +514,13 @@
   },
   {
    "entity": "Medicortex",
+   "source": "Homepage: https://www.medicortex.fi",
+   "ok": true,
+   "count": 0,
+   "secs": 3.9
+  },
+  {
+   "entity": "Medicortex",
    "source": "PubMed: Medicortex OR ProbTBI",
    "ok": true,
    "count": 0,
@@ -502,10 +551,17 @@
   },
   {
    "entity": "Roche",
+   "source": "Homepage: https://diagnostics.roche.com",
+   "ok": true,
+   "count": 0,
+   "secs": 0.3
+  },
+  {
+   "entity": "Roche",
    "source": "FDA: Roche",
    "ok": true,
    "count": 44,
-   "secs": 0.5
+   "secs": 0.4
   },
   {
    "entity": "Roche",
@@ -556,7 +612,7 @@
    "source": "FDA: Wondfo",
    "ok": true,
    "count": 3,
-   "secs": 0.3
+   "secs": 0.5
   },
   {
    "entity": "Wondfo",
@@ -576,10 +632,17 @@
   },
   {
    "entity": "ACON",
+   "source": "Homepage: https://www.aconlabs.com",
+   "ok": true,
+   "count": 0,
+   "secs": 0.5
+  },
+  {
+   "entity": "ACON",
    "source": "FDA: ACON",
    "ok": true,
    "count": 4,
-   "secs": 0.3
+   "secs": 0.5
   },
   {
    "entity": "ACON",
@@ -602,7 +665,7 @@
    "source": "FDA: Hotgen",
    "ok": true,
    "count": 0,
-   "secs": 1.8
+   "secs": 0.3
   },
   {
    "entity": "Hotgen",
@@ -618,7 +681,14 @@
    "source": "News: \"QuidelOrtho\"",
    "ok": true,
    "count": 15,
-   "secs": 0.3
+   "secs": 0.2
+  },
+  {
+   "entity": "QuidelOrtho",
+   "source": "Homepage: https://www.quidelortho.com",
+   "ok": true,
+   "count": 0,
+   "secs": 0.1
   },
   {
    "entity": "QuidelOrtho",
@@ -651,6 +721,15 @@
    "ok": true,
    "count": 0,
    "secs": 0.2
+  },
+  {
+   "entity": "Boditech Med",
+   "source": "Homepage: https://www.boditech.co.kr",
+   "ok": true,
+   "skipped": true,
+   "note": "homepage can't be read automatically (https://www.boditech.co.kr: 403 Client Error: Forbidden for url: https://www.bod); add a newsroom URL under watch_pages",
+   "count": 0,
+   "secs": 0
   },
   {
    "entity": "Boditech Med",
@@ -710,7 +789,7 @@
    "source": "PubMed: (\"traumatic brain injury\" OR concussion) AND (GFAP OR \"UCH-L1\") AND \"point-of-care\"",
    "ok": true,
    "count": 1,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "entity": "TBI diagnostics market",
@@ -724,7 +803,7 @@
    "source": "News: CMS \"clinical laboratory fee schedule\"",
    "ok": true,
    "count": 5,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Lab reimbursement (CMS)",
