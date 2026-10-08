@@ -7,6 +7,8 @@
 #   category        Free-text grouping shown on the dashboard
 #   website         Homepage (linked from the dashboard)
 #   watch_pages     Pages to scrape for NEW headlines/links (newsroom, press, products)
+#                   (if a company has a website but no watch_pages, its homepage is
+#                   watched automatically; set watch_homepage: false to turn that off)
 #   news_queries    Google News searches (use quotes for exact phrases)
 #   rss             Any RSS/Atom feed URLs (investor relations, blogs)
 #   fda_applicant   Company name as it appears in FDA 510(k)/PMA records

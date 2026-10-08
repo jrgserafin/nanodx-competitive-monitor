@@ -258,6 +258,15 @@ def collect_page(name, page_url, cfg, ent):
     return out[: cfg["max_items_per_source"]]
 
 
+def collect_homepage(name, url, cfg, ent):
+    """Best-effort homepage watch: sites that block bots or render with JavaScript are
+    reported as 'needs setup' instead of failures, with a hint to add a newsroom URL."""
+    try:
+        return collect_page(name, url, cfg, ent)
+    except Exception as ex:  # noqa: BLE001
+        raise SkipSource(f"homepage can't be read automatically ({str(ex)[:80]}); add a newsroom URL under watch_pages")
+
+
 def fda_records(applicant, since=None, limit=100):
     """Yield (kind, record) from openFDA 510(k) and PMA for an applicant."""
     a = urllib.parse.quote(f'"{applicant}"')
@@ -481,6 +490,9 @@ def jobs_for(entity):
     yield from ((f"News: {q}", collect_google_news, q) for q in entity.get("news_queries") or [])
     yield from ((f"RSS: {u}", collect_rss, u) for u in entity.get("rss") or [])
     yield from ((f"Page: {u}", collect_page, u) for u in entity.get("watch_pages") or [])
+    if entity.get("website") and not entity.get("watch_pages") and entity.get("watch_homepage", True):
+        # No newsroom configured: watch the homepage for new headline links (best effort)
+        yield f"Homepage: {entity['website']}", collect_homepage, entity["website"]
     if entity.get("fda_applicant"):
         yield f"FDA: {entity['fda_applicant']}", collect_fda, entity["fda_applicant"]
     if entity.get("trials_sponsor"):

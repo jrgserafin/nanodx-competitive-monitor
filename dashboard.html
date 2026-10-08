@@ -4,597 +4,674 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#070b16">
-<title>NanoDx Intel Console</title>
+<meta name="theme-color" content="#0b1220">
+<title>NanoDx Competitive Intelligence</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
 :root{
   color-scheme: dark;
-  --bg:#070b16; --bg-2:#0b1020; --panel:rgba(16,23,42,.72); --panel-solid:#0e1528; --panel-hi:rgba(26,36,64,.8);
-  --line:rgba(120,160,255,.14); --line-hi:rgba(120,200,255,.38);
-  --ink:#e8eefc; --ink-2:#a9b6d3; --ink-3:#6f7ea0;
-  --accent:#5ee7ff; --accent-2:#9b8cff; --accent-ink:#04121a;
-  --glow:0 0 0 1px rgba(94,231,255,.25), 0 0 24px rgba(94,231,255,.12);
-  --sig-bg:rgba(255,184,77,.12); --sig:#ffc46b; --sig-line:rgba(255,184,77,.35);
-  --good:#3ddc97; --bad:#ff6b7a;
-  --grid:rgba(120,160,255,.06);
+  --bg:#0b1220; --bg2:#0f1a2e; --card:#111c31; --card2:#16233c; --line:#22314f; --line2:#2e4166;
+  --ink:#eef2fa; --ink2:#b4bfd6; --ink3:#7d8aa8;
+  --brand:#4f8cff; --brand2:#7c5cff; --brand-ink:#fff; --brand-soft:rgba(79,140,255,.14);
+  --hot:#f5b54a; --hot-soft:rgba(245,181,74,.13); --good:#34c38f; --bad:#ff6b6b;
   --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181;
-  --chart-surface:#0b1020; --axis:rgba(169,182,211,.18);
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25);
+  --radius:14px;
 }
 :root[data-theme="light"]{
   color-scheme: light;
-  --bg:#eef2f9; --bg-2:#e6ecf6; --panel:rgba(255,255,255,.82); --panel-solid:#ffffff; --panel-hi:rgba(255,255,255,.95);
-  --line:rgba(30,60,140,.12); --line-hi:rgba(20,110,200,.4);
-  --ink:#0b1430; --ink-2:#44516f; --ink-3:#6c7896;
-  --accent:#0a84c8; --accent-2:#5b4bd6; --accent-ink:#ffffff;
-  --glow:0 0 0 1px rgba(10,132,200,.22), 0 6px 24px rgba(10,60,140,.08);
-  --sig-bg:#fff2d6; --sig:#8a4b00; --sig-line:#f3c77a;
-  --good:#0a8a5a; --bad:#c22f3d; --grid:rgba(30,60,140,.05);
+  --bg:#f4f6fb; --bg2:#eef2f8; --card:#ffffff; --card2:#f7f9fc; --line:#e3e8f1; --line2:#cfd8e6;
+  --ink:#0f1a2e; --ink2:#46526b; --ink3:#6f7b93;
+  --brand:#2f6fe4; --brand2:#6a4be0; --brand-ink:#fff; --brand-soft:rgba(47,111,228,.1);
+  --hot:#a15c00; --hot-soft:#fff4dc; --good:#0f8a5f; --bad:#c62f3d;
   --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4;
-  --chart-surface:#ffffff; --axis:rgba(30,50,90,.14);
+  --shadow:0 1px 2px rgba(16,24,40,.05),0 6px 20px rgba(16,24,40,.06);
 }
 *{box-sizing:border-box}
 html,body{margin:0}
-body{
-  background:
-    radial-gradient(1200px 500px at 15% -10%, rgba(94,231,255,.10), transparent 60%),
-    radial-gradient(900px 500px at 95% 0%, rgba(155,140,255,.12), transparent 60%),
-    linear-gradient(var(--grid) 1px, transparent 1px) 0 0/40px 40px,
-    linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0/40px 40px,
-    var(--bg);
-  background-attachment: fixed;
-  color:var(--ink); font:15px/1.5 "Space Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  min-height:100vh;
-}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh}
+body::before{content:"";position:fixed;inset:0 0 auto 0;height:420px;pointer-events:none;z-index:0;
+  background:radial-gradient(900px 340px at 10% -20%,rgba(79,140,255,.18),transparent 70%),radial-gradient(700px 300px at 95% -10%,rgba(124,92,255,.14),transparent 70%)}
 a{color:inherit}
-.mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
-.wrap{max-width:1240px;margin:0 auto;padding:18px 16px 64px}
+button{font:inherit}
+.mono{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace}
+.wrap{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 16px 64px}
 
-/* ---------- top bar ---------- */
-.top{display:flex;flex-wrap:wrap;align-items:center;gap:14px;justify-content:space-between;padding:12px 16px;border:1px solid var(--line);border-radius:14px;background:var(--panel);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);position:relative;overflow:hidden}
-.top::after{content:"";position:absolute;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,var(--accent),var(--accent-2),transparent);opacity:.8}
-.brand{display:flex;align-items:center;gap:12px;min-width:0}
-.logo{width:38px;height:38px;flex:none}
-.brand h1{margin:0;font-size:18px;font-weight:700;letter-spacing:.02em;white-space:nowrap}
-.brand h1 span{color:var(--accent)}
-.brand .tag{font-size:11px;color:var(--ink-3);letter-spacing:.18em;text-transform:uppercase}
-.status{display:flex;align-items:center;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--ink-2)}
-.pulse{display:inline-flex;align-items:center;gap:8px;padding:5px 10px;border:1px solid var(--line);border-radius:999px;background:var(--panel-hi)}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 var(--good);animation:ping 2s infinite}
+/* ---------- header ---------- */
+header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.bar{max-width:1200px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;margin-right:auto;min-width:0}
+.logo{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;color:#fff;font-weight:700;box-shadow:0 6px 18px rgba(79,140,255,.35)}
+.brand b{display:block;font-size:15px;line-height:1.2}
+.brand span{display:block;font-size:12px;color:var(--ink3)}
+.status{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;color:var(--ink2);padding:6px 11px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--good);animation:pulse 2.4s infinite}
 .dot.bad{background:var(--bad)}
-@keyframes ping{0%{box-shadow:0 0 0 0 rgba(61,220,151,.55)}70%{box-shadow:0 0 0 8px rgba(61,220,151,0)}100%{box-shadow:0 0 0 0 rgba(61,220,151,0)}}
-.actions{display:flex;gap:8px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel-hi);color:var(--ink);padding:8px 12px;border-radius:10px;font:inherit;font-size:13px;text-decoration:none;cursor:pointer;transition:border-color .15s, box-shadow .15s, transform .15s}
-.btn:hover{border-color:var(--line-hi);box-shadow:var(--glow)}
-.btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent-2));border-color:transparent;color:var(--accent-ink);font-weight:600}
-.btn.primary:hover{transform:translateY(-1px)}
-.btn svg{width:14px;height:14px}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,195,143,.5)}70%{box-shadow:0 0 0 7px rgba(52,195,143,0)}100%{box-shadow:0 0 0 0 rgba(52,195,143,0)}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 13px;border-radius:10px;font-size:13.5px;font-weight:500;text-decoration:none;cursor:pointer;transition:transform .15s,border-color .15s,box-shadow .15s,background .15s}
+.btn:hover{border-color:var(--line2);transform:translateY(-1px);box-shadow:var(--shadow)}
+.btn:active{transform:translateY(0)}
+.btn.primary{background:linear-gradient(135deg,var(--brand),var(--brand2));border-color:transparent;color:var(--brand-ink)}
+.btn svg{width:15px;height:15px}
+.icon-btn{width:36px;padding:8px 0}
 
-/* ---------- KPIs ---------- */
-.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:16px 0}
-.kpi{position:relative;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:var(--panel);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);overflow:hidden}
-.kpi::before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:linear-gradient(var(--accent),var(--accent-2))}
-.kpi .lbl{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
-.kpi .val{font-family:"JetBrains Mono",monospace;font-size:30px;font-weight:600;line-height:1.15;margin-top:4px;font-variant-numeric:tabular-nums}
-.kpi .sub{font-size:12px;color:var(--ink-2)}
-.kpi.k-sig .val{color:var(--sig);text-shadow:0 0 18px rgba(255,196,107,.35)}
+/* ---------- nav ---------- */
+nav.tabs{max-width:1200px;margin:0 auto;padding:0 16px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs button{position:relative;background:none;border:0;color:var(--ink3);padding:10px 14px 12px;font-size:14px;font-weight:500;cursor:pointer;white-space:nowrap;transition:color .2s}
+nav.tabs button:hover{color:var(--ink)}
+nav.tabs button[aria-selected="true"]{color:var(--ink)}
+nav.tabs .ink{position:absolute;bottom:-1px;height:2px;border-radius:2px;background:linear-gradient(90deg,var(--brand),var(--brand2));transition:left .3s cubic-bezier(.2,.8,.2,1),width .3s cubic-bezier(.2,.8,.2,1)}
+nav.tabs .wrapper{position:relative;display:flex;gap:4px}
 
-/* ---------- panels ---------- */
-.grid2{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:12px;margin-bottom:16px}
-.panel{border:1px solid var(--line);border-radius:14px;background:var(--panel);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:14px 16px;min-width:0}
-.ph{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:8px;flex-wrap:wrap}
-.ph h2{margin:0;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);font-weight:600}
-.ph .meta{font-size:11px;color:var(--ink-3)}
-.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--ink-2);margin-top:6px}
-.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+/* ---------- sections ---------- */
+section.view{padding-top:22px;animation:viewIn .35s ease both}
+@keyframes viewIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.reveal{opacity:0;transform:translateY(10px);animation:fadeUp .5s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:calc(var(--i,0) * 45ms)}
+@keyframes fadeUp{to{opacity:1;transform:none}}
+h2.h{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);margin:0 0 10px;display:flex;align-items:center;gap:8px;justify-content:space-between}
+h2.h a,h2.h button{font-size:12.5px;text-transform:none;letter-spacing:0;color:var(--brand);text-decoration:none;background:none;border:0;cursor:pointer;font-weight:500}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.pad{padding:16px 18px}
+.grid{display:grid;gap:14px}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.g2{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}
+.g2b{grid-template-columns:minmax(0,1.6fr) minmax(0,1fr)}
+.mt{margin-top:14px}
+
+/* KPI */
+.kpi{position:relative;overflow:hidden;padding:16px 18px}
+.kpi .l{font-size:12.5px;color:var(--ink3);font-weight:500}
+.kpi .v{font-size:30px;font-weight:700;letter-spacing:-.02em;margin-top:2px;font-variant-numeric:tabular-nums}
+.kpi .s{font-size:12.5px;color:var(--ink2)}
+.kpi::after{content:"";position:absolute;right:-30px;top:-30px;width:110px;height:110px;border-radius:50%;background:var(--brand-soft);transition:transform .4s}
+.kpi:hover::after{transform:scale(1.25)}
+.kpi.hot .v{color:var(--hot)}
+.kpi.hot::after{background:var(--hot-soft)}
+
+/* items */
+.list{display:flex;flex-direction:column}
+.item{display:grid;grid-template-columns:4px minmax(0,1fr);gap:12px;padding:12px 4px;border-bottom:1px solid var(--line);transition:background .15s}
+.item:last-child{border-bottom:0}
+.item:hover{background:var(--card2)}
+.item .edge{border-radius:4px;background:var(--c,var(--brand))}
+.meta{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;font-size:12.5px;color:var(--ink3)}
+.meta .co{font-weight:600;color:var(--ink2)}
+.tag{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;color:var(--ink2);padding:1px 8px;border-radius:999px;border:1px solid var(--line)}
+.tag i{width:7px;height:7px;border-radius:2px;background:var(--c)}
+.sig{display:inline-flex;align-items:center;gap:4px;font-size:11.5px;font-weight:600;color:var(--hot);background:var(--hot-soft);padding:1px 8px;border-radius:999px}
+.item a.t{display:block;font-weight:600;text-decoration:none;color:var(--ink);margin-top:2px;overflow-wrap:anywhere;line-height:1.4}
+.item a.t:hover{color:var(--brand)}
+.item p{margin:3px 0 0;color:var(--ink2);font-size:13.5px;overflow-wrap:anywhere}
+.empty{padding:28px 16px;text-align:center;color:var(--ink3);font-size:14px}
+.md{font-size:14.5px;color:var(--ink)}
+.md h4{margin:10px 0 2px;font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3)}
+.md h4:first-child{margin-top:0}
+.md p{margin:2px 0 8px}.md ul{margin:2px 0 8px;padding-left:18px}.md li{margin:4px 0}
+.md a.cite{color:var(--brand);text-decoration:none;font-size:12px;font-weight:600}
+.note{font-size:12.5px;color:var(--ink3)}
+
+/* chart */
 #chart{position:relative}
-#chart svg{display:block;width:100%;height:190px}
-.tip{position:absolute;pointer-events:none;background:var(--panel-solid);border:1px solid var(--line-hi);border-radius:10px;padding:8px 10px;font-size:12px;color:var(--ink);box-shadow:0 8px 30px rgba(0,0,0,.35);min-width:150px;z-index:5;opacity:0;transition:opacity .1s}
-.tip b{display:block;font-size:12px;margin-bottom:4px}
-.tip .r{display:flex;justify-content:space-between;gap:12px;color:var(--ink-2)}
-.tip .r span:last-child{font-family:"JetBrains Mono",monospace;color:var(--ink)}
-.bars{display:flex;flex-direction:column;gap:9px;margin-top:4px}
-.bar{display:grid;grid-template-columns:minmax(0,110px) minmax(0,1fr) 34px;align-items:center;gap:10px;font-size:13px;cursor:pointer;background:none;border:0;color:inherit;font:inherit;padding:0;text-align:left}
-.bar .n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink-2)}
-.bar .t{height:8px;border-radius:4px;background:var(--line);overflow:hidden}
-.bar .f{height:100%;border-radius:4px;background:linear-gradient(90deg,var(--accent),var(--accent-2));box-shadow:0 0 12px rgba(94,231,255,.35)}
-.bar .c{font-family:"JetBrains Mono",monospace;text-align:right;font-size:12px}
-.bar:hover .n{color:var(--ink)}
+#chart svg{display:block;width:100%;height:200px;overflow:visible}
+#chart .bar-g rect,#chart .bar-g path{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);animation:grow .7s cubic-bezier(.2,.8,.2,1) forwards;animation-delay:calc(var(--d) * 18ms)}
+@keyframes grow{to{transform:scaleY(1)}}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--ink2);margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line2);border-radius:10px;padding:8px 10px;font-size:12.5px;box-shadow:var(--shadow);min-width:150px;opacity:0;transform:translateY(4px);transition:opacity .12s,transform .12s;z-index:5}
+.tip.on{opacity:1;transform:none}
+.tip b{display:block;margin-bottom:4px}
+.tip .r{display:flex;justify-content:space-between;gap:14px;color:var(--ink2)}
+.rank{display:flex;flex-direction:column;gap:10px}
+.rank button{display:grid;grid-template-columns:minmax(0,120px) minmax(0,1fr) 30px;gap:10px;align-items:center;background:none;border:0;color:inherit;padding:0;cursor:pointer;text-align:left;font-size:13.5px}
+.rank .n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink2)}
+.rank button:hover .n{color:var(--ink)}
+.track{height:8px;border-radius:4px;background:var(--card2);overflow:hidden;border:1px solid var(--line)}
+.fill{display:block;height:100%;width:0;border-radius:4px;background:linear-gradient(90deg,var(--brand),var(--brand2));transition:width .9s cubic-bezier(.2,.8,.2,1)}
+.rank .c{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;font-size:13px}
 
-/* ---------- tabs + filters ---------- */
-.tabs{display:flex;gap:4px;padding:4px;border:1px solid var(--line);border-radius:12px;background:var(--panel);width:max-content;max-width:100%;overflow-x:auto;margin-bottom:12px}
-.tabs button{background:none;border:0;color:var(--ink-2);padding:7px 14px;border-radius:9px;font:inherit;font-size:13px;cursor:pointer;white-space:nowrap;letter-spacing:.02em}
-.tabs button[aria-selected="true"]{background:var(--panel-hi);color:var(--ink);box-shadow:var(--glow)}
-.cmd{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
-.search{flex:1 1 280px;min-width:0;position:relative}
-.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--ink-3)}
-.search input{width:100%;padding:11px 44px 11px 38px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);font:inherit;outline:none;transition:border-color .15s, box-shadow .15s}
-.search input:focus{border-color:var(--line-hi);box-shadow:var(--glow)}
-.search kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);font:11px "JetBrains Mono",monospace;color:var(--ink-3);border:1px solid var(--line);border-radius:6px;padding:1px 6px}
-select{padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--panel);color:var(--ink);font:inherit;font-size:13px;max-width:100%}
-.tog{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-2);cursor:pointer;padding:9px 12px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
-.tog input{accent-color:var(--sig)}
-.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
-.chip{border:1px solid var(--line);background:var(--panel);color:var(--ink-2);border-radius:999px;padding:5px 12px;font:inherit;font-size:12px;cursor:pointer;transition:all .15s}
-.chip:hover{border-color:var(--line-hi);color:var(--ink)}
-.chip[aria-pressed="true"]{border-color:var(--accent);color:var(--ink);box-shadow:var(--glow);background:var(--panel-hi)}
-.count{font-size:12px;color:var(--ink-3);margin:0 0 8px}
+/* companies */
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.seg{display:inline-flex;padding:3px;border:1px solid var(--line);border-radius:11px;background:var(--card);max-width:100%;overflow-x:auto}
+.seg button{border:0;background:none;color:var(--ink2);padding:6px 12px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:500;white-space:nowrap;transition:background .2s,color .2s}
+.seg button[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink)}
+.search{position:relative;flex:1 1 240px;min-width:0}
+.search svg{position:absolute;left:11px;top:50%;width:16px;height:16px;transform:translateY(-50%);color:var(--ink3)}
+.search input{width:100%;padding:10px 12px 10px 36px;border:1px solid var(--line);border-radius:11px;background:var(--card);color:var(--ink);font:inherit;font-size:14px;outline:none;transition:border-color .15s,box-shadow .15s}
+.search input:focus{border-color:var(--brand);box-shadow:0 0 0 3px var(--brand-soft)}
+select{padding:9px 11px;border:1px solid var(--line);border-radius:11px;background:var(--card);color:var(--ink);font:inherit;font-size:13.5px;max-width:100%}
+.tog{display:inline-flex;align-items:center;gap:7px;font-size:13.5px;color:var(--ink2);cursor:pointer;padding:8px 11px;border:1px solid var(--line);border-radius:11px;background:var(--card)}
+.tog input{accent-color:var(--hot)}
+.cos{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.co-card{text-align:left;cursor:pointer;color:inherit;padding:14px 16px;display:flex;flex-direction:column;gap:8px;transition:transform .2s,border-color .2s,box-shadow .2s}
+.co-card:hover{transform:translateY(-3px);border-color:var(--line2)}
+.co-card .hd{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.co-card b{font-size:15.5px}
+.tier{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.tier.direct{color:#fff;background:linear-gradient(135deg,var(--brand),var(--brand2))}
+.tier.indirect{color:var(--ink2);border:1px solid var(--line2)}
+.tier.topic{color:var(--ink3);border:1px dashed var(--line2)}
+.co-card .cat{font-size:12.5px;color:var(--ink3);margin-top:-6px}
+.co-card .row{display:flex;justify-content:space-between;align-items:flex-end;gap:8px}
+.co-card .num{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.co-card .num small{display:block;font-size:11.5px;font-weight:500;color:var(--ink3);margin-top:3px}
+.spark{width:110px;height:34px}
+.spark path.ln{stroke-dasharray:400;stroke-dashoffset:400;animation:draw 1.2s ease forwards .2s}
+@keyframes draw{to{stroke-dashoffset:0}}
+.cov{display:flex;flex-wrap:wrap;gap:4px}
+.cov span{font-size:10.5px;font-weight:600;letter-spacing:.02em;color:var(--ink3);border:1px solid var(--line);border-radius:6px;padding:0 6px}
+.last{font-size:12px;color:var(--ink3)}
 
-/* ---------- feed ---------- */
-.feed{display:flex;flex-direction:column;gap:8px}
-.day{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);padding:10px 2px 2px;display:flex;align-items:center;gap:10px}
-.day::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
-.it{position:relative;padding:12px 14px 12px 18px;border:1px solid var(--line);border-radius:12px;background:var(--panel);transition:border-color .15s, transform .15s, box-shadow .15s}
-.it::before{content:"";position:absolute;left:0;top:10px;bottom:10px;width:3px;border-radius:0 3px 3px 0;background:var(--c,var(--accent))}
-.it:hover{border-color:var(--line-hi);box-shadow:var(--glow);transform:translateX(2px)}
-.it.hot{border-color:var(--sig-line)}
-.it .top2{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:12px;color:var(--ink-3)}
-.src{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);display:inline-flex;align-items:center;gap:6px}
-.src i{width:8px;height:8px;border-radius:2px;background:var(--c)}
-.comp{font-weight:600;color:var(--ink-2)}
-.sig{background:var(--sig-bg);color:var(--sig);border:1px solid var(--sig-line);border-radius:6px;padding:0 7px;font-size:11px;font-family:"JetBrains Mono",monospace}
-.it a.t{display:block;font-weight:600;font-size:15px;text-decoration:none;margin-top:3px;overflow-wrap:anywhere;color:var(--ink)}
-.it a.t:hover{color:var(--accent)}
-.it p{margin:3px 0 0;color:var(--ink-2);font-size:13px;overflow-wrap:anywhere}
-.empty{padding:36px;text-align:center;color:var(--ink-3);border:1px dashed var(--line);border-radius:12px}
-.more{display:block;width:100%;margin-top:10px;justify-content:center}
-
-/* ---------- competitors ---------- */
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
-.card{border:1px solid var(--line);border-radius:14px;background:var(--panel);padding:16px;display:flex;flex-direction:column;gap:6px;transition:border-color .15s, box-shadow .15s}
-.card:hover{border-color:var(--line-hi);box-shadow:var(--glow)}
-.card h3{margin:0;font-size:17px}
-.card .cat{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
-.card .nums{display:flex;gap:18px;font-size:12px;color:var(--ink-3)}
-.card .nums b{display:block;font-family:"JetBrains Mono",monospace;font-size:20px;color:var(--ink)}
-.spark{width:100%;height:36px;display:block}
-.card ul{margin:2px 0 0;padding-left:16px;font-size:13px;color:var(--ink-2)}
-.card li{margin:2px 0}
-.card li a{text-decoration:none}.card li a:hover{color:var(--accent)}
-.card .w{font-size:12px;color:var(--ink-3)}
-.card .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:6px}
-
-/* ---------- tables ---------- */
-.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--panel)}
-table{width:100%;border-collapse:collapse;font-size:13px}
-th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+/* drawer */
+.scrim{position:fixed;inset:0;background:rgba(5,10,20,.5);backdrop-filter:blur(2px);opacity:0;pointer-events:none;transition:opacity .25s;z-index:40}
+.scrim.on{opacity:1;pointer-events:auto}
+aside.drawer{position:fixed;top:0;right:0;bottom:0;width:min(760px,100%);background:var(--bg);border-left:1px solid var(--line);z-index:41;transform:translateX(100%);transition:transform .35s cubic-bezier(.2,.8,.2,1);overflow-y:auto;box-shadow:-20px 0 60px rgba(0,0,0,.35);visibility:hidden}
+aside.drawer.on{transform:none;visibility:visible}
+.dh{position:sticky;top:0;z-index:2;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:16px 20px;border-bottom:1px solid var(--line);display:flex;gap:10px;align-items:flex-start;flex-wrap:wrap}
+.dh h3{margin:2px 0 0;font-size:22px;letter-spacing:-.01em}
+.dh .sub{font-size:13px;color:var(--ink3)}
+.db{padding:18px 20px 40px;display:flex;flex-direction:column;gap:14px}
+.mini{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.mini div{padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.mini b{display:block;font-size:20px;font-variant-numeric:tabular-nums}
+.mini span{font-size:11.5px;color:var(--ink3)}
+.sect h4{margin:0 0 6px;font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3)}
+.sect ul{margin:0;padding-left:18px;font-size:13.5px;color:var(--ink2)}
+.sect li{margin:4px 0}
+.sect li a{text-decoration:none}.sect li a:hover{color:var(--brand)}
+.threat{font-size:11.5px;font-weight:600;padding:2px 9px;border-radius:999px;border:1px solid;text-transform:none;letter-spacing:0}
+.threat.high{color:var(--bad)}.threat.medium{color:var(--hot)}.threat.low{color:var(--good)}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:2px 9px;margin:2px 6px 2px 0;font-size:12.5px;color:var(--ink2);background:var(--card2)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
 tr:last-child td{border-bottom:0}
-th{color:var(--ink-3);font-weight:600;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
-td.err{color:var(--bad);overflow-wrap:anywhere}
-.ok{color:var(--good);font-weight:600}.bad{color:var(--bad);font-weight:600}
-.help{border:1px solid var(--line);border-radius:14px;background:var(--panel);padding:16px 18px;font-size:14px;color:var(--ink-2)}
-.help b{color:var(--ink)}
-.help code{font-family:"JetBrains Mono",monospace;background:var(--panel-hi);border:1px solid var(--line);padding:1px 6px;border-radius:6px;font-size:12px;color:var(--ink)}
-footer{margin-top:28px;font-size:11px;color:var(--ink-3);letter-spacing:.08em;text-align:center}
+th{font-size:11.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3)}
+.tw{overflow-x:auto}
+.ok{color:var(--good);font-weight:600}.bad{color:var(--bad);font-weight:600}.wait{color:var(--hot);font-weight:600}
+.err{color:var(--bad);overflow-wrap:anywhere}
+
+/* help */
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.step .n{width:28px;height:28px;border-radius:9px;display:grid;place-items:center;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--brand),var(--brand2));margin-bottom:8px}
+.step b{display:block;margin-bottom:4px}
+.step p{margin:0;font-size:13.5px;color:var(--ink2)}
+details summary{cursor:pointer;font-weight:600;padding:4px 0}
+code{font-family:"JetBrains Mono",monospace;font-size:12px;background:var(--card2);border:1px solid var(--line);padding:1px 6px;border-radius:6px}
+
+.sk{background:linear-gradient(90deg,var(--card) 0%,var(--card2) 50%,var(--card) 100%);background-size:200% 100%;animation:shimmer 1.2s infinite;border-radius:10px}
+@keyframes shimmer{from{background-position:200% 0}to{background-position:-200% 0}}
+.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,20px);opacity:0;background:var(--card);border:1px solid var(--line2);color:var(--ink);padding:10px 16px;border-radius:12px;box-shadow:var(--shadow);font-size:13.5px;transition:opacity .25s,transform .25s;z-index:60;pointer-events:none}
+.toast.on{opacity:1;transform:translate(-50%,0)}
 [hidden]{display:none!important}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+footer{margin-top:34px;text-align:center;font-size:12px;color:var(--ink3)}
 
-@media (max-width:900px){.grid2{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:960px){.g2,.g2b{grid-template-columns:minmax(0,1fr)}.steps{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:640px){
-  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .kpi .val{font-size:24px}
-  .brand h1{font-size:16px}
-  .status .clock{display:none}
-  .actions{width:100%}.actions .btn{flex:1;justify-content:center}
+  .g4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .kpi .v{font-size:24px}
+  .status .long{display:none}
+  .mini{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .brand span{display:none}
+  .bar{gap:8px}
 }
-/* ---------- analyst brief ---------- */
-.brief{position:relative;border:1px solid var(--line-hi);border-radius:14px;background:linear-gradient(135deg,rgba(94,231,255,.07),rgba(155,140,255,.07)),var(--panel);padding:14px 18px;margin-bottom:16px;box-shadow:var(--glow)}
-.brief .ph h2{color:var(--accent)}
-.brief .md{font-size:14px;color:var(--ink);columns:2 340px;column-gap:28px}
-.md h4{margin:6px 0 2px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);break-after:avoid}
-.md p{margin:2px 0 8px}.md ul{margin:2px 0 8px;padding-left:18px}.md li{margin:3px 0;break-inside:avoid}
-.md a.cite{color:var(--accent);text-decoration:none;font-family:"JetBrains Mono",monospace;font-size:11px}
-.note{font-size:11px;color:var(--ink-3)}
-/* ---------- battlecards ---------- */
-.bc-head{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start;justify-content:space-between;margin-bottom:12px}
-.bc-head h2{margin:0;font-size:26px;letter-spacing:.01em}
-.threat{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;font-size:11px;font-family:"JetBrains Mono",monospace;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--line)}
-.threat.high{color:var(--bad);border-color:var(--bad)}.threat.medium{color:var(--sig);border-color:var(--sig-line)}.threat.low{color:var(--good);border-color:var(--good)}
-.bc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-.bc-grid .wide{grid-column:span 2}.bc-grid .full{grid-column:1/-1}
-.bc-grid ul{margin:4px 0 0;padding-left:18px;font-size:13px;color:var(--ink-2)}.bc-grid li{margin:4px 0}
-.bc-grid li a{text-decoration:none}.bc-grid li a:hover{color:var(--accent)}
-.mini{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:4px 0}
-.mini div{border:1px solid var(--line);border-radius:10px;padding:8px 10px}
-.mini b{display:block;font-family:"JetBrains Mono",monospace;font-size:20px}
-.mini span{font-size:11px;color:var(--ink-3);letter-spacing:.06em;text-transform:uppercase}
-.pills{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
-.tag2{display:inline-block;border:1px solid var(--line);border-radius:6px;padding:1px 8px;margin:2px 4px 2px 0;font-size:12px;color:var(--ink-2)}
-.empty-s{color:var(--ink-3);font-size:13px}
-@media (max-width:900px){.bc-grid{grid-template-columns:minmax(0,1fr)}.bc-grid .wide{grid-column:auto}.mini{grid-template-columns:repeat(2,minmax(0,1fr))}.brief .md{columns:1}}
 @media print{
-  body{background:#fff!important;color:#000}
-  :root{--ink:#000;--ink-2:#333;--ink-3:#666;--panel:#fff;--panel-hi:#fff;--line:#ccc;--accent:#0a5ea8;--glow:none}
-  .top,.kpis,.grid2,.tabs,.brief,.no-print,footer,#tab-feed{display:none!important}
-  .panel,.card{break-inside:avoid;backdrop-filter:none}
+  header.top,.scrim,section.view,footer,.no-print,.toast{display:none!important}
+  aside.drawer{position:static;transform:none;width:auto;box-shadow:none;border:0;visibility:visible;overflow:visible}
+  body{background:#fff}
 }
-@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+@media (prefers-reduced-motion: reduce){*,*::before,*::after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}#chart .bar-g rect,#chart .bar-g path{transform:none}.spark path.ln{stroke-dashoffset:0}}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header class="top">
+<header class="top">
+  <div class="bar">
     <div class="brand">
-      <svg class="logo" viewBox="0 0 40 40" aria-hidden="true">
-        <defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--accent)"/><stop offset="1" stop-color="var(--accent-2)"/></linearGradient></defs>
-        <circle cx="20" cy="20" r="17" fill="none" stroke="url(#lg)" stroke-width="1.5" opacity=".9"/>
-        <circle cx="20" cy="20" r="11" fill="none" stroke="url(#lg)" stroke-width="1" opacity=".55"/>
-        <circle cx="20" cy="20" r="5" fill="none" stroke="url(#lg)" stroke-width="1" opacity=".4"/>
-        <path d="M20 20 L20 3 A17 17 0 0 1 35 12 Z" fill="url(#lg)" opacity=".28"><animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="6s" repeatCount="indefinite"/></path>
-        <circle cx="27" cy="13" r="2" fill="var(--accent)"/><circle cx="12" cy="25" r="1.6" fill="var(--accent-2)"/>
-      </svg>
-      <div>
-        <h1>NANODX <span>//</span> INTEL CONSOLE</h1>
-        <div class="tag">Competitive monitoring · TBI diagnostics</div>
+      <div class="logo" aria-hidden="true">N</div>
+      <div><b>NanoDx Competitive Intelligence</b><span>TBI diagnostics landscape · updated automatically</span></div>
+    </div>
+    <span class="status" title="Source status"><span class="dot" id="dot"></span><span id="statusTxt">Loading…</span></span>
+    <a class="btn primary" id="runLink" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M4.5 2.8v10.4L13 8z"/></svg>Run a lookup</a>
+    <button class="btn icon-btn" id="themeBtn" type="button" aria-label="Switch light or dark mode" title="Light / dark">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="3.2"/><path d="M8 1v1.6M8 13.4V15M1 8h1.6M13.4 8H15M3 3l1.1 1.1M11.9 11.9 13 13M3 13l1.1-1.1M11.9 4.1 13 3"/></svg>
+    </button>
+  </div>
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <div class="wrapper">
+      <button role="tab" data-tab="overview" aria-selected="true">Overview</button>
+      <button role="tab" data-tab="companies" aria-selected="false">Companies</button>
+      <button role="tab" data-tab="activity" aria-selected="false">Activity</button>
+      <button role="tab" data-tab="reports" aria-selected="false">Reports</button>
+      <button role="tab" data-tab="help" aria-selected="false">Help</button>
+      <span class="ink" id="ink"></span>
+    </div>
+  </nav>
+</header>
+
+<div class="wrap">
+  <section class="view" id="v-overview">
+    <div class="grid g4">
+      <div class="card kpi reveal" style="--i:0"><div class="l">New in latest digest</div><div class="v" id="kNew">0</div><div class="s" id="kNewS">&nbsp;</div></div>
+      <div class="card kpi hot reveal" style="--i:1"><div class="l">High-signal · 30 days</div><div class="v" id="kSig">0</div><div class="s">FDA, launches, deals, reimbursement</div></div>
+      <div class="card kpi reveal" style="--i:2"><div class="l">Alerts · 7 days</div><div class="v" id="kAlerts">0</div><div class="s">instant emails</div></div>
+      <div class="card kpi reveal" style="--i:3"><div class="l">Companies monitored</div><div class="v" id="kCos">0</div><div class="s" id="kCosS">&nbsp;</div></div>
+    </div>
+
+    <div class="grid g2 mt">
+      <div class="card pad reveal" style="--i:4">
+        <h2 class="h">Needs attention <button type="button" data-go="activity" data-sig="1">View all →</button></h2>
+        <div class="list" id="attention"><div class="sk" style="height:180px"></div></div>
+      </div>
+      <div class="card pad reveal" style="--i:5">
+        <h2 class="h">Analyst brief <span class="note" id="briefMeta"></span></h2>
+        <div class="md" id="brief"><div class="sk" style="height:140px"></div></div>
       </div>
     </div>
-    <div class="status">
-      <span class="pulse"><span class="dot" id="dot"></span><span id="sysStatus" class="mono">SYNCING…</span></span>
-      <span class="mono clock" id="clock"></span>
-      <span class="mono" id="updated"></span>
-    </div>
-    <div class="actions">
-      <a class="btn primary" id="runLink" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M4 2.5v11l9-5.5z"/></svg>Run a lookup</a>
-      <a class="btn" id="editLink" href="#" target="_blank" rel="noopener">Edit targets</a>
-      <button class="btn" id="themeBtn" type="button" aria-label="Switch light or dark">Day / Night</button>
-    </div>
-  </header>
 
-  <section class="kpis" aria-label="Summary">
-    <div class="kpi"><div class="lbl">New · latest digest</div><div class="val" id="kNew">–</div><div class="sub" id="kNewSub">&nbsp;</div></div>
-    <div class="kpi k-sig"><div class="lbl">High-signal · 30d</div><div class="val" id="kSig">–</div><div class="sub">FDA, launches, deals, CLIA…</div></div>
-    <div class="kpi"><div class="lbl">Alerts · 7 days</div><div class="val" id="kAlerts">–</div><div class="sub" id="kComp">&nbsp;</div></div>
-    <div class="kpi"><div class="lbl">Source health</div><div class="val" id="kHealth">–</div><div class="sub" id="kHealthSub">&nbsp;</div></div>
-  </section>
-
-  <section class="brief" id="brief" hidden>
-    <div class="ph"><h2>◆ Analyst brief</h2><span class="meta mono" id="briefMeta"></span></div>
-    <div class="md" id="briefBody"></div>
-    <div class="note">AI-generated from the collected items; follow the cited links and verify before acting.</div>
-  </section>
-
-  <section class="grid2">
-    <div class="panel">
-      <div class="ph"><h2>Signal timeline</h2><span class="meta mono">items per day · last 30 days</span></div>
-      <div id="chart" role="img" aria-label="Stacked bar chart of items per day by source, last 30 days"></div>
-      <div class="legend" id="legend"></div>
-    </div>
-    <div class="panel">
-      <div class="ph"><h2>Activity by competitor</h2><span class="meta mono">30 days</span></div>
-      <div class="bars" id="compBars"></div>
+    <div class="grid g2b mt">
+      <div class="card pad reveal" style="--i:6">
+        <h2 class="h">Activity over 30 days <span class="note">items per day · click a day</span></h2>
+        <div id="chart" role="img" aria-label="Stacked bar chart of items per day by source over the last 30 days"></div>
+        <div class="legend" id="legend"></div>
+      </div>
+      <div class="card pad reveal" style="--i:7">
+        <h2 class="h">Most active · 30 days <button type="button" data-go="companies">All companies →</button></h2>
+        <div class="rank" id="rank"></div>
+      </div>
     </div>
   </section>
 
-  <nav class="tabs" role="tablist">
-    <button role="tab" aria-selected="true" data-tab="feed">Activity</button>
-    <button role="tab" aria-selected="false" data-tab="cards">Battlecards</button>
-    <button role="tab" aria-selected="false" data-tab="weekly">Weekly</button>
-    <button role="tab" aria-selected="false" data-tab="digests">Digests</button>
-    <button role="tab" aria-selected="false" data-tab="health">Sources</button>
-    <button role="tab" aria-selected="false" data-tab="help">How it works</button>
-  </nav>
-
-  <section id="tab-feed">
-    <div class="cmd">
-      <label class="search"><span class="sr">Search</span>
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
-        <input type="search" id="q" placeholder="Search intel — GFAP, 510(k), Abbott, launch…" autocomplete="off"><kbd>/</kbd>
+  <section class="view" id="v-companies" hidden>
+    <div class="toolbar">
+      <div class="seg" id="tierSeg" role="group" aria-label="Filter by type">
+        <button type="button" data-tier="all" aria-pressed="true">All</button>
+        <button type="button" data-tier="direct" aria-pressed="false">Direct</button>
+        <button type="button" data-tier="indirect" aria-pressed="false">Indirect</button>
+        <button type="button" data-tier="topic" aria-pressed="false">Market topics</button>
+      </div>
+      <label class="search"><span class="sr">Find a company</span>
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3.5 3.5"/></svg>
+        <input id="coQ" type="search" placeholder="Find a company or product…" autocomplete="off">
       </label>
-      <select id="src" aria-label="Source"><option value="">All sources</option></select>
-      <select id="range" aria-label="Date range">
-        <option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option>
-        <option value="90">Last 90 days</option><option value="0">All time</option>
-      </select>
-      <label class="tog"><input type="checkbox" id="sigOnly"> High-signal only</label>
-      <button class="btn" id="csvBtn" type="button" title="Download the filtered list as CSV">⇩ CSV</button>
+      <select id="coSort" aria-label="Sort companies"><option value="active">Most active</option><option value="name">A–Z</option><option value="recent">Most recent</option></select>
     </div>
-    <div class="chips" id="chips"></div>
-    <p class="count mono" id="count"></p>
-    <div class="feed" id="feed"></div>
-    <button class="btn more" id="moreBtn" hidden>Load more</button>
+    <div class="cos" id="cos"></div>
   </section>
 
-  <section id="tab-cards" hidden>
-    <div class="pills no-print" id="bcPills"></div>
-    <div id="bcView"></div>
-    <div class="cards" id="compGrid" style="margin-top:16px"></div>
+  <section class="view" id="v-activity" hidden>
+    <div class="toolbar">
+      <label class="search"><span class="sr">Search</span>
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3.5 3.5"/></svg>
+        <input id="q" type="search" placeholder="Search headlines — e.g. GFAP, 510(k), launch" autocomplete="off">
+      </label>
+      <select id="fCo" aria-label="Company"><option value="">All companies</option></select>
+      <select id="fSrc" aria-label="Source"><option value="">All sources</option></select>
+      <select id="fRange" aria-label="Date range"><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="0">All time</option></select>
+      <label class="tog"><input type="checkbox" id="fSig"> High-signal</label>
+      <button class="btn" type="button" id="csvBtn" title="Download these results as a spreadsheet">⇩ Export CSV</button>
+    </div>
+    <div class="note" id="count" style="margin:0 0 8px"></div>
+    <div class="card pad"><div class="list" id="feed"></div></div>
+    <div style="text-align:center;margin-top:12px"><button class="btn" id="more" hidden>Show more</button></div>
   </section>
-  <section id="tab-weekly" hidden><div id="weeklyView"></div></section>
-  <section id="tab-digests" hidden><div class="tablewrap"><table><thead><tr><th>Date</th><th>New items</th><th></th></tr></thead><tbody id="digestRows"></tbody></table></div></section>
-  <section id="tab-health" hidden><div class="tablewrap"><table><thead><tr><th>Target</th><th>Source</th><th>Status</th><th>Details</th></tr></thead><tbody id="healthRows"></tbody></table></div></section>
-  <section id="tab-help" hidden>
-    <div class="help">
-      <p><b>What runs:</b> every weekday morning a GitHub Action sweeps Google News, competitor web pages, RSS feeds, FDA 510(k)/PMA decisions, ClinicalTrials.gov, PubMed, SEC filings, US patents, job boards and the Federal Register for each target in <code>competitors.yaml</code>. New items land here and go out as an email digest; three more sweeps during the day send <b>instant alerts</b> for FDA decisions, deals, launches and similar. Mondays add a <b>weekly review</b> and refresh the <b>battlecards</b>.</p>
-      <p><b>AI analyst:</b> when the <code>ANTHROPIC_API_KEY</code> secret is set, digests, alerts and the weekly review open with a written brief, and each battlecard gets a summary, threat level and talk track. Describe NanoDx in <code>company_context</code> so the analysis is relevant.</p>
-      <p><b>Battlecards:</b> one page per competitor — FDA record, recent moves, SEC filings, trials, publications, patents, hiring, plus your team's notes from the <code>profile</code> block. Use <i>Print / PDF</i> to share one, or <i>⇩ CSV</i> to export.</p>
-      <p><b>Look something up now:</b> <i>Run a lookup</i> → <i>Run workflow</i>. Pick a mode (digest, alerts, weekly or collect), leave “only” blank for everyone or type a name (e.g. <code>Abbott</code>), and tick “send email” to mail the result. The console refreshes about 2 minutes after the run finishes.</p>
-      <p><b>Add a competitor:</b> <i>Edit targets</i>, copy an existing block, change the name and searches, commit.</p>
-      <p><b>High-signal</b> items mention keywords like FDA, clearance, launch, acquisition, CLIA or reimbursement (editable in <code>competitors.yaml</code>).</p>
-      <p><b>Shortcuts:</b> <code>/</code> search · <code>Esc</code> clear.</p>
-      <p style="font-size:13px;color:var(--ink-3)">Only headlines and short snippets from public sources are stored; follow links for full content.</p>
+
+  <section class="view" id="v-reports" hidden>
+    <div class="grid g2">
+      <div class="card pad"><h2 class="h">Weekly review <span class="note" id="wkMeta"></span></h2><div id="weekly"></div></div>
+      <div class="card pad"><h2 class="h">Daily digests</h2><div class="tw"><table><thead><tr><th>Date</th><th>New items</th><th></th></tr></thead><tbody id="digests"></tbody></table></div></div>
     </div>
   </section>
 
-  <footer class="mono">NANODX INTEL CONSOLE · PUBLIC SOURCES ONLY</footer>
+  <section class="view" id="v-help" hidden>
+    <div class="steps">
+      <div class="card pad step reveal" style="--i:0"><div class="n">1</div><b>Check the Overview</b><p>“Needs attention” lists the most important new items: FDA decisions, launches, deals and reimbursement news.</p></div>
+      <div class="card pad step reveal" style="--i:1"><div class="n">2</div><b>Open a company</b><p>Companies → click any card for its battlecard: FDA record, recent moves, trials, publications, patents, filings and team notes. Print it or export it as CSV.</p></div>
+      <div class="card pad step reveal" style="--i:2"><div class="n">3</div><b>Look something up</b><p>“Run a lookup” refreshes everything now (about 2 minutes). Pick a mode, optionally type one company name, and tick “send email” to get the result in your inbox.</p></div>
+    </div>
+    <div class="card pad mt">
+      <h2 class="h">What runs automatically</h2>
+      <ul style="margin:0;padding-left:18px;color:var(--ink2);font-size:14px">
+        <li><b>Weekdays ~7am ET</b> — every source is checked and the daily digest is emailed.</li>
+        <li><b>Three more checks each weekday</b> — instant alert emails for FDA decisions, major SEC filings, launches, recalls and deals.</li>
+        <li><b>Mondays</b> — weekly review and refreshed battlecards.</li>
+        <li><b>Sources</b> — Google News, company websites, FDA 510(k)/PMA, ClinicalTrials.gov, PubMed, SEC filings, US patents, job boards and the Federal Register (CMS/FDA rules).</li>
+      </ul>
+      <p class="note" style="margin-top:10px">Add or edit companies in <code>competitors.yaml</code> (<a id="editLink" href="#" target="_blank" rel="noopener">edit on GitHub</a>). Only public headlines and short snippets are stored. AI briefs and battlecard strategy are emailed only and never published here.</p>
+    </div>
+    <div class="card pad mt">
+      <details><summary>Source status <span class="note" id="healthSum"></span></summary>
+        <div class="tw" style="margin-top:8px"><table><thead><tr><th>Company</th><th>Source</th><th>Status</th><th>Details</th></tr></thead><tbody id="health"></tbody></table></div>
+      </details>
+    </div>
+  </section>
+
+  <footer>NanoDx Competitive Intelligence · public sources only · <a href="#" id="topLink">back to top</a></footer>
 </div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-modal="true" role="dialog" aria-labelledby="dTitle"></aside>
+<div class="toast" id="toast" role="status"></div>
 
 <script>
 (function(){
   "use strict";
-  var state = {items:[], comps:[], digests:[], health:{sources:[]}, selected:new Set(), limit:60};
-  var $ = function(id){return document.getElementById(id);};
-  var esc = function(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});};
-  var safeUrl = function(u){return /^https?:\/\//i.test(u||"") ? u : "#";};
-  // Fixed source -> categorical slot (never re-assigned by filters)
+  var S = {items:[], comps:[], digests:[], health:{sources:[]}, cards:{}, reg:{}, jobs:{}, alerts:[], weeks:[], limit:40, tier:"all"};
+  var $ = function(id){ return document.getElementById(id); };
+  var esc = function(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); };
+  var safeUrl = function(u){ return /^https?:\/\//i.test(u || "") ? u : "#"; };
   var GROUPS = [["News","var(--s1)"],["Regulatory","var(--s2)"],["Clinical & science","var(--s3)"],["Corporate","var(--s4)"],["Web & IP","var(--s5)"]];
   var GROUP_OF = {"News":"News","FDA":"Regulatory","Federal Register":"Regulatory","Clinical trial":"Clinical & science","Publication":"Clinical & science","SEC filing":"Corporate","Hiring":"Corporate","Website":"Web & IP","RSS":"Web & IP","Patent":"Web & IP"};
   function group(src){ return GROUP_OF[src] || "Web & IP"; }
-  function colorOf(src){ var g = group(src); for (var k=0;k<GROUPS.length;k++) if (GROUPS[k][0]===g) return GROUPS[k][1]; return "var(--ink-3)"; }
+  function colorOf(src){ var g = group(src); for (var k = 0; k < GROUPS.length; k++) if (GROUPS[k][0] === g) return GROUPS[k][1]; return "var(--ink3)"; }
+  function itemDate(i){ return i.date || (i.first_seen || "").slice(0,10); }
+  function iso(d){ return d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0") + "-" + String(d.getDate()).padStart(2,"0"); }
+  function daysAgo(n){ var d = new Date(); d.setDate(d.getDate() - n); return iso(d); }
+  function isSig(i){ return i.signal && i.signal.length; }
+  function ago(dstr){ if (!dstr) return "no activity yet"; var d = Math.round((new Date(daysAgo(0) + "T12:00:00") - new Date(dstr + "T12:00:00")) / 864e5);
+    return d <= 0 ? "today" : d === 1 ? "yesterday" : d < 30 ? d + " days ago" : d < 365 ? Math.round(d/30) + " mo ago" : Math.round(d/365) + " yr ago"; }
+  function tierOf(c){ if (c.kind === "topic") return "topic"; return /^\s*direct/i.test(c.category || "") ? "direct" : "indirect"; }
+  function catOf(c){ return (c.category || (c.kind === "topic" ? "Market topic" : "")).replace(/^\s*(direct|indirect)\s*·\s*/i, ""); }
+  function toast(msg){ var t = $("toast"); t.textContent = msg; t.classList.add("on"); clearTimeout(t._h); t._h = setTimeout(function(){ t.classList.remove("on"); }, 2200); }
 
-  // Theme: dark by default (console look); light is opt-in per viewer
-  try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch(e){}
+  try { var th = localStorage.getItem("theme"); if (th) document.documentElement.dataset.theme = th; } catch(e){}
   $("themeBtn").onclick = function(){
     var light = document.documentElement.dataset.theme === "light";
     document.documentElement.dataset.theme = light ? "dark" : "light";
     try { localStorage.setItem("theme", document.documentElement.dataset.theme); } catch(e){}
   };
 
-  // Clock
-  function tick(){ $("clock").textContent = new Date().toLocaleTimeString([], {hour:"2-digit", minute:"2-digit", second:"2-digit", timeZone:"America/New_York"}) + " ET"; }
-  tick(); setInterval(tick, 1000);
-
-  // Repo links from the Pages URL (owner.github.io/repo/)
   var owner = location.hostname.split(".")[0], repo = location.pathname.split("/").filter(Boolean)[0] || "";
   if (location.hostname.endsWith("github.io") && repo) {
     var base = "https://github.com/" + owner + "/" + repo;
     $("runLink").href = base + "/actions/workflows/monitor.yml";
     $("editLink").href = base + "/edit/main/competitors.yaml";
-  } else { $("runLink").hidden = true; $("editLink").hidden = true; }
+  } else { $("runLink").hidden = true; }
+  $("topLink").onclick = function(e){ e.preventDefault(); window.scrollTo({top:0, behavior:"smooth"}); };
 
-  function get(path, fallback){
-    return fetch(path + "?t=" + Date.now(), {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : fallback; }).catch(function(){ return fallback; });
+  var VIEWS = ["overview","companies","activity","reports","help"];
+  function moveInk(){ var b = document.querySelector('nav.tabs button[aria-selected="true"]'); if (!b) return; $("ink").style.left = b.offsetLeft + 10 + "px"; $("ink").style.width = (b.offsetWidth - 20) + "px"; }
+  function show(name, push){
+    if (VIEWS.indexOf(name) < 0) name = "overview";
+    document.querySelectorAll("nav.tabs button").forEach(function(b){ b.setAttribute("aria-selected", b.dataset.tab === name); });
+    VIEWS.forEach(function(v){ var el = $("v-" + v); if (v === name) { el.hidden = false; el.style.animation = "none"; void el.offsetWidth; el.style.animation = ""; } else el.hidden = true; });
+    moveInk();
+    if (push !== false) { try { history.replaceState(null, "", "#" + name); } catch(e){} }
   }
+  document.querySelector("nav.tabs").addEventListener("click", function(e){ var b = e.target.closest("button[data-tab]"); if (b) show(b.dataset.tab); });
+  document.addEventListener("click", function(e){
+    var g = e.target.closest("[data-go]"); if (!g) return;
+    if (g.dataset.sig) { $("fSig").checked = true; renderFeed(); }
+    show(g.dataset.go); window.scrollTo({top:0, behavior:"smooth"});
+  });
+  window.addEventListener("resize", moveInk);
+
+  function get(path, fb){ return fetch(path + "?t=" + Date.now(), {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : fb; }).catch(function(){ return fb; }); }
   Promise.all([get("data/items.json", []), get("data/competitors.json", []), get("data/digests/index.json", []), get("data/health.json", {sources:[]}),
                get("data/battlecards.json", {}), get("data/regulatory.json", {}), get("data/jobs.json", {}), get("data/alerts.json", []), get("data/weekly/index.json", [])])
   .then(function(r){
-    state.cards = r[4] || {}; state.reg = r[5] || {}; state.jobs = r[6] || {}; state.alerts = r[7] || []; state.weeks = r[8] || [];
-    state.items = r[0].filter(function(i){ return !i.stale; });
-    state.comps = r[1]; state.digests = r[2]; state.health = r[3] || {sources:[]};
+    S.items = (Array.isArray(r[0]) ? r[0] : []).filter(function(i){ return !i.stale; });
+    S.comps = r[1] || []; S.digests = r[2] || []; S.health = r[3] || {sources:[]};
+    S.cards = r[4] || {}; S.reg = r[5] || {}; S.jobs = r[6] || {}; S.alerts = Array.isArray(r[7]) ? r[7] : []; S.weeks = Array.isArray(r[8]) ? r[8] : [];
     init();
   });
 
-  function itemDate(i){ return i.date || (i.first_seen||"").slice(0,10); }
-  function iso(d){ return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
-  function daysAgo(n){ var d = new Date(); d.setDate(d.getDate()-n); return iso(d); }
-  function isSig(i){ return i.signal && i.signal.length; }
+  function countUp(el, to){
+    to = +to || 0; var start = performance.now(), dur = 900;
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) { el.textContent = to; return; }
+    (function step(now){ var p = Math.min(1, (now - start) / dur), e = 1 - Math.pow(1 - p, 3); el.textContent = Math.round(to * e); if (p < 1) requestAnimationFrame(step); })(start);
+  }
+  function byCompany(name){ return S.items.filter(function(i){ return i.competitor === name; }); }
+  function lastDate(name){ var d = ""; S.items.forEach(function(i){ if (i.competitor === name && itemDate(i) > d) d = itemDate(i); }); return d; }
+  function sourcesFor(name){ return (S.health.sources || []).filter(function(s){ return s.entity === name; }); }
 
   function init(){
-    var h = state.health, srcs = h.sources || [];
-    var skip = srcs.filter(function(s){return s.skipped;}).length, ok = srcs.filter(function(s){return s.ok && !s.skipped;}).length, bad = srcs.length - ok - skip;
-    $("updated").textContent = h.checked ? "SYNC " + new Date(h.checked).toLocaleString([], {month:"short", day:"numeric", hour:"2-digit", minute:"2-digit"}) : "NO RUNS YET";
-    $("sysStatus").textContent = !srcs.length ? "AWAITING FIRST RUN" : bad ? bad + " SOURCE" + (bad>1?"S":"") + " DOWN" : "ALL SYSTEMS NOMINAL";
+    var srcs = S.health.sources || [];
+    var skip = srcs.filter(function(s){ return s.skipped; }).length, ok = srcs.filter(function(s){ return s.ok && !s.skipped; }).length, bad = srcs.length - ok - skip;
+    var when = S.health.checked ? new Date(S.health.checked) : null;
+    $("statusTxt").innerHTML = !srcs.length ? "Waiting for first run" : (bad ? bad + " source" + (bad > 1 ? "s" : "") + " need attention" : "All " + ok + " sources healthy") + (when ? '<span class="long"> · updated ' + esc(when.toLocaleString([], {month:"short", day:"numeric", hour:"numeric", minute:"2-digit"})) + "</span>" : "");
     if (bad) $("dot").classList.add("bad");
+    $("healthSum").textContent = srcs.length ? "— " + ok + " working" + (skip ? ", " + skip + " waiting for a key or setup" : "") + (bad ? ", " + bad + " failing" : "") : "";
 
-    var latest = state.digests[0];
-    $("kNew").textContent = latest ? latest.count : 0;
-    $("kNewSub").textContent = latest ? "digest " + latest.date : "no digest yet";
-    var d30 = daysAgo(30);
-    var last30 = state.items.filter(function(i){ return itemDate(i) >= d30; });
-    $("kSig").textContent = last30.filter(isSig).length;
-    var a7 = new Date(Date.now() - 7*864e5).toISOString();
-    $("kAlerts").textContent = state.alerts.filter(function(a){ return a.at >= a7; }).reduce(function(n,a){ return n + a.items.length; }, 0);
-    $("kComp").textContent = state.items.length + " items · " + state.comps.length + " targets";
-    $("kHealth").textContent = srcs.length ? ok + "/" + (srcs.length - skip) : "–";
-    $("kHealthSub").textContent = srcs.length ? (bad ? bad + " need attention" : "every live feed responding") + (skip ? " · " + skip + " awaiting a key" : "") : "";
+    var latest = S.digests[0], d30 = daysAgo(30), last30 = S.items.filter(function(i){ return itemDate(i) >= d30; });
+    countUp($("kNew"), latest ? latest.count : 0);
+    $("kNewS").textContent = latest ? "digest of " + new Date(latest.date + "T12:00:00").toLocaleDateString([], {month:"short", day:"numeric"}) : "first digest pending";
+    countUp($("kSig"), last30.filter(isSig).length);
+    var a7 = new Date(Date.now() - 7 * 864e5).toISOString();
+    countUp($("kAlerts"), S.alerts.filter(function(a){ return a.at >= a7; }).reduce(function(n, a){ return n + (a.items || []).length; }, 0));
+    var cos = S.comps.filter(function(c){ return c.kind !== "topic"; });
+    var watched = cos.filter(function(c){ return sourcesFor(c.name).some(function(s){ return s.ok && !s.skipped; }); }).length;
+    $("kCos").textContent = (srcs.length ? watched : cos.length) + "/" + cos.length;
+    $("kCosS").textContent = cos.filter(function(c){ return tierOf(c) === "direct"; }).length + " direct · " + cos.filter(function(c){ return tierOf(c) === "indirect"; }).length + " indirect";
 
-    var sources = Array.from(new Set(state.items.map(function(i){return i.source;}))).sort();
-    sources.forEach(function(s){ var o = document.createElement("option"); o.value = s; o.textContent = s; $("src").appendChild(o); });
-
-    var names = state.comps.map(function(c){return c.name;});
-    state.items.forEach(function(i){ if (names.indexOf(i.competitor) < 0) names.push(i.competitor); });
-    state.names = names;
-    $("chips").innerHTML = names.map(function(n){ return '<button class="chip" aria-pressed="false" data-n="'+esc(n)+'">'+esc(n)+'</button>'; }).join("");
-    $("chips").onclick = function(e){
-      var b = e.target.closest(".chip"); if (!b) return;
-      var n = b.dataset.n, on = !state.selected.has(n);
-      on ? state.selected.add(n) : state.selected.delete(n);
-      b.setAttribute("aria-pressed", on); state.limit = 60; renderFeed();
-    };
-    ["q","src","range","sigOnly"].forEach(function(id){ $(id).addEventListener("input", function(){ state.limit = 60; renderFeed(); }); });
-    $("moreBtn").onclick = function(){ state.limit += 60; renderFeed(); };
-    var params = new URLSearchParams(location.search);
-    if (params.get("q")) $("q").value = params.get("q");
+    Array.from(new Set(S.items.map(function(i){ return i.source; }))).sort().forEach(function(s){ var o = document.createElement("option"); o.value = s; o.textContent = s; $("fSrc").appendChild(o); });
+    S.comps.slice().sort(function(a,b){ return a.name.localeCompare(b.name); }).forEach(function(c){ var o = document.createElement("option"); o.value = c.name; o.textContent = c.name; $("fCo").appendChild(o); });
+    ["q","fCo","fSrc","fRange","fSig"].forEach(function(id){ $(id).addEventListener("input", function(){ S.limit = 40; renderFeed(); }); });
+    $("more").onclick = function(){ S.limit += 40; renderFeed(); };
+    $("csvBtn").onclick = function(){ var rows = filtered(); downloadCSV(rows, "nanodx-intel-" + daysAgo(0) + ".csv"); toast(rows.length + " rows exported"); };
+    $("tierSeg").onclick = function(e){ var b = e.target.closest("[data-tier]"); if (!b) return; S.tier = b.dataset.tier;
+      this.querySelectorAll("button").forEach(function(x){ x.setAttribute("aria-pressed", x === b); }); renderCompanies(); };
+    $("coQ").addEventListener("input", renderCompanies); $("coSort").addEventListener("input", renderCompanies);
+    $("cos").onclick = function(e){ var c = e.target.closest("[data-co]"); if (c) openCompany(c.dataset.co); };
+    $("rank").onclick = function(e){ var c = e.target.closest("[data-co]"); if (c) openCompany(c.dataset.co); };
     document.addEventListener("keydown", function(e){
-      if (e.key === "/" && document.activeElement !== $("q")) { e.preventDefault(); showTab("feed"); $("q").focus(); }
-      if (e.key === "Escape" && document.activeElement === $("q")) { $("q").value = ""; renderFeed(); }
+      if (e.key === "Escape") closeCompany();
+      if (e.key === "/" && !/input|select|textarea/i.test(document.activeElement.tagName)) { e.preventDefault(); show("activity"); $("q").focus(); }
     });
+    $("scrim").onclick = closeCompany;
 
-    $("csvBtn").onclick = function(){ downloadCSV(filtered(), "nanodx-intel-" + daysAgo(0) + ".csv"); };
-    renderChart(); renderCompBars(last30); renderFeed(); renderComps(); renderDigests(); renderHealth();
-    renderBrief(latest); renderWeekly(); renderBattlecard(location.hash.indexOf("#bc=") === 0 ? decodeURIComponent(location.hash.slice(4)) : null);
+    renderAttention(); renderBrief(latest); renderChart(); renderRank(last30);
+    renderCompanies(); renderFeed(); renderReports(); renderHealth();
+
+    var h = location.hash.slice(1);
+    if (h.indexOf("c=") === 0) { show("companies", false); openCompany(decodeURIComponent(h.slice(2))); }
+    else show(h || "overview", false);
+    requestAnimationFrame(moveInk);
   }
 
-  function selectOnly(name){
-    state.selected = new Set([name]);
-    document.querySelectorAll(".chip").forEach(function(ch){ ch.setAttribute("aria-pressed", ch.dataset.n === name); });
-    $("range").value = "0"; showTab("feed"); renderFeed();
-    document.querySelector(".tabs").scrollIntoView({behavior:"smooth", block:"start"});
+  function itemHTML(i, n){
+    return '<div class="item reveal" style="--i:' + (n || 0) + ';--c:' + colorOf(i.source) + '"><span class="edge"></span><div>'
+      + '<div class="meta"><span class="co">' + esc(i.competitor) + '</span><span class="tag" style="--c:' + colorOf(i.source) + '"><i></i>' + esc(i.source) + '</span>'
+      + (i.publisher ? '<span>' + esc(i.publisher) + '</span>' : '') + '<span>' + esc(ago(itemDate(i))) + '</span>'
+      + (isSig(i) ? '<span class="sig">▲ ' + esc(i.signal.slice(0,2).join(" · ")) + '</span>' : '') + '</div>'
+      + '<a class="t" href="' + esc(safeUrl(i.url)) + '" target="_blank" rel="noopener">' + esc(i.title) + '</a>'
+      + (i.snippet ? '<p>' + esc(i.snippet) + '</p>' : '') + '</div></div>';
   }
-
-  /* ---------- stacked timeline (one axis, fixed colors, 2px gaps, hover tooltip) ---------- */
-  function renderChart(){
-    var N = 30, days = [];
-    for (var k=N-1;k>=0;k--) days.push(daysAgo(k));
-    var counts = days.map(function(){ var o = {}; GROUPS.forEach(function(g){ o[g[0]] = 0; }); return o; });
-    state.items.forEach(function(i){ var ix = days.indexOf(itemDate(i)); if (ix >= 0) counts[ix][group(i.source)] = (counts[ix][group(i.source)]||0) + 1; });
-    var totals = counts.map(function(c){ return GROUPS.reduce(function(s,g){ return s + (c[g[0]]||0); }, 0); });
-    var max = Math.max(4, Math.max.apply(null, totals));
-    var step = max <= 8 ? 2 : max <= 20 ? 5 : max <= 50 ? 10 : 25; max = Math.ceil(max/step)*step;
-    var W = 720, H = 190, L = 28, R = 6, T = 8, B = 22, pw = W-L-R, ph = H-T-B, bw = pw/N, gap = 2;
-    var s = '<svg viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none">';
-    for (var v=0; v<=max; v+=step){ var y = T + ph - v/max*ph;
-      s += '<line x1="'+L+'" x2="'+(W-R)+'" y1="'+y+'" y2="'+y+'" stroke="var(--axis)" stroke-width="1"/>';
-      s += '<text x="'+(L-6)+'" y="'+(y+3)+'" text-anchor="end" font-size="10" fill="var(--ink-3)" font-family="JetBrains Mono,monospace">'+v+'</text>'; }
-    days.forEach(function(d, ix){
-      var x = L + ix*bw + 1.5, w = Math.max(2, bw-3), y = T + ph;
-      var segs = GROUPS.filter(function(g){ return counts[ix][g[0]]; });
-      segs.forEach(function(g, si){
-        var hgt = counts[ix][g[0]]/max*ph, top = y - hgt;
-        var isTop = si === segs.length-1;
-        var hh = Math.max(1, hgt - (si > 0 ? gap : 0));  // 2px surface gap above the segment below
-        if (isTop && hh > 4) s += '<path d="M'+x+','+(top+hh)+'V'+(top+3)+'q0,-3 3,-3h'+(w-6)+'q3,0 3,3V'+(top+hh)+'Z" fill="'+g[1]+'"/>';
-        else s += '<rect x="'+x+'" y="'+top+'" width="'+w+'" height="'+hh+'" fill="'+g[1]+'"/>';
-        y = top;
-      });
-      if (ix % 5 === 4 || ix === N-1) { var dt = new Date(d+"T12:00:00");
-        s += '<text x="'+(L+ix*bw+bw/2)+'" y="'+(H-6)+'" text-anchor="middle" font-size="10" fill="var(--ink-3)" font-family="JetBrains Mono,monospace">'+(dt.getMonth()+1)+'/'+dt.getDate()+'</text>'; }
-      s += '<rect class="hit" data-ix="'+ix+'" x="'+(L+ix*bw)+'" y="'+T+'" width="'+bw+'" height="'+ph+'" fill="transparent"/>';
-    });
-    s += '<rect id="hl" x="0" y="'+T+'" width="'+bw+'" height="'+ph+'" fill="var(--accent)" opacity="0" pointer-events="none"/></svg><div class="tip" id="tip"></div>';
-    $("chart").innerHTML = s;
-    $("legend").innerHTML = GROUPS.map(function(g){ return '<span><i style="background:'+g[1]+'"></i>'+esc(g[0])+'</span>'; }).join("");
-    var svg = $("chart").querySelector("svg"), tip = $("tip"), hl = $("hl");
-    svg.addEventListener("mousemove", function(e){
-      var r = e.target.closest ? e.target.closest(".hit") : null; if (!r) return;
-      var ix = +r.dataset.ix, c = counts[ix], dt = new Date(days[ix]+"T12:00:00");
-      hl.setAttribute("x", r.getAttribute("x")); hl.setAttribute("opacity", ".08");
-      tip.innerHTML = '<b>'+dt.toLocaleDateString([], {weekday:"short", month:"short", day:"numeric"})+' · '+totals[ix]+' item'+(totals[ix]===1?'':'s')+'</b>' +
-        GROUPS.filter(function(g){ return c[g[0]]; }).map(function(g){ return '<div class="r"><span><i style="display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;background:'+g[1]+'"></i>'+esc(g[0])+'</span><span>'+c[g[0]]+'</span></div>'; }).join("");
-      var box = $("chart").getBoundingClientRect(), x = e.clientX - box.left;
-      tip.style.left = Math.min(Math.max(0, x + 12), box.width - 170) + "px"; tip.style.top = "6px"; tip.style.opacity = 1;
-    });
-    svg.addEventListener("mouseleave", function(){ tip.style.opacity = 0; hl.setAttribute("opacity", "0"); });
-    svg.addEventListener("click", function(e){ var r = e.target.closest && e.target.closest(".hit"); if (!r) return;
-      $("q").value = ""; $("range").value = "0"; state.dayFilter = days[+r.dataset.ix]; showTab("feed"); renderFeed(); });
+  function renderAttention(){
+    var top = S.items.filter(isSig).sort(function(a,b){ return itemDate(b).localeCompare(itemDate(a)); }).slice(0, 6);
+    $("attention").innerHTML = top.map(itemHTML).join("") || '<div class="empty">Nothing urgent right now. New FDA decisions, launches and deals will appear here.</div>';
   }
-
-  function renderCompBars(last30){
-    var rows = state.names.map(function(n){ return [n, last30.filter(function(i){ return i.competitor === n; }).length]; })
-      .sort(function(a,b){ return b[1]-a[1]; });
-    var max = Math.max(1, rows.length ? rows[0][1] : 1);
-    $("compBars").innerHTML = rows.map(function(r){
-      return '<button class="bar" data-f="'+esc(r[0])+'" title="Show '+esc(r[0])+' activity"><span class="n">'+esc(r[0])+'</span><span class="t"><span class="f" style="display:block;width:'+(r[1]/max*100)+'%"></span></span><span class="c">'+r[1]+'</span></button>';
-    }).join("") || '<div class="empty">No data yet</div>';
-    $("compBars").onclick = function(e){ var b = e.target.closest("[data-f]"); if (b) selectOnly(b.dataset.f); };
-  }
-
-  function filtered(){
-    var q = $("q").value.trim().toLowerCase(), src = $("src").value, range = +$("range").value, sig = $("sigOnly").checked;
-    var since = range ? daysAgo(range) : "";
-    return state.items.filter(function(i){
-      if (state.dayFilter && itemDate(i) !== state.dayFilter) return false;
-      if (state.selected.size && !state.selected.has(i.competitor)) return false;
-      if (src && i.source !== src) return false;
-      if (sig && !isSig(i)) return false;
-      if (since && itemDate(i) < since) return false;
-      if (q) { var hay = (i.title+" "+(i.snippet||"")+" "+(i.publisher||"")+" "+i.competitor+" "+i.source).toLowerCase();
-        if (q.split(/\s+/).some(function(w){ return hay.indexOf(w) < 0; })) return false; }
-      return true;
-    }).sort(function(a,b){ return itemDate(b).localeCompare(itemDate(a)) || (isSig(b)?1:0) - (isSig(a)?1:0); });
-  }
-
-  function renderFeed(){
-    var rows = filtered(), shown = rows.slice(0, state.limit), html = "", lastDay = "";
-    shown.forEach(function(i){
-      var d = itemDate(i);
-      if (d !== lastDay) { html += '<div class="day mono">'+esc(new Date(d+"T12:00:00").toLocaleDateString([], {weekday:"short", month:"short", day:"numeric", year:"numeric"}))+'</div>'; lastDay = d; }
-      html += '<article class="it'+(isSig(i)?' hot':'')+'" style="--c:'+colorOf(i.source)+'"><div class="top2"><span class="src"><i></i>'+esc(i.source)+'</span>'
-        + '<span class="comp">'+esc(i.competitor)+'</span>'
-        + (i.publisher ? '<span>'+esc(i.publisher)+'</span>' : '')
-        + (isSig(i) ? '<span class="sig">▲ '+esc(i.signal.slice(0,3).join(" · "))+'</span>' : '')
-        + '</div><a class="t" href="'+esc(safeUrl(i.url))+'" target="_blank" rel="noopener">'+esc(i.title)+'</a>'
-        + (i.snippet ? '<p>'+esc(i.snippet)+'</p>' : '') + '</article>';
-    });
-    $("feed").innerHTML = html || '<div class="empty">'+(state.items.length ? "No intel matches these filters." : "No data yet. The first scheduled run will fill this in, or hit “Run a lookup”.")+'</div>';
-    var note = rows.length + " result" + (rows.length===1?"":"s");
-    if (state.dayFilter) note += " · " + state.dayFilter + ' <a href="#" id="clearDay">clear day</a>';
-    $("count").innerHTML = note;
-    var cd = $("clearDay"); if (cd) cd.onclick = function(e){ e.preventDefault(); state.dayFilter = null; $("range").value = "30"; renderFeed(); };
-    $("moreBtn").hidden = rows.length <= state.limit;
-    if (!$("moreBtn").hidden) $("moreBtn").textContent = "Load more (" + (rows.length - state.limit) + " remaining)";
-  }
-
-  function spark(name){
-    var N = 14, vals = [];
-    for (var k=N-1;k>=0;k--){ var d = daysAgo(k); vals.push(state.items.filter(function(i){ return i.competitor === name && itemDate(i) === d; }).length); }
-    var max = Math.max(1, Math.max.apply(null, vals)), W = 200, H = 36;
-    var pts = vals.map(function(v, ix){ return (ix/(N-1)*W).toFixed(1)+","+(H-3-v/max*(H-8)).toFixed(1); });
-    return '<svg class="spark" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="none" aria-label="Items per day, last 14 days">'
-      + '<polyline points="0,'+H+' '+pts.join(" ")+' '+W+','+H+'" fill="var(--accent)" opacity=".10" stroke="none"/>'
-      + '<polyline points="'+pts.join(" ")+'" fill="none" stroke="var(--accent)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>';
-  }
-
-  function renderComps(){
-    var d30 = daysAgo(30);
-    $("compGrid").innerHTML = state.comps.map(function(c){
-      var its = state.items.filter(function(i){ return i.competitor === c.name; });
-      var recent = its.filter(function(i){ return itemDate(i) >= d30; });
-      var top = recent.slice().sort(function(a,b){ return (isSig(b)?1:0)-(isSig(a)?1:0) || itemDate(b).localeCompare(itemDate(a)); }).slice(0,3);
-      var watch = [];
-      if (c.news_queries && c.news_queries.length) watch.push(c.news_queries.length + " news");
-      if (c.watch_pages && c.watch_pages.length) watch.push(c.watch_pages.length + " pages");
-      if (c.fda_applicant) watch.push("FDA");
-      if (c.trials_sponsor) watch.push("Trials");
-      if (c.pubmed_query) watch.push("PubMed");
-      return '<div class="card"><div class="cat">'+esc(c.category || (c.kind==="topic" ? "Market topic" : "Competitor"))+'</div><h3>'+esc(c.name)+'</h3>'
-        + '<div class="nums"><span><b>'+recent.length+'</b>30 days</span><span><b>'+recent.filter(isSig).length+'</b>high-signal</span><span><b>'+its.length+'</b>total</span></div>'
-        + spark(c.name)
-        + (top.length ? '<ul>'+top.map(function(i){ return '<li><a href="'+esc(safeUrl(i.url))+'" target="_blank" rel="noopener">'+esc(i.title)+'</a></li>'; }).join("")+'</ul>' : '')
-        + '<div class="w mono">WATCHING: '+esc(watch.join(" · ") || "—")+'</div>'
-        + '<div class="row"><button class="btn" data-bc="'+esc(c.name)+'">Battlecard</button><button class="btn" data-f="'+esc(c.name)+'">Activity</button>'
-        + (c.website ? '<a class="btn" href="'+esc(safeUrl(c.website))+'" target="_blank" rel="noopener">Website ↗</a>' : '') + '</div></div>';
-    }).join("") || '<div class="empty">No competitors configured.</div>';
-    $("compGrid").onclick = function(e){ var c = e.target.closest("[data-bc]"); if (c) { renderBattlecard(c.dataset.bc); window.scrollTo({top: $("bcPills").getBoundingClientRect().top + scrollY - 20, behavior:"smooth"}); return; }
-      var b = e.target.closest("[data-f]"); if (b) selectOnly(b.dataset.f); };
-  }
-
-  function renderDigests(){
-    $("digestRows").innerHTML = state.digests.map(function(d){
-      return '<tr><td class="mono">'+esc(d.date)+'</td><td class="mono">'+d.count+'</td><td><a href="data/digests/'+esc(d.date)+'.html" target="_blank" rel="noopener">Open digest ↗</a></td></tr>';
-    }).join("") || '<tr><td colspan="3" class="empty">No digests yet.</td></tr>';
-  }
-
-  function renderHealth(){
-    var s = state.health.sources.slice().sort(function(a,b){ return a.ok - b.ok; });
-    $("healthRows").innerHTML = s.map(function(h){
-      return '<tr><td>'+esc(h.entity)+'</td><td class="mono" style="font-size:12px">'+esc(h.source)+'</td><td class="'+(h.skipped?"":h.ok?"ok":"bad")+'" style="'+(h.skipped?'color:var(--sig)':'')+'">'+(h.skipped?"◌ Needs setup":h.ok?"● Online":"● Down")+'</td><td class="'+(h.skipped?"":h.ok?"mono":"err")+'">'+(h.skipped ? esc(h.note) : h.ok ? esc(h.count+" items · "+h.secs+"s") : esc(h.error))+'</td></tr>';
-    }).join("") || '<tr><td colspan="4" class="empty">No runs yet.</td></tr>';
-  }
-
-  /* ---------- safe mini-markdown for AI text: ## headings, - bullets, **bold**, [n] cites ---------- */
   function mdToHtml(md, cites){
     var out = [], inList = false;
     function inline(t){
       t = esc(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
-      return t.replace(/\[(\d{1,3})\]/g, function(m, n){ var c = cites && cites[+n-1];
-        return c && c.url ? '<a class="cite" href="'+esc(safeUrl(c.url))+'" target="_blank" rel="noopener" title="'+esc(c.title||"")+'">['+n+']</a>' : m; });
+      return t.replace(/\[(\d{1,3})\]/g, function(m, n){ var c = cites && cites[+n - 1];
+        return c && c.url ? '<a class="cite" href="' + esc(safeUrl(c.url)) + '" target="_blank" rel="noopener" title="' + esc(c.title || "") + '">[' + n + ']</a>' : m; });
     }
-    String(md||"").split("\n").forEach(function(line){
-      if (/^\s*[-*] /.test(line)) { if (!inList) { out.push("<ul>"); inList = true; } out.push("<li>"+inline(line.replace(/^\s*[-*] /,""))+"</li>"); return; }
+    String(md || "").split("\n").forEach(function(line){
+      if (/^\s*[-*] /.test(line)) { if (!inList) { out.push("<ul>"); inList = true; } out.push("<li>" + inline(line.replace(/^\s*[-*] /, "")) + "</li>"); return; }
       if (inList) { out.push("</ul>"); inList = false; }
-      if (/^#/.test(line)) out.push("<h4>"+inline(line.replace(/^#+\s*/,""))+"</h4>");
-      else if (line.trim()) out.push("<p>"+inline(line)+"</p>");
+      if (/^#/.test(line)) out.push("<h4>" + inline(line.replace(/^#+\s*/, "")) + "</h4>");
+      else if (line.trim()) out.push("<p>" + inline(line) + "</p>");
     });
     if (inList) out.push("</ul>");
     return out.join("");
   }
-
   function renderBrief(latest){
-    if (!latest) return;
-    get("data/digests/"+latest.date+".json", null).then(function(d){
-      if (!d) return;
-      if (!d.brief) { if (d.brief_emailed) { $("briefBody").innerHTML = '<p class="note">Today\u2019s AI brief was emailed to the team and kept off this public site (set <code>publish_strategy: true</code> in competitors.yaml to show it here).</p>'; $("briefMeta").textContent = "digest " + d.date; $("brief").hidden = false; } return; }
-      $("briefBody").innerHTML = mdToHtml(d.brief, d.items);
-      $("briefMeta").textContent = "digest " + d.date;
-      $("brief").hidden = false;
+    var none = '<p>The AI analyst writes a short brief on each digest: what changed and why it matters for NanoDx.</p><p class="note">Switch it on with the ANTHROPIC_API_KEY secret. Briefs are emailed to the team and kept off this public page.</p>';
+    if (!latest) { $("brief").innerHTML = none; return; }
+    get("data/digests/" + latest.date + ".json", null).then(function(d){
+      $("briefMeta").textContent = new Date(latest.date + "T12:00:00").toLocaleDateString([], {month:"short", day:"numeric"});
+      if (d && d.brief) $("brief").innerHTML = mdToHtml(d.brief, d.items);
+      else if (d && d.brief_emailed) $("brief").innerHTML = '<p>Today’s brief was <b>emailed to the team</b>.</p><p class="note">It is kept off this public page so competitors can’t read NanoDx’s analysis.</p>';
+      else $("brief").innerHTML = none;
     });
   }
+  function renderChart(){
+    var N = 30, days = [];
+    for (var k = N - 1; k >= 0; k--) days.push(daysAgo(k));
+    var counts = days.map(function(){ var o = {}; GROUPS.forEach(function(g){ o[g[0]] = 0; }); return o; });
+    S.items.forEach(function(i){ var ix = days.indexOf(itemDate(i)); if (ix >= 0) counts[ix][group(i.source)]++; });
+    var totals = counts.map(function(c){ return GROUPS.reduce(function(s, g){ return s + c[g[0]]; }, 0); });
+    var max = Math.max(4, Math.max.apply(null, totals));
+    var step = max <= 8 ? 2 : max <= 20 ? 5 : max <= 50 ? 10 : 25; max = Math.ceil(max / step) * step;
+    var W = 720, H = 200, L = 28, R = 4, T = 8, B = 22, pw = W - L - R, ph = H - T - B, bw = pw / N, gap = 2;
+    var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none">';
+    for (var v = 0; v <= max; v += step) { var y = T + ph - v / max * ph;
+      s += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y + '" y2="' + y + '" stroke="var(--line)" stroke-width="1"/>';
+      s += '<text x="' + (L - 6) + '" y="' + (y + 3) + '" text-anchor="end" font-size="10" fill="var(--ink3)">' + v + '</text>'; }
+    days.forEach(function(d, ix){
+      var x = L + ix * bw + 2, w = Math.max(2, bw - 4), y = T + ph;
+      var segs = GROUPS.filter(function(g){ return counts[ix][g[0]]; });
+      s += '<g class="bar-g" style="--d:' + ix + '">';
+      segs.forEach(function(g, si){
+        var hgt = counts[ix][g[0]] / max * ph, top = y - hgt, hh = Math.max(1, hgt - (si > 0 ? gap : 0));
+        if (si === segs.length - 1 && hh > 4) s += '<path d="M' + x + ',' + (top + hh) + 'V' + (top + 3) + 'q0,-3 3,-3h' + (w - 6) + 'q3,0 3,3V' + (top + hh) + 'Z" fill="' + g[1] + '"/>';
+        else s += '<rect x="' + x + '" y="' + top + '" width="' + w + '" height="' + hh + '" fill="' + g[1] + '"/>';
+        y = top;
+      });
+      s += '</g>';
+      if (ix % 5 === 4 || ix === N - 1) { var dt = new Date(d + "T12:00:00"); s += '<text x="' + (L + ix * bw + bw / 2) + '" y="' + (H - 5) + '" text-anchor="middle" font-size="10" fill="var(--ink3)">' + (dt.getMonth() + 1) + '/' + dt.getDate() + '</text>'; }
+      s += '<rect class="hit" data-ix="' + ix + '" x="' + (L + ix * bw) + '" y="' + T + '" width="' + bw + '" height="' + ph + '" fill="transparent" style="cursor:pointer"/>';
+    });
+    s += '<rect id="hl" x="0" y="' + T + '" width="' + bw + '" height="' + ph + '" fill="var(--brand)" opacity="0" pointer-events="none" rx="3"/></svg><div class="tip" id="tip"></div>';
+    $("chart").innerHTML = s;
+    $("legend").innerHTML = GROUPS.map(function(g){ return '<span><i style="background:' + g[1] + '"></i>' + esc(g[0]) + '</span>'; }).join("");
+    var svg = $("chart").querySelector("svg"), tip = $("tip"), hl = $("hl");
+    svg.addEventListener("mousemove", function(e){
+      var r = e.target.closest && e.target.closest(".hit"); if (!r) return;
+      var ix = +r.dataset.ix, c = counts[ix], dt = new Date(days[ix] + "T12:00:00");
+      hl.setAttribute("x", r.getAttribute("x")); hl.setAttribute("opacity", ".08");
+      tip.innerHTML = '<b>' + dt.toLocaleDateString([], {weekday:"short", month:"short", day:"numeric"}) + ' · ' + totals[ix] + ' item' + (totals[ix] === 1 ? '' : 's') + '</b>'
+        + (GROUPS.filter(function(g){ return c[g[0]]; }).map(function(g){ return '<div class="r"><span><i style="display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;background:' + g[1] + '"></i>' + esc(g[0]) + '</span><span>' + c[g[0]] + '</span></div>'; }).join("") || '<div class="r">No new items</div>');
+      var box = $("chart").getBoundingClientRect(), x = e.clientX - box.left;
+      tip.style.left = Math.min(Math.max(0, x + 12), box.width - 175) + "px"; tip.style.top = "4px"; tip.classList.add("on");
+    });
+    svg.addEventListener("mouseleave", function(){ tip.classList.remove("on"); hl.setAttribute("opacity", "0"); });
+    svg.addEventListener("click", function(e){ var r = e.target.closest && e.target.closest(".hit"); if (!r || !totals[+r.dataset.ix]) return;
+      S.day = days[+r.dataset.ix]; $("fRange").value = "0"; renderFeed(); show("activity"); window.scrollTo({top:0, behavior:"smooth"}); });
+  }
+  function renderRank(last30){
+    var rows = S.comps.map(function(c){ return [c.name, last30.filter(function(i){ return i.competitor === c.name; }).length]; })
+      .filter(function(r){ return r[1] > 0; }).sort(function(a,b){ return b[1] - a[1]; }).slice(0, 8);
+    var max = Math.max(1, rows.length ? rows[0][1] : 1);
+    $("rank").innerHTML = rows.map(function(r){ return '<button type="button" data-co="' + esc(r[0]) + '" title="Open ' + esc(r[0]) + '"><span class="n">' + esc(r[0]) + '</span><span class="track"><span class="fill" data-w="' + (r[1] / max * 100) + '"></span></span><span class="c">' + r[1] + '</span></button>'; }).join("")
+      || '<div class="empty">No activity in the last 30 days yet.</div>';
+    setTimeout(function(){ document.querySelectorAll("#rank .fill").forEach(function(f){ f.style.width = f.dataset.w + "%"; }); }, 150);
+  }
 
+  var COVER = [["News","News"],["FDA","FDA"],["Trials","Trials"],["PubMed","PubMed"],["SEC","SEC"],["Patents","Patents"],["Jobs","Hiring"],["Page","Website"],["Homepage","Website"],["RSS","Website"],["Federal Register","Fed. Register"]];
+  function coverage(name){
+    var seen = {}, out = [];
+    sourcesFor(name).forEach(function(s){ var key = s.source.split(":")[0]; COVER.forEach(function(c){ if (c[0] === key && !seen[c[1]] && !s.skipped) { seen[c[1]] = 1; out.push(c[1]); } }); });
+    return out;
+  }
+  function spark(name){
+    var N = 30, vals = [];
+    for (var k = N - 1; k >= 0; k--) { var d = daysAgo(k); vals.push(S.items.filter(function(i){ return i.competitor === name && itemDate(i) === d; }).length); }
+    var max = Math.max(1, Math.max.apply(null, vals)), W = 110, H = 34;
+    var pts = vals.map(function(v, ix){ return (ix / (N - 1) * W).toFixed(1) + "," + (H - 3 - v / max * (H - 8)).toFixed(1); });
+    return '<svg class="spark" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none" aria-hidden="true"><path d="M0,' + H + ' L' + pts.join(" L") + ' L' + W + ',' + H + 'Z" fill="var(--brand)" opacity=".1"/><path class="ln" d="M' + pts.join(" L") + '" fill="none" stroke="var(--brand)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>';
+  }
+  function renderCompanies(){
+    var q = $("coQ").value.trim().toLowerCase(), sort = $("coSort").value, d30 = daysAgo(30);
+    var rows = S.comps.filter(function(c){
+      if (S.tier !== "all" && tierOf(c) !== S.tier) return false;
+      if (q) { var hay = (c.name + " " + (c.category || "") + " " + ((c.profile || {}).products || []).join(" ")).toLowerCase(); if (hay.indexOf(q) < 0) return false; }
+      return true;
+    }).map(function(c){ var its = byCompany(c.name); return {c:c, n30: its.filter(function(i){ return itemDate(i) >= d30; }).length, last: lastDate(c.name)}; });
+    rows.sort(sort === "name" ? function(a,b){ return a.c.name.localeCompare(b.c.name); } : sort === "recent" ? function(a,b){ return (b.last || "").localeCompare(a.last || ""); } : function(a,b){ return b.n30 - a.n30 || a.c.name.localeCompare(b.c.name); });
+    $("cos").innerHTML = rows.map(function(r, n){
+      var t = tierOf(r.c), cov = coverage(r.c.name);
+      return '<button type="button" class="card co-card reveal" style="--i:' + Math.min(n, 16) + '" data-co="' + esc(r.c.name) + '">'
+        + '<div class="hd"><b>' + esc(r.c.name) + '</b><span class="tier ' + t + '">' + (t === "topic" ? "Topic" : t === "direct" ? "Direct" : "Indirect") + '</span></div>'
+        + '<div class="cat">' + esc(catOf(r.c)) + '</div>'
+        + '<div class="row"><div class="num">' + r.n30 + '<small>items · 30 days</small></div>' + spark(r.c.name) + '</div>'
+        + '<div class="cov">' + (cov.map(function(x){ return '<span>' + esc(x) + '</span>'; }).join("") || '<span>starts next run</span>') + '</div>'
+        + '<div class="last">Last activity: ' + esc(ago(r.last)) + '</div></button>';
+    }).join("") || '<div class="empty">No companies match.</div>';
+  }
+
+  function listOf(items, n){
+    return items.length ? '<ul>' + items.slice(0, n).map(function(i){ return '<li><a href="' + esc(safeUrl(i.url)) + '" target="_blank" rel="noopener">' + esc(i.title) + '</a> <span class="note">' + esc(itemDate(i)) + '</span></li>'; }).join("") + '</ul>' : '<div class="note">Nothing recorded yet.</div>';
+  }
+  function openCompany(name){
+    var c = S.comps.filter(function(x){ return x.name === name; })[0]; if (!c) return;
+    var card = S.cards[name] || {}, prof = c.profile || {}, reg = (S.reg[name] || {}).records || [], jobs = S.jobs[name];
+    var mine = byCompany(name).sort(function(a,b){ return itemDate(b).localeCompare(itemDate(a)); });
+    var d30 = daysAgo(30), recent = mine.filter(function(i){ return itemDate(i) >= d30; });
+    var by = function(src){ return mine.filter(function(i){ return src.indexOf(i.source) >= 0; }); };
+    var cites = card.cites || [];
+    var lis = function(arr){ return arr && arr.length ? '<ul>' + arr.map(function(x){ return '<li>' + mdToHtml(x, cites).replace(/^<p>|<\/p>$/g, "") + '</li>'; }).join("") + '</ul>' : ''; };
+    var t = tierOf(c), cov = coverage(name);
+    var html = '<div class="dh"><div style="flex:1;min-width:200px"><div class="sub"><span class="tier ' + t + '">' + (t === "topic" ? "Market topic" : t === "direct" ? "Direct competitor" : "Indirect competitor") + '</span> ' + esc(catOf(c)) + '</div>'
+      + '<h3 id="dTitle">' + esc(name) + '</h3><div class="sub">' + esc(prof.ticker || "") + (c.website ? (prof.ticker ? ' · ' : '') + '<a href="' + esc(safeUrl(c.website)) + '" target="_blank" rel="noopener">' + esc(c.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")) + ' ↗</a>' : '') + '</div></div>'
+      + '<div class="no-print" style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn" id="dCsv">⇩ CSV</button><button class="btn" id="dPrint">Print</button><button class="btn icon-btn" id="dClose" aria-label="Close">✕</button></div></div>'
+      + '<div class="db">'
+      + '<div class="mini"><div><b>' + recent.length + '</b><span>items · 30 days</span></div><div><b>' + recent.filter(isSig).length + '</b><span>high-signal · 30 days</span></div><div><b>' + reg.length + '</b><span>FDA records</span></div><div><b>' + (jobs ? jobs.open_roles : "–") + '</b><span>open roles</span></div></div>'
+      + (card.summary ? '<div class="card pad sect"><h4>Summary' + (card.threat_level ? ' <span class="threat ' + esc(card.threat_level) + '">' + esc(card.threat_level) + ' threat</span>' : '') + '</h4><div class="md">' + mdToHtml(card.summary, cites) + '</div></div>' : '')
+      + (card.strengths || card.weaknesses || card.talk_track ? '<div class="grid g2" style="gap:12px">'
+          + (card.strengths ? '<div class="card pad sect"><h4>Strengths</h4>' + lis(card.strengths) + '</div>' : '')
+          + (card.weaknesses ? '<div class="card pad sect"><h4>Weaknesses</h4>' + lis(card.weaknesses) + '</div>' : '')
+          + (card.talk_track ? '<div class="card pad sect" style="grid-column:1/-1"><h4>How to win</h4>' + lis(card.talk_track) + '</div>' : '') + '</div>'
+        : (card.strategy_emailed ? '<div class="note">Strengths, weaknesses and talk track are in the Monday email (kept off this public page).</div>' : ''))
+      + '<div class="card pad sect"><h4>Recent moves</h4>' + (card.recent_moves && card.recent_moves.length ? lis(card.recent_moves) : listOf(mine.filter(isSig).length ? mine.filter(isSig) : mine, 6)) + '</div>'
+      + ((prof.products && prof.products.length) || prof.notes ? '<div class="card pad sect"><h4>Products & notes</h4>' + (prof.products || []).map(function(p){ return '<span class="pill">' + esc(p) + '</span>'; }).join("") + (prof.notes ? '<p style="margin:8px 0 0;font-size:13.5px;color:var(--ink2)">' + esc(prof.notes) + '</p>' : '') + '</div>' : '')
+      + '<div class="card pad sect"><h4>FDA regulatory record</h4>' + (reg.length ? '<div class="tw"><table><thead><tr><th>Date</th><th>Record</th><th>Decision</th></tr></thead><tbody>'
+          + reg.map(function(r){ return '<tr><td class="mono" style="white-space:nowrap">' + esc(r.date || "") + '</td><td><a href="' + esc(safeUrl(r.url)) + '" target="_blank" rel="noopener">' + esc(r.title.replace(/^FDA\s*/, "")) + '</a></td><td style="color:var(--ink2)">' + esc((r.snippet || "").replace(/^.*Decision:\s*/, "")) + '</td></tr>'; }).join("") + '</tbody></table></div>'
+          : '<div class="note">' + (c.fda_applicant ? 'No TBI-related FDA records found yet (refreshed every Monday).' : 'Not tracked in FDA databases (no US filings expected yet).') + '</div>') + '</div>'
+      + '<div class="grid g2" style="gap:12px">'
+      + '<div class="card pad sect"><h4>News & web</h4>' + listOf(by(["News","Website","RSS"]), 6) + '</div>'
+      + '<div class="card pad sect"><h4>Trials & publications</h4>' + listOf(by(["Clinical trial","Publication"]), 6) + '</div>'
+      + '<div class="card pad sect"><h4>SEC filings</h4>' + listOf(by(["SEC filing"]), 5) + '</div>'
+      + '<div class="card pad sect"><h4>Patents & hiring</h4>' + listOf(by(["Patent","Hiring"]), 5) + '</div>'
+      + '</div>'
+      + '<div class="note">Watching: ' + esc(cov.join(" · ") || "sources start on the next run") + '</div>'
+      + '</div>';
+    var dr = $("drawer"); dr.innerHTML = html; dr.scrollTop = 0;
+    dr.classList.add("on"); $("scrim").classList.add("on"); document.body.style.overflow = "hidden";
+    $("dClose").onclick = closeCompany; $("dPrint").onclick = function(){ window.print(); };
+    $("dCsv").onclick = function(){ downloadCSV(mine, "nanodx-" + name.replace(/[^a-z0-9]+/gi, "-").toLowerCase() + ".csv"); toast(mine.length + " rows exported"); };
+    setTimeout(function(){ $("dClose").focus({preventScroll:true}); }, 60);
+    try { history.replaceState(null, "", "#c=" + encodeURIComponent(name)); } catch(e){}
+  }
+  function closeCompany(){
+    if (!$("drawer").classList.contains("on")) return;
+    $("drawer").classList.remove("on"); $("scrim").classList.remove("on"); document.body.style.overflow = "";
+    try { history.replaceState(null, "", "#companies"); } catch(e){}
+  }
+
+  function filtered(){
+    var q = $("q").value.trim().toLowerCase(), co = $("fCo").value, src = $("fSrc").value, range = +$("fRange").value, sig = $("fSig").checked;
+    var since = range ? daysAgo(range) : "";
+    return S.items.filter(function(i){
+      if (S.day && itemDate(i) !== S.day) return false;
+      if (co && i.competitor !== co) return false;
+      if (src && i.source !== src) return false;
+      if (sig && !isSig(i)) return false;
+      if (since && itemDate(i) < since) return false;
+      if (q) { var hay = (i.title + " " + (i.snippet || "") + " " + (i.publisher || "") + " " + i.competitor + " " + i.source).toLowerCase();
+        if (q.split(/\s+/).some(function(w){ return hay.indexOf(w) < 0; })) return false; }
+      return true;
+    }).sort(function(a,b){ return itemDate(b).localeCompare(itemDate(a)) || (isSig(b) ? 1 : 0) - (isSig(a) ? 1 : 0); });
+  }
+  function renderFeed(){
+    var rows = filtered(), shown = rows.slice(0, S.limit), html = "", last = "";
+    shown.forEach(function(i, n){
+      var d = itemDate(i);
+      if (d !== last) { html += '<div class="note" style="padding:12px 4px 2px;font-weight:600;letter-spacing:.04em;text-transform:uppercase">' + esc(new Date(d + "T12:00:00").toLocaleDateString([], {weekday:"long", month:"short", day:"numeric"})) + '</div>'; last = d; }
+      html += itemHTML(i, Math.min(n, 12));
+    });
+    $("feed").innerHTML = html || '<div class="empty">' + (S.items.length ? "No results — try a wider date range or clear the filters." : "No data yet. Click “Run a lookup” to start.") + '</div>';
+    $("count").innerHTML = rows.length + " result" + (rows.length === 1 ? "" : "s") + (S.day ? ' on ' + esc(S.day) + ' · <a href="#" id="clrDay">show all days</a>' : "");
+    var c = $("clrDay"); if (c) c.onclick = function(e){ e.preventDefault(); S.day = null; $("fRange").value = "30"; renderFeed(); };
+    $("more").hidden = rows.length <= S.limit;
+    if (!$("more").hidden) $("more").textContent = "Show more (" + (rows.length - S.limit) + ")";
+  }
   function downloadCSV(rows, filename){
     var cols = ["date","competitor","source","title","url","publisher","signal","snippet"];
-    var q = function(v){ v = Array.isArray(v) ? v.join("; ") : (v == null ? "" : String(v)); return '"' + v.replace(/"/g,'""') + '"'; };
+    var q = function(v){ v = Array.isArray(v) ? v.join("; ") : (v == null ? "" : String(v)); return '"' + v.replace(/"/g, '""') + '"'; };
     var csv = cols.join(",") + "\n" + rows.map(function(i){ return cols.map(function(c){ return q(c === "date" ? itemDate(i) : i[c]); }).join(","); }).join("\n");
     var a = document.createElement("a");
     a.href = URL.createObjectURL(new Blob(["﻿" + csv], {type:"text/csv;charset=utf-8"}));
@@ -602,89 +679,28 @@ footer{margin-top:28px;font-size:11px;color:var(--ink-3);letter-spacing:.08em;te
     setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); }, 500);
   }
 
-  function renderWeekly(){
-    var w = state.weeks[0];
-    if (!w) { $("weeklyView").innerHTML = '<div class="empty">The first weekly review is generated on Monday morning (or run the workflow with mode “weekly”).</div>'; return; }
-    get("data/weekly/"+w.week+".json", null).then(function(d){
+  function renderReports(){
+    $("digests").innerHTML = S.digests.map(function(d){ return '<tr><td>' + esc(new Date(d.date + "T12:00:00").toLocaleDateString([], {weekday:"short", month:"short", day:"numeric", year:"numeric"})) + '</td><td>' + d.count + '</td><td><a href="data/digests/' + esc(d.date) + '.html" target="_blank" rel="noopener">Open ↗</a></td></tr>'; }).join("")
+      || '<tr><td colspan="3" class="empty">No digests yet.</td></tr>';
+    var w = S.weeks[0];
+    if (!w) { $("weekly").innerHTML = '<div class="empty">The first weekly review is created on Monday morning.</div>'; return; }
+    $("wkMeta").textContent = w.week;
+    get("data/weekly/" + w.week + ".json", null).then(function(d){
       if (!d) return;
-      var max = Math.max.apply(null, d.counts.map(function(c){ return Math.max(c.this_week, c.last_week); }).concat([1]));
-      var rows = d.counts.map(function(c){ var diff = c.this_week - c.last_week;
-        return '<tr><td>'+esc(c.name)+'</td><td style="width:40%"><div class="bar" style="grid-template-columns:minmax(0,1fr) 34px;cursor:default"><span class="t"><span class="f" style="display:block;width:'+(c.this_week/max*100)+'%"></span></span><span class="c">'+c.this_week+'</span></div></td>'
-          + '<td class="mono">'+c.last_week+'</td><td class="mono" style="color:'+(diff>0?'var(--good)':diff<0?'var(--bad)':'var(--ink-3)')+'">'+(diff>0?'▲ ':diff<0?'▼ ':'= ')+Math.abs(diff)+'</td><td class="mono">'+c.signal+'</td></tr>'; }).join("");
-      $("weeklyView").innerHTML =
-        '<div class="ph"><h2>Weekly review · '+esc(d.week)+'</h2><span class="meta mono">'+esc(d.start)+' → '+esc(d.end)+'</span></div>'
-        + (d.brief ? '<div class="panel md" style="margin-bottom:12px">'+mdToHtml(d.brief, d.cites)+'</div>' : d.brief_emailed ? '<p class="note" style="margin-bottom:12px">The AI weekly brief and battlecard strategy were emailed and kept off this public site.</p>' : '')
-        + '<div class="tablewrap" style="margin-bottom:12px"><table><thead><tr><th>Target</th><th>This week</th><th>Last week</th><th>Change</th><th>High-signal</th></tr></thead><tbody>'+rows+'</tbody></table></div>'
-        + (d.top && d.top.length ? '<div class="feed">'+d.top.map(function(i){ return '<article class="it hot" style="--c:'+colorOf(i.source)+'"><div class="top2"><span class="src"><i></i>'+esc(i.source)+'</span><span class="comp">'+esc(i.competitor)+'</span><span>'+esc(itemDate(i))+'</span></div><a class="t" href="'+esc(safeUrl(i.url))+'" target="_blank" rel="noopener">'+esc(i.title)+'</a></article>'; }).join("")+'</div>' : '')
-        + '<p class="count mono" style="margin-top:12px">Past reviews: '+state.weeks.map(function(x){ return '<a href="data/weekly/'+esc(x.week)+'.html" target="_blank" rel="noopener">'+esc(x.week)+'</a>'; }).join(" · ")+'</p>';
+      var rows = (d.counts || []).filter(function(c){ return c.this_week || c.last_week; }).sort(function(a,b){ return b.this_week - a.this_week; });
+      $("weekly").innerHTML = (d.brief ? '<div class="md" style="margin-bottom:12px">' + mdToHtml(d.brief, d.cites) + '</div>' : d.brief_emailed ? '<p class="note">The written review was emailed to the team.</p>' : '')
+        + '<div class="tw"><table><thead><tr><th>Company</th><th>This week</th><th>Last week</th><th>Change</th></tr></thead><tbody>'
+        + (rows.map(function(c){ var diff = c.this_week - c.last_week; return '<tr><td>' + esc(c.name) + '</td><td><b>' + c.this_week + '</b></td><td>' + c.last_week + '</td><td style="color:' + (diff > 0 ? 'var(--good)' : diff < 0 ? 'var(--bad)' : 'var(--ink3)') + '">' + (diff > 0 ? '▲ ' : diff < 0 ? '▼ ' : '— ') + Math.abs(diff) + '</td></tr>'; }).join("") || '<tr><td colspan="4" class="empty">No activity this week.</td></tr>')
+        + '</tbody></table></div><p class="note" style="margin-top:10px">Full reports: ' + S.weeks.map(function(x){ return '<a href="data/weekly/' + esc(x.week) + '.html" target="_blank" rel="noopener">' + esc(x.week) + '</a>'; }).join(" · ") + '</p>';
     });
   }
-
-  function listOf(items, n){
-    return items.length ? '<ul>'+items.slice(0,n).map(function(i){ return '<li><a href="'+esc(safeUrl(i.url))+'" target="_blank" rel="noopener">'+esc(i.title)+'</a> <span class="note mono">'+esc(itemDate(i))+'</span></li>'; }).join("")+'</ul>' : '<div class="empty-s">Nothing yet.</div>';
+  function renderHealth(){
+    var s = (S.health.sources || []).slice().sort(function(a,b){ return (a.ok ? (a.skipped ? 1 : 2) : 0) - (b.ok ? (b.skipped ? 1 : 2) : 0); });
+    $("health").innerHTML = s.map(function(h){
+      var st = h.skipped ? '<span class="wait">Needs setup</span>' : h.ok ? '<span class="ok">Working</span>' : '<span class="bad">Failing</span>';
+      return '<tr><td>' + esc(h.entity) + '</td><td>' + esc(h.source) + '</td><td>' + st + '</td><td class="' + (h.ok ? "" : "err") + '">' + esc(h.skipped ? h.note : h.ok ? h.count + " items" : h.error) + '</td></tr>';
+    }).join("") || '<tr><td colspan="4" class="empty">No runs yet.</td></tr>';
   }
-
-  function renderBattlecard(name){
-    var comps = state.comps.filter(function(c){ return c.kind !== "topic"; });
-    if (!comps.length) { $("bcView").innerHTML = ""; return; }
-    if (!name || !comps.some(function(c){ return c.name === name; })) name = state.bcName || comps[0].name;
-    state.bcName = name;
-    $("bcPills").innerHTML = comps.map(function(c){ return '<button class="chip" aria-pressed="'+(c.name===name)+'" data-bcp="'+esc(c.name)+'">'+esc(c.name)+'</button>'; }).join("");
-    $("bcPills").onclick = function(e){ var b = e.target.closest("[data-bcp]"); if (b) { renderBattlecard(b.dataset.bcp); try { history.replaceState(null, "", "#bc=" + encodeURIComponent(b.dataset.bcp)); } catch(x){} } };
-    var c = comps.filter(function(x){ return x.name === name; })[0];
-    var card = state.cards[name] || {}, prof = c.profile || {}, reg = (state.reg[name] || {}).records || [], jobs = state.jobs[name];
-    var mine = state.items.filter(function(i){ return i.competitor === name; }).sort(function(a,b){ return itemDate(b).localeCompare(itemDate(a)); });
-    var d30 = daysAgo(30), recent = mine.filter(function(i){ return itemDate(i) >= d30; });
-    var by = function(src){ return mine.filter(function(i){ return src.indexOf(i.source) >= 0; }); };
-    var cites = card.cites || [];
-    var lis = function(arr){ return arr && arr.length ? '<ul>'+arr.map(function(x){ return '<li>'+mdToHtml(x, cites).replace(/^<p>|<\/p>$/g,"")+'</li>'; }).join("")+'</ul>'
-      : '<div class="empty-s">'+(card.strategy_emailed ? 'Kept off the public site — see the Monday weekly email.' : 'Add an ANTHROPIC_API_KEY secret to generate this.')+'</div>'; };
-    var html = '<div class="panel">'
-      + '<div class="bc-head"><div><span class="mono" style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)">'+esc(c.category || "Competitor")+'</span><h2>'+esc(name)+'</h2>'
-      + '<div class="note mono">'+esc(prof.ticker || "")+(card.updated ? ' · AI refreshed '+esc(card.updated.slice(0,10)) : '')+'</div></div>'
-      + '<div class="no-print" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">'
-      + (card.threat_level ? '<span class="threat '+esc(card.threat_level)+'" title="'+esc(card.threat_reason||"")+'">● Threat: '+esc(card.threat_level)+'</span>' : '')
-      + (c.website ? '<a class="btn" href="'+esc(safeUrl(c.website))+'" target="_blank" rel="noopener">Website ↗</a>' : '')
-      + '<button class="btn" id="bcCsv">⇩ CSV</button><button class="btn" onclick="window.print()">Print / PDF</button></div></div>'
-      + '<div class="mini"><div><b>'+recent.length+'</b><span>items · 30d</span></div><div><b>'+recent.filter(isSig).length+'</b><span>high-signal · 30d</span></div>'
-      + '<div><b>'+reg.length+'</b><span>FDA records</span></div><div><b>'+(jobs ? jobs.open_roles : "–")+'</b><span>open roles</span></div></div>'
-      + (card.summary ? '<div class="md" style="margin-top:10px;font-size:15px">'+mdToHtml(card.summary, cites)+(card.threat_reason ? '<p class="note">'+esc(card.threat_reason)+'</p>' : '')+'</div>' : '')
-      + '</div>'
-      + '<div class="bc-grid" style="margin-top:12px">'
-      + '<div class="panel"><div class="ph"><h2>Strengths</h2></div>'+lis(card.strengths)+'</div>'
-      + '<div class="panel"><div class="ph"><h2>Weaknesses</h2></div>'+lis(card.weaknesses)+'</div>'
-      + '<div class="panel"><div class="ph"><h2>How to win</h2></div>'+lis(card.talk_track)+'</div>'
-      + '<div class="panel wide"><div class="ph"><h2>Recent moves</h2></div>'+(card.recent_moves && card.recent_moves.length ? lis(card.recent_moves) : listOf(mine.filter(isSig), 6))+'</div>'
-      + '<div class="panel"><div class="ph"><h2>Products & notes</h2><span class="meta">from competitors.yaml</span></div>'
-      + ((prof.products||[]).map(function(p){ return '<span class="tag2">'+esc(p)+'</span>'; }).join("") || '<div class="empty-s">Add products in the profile block.</div>')
-      + (prof.notes ? '<p style="font-size:13px;color:var(--ink-2)">'+esc(prof.notes)+'</p>' : '')
-      + Object.keys(prof).filter(function(k){ return ["products","notes","ticker"].indexOf(k) < 0 && prof[k] && String(prof[k]).length; }).map(function(k){
-          var label = k === "hq" ? "HQ" : esc(k.replace(/_/g," ").replace(/^./, function(c){ return c.toUpperCase(); }));
-          return Array.isArray(prof[k]) ? '<div style="font-size:13px;margin:6px 0 0"><b>'+label+'</b><ul style="margin:2px 0 0">'+prof[k].map(function(x){ return '<li>'+esc(x)+'</li>'; }).join("")+'</ul></div>'
-            : '<p style="font-size:13px;margin:4px 0"><b>'+label+':</b> '+esc(prof[k])+'</p>'; }).join("")
-      + '</div>'
-      + '<div class="panel full"><div class="ph"><h2>FDA regulatory record</h2><span class="meta">openFDA · relevance-filtered</span></div>'
-      + (reg.length ? '<div class="tablewrap" style="border:0"><table><thead><tr><th>Decision date</th><th>Record</th><th>Decision</th></tr></thead><tbody>'
-          + reg.map(function(r){ return '<tr><td class="mono">'+esc(r.date||"")+'</td><td><a href="'+esc(safeUrl(r.url))+'" target="_blank" rel="noopener">'+esc(r.title)+'</a></td><td style="color:var(--ink-2)">'+esc((r.snippet||"").replace(/^.*Decision:\s*/,""))+'</td></tr>'; }).join("")
-          + '</tbody></table></div>' : '<div class="empty-s">Refreshed by the weekly run (or run the workflow in “weekly” mode).</div>')
-      + '</div>'
-      + '<div class="panel"><div class="ph"><h2>SEC filings</h2></div>'+listOf(by(["SEC filing"]), 6)+'</div>'
-      + '<div class="panel"><div class="ph"><h2>Clinical trials</h2></div>'+listOf(by(["Clinical trial"]), 6)+'</div>'
-      + '<div class="panel"><div class="ph"><h2>Publications</h2></div>'+listOf(by(["Publication"]), 6)+'</div>'
-      + '<div class="panel"><div class="ph"><h2>Patents</h2></div>'+listOf(by(["Patent"]), 6)+'</div>'
-      + '<div class="panel"><div class="ph"><h2>Hiring</h2></div>'+listOf(by(["Hiring"]), 6)+'</div>'
-      + '<div class="panel"><div class="ph"><h2>News & web</h2></div>'+listOf(by(["News","Website","RSS"]), 8)+'</div>'
-      + '</div>';
-    $("bcView").innerHTML = html;
-    $("bcCsv").onclick = function(){ downloadCSV(mine, "battlecard-" + name.replace(/[^a-z0-9]+/gi,"-").toLowerCase() + ".csv"); };
-    if (location.hash.indexOf("#bc=") === 0) showTab("cards");
-  }
-
-  function showTab(name){
-    document.querySelectorAll(".tabs button").forEach(function(b){ b.setAttribute("aria-selected", b.dataset.tab === name); });
-    ["feed","cards","weekly","digests","health","help"].forEach(function(t){ $("tab-"+t).hidden = t !== name; });
-  }
-  document.querySelector(".tabs").onclick = function(e){ var b = e.target.closest("button[data-tab]"); if (b) showTab(b.dataset.tab); };
 })();
 </script>
 </body>
