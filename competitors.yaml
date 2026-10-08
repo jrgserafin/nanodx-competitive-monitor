@@ -156,7 +156,7 @@ topics:
       - 'concussion blood test FDA'
     pubmed_query: '("traumatic brain injury" OR concussion) AND (GFAP OR "UCH-L1") AND "point-of-care"'
     # CMS payment rules, FDA notices and guidance in the Federal Register
-    federal_register_query: '"traumatic brain injury" OR "glial fibrillary acidic protein" OR concussion'
+    federal_register_query: 'traumatic brain injury'
 
   - name: Lab reimbursement (CMS)
     category: Market topic

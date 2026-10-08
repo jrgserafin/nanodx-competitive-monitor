@@ -345,7 +345,9 @@ _sec_tickers: dict | None = None
 
 
 def sec_headers():
-    contact = os.environ.get("SEC_CONTACT") or "monitor@users.noreply.github.com"
+    contact = os.environ.get("SEC_CONTACT")
+    if not contact:
+        raise SkipSource("SEC requires a contact email — add a SEC_CONTACT secret (e.g. your work email)")
     return {"User-Agent": f"NanoDx Competitive Monitor {contact}", "Accept-Encoding": "gzip, deflate"}
 
 
