@@ -1,0 +1,842 @@
+{
+ "checked": "2026-10-08T19:57:39+00:00",
+ "companies": [
+  {
+   "key": "rebiscan",
+   "name": "Rebiscan",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "Clinical trial",
+     "title": "HITT for the Identification of Mild Traumatic Brain Injury",
+     "url": "https://clinicaltrials.gov/study/NCT05092282",
+     "date": "2026-08-12",
+     "detail": "NCT05092282 · Completed"
+    },
+    {
+     "type": "Clinical trial",
+     "title": "Head and Intraocular Trauma Tool for the Identification of Mild Traumatic Brain Injury",
+     "url": "https://clinicaltrials.gov/study/NCT05092295",
+     "date": "2026-08-12",
+     "detail": "NCT05092295 · Active Not Recruiting"
+    },
+    {
+     "type": "Clinical trial",
+     "title": "An Early Prospective Study of the Traq™ Device for Characterization of Binocular Ocular Function in Normal Subjects and Subjects With Recent Traumatic Brain Injury",
+     "url": "https://clinicaltrials.gov/study/NCT07742878",
+     "date": "2026-08-03",
+     "detail": "NCT07742878 · Recruiting"
+    },
+    {
+     "type": "Clinical trial",
+     "title": "mTBI Identification and Monitoring Through Retinal Scanning",
+     "url": "https://clinicaltrials.gov/study/NCT06142435",
+     "date": "2026-05-20",
+     "detail": "NCT06142435 · Recruiting"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 16,
+   "latest": "2026-08-12"
+  },
+  {
+   "key": "siemens medical solutions usa",
+   "name": "Siemens Medical Solutions USA",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K260055: syngo.CT Brain Quantification",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260055",
+     "date": "2026-09-25",
+     "detail": "Substantially Equivalent · product code QIH"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 11,
+   "latest": "2026-09-25"
+  },
+  {
+   "key": "b&b",
+   "name": "B&B",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "Clinical trial",
+     "title": "TES HT100 Clinical Validation for Brain Injury Screening in Patients With Mild Head Trauma or Neurological Symptoms",
+     "url": "https://clinicaltrials.gov/study/NCT07490418",
+     "date": "2026-09-24",
+     "detail": "NCT07490418 · Recruiting"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 11,
+   "latest": "2026-09-24"
+  },
+  {
+   "key": "reemerge",
+   "name": "ReEmerge",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "Clinical trial",
+     "title": "Cognitive Network Restoration Therapy for Moderate to Severe Traumatic Brain Injury: A Feasibility Study",
+     "url": "https://clinicaltrials.gov/study/NCT07730099",
+     "date": "2026-07-28",
+     "detail": "NCT07730099 · Not Yet Recruiting"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 11,
+   "latest": "2026-07-28"
+  },
+  {
+   "key": "nexstim oyj",
+   "name": "Nexstim Oyj",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K252358: Nexstim Navigated Brain Stimulation (NBS) 6 System (NBS6)",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252358",
+     "date": "2026-03-20",
+     "detail": "Substantially Equivalent · product code OBP"
+    },
+    {
+     "type": "FDA clearance",
+     "title": "K253098: Nexstim Navigated Brain Stimulation (NBS) 6 System (NBS6)",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253098",
+     "date": "2026-03-20",
+     "detail": "Substantially Equivalent · product code OBP"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 11,
+   "latest": "2026-03-20"
+  },
+  {
+   "key": "cereneo",
+   "name": "Cereneo",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "Clinical trial",
+     "title": "Vestibular Stimulation in Sleep for Neurorehabilitation Patients",
+     "url": "https://clinicaltrials.gov/study/NCT07658027",
+     "date": "2026-06-18",
+     "detail": "NCT07658027 · Not Yet Recruiting"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 10,
+   "latest": "2026-06-18"
+  },
+  {
+   "key": "ceribell",
+   "name": "Ceribell",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K260363: Ceribell Brain Monitor Headband",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260363",
+     "date": "2026-04-03",
+     "detail": "Substantially Equivalent · product code GXY"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 10,
+   "latest": "2026-04-03"
+  },
+  {
+   "key": "siemens healthcare",
+   "name": "Siemens Healthcare",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K253057: AI-Rad Companion Brain MR",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253057",
+     "date": "2026-01-22",
+     "detail": "Substantially Equivalent · product code QIH"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 10,
+   "latest": "2026-01-22"
+  },
+  {
+   "key": "neosoma",
+   "name": "Neosoma",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K252922: Neosoma Brain Mets",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252922",
+     "date": "2025-12-17",
+     "detail": "Substantially Equivalent · product code QIH"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 10,
+   "latest": "2025-12-17"
+  },
+  {
+   "key": "avatar medical",
+   "name": "Avatar Medical",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K252665: brAIn Shoulder Positioning",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252665",
+     "date": "2025-10-20",
+     "detail": "Substantially Equivalent · product code QIH"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 10,
+   "latest": "2025-10-20"
+  },
+  {
+   "key": "ischemaview",
+   "name": "Ischemaview",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K261368: Rapid Platform (R6.7)",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261368",
+     "date": "2026-09-21",
+     "detail": "Substantially Equivalent · product code QIH"
+    },
+    {
+     "type": "FDA clearance",
+     "title": "K261085: Rapid Vessel Occlusion (Rapid VO)",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261085",
+     "date": "2026-07-13",
+     "detail": "Substantially Equivalent · product code QAS"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 7,
+   "latest": "2026-09-21"
+  },
+  {
+   "key": "medtronic ireland",
+   "name": "Medtronic Ireland",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K261428: NC Euphora Rapid Exchange Balloon Dilatation Catheter",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261428",
+     "date": "2026-08-14",
+     "detail": "Substantially Equivalent · product code LOX"
+    },
+    {
+     "type": "FDA clearance",
+     "title": "K261759: Euphora Rapid Exchange (RX) Balloon Dilatation Catheter",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261759",
+     "date": "2026-07-27",
+     "detail": "Substantially Equivalent · product code LOX"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 7,
+   "latest": "2026-08-14"
+  },
+  {
+   "key": "tectraum",
+   "name": "TecTraum",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "Clinical trial",
+     "title": "Pro-2-Cool Pivotal Trial II",
+     "url": "https://clinicaltrials.gov/study/NCT06929923",
+     "date": "2026-08-12",
+     "detail": "NCT06929923 · Recruiting"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 5,
+   "latest": "2026-08-12"
+  },
+  {
+   "key": "imgfax",
+   "name": "IMGFAX",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K261288: Handheld Ultrasound Scanner",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261288",
+     "date": "2026-07-30",
+     "detail": "Substantially Equivalent · product code IYN"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 5,
+   "latest": "2026-07-30"
+  },
+  {
+   "key": "cercare medical a/s",
+   "name": "Cercare Medical A/S",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K260316: CMN Capillary Function with Oncology Virtual Expert",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260316",
+     "date": "2026-06-22",
+     "detail": "Substantially Equivalent · product code QIH"
+    },
+    {
+     "type": "FDA clearance",
+     "title": "K253831: CMN Capillary Function with Virtual Expert for MRI, CT and CBCT",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253831",
+     "date": "2026-05-18",
+     "detail": "Substantially Equivalent · product code LLZ"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 5,
+   "latest": "2026-06-22"
+  },
+  {
+   "key": "ihealth labs",
+   "name": "Ihealth Labs",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K251092: iHealth Flu A&B/COVID-19 Rapid Test; iHealth Flu A&B/COVID-19 Rapid Test Pro",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251092",
+     "date": "2025-12-12",
+     "detail": "Substantially Equivalent · product code SCA"
+    },
+    {
+     "type": "FDA clearance",
+     "title": "K251085: iHealth Flu A&B/COVID-19/RSV Rapid Test; iHealth Flu A&B/COVID-19/RSV Rapid Test Pro",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251085",
+     "date": "2025-12-12",
+     "detail": "Substantially Equivalent · product code SCA"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 5,
+   "latest": "2025-12-12"
+  },
+  {
+   "key": "cordx",
+   "name": "CorDx",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K253882: CorDx Tyfast COVID-19 Ag Rapid Test Rx",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253882",
+     "date": "2026-06-01",
+     "detail": "Substantially Equivalent · product code QVF"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 4,
+   "latest": "2026-06-01"
+  },
+  {
+   "key": "stryker endoscopy",
+   "name": "Stryker Endoscopy",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K261037: 780 nm SPY Portable Handheld Imaging (SPY-PHI) System",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261037",
+     "date": "2026-05-28",
+     "detail": "Substantially Equivalent · product code IZI"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 4,
+   "latest": "2026-05-28"
+  },
+  {
+   "key": "hangzhou alltest biotech",
+   "name": "Hangzhou AllTest Biotech",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K260342: AllTest Strep A Rapid Test",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260342",
+     "date": "2026-04-30",
+     "detail": "Substantially Equivalent · product code GTY"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 4,
+   "latest": "2026-04-30"
+  },
+  {
+   "key": "healgen scientific",
+   "name": "Healgen Scientific",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K260095: Heal-Check Rapid COVID-19 Antigen Self-Test",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260095",
+     "date": "2026-04-13",
+     "detail": "Substantially Equivalent · product code QYT"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 4,
+   "latest": "2026-04-13"
+  },
+  {
+   "key": "becton, dickinson and",
+   "name": "Becton, Dickinson and",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K252378: BD® MiniDraw Capillary Blood Collection System with BD® MiniDraw SST Capillary Blood Collection Tube",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252378",
+     "date": "2026-04-10",
+     "detail": "Substantially Equivalent · product code JKA"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 4,
+   "latest": "2026-04-10"
+  },
+  {
+   "key": "hangzhou clongene biotech",
+   "name": "Hangzhou Clongene Biotech",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K253318: Clungene RSV Antigen Rapid Test",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253318",
+     "date": "2026-01-30",
+     "detail": "Substantially Equivalent · product code GQG"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 4,
+   "latest": "2026-01-30"
+  },
+  {
+   "key": "medtronic, ireland",
+   "name": "Medtronic, Ireland",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K251970: Sprinter Legend Rapid Exchange Balloon Dilatation Catheter",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251970",
+     "date": "2026-01-17",
+     "detail": "Substantially Equivalent · product code LOX"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 4,
+   "latest": "2026-01-17"
+  },
+  {
+   "key": "inbios international",
+   "name": "InBios International",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K251595: COVID-19 Detect Rapid Self -Test",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251595",
+     "date": "2025-10-12",
+     "detail": "Substantially Equivalent · product code QYT"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 4,
+   "latest": "2025-10-12"
+  },
+  {
+   "key": "gold standard diagnostics",
+   "name": "Gold Standard Diagnostics",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K250249: Gold Standard Diagnostics (GSD) AIX1000 Rapid Plasma Reagin (RPR) Automated Test System",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250249",
+     "date": "2025-10-10",
+     "detail": "Substantially Equivalent · product code GMQ"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": false,
+   "score": 4,
+   "latest": "2025-10-10"
+  }
+ ],
+ "news": [
+  {
+   "id": "263cc435af650e3a",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Funding Tracker '26: Ours Privacy, Arintra and Happy Health",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
+   "date": "2026-10-08",
+   "snippet": "",
+   "publisher": "Fierce Healthcare",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "b5d503bdba4eefaf",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "FDA Clears NeuraNova’s STEDI Device",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBNVlpBWFlCNlBCdjdPVmN1dDFhMDl0bF9DMjhIOGdkWWlJdU50XzRtSkV3LUZWMTMzZWl5dWlXOTk3ZmVjT3JadDFwRXVGVGhLV2tPUmJiQXc2RVNmMUk0RldGamxpUXNBc2FuSmdDdFp1REItWURuYnl1TGd5UQ?oc=5",
+   "date": "2026-10-08",
+   "snippet": "",
+   "publisher": "Medical Product Outsourcing",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "ca8258e921cbd009",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Targeting solutions: Inside the ISEB’s Precision Diagnostics & Therapeutics research cluster at Case Western Reserve University",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQU2NxcXBCclBnX1RlNDBIUWdBWlE0OGFpa0VsWmV3REluV1JieXhVNUEzRm9UbjlBQWJmc01LUVhZLUs3dnpWRmQtaTBLRzkyOS1Pd1plQVE4RkFXbC1PYmpMcXByUGZwWk9RZzltY2hxbXR4VFh2RlprNGlqYVBoUFpGcHNCbS1fbUkzNkNjQkk0RFZJbDR1c19fOUJ6LUhTdEwySy1MQkZlWjVvX0YwdEZNeVkyV0FVcmxESFZsX0hjTWJGNTBGY3RwYzk5dW9CVzg1TQ?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Case Western Reserve University",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "9e0a85dce824aa6f",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Faster, more accurate newborn sepsis test in development",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VZWpqTzVnZWRGVXRMZHlSRHRZQTV1UjVPN3VFaTdHUGxOc1lEbXV3NkJxZmJ6SktKZGNrYTBlMm5fMzkxdEtsbGhhX1h1MG1kRkNuZFFJQnVTai1aaXJDRGlyQzBkTW1KNGQ4SjRhNElfT1pJVF8xUFdpX0dCZkE?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Medical Xpress",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "6276396e3896deda",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Med-tech startup Sunfox Technologies raises $7 Mn in Series A round",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa3Y2WU1ZSWdkQi1faWZXOHVxYXVVcm5DTXRiZXh6cTR5bVFFLURiSjdWLU9rWWhLN25mVUloUFVrRjZOLU1mc0tXNU9JMGhPUG40a3J3V0JIWi14VkEzd0s3VmtUbmpTVUxlVC1udnRRTENmb21mS3FTdlIyaVBYVXVZQ21ZQllrSkFKd1NKS1JkZnVfNWJNWWZpQWFlbE14eVZDckJqeU_SAagBQVVfeXFMTmt2NllNWUlnZEItX2lmVzh1cWF1VXJuQ010YmV4enE0eW1RRS1EYko3Vi1Pa1loSzduZlVJaFBVa0Y2Ti1NZnNLVzVPSTBoT1BuNGtyd1dCSFoteFZBM3dLN1ZrVG5qU1VMZVQtbnZ0UUxDZm9tZktxU3ZSMmlQWFV1WUNtWUJZa0pBSndTSktSZGZ1XzViTVlmaUFhZWxNeHlWQ3JCanlP?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Entrackr",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "8e022c7087d283c9",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Jharkhand Health Minister Invites ‘Doctors On Duty’ to Digi Health Conclave Jharkhand- 2026, Sees ‘DOD",
+   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNOWRVYTZVQkpMbFFtVjhVUjJoRi1xMkFxLTNBczgtTjc1SWwwOUJ6TmhlUDZfQ1duSUg0bFJYZGJ6T3RseFc3bWdSSVNIMnNnb2stOXhIc096N0h4dDV6dmM1R2VUOU8xalpFbDVmR0x6MnJRZ2ZHMFZGX1M3SGdrcFNNd0dYYVRJNnpCOHozQjFYTzNrT25GZTJHSnlwSlNkNzN1OWplY25PbjNhN1U3d1h1bzRzUE5ycmN1aFBnbG10MURVWWJ3UHN3SXRlTElBOW1mVDlXYV93dE5uemNyNWR3N0NOVjRFREJ1eUphYl9Fb1g4Y21HNHRqeE11OEVuUjIybVFsN00zbklGejRmeW05eUxlVlZMdDVjR1oxaXBkWVlfOFHSAaYCQVVfeXFMTTlkVWE2VUJKTGxRbVY4VVIyaEYtcTJBcS0zQXM4LU43NUlsMDlCek5oZVA2X0NXbklINGxSWGRiek90bHhXN21nUklTSDJzZ29rLTl4SHNPejdIeHQ1enZjNUdlVDlPMWpaRWw1ZkdMejJyUWdmRzBWRl9TN0hna3BTTXdHWGFUSTZ6Qjh6M0IxWE8za09uRmUyR0p5cEpTZDczdTlqZWNuT24zYTdVN3dYdW80c1BOcnJjdWhQZ2xtdDFEVVlid1Bzd0l0ZUxJQTltZlQ5V2Ffd3RObnpjcjVkdzdDTlY0RURCdXlKYWJfRW9YOGNtRzR0anhNdThFblIyMm1RbDdNM25JRno0ZnltOXlMZVZWTHQ1Y0daMWlwZFlZXzhR?oc=5",
+   "date": "2026-10-06",
+   "snippet": "",
+   "publisher": "Startup Story",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "b2f1b743f9afd494",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Procalcitonin Testing Market Size & Share Report, 2026-2033",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONlpUcy1DalJSNEotUzA3OE9QT3kzdlhOR2xLMm1sTVJMYVc5NmFtU050UmttX2JkRnVPUFRRSE1WUThzQWZPem5neTlQT2ctWXR2T09sS2IxakF1RVIyUHhDRkpROUhwUUZFOFlHWnRsT0hhRFNGQ203UXpNVUZ1eUpIdjZsSFdfMXRXVnhBVE4?oc=5",
+   "date": "2026-10-06",
+   "snippet": "",
+   "publisher": "Grand View Research",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "d0eaede71b82962d",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Lumos Diagnostics Holdings (ASX:LDX): FebriDx Expansion, FY26 Results and US Commercial Progress",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTU91aDU3c3FqZDdIVy0xOUZWWGZUVzlUYWRKQjB5MlgzTGtFQUNnTHIxR29wMWFpdFZHZUpxdDYwTFNTVEZjVE9YaVpnclBMTmNMOW95RExWYmJlT3p1MDkwaVlab0c5WllwTUl6VmN6ckRGZU5VWk9ROGJHSThpOEgtajdyU3FwRS01NTQwMWkwNjhSVmYya3FxY1dfX3pWcGVnaGVWSE1MVnpwNEJpVldscEw4Rzl3VExWS1VkMFR0NjRqOU1TMTB3?oc=5",
+   "date": "2026-10-06",
+   "snippet": "",
+   "publisher": "Kalkine",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "1a36542a11935603",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Antibody-detecting resistive biosensor for protein biomarkers",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92RS1zTGwyelU2S2cxdWNlM1BLQXlpTEZ0ZG53OVhsbmFwSTEwcjNXb1FiUUtWdkR6dVhtZm5MLTNLa1c5S2hONl9qUnE5OFdON0FjWWxmc1Mzb2ZObEhB?oc=5",
+   "date": "2026-10-05",
+   "snippet": "",
+   "publisher": "Nature",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "071479408c78489d",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Long Shortz with Optiscan: US FDA 510(k) submission for InVue",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWnoyZ21QT0dfQnM4WnM3ZWp4UmtocFNXRmJlM1FBQ3BjM3hPc1NKWEpBWjFuQzA4TENuYXY2Vi1ua0g5ZXhWRjBpY0R4RWhibVA4aFVkNHNPanZjOHllU3NrZ3BqN191NVJMaFpCemxtaDJpZV9RbmY4aHNNTXctMlBnSWYzOWRBQXpQNEU4M0lFWXRSazZsU2tmYlRwNWtvdjIwU0szb3VFbGVLcFdSejBwREZJVTNVWHBJeXRfWFFmdXlpbGY1TEJ4X1Zfa0NxSFBacGtvZ0hTTHluOE9YbVBhQnR2X3NHY0ZJaU1n?oc=5",
+   "date": "2026-10-04",
+   "snippet": "",
+   "publisher": "Toowoomba Chronicle",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "c8f8b66aed428dbd",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "India Deepens Pharma Innovation Push With INR 4,620 Crore R&D Pipeline Under PRIP",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWUpmb0h4LVI4c1FnVDNXbkR4MG4xTkZJZDhNWFU0WWpmT2lUdlRCaGxhdFRYU0Z5bGdrZ1YtSTNScWZHSEJTbXVXZ2JMUXNBaFEwNG1hbEJUMVJqSGdfWkcyNTFBOXAxSGpwWkxuYkxENkR0b0RUa0M0Q29GU285bkhYdWx4NW9rYmMxTDBmNERmanZzVzFWckd5R0J6X0xyVV9QdjRrNDU3QnpnNVVGNGh0Y0lCZ2FK?oc=5",
+   "date": "2026-10-02",
+   "snippet": "",
+   "publisher": "India Business Trade",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "7a7881d18d00d6d3",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "QIAGEN Expands US QIAstat-Dx Portfolio With New FDA-Cleared Panel",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVWxTZkhsWHdfTXBOdFQwc2l0RU1oeUgtQVBfQXkxeTZmZjN5V0tQa09EWHVMc1pJSHNwbkNyV0lRZUJxQjljTjRfNzQyYktoTUo5TjJ3Q1dZdms3UlRzcE1rSklMWFllR19ObEt1ckNud29RTENkMVNINjRVQndlejA2QQ?oc=5",
+   "date": "2026-10-02",
+   "snippet": "",
+   "publisher": "Yahoo Finance UK",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "ceda92c405e28933",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "PRIP funds 41 pharma projects, opens new discovery track",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOamhNcFhzSk1sR2ZfRkduWFJmZzhWaWd6bkNFSWJ1U0I2UHdTaUtaLWdpZGh5QzRtVUx4OGk3bFRaTzBEMmtnMUpLa1Voa3NQY0hzcDR2UXVZcl9SLU1oQVNhOVJ3Y2JaSDh6WkgyLUJKdWR0Qm8xS3IzLXByUHN2QjAwcHlUMUpMQjNz?oc=5",
+   "date": "2026-10-01",
+   "snippet": "",
+   "publisher": "Medical Buyer",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "91bc44e369fda093",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Molbio Diagnostics Share Price Target Rs 1,600: Stock Jumps 5% as HDFC Mutual Fund Buys 1.99% in Bulk Deal",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KQ0R0R2ozVk1sS3NYdjR4ZGJmTmdhZk0tcXJmR3NVeF9lSVBVSm4yeFdhWDY1ZGU1c2w0eVk1M2dUS3pPUTV0LUp1UW1ERzJDN1FkMVRqMHk3djJjQ3dCbWNMa0xWVmFTaFpkQTNlNHc?oc=5",
+   "date": "2026-10-01",
+   "snippet": "",
+   "publisher": "Univest",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "afbfd47912417e72",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Tempus AI (NasdaqGS:TEM) Stock Forecast & Analyst Predictions",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcDNHblVNWGV2N2dZYVdCNndYS001QVh4emRGRFNQeml6X3NoN3d0cEVWZkZMUXNSMlFnUnBfTlhjVlpoU0t4aEROT1Nackk2aGZ4UlJUM2YtcGZuak9TbUxSbThUMEFLYkhhQjNLY3dWeGdLZHE2OXkzUXhBRkRVLTRKZ2RVWUo5cEpB?oc=5",
+   "date": "2026-10-01",
+   "snippet": "",
+   "publisher": "Simply Wall Street",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "2d8d6402234661f2",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "DexCom (NasdaqGS:DXCM) Stock Forecast & Analyst Predictions",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tRTdjbUVyUjZwZDZwOHZ4U0M3WERyQzUxX2k3cld4c3V4LXpFMWc4MTZ4emtkWW1oUGoxQV9vS1RCdFBvU2piY1BQT2s5d0JDOFg4TlhNbV96cDZ6YlhPa3BONDJCVWxlTmdfT1QtQ284S01xNG5J?oc=5",
+   "date": "2026-10-01",
+   "snippet": "",
+   "publisher": "Simply Wall Street",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "e016b7a32c73cc61",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "List of 419 Genomics Startups in India & Market Trends (Sep 2026)",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSnFLanlwaDJlRkpkQjRYRzgyYjczQV92ckxUMlRHV0J1TUR5LVJ2cHVhM2o2d3VJVjczWFA4ZkNaNXVYSFRrNjEzX0tlY0dRVkgta3JDay0zX1BtU1owXzZ1ZE42Zm9JMF9Va1ZQREY5Sm9peVBGWHI3R2ROdGRXb0lQOXZoVTAzYzVUaHJZNzZ5UUJIT09OTlpRcVRHajNzZUdn?oc=5",
+   "date": "2026-09-30",
+   "snippet": "",
+   "publisher": "Tracxn",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "58daaa9e980cdd20",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Hyperfine’s Swoop Portable MRI System, US",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZG5lOHFvMVdPN2tGUzFBODN2bUpwQTh3YkE0ZkN3VWNMRTI4bGNxelpjdy1YS2N1VWxQSVRmcWdCdGFqcEJUbG00M0ZqWTRKWmk4bFZqZDAyRWIyb0JrdHdlNFJQQ2Q0SkozN3ZORldTdGNZdk1xcmI5Mk5xbHF5SEh1QQ?oc=5",
+   "date": "2026-09-30",
+   "snippet": "",
+   "publisher": "Medical Device Network",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "0136fe7ae2f8b596",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Can autonomous phlebotomy transform blood collection?",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMW0wVkJMNkQ4Skhfb0FIakkwZE8wSThKYnB0R19RSEdOMUp2TFlJeVQ5TXhkTDlUYlZuSU1MdWRhMUVvRXJIVU92QUtHTHBCanp0Y0xvRXdtOW5iMHJxMnNnSDBvNVZ2Q1V6dkRteUFFelFjdGEtZ1VQQ3lMM21UZ210bzBoUUkyWUYtU0g5Z0JXMGtl?oc=5",
+   "date": "2026-09-30",
+   "snippet": "",
+   "publisher": "Select Science",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "20a5b1b6e0cd7c6e",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "VertigoDx Secures FDA 510(k) Clearance for SmartVertigo® Point-of-Care Vestibular Diagnostic System",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPck13YllrSHAxTEEzVU9PMGF6SkpiaW04R0RGTDFHZ1h1c2JNSTBJOXhPYWVxRFBGRU15Z182RDZuOEsxeE5BSGJsWkJHdDBqOTZKalo3TTVnMEJldWtlcWFmdXh1QzVvbGd5aGFPR0UwYVJWX2V4ckZReGlod1BSWlV4X1F1SFpSZjh3aVNqaFBiUQ?oc=5",
+   "date": "2026-09-29",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "cb023f3e038f1c3b",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "HEARTio: Interview With Co-Founder And CEO Utkars Jain About AI-Powered Cardiac Diagnostics",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OLW1xNDVtUVRoajNpWG8xc3Z5emtVSXdmRHpyRWdiUVgxR2RsYUVEdTE1c0d2M2QzaWdQSXY1eEQycjNvb01CSVlxaWpYeElZOE45cy1yWkM1NGkySGNoamh6TUFyRFBa0gFuQVVfeXFMTWJKZTJjbXdwalllS3k4Q2N3MDlrWEs1bnA5OUd4OUhXcWpfQklSODhyZ1BwX3c0VGxVMmkwQzNlVFZBS2pFQWVZMUNkZ2Z3VHR3Vl85SVpxWVVJR1Q3VGZBdVVwa0RFdWRhY083TXc?oc=5",
+   "date": "2026-09-28",
+   "snippet": "",
+   "publisher": "Pulse 2.0",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "38610ae52c2ed9c7",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Medoc Health Reaches ₹22 Crore Valuation",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOUEpGS2hpNjJ2U1h5YUNFcUpfN1VyQkdSS2N1dzNJVTBLRG1FWmN6Uk1WeHpKNUUwZlNBWE5MdmhaSENiVmtJNUJvSWlDUjVsRGNSZWtaam9UMm56VzN6eF9IUUY1LTVvTl9xMkkzUUFuc0pqYWd4MS11Q1JsY2ROV2NXeVdWUWNtVVh3VjVZc2hEdHN0U0k3LWdxay1wYzc3Vmw4VTR2OTl2N0Q3ZzhxTndDcjRobHQyNW5IQUkzTmVwZkF0Tzl0S0tIT3c4eXc5VUhtMUhB?oc=5",
+   "date": "2026-09-25",
+   "snippet": "",
+   "publisher": "Voice of Healthcare",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "f420c7d09709b414",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Rapid genetic test could transform brain cancer diagnosis, NHS says",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcmpSRkp5TkEyUGxTRlpGZENsR2xPb0wtMEtVWExfcHVQV2N0ZXZ6WnlaMENDVmNTanF5aEFkR0otYnEwX1ZLdUZwUlpyNmlXNVltbmptNGo0dHBaNUJKS2k3ZjY0Si1kSU1UejRtVU1VdlZhN2pPWnk3MHQ3Q1h2WWdkd29NajRoUW1WOG5DbWowZVhKUjNJeXVMQ2o?oc=5",
+   "date": "2026-09-25",
+   "snippet": "",
+   "publisher": "NR Times",
+   "query": "\"rapid test\" \"brain injury\"",
+   "tbi": true,
+   "first_seen": "2026-10-08T19:57:39+00:00"
+  }
+ ],
+ "scope": {
+  "fda_keywords": [
+   "point of care",
+   "point-of-care",
+   "rapid",
+   "whole blood",
+   "fingerstick",
+   "capillary",
+   "handheld",
+   "brain",
+   "concussion",
+   "traumatic",
+   "GFAP",
+   "UCH-L1",
+   "neuro"
+  ],
+  "trial_conditions": [
+   "traumatic brain injury",
+   "concussion",
+   "mild traumatic brain injury"
+  ],
+  "news_queries": [
+   "\"point-of-care\" diagnostics startup funding",
+   "\"point-of-care\" test \"FDA clearance\"",
+   "concussion blood test startup",
+   "\"traumatic brain injury\" diagnostic startup",
+   "\"point-of-care\" biosensor raises",
+   "\"rapid test\" \"brain injury\""
+  ]
+ }
+}
