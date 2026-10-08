@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-08T14:15:52+00:00",
+ "checked": "2026-10-08T15:41:11+00:00",
  "sources": [
   {
    "entity": "Abbott",
@@ -13,14 +13,14 @@
    "source": "News: \"i-STAT TBI\"",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Abbott",
    "source": "News: \"Alinity\" TBI",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Abbott",
@@ -48,14 +48,30 @@
    "source": "PubMed: \"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 2,
-   "secs": 1.0
+   "secs": 0.9
+  },
+  {
+   "entity": "Abbott",
+   "source": "SEC: ABT",
+   "ok": false,
+   "error": "403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+   "secs": 0.3
+  },
+  {
+   "entity": "Abbott",
+   "source": "Patents: Abbott",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
   },
   {
    "entity": "bioMérieux",
    "source": "News: \"bioMerieux\" \"VIDAS TBI\"",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "bioMérieux",
@@ -69,7 +85,7 @@
    "source": "FDA: bioMerieux",
    "ok": true,
    "count": 3,
-   "secs": 0.2
+   "secs": 0.4
   },
   {
    "entity": "bioMérieux",
@@ -83,7 +99,16 @@
    "source": "PubMed: \"VIDAS TBI\"",
    "ok": true,
    "count": 1,
-   "secs": 0.9
+   "secs": 0.7
+  },
+  {
+   "entity": "bioMérieux",
+   "source": "Patents: bioMerieux",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
   },
   {
    "entity": "Roche",
@@ -104,14 +129,23 @@
    "source": "FDA: Roche",
    "ok": true,
    "count": 44,
-   "secs": 0.7
+   "secs": 0.3
   },
   {
    "entity": "Roche",
    "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.1
+  },
+  {
+   "entity": "Roche",
+   "source": "Patents: Roche",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
   },
   {
    "entity": "Quanterix",
@@ -125,7 +159,7 @@
    "source": "FDA: Quanterix",
    "ok": true,
    "count": 0,
-   "secs": 0.6
+   "secs": 0.2
   },
   {
    "entity": "Quanterix",
@@ -139,14 +173,30 @@
    "source": "PubMed: Simoa AND (\"traumatic brain injury\" OR concussion)",
    "ok": true,
    "count": 1,
-   "secs": 0.9
+   "secs": 0.8
+  },
+  {
+   "entity": "Quanterix",
+   "source": "SEC: QTRX",
+   "ok": false,
+   "error": "403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+   "secs": 0.1
+  },
+  {
+   "entity": "Quanterix",
+   "source": "Patents: Quanterix",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
   },
   {
    "entity": "BrainScope",
    "source": "News: \"BrainScope\"",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "BrainScope",
@@ -163,10 +213,19 @@
    "secs": 0.1
   },
   {
+   "entity": "BrainScope",
+   "source": "Patents: BrainScope",
+   "ok": true,
+   "skipped": true,
+   "note": "add a PATENTSVIEW_API_KEY secret to enable patent tracking",
+   "count": 0,
+   "secs": 0
+  },
+  {
    "entity": "TBI diagnostics market",
    "source": "News: \"traumatic brain injury\" blood test",
    "ok": true,
-   "count": 11,
+   "count": 12,
    "secs": 0.2
   },
   {
@@ -182,6 +241,27 @@
    "ok": true,
    "count": 1,
    "secs": 0.7
+  },
+  {
+   "entity": "TBI diagnostics market",
+   "source": "Federal Register: \"traumatic brain injury\" OR \"glial fibrillary acidic protein\" OR concussion",
+   "ok": true,
+   "count": 0,
+   "secs": 0.2
+  },
+  {
+   "entity": "Lab reimbursement (CMS)",
+   "source": "News: CMS \"clinical laboratory fee schedule\"",
+   "ok": true,
+   "count": 5,
+   "secs": 0.2
+  },
+  {
+   "entity": "Lab reimbursement (CMS)",
+   "source": "Federal Register: \"clinical laboratory fee schedule\" OR \"Medicare Physician Fee Schedule\" OR \"proprietary laboratory analyses\"",
+   "ok": true,
+   "count": 12,
+   "secs": 0.2
   }
  ]
 }

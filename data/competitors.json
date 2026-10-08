@@ -15,7 +15,19 @@
   "fda_applicant": "Abbott",
   "trials_sponsor": "Abbott",
   "pubmed_query": "\"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
-  "rss": null
+  "rss": null,
+  "sec_ticker": "ABT",
+  "patent_assignee": "Abbott",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "ticker": "ABT (NYSE)",
+   "products": [
+    "i-STAT TBI",
+    "Alinity i TBI"
+   ],
+   "notes": ""
+  }
  },
  {
   "name": "bioMérieux",
@@ -30,7 +42,19 @@
   "fda_applicant": "bioMerieux",
   "trials_sponsor": "bioMérieux",
   "pubmed_query": "\"VIDAS TBI\"",
-  "rss": null
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "bioMerieux",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "ticker": "BIM (Euronext Paris)",
+   "products": [
+    "VIDAS TBI (GFAP",
+    "UCH-L1)"
+   ],
+   "notes": ""
+  }
  },
  {
   "name": "Roche",
@@ -45,7 +69,18 @@
   "fda_applicant": "Roche",
   "trials_sponsor": null,
   "pubmed_query": "Elecsys AND (GFAP OR \"UCH-L1\")",
-  "rss": null
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "Roche",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "ticker": "ROG (SIX Swiss Exchange)",
+   "products": [
+    "Elecsys immunoassays (GFAP / UCH-L1)"
+   ],
+   "notes": ""
+  }
  },
  {
   "name": "Quanterix",
@@ -59,7 +94,20 @@
   "fda_applicant": "Quanterix",
   "trials_sponsor": "Quanterix",
   "pubmed_query": "Simoa AND (\"traumatic brain injury\" OR concussion)",
-  "rss": null
+  "rss": null,
+  "sec_ticker": "QTRX",
+  "patent_assignee": "Quanterix",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "ticker": "QTRX (Nasdaq)",
+   "products": [
+    "Simoa platform (HD-X",
+    "SR-X",
+    "SP-X)"
+   ],
+   "notes": ""
+  }
  },
  {
   "name": "BrainScope",
@@ -73,7 +121,18 @@
   "fda_applicant": "BrainScope",
   "trials_sponsor": "BrainScope",
   "pubmed_query": null,
-  "rss": null
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": "BrainScope",
+  "jobs": null,
+  "federal_register_query": null,
+  "profile": {
+   "ticker": "private",
+   "products": [
+    "Ahead (EEG-based brain function assessment)"
+   ],
+   "notes": ""
+  }
  },
  {
   "name": "TBI diagnostics market",
@@ -88,6 +147,30 @@
   "fda_applicant": null,
   "trials_sponsor": null,
   "pubmed_query": "(\"traumatic brain injury\" OR concussion) AND (GFAP OR \"UCH-L1\") AND \"point-of-care\"",
-  "rss": null
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": null,
+  "jobs": null,
+  "federal_register_query": "\"traumatic brain injury\" OR \"glial fibrillary acidic protein\" OR concussion",
+  "profile": null
+ },
+ {
+  "name": "Lab reimbursement (CMS)",
+  "category": "Market topic",
+  "website": null,
+  "kind": "topic",
+  "watch_pages": null,
+  "news_queries": [
+   "CMS \"clinical laboratory fee schedule\""
+  ],
+  "fda_applicant": null,
+  "trials_sponsor": null,
+  "pubmed_query": null,
+  "rss": null,
+  "sec_ticker": null,
+  "patent_assignee": null,
+  "jobs": null,
+  "federal_register_query": "\"clinical laboratory fee schedule\" OR \"Medicare Physician Fee Schedule\" OR \"proprietary laboratory analyses\"",
+  "profile": null
  }
 ]
