@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-08T13:40:13+00:00",
+ "checked": "2026-10-08T13:55:05+00:00",
  "sources": [
   {
    "entity": "Abbott",
@@ -27,28 +27,28 @@
    "source": "Page: https://abbott.mediaroom.com/press-releases",
    "ok": true,
    "count": 0,
-   "secs": 0.8
+   "secs": 0.3
   },
   {
    "entity": "Abbott",
    "source": "FDA: Abbott",
    "ok": true,
-   "count": 20,
-   "secs": 0.7
+   "count": 120,
+   "secs": 0.8
   },
   {
    "entity": "Abbott",
    "source": "Trials: Abbott",
    "ok": true,
    "count": 10,
-   "secs": 0.3
+   "secs": 0.1
   },
   {
    "entity": "Abbott",
    "source": "PubMed: \"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 2,
-   "secs": 1.0
+   "secs": 0.6
   },
   {
    "entity": "bioMérieux",
@@ -62,28 +62,28 @@
    "source": "News: \"bioMerieux\" traumatic brain injury",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "bioMérieux",
    "source": "FDA: bioMerieux",
    "ok": true,
    "count": 3,
-   "secs": 0.2
+   "secs": 0.4
   },
   {
    "entity": "bioMérieux",
    "source": "Trials: bioMérieux",
    "ok": true,
-   "count": 10,
-   "secs": 0.1
+   "count": 3,
+   "secs": 0.0
   },
   {
    "entity": "bioMérieux",
    "source": "PubMed: \"VIDAS TBI\"",
    "ok": true,
    "count": 1,
-   "secs": 0.9
+   "secs": 0.6
   },
   {
    "entity": "Roche",
@@ -103,15 +103,15 @@
    "entity": "Roche",
    "source": "FDA: Roche",
    "ok": true,
-   "count": 20,
-   "secs": 0.3
+   "count": 44,
+   "secs": 0.6
   },
   {
    "entity": "Roche",
    "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "entity": "Quanterix",
@@ -125,21 +125,21 @@
    "source": "FDA: Quanterix",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Quanterix",
    "source": "Trials: Quanterix",
    "ok": true,
    "count": 1,
-   "secs": 0.1
+   "secs": 0.0
   },
   {
    "entity": "Quanterix",
    "source": "PubMed: Simoa AND (\"traumatic brain injury\" OR concussion)",
    "ok": true,
    "count": 1,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "entity": "BrainScope",
@@ -153,35 +153,35 @@
    "source": "FDA: BrainScope",
    "ok": true,
    "count": 0,
-   "secs": 0.6
+   "secs": 0.4
   },
   {
    "entity": "BrainScope",
    "source": "Trials: BrainScope",
    "ok": true,
    "count": 10,
-   "secs": 0.1
+   "secs": 0.0
   },
   {
    "entity": "TBI diagnostics market",
    "source": "News: \"traumatic brain injury\" blood test",
    "ok": true,
    "count": 11,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "TBI diagnostics market",
    "source": "News: concussion blood test FDA",
    "ok": true,
    "count": 1,
-   "secs": 0.2
+   "secs": 0.4
   },
   {
    "entity": "TBI diagnostics market",
    "source": "PubMed: (\"traumatic brain injury\" OR concussion) AND (GFAP OR \"UCH-L1\") AND \"point-of-care\"",
    "ok": true,
    "count": 1,
-   "secs": 0.9
+   "secs": 0.6
   }
  ]
 }

@@ -1,10 +1,25 @@
 {
  "date": "2026-10-08",
- "generated": "2026-10-08T13:40:13+00:00",
+ "generated": "2026-10-08T13:55:05+00:00",
  "title": "NanoDx Competitive Digest",
- "first_run": true,
+ "first_run": false,
  "only": null,
  "items": [
+  {
+   "id": "951fe497328b05bc",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "FDA grants Breakthrough Device designation to microRNA blood test for predicting AIS curve progression",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSjN6Z1M2VmtOdEZBNGxhcDBTeDhuU0xUbHRCY29WSGNBU1Z2UkNsSXRFNGZpQjJNVzJfd1RzZ0JrQVJjNHNaLW9NQ0JrZGt5bUU0X1hOV3hkYVJ5RXphWTkwdHBPSGlzaHNZRUFBeW9HaVJnM0lhS2hHdi1SSWdrc21rOGszcWtFaXBrM1NQUmMxQ0F6QjhCR0lPTmtFQmpvZDFIYlRPWThUQTBVSmhjSDNyT0ZxN1MwY1I0eTNPMDdubTFGV0NJdTlSd3FrT3A2X2ZHdEVR?oc=5",
+   "date": "2026-09-29",
+   "snippet": "",
+   "publisher": "Contemporary Pediatrics",
+   "query": "concussion blood test FDA",
+   "first_seen": "2026-10-08T13:55:05+00:00",
+   "signal": [
+    "FDA"
+   ]
+  },
   {
    "id": "60a9e331c368d014",
    "competitor": "Abbott",
@@ -525,28 +540,28 @@
    "source": "Page: https://abbott.mediaroom.com/press-releases",
    "ok": true,
    "count": 0,
-   "secs": 0.8
+   "secs": 0.3
   },
   {
    "entity": "Abbott",
    "source": "FDA: Abbott",
    "ok": true,
-   "count": 20,
-   "secs": 0.7
+   "count": 120,
+   "secs": 0.8
   },
   {
    "entity": "Abbott",
    "source": "Trials: Abbott",
    "ok": true,
    "count": 10,
-   "secs": 0.3
+   "secs": 0.1
   },
   {
    "entity": "Abbott",
    "source": "PubMed: \"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 2,
-   "secs": 1.0
+   "secs": 0.6
   },
   {
    "entity": "bioMérieux",
@@ -560,28 +575,28 @@
    "source": "News: \"bioMerieux\" traumatic brain injury",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "bioMérieux",
    "source": "FDA: bioMerieux",
    "ok": true,
    "count": 3,
-   "secs": 0.2
+   "secs": 0.4
   },
   {
    "entity": "bioMérieux",
    "source": "Trials: bioMérieux",
    "ok": true,
-   "count": 10,
-   "secs": 0.1
+   "count": 3,
+   "secs": 0.0
   },
   {
    "entity": "bioMérieux",
    "source": "PubMed: \"VIDAS TBI\"",
    "ok": true,
    "count": 1,
-   "secs": 0.9
+   "secs": 0.6
   },
   {
    "entity": "Roche",
@@ -601,15 +616,15 @@
    "entity": "Roche",
    "source": "FDA: Roche",
    "ok": true,
-   "count": 20,
-   "secs": 0.3
+   "count": 44,
+   "secs": 0.6
   },
   {
    "entity": "Roche",
    "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "entity": "Quanterix",
@@ -623,21 +638,21 @@
    "source": "FDA: Quanterix",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Quanterix",
    "source": "Trials: Quanterix",
    "ok": true,
    "count": 1,
-   "secs": 0.1
+   "secs": 0.0
   },
   {
    "entity": "Quanterix",
    "source": "PubMed: Simoa AND (\"traumatic brain injury\" OR concussion)",
    "ok": true,
    "count": 1,
-   "secs": 0.8
+   "secs": 0.6
   },
   {
    "entity": "BrainScope",
@@ -651,35 +666,35 @@
    "source": "FDA: BrainScope",
    "ok": true,
    "count": 0,
-   "secs": 0.6
+   "secs": 0.4
   },
   {
    "entity": "BrainScope",
    "source": "Trials: BrainScope",
    "ok": true,
    "count": 10,
-   "secs": 0.1
+   "secs": 0.0
   },
   {
    "entity": "TBI diagnostics market",
    "source": "News: \"traumatic brain injury\" blood test",
    "ok": true,
    "count": 11,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "TBI diagnostics market",
    "source": "News: concussion blood test FDA",
    "ok": true,
    "count": 1,
-   "secs": 0.2
+   "secs": 0.4
   },
   {
    "entity": "TBI diagnostics market",
    "source": "PubMed: (\"traumatic brain injury\" OR concussion) AND (GFAP OR \"UCH-L1\") AND \"point-of-care\"",
    "ok": true,
    "count": 1,
-   "secs": 0.9
+   "secs": 0.6
   }
  ]
 }

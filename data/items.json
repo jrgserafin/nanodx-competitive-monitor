@@ -125,39 +125,6 @@
   ]
  },
  {
-  "id": "887dbe9a5ce23fc0",
-  "competitor": "Abbott",
-  "source": "Clinical trial",
-  "title": "A Post-Market Assessment of the Safety and Performance of the TriClip™ System (Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT07586995",
-  "date": "2026-10-06",
-  "snippet": "NCT07586995 · lead sponsor Abbott Medical Devices · updated 2026-10-06",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "1800bb0607a8e7a0",
-  "competitor": "Abbott",
-  "source": "Clinical trial",
-  "title": "Amplatzer Piccolo Occluder Japan Post-marketing Database Surveillance (Active Not Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT04371081",
-  "date": "2026-10-06",
-  "snippet": "NCT04371081 · lead sponsor Abbott Medical Devices · updated 2026-10-06",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "5591ad173d91051d",
-  "competitor": "Abbott",
-  "source": "Clinical trial",
-  "title": "PULSed Field Ablation for Atrial Fibrillation Using a Balloon for Early Intervention - Study (Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT07621003",
-  "date": "2026-10-06",
-  "snippet": "NCT07621003 · lead sponsor Asklepios proresearch · updated 2026-10-06",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
   "id": "a3eb730e64adc4ac",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -238,17 +205,6 @@
   "signal": []
  },
  {
-  "id": "63457c73a07eb530",
-  "competitor": "Abbott",
-  "source": "Clinical trial",
-  "title": "Optical Coherence Tomography in Acute Vessel Evaluation (Enrolling By Invitation)",
-  "url": "https://clinicaltrials.gov/study/NCT07422688",
-  "date": "2026-10-02",
-  "snippet": "NCT07422688 · lead sponsor Aarhus University Hospital Skejby · updated 2026-10-02",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
   "id": "9e89837230ec9ec6",
   "competitor": "Quanterix",
   "source": "News",
@@ -284,28 +240,6 @@
   "snippet": "",
   "publisher": "Stock Titan",
   "query": "\"Quanterix\"",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "745df1e925cd81e5",
-  "competitor": "Abbott",
-  "source": "Clinical trial",
-  "title": "Assessment of Coronary Microvascular Dysfunction After STEMI Using Continuous Saline Thermodilution (Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT06795035",
-  "date": "2026-10-01",
-  "snippet": "NCT06795035 · lead sponsor The Cleveland Clinic · updated 2026-10-01",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "9ee9cf1964eae3c2",
-  "competitor": "Abbott",
-  "source": "Clinical trial",
-  "title": "Glycemic Control and Quality of Life Evolution for Patients With T1D Using the myLoop Powered by CamAPS FX System in Combination With FreeStyle Libre 3 / 3 Plus Sensors in France (Not Yet Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT07835685",
-  "date": "2026-10-01",
-  "snippet": "NCT07835685 · lead sponsor mylife Diabetes Care AG · updated 2026-10-01",
   "first_seen": "2026-10-08T13:40:13+00:00",
   "signal": []
  },
@@ -363,17 +297,6 @@
   "signal": []
  },
  {
-  "id": "32bd40bfb5b37cc1",
-  "competitor": "Abbott",
-  "source": "Clinical trial",
-  "title": "Patient-Centered Surgical Prehabilitation (Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT05715684",
-  "date": "2026-09-30",
-  "snippet": "NCT05715684 · lead sponsor Brigham and Women's Hospital · updated 2026-09-30",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
   "id": "ebeffd8c3d16fb56",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -403,26 +326,19 @@
   ]
  },
  {
-  "id": "f48824306840eea0",
-  "competitor": "Abbott",
-  "source": "Clinical trial",
-  "title": "Nutrition in Patient With Critical Limb Ischemia (Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT03529019",
+  "id": "951fe497328b05bc",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "FDA grants Breakthrough Device designation to microRNA blood test for predicting AIS curve progression",
+  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSjN6Z1M2VmtOdEZBNGxhcDBTeDhuU0xUbHRCY29WSGNBU1Z2UkNsSXRFNGZpQjJNVzJfd1RzZ0JrQVJjNHNaLW9NQ0JrZGt5bUU0X1hOV3hkYVJ5RXphWTkwdHBPSGlzaHNZRUFBeW9HaVJnM0lhS2hHdi1SSWdrc21rOGszcWtFaXBrM1NQUmMxQ0F6QjhCR0lPTmtFQmpvZDFIYlRPWThUQTBVSmhjSDNyT0ZxN1MwY1I0eTNPMDdubTFGV0NJdTlSd3FrT3A2X2ZHdEVR?oc=5",
   "date": "2026-09-29",
-  "snippet": "NCT03529019 · lead sponsor Boston Medical Center · updated 2026-09-29",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "3fde6ad782bb267b",
-  "competitor": "Abbott",
-  "source": "Clinical trial",
-  "title": "Left Bundle Branch Area Pacing (LBBAP) PMCF Study (Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT07217392",
-  "date": "2026-09-25",
-  "snippet": "NCT07217392 · lead sponsor Abbott Medical Devices · updated 2026-09-25",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
+  "snippet": "",
+  "publisher": "Contemporary Pediatrics",
+  "query": "concussion blood test FDA",
+  "first_seen": "2026-10-08T13:55:05+00:00",
+  "signal": [
+   "FDA"
+  ]
  },
  {
   "id": "d4f9dfb4cf0db292",
@@ -453,32 +369,6 @@
   ]
  },
  {
-  "id": "60a9e331c368d014",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA PMA P230036 S020: Esprit BTK Everolimus Eluting Resorbable Scaffold System",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230036S020",
-  "date": "2026-09-24",
-  "snippet": "Applicant: ABBOTT MEDICAL. Decision: APPR.",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "e99279cb9ef35b0a",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA PMA P960043 S137: Perclose ProGlide Suture-Mediated Closure System; Perclose ProStyle Suture-Mediated Closure and Repair System",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P960043S137",
-  "date": "2026-09-24",
-  "snippet": "Applicant: Abbott Vascular, Inc.. Decision: OK30.",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
   "id": "a85a6d7fb1ac0c7c",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -492,89 +382,6 @@
   "signal": []
  },
  {
-  "id": "0bf072daeb3613d9",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA 510(k) K262156: Anti-HCV Next",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262156",
-  "date": "2026-09-23",
-  "snippet": "Applicant: Abbott Laboratories. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "ff09ca75cad5f8b6",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA PMA P010032 S260: Proclaim family of SCS IPG",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P010032S260",
-  "date": "2026-09-23",
-  "snippet": "Applicant: ABBOTT MEDICAL. Decision: APPR.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "c91bdba6a94d4457",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA PMA P140009 S139: Infinity DBS IPG",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P140009S139",
-  "date": "2026-09-23",
-  "snippet": "Applicant: ABBOTT MEDICAL. Decision: APPR.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "e533b9efdd83aaaf",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA PMA P150004 S100: Proclaim DRG IPG",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150004S100",
-  "date": "2026-09-23",
-  "snippet": "Applicant: ABBOTT MEDICAL. Decision: APPR.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "7302042c1a8e0dc9",
-  "competitor": "Abbott",
-  "source": "Clinical trial",
-  "title": "Kids Injury Detection Study Using the i-STAT (Not Yet Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT07835919",
-  "date": "2026-09-23",
-  "snippet": "NCT07835919 · lead sponsor Children's Healthcare of Atlanta · updated 2026-09-23",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "db13045b5a854f13",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA PMA P220013 S034: TactiFlex Ablation Catheter, Sensor Enabled",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P220013S034",
-  "date": "2026-09-22",
-  "snippet": "Applicant: ABBOTT MEDICAL. Decision: APPR.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
   "id": "846e19bf995a0cb7",
   "competitor": "Quanterix",
   "source": "Publication",
@@ -585,101 +392,6 @@
   "stale": true,
   "first_seen": "2026-10-08T13:40:13+00:00",
   "signal": []
- },
- {
-  "id": "c293ebd92cd5cdfb",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA PMA P040021 S063: Epic Plus, Epic Plus Supra, Epic Max, Epic Elite, Epic Supra G3 Tissue Heart Valves",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P040021S063",
-  "date": "2026-09-18",
-  "snippet": "Applicant: ABBOTT MEDICAL. Decision: OK30.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "1a00eb04e5675e87",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA PMA P010032 S251: Quattrode®; Octrode; Penta; Lamitrode; Tripole; TriCentrus Lead Extensions",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P010032S251",
-  "date": "2026-09-18",
-  "snippet": "Applicant: ABBOTT MEDICAL. Decision: APPR.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "aecf27268d0d93ae",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA 510(k) K261729: EnSite X EP System",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261729",
-  "date": "2026-09-17",
-  "snippet": "Applicant: Abbott Medical. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "6dfc5fcb5d3a93ae",
-  "competitor": "bioMérieux",
-  "source": "Clinical trial",
-  "title": "Impact of BioFire FilmArray Pneumonia Panel vs Routine Diagnostics on Antimicrobial Outcomes (DOOR-MAT) (Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT07585604",
-  "date": "2026-09-17",
-  "snippet": "NCT07585604 · lead sponsor Hospital de Clinicas de Porto Alegre · updated 2026-09-17",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "c3496f989448f185",
-  "competitor": "bioMérieux",
-  "source": "Clinical trial",
-  "title": "Impact of BacT/Alert® VIRTUO®, BioFire® Blood Culture Identification 2-BCID2 and REVEAL® (bioMérieux) on the Optimization of Antibiotic Therapy for Gram-negative Bacteremia in the ICU (Completed)",
-  "url": "https://clinicaltrials.gov/study/NCT05741424",
-  "date": "2026-09-16",
-  "snippet": "NCT05741424 · lead sponsor Centre Hospitalier Universitaire de Nīmes · updated 2026-09-16",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "d26ae0c8a06cfe1d",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA PMA P100045 S092: CardioMEMS PA Sensor and Delivery System (CM2000); CardioMEMS HF System",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P100045S092",
-  "date": "2026-09-11",
-  "snippet": "Applicant: ABBOTT MEDICAL. Decision: OK30.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "adc467eed77dca1b",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA PMA P140009 S140: Deep Brain Stimulation (DBS) Implantable Pulse Generator (IPG) Charger",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P140009S140",
-  "date": "2026-09-11",
-  "snippet": "Applicant: ABBOTT MEDICAL. Decision: OK30.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
  },
  {
   "id": "3c9e6b5bd8b5d534",
@@ -709,105 +421,6 @@
   ]
  },
  {
-  "id": "b561825f535dcfd6",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA 510(k) K262747: ID NOW Influenza A & B 2; ID NOW RSV; ID NOW Strep A 2; ID NOW COVID-19 2.0",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262747",
-  "date": "2026-08-31",
-  "snippet": "Applicant: Abbott Diagnostics Scarborough, Inc.. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "1ea801c1c642b896",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA 510(k) K260047: cobas Strep A Nucleic acid test for use on the cobas Liat System (07341911190); cobas Strep A Quality Control Kit (07402678190)",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260047",
-  "date": "2026-08-28",
-  "snippet": "Applicant: Roche Molecular Systems, Inc.. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "17f6df7bbccf1781",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA 510(k) K260045: cobas® Cdiff Nucleic acid test for use on the cobas® Liat® System (07454945190); cobas® Cdiff Positive and Negative Control Kit for use on the cobas® Liat® System (07454970190)",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260045",
-  "date": "2026-08-28",
-  "snippet": "Applicant: Roche Molecular Systems, Inc.. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "d621eec5d5a1359d",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA 510(k) DEN250049: Libre Duo 10 Day Continuous Dual Glucose Ketone Monitoring System",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN250049",
-  "date": "2026-08-25",
-  "snippet": "Applicant: Abbott Diabetes Care. Decision: Unknown.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "49d1ee814c0d2ea2",
-  "competitor": "bioMérieux",
-  "source": "Clinical trial",
-  "title": "Prediction of Infectious Agents in the Biofire® FilmArray bioMérieux Meningitis/Encephalitis Panel Based on Clinical Syndrome and Cerebrospinal Fluid Parameters: a Diagnostic Stewardship Proposal. (Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT07432113",
-  "date": "2026-08-21",
-  "snippet": "NCT07432113 · lead sponsor Federal University of Health Science of Porto Alegre · updated 2026-08-21",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "d7724836ce9b07ad",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA 510(k) K261686: Elecsys Phospho-Tau (217P) Plasma",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261686",
-  "date": "2026-08-19",
-  "snippet": "Applicant: Roche Diagnostics. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "19a62663e31ac7b9",
-  "competitor": "bioMérieux",
-  "source": "Clinical trial",
-  "title": "Fast Antibiotic Susceptibility Testing for Gram Negative Bacteremia Trial (Completed)",
-  "url": "https://clinicaltrials.gov/study/NCT06174649",
-  "date": "2026-07-28",
-  "snippet": "NCT06174649 · lead sponsor Duke University · updated 2026-07-28",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
   "id": "d237e4aeffab06be",
   "competitor": "TBI diagnostics market",
   "source": "Publication",
@@ -819,81 +432,6 @@
   "first_seen": "2026-10-08T13:40:13+00:00",
   "signal": [
    "point-of-care"
-  ]
- },
- {
-  "id": "88ab893467bad763",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA 510(k) K260021: cobas® BV/CV",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260021",
-  "date": "2026-07-16",
-  "snippet": "Applicant: Roche Molecular Systems, Inc.. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "39a8f0f9e659d5f2",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA 510(k) K262006: EnSite X EP System",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262006",
-  "date": "2026-07-15",
-  "snippet": "Applicant: Abbott Medical. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "adf546248a6808b4",
-  "competitor": "bioMérieux",
-  "source": "FDA",
-  "title": "FDA 510(k) K260160: VITEK REVEAL GN AST Assay and VITEK REVEAL AST System",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260160",
-  "date": "2026-07-08",
-  "snippet": "Applicant: bioMerieux, Inc.. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "afc73b6fe2302d92",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA 510(k) K260917: cobas CT/NG for use on the cobas 5800/6800/8800 systems; cobas TV/MG for use on the cobas 5800/6800/8800 systems",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260917",
-  "date": "2026-07-08",
-  "snippet": "Applicant: Roche Molecular Systems, Inc.. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "9a6c0395efee7ee8",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA 510(k) K261825: Amplatzer TorqVue LP Delivery System; Amplatzer TorqVue LP Catheter",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261825",
-  "date": "2026-07-02",
-  "snippet": "Applicant: Abbott. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
   ]
  },
  {
@@ -909,380 +447,27 @@
   "signal": []
  },
  {
-  "id": "c6675bce39ec8401",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA 510(k) K261039: i-STAT Crea cartridge with the i-STAT 1 System",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261039",
-  "date": "2026-06-26",
-  "snippet": "Applicant: Abbott Point of Care, Inc.. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "f97eaafef2715d11",
+  "id": "2cc392f50fe5c35c",
   "competitor": "bioMérieux",
   "source": "Clinical trial",
-  "title": "The Impact of Fast Antimicrobial Sensitivity Testing Tools on Stewardship Antibiotic and Clinical Outcome (ACT-FAST) (Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT07491419",
-  "date": "2026-06-24",
-  "snippet": "NCT07491419 · lead sponsor Istituto Clinico Humanitas · updated 2026-06-24",
+  "title": "VIDAS® TBI Real Life Performance in Subjects With Mild Traumatic Brain Injury (mTBI) (Completed)",
+  "url": "https://clinicaltrials.gov/study/NCT06449183",
+  "date": "2026-03-06",
+  "snippet": "NCT06449183 · lead sponsor BioMérieux · updated 2026-03-06",
   "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
+  "first_seen": "2026-10-08T13:55:05+00:00",
   "signal": []
  },
  {
-  "id": "9d8eeca17a1145c3",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA 510(k) K261631: Amplatzer TorqVue Exchange System",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261631",
-  "date": "2026-06-17",
-  "snippet": "Applicant: Abbott Medical. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "8cd51b4997bee169",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA PMA P190028 S023: cobas HPV",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P190028S023",
-  "date": "2026-06-16",
-  "snippet": "Applicant: Roche Molecular Systems, Inc.. Decision: APPR.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "a8a58a2e88d7e71f",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA 510(k) K252323: cobas pulse blood glucose monitoring system",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252323",
-  "date": "2026-06-12",
-  "snippet": "Applicant: Roche Diagnostics. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "80a07a60eaa86f73",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA PMA P250031: VENTANA PTEN (SP218) RxDx Assay",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250031",
-  "date": "2026-06-12",
-  "snippet": "Applicant: Ventana Medical Systems, Inc. (Roche Tissue Diagnostics). Decision: APPR.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "12f0208f16332620",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA 510(k) K253051: i-STAT hs-TnI cartridge with the i-STAT Alinity System",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253051",
-  "date": "2026-06-11",
-  "snippet": "Applicant: Abbott Point of Care, Inc.. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "0f348e9f5dcec3f4",
+  "id": "21641d406e01db76",
   "competitor": "bioMérieux",
   "source": "Clinical trial",
-  "title": "TTV-based mAnagement Of Long-term ImmunosuppreSsion in Kidney Transplantation (Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT06829719",
-  "date": "2026-05-27",
-  "snippet": "NCT06829719 · lead sponsor Hospices Civils de Lyon · updated 2026-05-27",
+  "title": "BRAINI-2 Elderly Mild TBI European Study (Completed)",
+  "url": "https://clinicaltrials.gov/study/NCT05425251",
+  "date": "2025-12-29",
+  "snippet": "NCT05425251 · lead sponsor Hospital Universitario 12 de Octubre · updated 2025-12-29",
   "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "1c5a5749a23b4f70",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA 510(k) K253759: cobas liat CT/NG/MG nucleic acid test",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253759",
-  "date": "2026-05-15",
-  "snippet": "Applicant: Roche Molecular Systems, Inc.. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "d87c5decd7365007",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA 510(k) K253756: cobas liat CT/NG nucleic acid test",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253756",
-  "date": "2026-05-15",
-  "snippet": "Applicant: Roche Molecular Systems, Inc.. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "335f8108a0596a0f",
-  "competitor": "bioMérieux",
-  "source": "Clinical trial",
-  "title": "EARLY Antibiotics aDAptation in Severe Pneumonia(The EARLY ADAPT Study) (Not Yet Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT07267624",
-  "date": "2026-04-29",
-  "snippet": "NCT07267624 · lead sponsor University Hospital, Geneva · updated 2026-04-29",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "2a463372d562a6f8",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA PMA P990056 S046: ELECSYS TOTAL PSA IMMUNOASSAY AND TOTAL PSA CALSET",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P990056S046",
-  "date": "2026-04-29",
-  "snippet": "Applicant: Roche Diagnostics Corp.. Decision: OK30.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "a12f9d1957aa49b2",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA PMA P000027 S045: ELECSYS FREE PSA IMMUNOASSAY/CALSET/CALCHECK",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P000027S045",
-  "date": "2026-04-29",
-  "snippet": "Applicant: Roche Diagnostics Corp.. Decision: OK30.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "0ef16e1ae9630e6a",
-  "competitor": "Abbott",
-  "source": "FDA",
-  "title": "FDA 510(k) K252424: Anti-HCV Next",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252424",
-  "date": "2026-04-28",
-  "snippet": "Applicant: Abbott Laboratories. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "f1ca97dd29627165",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA 510(k) K252431: Elecsys Calcitonin",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252431",
-  "date": "2026-04-24",
-  "snippet": "Applicant: Roche Diagnostics GmbH. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "4036719d60071481",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA PMA P190028 S024: cobas® HPV",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P190028S024",
-  "date": "2026-04-23",
-  "snippet": "Applicant: Roche Molecular Systems, Inc.. Decision: APPR.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "0009d42816ac73ca",
-  "competitor": "bioMérieux",
-  "source": "FDA",
-  "title": "FDA 510(k) K260282: VITEK 2 AST-Streptococcus Inducible Clindamycin Resistance",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260282",
-  "date": "2026-04-15",
-  "snippet": "Applicant: bioMerieux, Inc.. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "0f423499ca408a74",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA 510(k) K252280: Elecsys Anti-SARS-CoV-2 S",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252280",
-  "date": "2026-04-13",
-  "snippet": "Applicant: Roche Diagnostics. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "8dcb7bad0964f244",
-  "competitor": "bioMérieux",
-  "source": "Clinical trial",
-  "title": "Impact of a Multiplex Respiratory PCR Test on Outcomes for Patients Presenting With Respiratory Illness in the Urgent Care Setting: A Hybrid-Effectiveness Quasi-Experimental Trial (Recruiting)",
-  "url": "https://clinicaltrials.gov/study/NCT07513519",
-  "date": "2026-04-07",
-  "snippet": "NCT07513519 · lead sponsor BioMérieux · updated 2026-04-07",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "86e8b226441380c5",
-  "competitor": "bioMérieux",
-  "source": "FDA",
-  "title": "FDA 510(k) K260281: VITEK 2 AST-Streptococcus Cefuroxime (<=0.125 - >=8 µg/mL)",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260281",
-  "date": "2026-03-26",
-  "snippet": "Applicant: BIOMERIEUX. Decision: Substantially Equivalent.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA",
-   "510(k)"
-  ]
- },
- {
-  "id": "da6b48b370c2806b",
-  "competitor": "bioMérieux",
-  "source": "Clinical trial",
-  "title": "SPOTFIRE Sore Throat (ST) Study (Completed)",
-  "url": "https://clinicaltrials.gov/study/NCT06713642",
-  "date": "2026-03-23",
-  "snippet": "NCT06713642 · lead sponsor University of Wisconsin, Madison · updated 2026-03-23",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "c182d39b7749b9eb",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA PMA P190028 S025: cobas® HPV",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P190028S025",
-  "date": "2026-03-17",
-  "snippet": "Applicant: Roche Molecular Systems, Inc.. Decision: OK30.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "036ad4d238f1c657",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA PMA P200014 S011: cobas® EZH2 Mutation Test",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P200014S011",
-  "date": "2026-03-17",
-  "snippet": "Applicant: Roche Molecular System, Inc.. Decision: OK30.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "0d8f0baf99f38958",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA PMA P120019 S043: cobas® EGFR Mutation Test, v2.0",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P120019S043",
-  "date": "2026-03-17",
-  "snippet": "Applicant: Roche. Decision: OK30.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "d0a571df81fa3f8d",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA PMA P110020 S044: cobas® BRAF V600 Mutation Test",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P110020S044",
-  "date": "2026-03-17",
-  "snippet": "Applicant: Roche Molecular Systems, Inc.. Decision: OK30.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "339db9cdedba05ef",
-  "competitor": "Roche",
-  "source": "FDA",
-  "title": "FDA PMA P140023 S032: cobas® KRAS Mutation Test",
-  "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P140023S032",
-  "date": "2026-03-17",
-  "snippet": "Applicant: Roche Molecular Systems, Inc.. Decision: OK30.",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "80bcea60bfdbd816",
-  "competitor": "bioMérieux",
-  "source": "Clinical trial",
-  "title": "TTV Viral Load in Heart Transplant Recipients (Completed)",
-  "url": "https://clinicaltrials.gov/study/NCT05064462",
-  "date": "2026-03-12",
-  "snippet": "NCT05064462 · lead sponsor Assistance Publique - Hôpitaux de Paris · updated 2026-03-12",
-  "stale": true,
-  "first_seen": "2026-10-08T13:40:13+00:00",
+  "first_seen": "2026-10-08T13:55:05+00:00",
   "signal": []
  },
  {
@@ -1295,6 +480,45 @@
   "snippet": "NCT05303116 · lead sponsor Texas Tech University Health Sciences Center, El Paso · updated 2025-05-18",
   "stale": true,
   "first_seen": "2026-10-08T13:40:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "9fa5ca19f971456c",
+  "competitor": "Abbott",
+  "source": "Clinical trial",
+  "title": "Evaluation of the Abbott i-STAT TBI Biomarker Test (Recruiting)",
+  "url": "https://clinicaltrials.gov/study/NCT06766435",
+  "date": "2025-02-20",
+  "snippet": "NCT06766435 · lead sponsor Icahn School of Medicine at Mount Sinai · updated 2025-02-20",
+  "stale": true,
+  "first_seen": "2026-10-08T13:55:05+00:00",
+  "signal": []
+ },
+ {
+  "id": "21cad80f17ddf88e",
+  "competitor": "bioMérieux",
+  "source": "Clinical trial",
+  "title": "Glial Fibrillary Acidic Protein (GFAP) and Ubiquitin Carboxy-terminal Hydrolase L1 (UCH-L1) to Exclude Lesions Linked to Significant Traumatic Brain Injuries (Recruiting)",
+  "url": "https://clinicaltrials.gov/study/NCT05885529",
+  "date": "2025-02-19",
+  "snippet": "NCT05885529 · lead sponsor Centre Hospitalier Princesse Grace · updated 2025-02-19",
+  "stale": true,
+  "first_seen": "2026-10-08T13:55:05+00:00",
+  "signal": [
+   "GFAP",
+   "UCH-L1"
+  ]
+ },
+ {
+  "id": "3afaa1257a8ddb58",
+  "competitor": "Abbott",
+  "source": "Clinical trial",
+  "title": "Clinical Evaluation of the i-STAT TBI Test (Completed)",
+  "url": "https://clinicaltrials.gov/study/NCT04171960",
+  "date": "2024-09-19",
+  "snippet": "NCT04171960 · lead sponsor Abbott Point of Care · updated 2024-09-19",
+  "stale": true,
+  "first_seen": "2026-10-08T13:55:05+00:00",
   "signal": []
  },
  {
