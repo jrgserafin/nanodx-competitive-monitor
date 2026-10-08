@@ -69,6 +69,23 @@ settings:
     - funding
     - raises
 
+# Emerging competitors: every run scans the wider point-of-care (POC) space for
+# companies NOT in the list below (FDA 510(k) clearances, industry TBI/concussion
+# diagnostic trials, and a news radar). Found companies appear on the dashboard's
+# "Emerging" page; copy one into `competitors:` to start tracking it in depth.
+emerging:
+  fda_days: 365
+  fda_keywords: [point of care, point-of-care, rapid, whole blood, fingerstick, capillary, handheld, brain, concussion, traumatic, GFAP, UCH-L1, neuro]
+  trial_conditions: [traumatic brain injury, concussion, mild traumatic brain injury]
+  news_queries:
+  - '"point-of-care" diagnostics startup funding'
+  - '"point-of-care" test "FDA clearance"'
+  - concussion blood test startup
+  - '"traumatic brain injury" diagnostic startup'
+  - '"point-of-care" biosensor raises'
+  - '"rapid test" "brain injury"'
+  ignore: []        # company names to hide from the Emerging page
+
 competitors:
 - name: Abbott
   category: Direct · TBI blood test (POC)

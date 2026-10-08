@@ -479,6 +479,7 @@ def load_config():
     cfg["settings"] = s
     cfg["competitors"] = [dict(c, kind="competitor") for c in cfg.get("competitors") or []]
     cfg["topics"] = [dict(t, kind="topic") for t in cfg.get("topics") or []]
+    cfg["emerging"] = cfg.get("emerging") or {}
     return cfg
 
 
@@ -586,6 +587,8 @@ def collect(only: str | None = None):
 
     history.sort(key=lambda h: (item_date(h), h["first_seen"]), reverse=True)
     save_json(DATA / "items.json", history[:MAX_HISTORY])
+    if not only:
+        health += discover(cfg)
     if only:  # keep health for sources not re-checked
         prev = [h for h in load_json(DATA / "health.json", {}).get("sources", [])
                 if h["entity"] not in {e["name"] for e in ents}]
@@ -598,6 +601,180 @@ def collect(only: str | None = None):
         for e in entities(cfg)])
     ok = sum(1 for h in health if h["ok"] and not h.get("skipped"))
     print(f"Sources OK {ok}/{len(health)} · new items {new} · history {len(history)}")
+
+
+# ------------------------------------------------------------------ emerging competitors (POC space)
+DEFAULT_EMERGING = {
+    "fda_days": 365,
+    # Words in FDA 510(k)/De Novo device names that indicate point-of-care or TBI relevance
+    "fda_keywords": ["point of care", "point-of-care", "POC", "rapid", "whole blood", "fingerstick",
+                     "capillary", "handheld", "brain", "concussion", "traumatic", "GFAP", "UCH-L1", "neuro"],
+    "tbi_keywords": ["brain", "concussion", "traumatic", "TBI", "GFAP", "UCH-L1", "head injury", "neuro"],
+    "trial_conditions": ["traumatic brain injury", "concussion", "mild traumatic brain injury"],
+    "news_queries": [
+        '"point-of-care" diagnostics startup funding',
+        '"point-of-care" test "FDA clearance"',
+        'concussion blood test startup',
+        '"traumatic brain injury" diagnostic startup',
+        '"point-of-care" biosensor raises',
+        '"rapid test" "brain injury"',
+    ],
+    "ignore": [],
+}
+_SUFFIX = re.compile(r"[,.]?\s+(incorporated|inc|llc|l\.l\.c|ltd|limited|co|corp|corporation|company|gmbh|ag|sa|s\.a|"
+                     r"s\.p\.a|bv|b\.v|plc|pty|kk|oy|ab|as|srl|sas|nv|lp|holdings?)\.?$", re.I)
+
+
+def norm_company(name: str) -> str:
+    n = re.sub(r"\s+", " ", (name or "").strip())
+    for _ in range(3):
+        n = _SUFFIX.sub("", n).strip(" ,.")
+    return n
+
+
+def _tracked_keys(cfg):
+    keys = set()
+    for e in entities(cfg):
+        for v in (e.get("name"), e.get("fda_applicant"), e.get("trials_sponsor"), e.get("patent_assignee")):
+            if v:
+                keys.add(norm_company(v).lower())
+    return {k for k in keys if len(k) >= 3}
+
+
+def _is_tracked(name, keys):
+    n = norm_company(name).lower()
+    return any(k in n or n in k for k in keys if k)
+
+
+def discover(cfg):
+    """Scan the wider point-of-care space for companies we don't track yet.
+    Writes data/emerging.json and returns health rows."""
+    s = cfg["settings"]
+    em = dict(DEFAULT_EMERGING)
+    em.update(cfg.get("emerging") or {})
+    keys = _tracked_keys(cfg)
+    ignore = {i.lower() for i in em.get("ignore") or []}
+    prev = load_json(DATA / "emerging.json", {})
+    companies = {c["key"]: c for c in prev.get("companies", [])}
+    health, news = [], []
+    today = now_utc().date().isoformat()
+    tbi_words = [w.lower() for w in em["tbi_keywords"]]
+
+    def add(name, kind, title, url, date, extra=""):
+        nm = norm_company(name)
+        if not nm or len(nm) < 3 or nm.lower() in ignore or _is_tracked(nm, keys):
+            return
+        key = nm.lower()
+        c = companies.setdefault(key, {"key": key, "name": nm, "first_seen": today, "signals": []})
+        if any(sig["url"] == url and sig["title"] == title for sig in c["signals"]):
+            return
+        c["signals"].append({"type": kind, "title": clean(title, 200), "url": url, "date": date, "detail": clean(extra, 200)})
+        c["last_seen"] = today
+
+    def run(label, fn):
+        t0 = time.time()
+        try:
+            n = fn()
+            health.append({"entity": "Emerging (POC)", "source": label, "ok": True, "count": n, "secs": round(time.time() - t0, 1)})
+        except SkipSource as ex:
+            health.append({"entity": "Emerging (POC)", "source": label, "ok": True, "skipped": True, "note": str(ex), "count": 0, "secs": 0})
+        except Exception as ex:  # noqa: BLE001
+            health.append({"entity": "Emerging (POC)", "source": label, "ok": False, "error": str(ex)[:300], "secs": round(time.time() - t0, 1)})
+            print(f"  ! Emerging / {label}: {ex}", file=sys.stderr)
+
+    def fda():
+        since = (now_utc() - dt.timedelta(days=int(em["fda_days"]))).strftime("%Y%m%d")
+        n = 0
+        for kw in em["fda_keywords"]:
+            q = urllib.parse.quote(f'"{kw}"')
+            url = (f"https://api.fda.gov/device/510k.json?search=device_name:{q}"
+                   f"+AND+decision_date:[{since}+TO+{now_utc():%Y%m%d}]&sort=decision_date:desc&limit=100")
+            r = session.get(url, timeout=TIMEOUT)
+            if r.status_code in (400, 404):  # no matches / unsupported phrase
+                continue
+            r.raise_for_status()
+            for rec in r.json().get("results", []):
+                k = rec.get("k_number", "")
+                add(rec.get("applicant", ""), "FDA clearance",
+                    f"{k}: {rec.get('device_name', '')}",
+                    f"https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID={k}",
+                    parse_date(rec.get("decision_date")),
+                    " · ".join(x for x in [rec.get("decision_description", ""), f"product code {rec['product_code']}" if rec.get("product_code") else ""] if x))
+                n += 1
+            time.sleep(0.3)
+        return n
+
+    def trials():
+        n = 0
+        cond = " OR ".join(f'"{c}"' for c in em["trial_conditions"])
+        url = ("https://clinicaltrials.gov/api/v2/studies?query.cond=" + urllib.parse.quote(cond)
+               + "&query.term=" + urllib.parse.quote("AREA[InterventionType]DIAGNOSTIC_TEST OR AREA[InterventionType]DEVICE")
+               + "&sort=LastUpdatePostDate:desc&pageSize=100")
+        for st in get(url).json().get("studies", []):
+            p = st.get("protocolSection", {})
+            sp = p.get("sponsorCollaboratorsModule", {}).get("leadSponsor", {})
+            if sp.get("class") != "INDUSTRY":
+                continue
+            ident, status = p.get("identificationModule", {}), p.get("statusModule", {})
+            nct = ident.get("nctId", "")
+            add(sp.get("name", ""), "Clinical trial", ident.get("briefTitle", ""), f"https://clinicaltrials.gov/study/{nct}",
+                parse_date(status.get("lastUpdatePostDateStruct", {}).get("date")),
+                f"{nct} · {status.get('overallStatus', '').replace('_', ' ').title()}")
+            n += 1
+        return n
+
+    def radar():
+        n = 0
+        for q in em["news_queries"]:
+            for it in collect_google_news("Emerging (POC)", q, s, {}):
+                it["tbi"] = any(w in it["title"].lower() for w in tbi_words)
+                news.append(it)
+                n += 1
+            time.sleep(0.5)
+        return n
+
+    run("FDA 510(k) point-of-care scan", fda)
+    run("ClinicalTrials.gov industry TBI diagnostics", trials)
+    run("Google News point-of-care radar", radar)
+
+    # Optional: let the AI analyst pull company names out of news headlines
+    if news and ai_enabled():
+        heads = [i for i in {i["id"]: i for i in news}.values()][:60]
+        raw = ask_claude(analyst_system(cfg),
+                         "From these headlines, list companies that develop point-of-care or brain-injury diagnostics. "
+                         "Return ONLY JSON: a list of objects {\"company\": str, \"n\": headline number}. Skip big "
+                         "established firms and anything uncertain.\n\n" + items_block(heads), cfg, 600)
+        try:
+            for row in json.loads(re.search(r"\[.*\]", raw or "", re.S).group(0)):
+                h = heads[int(row["n"]) - 1]
+                add(row["company"], "News", h["title"], h["url"], h.get("date"), h.get("publisher", ""))
+        except Exception as ex:  # noqa: BLE001
+            print(f"  ! emerging AI extraction skipped: {ex}", file=sys.stderr)
+
+    # score: TBI relevance, FDA activity, trials, recency
+    d90 = (now_utc() - dt.timedelta(days=90)).date().isoformat()
+    out = []
+    for c in companies.values():
+        c["signals"] = sorted(c["signals"], key=lambda x: x.get("date") or "", reverse=True)[:25]
+        txt = " ".join(x["title"] for x in c["signals"]).lower()
+        c["tbi"] = any(w in txt for w in tbi_words)
+        types = {x["type"] for x in c["signals"]}
+        recent = sum(1 for x in c["signals"] if (x.get("date") or "") >= d90)
+        c["score"] = (6 if c["tbi"] else 0) + 3 * ("FDA clearance" in types) + 3 * ("Clinical trial" in types) \
+            + 2 * ("News" in types) + min(recent, 5) + min(len(c["signals"]), 5)
+        c["latest"] = c["signals"][0].get("date") if c["signals"] else None
+        if _is_tracked(c["name"], keys):  # promoted to the tracked list since last run
+            continue
+        out.append(c)
+    out.sort(key=lambda c: (c["score"], c.get("latest") or ""), reverse=True)
+    old_news = {i["id"]: i for i in prev.get("news", [])}
+    for i in news:
+        old_news.setdefault(i["id"], dict(i, first_seen=stamp()))
+    news_all = sorted(old_news.values(), key=lambda i: i.get("date") or "", reverse=True)[:200]
+    save_json(DATA / "emerging.json", {"checked": stamp(), "companies": out[:150], "news": news_all,
+                                       "scope": {k: em[k] for k in ("fda_keywords", "trial_conditions", "news_queries")}})
+    print(f"Emerging: {len(out)} untracked companies, {len(news)} radar headlines")
+    return health
 
 
 # ------------------------------------------------------------------ AI analyst
