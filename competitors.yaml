@@ -12,14 +12,33 @@
 #   fda_applicant   Company name as it appears in FDA 510(k)/PMA records
 #   trials_sponsor  Sponsor name on ClinicalTrials.gov
 #   pubmed_query    PubMed search for new publications
-#   relevance_keywords  For big companies: FDA, trial, website and RSS items are
-#                   kept only if they mention one of these words (news and
-#                   PubMed searches are already targeted, so they are not filtered)
+#   relevance_keywords  For big companies: FDA, trial, website, RSS, patent and job
+#                   items are kept only if they mention one of these words (news,
+#                   PubMed and SEC are already targeted, so they are not filtered)
+#   sec_ticker      US stock ticker -> SEC EDGAR filings (8-K, 10-Q, 10-K, S-1 ...)
+#   patent_assignee Company name on US patents (needs PATENTSVIEW_API_KEY secret)
+#   jobs            Public job board -> hiring signals, e.g. {greenhouse: companyslug},
+#                   {lever: companyslug} or {ashby: companyslug}
+#   federal_register_query  Search of CMS/FDA rules & notices (best on a topic)
+#   profile         Battlecard notes your team maintains: hq, ticker, products,
+#                   pricing, positioning, notes. The AI battlecard reads these.
 #
 # STARTER LIST — replace with George's list.
 
 settings:
   digest_title: "NanoDx Competitive Digest"
+  # THIS REPO IS PUBLIC. Keep confidential details out of this file.
+  # The AI analyst (ANTHROPIC_API_KEY secret) reads NanoDx's description from the
+  # COMPANY_CONTEXT secret (preferred: private) or, if that's missing, from here.
+  company_context: >-
+    NanoDx develops diagnostics for traumatic brain injury (TBI).
+  # false = AI briefs and battlecard strategy (threat level, strengths, weaknesses,
+  # talk track) are emailed only and never written to this public repo/site.
+  publish_strategy: false
+  ai_model: claude-sonnet-4-5   # any current Claude model id
+  # Items mentioning these trigger an instant alert email (FDA decisions and
+  # material SEC 8-Ks always alert).
+  alert_keywords: [FDA clearance, FDA cleared, clears, 510(k), De Novo, PMA, approval, approved, Breakthrough Device, CE mark, CLIA waiver, waived, acquisition, acquire, acquires, merger, recall, launch, launches, reimbursement, CPT code]
   lookback_days: 14          # ignore items published longer ago than this
   send_when_empty: true      # still email a short "no new activity" note
   max_items_per_source: 15
@@ -62,6 +81,12 @@ competitors:
     trials_sponsor: "Abbott"
     pubmed_query: '"i-STAT TBI" OR "i-STAT Alinity" AND (GFAP OR "UCH-L1")'
     relevance_keywords: [brain injury, TBI, concussion, GFAP, UCH-L1, head injury, traumatic]
+    sec_ticker: ABT
+    patent_assignee: Abbott
+    profile:
+      ticker: ABT (NYSE)
+      products: [i-STAT TBI, Alinity i TBI]
+      notes: ""   # public! keep to non-confidential facts
 
   - name: bioMérieux
     category: TBI blood test
@@ -73,6 +98,11 @@ competitors:
     trials_sponsor: "bioMérieux"
     pubmed_query: '"VIDAS TBI"'
     relevance_keywords: [brain injury, TBI, concussion, GFAP, UCH-L1, head injury, traumatic]
+    patent_assignee: bioMerieux
+    profile:
+      ticker: BIM (Euronext Paris)
+      products: [VIDAS TBI (GFAP, UCH-L1)]
+      notes: ""
 
   - name: Roche
     category: TBI blood test
@@ -83,6 +113,11 @@ competitors:
     fda_applicant: "Roche"
     pubmed_query: 'Elecsys AND (GFAP OR "UCH-L1")'
     relevance_keywords: [brain injury, TBI, concussion, GFAP, UCH-L1, head injury, traumatic]
+    patent_assignee: Roche
+    profile:
+      ticker: ROG (SIX Swiss Exchange)
+      products: [Elecsys immunoassays (GFAP / UCH-L1)]
+      notes: ""
 
   - name: Quanterix
     category: Biomarker platform
@@ -92,6 +127,13 @@ competitors:
     fda_applicant: "Quanterix"
     trials_sponsor: "Quanterix"
     pubmed_query: 'Simoa AND ("traumatic brain injury" OR concussion)'
+    sec_ticker: QTRX
+    patent_assignee: Quanterix
+    # jobs: {greenhouse: quanterix}   # uncomment if they use a public Greenhouse/Lever/Ashby board
+    profile:
+      ticker: QTRX (Nasdaq)
+      products: [Simoa platform (HD-X, SR-X, SP-X)]
+      notes: ""
 
   - name: BrainScope
     category: TBI device
@@ -100,6 +142,11 @@ competitors:
       - '"BrainScope"'
     fda_applicant: "BrainScope"
     trials_sponsor: "BrainScope"
+    patent_assignee: BrainScope
+    profile:
+      ticker: private
+      products: [Ahead (EEG-based brain function assessment)]
+      notes: ""
 
 # Market-level topics (not tied to one company)
 topics:
@@ -108,3 +155,11 @@ topics:
       - '"traumatic brain injury" blood test'
       - 'concussion blood test FDA'
     pubmed_query: '("traumatic brain injury" OR concussion) AND (GFAP OR "UCH-L1") AND "point-of-care"'
+    # CMS payment rules, FDA notices and guidance in the Federal Register
+    federal_register_query: '"traumatic brain injury" OR "glial fibrillary acidic protein" OR concussion'
+
+  - name: Lab reimbursement (CMS)
+    category: Market topic
+    federal_register_query: '"clinical laboratory fee schedule" OR "Medicare Physician Fee Schedule" OR "proprietary laboratory analyses"'
+    news_queries:
+      - 'CMS "clinical laboratory fee schedule"'
