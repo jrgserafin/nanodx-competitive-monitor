@@ -1,0 +1,104 @@
+# NanoDx Competitive Monitor — what to watch
+#
+# Edit this file on GitHub (pencil icon) to add/remove competitors. Changes take
+# effect on the next run. Every field except `name` is optional.
+#
+#   name            Display name
+#   category        Free-text grouping shown on the dashboard
+#   website         Homepage (linked from the dashboard)
+#   watch_pages     Pages to scrape for NEW headlines/links (newsroom, press, products)
+#   news_queries    Google News searches (use quotes for exact phrases)
+#   rss             Any RSS/Atom feed URLs (investor relations, blogs)
+#   fda_applicant   Company name as it appears in FDA 510(k)/PMA records
+#   trials_sponsor  Sponsor name on ClinicalTrials.gov
+#   pubmed_query    PubMed search for new publications
+#
+# STARTER LIST — replace with George's list.
+
+settings:
+  digest_title: "NanoDx Competitive Digest"
+  lookback_days: 14          # ignore items published longer ago than this
+  send_when_empty: true      # still email a short "no new activity" note
+  max_items_per_source: 15
+  # Words that mark an item as "high signal" (case-insensitive)
+  signal_keywords:
+    - FDA
+    - 510(k)
+    - clearance
+    - approval
+    - CE mark
+    - CLIA
+    - waived
+    - launch
+    - acquisition
+    - acquire
+    - partnership
+    - reimbursement
+    - CPT
+    - recall
+    - whole blood
+    - point-of-care
+    - GFAP
+    - UCH-L1
+    - concussion
+    - layoffs
+    - funding
+    - raises
+
+competitors:
+  - name: Abbott
+    category: TBI blood test
+    website: https://www.abbott.com
+    watch_pages:
+      - https://abbott.mediaroom.com/press-releases
+    news_queries:
+      - '"Abbott" "TBI" test'
+      - '"i-STAT TBI"'
+      - '"Alinity" TBI'
+    fda_applicant: "Abbott"
+    trials_sponsor: "Abbott"
+    pubmed_query: '"i-STAT TBI" OR "i-STAT Alinity" AND (GFAP OR "UCH-L1")'
+
+  - name: bioMérieux
+    category: TBI blood test
+    website: https://www.biomerieux.com
+    news_queries:
+      - '"bioMerieux" "VIDAS TBI"'
+      - '"bioMerieux" traumatic brain injury'
+    fda_applicant: "bioMerieux"
+    trials_sponsor: "bioMérieux"
+    pubmed_query: '"VIDAS TBI"'
+
+  - name: Roche
+    category: TBI blood test
+    website: https://diagnostics.roche.com
+    news_queries:
+      - '"Roche" "Elecsys" (GFAP OR "UCH-L1" OR "brain injury")'
+      - '"Roche Diagnostics" concussion'
+    fda_applicant: "Roche"
+    pubmed_query: 'Elecsys AND (GFAP OR "UCH-L1")'
+
+  - name: Quanterix
+    category: Biomarker platform
+    website: https://www.quanterix.com
+    news_queries:
+      - '"Quanterix"'
+    fda_applicant: "Quanterix"
+    trials_sponsor: "Quanterix"
+    pubmed_query: 'Simoa AND ("traumatic brain injury" OR concussion)'
+
+  - name: BrainScope
+    category: TBI device
+    website: https://www.brainscope.com
+    news_queries:
+      - '"BrainScope"'
+    fda_applicant: "BrainScope"
+    trials_sponsor: "BrainScope"
+
+# Market-level topics (not tied to one company)
+topics:
+  - name: TBI diagnostics market
+    news_queries:
+      - '"traumatic brain injury" blood test'
+      - 'concussion blood test FDA'
+    pubmed_query: '("traumatic brain injury" OR concussion) AND (GFAP OR "UCH-L1") AND "point-of-care"'

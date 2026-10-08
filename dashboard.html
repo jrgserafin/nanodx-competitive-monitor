@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>NanoDx Competitive Monitor</title>
+<style>
+:root{
+  --bg:#f6f7f9;--panel:#fff;--ink:#101828;--muted:#5d6b82;--faint:#98a2b3;--line:#e4e7ec;
+  --accent:#1d4ed8;--accent-ink:#fff;--chip:#eef2f7;--warn-bg:#fef0c7;--warn:#93370d;--bad:#b42318;--good:#067647;
+  --s-fda:#b42318;--s-news:#1d4ed8;--s-web:#6941c6;--s-trial:#067647;--s-pub:#93370d;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--muted:#9aa7b8;--faint:#6e7a8a;--line:#2a313c;
+  --accent:#6ea8fe;--accent-ink:#0d1117;--chip:#212833;--warn-bg:#3b2a0a;--warn:#f7c56b;--bad:#ff8b80;--good:#5bd69a;
+  --s-fda:#ff8b80;--s-news:#6ea8fe;--s-web:#b69cff;--s-trial:#5bd69a;--s-pub:#f2a66b;}}
+:root[data-theme="dark"]{
+  --bg:#0d1117;--panel:#161b22;--ink:#e6edf3;--muted:#9aa7b8;--faint:#6e7a8a;--line:#2a313c;
+  --accent:#6ea8fe;--accent-ink:#0d1117;--chip:#212833;--warn-bg:#3b2a0a;--warn:#f7c56b;--bad:#ff8b80;--good:#5bd69a;
+  --s-fda:#ff8b80;--s-news:#6ea8fe;--s-web:#b69cff;--s-trial:#5bd69a;--s-pub:#f2a66b;}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:20px 16px 60px}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;justify-content:space-between;margin-bottom:16px}
+h1{font-size:22px;margin:0;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:13px}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:7px 12px;border-radius:8px;font-size:13px;text-decoration:none;cursor:pointer}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:16px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:12px}
+nav.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:14px;overflow-x:auto}
+nav.tabs button{background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:8px 12px;font:inherit;font-size:14px;cursor:pointer;white-space:nowrap}
+nav.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.filters input[type=search]{flex:1 1 260px;min-width:0;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font:inherit}
+select{padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);font:inherit;font-size:13px;max-width:100%}
+label.tog{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:4px 10px;font-size:12px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.list{background:var(--panel);border:1px solid var(--line);border-radius:10px}
+.day{padding:8px 14px;font-size:12px;font-weight:600;color:var(--muted);background:var(--chip);border-bottom:1px solid var(--line);position:sticky;top:0}
+.it{padding:12px 14px;border-bottom:1px solid var(--line)}
+.it:last-child{border-bottom:0}
+.it .top{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:12px;color:var(--muted)}
+.src{font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:11px}
+.comp{font-weight:600;color:var(--ink)}
+.sig{background:var(--warn-bg);color:var(--warn);border-radius:4px;padding:0 6px;font-size:11px}
+.it a.t{display:block;font-weight:600;text-decoration:none;margin-top:2px;overflow-wrap:anywhere}
+.it a.t:hover{text-decoration:underline}
+.it p{margin:2px 0 0;color:var(--muted);font-size:13px;overflow-wrap:anywhere}
+.empty{padding:30px;text-align:center;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
+.card h3{margin:0 0 2px;font-size:16px}
+.card .cat{color:var(--muted);font-size:12px}
+.card ul{margin:8px 0 0;padding-left:18px;font-size:13px;color:var(--muted)}
+.card .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600;background:var(--chip)}
+td.err{color:var(--bad);overflow-wrap:anywhere}
+.ok{color:var(--good);font-weight:600}.bad{color:var(--bad);font-weight:600}
+.tablewrap{overflow-x:auto}
+.help{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:14px}
+.help code{background:var(--chip);padding:1px 5px;border-radius:4px;font-size:12px}
+.more{display:block;width:100%;margin-top:10px}
+[hidden]{display:none!important}
+@media (max-width:640px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}h1{font-size:19px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>NanoDx Competitive Monitor</h1>
+      <div class="sub" id="updated">Loading…</div>
+    </div>
+    <div class="actions">
+      <a class="btn primary" id="runLink" href="#" target="_blank" rel="noopener">Run a lookup now</a>
+      <a class="btn" id="editLink" href="#" target="_blank" rel="noopener">Edit competitors</a>
+      <button class="btn" id="themeBtn" type="button" aria-label="Toggle dark mode">Dark / light</button>
+    </div>
+  </header>
+
+  <section class="stats" aria-label="Summary">
+    <div class="stat"><b id="sNew">–</b><span>New in latest digest</span></div>
+    <div class="stat"><b id="sSig">–</b><span>High-signal (last 30 days)</span></div>
+    <div class="stat"><b id="sTotal">–</b><span>Items tracked</span></div>
+    <div class="stat"><b id="sHealth">–</b><span>Sources healthy</span></div>
+  </section>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="feed">Activity</button>
+    <button role="tab" aria-selected="false" data-tab="comps">Competitors</button>
+    <button role="tab" aria-selected="false" data-tab="digests">Digests</button>
+    <button role="tab" aria-selected="false" data-tab="health">Sources</button>
+    <button role="tab" aria-selected="false" data-tab="help">How it works</button>
+  </nav>
+
+  <section id="tab-feed">
+    <div class="filters">
+      <input type="search" id="q" placeholder="Search titles, snippets, publishers…  e.g. GFAP, 510(k), Abbott" aria-label="Search">
+      <select id="src" aria-label="Source"><option value="">All sources</option></select>
+      <select id="range" aria-label="Date range">
+        <option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option>
+        <option value="90">Last 90 days</option><option value="0">All time</option>
+      </select>
+      <label class="tog"><input type="checkbox" id="sigOnly"> High-signal only</label>
+    </div>
+    <div class="chips" id="chips"></div>
+    <div class="list" id="feed"></div>
+    <button class="btn more" id="moreBtn" hidden>Show more</button>
+  </section>
+
+  <section id="tab-comps" hidden><div class="grid" id="compGrid"></div></section>
+  <section id="tab-digests" hidden><div class="tablewrap"><table><thead><tr><th>Date</th><th>New items</th><th></th></tr></thead><tbody id="digestRows"></tbody></table></div></section>
+  <section id="tab-health" hidden><div class="tablewrap"><table><thead><tr><th>Competitor</th><th>Source</th><th>Status</th><th>Details</th></tr></thead><tbody id="healthRows"></tbody></table></div></section>
+  <section id="tab-help" hidden>
+    <div class="help">
+      <p><b>What runs:</b> every weekday morning a GitHub Action checks Google News, competitor web pages, RSS feeds, FDA 510(k)/PMA decisions, ClinicalTrials.gov and PubMed for each competitor in <code>competitors.yaml</code>. New items are saved here and emailed as a digest.</p>
+      <p><b>Look something up now:</b> click <i>Run a lookup now</i> → <i>Run workflow</i>. Leave “only” blank for everyone, or type a name (e.g. <code>Abbott</code>). Tick “send email” to mail the result. The dashboard refreshes about 2 minutes after the run finishes.</p>
+      <p><b>Add a competitor:</b> click <i>Edit competitors</i>, copy an existing block, change the name and searches, and commit.</p>
+      <p><b>High-signal</b> items mention keywords like FDA, clearance, launch, acquisition, CLIA or reimbursement (editable in <code>competitors.yaml</code>).</p>
+      <p style="color:var(--muted);font-size:13px">Only headlines and short snippets from public sources are stored; follow links for full content.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var state = {items:[], comps:[], digests:[], health:{sources:[]}, selected:new Set(), limit:80};
+  var $ = function(id){return document.getElementById(id);};
+  var esc = function(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});};
+  var safeUrl = function(u){return /^https?:\/\//i.test(u||"") ? u : "#";};
+  var SRC_COLOR = {"FDA":"var(--s-fda)","News":"var(--s-news)","Website":"var(--s-web)","RSS":"var(--s-web)","Clinical trial":"var(--s-trial)","Publication":"var(--s-pub)"};
+
+  // Theme toggle (per-viewer convenience only)
+  try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch(e){}
+  $("themeBtn").onclick = function(){
+    var dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    document.documentElement.dataset.theme = dark ? "light" : "dark";
+    try { localStorage.setItem("theme", document.documentElement.dataset.theme); } catch(e){}
+  };
+
+  // Repo links derived from the Pages URL (owner.github.io/repo/)
+  var owner = location.hostname.split(".")[0], repo = location.pathname.split("/").filter(Boolean)[0] || "";
+  if (location.hostname.endsWith("github.io") && repo) {
+    var base = "https://github.com/" + owner + "/" + repo;
+    $("runLink").href = base + "/actions/workflows/monitor.yml";
+    $("editLink").href = base + "/edit/main/competitors.yaml";
+  } else { $("runLink").hidden = true; $("editLink").hidden = true; }
+
+  function get(path, fallback){
+    return fetch(path + "?t=" + Date.now(), {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : fallback; }).catch(function(){ return fallback; });
+  }
+
+  Promise.all([get("data/items.json", []), get("data/competitors.json", []), get("data/digests/index.json", []), get("data/health.json", {sources:[]})])
+  .then(function(r){
+    state.items = r[0].filter(function(i){ return !i.stale; });
+    state.comps = r[1]; state.digests = r[2]; state.health = r[3] || {sources:[]};
+    init();
+  });
+
+  function itemDate(i){ return i.date || (i.first_seen||"").slice(0,10); }
+  function daysAgo(n){ var d = new Date(); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10); }
+
+  function init(){
+    var h = state.health;
+    $("updated").textContent = h.checked ? "Last checked " + new Date(h.checked).toLocaleString([], {dateStyle:"medium", timeStyle:"short"}) : "No runs yet — trigger one with “Run a lookup now”.";
+    var latest = state.digests[0];
+    $("sNew").textContent = latest ? latest.count : 0;
+    var d30 = daysAgo(30);
+    $("sSig").textContent = state.items.filter(function(i){ return i.signal && i.signal.length && itemDate(i) >= d30; }).length;
+    $("sTotal").textContent = state.items.length;
+    var ok = h.sources.filter(function(s){return s.ok;}).length;
+    $("sHealth").textContent = h.sources.length ? ok + "/" + h.sources.length : "–";
+
+    var srcs = Array.from(new Set(state.items.map(function(i){return i.source;}))).sort();
+    srcs.forEach(function(s){ var o = document.createElement("option"); o.value = s; o.textContent = s; $("src").appendChild(o); });
+
+    var names = state.comps.map(function(c){return c.name;});
+    state.items.forEach(function(i){ if (names.indexOf(i.competitor) < 0) names.push(i.competitor); });
+    $("chips").innerHTML = names.map(function(n){ return '<button class="chip" aria-pressed="false" data-n="'+esc(n)+'">'+esc(n)+'</button>'; }).join("");
+    $("chips").onclick = function(e){
+      var b = e.target.closest(".chip"); if (!b) return;
+      var n = b.dataset.n, on = !state.selected.has(n);
+      on ? state.selected.add(n) : state.selected.delete(n);
+      b.setAttribute("aria-pressed", on); state.limit = 80; renderFeed();
+    };
+    ["q","src","range","sigOnly"].forEach(function(id){ $(id).addEventListener("input", function(){ state.limit = 80; renderFeed(); }); });
+    $("moreBtn").onclick = function(){ state.limit += 80; renderFeed(); };
+    var params = new URLSearchParams(location.search);
+    if (params.get("q")) $("q").value = params.get("q");
+
+    renderFeed(); renderComps(); renderDigests(); renderHealth();
+  }
+
+  function filtered(){
+    var q = $("q").value.trim().toLowerCase(), src = $("src").value, range = +$("range").value, sig = $("sigOnly").checked;
+    var since = range ? daysAgo(range) : "";
+    return state.items.filter(function(i){
+      if (state.selected.size && !state.selected.has(i.competitor)) return false;
+      if (src && i.source !== src) return false;
+      if (sig && !(i.signal && i.signal.length)) return false;
+      if (since && itemDate(i) < since) return false;
+      if (q) { var hay = (i.title+" "+(i.snippet||"")+" "+(i.publisher||"")+" "+i.competitor+" "+i.source).toLowerCase();
+        if (q.split(/\s+/).some(function(w){ return hay.indexOf(w) < 0; })) return false; }
+      return true;
+    }).sort(function(a,b){ return itemDate(b).localeCompare(itemDate(a)); });
+  }
+
+  function renderFeed(){
+    var rows = filtered(), shown = rows.slice(0, state.limit), html = "", lastDay = "";
+    shown.forEach(function(i){
+      var d = itemDate(i);
+      if (d !== lastDay) { html += '<div class="day">'+esc(new Date(d+"T12:00:00").toLocaleDateString([], {weekday:"short", month:"short", day:"numeric", year:"numeric"}))+'</div>'; lastDay = d; }
+      html += '<article class="it"><div class="top"><span class="src" style="color:'+(SRC_COLOR[i.source]||"var(--muted)")+'">'+esc(i.source)+'</span>'
+        + '<span class="comp">'+esc(i.competitor)+'</span>'
+        + (i.publisher ? '<span>'+esc(i.publisher)+'</span>' : '')
+        + (i.signal && i.signal.length ? '<span class="sig">'+esc(i.signal.slice(0,3).join(", "))+'</span>' : '')
+        + '</div><a class="t" href="'+esc(safeUrl(i.url))+'" target="_blank" rel="noopener">'+esc(i.title)+'</a>'
+        + (i.snippet ? '<p>'+esc(i.snippet)+'</p>' : '') + '</article>';
+    });
+    $("feed").innerHTML = html || '<div class="empty">'+(state.items.length ? "Nothing matches these filters." : "No data yet. The first scheduled run will fill this in, or use “Run a lookup now”.")+'</div>';
+    $("moreBtn").hidden = rows.length <= state.limit;
+    if (!$("moreBtn").hidden) $("moreBtn").textContent = "Show more (" + (rows.length - state.limit) + " remaining)";
+  }
+
+  function renderComps(){
+    var d30 = daysAgo(30);
+    $("compGrid").innerHTML = state.comps.map(function(c){
+      var its = state.items.filter(function(i){ return i.competitor === c.name; });
+      var recent = its.filter(function(i){ return itemDate(i) >= d30; });
+      var top = recent.slice().sort(function(a,b){ return itemDate(b).localeCompare(itemDate(a)); }).slice(0,3);
+      var watch = [];
+      if (c.news_queries && c.news_queries.length) watch.push(c.news_queries.length + " news searches");
+      if (c.watch_pages && c.watch_pages.length) watch.push(c.watch_pages.length + " web pages");
+      if (c.fda_applicant) watch.push("FDA");
+      if (c.trials_sponsor) watch.push("Trials");
+      if (c.pubmed_query) watch.push("PubMed");
+      return '<div class="card"><h3>'+esc(c.name)+'</h3><div class="cat">'+esc(c.category || (c.kind==="topic" ? "Market topic" : ""))+'</div>'
+        + '<div class="sub" style="margin-top:6px">'+recent.length+' items in 30 days · '+its.length+' total</div>'
+        + '<div class="sub">Watching: '+esc(watch.join(", ") || "—")+'</div>'
+        + (top.length ? '<ul>'+top.map(function(i){ return '<li><a href="'+esc(safeUrl(i.url))+'" target="_blank" rel="noopener">'+esc(i.title)+'</a></li>'; }).join("")+'</ul>' : '')
+        + '<div class="row"><button class="btn" data-f="'+esc(c.name)+'">View activity</button>'
+        + (c.website ? '<a class="btn" href="'+esc(safeUrl(c.website))+'" target="_blank" rel="noopener">Website</a>' : '') + '</div></div>';
+    }).join("") || '<div class="empty">No competitors configured.</div>';
+    $("compGrid").onclick = function(e){
+      var b = e.target.closest("[data-f]"); if (!b) return;
+      state.selected = new Set([b.dataset.f]);
+      document.querySelectorAll(".chip").forEach(function(ch){ ch.setAttribute("aria-pressed", ch.dataset.n === b.dataset.f); });
+      $("range").value = "0"; showTab("feed"); renderFeed();
+    };
+  }
+
+  function renderDigests(){
+    $("digestRows").innerHTML = state.digests.map(function(d){
+      return '<tr><td>'+esc(d.date)+'</td><td>'+d.count+'</td><td><a href="data/digests/'+esc(d.date)+'.html" target="_blank" rel="noopener">Open digest</a></td></tr>';
+    }).join("") || '<tr><td colspan="3" class="empty">No digests yet.</td></tr>';
+  }
+
+  function renderHealth(){
+    var s = state.health.sources.slice().sort(function(a,b){ return a.ok - b.ok; });
+    $("healthRows").innerHTML = s.map(function(h){
+      return '<tr><td>'+esc(h.entity)+'</td><td>'+esc(h.source)+'</td><td class="'+(h.ok?"ok":"bad")+'">'+(h.ok?"OK":"Failed")+'</td><td class="'+(h.ok?"":"err")+'">'+(h.ok ? esc(h.count+" items · "+h.secs+"s") : esc(h.error))+'</td></tr>';
+    }).join("") || '<tr><td colspan="4" class="empty">No runs yet.</td></tr>';
+  }
+
+  function showTab(name){
+    document.querySelectorAll("nav.tabs button").forEach(function(b){ b.setAttribute("aria-selected", b.dataset.tab === name); });
+    ["feed","comps","digests","health","help"].forEach(function(t){ $("tab-"+t).hidden = t !== name; });
+  }
+  document.querySelector("nav.tabs").onclick = function(e){ var b = e.target.closest("button[data-tab]"); if (b) showTab(b.dataset.tab); };
+})();
+</script>
+</body>
+</html>
