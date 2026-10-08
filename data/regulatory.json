@@ -1,0 +1,157 @@
+{
+ "Abbott": {
+  "checked": "2026-10-08T15:52:06+00:00",
+  "records": [
+   {
+    "id": "f0718cf196dd62c6",
+    "competitor": "Abbott",
+    "source": "FDA",
+    "title": "FDA 510(k) K234143: i-STAT TBI Cartridge with the i-STAT Alinity System",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K234143",
+    "date": "2024-03-27",
+    "snippet": "Applicant: Abbott Point of Care. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K234143"
+   },
+   {
+    "id": "f5a6d52cfa473cf9",
+    "competitor": "Abbott",
+    "source": "FDA",
+    "title": "FDA 510(k) K232669: TBI",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232669",
+    "date": "2023-09-29",
+    "snippet": "Applicant: Abbott Laboratories. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K232669"
+   },
+   {
+    "id": "f797eac0574dedea",
+    "competitor": "Abbott",
+    "source": "FDA",
+    "title": "FDA 510(k) K223602: Traumatic brain injury (TBI) test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223602",
+    "date": "2023-03-02",
+    "snippet": "Applicant: Abbott Laboratories. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K223602"
+   }
+  ]
+ },
+ "bioMérieux": {
+  "checked": "2026-10-08T15:52:07+00:00",
+  "records": [
+   {
+    "id": "4f6e68b867dd6c6d",
+    "competitor": "bioMérieux",
+    "source": "FDA",
+    "title": "FDA 510(k) K240279: VIDAS TBI (GFAP, UCH-L1)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K240279",
+    "date": "2024-05-01",
+    "snippet": "Applicant: bioMerieux, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K240279"
+   }
+  ]
+ },
+ "Roche": {
+  "checked": "2026-10-08T15:52:08+00:00",
+  "records": []
+ },
+ "Quanterix": {
+  "checked": "2026-10-08T15:52:08+00:00",
+  "records": []
+ },
+ "BrainScope": {
+  "checked": "2026-10-08T15:52:09+00:00",
+  "records": [
+   {
+    "id": "7f0ecd5b1dadfe4c",
+    "competitor": "BrainScope",
+    "source": "FDA",
+    "title": "FDA 510(k) K190815: BrainScope TBI",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K190815",
+    "date": "2019-09-11",
+    "snippet": "Applicant: Brainscope Company, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K190815"
+   },
+   {
+    "id": "171fd6e696b52756",
+    "competitor": "BrainScope",
+    "source": "FDA",
+    "title": "FDA 510(k) K183241: BrainScope TBI (Model: Ahead 400)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K183241",
+    "date": "2019-02-19",
+    "snippet": "Applicant: Brainscope Company, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K183241"
+   },
+   {
+    "id": "92b890289755212b",
+    "competitor": "BrainScope",
+    "source": "FDA",
+    "title": "FDA 510(k) K181785: Modified BrainScope One",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181785",
+    "date": "2018-12-19",
+    "snippet": "Applicant: Brainscope Company, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K181785"
+   },
+   {
+    "id": "62f91421a6d2291e",
+    "competitor": "BrainScope",
+    "source": "FDA",
+    "title": "FDA 510(k) K181179: BrainScope One",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181179",
+    "date": "2018-05-18",
+    "snippet": "Applicant: Brainscope Company, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K181179"
+   },
+   {
+    "id": "5a016a27ebaa3a61",
+    "competitor": "BrainScope",
+    "source": "FDA",
+    "title": "FDA 510(k) K161068: Ahead 300",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K161068",
+    "date": "2016-09-22",
+    "snippet": "Applicant: Brainscope Company, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K161068"
+   },
+   {
+    "id": "53adb6699ee2f644",
+    "competitor": "BrainScope",
+    "source": "FDA",
+    "title": "FDA 510(k) K143643: Brainscope Ahead 200",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K143643",
+    "date": "2015-05-15",
+    "snippet": "Applicant: Brainscope Company, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K143643"
+   },
+   {
+    "id": "c760995bb3f4b61e",
+    "competitor": "BrainScope",
+    "source": "FDA",
+    "title": "FDA 510(k) DEN140025: BrainScope Ahead 100",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN140025",
+    "date": "2014-11-17",
+    "snippet": "Applicant: Brainscope Company, Inc.. Decision: Unknown.",
+    "fda_kind": "510(k)",
+    "fda_number": "DEN140025"
+   },
+   {
+    "id": "a41fe3d8d1510683",
+    "competitor": "BrainScope",
+    "source": "FDA",
+    "title": "FDA 510(k) K082886: ZOOM-100DC",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K082886",
+    "date": "2009-08-10",
+    "snippet": "Applicant: Brainscope Company, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K082886"
+   }
+  ]
+ }
+}

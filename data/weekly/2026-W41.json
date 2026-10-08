@@ -1,0 +1,260 @@
+{
+ "week": "2026-W41",
+ "start": "2026-10-01",
+ "end": "2026-10-08",
+ "generated": "2026-10-08T15:52:10+00:00",
+ "counts": [
+  {
+   "name": "Abbott",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "bioMérieux",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Roche",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Quanterix",
+   "this_week": 12,
+   "last_week": 2,
+   "signal": 5
+  },
+  {
+   "name": "BrainScope",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI diagnostics market",
+   "this_week": 9,
+   "last_week": 9,
+   "signal": 1
+  },
+  {
+   "name": "Lab reimbursement (CMS)",
+   "this_week": 4,
+   "last_week": 1,
+   "signal": 1
+  }
+ ],
+ "top": [
+  {
+   "id": "25f94a31aaae4fc7",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Receives Chinese Regulatory Approvals, Inks Expanded Licensing Deal With Alzpath",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQkwtV3cxa1lrcGdUX0lqU0lPOERKVGJqTjEtQ1FMQkNDZV9QRTd0QkFkaWI3eHo4VW5KN1Q1MmNKdEg4cDJYb1lNOXpfTHgxbm8wX1lQbEVCdzBmcGkyWk03ZlkwRF9IWVZORDVjdWltdFltaHQzSTU3bF9ObkJxQmFzNDFIdkM4Yno2dGd2TWhhOFpuOFVVSUhWZGpCX2tOODhzbVM1SGY?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Genome Web",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "approval"
+   ]
+  },
+  {
+   "id": "16f4952b7db363c9",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix and Innovita win China approval for Alzheimer's blood tests",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWDBNZklPOWVKaExYdzN4MHB2Uk54ZW1WQ1RiLWtIOTFsOFdZSVA4T0d4RHVOdWxXb2NMcXhYSWtaVVdrSHJqVmRrRzIyMzUwSkZsMENkYWhWQkp6dnhVMmd5UTVub0pIXzRjcDlOYnlVZElWb2JaOWFQX1ZwNlNobHFlRnltX0JCZVhjZEtlNERMRzV4V3JyQjZMQlBmQ1NMVTFyMnNzVXdKWjM0UkpmZmJZNmItM0V3ekg0ZllPWGVKLWlFelE?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "StreetInsider",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "approval"
+   ]
+  },
+  {
+   "id": "2ff7bccc383b35ac",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix partner receives China approval for neurology tests By Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSXhpY3Jrdmg0MlhGOUVpSThvN2JnSkFKLWRTTFFmLWFsRlFOZVpJUWtobGZSZUdxOTR2WDdHemdfdmV2dU1pVldscHU5eXZVSDI4RzdZc25CbUY1Y3FRYXlIbXJ1TDU5U0FFSlJWMDRwWE1CWnlneHBnZDBhS21sd0xpd0VINDdZa2Fpa09WZ0VSSmVNbjItS3hkc0tUTHFJT25tV1BFYy0tTWNRSDN0Zkx1X0tFLUtIanZDd3dWNA?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Investing.com UK",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "approval"
+   ]
+  },
+  {
+   "id": "f7d31309c50493b1",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix, Innovita announce NMPA approvals for SIMOA tech, testing",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVERzMW9icmMyWlgzU3BsdDRibmpVT0taTVV6bnJhbWVPM0psdmNva1Nad1dBb0FxdTJtSUFheVA4Tk1ZcUp5T3FrSzYtLTdieGcxWjU5NDdxSHJJbXB3MXhoMFZJb3NNUnd4WHRFTk5oeWVZMFNsQzhLQkRJenRUWEROXzBuUGg3a1MtalY2QTNLZnJCRy1iZE5KZHFkYVVZbVVNUXZsbEc0Q2k4eW1abExlRGlPQQ?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "TipRanks",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "approval"
+   ]
+  },
+  {
+   "id": "9dc674c4e2517b7e",
+   "competitor": "TBI diagnostics market",
+   "source": "Federal Register",
+   "title": "Design and Safety Considerations for Clinical Trials Involving Ibogaine Drug Products; Request for Information",
+   "url": "https://www.federalregister.gov/documents/2026/10/06/2026-20427/design-and-safety-considerations-for-clinical-trials-involving-ibogaine-drug-products-request-for",
+   "date": "2026-10-06",
+   "snippet": "Notice · Health and Human Services Department, Food and Drug Administration. The Food and Drug Administration (FDA or the Agency) is describing the approaches it is considering for the design of early- phase clinical trials of ibogaine drug products and is opening a public…",
+   "first_seen": "2026-10-08T15:46:29+00:00",
+   "signal": [
+    "FDA"
+   ]
+  },
+  {
+   "id": "e0e451771a14c9ee",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix launches PhenoCode 2.0 kit. Wall Street Zen upgrades Quanterix stock to Hold",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMjlTQVU2Y1RHTXh0Rm03VURzNk1xa1ZPc3lucFBXRFhtdHNEUXFoR1h6cTZ5N3QxNjl0RjYzZk16aHVXdjlsdHdyV1J6djdka1ZXeVpiLU0tX3ktSVNQX1M4bExZUlJ4cVAtX01tNHlCdldCVGFFYURSV1JWd2dyeTd1MjdtV1dKbVF3VzNybjlYMS1hbjY0NXdUaWVNaWJzMGdEU3hXZ1NpYjY2T3d2MUZITjR6bWhYVGh4azlKbmJfUWExNUI4UU5uQUVSU2hMcHFQYkhHWWhYTVFD?oc=5",
+   "date": "2026-10-04",
+   "snippet": "",
+   "publisher": "AD HOC NEWS",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "launch"
+   ]
+  },
+  {
+   "id": "870e8538ba6a73dd",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "BillionToOne (NasdaqGS:BLLN) Stock Fair Value Edges Higher As Analysts Weigh Tech And Reimbursement Risk",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZG1KdEpfZi1say1ycHJLOHhOQ1o3UGhfNzJ1a0xVREFLTTJrbDItSkpxRVd2OG4yY2xvcXFja1FQRlJXV0Uxa2xkdmlHV2kwX01Sc2FMcG9EN25hYzJpT2UwUVppYlhLZ1MwV0FabXRzLXpEckxuYW9XcDRWLVZMV01FS3ZWd2ZMMFBSSVFfTVNvSFBtWU5HVzExcGJCcVliNFhySg?oc=5",
+   "date": "2026-10-03",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-10-08T15:41:11+00:00",
+   "signal": [
+    "reimbursement"
+   ]
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false,
+ "cites": [
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQkwtV3cxa1lrcGdUX0lqU0lPOERKVGJqTjEtQ1FMQkNDZV9QRTd0QkFkaWI3eHo4VW5KN1Q1MmNKdEg4cDJYb1lNOXpfTHgxbm8wX1lQbEVCdzBmcGkyWk03ZlkwRF9IWVZORDVjdWltdFltaHQzSTU3bF9ObkJxQmFzNDFIdkM4Yno2dGd2TWhhOFpuOFVVSUhWZGpCX2tOODhzbVM1SGY?oc=5",
+   "title": "Quanterix Receives Chinese Regulatory Approvals, Inks Expanded Licensing Deal With Alzpath"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWDBNZklPOWVKaExYdzN4MHB2Uk54ZW1WQ1RiLWtIOTFsOFdZSVA4T0d4RHVOdWxXb2NMcXhYSWtaVVdrSHJqVmRrRzIyMzUwSkZsMENkYWhWQkp6dnhVMmd5UTVub0pIXzRjcDlOYnlVZElWb2JaOWFQX1ZwNlNobHFlRnltX0JCZVhjZEtlNERMRzV4V3JyQjZMQlBmQ1NMVTFyMnNzVXdKWjM0UkpmZmJZNmItM0V3ekg0ZllPWGVKLWlFelE?oc=5",
+   "title": "Quanterix and Innovita win China approval for Alzheimer's blood tests"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSXhpY3Jrdmg0MlhGOUVpSThvN2JnSkFKLWRTTFFmLWFsRlFOZVpJUWtobGZSZUdxOTR2WDdHemdfdmV2dU1pVldscHU5eXZVSDI4RzdZc25CbUY1Y3FRYXlIbXJ1TDU5U0FFSlJWMDRwWE1CWnlneHBnZDBhS21sd0xpd0VINDdZa2Fpa09WZ0VSSmVNbjItS3hkc0tUTHFJT25tV1BFYy0tTWNRSDN0Zkx1X0tFLUtIanZDd3dWNA?oc=5",
+   "title": "Quanterix partner receives China approval for neurology tests By Investing.com"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVERzMW9icmMyWlgzU3BsdDRibmpVT0taTVV6bnJhbWVPM0psdmNva1Nad1dBb0FxdTJtSUFheVA4Tk1ZcUp5T3FrSzYtLTdieGcxWjU5NDdxSHJJbXB3MXhoMFZJb3NNUnd4WHRFTk5oeWVZMFNsQzhLQkRJenRUWEROXzBuUGg3a1MtalY2QTNLZnJCRy1iZE5KZHFkYVVZbVVNUXZsbEc0Q2k4eW1abExlRGlPQQ?oc=5",
+   "title": "Quanterix, Innovita announce NMPA approvals for SIMOA tech, testing"
+  },
+  {
+   "url": "https://www.federalregister.gov/documents/2026/10/06/2026-20427/design-and-safety-considerations-for-clinical-trials-involving-ibogaine-drug-products-request-for",
+   "title": "Design and Safety Considerations for Clinical Trials Involving Ibogaine Drug Products; Request for Information"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMjlTQVU2Y1RHTXh0Rm03VURzNk1xa1ZPc3lucFBXRFhtdHNEUXFoR1h6cTZ5N3QxNjl0RjYzZk16aHVXdjlsdHdyV1J6djdka1ZXeVpiLU0tX3ktSVNQX1M4bExZUlJ4cVAtX01tNHlCdldCVGFFYURSV1JWd2dyeTd1MjdtV1dKbVF3VzNybjlYMS1hbjY0NXdUaWVNaWJzMGdEU3hXZ1NpYjY2T3d2MUZITjR6bWhYVGh4azlKbmJfUWExNUI4UU5uQUVSU2hMcHFQYkhHWWhYTVFD?oc=5",
+   "title": "Quanterix launches PhenoCode 2.0 kit. Wall Street Zen upgrades Quanterix stock to Hold"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZG1KdEpfZi1say1ycHJLOHhOQ1o3UGhfNzJ1a0xVREFLTTJrbDItSkpxRVd2OG4yY2xvcXFja1FQRlJXV0Uxa2xkdmlHV2kwX01Sc2FMcG9EN25hYzJpT2UwUVppYlhLZ1MwV0FabXRzLXpEckxuYW9XcDRWLVZMV01FS3ZWd2ZMMFBSSVFfTVNvSFBtWU5HVzExcGJCcVliNFhySg?oc=5",
+   "title": "BillionToOne (NasdaqGS:BLLN) Stock Fair Value Edges Higher As Analysts Weigh Tech And Reimbursement Risk"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZVl4ZHVmZ25OTm9YeTlSdW1pX1docnBIUDVQNk5MbWFRRW5NSWRPVWJKYlNrX3ZNeldXWkhJeEhjd1R0NXpWNjNZWXhfeXlTSHVtN3FLdHJkTGhiUU9CVnV1RUhPZVdjX1pSZy1sY0NLVXdsZ1lJcWFDLVFKYVgtcFZVYmtCUkpoel9ZZWJ5NGJkVzZtbEVqLQ?oc=5",
+   "title": "2027 Preliminary Clinical Laboratory Fee Schedule Payment Rates"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcGNCTDBkclpCWjYxc2QxVEtMT2diS3dqb0N6SHV2R0hvX19LTFJkV1dFbTkxMDcybHlPNjJXc3FKaVBBY1RZNzBrdk1oVGdIemtRa3daeGJFSG9ZTUtqX05qUkFTenRad1c1dzBYQXRuNmRlZF9mbDJuZXNWV3Y4ZERVODJHc2Yz?oc=5",
+   "title": "Improving lives through health translation"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14a09rNnVzMlZaTm1MUXRoUXNfLTM1LW11ckI4bUl3MkxRVC1iZUJRSHNFbDF4YkxlZS1BOXRLX09JU08tUURSOVhNMXZ1aTJCTjlPc1ZvR296dw?oc=5",
+   "title": "Newsletter #77: 🤯 13 Inspiring takeaways from an epic health conference"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVzBwNTFDNjBUSmFKSzJ0MDdtdlpxMHRZUWNaTXZFbmVCVkNCNTFTaXpyMF8wcHk4dHJOalVHRnphekFmVVRuYUhYc2pFRGhtUUpWUnpjb1BPQWxwRzhuTmtCTGkyeEdBcTRBRUNybXRQMk9SOTBPaG02VFJNeXMxOW96OE9welZZNTRuSlBENVpuMDJ1VFlxQVdoZUFYeGRLTnF0YWJWanZDcmxfWGtZMTV4RzFaUQ?oc=5",
+   "title": "China Clears Quanterix and Innovita SIMOA Instruments and Blood-Based Neurology Tests"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQTlDY2kwOGZQNWNvbVJiaXl5dEZxd0NtcXM1cTdUcjNvQTJGSkFPak9RLWxqT0QtdkJyZnJvSnpJUmlZTkkyejdicS12ODRHVTJGMTJkaXB5Mkw1YzNpNWdMWlB3RUx6M1l2TnFVMjg3bGluWUktV1g2cFBxZ3ZYMktsWUphNVhvcGhXUF9iNkJyVnotbzFjdm42Ny1oQTA2TTR5eDcwV1I5cERQanFnaTJqdi1zNTZ3NHBIYkdsR2p3WWlUc0ZfWDB1bnloSFZjOFE?oc=5",
+   "title": "Quanterix (QTRX) Expands SIMOA Neurology Biomarker Testing Acces"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPbTlGakotVC1VaF90UzRaMEg0QXpQYjd4MG1yWVBTZGZQeUYyemJ5UVI0cjl6M1ZxdUtfSTFkLUpVYUZSaGxkRjBHbWtUOUNJUElLOHZtdnR5Rk1kVk5TWjQxSWVLN1czM20tRnFvb19ldTBpSGpQbGlGaHhRbWJlbU5sWWNKMTZ6WktLWkl6TnJBcVV5Z0RGY05WWXBnV3plbnRBOXZRTEdSaG9RekdSc0NwUEVqSWRiMWRYWWcwcTJaQTFseDM1eUNpSV9TQkVzVDNTZHNxSFB2VnNKVlNvSjNWMzBWTjU5dnJJMVpRX0hWNWNvb19kYnBZT3ROVy1zQUgxeFd3cS1VTVBJX2czVjNiWFF2dmRyNUxpWGk3Zw?oc=5",
+   "title": "Alzpath And Quanterix Expand Strategic Licensing Agreement To Advance Next Generation Alzheimer's Disease Biomarker Research"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWVhxUE9KTzluU1ZLd1Y3bWhLTkRxeWVNWWdKazl1TmVEeW1ucTU4MmNvNmpsN09BN2JjUXFsdXE4WTE3R0lpY3BvZklBLS02VzIwUFp2c0t3NHNTNnZEUzVJWTBVQ1gtX3dSdUxoZFlMc1F4RWRSWHlLMFdUdWpMNWhzZnRoVlU1V2FmVERyTjlSM3Y3ekZzbGNoMXRETjQ1ZlVYRjRnd2w5aFhkZi1ZUA?oc=5",
+   "title": "Quanterix stock fell 9.06 percent as Q2 reset weighs"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNWZlNXFzODVrZzVtYUc3eWNHam1ic090MXVpUWhPWTBmZUFKZU5TdWZvTFk0anp6TDk4ekdHbDEweFN3Wm9uemhoc1hlMmpaLURucV9tNVVxalBxaFV6N0RoOHB3NXhQZzNFNG1vODZaVkMzc0RPb1M4NWFmeXFRSURvWXdQN2NReXhOMzdmY3VjdkxZd1lwX29URkJTWWtucDRVbW00cjlKcENyR3lnWnR0b3I4cWlXa1ZELVBTQjZSNUE?oc=5",
+   "title": "Existing Drugs Could Help Target Brain Inflammation in Alzheimer’s"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQUhURFhJYWlzTnZ5T3pnSk15VERjbUVDbDJ5WmpHYi1sejUwVEhMLUhlNmxqdTdCemFpTmVRd2FBbGVRY0F3MUNVLXVrOUZvcG5zaVZuTkFlZlBydUp5TlEyWHpuWVJQMVdPaV9sZHlDYmZYQ1lKdUd2a2tkaHJNeks2TWRodHVMcUpyT2pxb2pNXzI5aUc2ZGMzTFUtYWdoMVVxX3JYSGppT0E?oc=5",
+   "title": "CMS Releases Preliminary 2027 Clinical Lab Fee Schedule Rates"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxNZWpaSkdFeVdzMmVqN1Bma1hxQzVBMzNyVnNla1VmUDV5S0F6Ry1YOEVsLW92dWdRYTJRWmo4WGFINlhiTXZTVXpCYW9HN3ZZeGc4U29jMEdUd2tUMktZcGRiTmRnbGZ2Znh0OXZmbFJ1YU5hVjlHR0UtSDFkckRFbXVMMGRZS1g1dmFvWEZ1TnEtdk1fckgyQ1JublZTNHdwRUlIM01DdEI5RHgzdjFEMGlnTmNRTEE0YjlwSVA4aVdMN210aks2bnQtVEY1Ymo1Q01uM3ZVVFh1cDY3a0prMFdoLTNSRVJxNnN2Ym9CZnVYVnNvSktJSmhwYThMbFZhblFRTWRNM3BkdFRCWEpOSEwyRkpkd1BjZkJfN01PSkh4RXBwRGU0RXRpVEI5dV85bWVSMlRQVjZnOUUxM1dIeW5jZ0NqSVk2Z3E0N280eHRkME9WYTRBSGhjTlBiY1d6dkdGZFRZenNPZDJ6MEMzdV83VkpzSW53eEhZYkFNWEZ0TmM?oc=5",
+   "title": "ADPT: MRD Momentum Supports Upside, CMS Coding Risk Keeps The View Balanced"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOV9HTl90OEYxRDBqNjd2ZVM2NFYtSVhod1luWTBBbkkxVTAzcnRfQncyNlNMVUdhekVTS3kyWF9rR0ZhQWQ4b3hXMXNSUDV1Z2d0LTBPelA5bWVZZU9EQzZMbk5RU2oxd1l3ZUFjSDBXTDZpWUN5NHgzeDlZMEQ3aXFMSmRGcnExNGNTLVV1bUtBYU5FSEpZcVpLSEJwdDFmSi1GeFJyaFcwaUpvanc?oc=5",
+   "title": "Cannabidiol Sponge Implanted at Injury Site Cuts Brain Swelling After Trauma in Rats"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbFJ6dnpyMncyNWNMSlNzWjV5NnNkYWV4LVQ3OGZHZFNPbXl3SHgzakxlbmlqNkFuckRHc0V4bldTdXh5ME9BTzdfbm13cEJuOUV1OVc4ZDRucjJDazJJWG4yc09URTNIeFM3UjN0NHpQVU5FN0JtVXlRMkZHd0V1ZzRCNmVwLUZHd05wWEFqRWhzQlBZY0txLUREQi1IUQ?oc=5",
+   "title": "Can biomarkers and AI transform traumatic brain injury care?"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ1g5bXJiS1VFWWR2Z2hiblFoRU9EaUQ5ZENjQzQ0czZGV3J3NXU0dzA4ZEZBUHpfRWJpQ3JvRTBlU2dBdUJtazR4YlJ5S3FOclUtRDhlQVRqRUtWVmRpM3BGNXozZnFQaFF3X0VPTTJ0SU1BVkdkNWpUTVpodlU3QjJTUE9VdF9NTUhESHNOUmxnUmFDb25xRDl0TGE3SXhKblE?oc=5",
+   "title": "Diabetes Drugs May Boost Survival After Brain Injury Surgery, Study Suggests"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVlBZVFEzaTRwNzBVZUF0czlUcTREOGYtMWlGMTctTGo3Tnh4cXdzYkxMVEVfcVlzY0Q5bXFKV0xtVUFTbm94QUN2Z09URms0YUJpbVNwekZBMXhqTlRITnZ4WGFUNTJrSDI2VUdlUUdYNVZxcVBIMVhBYm1ROWJxY2JWUUVrai1s?oc=5",
+   "title": "Brain Cell Study Uncovers New Alzheimer's Drug Target"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUW0tcHVxYTQzdWNyWkN6M0dYNzNPNVRpemRreml0SDYydWVmcjRBRW5fMS0zV1l6YjY5WTB4QlhZalY3MURzWndEaU5iSjZOaWxZcnFQMkJCdzhhZXJVT3RnN0JRRnVBNGlTeDdFYmY0dGE4OG9pemdSeF9lSTRfSGsyaWJGME9nSW5EcGEtbmZpRHBrX0RYTWFiY3YtMTE3STJRVWc5a2JxUzNMbnQ5TTlMbHhYdGFYaWszSWh0NTNfQkpEZEp1REtMNG1DRUdmb0xjSmdwNzVoZw?oc=5",
+   "title": "What Your Next Blood Test Might Reveal About Your Brain Health"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQWxnNEhHWW1FY3ZlRUFGSW1YU0FTaUxEZS14aHJtWEFSanFKcWtfMTJ3NGF0azhnakd0Z09FOHh0MEJ4cDlTOXY1UUNabVR5MXZHMXZDVkZYZHV4b2tjck04U3NpV1I0VG1pd2M0XzU5d3dYMlZrRUxFZUVWYXhvZEZ3Z1FsaVJ0QUhQTHhEUWwtWTR2Ujh4OGRiVldWbm1ZclRNa1hOTUtUWXlQ?oc=5",
+   "title": "A 4,398-share grant replaces Q3 cash fees for Quanterix (QTRX) director Scott Mendel."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaUJTdnFfOW12NVRmbzBTcm02YzBmSTliR2FYRlNXc3pSU2pzanJvREhtR2ZPbk82WUZVOFpmdm42bktMdzhxQUFCbmhxQmtEMkVVOVczNG9lT3psUkZRclNfWUNuakxncjJ3cXIxNTBMbzhWM19OUFhCeW9NdEMwVHV2Q2FtVHF1d3hlY2ZTaFdBV0tHSm1pV283YXpaenRBZjQ5aVI2aWEtanNM?oc=5",
+   "title": "For Q3 board service, Quanterix (QTRX) grants director Donnelly 6,964 shares instead of cash."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObmR1S2dRZjcxcEtkVWU1SDU2ZVVTYkVsVE1xQjRfTDdPRnV5YUdxTkNaUVg3QzQyTlJKa3g5X2d1Snh5Q3l2OWNHREdPUHBLNGRHQW5yWGVxLU0xRlRnNjNnTkhXZV9JQlZxWFc4Q2VhaUtDbzJGVHBBRWVLUlIxQUplbEs0MTZmaEh5bHdtZ0dVWWhGZkc2TkUySmVwakhNR0NGRllzSU5kM0Nk?oc=5",
+   "title": "A director converts awards into 4,224 shares at Quanterix (QTRX), bringing her holdings to 15,883 shares."
+  }
+ ]
+}
