@@ -248,7 +248,7 @@ def collect_fda(name, applicant, cfg):
         ("PMA", "pma", "pma_number", "trade_name"),
     ):
         url = (f"https://api.fda.gov/device/{endpoint}.json?search=applicant:{a}"
-               f"+AND+decision_date:[{since}+TO+{today}]&sort=decision_date:desc&limit=10")
+               f"+AND+decision_date:[{since}+TO+{today}]&sort=decision_date:desc&limit=100")
         r = session.get(url, timeout=TIMEOUT)
         if r.status_code == 404:  # openFDA returns 404 for "no matches"
             continue
@@ -267,9 +267,11 @@ def collect_fda(name, applicant, cfg):
     return out
 
 
-def collect_trials(name, sponsor, cfg):
+def collect_trials(name, sponsor, cfg, terms=None):
     url = ("https://clinicaltrials.gov/api/v2/studies?query.spons=" + urllib.parse.quote(sponsor)
            + "&sort=LastUpdatePostDate:desc&pageSize=10")
+    if terms:  # big sponsors: only trials about our space
+        url += "&query.term=" + urllib.parse.quote(" OR ".join(f'"{t}"' if " " in t else t for t in terms))
     out = []
     for s in get(url).json().get("studies", []):
         p = s.get("protocolSection", {})
@@ -327,9 +329,23 @@ def jobs_for(entity):
     if entity.get("fda_applicant"):
         yield f"FDA: {entity['fda_applicant']}", collect_fda, n, entity["fda_applicant"]
     if entity.get("trials_sponsor"):
-        yield f"Trials: {entity['trials_sponsor']}", collect_trials, n, entity["trials_sponsor"]
+        terms = entity.get("relevance_keywords")
+        yield (f"Trials: {entity['trials_sponsor']}",
+               (lambda nm, a, c, _t=terms: collect_trials(nm, a, c, _t)), n, entity["trials_sponsor"])
     if entity.get("pubmed_query"):
         yield f"PubMed: {entity['pubmed_query']}", collect_pubmed, n, entity["pubmed_query"]
+
+
+FILTERED_SOURCES = {"FDA", "Clinical trial", "Website", "RSS"}
+
+
+def relevant(it, rules):
+    """For large companies, keep FDA/trial/website/RSS items only if they mention our space."""
+    kws = rules.get(it["competitor"])
+    if not kws or it["source"] not in FILTERED_SOURCES:
+        return True
+    hay = f"{it['title']} {it.get('snippet', '')}".lower()
+    return any(k.lower() in hay for k in kws)
 
 
 def is_signal(it, keywords):
@@ -348,8 +364,10 @@ def run(only: str | None = None):
         if not entities:
             sys.exit(f"No competitor/topic matches '{only}'")
 
+    rules = {e["name"]: e.get("relevance_keywords") for e in cfg["competitors"] + cfg["topics"]}
     history = load_json(DATA / "items.json", [])
     known = {h["id"] for h in history}
+    history = [h for h in history if relevant(h, rules)]  # re-apply if keywords were added later
     first_run = not history
     cutoff = (now_utc() - dt.timedelta(days=s["lookback_days"])).date().isoformat()
     stamp = now_utc().isoformat(timespec="seconds")
@@ -374,6 +392,8 @@ def run(only: str | None = None):
         if it["id"] in known:
             continue
         known.add(it["id"])
+        if not relevant(it, rules):
+            continue
         if it.get("date") and it["date"] < cutoff:
             it["stale"] = True  # remember it so it never shows as new, but keep it out of the digest
         it["first_seen"] = stamp

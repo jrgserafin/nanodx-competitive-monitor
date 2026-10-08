@@ -12,6 +12,9 @@
 #   fda_applicant   Company name as it appears in FDA 510(k)/PMA records
 #   trials_sponsor  Sponsor name on ClinicalTrials.gov
 #   pubmed_query    PubMed search for new publications
+#   relevance_keywords  For big companies: FDA, trial, website and RSS items are
+#                   kept only if they mention one of these words (news and
+#                   PubMed searches are already targeted, so they are not filtered)
 #
 # STARTER LIST — replace with George's list.
 
@@ -58,6 +61,7 @@ competitors:
     fda_applicant: "Abbott"
     trials_sponsor: "Abbott"
     pubmed_query: '"i-STAT TBI" OR "i-STAT Alinity" AND (GFAP OR "UCH-L1")'
+    relevance_keywords: [brain injury, TBI, concussion, GFAP, UCH-L1, head injury, traumatic]
 
   - name: bioMérieux
     category: TBI blood test
@@ -68,6 +72,7 @@ competitors:
     fda_applicant: "bioMerieux"
     trials_sponsor: "bioMérieux"
     pubmed_query: '"VIDAS TBI"'
+    relevance_keywords: [brain injury, TBI, concussion, GFAP, UCH-L1, head injury, traumatic]
 
   - name: Roche
     category: TBI blood test
@@ -77,6 +82,7 @@ competitors:
       - '"Roche Diagnostics" concussion'
     fda_applicant: "Roche"
     pubmed_query: 'Elecsys AND (GFAP OR "UCH-L1")'
+    relevance_keywords: [brain injury, TBI, concussion, GFAP, UCH-L1, head injury, traumatic]
 
   - name: Quanterix
     category: Biomarker platform
