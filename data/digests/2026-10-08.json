@@ -1,49 +1,21 @@
 {
  "date": "2026-10-08",
- "generated": "2026-10-08T14:15:52+00:00",
+ "generated": "2026-10-08T15:49:51+00:00",
  "title": "NanoDx Competitive Digest",
- "first_run": false,
- "only": null,
  "items": [
   {
-   "id": "951fe497328b05bc",
-   "competitor": "TBI diagnostics market",
+   "id": "870e8538ba6a73dd",
+   "competitor": "Lab reimbursement (CMS)",
    "source": "News",
-   "title": "FDA grants Breakthrough Device designation to microRNA blood test for predicting AIS curve progression",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSjN6Z1M2VmtOdEZBNGxhcDBTeDhuU0xUbHRCY29WSGNBU1Z2UkNsSXRFNGZpQjJNVzJfd1RzZ0JrQVJjNHNaLW9NQ0JrZGt5bUU0X1hOV3hkYVJ5RXphWTkwdHBPSGlzaHNZRUFBeW9HaVJnM0lhS2hHdi1SSWdrc21rOGszcWtFaXBrM1NQUmMxQ0F6QjhCR0lPTmtFQmpvZDFIYlRPWThUQTBVSmhjSDNyT0ZxN1MwY1I0eTNPMDdubTFGV0NJdTlSd3FrT3A2X2ZHdEVR?oc=5",
-   "date": "2026-09-29",
+   "title": "BillionToOne (NasdaqGS:BLLN) Stock Fair Value Edges Higher As Analysts Weigh Tech And Reimbursement Risk",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZG1KdEpfZi1say1ycHJLOHhOQ1o3UGhfNzJ1a0xVREFLTTJrbDItSkpxRVd2OG4yY2xvcXFja1FQRlJXV0Uxa2xkdmlHV2kwX01Sc2FMcG9EN25hYzJpT2UwUVppYlhLZ1MwV0FabXRzLXpEckxuYW9XcDRWLVZMV01FS3ZWd2ZMMFBSSVFfTVNvSFBtWU5HVzExcGJCcVliNFhySg?oc=5",
+   "date": "2026-10-03",
    "snippet": "",
-   "publisher": "Contemporary Pediatrics",
-   "query": "concussion blood test FDA",
-   "first_seen": "2026-10-08T13:55:05+00:00",
+   "publisher": "Yahoo Finance",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-10-08T15:41:11+00:00",
    "signal": [
-    "FDA"
-   ]
-  },
-  {
-   "id": "60a9e331c368d014",
-   "competitor": "Abbott",
-   "source": "FDA",
-   "title": "FDA PMA P230036 S020: Esprit BTK Everolimus Eluting Resorbable Scaffold System",
-   "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230036S020",
-   "date": "2026-09-24",
-   "snippet": "Applicant: ABBOTT MEDICAL. Decision: APPR.",
-   "first_seen": "2026-10-08T13:40:13+00:00",
-   "signal": [
-    "FDA"
-   ]
-  },
-  {
-   "id": "e99279cb9ef35b0a",
-   "competitor": "Abbott",
-   "source": "FDA",
-   "title": "FDA PMA P960043 S137: Perclose ProGlide Suture-Mediated Closure System; Perclose ProStyle Suture-Mediated Closure and Repair System",
-   "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P960043S137",
-   "date": "2026-09-24",
-   "snippet": "Applicant: Abbott Vascular, Inc.. Decision: OK30.",
-   "first_seen": "2026-10-08T13:40:13+00:00",
-   "signal": [
-    "FDA"
+    "reimbursement"
    ]
   },
   {
@@ -137,6 +109,21 @@
    ]
   },
   {
+   "id": "951fe497328b05bc",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "FDA grants Breakthrough Device designation to microRNA blood test for predicting AIS curve progression",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSjN6Z1M2VmtOdEZBNGxhcDBTeDhuU0xUbHRCY29WSGNBU1Z2UkNsSXRFNGZpQjJNVzJfd1RzZ0JrQVJjNHNaLW9NQ0JrZGt5bUU0X1hOV3hkYVJ5RXphWTkwdHBPSGlzaHNZRUFBeW9HaVJnM0lhS2hHdi1SSWdrc21rOGszcWtFaXBrM1NQUmMxQ0F6QjhCR0lPTmtFQmpvZDFIYlRPWThUQTBVSmhjSDNyT0ZxN1MwY1I0eTNPMDdubTFGV0NJdTlSd3FrT3A2X2ZHdEVR?oc=5",
+   "date": "2026-09-29",
+   "snippet": "",
+   "publisher": "Contemporary Pediatrics",
+   "query": "concussion blood test FDA",
+   "first_seen": "2026-10-08T13:55:05+00:00",
+   "signal": [
+    "FDA"
+   ]
+  },
+  {
    "id": "5cb49a48c27e8509",
    "competitor": "TBI diagnostics market",
    "source": "News",
@@ -150,6 +137,19 @@
    "signal": [
     "concussion",
     "raises"
+   ]
+  },
+  {
+   "id": "9dc674c4e2517b7e",
+   "competitor": "TBI diagnostics market",
+   "source": "Federal Register",
+   "title": "Design and Safety Considerations for Clinical Trials Involving Ibogaine Drug Products; Request for Information",
+   "url": "https://www.federalregister.gov/documents/2026/10/06/2026-20427/design-and-safety-considerations-for-clinical-trials-involving-ibogaine-drug-products-request-for",
+   "date": "2026-10-06",
+   "snippet": "Notice · Health and Human Services Department, Food and Drug Administration. The Food and Drug Administration (FDA or the Agency) is describing the approaches it is considering for the design of early- phase clinical trials of ibogaine drug products and is opening a public…",
+   "first_seen": "2026-10-08T15:46:29+00:00",
+   "signal": [
+    "FDA"
    ]
   },
   {
@@ -167,102 +167,55 @@
    ]
   },
   {
-   "id": "3fde6ad782bb267b",
-   "competitor": "Abbott",
-   "source": "Clinical trial",
-   "title": "Left Bundle Branch Area Pacing (LBBAP) PMCF Study (Recruiting)",
-   "url": "https://clinicaltrials.gov/study/NCT07217392",
+   "id": "b564bfc7384dd104",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "Lab test providers want Medicare payment reform. Will Congress pass it?",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeFlFVHN2M1JSYldUT3VUUVZUbFZYQnJGUm9FcUVnVVN3djBrQnFjajFhSlVGbWtjR0FmY3VtVV9fTHVZeHEzVXdyajVTUmU4NmlTOXk1V05TVmsxa2hiVWNVV3pRODF3YXZlY0w4MHBtOEFYN1puTms1bEF6OGxMOHVtay1MWVRjdWVnMGI3OHdyY2d2ck82djhybERTSTEtTUZUeGZVM3hhNU9BU2o4?oc=5",
    "date": "2026-09-25",
-   "snippet": "NCT07217392 · lead sponsor Abbott Medical Devices · updated 2026-09-25",
-   "first_seen": "2026-10-08T13:40:13+00:00",
+   "snippet": "",
+   "publisher": "MedTech Dive",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-10-08T15:41:11+00:00",
    "signal": []
   },
   {
-   "id": "f48824306840eea0",
-   "competitor": "Abbott",
-   "source": "Clinical trial",
-   "title": "Nutrition in Patient With Critical Limb Ischemia (Recruiting)",
-   "url": "https://clinicaltrials.gov/study/NCT03529019",
-   "date": "2026-09-29",
-   "snippet": "NCT03529019 · lead sponsor Boston Medical Center · updated 2026-09-29",
-   "first_seen": "2026-10-08T13:40:13+00:00",
-   "signal": []
-  },
-  {
-   "id": "32bd40bfb5b37cc1",
-   "competitor": "Abbott",
-   "source": "Clinical trial",
-   "title": "Patient-Centered Surgical Prehabilitation (Recruiting)",
-   "url": "https://clinicaltrials.gov/study/NCT05715684",
-   "date": "2026-09-30",
-   "snippet": "NCT05715684 · lead sponsor Brigham and Women's Hospital · updated 2026-09-30",
-   "first_seen": "2026-10-08T13:40:13+00:00",
-   "signal": []
-  },
-  {
-   "id": "745df1e925cd81e5",
-   "competitor": "Abbott",
-   "source": "Clinical trial",
-   "title": "Assessment of Coronary Microvascular Dysfunction After STEMI Using Continuous Saline Thermodilution (Recruiting)",
-   "url": "https://clinicaltrials.gov/study/NCT06795035",
-   "date": "2026-10-01",
-   "snippet": "NCT06795035 · lead sponsor The Cleveland Clinic · updated 2026-10-01",
-   "first_seen": "2026-10-08T13:40:13+00:00",
-   "signal": []
-  },
-  {
-   "id": "9ee9cf1964eae3c2",
-   "competitor": "Abbott",
-   "source": "Clinical trial",
-   "title": "Glycemic Control and Quality of Life Evolution for Patients With T1D Using the myLoop Powered by CamAPS FX System in Combination With FreeStyle Libre 3 / 3 Plus Sensors in France (Not Yet Recruiting)",
-   "url": "https://clinicaltrials.gov/study/NCT07835685",
-   "date": "2026-10-01",
-   "snippet": "NCT07835685 · lead sponsor mylife Diabetes Care AG · updated 2026-10-01",
-   "first_seen": "2026-10-08T13:40:13+00:00",
-   "signal": []
-  },
-  {
-   "id": "63457c73a07eb530",
-   "competitor": "Abbott",
-   "source": "Clinical trial",
-   "title": "Optical Coherence Tomography in Acute Vessel Evaluation (Enrolling By Invitation)",
-   "url": "https://clinicaltrials.gov/study/NCT07422688",
-   "date": "2026-10-02",
-   "snippet": "NCT07422688 · lead sponsor Aarhus University Hospital Skejby · updated 2026-10-02",
-   "first_seen": "2026-10-08T13:40:13+00:00",
-   "signal": []
-  },
-  {
-   "id": "887dbe9a5ce23fc0",
-   "competitor": "Abbott",
-   "source": "Clinical trial",
-   "title": "A Post-Market Assessment of the Safety and Performance of the TriClip™ System (Recruiting)",
-   "url": "https://clinicaltrials.gov/study/NCT07586995",
+   "id": "9edb4a59b3c0c07b",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "CMS Releases Preliminary 2027 Clinical Lab Fee Schedule Rates",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQUhURFhJYWlzTnZ5T3pnSk15VERjbUVDbDJ5WmpHYi1sejUwVEhMLUhlNmxqdTdCemFpTmVRd2FBbGVRY0F3MUNVLXVrOUZvcG5zaVZuTkFlZlBydUp5TlEyWHpuWVJQMVdPaV9sZHlDYmZYQ1lKdUd2a2tkaHJNeks2TWRodHVMcUpyT2pxb2pNXzI5aUc2ZGMzTFUtYWdoMVVxX3JYSGppT0E?oc=5",
    "date": "2026-10-06",
-   "snippet": "NCT07586995 · lead sponsor Abbott Medical Devices · updated 2026-10-06",
-   "first_seen": "2026-10-08T13:40:13+00:00",
+   "snippet": "",
+   "publisher": "Forvis Mazars US",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-10-08T15:41:11+00:00",
    "signal": []
   },
   {
-   "id": "1800bb0607a8e7a0",
-   "competitor": "Abbott",
-   "source": "Clinical trial",
-   "title": "Amplatzer Piccolo Occluder Japan Post-marketing Database Surveillance (Active Not Recruiting)",
-   "url": "https://clinicaltrials.gov/study/NCT04371081",
+   "id": "e3040829ffaec833",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "ADPT: MRD Momentum Supports Upside, CMS Coding Risk Keeps The View Balanced",
+   "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxNZWpaSkdFeVdzMmVqN1Bma1hxQzVBMzNyVnNla1VmUDV5S0F6Ry1YOEVsLW92dWdRYTJRWmo4WGFINlhiTXZTVXpCYW9HN3ZZeGc4U29jMEdUd2tUMktZcGRiTmRnbGZ2Znh0OXZmbFJ1YU5hVjlHR0UtSDFkckRFbXVMMGRZS1g1dmFvWEZ1TnEtdk1fckgyQ1JublZTNHdwRUlIM01DdEI5RHgzdjFEMGlnTmNRTEE0YjlwSVA4aVdMN210aks2bnQtVEY1Ymo1Q01uM3ZVVFh1cDY3a0prMFdoLTNSRVJxNnN2Ym9CZnVYVnNvSktJSmhwYThMbFZhblFRTWRNM3BkdFRCWEpOSEwyRkpkd1BjZkJfN01PSkh4RXBwRGU0RXRpVEI5dV85bWVSMlRQVjZnOUUxM1dIeW5jZ0NqSVk2Z3E0N280eHRkME9WYTRBSGhjTlBiY1d6dkdGZFRZenNPZDJ6MEMzdV83VkpzSW53eEhZYkFNWEZ0TmM?oc=5",
    "date": "2026-10-06",
-   "snippet": "NCT04371081 · lead sponsor Abbott Medical Devices · updated 2026-10-06",
-   "first_seen": "2026-10-08T13:40:13+00:00",
+   "snippet": "",
+   "publisher": "Simply Wall Street",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-10-08T15:41:11+00:00",
    "signal": []
   },
   {
-   "id": "5591ad173d91051d",
-   "competitor": "Abbott",
-   "source": "Clinical trial",
-   "title": "PULSed Field Ablation for Atrial Fibrillation Using a Balloon for Early Intervention - Study (Recruiting)",
-   "url": "https://clinicaltrials.gov/study/NCT07621003",
-   "date": "2026-10-06",
-   "snippet": "NCT07621003 · lead sponsor Asklepios proresearch · updated 2026-10-06",
-   "first_seen": "2026-10-08T13:40:13+00:00",
+   "id": "94ff7f253b5140c7",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "2027 Preliminary Clinical Laboratory Fee Schedule Payment Rates",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZVl4ZHVmZ25OTm9YeTlSdW1pX1docnBIUDVQNk5MbWFRRW5NSWRPVWJKYlNrX3ZNeldXWkhJeEhjd1R0NXpWNjNZWXhfeXlTSHVtN3FLdHJkTGhiUU9CVnV1RUhPZVdjX1pSZy1sY0NLVXdsZ1lJcWFDLVFKYVgtcFZVYmtCUkpoel9ZZWJ5NGJkVzZtbEVqLQ?oc=5",
+   "date": "2026-10-08",
+   "snippet": "",
+   "publisher": "Michigan Health & Hospital Association",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-10-08T15:41:11+00:00",
    "signal": []
   },
   {
@@ -396,6 +349,30 @@
    "signal": []
   },
   {
+   "id": "cb5cc6b36bf36064",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "10 habits linked to lower dementia risk, per the Lancet",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBscVY0cmVOd0JnY1kteGNScDMyUVZCSHlJOFdmMkM1QnJ2dnRDTW5FOGxoY0FGWHFZOTJ4WW9sVGNDOVBtU0hhMnFnMVRmYm5BOHgw?oc=5",
+   "date": "2026-09-25",
+   "snippet": "",
+   "publisher": "qz.com",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T15:41:11+00:00",
+   "signal": []
+  },
+  {
+   "id": "a082a64f307cc5cd",
+   "competitor": "TBI diagnostics market",
+   "source": "Federal Register",
+   "title": "Privacy Act of 1974; System of Records",
+   "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19755/privacy-act-of-1974-system-of-records",
+   "date": "2026-09-28",
+   "snippet": "Notice · Health and Human Services Department, Children and Families Administration. In accordance with the requirements of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS) is modifying an existing system of records maintained by the Office…",
+   "first_seen": "2026-10-08T15:46:29+00:00",
+   "signal": []
+  },
+  {
    "id": "ebeffd8c3d16fb56",
    "competitor": "TBI diagnostics market",
    "source": "News",
@@ -406,6 +383,19 @@
    "publisher": "Purdue University",
    "query": "\"traumatic brain injury\" blood test",
    "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "e5a6099408353229",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Johnson: Many men will get free prostate cancer tests in Alabama. It should be a national law",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbzBjLW9FbGMtbGFBQUEwSDU4Q3dfX1lzcEI5Z3BEeThXMDZKWnVXc09TRGhfTW1ydlBTZGNhUE9vNGhfckE4NU05LWxqM1huTTFxTzZ1RnBkWTIyRnZNb0V5aXhEbVNIZDZKd2FrRlRldkd6X2oxMlpQWEl5ZEhxQllVQzFzWGFTeXcxOUlNMHB1VjdHVWtGS1RMNWJkOUpVVkRuWUtJYUNqaWxLV0FSQ0pfTTNfcmZoOUpoYWRRb2dXNndoZG8tU3h3QUhHZTB1TG94SjBVaVF3UQ?oc=5",
+   "date": "2026-10-01",
+   "snippet": "",
+   "publisher": "AL.com",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T15:41:11+00:00",
    "signal": []
   },
   {
@@ -487,6 +477,19 @@
    "signal": []
   },
   {
+   "id": "2af8667de1d6c2cb",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Existing Drugs Could Help Target Brain Inflammation in Alzheimer’s",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNWZlNXFzODVrZzVtYUc3eWNHam1ic090MXVpUWhPWTBmZUFKZU5TdWZvTFk0anp6TDk4ekdHbDEweFN3Wm9uemhoc1hlMmpaLURucV9tNVVxalBxaFV6N0RoOHB3NXhQZzNFNG1vODZaVkMzc0RPb1M4NWFmeXFRSURvWXdQN2NReXhOMzdmY3VjdkxZd1lwX29URkJTWWtucDRVbW00cjlKcENyR3lnWnR0b3I4cWlXa1ZELVBTQjZSNUE?oc=5",
+   "date": "2026-10-06",
+   "snippet": "",
+   "publisher": "Technology Networks",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T15:41:11+00:00",
+   "signal": []
+  },
+  {
    "id": "a3eb730e64adc4ac",
    "competitor": "TBI diagnostics market",
    "source": "News",
@@ -497,6 +500,19 @@
    "publisher": "Bioengineer.org",
    "query": "\"traumatic brain injury\" blood test",
    "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "700c29939e16aa48",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Newsletter #77: 🤯 13 Inspiring takeaways from an epic health conference",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14a09rNnVzMlZaTm1MUXRoUXNfLTM1LW11ckI4bUl3MkxRVC1iZUJRSHNFbDF4YkxlZS1BOXRLX09JU08tUURSOVhNMXZ1aTJCTjlPc1ZvR296dw?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Dr. Casey Means",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-08T15:41:11+00:00",
    "signal": []
   },
   {
@@ -511,190 +527,134 @@
    "query": "\"traumatic brain injury\" blood test",
    "first_seen": "2026-10-08T13:40:13+00:00",
    "signal": []
+  },
+  {
+   "id": "60a9e331c368d014",
+   "competitor": "Abbott",
+   "source": "FDA",
+   "title": "FDA PMA P230036 S020: Esprit BTK Everolimus Eluting Resorbable Scaffold System",
+   "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P230036S020",
+   "date": "2026-09-24",
+   "snippet": "Applicant: ABBOTT MEDICAL. Decision: APPR.",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "FDA"
+   ]
+  },
+  {
+   "id": "e99279cb9ef35b0a",
+   "competitor": "Abbott",
+   "source": "FDA",
+   "title": "FDA PMA P960043 S137: Perclose ProGlide Suture-Mediated Closure System; Perclose ProStyle Suture-Mediated Closure and Repair System",
+   "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P960043S137",
+   "date": "2026-09-24",
+   "snippet": "Applicant: Abbott Vascular, Inc.. Decision: OK30.",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": [
+    "FDA"
+   ]
+  },
+  {
+   "id": "3fde6ad782bb267b",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Left Bundle Branch Area Pacing (LBBAP) PMCF Study (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT07217392",
+   "date": "2026-09-25",
+   "snippet": "NCT07217392 · lead sponsor Abbott Medical Devices · updated 2026-09-25",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "f48824306840eea0",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Nutrition in Patient With Critical Limb Ischemia (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT03529019",
+   "date": "2026-09-29",
+   "snippet": "NCT03529019 · lead sponsor Boston Medical Center · updated 2026-09-29",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "32bd40bfb5b37cc1",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Patient-Centered Surgical Prehabilitation (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT05715684",
+   "date": "2026-09-30",
+   "snippet": "NCT05715684 · lead sponsor Brigham and Women's Hospital · updated 2026-09-30",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "745df1e925cd81e5",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Assessment of Coronary Microvascular Dysfunction After STEMI Using Continuous Saline Thermodilution (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT06795035",
+   "date": "2026-10-01",
+   "snippet": "NCT06795035 · lead sponsor The Cleveland Clinic · updated 2026-10-01",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "9ee9cf1964eae3c2",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Glycemic Control and Quality of Life Evolution for Patients With T1D Using the myLoop Powered by CamAPS FX System in Combination With FreeStyle Libre 3 / 3 Plus Sensors in France (Not Yet Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT07835685",
+   "date": "2026-10-01",
+   "snippet": "NCT07835685 · lead sponsor mylife Diabetes Care AG · updated 2026-10-01",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "63457c73a07eb530",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Optical Coherence Tomography in Acute Vessel Evaluation (Enrolling By Invitation)",
+   "url": "https://clinicaltrials.gov/study/NCT07422688",
+   "date": "2026-10-02",
+   "snippet": "NCT07422688 · lead sponsor Aarhus University Hospital Skejby · updated 2026-10-02",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "887dbe9a5ce23fc0",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "A Post-Market Assessment of the Safety and Performance of the TriClip™ System (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT07586995",
+   "date": "2026-10-06",
+   "snippet": "NCT07586995 · lead sponsor Abbott Medical Devices · updated 2026-10-06",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "1800bb0607a8e7a0",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "Amplatzer Piccolo Occluder Japan Post-marketing Database Surveillance (Active Not Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT04371081",
+   "date": "2026-10-06",
+   "snippet": "NCT04371081 · lead sponsor Abbott Medical Devices · updated 2026-10-06",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "5591ad173d91051d",
+   "competitor": "Abbott",
+   "source": "Clinical trial",
+   "title": "PULSed Field Ablation for Atrial Fibrillation Using a Balloon for Early Intervention - Study (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT07621003",
+   "date": "2026-10-06",
+   "snippet": "NCT07621003 · lead sponsor Asklepios proresearch · updated 2026-10-06",
+   "first_seen": "2026-10-08T13:40:13+00:00",
+   "signal": []
   }
  ],
- "health": [
-  {
-   "entity": "Abbott",
-   "source": "News: \"Abbott\" \"TBI\" test",
-   "ok": true,
-   "count": 0,
-   "secs": 0.2
-  },
-  {
-   "entity": "Abbott",
-   "source": "News: \"i-STAT TBI\"",
-   "ok": true,
-   "count": 0,
-   "secs": 0.1
-  },
-  {
-   "entity": "Abbott",
-   "source": "News: \"Alinity\" TBI",
-   "ok": true,
-   "count": 0,
-   "secs": 0.1
-  },
-  {
-   "entity": "Abbott",
-   "source": "Page: https://abbott.mediaroom.com/press-releases",
-   "ok": true,
-   "count": 0,
-   "secs": 0.4
-  },
-  {
-   "entity": "Abbott",
-   "source": "FDA: Abbott",
-   "ok": true,
-   "count": 120,
-   "secs": 0.5
-  },
-  {
-   "entity": "Abbott",
-   "source": "Trials: Abbott",
-   "ok": true,
-   "count": 10,
-   "secs": 0.3
-  },
-  {
-   "entity": "Abbott",
-   "source": "PubMed: \"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
-   "ok": true,
-   "count": 2,
-   "secs": 1.0
-  },
-  {
-   "entity": "bioMérieux",
-   "source": "News: \"bioMerieux\" \"VIDAS TBI\"",
-   "ok": true,
-   "count": 0,
-   "secs": 0.1
-  },
-  {
-   "entity": "bioMérieux",
-   "source": "News: \"bioMerieux\" traumatic brain injury",
-   "ok": true,
-   "count": 0,
-   "secs": 0.2
-  },
-  {
-   "entity": "bioMérieux",
-   "source": "FDA: bioMerieux",
-   "ok": true,
-   "count": 3,
-   "secs": 0.2
-  },
-  {
-   "entity": "bioMérieux",
-   "source": "Trials: bioMérieux",
-   "ok": true,
-   "count": 3,
-   "secs": 0.1
-  },
-  {
-   "entity": "bioMérieux",
-   "source": "PubMed: \"VIDAS TBI\"",
-   "ok": true,
-   "count": 1,
-   "secs": 0.9
-  },
-  {
-   "entity": "Roche",
-   "source": "News: \"Roche\" \"Elecsys\" (GFAP OR \"UCH-L1\" OR \"brain injury\")",
-   "ok": true,
-   "count": 0,
-   "secs": 0.2
-  },
-  {
-   "entity": "Roche",
-   "source": "News: \"Roche Diagnostics\" concussion",
-   "ok": true,
-   "count": 0,
-   "secs": 0.2
-  },
-  {
-   "entity": "Roche",
-   "source": "FDA: Roche",
-   "ok": true,
-   "count": 44,
-   "secs": 0.7
-  },
-  {
-   "entity": "Roche",
-   "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
-   "ok": true,
-   "count": 0,
-   "secs": 0.3
-  },
-  {
-   "entity": "Quanterix",
-   "source": "News: \"Quanterix\"",
-   "ok": true,
-   "count": 15,
-   "secs": 0.2
-  },
-  {
-   "entity": "Quanterix",
-   "source": "FDA: Quanterix",
-   "ok": true,
-   "count": 0,
-   "secs": 0.6
-  },
-  {
-   "entity": "Quanterix",
-   "source": "Trials: Quanterix",
-   "ok": true,
-   "count": 1,
-   "secs": 0.1
-  },
-  {
-   "entity": "Quanterix",
-   "source": "PubMed: Simoa AND (\"traumatic brain injury\" OR concussion)",
-   "ok": true,
-   "count": 1,
-   "secs": 0.9
-  },
-  {
-   "entity": "BrainScope",
-   "source": "News: \"BrainScope\"",
-   "ok": true,
-   "count": 0,
-   "secs": 0.1
-  },
-  {
-   "entity": "BrainScope",
-   "source": "FDA: BrainScope",
-   "ok": true,
-   "count": 0,
-   "secs": 0.2
-  },
-  {
-   "entity": "BrainScope",
-   "source": "Trials: BrainScope",
-   "ok": true,
-   "count": 10,
-   "secs": 0.1
-  },
-  {
-   "entity": "TBI diagnostics market",
-   "source": "News: \"traumatic brain injury\" blood test",
-   "ok": true,
-   "count": 11,
-   "secs": 0.2
-  },
-  {
-   "entity": "TBI diagnostics market",
-   "source": "News: concussion blood test FDA",
-   "ok": true,
-   "count": 1,
-   "secs": 0.2
-  },
-  {
-   "entity": "TBI diagnostics market",
-   "source": "PubMed: (\"traumatic brain injury\" OR concussion) AND (GFAP OR \"UCH-L1\") AND \"point-of-care\"",
-   "ok": true,
-   "count": 1,
-   "secs": 0.7
-  }
- ]
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
 }
