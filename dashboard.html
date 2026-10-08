@@ -372,7 +372,7 @@ footer{margin-top:28px;font-size:11px;color:var(--ink-3);letter-spacing:.08em;te
 
   function init(){
     var h = state.health, srcs = h.sources || [];
-    var ok = srcs.filter(function(s){return s.ok;}).length, bad = srcs.length - ok;
+    var skip = srcs.filter(function(s){return s.skipped;}).length, ok = srcs.filter(function(s){return s.ok && !s.skipped;}).length, bad = srcs.length - ok - skip;
     $("updated").textContent = h.checked ? "SYNC " + new Date(h.checked).toLocaleString([], {month:"short", day:"numeric", hour:"2-digit", minute:"2-digit"}) : "NO RUNS YET";
     $("sysStatus").textContent = !srcs.length ? "AWAITING FIRST RUN" : bad ? bad + " SOURCE" + (bad>1?"S":"") + " DOWN" : "ALL SYSTEMS NOMINAL";
     if (bad) $("dot").classList.add("bad");
@@ -386,8 +386,8 @@ footer{margin-top:28px;font-size:11px;color:var(--ink-3);letter-spacing:.08em;te
     var a7 = new Date(Date.now() - 7*864e5).toISOString();
     $("kAlerts").textContent = state.alerts.filter(function(a){ return a.at >= a7; }).reduce(function(n,a){ return n + a.items.length; }, 0);
     $("kComp").textContent = state.items.length + " items · " + state.comps.length + " targets";
-    $("kHealth").textContent = srcs.length ? ok + "/" + srcs.length : "–";
-    $("kHealthSub").textContent = srcs.length ? (bad ? bad + " need attention" : "every feed responding") : "";
+    $("kHealth").textContent = srcs.length ? ok + "/" + (srcs.length - skip) : "–";
+    $("kHealthSub").textContent = srcs.length ? (bad ? bad + " need attention" : "every live feed responding") + (skip ? " · " + skip + " awaiting a key" : "") : "";
 
     var sources = Array.from(new Set(state.items.map(function(i){return i.source;}))).sort();
     sources.forEach(function(s){ var o = document.createElement("option"); o.value = s; o.textContent = s; $("src").appendChild(o); });
@@ -559,7 +559,7 @@ footer{margin-top:28px;font-size:11px;color:var(--ink-3);letter-spacing:.08em;te
   function renderHealth(){
     var s = state.health.sources.slice().sort(function(a,b){ return a.ok - b.ok; });
     $("healthRows").innerHTML = s.map(function(h){
-      return '<tr><td>'+esc(h.entity)+'</td><td class="mono" style="font-size:12px">'+esc(h.source)+'</td><td class="'+(h.ok?"ok":"bad")+'">'+(h.ok?"● Online":"● Down")+'</td><td class="'+(h.ok?"mono":"err")+'">'+(h.ok ? esc(h.count+" items · "+h.secs+"s") : esc(h.error))+'</td></tr>';
+      return '<tr><td>'+esc(h.entity)+'</td><td class="mono" style="font-size:12px">'+esc(h.source)+'</td><td class="'+(h.skipped?"":h.ok?"ok":"bad")+'" style="'+(h.skipped?'color:var(--sig)':'')+'">'+(h.skipped?"◌ Needs setup":h.ok?"● Online":"● Down")+'</td><td class="'+(h.skipped?"":h.ok?"mono":"err")+'">'+(h.skipped ? esc(h.note) : h.ok ? esc(h.count+" items · "+h.secs+"s") : esc(h.error))+'</td></tr>';
     }).join("") || '<tr><td colspan="4" class="empty">No runs yet.</td></tr>';
   }
 
