@@ -771,6 +771,7 @@ h2.h .ttl::after{content:"";width:6px;height:6px;margin-left:4px;background:var(
   var loaded = 0, total = 11, t0 = performance.now(), LQ = [], lshown = 0, lpCur = 0, lpT = 0, lDone = false;
   function lprog(label){ loaded++; LQ.push(label || "Data"); }
   function lpump(){
+    if (document.hidden) { while (LQ.length > 1) { LQ.shift(); lshown++; } lpCur = lpT; }
     if (LQ.length) { var name = LQ.shift(); lshown++; lpT = Math.min(100, Math.round(lshown / total * 100));
       var li = document.createElement("li"); li.innerHTML = '<span>&rsaquo; ' + esc(name) + '</span><i></i><b>OK</b>';
       var ul = $("llog"); ul.appendChild(li); while (ul.children.length > 5) ul.removeChild(ul.firstChild); $("lstep").textContent = name; }
@@ -780,7 +781,7 @@ h2.h .ttl::after{content:"";width:6px;height:6px;margin-left:4px;background:var(
   lpump();
   function hideLoader(){
     var go = function(){
-      if (!RM && (LQ.length || performance.now() - t0 < 2300)) return setTimeout(go, 80);
+      var el = performance.now() - t0; if (!RM && !document.hidden && el < 4500 && (LQ.length || el < 2300)) return setTimeout(go, 80);
       lpT = 100; lpCur = 100; $("lpct").textContent = "100%"; $("lbar").style.width = "100%";
       var li = document.createElement("li"); li.className = "rdy"; li.innerHTML = '<span>&rsaquo; System online</span><i></i><b>READY</b>'; $("llog").appendChild(li);
       setTimeout(function(){ lDone = true; $("loader").classList.add("done"); startAnimations(); setTimeout(function(){ $("loader").classList.add("gone"); }, 1200); }, RM ? 0 : 450);
