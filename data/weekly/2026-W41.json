@@ -2,7 +2,7 @@
  "week": "2026-W41",
  "start": "2026-10-01",
  "end": "2026-10-08",
- "generated": "2026-10-08T15:52:10+00:00",
+ "generated": "2026-10-08T18:39:28+00:00",
  "counts": [
   {
    "name": "Abbott",
@@ -17,26 +17,122 @@
    "signal": 0
   },
   {
-   "name": "Roche",
-   "this_week": 0,
-   "last_week": 0,
-   "signal": 0
-  },
-  {
-   "name": "Quanterix",
-   "this_week": 12,
-   "last_week": 2,
-   "signal": 5
-  },
-  {
    "name": "BrainScope",
    "this_week": 0,
    "last_week": 0,
    "signal": 0
   },
   {
+   "name": "InfraScan",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainBox Solutions",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "EzDiatech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "STATA DX",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "GLIA Diagnostics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Quanterix",
+   "this_week": 13,
+   "last_week": 2,
+   "signal": 6
+  },
+  {
+   "name": "Genalyte",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Oculogica",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Sense Neuro Diagnostics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Medicortex",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Roche",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "AeHealth",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Wondfo",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "ACON",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Hotgen",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "QuidelOrtho",
+   "this_week": 11,
+   "last_week": 3,
+   "signal": 0
+  },
+  {
+   "name": "Boditech Med",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Getein Biotech",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
    "name": "TBI diagnostics market",
-   "this_week": 9,
+   "this_week": 11,
    "last_week": 9,
    "signal": 1
   },
@@ -48,6 +144,21 @@
   }
  ],
  "top": [
+  {
+   "id": "81e3a585f4521df3",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix and Innovita Secure China Regulatory Approvals for SIMOA-Based Alzheimer's Disease Biomarker Tests",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMk82TzFpWW1LNW9tS2pidmh3Y0RxT1BaSzNNTDNuYVNTTlNENUZfTnRobTFISlR0VVpRc3FJM0hqc19HNFNvUWphT0tiYWVXaTAyRUlublpHbDNuYzlPUjZFSXNoeno5MEV3YVdzckZkcFlRWXNyUGhlY2xRa0YycGM1cms4QzN4V3pTdHZVWlk3UVNVRWdQUEV0Wnd5MWdLaDZrb0ZWSzdkazNtVEtTcHd6bHAzVk0zYkpCS0tqaGxXWEtrdkNwVVVJT2kwdnROSm1ndndxTGJwNmJ2UDBDZW9mVHdMSHM?oc=5",
+   "date": "2026-10-08",
+   "snippet": "",
+   "publisher": "BioPharma APAC",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-08T18:38:02+00:00",
+   "signal": [
+    "approval"
+   ]
+  },
   {
    "id": "25f94a31aaae4fc7",
    "competitor": "Quanterix",
@@ -157,6 +268,10 @@
  "brief_emailed": false,
  "cites": [
   {
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMk82TzFpWW1LNW9tS2pidmh3Y0RxT1BaSzNNTDNuYVNTTlNENUZfTnRobTFISlR0VVpRc3FJM0hqc19HNFNvUWphT0tiYWVXaTAyRUlublpHbDNuYzlPUjZFSXNoeno5MEV3YVdzckZkcFlRWXNyUGhlY2xRa0YycGM1cms4QzN4V3pTdHZVWlk3UVNVRWdQUEV0Wnd5MWdLaDZrb0ZWSzdkazNtVEtTcHd6bHAzVk0zYkpCS0tqaGxXWEtrdkNwVVVJT2kwdnROSm1ndndxTGJwNmJ2UDBDZW9mVHdMSHM?oc=5",
+   "title": "Quanterix and Innovita Secure China Regulatory Approvals for SIMOA-Based Alzheimer's Disease Biomarker Tests"
+  },
+  {
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQkwtV3cxa1lrcGdUX0lqU0lPOERKVGJqTjEtQ1FMQkNDZV9QRTd0QkFkaWI3eHo4VW5KN1Q1MmNKdEg4cDJYb1lNOXpfTHgxbm8wX1lQbEVCdzBmcGkyWk03ZlkwRF9IWVZORDVjdWltdFltaHQzSTU3bF9ObkJxQmFzNDFIdkM4Yno2dGd2TWhhOFpuOFVVSUhWZGpCX2tOODhzbVM1SGY?oc=5",
    "title": "Quanterix Receives Chinese Regulatory Approvals, Inks Expanded Licensing Deal With Alzpath"
   },
@@ -185,12 +300,48 @@
    "title": "BillionToOne (NasdaqGS:BLLN) Stock Fair Value Edges Higher As Analysts Weigh Tech And Reimbursement Risk"
   },
   {
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRXJxYm5jYlB2MjhfSDd6c2laT1h4WUl2MW44YkJweXphOWVLWkdjTlFDVlB1aTZNNW9zbGNscnZXdGZLZFFPOVFMT05kWURBOHAwbWVrMWxndzNoN0dFSzF4VVZ0OGZjX1g1TlE5d1VSdWxCRnhpbmtXbE9acG9sakMydTVuMVF3NHluck1TSzAyRHBTa3c?oc=5",
+   "title": "For Two Sisters, a “Biological Age Test” Measured More Than Their DNA"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPTjFGZW9JLW12eVZEN3NFRVkwOEVncHRvTEU0aGpJbEM3T2N5Vmwyc3p3ZDRReEVRRExFdnNDbWJFZ0k4b2VrZ3FQVUxabUdWVTdLbHN5SW91bHVrUWE1alJoQkV3NGpLb3NNVk1aaUJ1RENWNXYtZmJYb3ZSbk5wbW1GdHQ5ajU3bFhOSzJEV3luajl2OWlrbkY0REZPNHhhN3p3VUdZbGZRdVRfekxYRWFYclFZVUNKRk95TVpOZTlDMllNVXFFVmJSWll2eGhTVmJpUFVsamdNSzRGSGdwenBvaUFCYjZDVFFmOU84N3lFdmRMZ2hCcV9hLVVob1NH?oc=5",
+   "title": "High Density Lipoprotein Blood Test Strips Market To 2035: POC Adoption and Cardiac Screening Fuel Growth - News and Statistics"
+  },
+  {
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZVl4ZHVmZ25OTm9YeTlSdW1pX1docnBIUDVQNk5MbWFRRW5NSWRPVWJKYlNrX3ZNeldXWkhJeEhjd1R0NXpWNjNZWXhfeXlTSHVtN3FLdHJkTGhiUU9CVnV1RUhPZVdjX1pSZy1sY0NLVXdsZ1lJcWFDLVFKYVgtcFZVYmtCUkpoel9ZZWJ5NGJkVzZtbEVqLQ?oc=5",
    "title": "2027 Preliminary Clinical Laboratory Fee Schedule Payment Rates"
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcGNCTDBkclpCWjYxc2QxVEtMT2diS3dqb0N6SHV2R0hvX19LTFJkV1dFbTkxMDcybHlPNjJXc3FKaVBBY1RZNzBrdk1oVGdIemtRa3daeGJFSG9ZTUtqX05qUkFTenRad1c1dzBYQXRuNmRlZF9mbDJuZXNWV3Y4ZERVODJHc2Yz?oc=5",
    "title": "Improving lives through health translation"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUF9sQWVHZElScWJOVUk1bC1fTWFrcWtzRnFucnI3cFF3LVFIM2lZeFowd0ttNzRxa28yMUVmTTlEUFhuYV85SjYwd3JoclB5YW9MVjN1alNmSTZFTjFZSVZRMjNRUkR4Zmg1RUpSRFk5RHJuYXdLbGJpdTRGbkM3LU5vb1VwWkQ4Mm9iM2VuRm94ODFqaDNhZllEanR3NDNlNlVZVzhTcE9ZRUtleHNXT3N4RTBRSzhqLTRDaUt5N2JQaUc0b1lYRUlEOA?oc=5",
+   "title": "QuidelOrtho Appoints Sanjeev Sharma as Vice President of Investor Relations"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjZ2bnRCM1Noa2ZVb2FNb1ptMjN1VHlRZzhRYVoxUkZUTWpHQkZFZS1kTFcwdnpaYUJrQ1lYT0hoaHZ1TUdHbUVSdzZIQkFXaVU0WUJwVGNsdjQ1dGFWUWdZS3o3YkxjN3hpOEQyemlXNF9xcUcwY0wycDNHUUxWSWFpWTlQeDNMWnJfOVBPUlVtblg4alpsT0Q3MmtFTGsyS2VmdDhkNnhLWW9UdVRBU2tuX1QwVVV2elNhYVN3?oc=5",
+   "title": "A new executive brings more than 20 years of experience to QuidelOrtho."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa3hCaHN5cVBPU2hsT0dZXzJ6MlVKNUVvV2dQa1BfLS1JOS13Zmx1Q3ZrbHc4cDVnV29JREFyUlEyZDFLQUZ0SDkzZ0Q2MGE3b1RsQ2xDQjZvUld2VUNKSEIzSWRjUmQ0UDNfUEttNlMzdlQxS295TEVOU0VVY3Z2WGoxMmR3WktPc3BHYk10MUhUbmg1VTFjZElOTVdlQlV0X3Vsc1NfMW45UzJK?oc=5",
+   "title": "QuidelOrtho Names Sanjeev Sharma Vice President of Investor Relations"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWk1WdGJzZmN3MFhiZEpoektNbkZUTmwydTBHVjFnWlVuZkNTZVZtX0tVUTVFSkdMOXQ5RTZtdS1OSVZDRzZnbG1KUkIwVjdaTEhYWURLOWIyR1hBQXphTWlFZ09aXzF3el9RSG54VVprMlBUOUxRSXNnRDFEdHFpMldPeHUwSFI2ZzZ5OURlcnRCRThSbkJoVlJxckl0WnEtSmNXR18yQ1dnSVN1dURZMFJKTTU1TFc4UTltWQ?oc=5",
+   "title": "QuidelOrtho appoints Sanjeev Sharma as VP of investor relations By Investing.com"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTDVOZUVIbURqTnlDdFZLOTNyT3l4S0xtV1NJVFZfV29BUHQxTmJxSWZ5RDlFZGFiSU05S1NNTHVKTTd6em9oUEpMVTV5WTZNeFVmeUUtd0l0d0JsdjlYRTFTUEVfbFlnTTA1VzlmRFJsMTRKb2dPMFFMRDBteVRJZ0dzSE1Mc0NVb0ZaaVhwRjFPY28zNk1qYm9kOTZQVG8?oc=5",
+   "title": "QuidelOrtho names Sanjeev Sharma as new VP of I..."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPckEyLTdMTnVtQjNzMEZfNk55Q2ZBVlFweWt1TFg3YTAzYXBwVXItTUNCc1prR1BnVWJyZDFhQ0dsNk1kWXpXWENfcWdLVDdjeVhmQTQ2VUg3akRsOWpTenFnQi0ybnVlMVo2b0tIdC10TnBrTVNXampXUXlUakg3V0J3SHdwbks1SWc?oc=5",
+   "title": "QuidelOrtho: Margins Recover, Cash Does Not (NASDAQ:QDEL)"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX2Q5S2o2a2dWc1MwR0I3VTkwVDFZM3NxVUJlYW51Q1FSTkdXR0VPZHhSZ3FXTlNuN1U0dGUwLV9wcFdfU21EdXg5djFjUFNLbnMyNVF5QUU1LU9BM1Rqc1FKV2RyaTVSbElzUk5ScmppaUp6N3J3dmZtRWlQMy1wZ2VvdEJzUkt0RkJFa1JIR3pVZDFTUTA5STJoS25aUXZJckxuS1M2blpRRzlJNzhwUzloU19RaWlO?oc=5",
+   "title": "Blood protein prestin emerges as potential biomarker for chronic tinnitus detection"
   },
   {
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14a09rNnVzMlZaTm1MUXRoUXNfLTM1LW11ckI4bUl3MkxRVC1iZUJRSHNFbDF4YkxlZS1BOXRLX09JU08tUURSOVhNMXZ1aTJCTjlPc1ZvR296dw?oc=5",
@@ -213,6 +364,18 @@
    "title": "Quanterix stock fell 9.06 percent as Q2 reset weighs"
   },
   {
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd1ZqZlZQTWxvNGRfc1ZkcHo3d21hOV9nSkF3SnY3Rk9vWnU1MzFZaTRmU1RsOXRJYlEtNFVDeUF1ejYtTHQ1cDgyOGpBMUIzalhSb3p4RWJaVzlqZWdTcDk2VjIwelM4cHVPaUpfTGZweE9vUTlnWmhLOUFvRTh2UkVwbmR6d3hjaHZHVDh1bHFJLTgxbG5QM3g3N0t4bXd0cWpDelNwOVpadGxQMjJFWmFOeEttcnZ2ODQyenhCQkdZcXBsN3hxYjlR?oc=5",
+   "title": "QuidelOrtho to close longtime Raritan facility in 2027"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVWVEQlBwNDFpT3dZY2Z4eVg5a2Y2Y0taUnQ3NWs1dVNucG1lcEQzRktzQUY5VEN5XzQ3czBoejhXOVczOTNMQUpiSERVMDJrUmxpVndQUy1BbF9TckJ1NWNKOWc4R0xhV29qNUJKOXZRYVBOS2VBWVoyajJIZzRqb3FyQmxWWjZoVHRFcFdUZkJaUHVZdWdLYmt4MktiTVA1RmNiMVhvSmR3RDFfWGpHaWxaU1ZSamJvSFRzXzNB?oc=5",
+   "title": "QuidelOrtho stock gained 12.72 percent as debt terms reset"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOelc0aThtdkI1TVZfNG1WMDluYjdiSG5pN3FocEFNS19WQjg1OW9TcXEzY01FU2tkQmF2N0ZvTGd2Mjd5Qi0yUFBSendDQ3J5dDhXYmJfbjBubF85TG83Q28yY2ZkSnlhUHNvYlpoU1ZaZnRHeGNIWDJsZnZIeXhLMklB?oc=5",
+   "title": "Getein Biotech (XSSC:603387) - Stock Analysis"
+  },
+  {
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNWZlNXFzODVrZzVtYUc3eWNHam1ic090MXVpUWhPWTBmZUFKZU5TdWZvTFk0anp6TDk4ekdHbDEweFN3Wm9uemhoc1hlMmpaLURucV9tNVVxalBxaFV6N0RoOHB3NXhQZzNFNG1vODZaVkMzc0RPb1M4NWFmeXFRSURvWXdQN2NReXhOMzdmY3VjdkxZd1lwX29URkJTWWtucDRVbW00cjlKcENyR3lnWnR0b3I4cWlXa1ZELVBTQjZSNUE?oc=5",
    "title": "Existing Drugs Could Help Target Brain Inflammation in Alzheimer’s"
   },
@@ -229,6 +392,14 @@
    "title": "Cannabidiol Sponge Implanted at Injury Site Cuts Brain Swelling After Trauma in Rats"
   },
   {
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLVNkTmhsMzA1SnJ0NW9vRlFCeDNsWlJrOG1TQmFuc0tMMjVxblJOLVp2MXBqcFJvRk9raGVQLVU4SWNFanNRWlBfWjJ4cUtMaTRKOUlHRzI3dm5waGhrdGp4a0Rnem5GTnNLeFAzRHZFbkI5TnpqcG52ZlMwR0RDZG92Y3NyZw?oc=5",
+   "title": "QuidelOrtho rallies 13% to multi-week high (QDEL:NASDAQ)"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMklmTmlWVmRKRjFzcFBVV1RmZ1VlR0tYa2RmMXpPUXV2b3FpMzE4N2JHS2RKTVRBNkplVHpORUpMUEFpZndqWWV4MGo4SW1qQWp2bEtmSHdKTDZqMlFOSDYtaGxqcUd6RkNRMXBVN3I1OXVlTE04UWFhaVRvbi1KWUt0dzFVZmdZa3VfVnh5Wmg2UDJZcmhxcDkxNGVxakFPeUFRNW8yU1BYdHNaQ0tzMXVpQkN6UUROZnk4?oc=5",
+   "title": "QuidelOrtho (QDEL) Shares Surge 12.7% on October 5, 2026, Amid E"
+  },
+  {
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbFJ6dnpyMncyNWNMSlNzWjV5NnNkYWV4LVQ3OGZHZFNPbXl3SHgzakxlbmlqNkFuckRHc0V4bldTdXh5ME9BTzdfbm13cEJuOUV1OVc4ZDRucjJDazJJWG4yc09URTNIeFM3UjN0NHpQVU5FN0JtVXlRMkZHd0V1ZzRCNmVwLUZHd05wWEFqRWhzQlBZY0txLUREQi1IUQ?oc=5",
    "title": "Can biomarkers and AI transform traumatic brain injury care?"
   },
@@ -239,6 +410,10 @@
   {
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVlBZVFEzaTRwNzBVZUF0czlUcTREOGYtMWlGMTctTGo3Tnh4cXdzYkxMVEVfcVlzY0Q5bXFKV0xtVUFTbm94QUN2Z09URms0YUJpbVNwekZBMXhqTlRITnZ4WGFUNTJrSDI2VUdlUUdYNVZxcVBIMVhBYm1ROWJxY2JWUUVrai1s?oc=5",
    "title": "Brain Cell Study Uncovers New Alzheimer's Drug Target"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdHdLcnZRanhIWDdiZEEyXzdrbnM4eDNIMEZMZmRjNTRPdGZnR2VNeXUwMmhGbUVabTI5UlY5YlpzUmd2MENXc0E0enRsYm9vTFE3ZUtBdE5lRjdPcHZNVE1QV01wOWdSQ25IbnBUN2xiLURQOXpwWmZKc1UzRjFNNnJJZ09XdUZtQUd1Q05uM1NFMVYybXVUNUprcmVhVWVrVUxsbmZWTGU0MDJFb1pBMGF3?oc=5",
+   "title": "A Look at QuidelOrtho Corp (QDEL) After 3.8% Gain -- GF Value $3"
   },
   {
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUW0tcHVxYTQzdWNyWkN6M0dYNzNPNVRpemRreml0SDYydWVmcjRBRW5fMS0zV1l6YjY5WTB4QlhZalY3MURzWndEaU5iSjZOaWxZcnFQMkJCdzhhZXJVT3RnN0JRRnVBNGlTeDdFYmY0dGE4OG9pemdSeF9lSTRfSGsyaWJGME9nSW5EcGEtbmZpRHBrX0RYTWFiY3YtMTE3STJRVWc5a2JxUzNMbnQ5TTlMbHhYdGFYaWszSWh0NTNfQkpEZEp1REtMNG1DRUdmb0xjSmdwNzVoZw?oc=5",

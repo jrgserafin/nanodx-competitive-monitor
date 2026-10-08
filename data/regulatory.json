@@ -1,6 +1,6 @@
 {
  "Abbott": {
-  "checked": "2026-10-08T15:52:06+00:00",
+  "checked": "2026-10-08T18:39:13+00:00",
   "records": [
    {
     "id": "f0718cf196dd62c6",
@@ -38,7 +38,7 @@
   ]
  },
  "bioMérieux": {
-  "checked": "2026-10-08T15:52:07+00:00",
+  "checked": "2026-10-08T18:39:14+00:00",
   "records": [
    {
     "id": "4f6e68b867dd6c6d",
@@ -54,15 +54,15 @@
   ]
  },
  "Roche": {
-  "checked": "2026-10-08T15:52:08+00:00",
+  "checked": "2026-10-08T18:39:22+00:00",
   "records": []
  },
  "Quanterix": {
-  "checked": "2026-10-08T15:52:08+00:00",
+  "checked": "2026-10-08T18:39:18+00:00",
   "records": []
  },
  "BrainScope": {
-  "checked": "2026-10-08T15:52:09+00:00",
+  "checked": "2026-10-08T18:39:15+00:00",
   "records": [
    {
     "id": "7f0ecd5b1dadfe4c",
@@ -153,5 +153,1556 @@
     "fda_number": "K082886"
    }
   ]
+ },
+ "InfraScan": {
+  "checked": "2026-10-08T18:39:16+00:00",
+  "records": [
+   {
+    "id": "5051c7fda4a3695a",
+    "competitor": "InfraScan",
+    "source": "FDA",
+    "title": "FDA 510(k) K241389: Infrascanner Model 2500 (Model 2500)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241389",
+    "date": "2024-12-12",
+    "snippet": "Applicant: Infrascan, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K241389"
+   },
+   {
+    "id": "f6a8da91fa59ba93",
+    "competitor": "InfraScan",
+    "source": "FDA",
+    "title": "FDA 510(k) K211617: Infrascanner",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211617",
+    "date": "2022-02-09",
+    "snippet": "Applicant: Infrascan, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K211617"
+   },
+   {
+    "id": "9c37783e3f05333b",
+    "competitor": "InfraScan",
+    "source": "FDA",
+    "title": "FDA 510(k) K200203: Infrascanner",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200203",
+    "date": "2020-07-10",
+    "snippet": "Applicant: Infrascan, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K200203"
+   },
+   {
+    "id": "91d51855bf94a611",
+    "competitor": "InfraScan",
+    "source": "FDA",
+    "title": "FDA 510(k) K120949: INFRASCANNER",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K120949",
+    "date": "2013-01-11",
+    "snippet": "Applicant: Infrascan, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K120949"
+   },
+   {
+    "id": "80f87cade20f5f21",
+    "competitor": "InfraScan",
+    "source": "FDA",
+    "title": "FDA 510(k) DEN100002: INFRASCANNER, MODEL 1000",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN100002",
+    "date": "2011-12-13",
+    "snippet": "Applicant: Infrascan, Inc.. Decision: Unknown.",
+    "fda_kind": "510(k)",
+    "fda_number": "DEN100002"
+   }
+  ]
+ },
+ "BrainBox Solutions": {
+  "checked": "2026-10-08T18:39:17+00:00",
+  "records": []
+ },
+ "EzDiatech": {
+  "checked": "2026-10-08T18:39:17+00:00",
+  "records": []
+ },
+ "Genalyte": {
+  "checked": "2026-10-08T18:39:19+00:00",
+  "records": [
+   {
+    "id": "de1b3577ead3a90b",
+    "competitor": "Genalyte",
+    "source": "FDA",
+    "title": "FDA 510(k) K234091: Maverick Diagnostic System TC1000; Maverick Test Panel A0.B0",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K234091",
+    "date": "2024-07-22",
+    "snippet": "Applicant: Genalyte, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K234091"
+   },
+   {
+    "id": "343780d5fb610b58",
+    "competitor": "Genalyte",
+    "source": "FDA",
+    "title": "FDA 510(k) K191085: Maverick RNP Assay and Maverick Diagnostic System",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191085",
+    "date": "2019-10-25",
+    "snippet": "Applicant: Genalyte, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K191085"
+   }
+  ]
+ },
+ "Oculogica": {
+  "checked": "2026-10-08T18:39:20+00:00",
+  "records": [
+   {
+    "id": "4d1462b11fdc903b",
+    "competitor": "Oculogica",
+    "source": "FDA",
+    "title": "FDA 510(k) K254086: EyeBOX SNAP",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K254086",
+    "date": "2026-06-05",
+    "snippet": "Applicant: Oculogica, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K254086"
+   },
+   {
+    "id": "7ab50222b5926ce0",
+    "competitor": "Oculogica",
+    "source": "FDA",
+    "title": "FDA 510(k) K242116: EyeBOX EBX-4.1",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242116",
+    "date": "2025-04-04",
+    "snippet": "Applicant: Oculogica, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K242116"
+   },
+   {
+    "id": "54beffc72a4afab9",
+    "competitor": "Oculogica",
+    "source": "FDA",
+    "title": "FDA 510(k) K212310: EyeBOX (Model EBX-4)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K212310",
+    "date": "2021-12-22",
+    "snippet": "Applicant: Oculogica, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K212310"
+   },
+   {
+    "id": "854a9d03ef075822",
+    "competitor": "Oculogica",
+    "source": "FDA",
+    "title": "FDA 510(k) K201841: EyeBOX",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K201841",
+    "date": "2020-09-06",
+    "snippet": "Applicant: Oculogica, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K201841"
+   },
+   {
+    "id": "db0d3fb521a261ea",
+    "competitor": "Oculogica",
+    "source": "FDA",
+    "title": "FDA 510(k) K191183: EyeBOX",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191183",
+    "date": "2019-07-31",
+    "snippet": "Applicant: Oculogica, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K191183"
+   },
+   {
+    "id": "63a2ad9c6f0a340c",
+    "competitor": "Oculogica",
+    "source": "FDA",
+    "title": "FDA 510(k) DEN170091: EyeBOX",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN170091",
+    "date": "2018-12-28",
+    "snippet": "Applicant: Oculogica, Inc.. Decision: Unknown.",
+    "fda_kind": "510(k)",
+    "fda_number": "DEN170091"
+   }
+  ]
+ },
+ "Sense Neuro Diagnostics": {
+  "checked": "2026-10-08T18:39:21+00:00",
+  "records": []
+ },
+ "Wondfo": {
+  "checked": "2026-10-08T18:39:23+00:00",
+  "records": [
+   {
+    "id": "ed5037a0e84cfe92",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K260065: SAFElife T-Dip Multi-Drug Urine Test Panel; SAFElife T-Dip Multi-Drug Urine Test Panel Dx",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260065",
+    "date": "2026-04-28",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K260065"
+   },
+   {
+    "id": "42e89c8db91c3247",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K252550: SAFElife T-Cup Multi-Drug Urine Test Cup; SAFElife T-Cup Multi-Drug Urine Test Cup Dx",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252550",
+    "date": "2025-11-18",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K252550"
+   },
+   {
+    "id": "6db823ce3d8c5ec0",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K251289: WELLlife COVID-19 Antigen Test Rx",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251289",
+    "date": "2025-10-22",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K251289"
+   },
+   {
+    "id": "95090e75269c4ccd",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K251563: WELLlife Flu A&B Home Test; WELLlife Influenza A&B Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251563",
+    "date": "2025-08-20",
+    "snippet": "Applicant: Wondfo USA Co, Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K251563"
+   },
+   {
+    "id": "71241d7202a9a956",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K243256: WELLlife COVID-19 / Influenza A&B Home Test; WELLlife COVID-19 / Influenza A&B AntigenTest",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K243256",
+    "date": "2025-01-16",
+    "snippet": "Applicant: Wondfo USA Co, Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K243256"
+   },
+   {
+    "id": "4515ced3dd462fd9",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K241317: Wondfo 2019-nCoV Antigen Test (Lateral Flow Method)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241317",
+    "date": "2024-09-30",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K241317"
+   },
+   {
+    "id": "c397d0c7668509ef",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K241741: SAFElife Fentanyl Urine Home Test (Cassette); SAFElife Fentanyl (FTY) Urine Test Cassette; SAFElife T-Dip Fentanyl Urine Home Test (Dip Card); SAFElife T-Dip Fentanyl (FTY) Urine Test Panel",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K241741",
+    "date": "2024-07-16",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K241741"
+   },
+   {
+    "id": "0d9d50b57b75b962",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K202567: Wondfo T-Dip Multi-Drug Urine Test Panel, Wondfo T-Dip Multi-Drug Urine Test Panel Rx",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202567",
+    "date": "2020-09-25",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K202567"
+   },
+   {
+    "id": "adf099d4e8da7063",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K182701: Wondfo T-Cup Multi-Drug Urine Test Cup",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182701",
+    "date": "2018-12-03",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K182701"
+   },
+   {
+    "id": "23d0de573eba84e3",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K173229: Preview Digital Pregnancy Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173229",
+    "date": "2018-03-12",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K173229"
+   },
+   {
+    "id": "29f57f7b91cefa54",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K162333: Wondfo One Step Fecal Occult Blood (FOB) Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162333",
+    "date": "2017-05-14",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K162333"
+   },
+   {
+    "id": "3263262a7c4f0222",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K161214: Wondfo Amphetamine Urine Test AMP 500 (Cup, Dipcard), Wondfo Cocaine Urine Test COC 150(Cup, Dipcard), Wondfo Methamphetamine Urine Test MET 500 (Cup, Dipcard)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K161214",
+    "date": "2016-06-27",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K161214"
+   },
+   {
+    "id": "33843239dbbab437",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K152495: Wondfo Propoxyphene Urine Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K152495",
+    "date": "2015-11-23",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K152495"
+   },
+   {
+    "id": "bd4703a5e36ae79f",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K150022: Wondfo One Step HCG Urine Pregnancy Test Strip, Wondfo One Step HCG Urine Pregnancy Test Cassette, Wondfo One Step HCG Urine Pregnancy Test Midstream",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150022",
+    "date": "2015-08-07",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K150022"
+   },
+   {
+    "id": "50869a3c0f44584c",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K151478: Wondfo CR3 Keyless Split Sample Cup",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151478",
+    "date": "2015-07-01",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K151478"
+   },
+   {
+    "id": "1ad4c2e04ecb6378",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K150602: CR3 Keyless Split Sample Cup Morphine - Methamphetamine",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150602",
+    "date": "2015-04-07",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K150602"
+   },
+   {
+    "id": "24f03d18db0606c3",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K150179: CR3 Keyless Split Sample Cup Oxycodone - Cannabinoids",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150179",
+    "date": "2015-02-25",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K150179"
+   },
+   {
+    "id": "73d535979f2a5e2b",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K143535: CR3 Keyless Split Sample Cup Secobarbital- Methadone",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K143535",
+    "date": "2015-01-13",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K143535"
+   },
+   {
+    "id": "9d5f123ed5a2ce55",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K142609: CR3 Keyless Split Sample Cup Nortriptyline-Buprenorphine",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K142609",
+    "date": "2014-12-18",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K142609"
+   },
+   {
+    "id": "47c9abae71d80ccf",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K142044: CR3 KEYLESS SPLIT SAMPLE CUP PHENCYCLIDIEN - METHYLENEDIOXYMETHAMPHETAMINE",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K142044",
+    "date": "2014-08-25",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K142044"
+   },
+   {
+    "id": "656fadcba9568d92",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K141532: CR3 KEYLESS SPLIT SAMPLE CUP AMPHETAMINE-COCAINE",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K141532",
+    "date": "2014-07-14",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K141532"
+   },
+   {
+    "id": "20b6dacc88db8425",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K140089: CR3 KEYLESS SPLIT SAMPLE CUP(OPI-BZO)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140089",
+    "date": "2014-04-08",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K140089"
+   },
+   {
+    "id": "d9f80d9ce67512e2",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K133968: WONDFO MULTI-DRUG URINE TEST CUP, PANEL",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K133968",
+    "date": "2014-02-25",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K133968"
+   },
+   {
+    "id": "9990cc25f784b30d",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K133343: WONDFO RAPID STREP A TEST",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K133343",
+    "date": "2014-01-31",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K133343"
+   },
+   {
+    "id": "2a490a7319f06d33",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K132630: WONDFO OXAZEPAM URINE TEST (BZO 200) AND WONDFO METHAMPHETAMINE URINE TEST (MET 300)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K132630",
+    "date": "2013-09-27",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K132630"
+   },
+   {
+    "id": "1210835399a8d20a",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K131754: WONDFO COCAINE URINE TEST (COC 100), WONDFO CANNABINOIDS URINE TEST (THC 40)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131754",
+    "date": "2013-07-31",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K131754"
+   },
+   {
+    "id": "d5cc1474a003cdec",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K131232: WONDFO METHADONE URINE TEST (MTD 200), WONDOFO MORPHINE URINE TEST (MOP 100)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131232",
+    "date": "2013-05-31",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K131232"
+   },
+   {
+    "id": "9f86c4e092769931",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K130665: WONDOFO MULTI-DRUG URINE TEST CUP / PANEL",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130665",
+    "date": "2013-04-09",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K130665"
+   },
+   {
+    "id": "30e0b10c03a6391c",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K130055: ACON BUP ONE STEP BUPRENORPHINE TEST STRIP",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130055",
+    "date": "2013-02-14",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K130055"
+   },
+   {
+    "id": "edab691c2b713410",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K122961: WONDFO AMPHETAMINE URINE TEST (AMP 300), WONDFO METHAMPHETAMINE URINE TEST (MET 500)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122961",
+    "date": "2012-12-21",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K122961"
+   },
+   {
+    "id": "3280142b28a4c6bf",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K122904: WONDFO MULTI-DRUG URINE TEST CUP MODEL W2002-CU; W2003-CU; W2004-CU; W2005-CU; W2006-CU; W2007-CU; W2008-CU; W2009-CU;",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122904",
+    "date": "2012-11-15",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K122904"
+   },
+   {
+    "id": "5b9833439d62cf2c",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K121987: WONDFO AMPHETAMINE URINE TEST WONDFO BARBITURATES URINE TEST WONDFO BENZODIAZEPINES URINE TEST",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121987",
+    "date": "2012-08-01",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K121987"
+   },
+   {
+    "id": "13e6fe8cc233bc1d",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K121557: WONDFO CANNABINOIDS URINE TEST WONDFO PROPOXYPHENE URINE TEST",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121557",
+    "date": "2012-07-25",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K121557"
+   },
+   {
+    "id": "c000c052c00febd6",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K121166: WONDFO MULTI-DRUG URINE TEST CUP WONDFO MULTI-DRUG URINE TEST PANEL",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K121166",
+    "date": "2012-05-08",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K121166"
+   },
+   {
+    "id": "66363646effdcf73",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K113624: WONDFO BUPRENORPHINE URINE TEST WONDFO OXYCODONE URINE TEST",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K113624",
+    "date": "2012-03-12",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K113624"
+   },
+   {
+    "id": "e9c4ce4923952116",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K112071: WONDFO COCAINE URINE TEST MODEL W10-CU, W10-P, WONDFO METHAMPHETAMINE URINE TEST MODEL W11-CU, W11-P",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K112071",
+    "date": "2011-09-23",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K112071"
+   },
+   {
+    "id": "15d0cc2d0a41bd1b",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K112236: WONDFO METHYLENEDIOXYMETHAMPHETAMINE URINE TEST, WONDFO MORPHINE URINE TEST",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K112236",
+    "date": "2011-09-19",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K112236"
+   },
+   {
+    "id": "dc934cb940d0580d",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K112395: WONDFO PHENCYCLIDINE URINE TEST, TRICYCLIC ANTIDEPRESSANTS URINE TEST",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K112395",
+    "date": "2011-09-09",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K112395"
+   },
+   {
+    "id": "7c2a5ab43785383f",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K112310: WONDFO METHADONE URINE TEST,OPIATE TEST",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K112310",
+    "date": "2011-09-08",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K112310"
+   },
+   {
+    "id": "e8d79b50e08583dc",
+    "competitor": "Wondfo",
+    "source": "FDA",
+    "title": "FDA 510(k) K111560: WONDFO AMPHETAMINE URINE TEST, WONDFO BARBITURATES URINE TEST, WONDFO BENZODIAZEPINES URINE TEST",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111560",
+    "date": "2011-07-15",
+    "snippet": "Applicant: Guangzhou Wondfo Biotech Co., Ltd.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K111560"
+   }
+  ]
+ },
+ "ACON": {
+  "checked": "2026-10-08T18:39:24+00:00",
+  "records": [
+   {
+    "id": "287fe850e5d72f22",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K261212: Flowflex Plus RSV + Flu A/B + COVID Rapid Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K261212",
+    "date": "2026-07-10",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K261212"
+   },
+   {
+    "id": "b59851b1266ce1b8",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K251697: Flowflex® Plus Strep A Rapid Test Cassette; Flowflex® Plus Strep A Rapid Test Strip",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251697",
+    "date": "2025-11-26",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K251697"
+   },
+   {
+    "id": "c3c4d784cee8e56b",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K251749: Flowflex Plus RSV + Flu A/B + COVID Home Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251749",
+    "date": "2025-10-22",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K251749"
+   },
+   {
+    "id": "7df3efdf56844c07",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K250085: On Call® Sure GK Blood Glucose & Ketone Monitoring System; On Call® Sure Sync GK Blood Glucose & Ketone Monitoring System",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250085",
+    "date": "2025-10-10",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K250085"
+   },
+   {
+    "id": "8ac823297bdfba91",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K250377: Flowflex Plus COVID-19 + Flu A/B Home Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K250377",
+    "date": "2025-05-10",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K250377"
+   },
+   {
+    "id": "6896bad5146da15a",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K232715: Distinct® Digital Pregnancy Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232715",
+    "date": "2024-05-31",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K232715"
+   },
+   {
+    "id": "1898407dedf689ac",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K233373: Flowflex® Plus COVID-19 Home Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233373",
+    "date": "2024-04-19",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K233373"
+   },
+   {
+    "id": "7d23ee95b6a1f0fb",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K230828: Flowflex COVID-19 Antigen Home Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230828",
+    "date": "2023-11-09",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K230828"
+   },
+   {
+    "id": "93df15fc07e9c568",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K193318: Distinct® Early Detection Pregnancy Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K193318",
+    "date": "2020-08-20",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K193318"
+   },
+   {
+    "id": "4191d7d7735e604f",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K192175: On Call Express II Blood Glucose Monitoring System",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192175",
+    "date": "2019-10-17",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K192175"
+   },
+   {
+    "id": "2b7cf27e15cf31d0",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K191038: On Call Express Voice Blood Glucose Monitoring System",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K191038",
+    "date": "2019-06-12",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K191038"
+   },
+   {
+    "id": "3d6b5597c0d1c2c9",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K181527: On Call Sure Blood Glucose Monitoring System, On Call Sure Sync Blood Glucose Monitoring System",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181527",
+    "date": "2018-10-03",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K181527"
+   },
+   {
+    "id": "101eda875e8ecdf2",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K180504: Mission Lipid Panel Monitoring System",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180504",
+    "date": "2018-03-28",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K180504"
+   },
+   {
+    "id": "8f16d02b35fb2c35",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K180196: On Call Express Mobile Blood Glucose Monitoring System",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180196",
+    "date": "2018-03-07",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K180196"
+   },
+   {
+    "id": "5b65957e79627b7f",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K163406: Mission Cholesterol Monitoring System, Mission Cholesterol Pro Monitoring System",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K163406",
+    "date": "2017-07-11",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K163406"
+   },
+   {
+    "id": "bb8fe7d9b50193a7",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K170587: On Call Ketone Reagent Strips for Urinalysis, Healthy Me Ketone Reagent Strips for Urinalysis",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170587",
+    "date": "2017-07-06",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K170587"
+   },
+   {
+    "id": "e2ef3e6a6f041cdc",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K161867: On Call Pro Blood Glucose Monitoring System",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K161867",
+    "date": "2016-08-05",
+    "snippet": "Applicant: Acon Laboratories. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K161867"
+   },
+   {
+    "id": "2375883150ee3179",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K151595: On Call Express Pro Blood Glucose Monitoring System",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K151595",
+    "date": "2015-09-05",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K151595"
+   },
+   {
+    "id": "c9fa68456a33d080",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K142543: Mission U120 Ultra Urine Analyzer, Mission Liquid Urine Controls, Mission Liquid Diptube Urine Control",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K142543",
+    "date": "2015-05-11",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K142543"
+   },
+   {
+    "id": "6dce141dd86d576f",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K150330: Mission Urinalysis Reagent Strips (Microalbumin/Creatinine)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150330",
+    "date": "2015-04-30",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K150330"
+   },
+   {
+    "id": "233e2449b5263502",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K142391: Mission U120 Ultra Urine Analyzer, Mission Urinalysis Reagent Strips ( Microalbumin/Creatinine )",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K142391",
+    "date": "2014-12-22",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K142391"
+   },
+   {
+    "id": "d82b534cc26bce88",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K131469: ACON ON CALL DIABETES MANAGEMENT SOFTWARE",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131469",
+    "date": "2014-01-06",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K131469"
+   },
+   {
+    "id": "fb34b68c4d064657",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K130284: ON CALL SHARP BLOOD GLUCOSE MONITORING SYSTEM",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130284",
+    "date": "2013-12-20",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K130284"
+   },
+   {
+    "id": "6fe461b63752c2bc",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K132086: ON CALL EXPRESS BLOOD GLUCOSE MONITORING SYSTEM",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K132086",
+    "date": "2013-12-19",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K132086"
+   },
+   {
+    "id": "94378aced252de5c",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K122553: MISSION PLUS HB HEMOGLOBIN TESTING SYSTEM",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122553",
+    "date": "2013-08-05",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K122553"
+   },
+   {
+    "id": "c889bb9e7070bfb5",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K123010: ON CALL VIVID BLOOD GLUCOSE MONITORING SYSTEM",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K123010",
+    "date": "2012-12-14",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K123010"
+   },
+   {
+    "id": "cde47fb2a67a2b79",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K122110: ACON ON CALL VIVID PAL BLOOD GLUCOSE MONITORING SYSTEM",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K122110",
+    "date": "2012-11-21",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K122110"
+   },
+   {
+    "id": "1200e030abb7e760",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K113332: ON CALL CHOSEN LANCING DEVICE",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K113332",
+    "date": "2012-04-18",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K113332"
+   },
+   {
+    "id": "738f32b6e222fe14",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K112653: ON CALL VIVID BLOOD GLUCOSE MONITORING SYSTEMS",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K112653",
+    "date": "2012-04-09",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K112653"
+   },
+   {
+    "id": "839e79a86ed43879",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K120124: FORESIGHT U120 URINE ANALYZER",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K120124",
+    "date": "2012-03-06",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K120124"
+   },
+   {
+    "id": "f8829fab5cb31d0f",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K111221: MISSION U500 URINE ANALYZER",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111221",
+    "date": "2012-01-18",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K111221"
+   },
+   {
+    "id": "82baf8ff77ae9e7d",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K111371: ON CALL CHOSEN BLOOD GLUCOSE MONITORING SYSTEM",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K111371",
+    "date": "2011-10-06",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K111371"
+   },
+   {
+    "id": "3d691c0b79b8834a",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K103387: MISSION LIQUID URINE CONTROL, MISSION LIQUID DIPTUBE URINE CONTROL, MISSION DRY STRIP URINE CONTROL",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K103387",
+    "date": "2011-02-02",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K103387"
+   },
+   {
+    "id": "f05951784bbdd720",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K101371: ON CALL PLUS DIABETES MONITORING SOFTWARE",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K101371",
+    "date": "2011-01-07",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K101371"
+   },
+   {
+    "id": "e8bd52c22ee3173d",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K093879: MISSION SALIVA ALCOHOL TEST STRIP",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093879",
+    "date": "2010-08-06",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K093879"
+   },
+   {
+    "id": "3c0df27a34a53727",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K093143: MISSION BREATH ALCOHOL DETECTOR",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K093143",
+    "date": "2010-01-28",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K093143"
+   },
+   {
+    "id": "12625d29dc10ba6f",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K090057: ON-CALL PLUS BLOOD GLUCOSE MONITORING SYSTEM",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K090057",
+    "date": "2009-04-08",
+    "snippet": "Applicant: Acon Laboratories Co.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K090057"
+   },
+   {
+    "id": "3fa5b7c8dc672da8",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K063295: ACON UTI URINARY TRACT INFECTION TEST STRIPS",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K063295",
+    "date": "2007-10-12",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K063295"
+   },
+   {
+    "id": "51f381ad7c66f26f",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K070929: ACON U120 URINE ANALYZER, MODEL U111-101",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K070929",
+    "date": "2007-07-30",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K070929"
+   },
+   {
+    "id": "012b1c7fbcbf5a58",
+    "competitor": "ACON",
+    "source": "FDA",
+    "title": "FDA 510(k) K063418: ACON DIGITAL THERMOMETER PROBE COVERS",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K063418",
+    "date": "2007-02-02",
+    "snippet": "Applicant: ACON Laboratories, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K063418"
+   }
+  ]
+ },
+ "Hotgen": {
+  "checked": "2026-10-08T18:39:25+00:00",
+  "records": []
+ },
+ "QuidelOrtho": {
+  "checked": "2026-10-08T18:39:25+00:00",
+  "records": [
+   {
+    "id": "3e6fbdfa9d1fcf03",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K231795: QuickVue COVID-19 Test",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K231795",
+    "date": "2024-03-22",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K231795"
+   },
+   {
+    "id": "ca2f6c983d5a2668",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K232286: Savanna HSV 1+2/VZV Assay, Savanna HSV 1+2/VZV Control Set, Savanna Instrument",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K232286",
+    "date": "2023-12-20",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K232286"
+   },
+   {
+    "id": "63d65c790c7c0518",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K233688: Sofia 2 SARS Antigen+ FIA; Sofia 2 SARS Antigen+ FIA Control Swab Set",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233688",
+    "date": "2023-12-13",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K233688"
+   },
+   {
+    "id": "913534426fea042e",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K230349: Lyra RSV+hMPV Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230349",
+    "date": "2023-03-10",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K230349"
+   },
+   {
+    "id": "6ae568bcfe5799cf",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) DEN220039: Sofia 2 SARS Antigen+ FIA, Sofia 2 SARS Antigen+ FIA Control Swab Set",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN220039",
+    "date": "2023-03-08",
+    "snippet": "Applicant: Quidel Corporation. Decision: Unknown.",
+    "fda_kind": "510(k)",
+    "fda_number": "DEN220039"
+   },
+   {
+    "id": "e4918688f8724889",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K230236: Lyra Influenza A+B Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K230236",
+    "date": "2023-03-03",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K230236"
+   },
+   {
+    "id": "74050b6e786ce3d3",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K211342: Sofia 2 Campylobacter FIA",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K211342",
+    "date": "2021-11-23",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K211342"
+   },
+   {
+    "id": "d25a55d3b64be27d",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K200363: Quidel Triage® TOX Drug Screen, 94600",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K200363",
+    "date": "2020-03-11",
+    "snippet": "Applicant: Quidel Cardiovascular, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K200363"
+   },
+   {
+    "id": "5638b331dfed4702",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K182719: Quidel Triage TOX Drug Screen, 94600; Quidel Triage® MeterPro",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K182719",
+    "date": "2019-06-19",
+    "snippet": "Applicant: Quidel Cardiovascular, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K182719"
+   },
+   {
+    "id": "2de3a6615ca2f2e3",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K173496: Sofia 2 Lyme FIA, Sofia Lyme Control Set",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173496",
+    "date": "2018-08-30",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K173496"
+   },
+   {
+    "id": "0b4f8cd40f626799",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K181029: Solana Bordetella Complete Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K181029",
+    "date": "2018-07-15",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K181029"
+   },
+   {
+    "id": "351bb5ec4f32f7b7",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K173691: Sofia Lyme FIA, Sofia 2 analyzer, Sofia 2 Installation Pack",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173691",
+    "date": "2018-02-28",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K173691"
+   },
+   {
+    "id": "d5397dab3796e33d",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K180288: QuickVue Influenza A+B",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180288",
+    "date": "2018-02-13",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K180288"
+   },
+   {
+    "id": "a051ea2601e4d987",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K171976: Sofia Strep A+ FIA, Sofia 2 Analyzer",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171976",
+    "date": "2017-12-21",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K171976"
+   },
+   {
+    "id": "412907475b268a14",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K173250: Solana GBS Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K173250",
+    "date": "2017-12-21",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K173250"
+   },
+   {
+    "id": "c01cf3fb0026cbbc",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K163713: Sofia Lyme FIA, Sofia Lyme Control Set",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K163713",
+    "date": "2017-10-20",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K163713"
+   },
+   {
+    "id": "959855afcd218c01",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K171974: Solana RSV+hMPV Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171974",
+    "date": "2017-10-16",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K171974"
+   },
+   {
+    "id": "20ed94150ae2259c",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K170491: Solana C. difficile Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170491",
+    "date": "2017-05-11",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K170491"
+   },
+   {
+    "id": "aaf6371ad4cf8cc7",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K162438: Sofia Influenza A+B FIA on Sofia 2",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162438",
+    "date": "2017-04-14",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K162438"
+   },
+   {
+    "id": "beec7a3591654444",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K162911: Sofia RSV FIA on Sofia 2 analyzer",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162911",
+    "date": "2017-02-22",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K162911"
+   },
+   {
+    "id": "a7d04e965858f1d9",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K162451: Solana HSV 1+2/VZV Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162451",
+    "date": "2016-11-28",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K162451"
+   },
+   {
+    "id": "3e93cbda27b8fd61",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K162274: Solana Strep Complete Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K162274",
+    "date": "2016-10-25",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K162274"
+   },
+   {
+    "id": "20e87606e3874986",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K161814: Solana Influenza A+B Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K161814",
+    "date": "2016-09-27",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K161814"
+   },
+   {
+    "id": "7a53b884000c4601",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K161182: Solana Trichomonas Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K161182",
+    "date": "2016-08-15",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K161182"
+   },
+   {
+    "id": "31fc629b9eee282c",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K153012: Sofia Influenza A+B FIA",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K153012",
+    "date": "2016-01-12",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K153012"
+   },
+   {
+    "id": "cd5830612e0978ff",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K150868: Solana GAS Assay, Solana instrument",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K150868",
+    "date": "2015-06-23",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K150868"
+   },
+   {
+    "id": "5464512e5485257b",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K143329: AmpliVue Trichomonas Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K143329",
+    "date": "2015-03-17",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K143329"
+   },
+   {
+    "id": "4952dc77e4932ef0",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K141775: SOFIA (R) STREP A+ FIA",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K141775",
+    "date": "2014-12-16",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K141775"
+   },
+   {
+    "id": "0f8ba54377e5d6fa",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K143206: AmpliVue Bordetella Assay",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K143206",
+    "date": "2014-12-10",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K143206"
+   },
+   {
+    "id": "e2f38539b2a4df0e",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K141931: LYRA ADENOVIRUS ASSAY",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K141931",
+    "date": "2014-10-09",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K141931"
+   },
+   {
+    "id": "aea6022e78578ca4",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K141927: LYRA PARAINFLUENZA VIRUS ASSAY",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K141927",
+    "date": "2014-10-09",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K141927"
+   },
+   {
+    "id": "7b34458d485f720a",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K141173: AMPLIVUE GAS ASSAY",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K141173",
+    "date": "2014-07-24",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K141173"
+   },
+   {
+    "id": "5e73ea52f5dbf2a0",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) DEN140005: LYRA DIRECT STREP ASSAY",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=DEN140005",
+    "date": "2014-04-16",
+    "snippet": "Applicant: Quidel Corporation. Decision: Unknown.",
+    "fda_kind": "510(k)",
+    "fda_number": "DEN140005"
+   },
+   {
+    "id": "44c79a102c8b51e6",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K140029: AMIPLIVUE HSV 1&2 ASSAY",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K140029",
+    "date": "2014-03-26",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K140029"
+   },
+   {
+    "id": "d4106f561a09e43e",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K133503: AMPLIVUE GBS ASSAY",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K133503",
+    "date": "2013-12-20",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K133503"
+   },
+   {
+    "id": "29930599f1ce9dcc",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K131813: QUIDEL MOLECULAR RSV + HMPV ASSAY",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131813",
+    "date": "2013-09-06",
+    "snippet": "Applicant: Quidel Corp.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K131813"
+   },
+   {
+    "id": "996af87a8c883a87",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K131728: QUIDEL MOLECULAR INFLUENZA A + B ASSAY",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131728",
+    "date": "2013-08-29",
+    "snippet": "Applicant: Quidel Corp.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K131728"
+   },
+   {
+    "id": "31980a1d839e95da",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K130398: SOFIA(R) RSV FIA",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130398",
+    "date": "2013-08-13",
+    "snippet": "Applicant: Quidel Corp.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K130398"
+   },
+   {
+    "id": "46724f8dac22884b",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K131166: SOFIA(R) HCG FIA",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131166",
+    "date": "2013-08-02",
+    "snippet": "Applicant: Quidel Corp.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K131166"
+   },
+   {
+    "id": "917629e88c74db72",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K131599: QUICK VUE INFLUENZA",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K131599",
+    "date": "2013-07-05",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K131599"
+   }
+  ]
+ },
+ "Boditech Med": {
+  "checked": "2026-10-08T18:39:26+00:00",
+  "records": [
+   {
+    "id": "ac7e65ed7b75cd83",
+    "competitor": "Boditech Med",
+    "source": "FDA",
+    "title": "FDA 510(k) K170232: AFIAS TSH-SP, AFIAS TSH-VB, AFIAS-6/SP Analyzer, AFIAS-6/VB Analyzer",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K170232",
+    "date": "2017-10-13",
+    "snippet": "Applicant: Boditech Med, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K170232"
+   },
+   {
+    "id": "225541cb32e069e3",
+    "competitor": "Boditech Med",
+    "source": "FDA",
+    "title": "FDA 510(k) K132167: I-CHROMA IFOB WITH I-CHROMA READER",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K132167",
+    "date": "2014-05-02",
+    "snippet": "Applicant: Boditech Med, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K132167"
+   },
+   {
+    "id": "ec27bcc4301ab178",
+    "competitor": "Boditech Med",
+    "source": "FDA",
+    "title": "FDA 510(k) K062981: I-CHROMA CRP TEST",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K062981",
+    "date": "2007-07-13",
+    "snippet": "Applicant: Boditech Diagnostics, Inc.. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K062981"
+   }
+  ]
+ },
+ "Getein Biotech": {
+  "checked": "2026-10-08T18:39:27+00:00",
+  "records": []
  }
 }
