@@ -1,12 +1,12 @@
 {
- "checked": "2026-10-08T15:51:37+00:00",
+ "checked": "2026-10-08T15:55:09+00:00",
  "sources": [
   {
    "entity": "Abbott",
    "source": "News: \"Abbott\" \"TBI\" test",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "Abbott",
@@ -27,14 +27,14 @@
    "source": "Page: https://abbott.mediaroom.com/press-releases",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Abbott",
    "source": "FDA: Abbott",
    "ok": true,
    "count": 120,
-   "secs": 0.7
+   "secs": 1.4
   },
   {
    "entity": "Abbott",
@@ -80,7 +80,7 @@
    "source": "News: \"bioMerieux\" traumatic brain injury",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "bioMérieux",
@@ -94,7 +94,7 @@
    "source": "Trials: bioMérieux",
    "ok": true,
    "count": 3,
-   "secs": 0.7
+   "secs": 0.0
   },
   {
    "entity": "bioMérieux",
@@ -124,7 +124,7 @@
    "source": "News: \"Roche Diagnostics\" concussion",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Roche",
@@ -154,7 +154,7 @@
    "source": "News: \"Quanterix\"",
    "ok": true,
    "count": 15,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Quanterix",
@@ -244,7 +244,7 @@
    "source": "PubMed: (\"traumatic brain injury\" OR concussion) AND (GFAP OR \"UCH-L1\") AND \"point-of-care\"",
    "ok": true,
    "count": 1,
-   "secs": 1.0
+   "secs": 0.6
   },
   {
    "entity": "TBI diagnostics market",
