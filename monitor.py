@@ -619,8 +619,19 @@ DEFAULT_EMERGING = {
         '"point-of-care" biosensor raises',
         '"rapid test" "brain injury"',
     ],
+    # FDA review panels kept: lab / in-vitro diagnostics + neurology (device-based brain-injury assessment)
+    "fda_panels": ["CH", "IM", "MI", "HE", "TX", "PA", "NE"],
+    # Device or trial titles containing these are treatments or hardware, not diagnostics
+    "exclude_words": ["stimulat", "therap", "catheter", "balloon", "implant", "stent", "surgical", "rehabilit",
+                      "cooling", "ablation", "neurorehab", "shunt", "drain", "electrode array"],
+    # Large established firms are left out of "emerging" (add more with `ignore:` in competitors.yaml)
+    "established": ["siemens", "medtronic", "becton", "dickinson", "stryker", "ge healthcare", "philips", "danaher",
+                    "beckman", "thermo fisher", "bio-rad", "hologic", "cepheid", "johnson & johnson", "baxter",
+                    "boston scientific", "canon", "fujifilm", "olympus", "sysmex", "werfen", "radiometer",
+                    "ortho clinical", "qiagen", "bd ", "zimmer", "smith & nephew", "intuitive surgical"],
     "ignore": [],
 }
+EMERGING_SCAN_VERSION = 2
 _SUFFIX = re.compile(r"[,.]?\s+(incorporated|inc|llc|l\.l\.c|ltd|limited|co|corp|corporation|company|gmbh|ag|sa|s\.a|"
                      r"s\.p\.a|bv|b\.v|plc|pty|kk|oy|ab|as|srl|sas|nv|lp|holdings?)\.?$", re.I)
 
@@ -629,6 +640,7 @@ def norm_company(name: str) -> str:
     n = re.sub(r"\s+", " ", (name or "").strip())
     for _ in range(3):
         n = _SUFFIX.sub("", n).strip(" ,.")
+        n = re.sub(r"[\s,]+(and|&)$", "", n, flags=re.I).strip(" ,.")
     return n
 
 
@@ -653,18 +665,24 @@ def discover(cfg):
     em = dict(DEFAULT_EMERGING)
     em.update(cfg.get("emerging") or {})
     keys = _tracked_keys(cfg)
-    ignore = {i.lower() for i in em.get("ignore") or []}
+    ignore = [i.lower() for i in (em.get("ignore") or []) + (em.get("established") or []) if i]
+    excl = [w.lower() for w in em.get("exclude_words") or []]
+    panels = {p.upper() for p in em.get("fda_panels") or []}
     prev = load_json(DATA / "emerging.json", {})
-    companies = {c["key"]: c for c in prev.get("companies", [])}
+    # earlier scan rules were broader; start clean when the rules change
+    companies = {c["key"]: c for c in prev.get("companies", [])} if prev.get("version") == EMERGING_SCAN_VERSION else {}
     health, news = [], []
     today = now_utc().date().isoformat()
     tbi_words = [w.lower() for w in em["tbi_keywords"]]
 
     def add(name, kind, title, url, date, extra=""):
         nm = norm_company(name)
-        if not nm or len(nm) < 3 or nm.lower() in ignore or _is_tracked(nm, keys):
+        low = f" {nm.lower()} "
+        if not nm or len(nm) < 3 or _is_tracked(nm, keys) or any(i in low for i in ignore):
             return
-        key = nm.lower()
+        if any(w in (title or "").lower() for w in excl):
+            return
+        key = re.sub(r"[^a-z0-9]+", " ", nm.lower()).strip()
         c = companies.setdefault(key, {"key": key, "name": nm, "first_seen": today, "signals": []})
         if any(sig["url"] == url and sig["title"] == title for sig in c["signals"]):
             return
@@ -694,6 +712,8 @@ def discover(cfg):
                 continue
             r.raise_for_status()
             for rec in r.json().get("results", []):
+                if panels and (rec.get("advisory_committee") or "").upper() not in panels:
+                    continue  # e.g. radiology, cardiovascular, orthopedic devices
                 k = rec.get("k_number", "")
                 add(rec.get("applicant", ""), "FDA clearance",
                     f"{k}: {rec.get('device_name', '')}",
@@ -708,7 +728,7 @@ def discover(cfg):
         n = 0
         cond = " OR ".join(f'"{c}"' for c in em["trial_conditions"])
         url = ("https://clinicaltrials.gov/api/v2/studies?query.cond=" + urllib.parse.quote(cond)
-               + "&query.term=" + urllib.parse.quote("AREA[InterventionType]DIAGNOSTIC_TEST OR AREA[InterventionType]DEVICE")
+               + "&query.term=" + urllib.parse.quote("AREA[InterventionType]DIAGNOSTIC_TEST OR (AREA[InterventionType]DEVICE AND AREA[DesignPrimaryPurpose]DIAGNOSTIC)")
                + "&sort=LastUpdatePostDate:desc&pageSize=100")
         for st in get(url).json().get("studies", []):
             p = st.get("protocolSection", {})
@@ -771,7 +791,7 @@ def discover(cfg):
     for i in news:
         old_news.setdefault(i["id"], dict(i, first_seen=stamp()))
     news_all = sorted(old_news.values(), key=lambda i: i.get("date") or "", reverse=True)[:200]
-    save_json(DATA / "emerging.json", {"checked": stamp(), "companies": out[:150], "news": news_all,
+    save_json(DATA / "emerging.json", {"version": EMERGING_SCAN_VERSION, "checked": stamp(), "companies": out[:150], "news": news_all,
                                        "scope": {k: em[k] for k in ("fda_keywords", "trial_conditions", "news_queries")}})
     print(f"Emerging: {len(out)} untracked companies, {len(news)} radar headlines")
     return health
