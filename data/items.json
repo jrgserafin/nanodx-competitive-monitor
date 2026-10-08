@@ -1,5 +1,16 @@
 [
  {
+  "id": "5c4661704643bb91",
+  "competitor": "InfraScan",
+  "source": "Publication",
+  "title": "Diagnostic Performance of the Infrascanner 2000™ for Detecting Intracranial Hemorrhage in Traumatic Brain Injury Patients in Pakistan.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42847715/",
+  "date": "2026-10-08",
+  "snippet": "Neurosurgery. Khan Z, Khan MN, Khan WD et al.",
+  "first_seen": "2026-10-08T23:09:37+00:00",
+  "signal": []
+ },
+ {
   "id": "51c8eb66c8dbdfd3",
   "competitor": "QuidelOrtho",
   "source": "News",
