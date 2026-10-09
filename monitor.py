@@ -563,6 +563,7 @@ DEFAULT_ALERT_KEYWORDS = [
 
 
 _CFG_CACHE: dict = {}
+_RESEARCH_TOPICS: set = set()
 
 
 def load_config():
@@ -575,6 +576,7 @@ def load_config():
     cfg["settings"] = s
     cfg["competitors"] = [dict(c, kind="competitor") for c in cfg.get("competitors") or []]
     cfg["topics"] = [dict(t, kind="topic") for t in cfg.get("topics") or []]
+    _RESEARCH_TOPICS.clear(); _RESEARCH_TOPICS.update(t["name"] for t in cfg["topics"] if t.get("workstream"))
     cfg["emerging"] = cfg.get("emerging") or {}
     return cfg
 
@@ -626,6 +628,7 @@ DEFAULT_EXCLUDE_PATTERNS = [
 ]
 _EXCLUDE_RE = None
 # Federal awards / NIH grants for a company are kept only when they touch our space
+AWARD_SOURCES = ("Federal award", "NIH grant")
 AWARD_KEYWORDS = ["brain", "concussion", "TBI", "neuro", "head injur", "GFAP", "S100B", "UCH-L1", "biomarker",
                   "point-of-care", "point of care", "intracranial", "hematoma", "trauma"]
 
@@ -655,9 +658,24 @@ def relevant(it, rules):
     return any(k.lower() in hay for k in kws)
 
 
+_KW_RE: dict = {}
+
+
 def keyword_hits(it, keywords):
-    hay = f"{it['title']} {it.get('snippet', '')}".lower()
-    return [k for k in keywords if k.lower() in hay]
+    """Keywords match from the start of a word ("launch" → launched, "approval" → Approvals); short
+    upper-case acronyms (PMA, CPT, FDA) must be a whole word, so they never match inside other words."""
+    hay = f"{it['title']} {it.get('snippet', '')}"
+    out = []
+    for k in keywords:
+        r = _KW_RE.get(k)
+        if r is None:
+            letters = re.sub(r"[^A-Za-z]", "", k)
+            acronym = letters.isupper() and len(letters) <= 5        # PMA, CPT, FDA, CLIA: exact word
+            r = _KW_RE[k] = re.compile(r"(?<![A-Za-z0-9])" + re.escape(k) + (r"(?![A-Za-z0-9])" if acronym else ""),
+                                       0 if acronym else re.I)
+        if r.search(hay):
+            out.append(k)
+    return out
 
 
 def is_alert(it, s):
@@ -665,6 +683,8 @@ def is_alert(it, s):
         return False
     if it["source"] == "FDA":
         return True
+    if it.get("competitor") in _RESEARCH_TOPICS:   # research topics go to the digest, not instant alerts
+        return False
     if it["source"] == "SEC filing" and set(it.get("sec_items") or []) & {"1.01", "2.01", "5.01", "1.05"}:
         return True
     return bool(keyword_hits(it, s["alert_keywords"]))
@@ -688,6 +708,11 @@ def collect(only: str | None = None):
         if h["source"] == "Federal Register":
             h["signal"] = keyword_hits({"title": h["title"]}, s["signal_keywords"])
     cutoff = (now_utc() - dt.timedelta(days=s["lookback_days"])).date().isoformat()
+    # awards/grants are dated by project start, which precedes public visibility by months
+    award_cutoff = (now_utc() - dt.timedelta(days=180)).date().isoformat()
+    for h in history:  # re-evaluate awards/grants marked stale under the shorter news window
+        if h["source"] in AWARD_SOURCES and h.get("stale") and (h.get("date") or "") >= award_cutoff:
+            h.pop("stale", None)
     ts = stamp()
 
     collected, health = [], []
@@ -715,7 +740,7 @@ def collect(only: str | None = None):
         known.add(it["id"])
         if not relevant(it, rules):
             continue
-        if it.get("date") and it["date"] < cutoff:
+        if it.get("date") and it["date"] < (award_cutoff if it["source"] in AWARD_SOURCES else cutoff):
             it["stale"] = True  # remember it so it never shows as new
         it["first_seen"] = ts
         it["signal"] = keyword_hits({"title": it["title"]} if it["source"] == "Federal Register" else it, s["signal_keywords"])

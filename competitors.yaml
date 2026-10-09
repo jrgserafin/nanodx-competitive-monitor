@@ -73,6 +73,7 @@ settings:
     - layoffs
     - funding
     - raises
+    - raised
 
 # Emerging competitors: every run scans the wider point-of-care (POC) space for
 # companies NOT in the list below (FDA 510(k) clearances, industry TBI/concussion
