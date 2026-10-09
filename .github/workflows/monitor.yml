@@ -37,7 +37,7 @@ concurrency:
 
 jobs:
   monitor:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 40
     env:
       GMAIL_USER: ${{ secrets.GMAIL_USER }}
@@ -49,9 +49,9 @@ jobs:
       SEC_CONTACT: ${{ secrets.SEC_CONTACT }}
       COMPANY_CONTEXT: ${{ secrets.COMPANY_CONTEXT }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -127,16 +127,16 @@ jobs:
       - name: Build dashboard
         run: python monitor.py build-site
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
   deploy:
     needs: monitor
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
