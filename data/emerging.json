@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-09T00:39:19+00:00",
+ "checked": "2026-10-09T00:41:38+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -285,24 +285,6 @@
    "tbi": false,
    "score": 4,
    "latest": "2025-10-10"
-  },
-  {
-   "key": "sense diagnostics",
-   "name": "Sense Diagnostics",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "Clinical trial",
-     "title": "Evaluate the SENSE Device's Ability to Monitor and Detect Intracranial Hemorrhage",
-     "url": "https://clinicaltrials.gov/study/NCT04642443",
-     "date": "2023-09-28",
-     "detail": "NCT04642443 · Unknown"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": false,
-   "score": 4,
-   "latest": "2023-09-28"
   }
  ],
  "news": [

@@ -1,5 +1,5 @@
 {
- "checked": "2026-10-09T00:37:32+00:00",
+ "checked": "2026-10-09T00:39:45+00:00",
  "sources": [
   {
    "entity": "Abbott",
@@ -34,7 +34,7 @@
    "source": "FDA: Abbott",
    "ok": true,
    "count": 120,
-   "secs": 0.6
+   "secs": 0.8
   },
   {
    "entity": "Abbott",
@@ -87,7 +87,7 @@
    "source": "Homepage: https://www.biomerieux.com",
    "ok": true,
    "count": 0,
-   "secs": 3.2
+   "secs": 0.5
   },
   {
    "entity": "bioMérieux",
@@ -131,14 +131,14 @@
    "source": "Homepage: https://www.brainscope.com",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "BrainScope",
    "source": "FDA: BrainScope",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.4
   },
   {
    "entity": "BrainScope",
@@ -182,7 +182,7 @@
    "source": "Homepage: https://infrascanner.com",
    "ok": true,
    "count": 0,
-   "secs": 1.6
+   "secs": 0.5
   },
   {
    "entity": "InfraScan",
@@ -226,7 +226,7 @@
    "source": "FDA: BrainBox",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.4
   },
   {
    "entity": "BrainBox Solutions",
@@ -345,8 +345,10 @@
    "entity": "Quanterix",
    "source": "Homepage: https://www.quanterix.com",
    "ok": true,
+   "skipped": true,
+   "note": "homepage can't be read automatically (https://www.quanterix.com: 403 Client Error: Forbidden for url: https://www.quan); add a newsroom URL under watch_pages",
    "count": 0,
-   "secs": 0.5
+   "secs": 0
   },
   {
    "entity": "Quanterix",
@@ -436,14 +438,14 @@
    "source": "Homepage: https://oculogica.com",
    "ok": true,
    "count": 0,
-   "secs": 1.5
+   "secs": 0.6
   },
   {
    "entity": "Oculogica",
    "source": "FDA: Oculogica",
    "ok": true,
    "count": 1,
-   "secs": 0.2
+   "secs": 0.4
   },
   {
    "entity": "Oculogica",
@@ -517,7 +519,7 @@
    "source": "Homepage: https://www.medicortex.fi",
    "ok": true,
    "count": 0,
-   "secs": 5.1
+   "secs": 4.1
   },
   {
    "entity": "Medicortex",
@@ -554,7 +556,7 @@
    "source": "Homepage: https://diagnostics.roche.com",
    "ok": true,
    "count": 0,
-   "secs": 0.6
+   "secs": 0.3
   },
   {
    "entity": "Roche",
@@ -575,7 +577,7 @@
    "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Roche",
@@ -605,7 +607,7 @@
    "source": "News: \"Wondfo\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.2
   },
   {
    "entity": "Wondfo",
@@ -635,14 +637,14 @@
    "source": "Homepage: https://www.aconlabs.com",
    "ok": true,
    "count": 0,
-   "secs": 0.8
+   "secs": 0.5
   },
   {
    "entity": "ACON",
    "source": "FDA: ACON",
    "ok": true,
    "count": 4,
-   "secs": 0.2
+   "secs": 0.4
   },
   {
    "entity": "ACON",
@@ -695,7 +697,7 @@
    "source": "FDA: Quidel",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "QuidelOrtho",
@@ -775,7 +777,7 @@
    "source": "News: \"traumatic brain injury\" blood test",
    "ok": true,
    "count": 11,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "TBI diagnostics market",
@@ -796,21 +798,21 @@
    "source": "Federal Register: traumatic brain injury",
    "ok": true,
    "count": 15,
-   "secs": 0.3
+   "secs": 0.0
   },
   {
    "entity": "Lab reimbursement (CMS)",
    "source": "News: CMS \"clinical laboratory fee schedule\"",
    "ok": true,
    "count": 6,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Lab reimbursement (CMS)",
    "source": "Federal Register: \"clinical laboratory fee schedule\" OR \"Medicare Physician Fee Schedule\" OR \"proprietary laboratory analyses\"",
    "ok": true,
    "count": 12,
-   "secs": 0.2
+   "secs": 0.0
   },
   {
    "entity": "Emerging (POC)",
@@ -830,7 +832,7 @@
    "entity": "Emerging (POC)",
    "source": "Google News point-of-care radar",
    "ok": true,
-   "count": 23,
+   "count": 24,
    "secs": 4.3
   }
  ]

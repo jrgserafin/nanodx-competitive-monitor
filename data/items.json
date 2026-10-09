@@ -11,32 +11,6 @@
   "signal": []
  },
  {
-  "id": "51c8eb66c8dbdfd3",
-  "competitor": "QuidelOrtho",
-  "source": "News",
-  "title": "Did QuidelOrtho Corporation Insiders Breach their Fiduciary Duties to Shareholders?",
-  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMEI0MlRPeTczZjVsOE9iUXhwTDJTMTFRVVNnUEpESnp0SEtHMWFTQnZpT1JyQWNvTmVoMFlrc0VNQW5OLVRXUzhjS2JCRnFRSGdGcWxVZ1R2eEQxNTNyVkVJcFpLU3JkRzNlSHFGdnRPYW5yaXl4QkdPM0Nmbm5DRDB5dWFpM1ZBZnR2eXVCdkFIbG5tTUkzc2tpbnFveG84TXRQRUhDWnBib1JRRjRBT2tUbS1wWGxqUUZTS0Y4VmVPbS12ZzZLdzJUWmxNTkd6cmdrcg?oc=5",
-  "date": "2026-10-08",
-  "snippet": "",
-  "publisher": "PR Newswire",
-  "query": "\"QuidelOrtho\"",
-  "first_seen": "2026-10-08T18:54:33+00:00",
-  "signal": []
- },
- {
-  "id": "5f8cb89fe025cdc2",
-  "competitor": "TBI diagnostics market",
-  "source": "News",
-  "title": "For Two Sisters, a ‘Biological Age Test’ Became a Ledger of Their Past",
-  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRXJxYm5jYlB2MjhfSDd6c2laT1h4WUl2MW44YkJweXphOWVLWkdjTlFDVlB1aTZNNW9zbGNscnZXdGZLZFFPOVFMT05kWURBOHAwbWVrMWxndzNoN0dFSzF4VVZ0OGZjX1g1TlE5d1VSdWxCRnhpbmtXbE9acG9sakMydTVuMVF3NHluck1TSzAyRHBTa3c?oc=5",
-  "date": "2026-10-08",
-  "snippet": "",
-  "publisher": "The New York Times",
-  "query": "\"traumatic brain injury\" blood test",
-  "first_seen": "2026-10-08T18:54:33+00:00",
-  "signal": []
- },
- {
   "id": "81e3a585f4521df3",
   "competitor": "Quanterix",
   "source": "News",
@@ -53,32 +27,6 @@
   "alert": true
  },
  {
-  "id": "7df76065447fa8f0",
-  "competitor": "TBI diagnostics market",
-  "source": "News",
-  "title": "For Two Sisters, a “Biological Age Test” Measured More Than Their DNA",
-  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRXJxYm5jYlB2MjhfSDd6c2laT1h4WUl2MW44YkJweXphOWVLWkdjTlFDVlB1aTZNNW9zbGNscnZXdGZLZFFPOVFMT05kWURBOHAwbWVrMWxndzNoN0dFSzF4VVZ0OGZjX1g1TlE5d1VSdWxCRnhpbmtXbE9acG9sakMydTVuMVF3NHluck1TSzAyRHBTa3c?oc=5",
-  "date": "2026-10-08",
-  "snippet": "",
-  "publisher": "The New York Times",
-  "query": "\"traumatic brain injury\" blood test",
-  "first_seen": "2026-10-08T18:38:02+00:00",
-  "signal": []
- },
- {
-  "id": "ce77a00b0f98c490",
-  "competitor": "ACON",
-  "source": "News",
-  "title": "High Density Lipoprotein Blood Test Strips Market To 2035: POC Adoption and Cardiac Screening Fuel Growth - News and Statistics",
-  "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPTjFGZW9JLW12eVZEN3NFRVkwOEVncHRvTEU0aGpJbEM3T2N5Vmwyc3p3ZDRReEVRRExFdnNDbWJFZ0k4b2VrZ3FQVUxabUdWVTdLbHN5SW91bHVrUWE1alJoQkV3NGpLb3NNVk1aaUJ1RENWNXYtZmJYb3ZSbk5wbW1GdHQ5ajU3bFhOSzJEV3luajl2OWlrbkY0REZPNHhhN3p3VUdZbGZRdVRfekxYRWFYclFZVUNKRk95TVpOZTlDMllNVXFFVmJSWll2eGhTVmJpUFVsamdNSzRGSGdwenBvaUFCYjZDVFFmOU84N3lFdmRMZ2hCcV9hLVVob1NH?oc=5",
-  "date": "2026-10-08",
-  "snippet": "",
-  "publisher": "IndexBox",
-  "query": "\"ACON Laboratories\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
-  "first_seen": "2026-10-08T16:08:31+00:00",
-  "signal": []
- },
- {
   "id": "94ff7f253b5140c7",
   "competitor": "Lab reimbursement (CMS)",
   "source": "News",
@@ -89,19 +37,6 @@
   "publisher": "Michigan Health & Hospital Association",
   "query": "CMS \"clinical laboratory fee schedule\"",
   "first_seen": "2026-10-08T15:41:11+00:00",
-  "signal": []
- },
- {
-  "id": "2318a6f5e131ff51",
-  "competitor": "TBI diagnostics market",
-  "source": "News",
-  "title": "Improving lives through health translation",
-  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcGNCTDBkclpCWjYxc2QxVEtMT2diS3dqb0N6SHV2R0hvX19LTFJkV1dFbTkxMDcybHlPNjJXc3FKaVBBY1RZNzBrdk1oVGdIemtRa3daeGJFSG9ZTUtqX05qUkFTenRad1c1dzBYQXRuNmRlZF9mbDJuZXNWV3Y4ZERVODJHc2Yz?oc=5",
-  "date": "2026-10-08",
-  "snippet": "",
-  "publisher": "Australian Institute for Bioengineering and Nanotechnology",
-  "query": "\"traumatic brain injury\" blood test",
-  "first_seen": "2026-10-08T13:40:13+00:00",
   "signal": []
  },
  {
@@ -180,32 +115,6 @@
   "publisher": "Seeking Alpha",
   "query": "\"QuidelOrtho\"",
   "first_seen": "2026-10-08T16:08:31+00:00",
-  "signal": []
- },
- {
-  "id": "c57c2a52f08cf7ba",
-  "competitor": "TBI diagnostics market",
-  "source": "News",
-  "title": "Blood protein prestin emerges as potential biomarker for chronic tinnitus detection",
-  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX2Q5S2o2a2dWc1MwR0I3VTkwVDFZM3NxVUJlYW51Q1FSTkdXR0VPZHhSZ3FXTlNuN1U0dGUwLV9wcFdfU21EdXg5djFjUFNLbnMyNVF5QUU1LU9BM1Rqc1FKV2RyaTVSbElzUk5ScmppaUp6N3J3dmZtRWlQMy1wZ2VvdEJzUkt0RkJFa1JIR3pVZDFTUTA5STJoS25aUXZJckxuS1M2blpRRzlJNzhwUzloU19RaWlO?oc=5",
-  "date": "2026-10-07",
-  "snippet": "",
-  "publisher": "https://streamlinefeed.co.ke/",
-  "query": "\"traumatic brain injury\" blood test",
-  "first_seen": "2026-10-08T16:08:31+00:00",
-  "signal": []
- },
- {
-  "id": "700c29939e16aa48",
-  "competitor": "TBI diagnostics market",
-  "source": "News",
-  "title": "Newsletter #77: 🤯 13 Inspiring takeaways from an epic health conference",
-  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14a09rNnVzMlZaTm1MUXRoUXNfLTM1LW11ckI4bUl3MkxRVC1iZUJRSHNFbDF4YkxlZS1BOXRLX09JU08tUURSOVhNMXZ1aTJCTjlPc1ZvR296dw?oc=5",
-  "date": "2026-10-07",
-  "snippet": "",
-  "publisher": "Dr. Casey Means",
-  "query": "\"traumatic brain injury\" blood test",
-  "first_seen": "2026-10-08T15:41:11+00:00",
   "signal": []
  },
  {
@@ -371,19 +280,6 @@
   "query": "\"Getein\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
   "first_seen": "2026-10-08T16:08:31+00:00",
   "signal": []
- },
- {
-  "id": "9dc674c4e2517b7e",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Design and Safety Considerations for Clinical Trials Involving Ibogaine Drug Products; Request for Information",
-  "url": "https://www.federalregister.gov/documents/2026/10/06/2026-20427/design-and-safety-considerations-for-clinical-trials-involving-ibogaine-drug-products-request-for",
-  "date": "2026-10-06",
-  "snippet": "Notice · Health and Human Services Department, Food and Drug Administration. The Food and Drug Administration (FDA or the Agency) is describing the approaches it is considering for the design of early- phase clinical trials of ibogaine drug products and is opening a public…",
-  "first_seen": "2026-10-08T15:46:29+00:00",
-  "signal": [
-   "FDA"
-  ]
  },
  {
   "id": "2af8667de1d6c2cb",
@@ -611,19 +507,6 @@
   "signal": []
  },
  {
-  "id": "e5a6099408353229",
-  "competitor": "TBI diagnostics market",
-  "source": "News",
-  "title": "Johnson: Many men will get free prostate cancer tests in Alabama. It should be a national law",
-  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbzBjLW9FbGMtbGFBQUEwSDU4Q3dfX1lzcEI5Z3BEeThXMDZKWnVXc09TRGhfTW1ydlBTZGNhUE9vNGhfckE4NU05LWxqM1huTTFxTzZ1RnBkWTIyRnZNb0V5aXhEbVNIZDZKd2FrRlRldkd6X2oxMlpQWEl5ZEhxQllVQzFzWGFTeXcxOUlNMHB1VjdHVWtGS1RMNWJkOUpVVkRuWUtJYUNqaWxLV0FSQ0pfTTNfcmZoOUpoYWRRb2dXNndoZG8tU3h3QUhHZTB1TG94SjBVaVF3UQ?oc=5",
-  "date": "2026-10-01",
-  "snippet": "",
-  "publisher": "AL.com",
-  "query": "\"traumatic brain injury\" blood test",
-  "first_seen": "2026-10-08T15:41:11+00:00",
-  "signal": []
- },
- {
   "id": "54706438eff5dac0",
   "competitor": "bioMérieux",
   "source": "Publication",
@@ -659,19 +542,6 @@
   "date": "2026-10-01",
   "snippet": "",
   "publisher": "PLOS",
-  "query": "\"traumatic brain injury\" blood test",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "9c3c43d60e718414",
-  "competitor": "TBI diagnostics market",
-  "source": "News",
-  "title": "The understanding of dementia has accelerated – the services to support and prevent dementia have not",
-  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVW5pVWJkN3NrV3JqTXpfSTFfYlpoaG1JYXR1NldSa0Y2bEhad0I4RHcydkJUVFJPMEZKeXdQemRTZlBXX3V3d05vREJYS29WcG9ySmFiNEFUTS1ucUR1bWZzc3NPY0x3RHBSUmVBT0RIZlI2c3VfVmdxTnBWYWo0WGF5TVpUUEJtUTZmYTNERm9KRnhEZDBSX0JVTlNnZU1uWG00Z2NsSGlpQ3NrdTczUGVVdnVzN0JYUnpHWVF3T2tlT0hGOHZzRS1HS2hUWlotMGlwMA?oc=5",
-  "date": "2026-10-01",
-  "snippet": "",
-  "publisher": "Irish Medical Times",
   "query": "\"traumatic brain injury\" blood test",
   "first_seen": "2026-10-08T13:40:13+00:00",
   "signal": []
@@ -716,19 +586,6 @@
   "signal": []
  },
  {
-  "id": "ebeffd8c3d16fb56",
-  "competitor": "TBI diagnostics market",
-  "source": "News",
-  "title": "Researchers in various studies looking for participants",
-  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMlE5X1JMMDE1SlllS19DTlh0QVZJRXhycUFUUUFfWVVZNUw5eHVrVGZsR3JTdmRqVzlfNjdJMi11a2FOa1hRNzF3dlhkcXVjYmNIdVdWaDRfdUlSaXNGUmtPVVdQU29yNmRDOUVwYzhMNWpuMjE3ZXM3MTJUZE9vUC03cWppT3JUTTlFZzRjQXc5QjZFUC1ESUZFdmdkYThuc3FjSjMzWUJlLVU?oc=5",
-  "date": "2026-09-30",
-  "snippet": "",
-  "publisher": "Purdue University",
-  "query": "\"traumatic brain injury\" blood test",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
   "id": "5cb49a48c27e8509",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -755,32 +612,6 @@
   "publisher": "Stock Traders Daily",
   "query": "\"QuidelOrtho\"",
   "first_seen": "2026-10-08T16:08:31+00:00",
-  "signal": []
- },
- {
-  "id": "951fe497328b05bc",
-  "competitor": "TBI diagnostics market",
-  "source": "News",
-  "title": "FDA grants Breakthrough Device designation to microRNA blood test for predicting AIS curve progression",
-  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSjN6Z1M2VmtOdEZBNGxhcDBTeDhuU0xUbHRCY29WSGNBU1Z2UkNsSXRFNGZpQjJNVzJfd1RzZ0JrQVJjNHNaLW9NQ0JrZGt5bUU0X1hOV3hkYVJ5RXphWTkwdHBPSGlzaHNZRUFBeW9HaVJnM0lhS2hHdi1SSWdrc21rOGszcWtFaXBrM1NQUmMxQ0F6QjhCR0lPTmtFQmpvZDFIYlRPWThUQTBVSmhjSDNyT0ZxN1MwY1I0eTNPMDdubTFGV0NJdTlSd3FrT3A2X2ZHdEVR?oc=5",
-  "date": "2026-09-29",
-  "snippet": "",
-  "publisher": "Contemporary Pediatrics",
-  "query": "concussion blood test FDA",
-  "first_seen": "2026-10-08T13:55:05+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
-  "id": "a082a64f307cc5cd",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Privacy Act of 1974; System of Records",
-  "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19755/privacy-act-of-1974-system-of-records",
-  "date": "2026-09-28",
-  "snippet": "Notice · Health and Human Services Department, Children and Families Administration. In accordance with the requirements of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS) is modifying an existing system of records maintained by the Office…",
-  "first_seen": "2026-10-08T15:46:29+00:00",
   "signal": []
  },
  {
@@ -812,19 +643,6 @@
   "signal": []
  },
  {
-  "id": "cb5cc6b36bf36064",
-  "competitor": "TBI diagnostics market",
-  "source": "News",
-  "title": "10 habits linked to lower dementia risk, per the Lancet",
-  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBscVY0cmVOd0JnY1kteGNScDMyUVZCSHlJOFdmMkM1QnJ2dnRDTW5FOGxoY0FGWHFZOTJ4WW9sVGNDOVBtU0hhMnFnMVRmYm5BOHgw?oc=5",
-  "date": "2026-09-25",
-  "snippet": "",
-  "publisher": "qz.com",
-  "query": "\"traumatic brain injury\" blood test",
-  "first_seen": "2026-10-08T15:41:11+00:00",
-  "signal": []
- },
- {
   "id": "b564bfc7384dd104",
   "competitor": "Lab reimbursement (CMS)",
   "source": "News",
@@ -849,21 +667,6 @@
   "query": "\"Quanterix\"",
   "first_seen": "2026-10-08T13:40:13+00:00",
   "signal": []
- },
- {
-  "id": "9af59049a93142a3",
-  "competitor": "TBI diagnostics market",
-  "source": "News",
-  "title": "Cancer blood test wins FDA advisors' backing, plus a new mRNA flu shot, vascular warning signs and an AI enzyme search",
-  "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcE1iRVk4WnZkMksySEEtbVRjZlo5WnhvNHkyODJaMFpLcFp0WjhBNWRydmJ2UmpUa0VPVVR1Sk05UjVhZHpzVXY4cXFWV2FYRkZibnVuejdmcHVoazNmUHVNQmNkQ2hWa3NEaWJJUWgtRV8xbjh2UGVuX0ZXeEVlNVBCOGJtR1NIcWRoWjF2WU5sbHlPd0c5bllTNXAxWHFtRU1XazkxemtBckEzb2lCTThRRDd5WXB1Z0N1V2RsSWNlb0pYYk1sWUtTNnRMMDB2N0pwTTF2ck9DNnp0UXNDS1h6M2J1YWtRZ0c4UklOdHJCZDFxNGlzNmRNT2hTdU0?oc=5",
-  "date": "2026-09-25",
-  "snippet": "",
-  "publisher": "WCNC",
-  "query": "concussion blood test FDA",
-  "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": [
-   "FDA"
-  ]
  },
  {
   "id": "a85a6d7fb1ac0c7c",
@@ -903,18 +706,6 @@
   "signal": []
  },
  {
-  "id": "8a6d7163c8068179",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Center for Scientific Review; Notice of Closed Meetings",
-  "url": "https://www.federalregister.gov/documents/2026/09/16/2026-19001/center-for-scientific-review-notice-of-closed-meetings",
-  "date": "2026-09-16",
-  "snippet": "Notice · Health and Human Services Department, National Institutes of Health.",
-  "stale": true,
-  "first_seen": "2026-10-08T15:46:29+00:00",
-  "signal": []
- },
- {
   "id": "3c9e6b5bd8b5d534",
   "competitor": "Abbott",
   "source": "Publication",
@@ -942,32 +733,6 @@
   ]
  },
  {
-  "id": "3703c434c73b8b45",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Medicaid Program; Prohibition on Federal Medicaid and Children's Health Insurance Program Funding for Sex-Rejecting Procedures Furnished to Children",
-  "url": "https://www.federalregister.gov/documents/2026/08/13/2026-16508/medicaid-program-prohibition-on-federal-medicaid-and-childrens-health-insurance-program-funding-for",
-  "date": "2026-08-13",
-  "snippet": "Rule · Health and Human Services Department, Centers for Medicare & Medicaid Services. This final rule requires that a State Medicaid plan must provide that the Medicaid agency will not make payment under the plan for sex-rejecting procedures for children under 18, and…",
-  "stale": true,
-  "first_seen": "2026-10-08T15:46:29+00:00",
-  "signal": [
-   "funding"
-  ]
- },
- {
-  "id": "fa73129bc0b9510b",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Medicare Program; Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals (IPPS) and the Long-Term Care Hospital Prospective Payment System and Policy Changes and Fiscal Year (FY) 2027 Rates; Requirements for Quality Programs; Other Policy Changes; and Adoption of Updated Versions…",
-  "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15833/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-ipps-and",
-  "date": "2026-08-04",
-  "snippet": "Rule · Health and Human Services Department, Centers for Medicare & Medicaid Services, . This final rule will revise the Medicare hospital inpatient prospective payment systems (IPPS) for operating and capital-related costs of acute care hospitals; make changes relating to…",
-  "stale": true,
-  "first_seen": "2026-10-08T15:46:29+00:00",
-  "signal": []
- },
- {
   "id": "d237e4aeffab06be",
   "competitor": "TBI diagnostics market",
   "source": "Publication",
@@ -980,18 +745,6 @@
   "signal": [
    "point-of-care"
   ]
- },
- {
-  "id": "e46c9988a5871975",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Medicare and Medicaid Programs; CY 2027 Payment Policies Under the Physician Fee Schedule and Other Changes to Part B Payment and Coverage Policies; Medicare Shared Savings Program Requirements; and Medicare Prescription Drug Inflation Rebate Program",
-  "url": "https://www.federalregister.gov/documents/2026/07/16/2026-14327/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other",
-  "date": "2026-07-16",
-  "snippet": "Proposed Rule · Health and Human Services Department, Centers for Medicare & Medicaid Services. This proposed rule addresses: changes to the physician fee schedule (PFS); other changes to Medicare Part B payment policies to ensure that payment systems are updated to reflect…",
-  "stale": true,
-  "first_seen": "2026-10-08T15:46:29+00:00",
-  "signal": []
  },
  {
   "id": "287fe850e5d72f22",
@@ -1032,30 +785,6 @@
   "snippet": "NCT07680335 · lead sponsor Alzheimercentrum Amsterdam · updated 2026-07-02",
   "stale": true,
   "first_seen": "2026-10-08T13:40:13+00:00",
-  "signal": []
- },
- {
-  "id": "f26544ca774dcd2b",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "World Trade Center Health Program; Petitions 024, 042, 046, 047, 051, 056, 058, and 067-Ischemic Heart Disease; Finding of Insufficient Evidence",
-  "url": "https://www.federalregister.gov/documents/2026/06/30/2026-13176/world-trade-center-health-program-petitions-024-042-046-047-051-056-058-and-067-ischemic-heart",
-  "date": "2026-06-30",
-  "snippet": "Notice · Health and Human Services Department, Centers for Disease Control and Prevention. The Administrator of the World Trade Center Health Program received eight petitions (Petitions 024, 042, 046, 047, 051, 056, 058, and 067) to add conditions under the broad category of…",
-  "stale": true,
-  "first_seen": "2026-10-08T15:46:29+00:00",
-  "signal": []
- },
- {
-  "id": "2c5def93c8ca3105",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Safety Standard for Lithium-Ion Batteries Used in Micromobility Products and Electrical Systems of Micromobility Products Containing Such Batteries",
-  "url": "https://www.federalregister.gov/documents/2026/06/24/2026-12749/safety-standard-for-lithium-ion-batteries-used-in-micromobility-products-and-electrical-systems-of",
-  "date": "2026-06-24",
-  "snippet": "Proposed Rule · Consumer Product Safety Commission. The U.S. Consumer Product Safety Commission (CPSC) issues this notice of proposed rulemaking (NPR) to address the unreasonable risk of death and injury associated with lithium-ion batteries used in micromobility products due…",
-  "stale": true,
-  "first_seen": "2026-10-08T15:46:29+00:00",
   "signal": []
  },
  {
@@ -1100,20 +829,6 @@
   "signal": []
  },
  {
-  "id": "50b2aeff7ed9956a",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Modification of Certain Terminology in Title 21",
-  "url": "https://www.federalregister.gov/documents/2026/05/06/2026-08826/modification-of-certain-terminology-in-title-21",
-  "date": "2026-05-06",
-  "snippet": "Proposed Rule · Health and Human Services Department, Food and Drug Administration. The Food and Drug Administration (FDA, the Agency, or we) is issuing a proposed rule to modify certain terminology in Title 21 of the Code of Federal Regulations (CFR) to comply with Executive…",
-  "stale": true,
-  "first_seen": "2026-10-08T15:46:29+00:00",
-  "signal": [
-   "FDA"
-  ]
- },
- {
   "id": "ed5037a0e84cfe92",
   "competitor": "Wondfo",
   "source": "FDA",
@@ -1129,54 +844,6 @@
    "FDA",
    "510(k)"
   ]
- },
- {
-  "id": "e19e1d47bbc02f11",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Medicare Program; Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals (IPPS) and the Long-Term Care Hospital Prospective Payment System and Policy Changes and Fiscal Year (FY) 2027 Rates; Requirements for Quality Programs; and Other Policy Changes",
-  "url": "https://www.federalregister.gov/documents/2026/04/14/2026-07203/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-ipps-and",
-  "date": "2026-04-14",
-  "snippet": "Proposed Rule · Health and Human Services Department, Centers for Medicare & Medicaid Services. This proposed rule would revise the Medicare hospital inpatient prospective payment systems (IPPS) for operating and capital- related costs of acute care hospitals; make changes…",
-  "stale": true,
-  "first_seen": "2026-10-08T15:46:29+00:00",
-  "signal": []
- },
- {
-  "id": "b0b081f20ac1eb7d",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Center For Scientific Review; Notice of Closed Meetings",
-  "url": "https://www.federalregister.gov/documents/2026/04/08/2026-06744/center-for-scientific-review-notice-of-closed-meetings",
-  "date": "2026-04-08",
-  "snippet": "Notice · Health and Human Services Department, National Institutes of Health.",
-  "stale": true,
-  "first_seen": "2026-10-08T15:46:29+00:00",
-  "signal": []
- },
- {
-  "id": "dd8f230cb002fd82",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Rehabilitation Research, Development and Translation Scientific Merit Review Board AGENCY: Department of Veterans Affairs.",
-  "url": "https://www.federalregister.gov/documents/2026/03/19/2026-05365/rehabilitation-research-development-and-translation-scientific-merit-review-board-agency-department",
-  "date": "2026-03-19",
-  "snippet": "Notice · Veterans Affairs Department. We are giving notice that the Secretary of Veterans Affairs intends to renew the Department of Veterans Affairs (VA) Rehabilitation Research, Development and Translation Scientific Merit Review Board (formerly Rehabilitation Research and…",
-  "stale": true,
-  "first_seen": "2026-10-08T15:46:29+00:00",
-  "signal": []
- },
- {
-  "id": "9e379ebe00a223fb",
-  "competitor": "TBI diagnostics market",
-  "source": "Federal Register",
-  "title": "Cooperative Studies Scientific Evaluation Committee",
-  "url": "https://www.federalregister.gov/documents/2026/03/19/2026-05363/cooperative-studies-scientific-evaluation-committee",
-  "date": "2026-03-19",
-  "snippet": "Notice · Veterans Affairs Department. We are giving notice that the Secretary of Veterans Affairs intends to renew the Department of Veterans Affairs (VA) Cooperative Studies Scientific Evaluation Committee for a 2-year period. The Secretary has determined that the Committee is…",
-  "stale": true,
-  "first_seen": "2026-10-08T15:46:29+00:00",
-  "signal": []
  },
  {
   "id": "2cc392f50fe5c35c",
