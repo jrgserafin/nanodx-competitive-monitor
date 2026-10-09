@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-08T23:11:30+00:00",
+ "checked": "2026-10-09T00:13:02+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -370,6 +370,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "822f4ecc00f760d5",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "BATL Stock Jumps To Near Three-Week High — WTI Rally, Russell Microcap Inclusion Fuel Gains",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQ0tMMW9XbmZyZkV2b2ZnejhqdTY3Y2k2eTFRLU5KUHA3MWkyUHg1X0QtR2FUSDIzdWdBdlN3eUdtZEVyU0FYRmpLRlNtdDhiVUxxN3ZKTWgtNFpBcENOSno5M2hHcmpHN0lXNVBLVjc4a25MdkNJOVNnUmM3Q3lZU1lGYW1rZnhOY3VyM04zS2ZLWG9RWkNiNk1zc2c0MFZWT3ZwU3NKQ2JqRklBS2ZhM2Y0TDhxTWEzdGc4elJHbFFOaHlGdWc0Wmw3TTViWUlIa1U3Ym1fWmN0a1dtdk5MNmpTZ0NYOE0?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Stocktwits",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-09T00:13:02+00:00"
   },
   {
    "id": "8e022c7087d283c9",
