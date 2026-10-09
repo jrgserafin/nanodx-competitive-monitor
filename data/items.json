@@ -1,5 +1,27 @@
 [
  {
+  "id": "98acc0bbf12d260a",
+  "competitor": "TBI epidemiology & ED burden",
+  "source": "Publication",
+  "title": "Emergency Department Visits for Falls and First-Time Seizure.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42848964/",
+  "date": "2026-11-10",
+  "snippet": "Neurology. Wang AY, Wood AJ, Zhang C et al.",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "a553e46c292bbc91",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Blood bank reagents contract for the huntington va medical center. ($6,515)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C24527P0012_3600_-NONE-_-NONE-",
+  "date": "2026-10-18",
+  "snippet": "Department of Veterans Affairs · award 36C24527P0012. Blood bank reagents contract for the huntington va medical center.",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
   "id": "4a1feb994fba31d5",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -65,6 +87,17 @@
   "publisher": "Michigan Health & Hospital Association",
   "query": "CMS \"clinical laboratory fee schedule\"",
   "first_seen": "2026-10-08T15:41:11+00:00",
+  "signal": []
+ },
+ {
+  "id": "c9dae0e8948bb207",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Ortho blood bank reagents ($15,382)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C24227N0112_3600_36C24227A0003_3600",
+  "date": "2026-10-07",
+  "snippet": "Department of Veterans Affairs · award 36C24227N0112. Ortho blood bank reagents",
+  "first_seen": "2026-10-09T17:58:55+00:00",
   "signal": []
  },
  {
@@ -272,6 +305,30 @@
   "signal": [
    "approval"
   ]
+ },
+ {
+  "id": "f3c0936fe0371b80",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "Blood Test Reveals Hidden Brain Injury After Mini-Strokes With Normal Scans",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNFF4UlZoNmt2SS1zdHB4OHJUamxqMjVzVENoM3BmOVlSeGduUjJTS2VNT1gxZXVsemcxZDdKVFg0ajNicWs3R2lvcTRVQ1Zoem1lWU1XV3liM1ppN1RiSW9TNGpDS3AycGFMeE9UOU9SV2hMcGQzWFhxWmZMNXRyUlVUajlNdnNwSzJiWjlONFJiVWZRbThod0lyUlRfZWtnT0E?oc=5",
+  "date": "2026-10-06",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "43720a44f0a0571b",
+  "competitor": "EMS & prehospital TBI",
+  "source": "Publication",
+  "title": "Impact of on-site mobile CT imaging on prehospital patient management during the Munich Oktoberfest: a retrospective observational before-after study at a mass gathering.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42844595/",
+  "date": "2026-10-06",
+  "snippet": "BMC emergency medicine. Flatz W, Hinzmann D, Kampmann P et al.",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
  },
  {
   "id": "beee0a293ee22441",
@@ -577,6 +634,162 @@
   "signal": []
  },
  {
+  "id": "a2c4e2c4b399026f",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Blood bank analyzers and consumables ($162,738)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C24627N0026_3600_36C24623A0001_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C24627N0026. Blood bank analyzers and consumables",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "f75ef32745f031ff",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Ortho immunochemistry ($112,344)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C26327N0081_3600_36C26324A0005_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C26327N0081. Ortho immunochemistry",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "1b183fde67c044c0",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Ortho immunochemistry ($80,450)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C26327N0080_3600_36C26324A0005_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C26327N0080. Ortho immunochemistry",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "2e930a56228719de",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Ortho immunochemistry ($826,339)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C26327N0079_3600_36C26324A0005_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C26327N0079. Ortho immunochemistry",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "e2f025fa44eeff07",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Ortho immunochemistry ($460,000)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C26327N0077_3600_36C26324A0005_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C26327N0077. Ortho immunochemistry",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "ad83958337e592f1",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Oy2 bhhcs chemistry immunochemistry base+4 ($356,213)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C26327N0074_3600_36C26323A0029_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C26327N0074. Oy2 bhhcs chemistry immunochemistry base+4",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "0e0cd8598d4a4997",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Ortho vision-reagents-supplies-support ($133,759)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C25627N0006_3600_V797D60637_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C25627N0006. Ortho vision-reagents-supplies-support",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "0768bbb3a830db41",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Visn bpa ($3,277)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C25627F0028_3600_V797D60637_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C25627F0028. Visn bpa",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "ebd9b3baac05ca7a",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Blood bank reagents ($21,109)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C25027N0036_3600_36C25027D0003_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C25027N0036. Blood bank reagents",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "a79a5dd0afb37110",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Orthovision cpt ($143,505)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C25027N0008_3600_36C25024A0001_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C25027N0008. Orthovision cpt",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": [
+   "CPT"
+  ]
+ },
+ {
+  "id": "fe3d6be81b032e81",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Reagents and testing ($70,758)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C24927N0208_3600_V797D60637_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C24927N0208. Reagents and testing",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "052524b6c44f51cb",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Cost per test ortho 6 month bridge ($54,647)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C24727F0328_3600_V797D60637_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C24727F0328. Cost per test ortho 6 month bridge",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "174177610a500d44",
+  "competitor": "QuidelOrtho",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quidelortho Sales Company, Llc: Ortho blood bank reagents ($10,419)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C24227N0113_3600_36C24227A0003_3600",
+  "date": "2026-10-01",
+  "snippet": "Department of Veterans Affairs · award 36C24227N0113. Ortho blood bank reagents",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "7adc6e01f5fe603c",
+  "competitor": "TBI epidemiology & ED burden",
+  "source": "Publication",
+  "title": "Predictors of mortality available at emergency department arrival in massively transfused trauma patients without severe TBI: A single-center retrospective cohort study.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42821530/",
+  "date": "2026-10-01",
+  "snippet": "PloS one. Jo Y, Park Y, Jeong E et al.",
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
   "id": "54706438eff5dac0",
   "competitor": "bioMérieux",
   "source": "Publication",
@@ -614,6 +827,19 @@
   "publisher": "PLOS",
   "query": "\"traumatic brain injury\" blood test",
   "first_seen": "2026-10-08T13:40:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "6a31db56f05fd6df",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Army says nearly all soldiers have now taken new cognitive test for brain injuries",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRkYwVmxicXV1ZFhBclNZeG1WRGdVY3p0ZEVCNHNjQ3AxSEhMczdleldPTW5QYllzZXowTE5WQ2g2bXI5c0NhZVI4azU1OXpDbU9rREF0UVpCY3RuRXp5X280cDF3VjN0N3FUUXZQdTUybnAycG9fUkxpT1MxbjM2VXJmenNrOGs1emEybDBnbw?oc=5",
+  "date": "2026-09-30",
+  "snippet": "",
+  "publisher": "Task & Purpose",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-10-09T17:58:55+00:00",
   "signal": []
  },
  {
@@ -695,6 +921,17 @@
   "publisher": "Medical Economics",
   "query": "CMS \"clinical laboratory fee schedule\"",
   "first_seen": "2026-10-09T11:07:26+00:00",
+  "signal": []
+ },
+ {
+  "id": "a7a4b886eb95ffe9",
+  "competitor": "TBI biomarker evidence",
+  "source": "Publication",
+  "title": "[Blood biomarkers of mild traumatic brain injury in 2026].",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42800508/",
+  "date": "2026-09-26",
+  "snippet": "Annales pharmaceutiques francaises. Sapin V",
+  "first_seen": "2026-10-09T17:58:55+00:00",
   "signal": []
  },
  {
@@ -789,6 +1026,44 @@
   "signal": []
  },
  {
+  "id": "c7c0936c7c500cc1",
+  "competitor": "Point-of-care & capillary sampling",
+  "source": "Publication",
+  "title": "CRISPR-AMPED: A CRISPR/Cas-based immunoassay with attomolar sensitivity enabled by magnetic proximity extension and detection.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42764010/",
+  "date": "2026-09-17",
+  "snippet": "Biosensors & bioelectronics. Shao F, Hu J, Traylor A et al.",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "b1d6478927c6f104",
+  "competitor": "Point-of-care & capillary sampling",
+  "source": "Publication",
+  "title": "Capillary blood sampling in neurodegenerative diseases - the future for screening and monitoring brain health?",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42745552/",
+  "date": "2026-09-15",
+  "snippet": "Expert review of neurotherapeutics. Hicks S, Fernandes Gomes B, Heslegrave A",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "c6b82314e4d52339",
+  "competitor": "Point-of-care & capillary sampling",
+  "source": "NIH grant",
+  "title": "Children'S Hospital Of Los Angeles: Point-of-Care Brain MRI in Children with Head Trauma (BRAINCHILD): Protocol Optimization and Clinical Validation ($527,485)",
+  "url": "https://reporter.nih.gov/project-details/11605228",
+  "date": "2026-09-11",
+  "snippet": "NINDS · 1R56NS151828-01 · PI CHAUDHARI, PRADIP",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": [
+   "point-of-care"
+  ]
+ },
+ {
   "id": "3c9e6b5bd8b5d534",
   "competitor": "Abbott",
   "source": "Publication",
@@ -814,6 +1089,78 @@
    "GFAP",
    "UCH-L1"
   ]
+ },
+ {
+  "id": "099a06d01e4e32cc",
+  "competitor": "TBI epidemiology & ED burden",
+  "source": "Publication",
+  "title": "Traumatic spinal injuries in a rural tourist area: Epidemiology, seasonal trends and implications for healthcare resource allocation.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42731141/",
+  "date": "2026-09-09",
+  "snippet": "Injury. Peppucci E, Ferlito D, Meletti L et al.",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "91dce02cbb199ff8",
+  "competitor": "TBI epidemiology & ED burden",
+  "source": "Publication",
+  "title": "Factors associated with unplanned emergency department return visits after mild traumatic brain injury.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42731461/",
+  "date": "2026-09-04",
+  "snippet": "The American journal of emergency medicine. Patrick DP, Kostyun R, Cherneskie T et al.",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "c35d86d1b770c80a",
+  "competitor": "TBI epidemiology & ED burden",
+  "source": "Publication",
+  "title": "Head, neck, and spinal injuries in go-karting: An epidemiological analysis.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42715781/",
+  "date": "2026-09-03",
+  "snippet": "The American journal of emergency medicine. Alam Z, Yaseen B, Desai K et al.",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "5f073db30b55da0a",
+  "competitor": "TBI biomarker evidence",
+  "source": "NIH grant",
+  "title": "University Of Texas San Antonio: Sex-Specific Hormonal and Head Kinematic Effects on Blood Biomarker Responses to Repeated Head Impacts ($169,476)",
+  "url": "https://reporter.nih.gov/project-details/11453534",
+  "date": "2026-09-01",
+  "snippet": "NINDS · 1R03NS145040-01A1 · PI MEMAR, MARZIEH",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "32b0351adc08eecd",
+  "competitor": "TBI biomarker evidence",
+  "source": "NIH grant",
+  "title": "Foundation For Applied Molecular Evolutn: Analytical Validation of Tau and P-Tau as Acute and Subacute Prognostic Biomarkers for Complicated Mild TBI ($476,291)",
+  "url": "https://reporter.nih.gov/project-details/11578679",
+  "date": "2026-08-01",
+  "snippet": "NINDS · 7U01NS111680-05 · PI WANG, KEVIN KA WANG",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "f3d69bb1992eeddd",
+  "competitor": "Point-of-care & capillary sampling",
+  "source": "Publication",
+  "title": "Whole-blood point of care biomarker testing following traumatic brain injury.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42746292/",
+  "date": "2026-07-20",
+  "snippet": "Lancet regional health. Americas. Whitehouse DP, Richter S, Newcombe VFJ",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
  },
  {
   "id": "d237e4aeffab06be",
@@ -910,6 +1257,20 @@
   "stale": true,
   "first_seen": "2026-10-08T16:08:31+00:00",
   "signal": []
+ },
+ {
+  "id": "d98b187a1fdac825",
+  "competitor": "TBI biomarker evidence",
+  "source": "NIH grant",
+  "title": "Veterans Affairs Med Ctr San Francisco: Interpretable Machine Intelligence for Biomarker Discovery in Concussion",
+  "url": "https://reporter.nih.gov/project-details/11245428",
+  "date": "2026-05-01",
+  "snippet": "VA · 1IK2RD000543-01A2 · PI RADABAUGH, HANNAH LEE",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": [
+   "concussion"
+  ]
  },
  {
   "id": "ed5037a0e84cfe92",
@@ -1074,6 +1435,34 @@
   "signal": []
  },
  {
+  "id": "1c0d35949ec68881",
+  "competitor": "Point-of-care & capillary sampling",
+  "source": "NIH grant",
+  "title": "Massachusetts Institute Of Technology: A Portable, Liquid-Helium-Free 1-T/560-mm RT bore Point-of-Care MRI Magnet: Prototype Demonstration ($500,102)",
+  "url": "https://reporter.nih.gov/project-details/11333206",
+  "date": "2025-06-01",
+  "snippet": "NIBIB · 5R01EB036561-02 · PI PARK, DONGKEUN",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": [
+   "point-of-care"
+  ]
+ },
+ {
+  "id": "bb49b4019a550d1f",
+  "competitor": "Point-of-care & capillary sampling",
+  "source": "NIH grant",
+  "title": "Massachusetts Institute Of Technology: A Portable, Liquid-Helium-Free 1-T/560-mm RT bore Point-of-Care MRI Magnet: Prototype Demonstration ($514,357)",
+  "url": "https://reporter.nih.gov/project-details/11029702",
+  "date": "2025-06-01",
+  "snippet": "NIBIB · 1R01EB036561-01 · PI PARK, DONGKEUN",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": [
+   "point-of-care"
+  ]
+ },
+ {
   "id": "d13e0515a774f1b2",
   "competitor": "BrainScope",
   "source": "Clinical trial",
@@ -1185,6 +1574,18 @@
   "signal": []
  },
  {
+  "id": "25177082c593d42a",
+  "competitor": "Quanterix",
+  "source": "Federal award",
+  "title": "Department of Veterans Affairs contract to Quanterix Corporation: Complete basic service and warranty package for one simoa hd-x analyzer ($103,727)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_36C24124P0057_3600_-NONE-_-NONE-",
+  "date": "2023-11-01",
+  "snippet": "Department of Veterans Affairs · award 36C24124P0057. Complete basic service and warranty package for one simoa hd-x analyzer",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
   "id": "1b3c3a17d0ffa34c",
   "competitor": "Oculogica",
   "source": "Clinical trial",
@@ -1261,6 +1662,20 @@
   ]
  },
  {
+  "id": "7e8ea500860bd54f",
+  "competitor": "Quanterix",
+  "source": "Federal award",
+  "title": "National Institutes of Health grant to Quanterix Corporation: A point-of-care device using single molecule array (simoa) to measure viral antigens in nasal swabs, saliva, and blood - project summary/abstract the ($1,530,773)",
+  "url": "https://www.usaspending.gov/award/ASST_NON_U01EB033305_075",
+  "date": "2022-09-22",
+  "snippet": "Department of Health and Human Services · award U01EB033305. A point-of-care device using single molecule array (simoa) to measure viral antigens in nasal swabs, saliva, and blood - project summary/abstract the goal of this project is to develop a simple-to-use, low-cost, and…",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": [
+   "point-of-care"
+  ]
+ },
+ {
   "id": "032d7f3e69181635",
   "competitor": "Lab reimbursement (CMS)",
   "source": "Federal Register",
@@ -1287,6 +1702,18 @@
   "signal": []
  },
  {
+  "id": "ec3e5f155ac4011b",
+  "competitor": "Quanterix",
+  "source": "Federal award",
+  "title": "National Institutes of Health contract to Quanterix Corporation: Quanterix simoa 4-plex and singleplex 96-well plate assays ($58,414)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_75N95021P00520_7529_-NONE-_-NONE-",
+  "date": "2021-09-14",
+  "snippet": "Department of Health and Human Services · award 75N95021P00520. Quanterix simoa 4-plex and singleplex 96-well plate assays",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
   "id": "d09cded97697d96d",
   "competitor": "Oculogica",
   "source": "Clinical trial",
@@ -1299,6 +1726,18 @@
   "signal": []
  },
  {
+  "id": "815ae89496e20975",
+  "competitor": "Quanterix",
+  "source": "Federal award",
+  "title": "National Institutes of Health contract to Quanterix Corporation: Custom assay development ($54,000)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_75N98021P02395_7529_-NONE-_-NONE-",
+  "date": "2021-08-23",
+  "snippet": "Department of Health and Human Services · award 75N98021P02395. Custom assay development",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
   "id": "807a5959aecdab8d",
   "competitor": "BrainBox Solutions",
   "source": "Clinical trial",
@@ -1308,6 +1747,18 @@
   "snippet": "NCT04423198 · lead sponsor BRAINBox Solutions Inc · updated 2021-08-04",
   "stale": true,
   "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "82dc4cb96b1a1f12",
+  "competitor": "Quanterix",
+  "source": "Federal award",
+  "title": "National Institutes of Health contract to Quanterix Corporation: Covid-19 inflammatory analysis pop: 7/1/2021 - 6/30/2022 ($46,936)",
+  "url": "https://www.usaspending.gov/award/CONT_AWD_75N95021P00289_7529_-NONE-_-NONE-",
+  "date": "2021-07-01",
+  "snippet": "Department of Health and Human Services · award 75N95021P00289. Covid-19 inflammatory analysis pop: 7/1/2021 - 6/30/2022",
+  "stale": true,
+  "first_seen": "2026-10-09T17:58:55+00:00",
   "signal": []
  },
  {
