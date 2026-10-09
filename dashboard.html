@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#070c17">
+<meta name="theme-color" content="#f1f4f8">
 <title>NanoDx Competitive Intelligence</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Cpath d=%27M16 1l13.9 8v14L16 31 2.1 23V9z%27 fill=%27%2303111B%27 stroke=%27%236FCBFF%27 stroke-width=%272%27/%3E%3Cpath d=%27M10 22V10h2.6l6.8 8.2V10H22v12h-2.6l-6.8-8.2V22z%27 fill=%27%23F4F9FD%27/%3E%3C/svg%3E">
 <meta name="description" content="NanoDx competitive intelligence: TBI and point-of-care diagnostics competitors, emerging companies, FDA, trials and news.">
@@ -835,6 +835,35 @@ footer{border-top-color:rgba(255,255,255,.25)}
 :root[data-theme="light"] #xfer{background:linear-gradient(118deg,#ffffff,#eaf1fb)}
 #loader{background:linear-gradient(160deg,#060b16,#0b1630)}
 :root[data-theme="light"] #loader{background:linear-gradient(160deg,#ffffff,#eaf1fb)}
+
+/* =====================================================================
+   SOFT WHITE BACKDROP — dark panels float on a soft white page
+   ===================================================================== */
+:root,:root[data-theme="dark"]{
+  --page:radial-gradient(1200px 700px at 0% 0%,#ffffff 0%,rgba(255,255,255,0) 60%),
+         radial-gradient(1000px 700px at 100% 100%,#e3e9f2 0%,rgba(227,233,242,0) 60%),
+         linear-gradient(160deg,#fbfcfe 0%,#f1f4f8 55%,#e8edf4 100%);
+  --pageink:#0b1526; --pageink2:#3b4a60;
+  --shadow:0 1px 2px rgba(15,23,42,.10),0 14px 34px rgba(15,23,42,.22);
+}
+:root[data-theme="light"]{
+  --page:radial-gradient(1200px 700px at 0% 0%,#ffffff 0%,rgba(255,255,255,0) 60%),
+         linear-gradient(160deg,#f7f9fc 0%,#eef2f7 55%,#e6ebf2 100%);
+  --pageink:#0b1526; --pageink2:#3b4a60;
+  --line:rgba(15,23,42,.12); --line2:rgba(15,23,42,.26);
+  --shadow:0 1px 2px rgba(15,23,42,.06),0 12px 30px rgba(15,23,42,.12);
+}
+html{background:#f1f4f8}
+body{background:var(--page) fixed,#f1f4f8}
+#grid{opacity:.35;background:linear-gradient(rgba(15,23,42,.05) 1px,transparent 1px) 0 0/56px 56px,linear-gradient(90deg,rgba(15,23,42,.05) 1px,transparent 1px) 0 0/56px 56px}
+.card,.hero,.em-hero{box-shadow:var(--shadow)}
+/* text that sits on the page itself */
+footer,footer a,#count,#count a,.view > .note,section.view > p,.wrap > .note{color:var(--pageink)!important}
+footer{border-top-color:rgba(15,23,42,.14)}
+.ticker .tk{box-shadow:0 4px 14px rgba(15,23,42,.12)}
+:root[data-theme="light"] .card,:root[data-theme="light"] .hero,:root[data-theme="light"] .em-hero{border-color:rgba(15,23,42,.10)}
+#bgfield{position:fixed;inset:0;width:100vw;height:100vh;z-index:0;pointer-events:none}
+@media print{#bgfield{display:none}}
 </style>
 </head>
 <body>
@@ -843,6 +872,7 @@ footer{border-top-color:rgba(255,255,255,.25)}
   <symbol id="wm" viewBox="0 0 200 32.757"><path fill="currentColor" d="M196.806,5.846h.484l.731,1.415.726-1.415h.481v2.2h-.388V6.467l-.687,1.351h-.272l-.689-1.351V8.042h-.386Zm-2.1,0h1.8V6.22h-.689V8.042h-.425V6.22h-.687ZM173.444,16.275l-.006.008,0,0,.006-.008ZM200,32.757h-4.147l-.083-.083L179.645,16.3l1.833-1.868,8.509-8.6h4.142l-10.377,10.51ZM178.69,16.281l-2.119,2.669-2.158-2.669,2.169-2.692ZM176.281,19.8l-1.5,1.619-5.406,5.454h-4.144l9.221-9.291Zm-1.855-4.821-9.049-9.169h4.145l5.255,5.342,1.513,1.583Zm2.439-2.266,1.413-1.5,5.3-5.388h4.144l-9.02,9.125Zm1.743,4.894,15.038,15.148H189.5l-11.08-11.325-1.559-1.615Zm-5.166-1.337L163.115,5.813H158.97L169.3,16.275l-10.429,10.6h4.145l10.42-10.593,0,0ZM86.372,5.815V22.528L72.756,5.817l0,0H66.42V26.857h4.5v-16.7l13.608,16.7,0,0h6.342V5.815ZM48.543,10l-4.512,8.347h8.986ZM51.16,5.819,62.62,26.857h-4.97l0,0-2.364-4.408H41.762L39.4,26.857h-4.97l0-.008L45.888,5.815H51.16Zm79.766,17.068V4.024h12.483a10.068,10.068,0,0,1,7.26,2.646,9.2,9.2,0,0,1,2.766,6.971,9.03,9.03,0,0,1-2.58,6.656,8.914,8.914,0,0,1-6.591,2.59ZM126.468.012V26.9h17.425a14.624,14.624,0,0,0,10.026-3.563,12.229,12.229,0,0,0,4.344-9.580,12.87,12.87,0,0,0-4.1-10.009Q150.057.011,143.038.012ZM30.522,0H26.066V22.059L5.533,0H0V26.884H4.456V4.84L24.979,26.884h5.543Zm83.726,19.521c0-4.086-3.36-6.353-5.413-12.149-.106-.3-.264-.3-.367,0-2.053,5.8-5.413,8.063-5.413,12.149a5.6,5.6,0,1,0,11.192,0m7.976-3.173a10.017,10.017,0,0,1-4.391,8.393,15.162,15.162,0,0,1-9.2,2.723A15.305,15.305,0,0,1,99.4,24.742a9.964,9.964,0,0,1-4.4-8.395,9.887,9.887,0,0,1,4.429-8.335,16.531,16.531,0,0,1,18.363,0,9.942,9.942,0,0,1,4.427,8.333m-12.392,6.973a5.216,5.216,0,0,0,1.092-.116c.43-.1.5.012.12.243a4.6,4.6,0,0,1-6.99-3.927,6.5,6.5,0,0,1,.5-2.468c.164-.409.232-.382.17.054a7.285,7.285,0,0,0-.075,1.042,5.177,5.177,0,0,0,5.18,5.172"/></symbol>
 </svg>
 <div id="grid" aria-hidden="true"></div>
+<canvas id="bgfield" aria-hidden="true"></canvas>
 <!-- ================= LOADING SCREEN ================= -->
 <div id="loader" role="status" aria-live="polite">
   <div class="ld">
@@ -1322,7 +1352,7 @@ footer{border-top-color:rgba(255,255,255,.25)}
 
     renderAttention(); renderBrief(latest); renderChart(); renderRank(last30); renderDonut(last30); renderLandscape(d30);
     renderEmMini(); emCounts();
-    startNet(); renderTicker(); watchUI();
+    startNet(); startBgField(); renderTicker(); watchUI();
 
     var h = location.hash.slice(1);
     if (h.indexOf("c=") === 0) { show("companies", false); setTimeout(function(){ openCompany(decodeURIComponent(h.slice(2))); }, 900); }
@@ -1370,6 +1400,47 @@ footer{border-top-color:rgba(255,255,255,.25)}
     document.addEventListener("visibilitychange", run);
     new MutationObserver(function(){ size(); run(); }).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
     setInterval(function(){ if (curView === "overview" && onScreen && !raf && !document.hidden) { if (!W) size(); run(); } }, 500);
+  }
+
+  /* ---------- page-wide sensor field: dots drift, link up, and lock onto nanowires ---------- */
+  function startBgField(){
+    var cv = $("bgfield"); if (!cv || !cv.getContext) return;
+    var g = cv.getContext("2d"), W = 0, H = 0, rows = [], P = [], raf = 0, dark = false, sprites = [];
+    function cols(){ return dark ? ["#4DB8F0","#74d0ff","#9d7cf2"] : ["#1f6fd6","#0ea5e9","#6366f1"]; }
+    function mkSprites(){ sprites = cols().map(function(c){ var s = document.createElement("canvas"); s.width = s.height = 64; var x = s.getContext("2d"), r = x.createRadialGradient(32,32,0,32,32,32);
+      r.addColorStop(0, c); r.addColorStop(1, "rgba(0,0,0,0)"); x.fillStyle = r; x.fillRect(0,0,64,64); return s; }); }
+    function mk(){ return {x: Math.random() * W, y: Math.random() * H, vx: (Math.random() * .35 + .08) * (Math.random() < .5 ? -1 : 1), vy: (Math.random() - .5) * .18, k: Math.random() * 3 | 0, b: 0, l: 0, r: 0}; }
+    function size(){
+      var d = 1; W = innerWidth; H = innerHeight; cv.width = W * d; cv.height = H * d; g.setTransform(d,0,0,d,0,0);
+      rows = []; for (var y = 64; y < H; y += 64) rows.push(y);
+      P = []; var n = W < 700 ? 16 : Math.min(48, Math.round(W / 32)); for (var i = 0; i < n; i++) P.push(mk());
+      dark = false; mkSprites();
+    }
+    function draw(){
+      var C = cols(); g.clearRect(0, 0, W, H);
+      g.lineWidth = 1;
+      for (var r = 0; r < rows.length; r++) { g.strokeStyle = "rgba(31,111,214," + (r % 3 ? .07 : .15) + ")"; g.beginPath(); g.moveTo(0, rows[r] + .5); g.lineTo(W, rows[r] + .5); g.stroke(); }
+      for (var i = 0; i < P.length; i++) { var p = P[i];
+        for (var j = i + 1; j < P.length; j++) { var q = P[j], dx = p.x - q.x, dy = (p.b ? p.r : p.y) - (q.b ? q.r : q.y), dd = dx * dx + dy * dy;
+          if (dd < 16000) { g.strokeStyle = "rgba(31,111,214," + (.24 * (1 - dd / 16000)) + ")"; g.beginPath(); g.moveTo(p.x, p.b ? p.r : p.y); g.lineTo(q.x, q.b ? q.r : q.y); g.stroke(); } }
+        if (p.b) { p.l--; if (p.l <= 0) { P[i] = mk(); continue; } var a = Math.min(1, p.l / 40);
+          g.globalAlpha = .45 * a; g.drawImage(sprites[p.k], p.x - 30, p.r - 30, 60, 60);
+          g.globalAlpha = .55 * a; g.fillStyle = C[p.k]; g.fillRect(p.x - 50, p.r, 100, 1.2);
+          g.globalAlpha = a; g.fillRect(p.x - 2.5, p.r - 2.5, 5, 5);
+        } else {
+          if (!RM) { p.x += p.vx; p.y += p.vy; }
+          if (p.x < -10) p.x = W + 10; if (p.x > W + 10) p.x = -10; if (p.y < 0 || p.y > H) p.vy *= -1;
+          for (var k = 0; k < rows.length; k++) if (Math.abs(p.y - rows[k]) < .5 && Math.random() < .05) { p.b = 1; p.r = rows[k]; p.l = 170; break; }
+          g.globalAlpha = .8; g.fillStyle = C[p.k]; g.beginPath(); g.arc(p.x, p.y, 2.4, 0, 6.283); g.fill();
+        }
+      }
+      g.globalAlpha = 1;
+    }
+    var odd = false;
+    function tick(){ if (document.hidden) { raf = 0; return; } odd = !odd; if (odd) draw(); raf = requestAnimationFrame(tick); }
+    size(); if (RM) { draw(); } else raf = requestAnimationFrame(tick);
+    var rt; addEventListener("resize", function(){ clearTimeout(rt); rt = setTimeout(function(){ size(); if (RM) draw(); }, 150); });
+    document.addEventListener("visibilitychange", function(){ if (!document.hidden && !raf && !RM) raf = requestAnimationFrame(tick); });
   }
 
   /* ---------- overview widgets ---------- */
