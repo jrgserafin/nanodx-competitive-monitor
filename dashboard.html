@@ -860,6 +860,22 @@ summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
 .card.inview h2.h .ico svg.i,.kpi.inview .ic svg.i{stroke-dasharray:1;animation:icDraw 1s .15s cubic-bezier(.6,0,.2,1) both}
 @media (prefers-reduced-motion: reduce){.card.inview h2.h .ico svg.i,.kpi.inview .ic svg.i{animation:none;stroke-dasharray:none}}
 @media (max-width:640px){nav.tabs .tab-i{display:none}}
+
+/* intro music button */
+#soundBtn{position:relative;justify-content:center}
+#soundBtn .s-on,#soundBtn .eq{display:none}
+#soundBtn.on .s-off{display:none}
+#soundBtn.on .eq{display:flex}
+#soundBtn.on .s-on{display:inline-block}
+#soundBtn.on .s-off{display:none}
+#soundBtn .eq{position:absolute;right:5px;bottom:6px;gap:1.5px;align-items:flex-end;height:8px}
+#soundBtn .eq i{width:2px;background:var(--cyan);animation:eqb .9s ease-in-out infinite}
+#soundBtn .eq i:nth-child(2){animation-delay:-.3s}#soundBtn .eq i:nth-child(3){animation-delay:-.6s}
+@keyframes eqb{0%,100%{height:2px}50%{height:8px}}
+#soundBtn.on svg.i{color:var(--cyan)}
+#soundBtn.nudge{animation:nudge 1.6s ease-in-out infinite}
+@keyframes nudge{50%{box-shadow:0 0 0 4px rgba(116,208,255,.25),0 0 18px rgba(116,208,255,.45)}}
+@media (prefers-reduced-motion: reduce){#soundBtn .eq i,#soundBtn.nudge{animation:none}}
 </style>
 </head>
 <body>
@@ -897,6 +913,8 @@ summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
   <symbol id="i-pulse" viewBox="0 0 24 24"><path pathLength="1" d="M2.5 12h4l2.5-6.5 4.5 13 2.5-6.5h5.5"/></symbol>
   <symbol id="i-grid" viewBox="0 0 24 24"><path pathLength="1" d="M3.5 3.5h7v7h-7zM13.5 3.5h7v7h-7zM3.5 13.5h7v7h-7z"/><path fill="currentColor" stroke="none" d="M13.5 13.5h7v7h-7z"/></symbol>
   <symbol id="i-building" viewBox="0 0 24 24"><path pathLength="1" d="M4.5 21V6.5L12 3v18M12 9h7.5v12M2.5 21h19M7.5 9h1.5M7.5 12.5h1.5M7.5 16h1.5M15 12.5h1.5M15 16h1.5"/></symbol>
+  <symbol id="i-sound" viewBox="0 0 24 24"><path pathLength="1" d="M3.5 9h4l5-4.5v15l-5-4.5h-4z"/><path pathLength="1" d="M16 9a4 4 0 0 1 0 6M18.6 6.4a7.5 7.5 0 0 1 0 11.2"/></symbol>
+  <symbol id="i-mute" viewBox="0 0 24 24"><path pathLength="1" d="M3.5 9h4l5-4.5v15l-5-4.5h-4z"/><path pathLength="1" d="M16 9.5l5 5M21 9.5l-5 5"/></symbol>
   <symbol id="i-help" viewBox="0 0 24 24"><circle pathLength="1" cx="12" cy="12" r="9"/><path pathLength="1" d="M9.5 9.5a2.5 2.5 0 1 1 3.6 2.25c-.7.35-1.1.9-1.1 1.75v.5"/><circle fill="currentColor" stroke="none" cx="12" cy="17" r="1.2"/></symbol>
 </svg>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -923,6 +941,8 @@ summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
     <div class="pc" id="pc"><b>01</b> / 06</div>
     <span class="status" title="Source status"><span class="dot" id="dot"></span><span id="statusTxt">Loading…</span></span>
     <a class="btn primary" id="runLink" href="#" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-play"/></svg>Run a lookup</a>
+    <button class="btn icon-btn" id="soundBtn" type="button" aria-pressed="false" aria-label="Intro music" title="Intro music on / off"><svg class="i s-on" aria-hidden="true"><use href="#i-sound"/></svg><svg class="i s-off" aria-hidden="true"><use href="#i-mute"/></svg><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span></button>
+    <audio id="intro" src="assets/intro.mp3" preload="auto"></audio>
     <button class="btn icon-btn" id="themeBtn" type="button" aria-label="Switch light or dark mode" title="Light / dark">
       <svg class="i t-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="i t-moon" aria-hidden="true"><use href="#i-moon"/></svg>
     </button>
@@ -1169,6 +1189,40 @@ summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
     };
     go();
   }
+
+
+  /* ---------- intro music: plays once per visit; browsers that block sound start it on the first click/key ---------- */
+  (function(){
+    var a = $("intro"), btn = $("soundBtn"), VOL = .9, LEN = 24, armed = false, fadeT, outing = false;
+    if (!a || !btn) return;
+    var pref = null; try { pref = localStorage.getItem("ndx-sound"); } catch(e){}
+    var played = false; try { played = sessionStorage.getItem("ndx-intro") === "1"; } catch(e){}
+    function ui(){ var on = !a.paused && !a.muted; btn.classList.toggle("on", on); btn.setAttribute("aria-pressed", on ? "true" : "false"); }
+    function fadeTo(v, ms, done){ clearInterval(fadeT); var from = a.volume, t0 = performance.now();
+      fadeT = setInterval(function(){ var k = Math.min(1, (performance.now() - t0) / ms); a.volume = from + (v - from) * k; if (k >= 1) { clearInterval(fadeT); if (done) done(); } }, 40); }
+    function start(){
+      a.muted = false; a.volume = 0;
+      var p = a.play();
+      if (p && p.then) p.then(function(){ disarm(); btn.classList.remove("nudge"); try { sessionStorage.setItem("ndx-intro", "1"); } catch(e){} fadeTo(VOL, 900); ui(); },
+                           function(){ arm(); btn.classList.add("nudge"); ui(); });
+    }
+    function stop(){ fadeTo(0, 400, function(){ a.pause(); ui(); }); }
+    function onFirst(e){ if (e.target && e.target.closest && e.target.closest("#soundBtn")) return; if (e.type === "keydown" && e.key === "Escape") return; start(); }
+    var EV = ["pointerdown", "keydown", "touchend"];
+    function arm(){ if (armed) return; armed = true; EV.forEach(function(t){ addEventListener(t, onFirst, true); }); }
+    function disarm(){ armed = false; EV.forEach(function(t){ removeEventListener(t, onFirst, true); }); }
+    btn.onclick = function(){
+      disarm(); btn.classList.remove("nudge");
+      if (!a.paused && !a.muted) { stop(); try { localStorage.setItem("ndx-sound", "off"); } catch(e){} }
+      else { if (a.ended || a.currentTime > LEN - 5) a.currentTime = 0; outing = false; try { localStorage.setItem("ndx-sound", "on"); } catch(e){} start(); }
+    };
+    a.addEventListener("timeupdate", function(){
+      if (!outing && a.currentTime >= LEN - 4.5 && !a.paused) { outing = true; fadeTo(0, 4300, function(){ a.pause(); a.currentTime = 0; outing = false; ui(); }); }
+    });
+    a.addEventListener("ended", ui); a.addEventListener("pause", ui); a.addEventListener("play", ui);
+    document.addEventListener("visibilitychange", function(){ if (document.hidden && !a.paused) a.pause(); });
+    if (pref !== "off" && !played) start(); else ui();
+  })();
 
   /* ---------- theme / links ---------- */
   try { var th = localStorage.getItem("ndx-theme2"); document.documentElement.dataset.theme = th === "light" ? "light" : "dark"; } catch(e){}

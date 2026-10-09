@@ -23,6 +23,7 @@ Automated competitive intelligence for NanoDx, run by GitHub Actions:
 | Stop a company appearing as "emerging" | Add its name to `emerging: ignore:` (or as an `aliases:` entry on the matching competitor) |
 | Hide a kind of junk headline | Add a regular expression to `settings: exclude_title_patterns:` |
 | Change who gets the email | Update the `DIGEST_RECIPIENTS` secret |
+| Change or remove the intro music | Replace `assets/intro.mp3` (keep it short and small), or delete it. Visitors can switch it off with the speaker button; the choice is remembered |
 | Change the schedule | Edit the `cron` line in `.github/workflows/monitor.yml` (times are UTC) |
 
 ## One-time setup: email secrets

@@ -1366,6 +1366,8 @@ def build_site():
         if not f.exists():
             f.parent.mkdir(parents=True, exist_ok=True)
             f.write_text(json.dumps(val))
+    if (ROOT / "assets").exists():
+        shutil.copytree(ROOT / "assets", out / "assets")
     (out / ".nojekyll").write_text("")
     print(f"Site built in {out}")
 
