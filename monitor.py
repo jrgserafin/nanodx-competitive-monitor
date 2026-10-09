@@ -1357,6 +1357,15 @@ def build_site():
     (out / "index.html").write_text(page)
     if DATA.exists():
         shutil.copytree(DATA, out / "data", ignore=shutil.ignore_patterns("pages", "email-preview.html", "state.json"))
+    # every file the dashboard asks for exists, even before the first weekly run (no 404s in the browser)
+    defaults = {"items.json": [], "competitors.json": [], "health.json": {"sources": []}, "battlecards.json": {},
+                "regulatory.json": {}, "jobs.json": {}, "alerts.json": [], "emerging.json": {"companies": [], "news": []},
+                "digests/index.json": [], "weekly/index.json": []}
+    for rel, val in defaults.items():
+        f = out / "data" / rel
+        if not f.exists():
+            f.parent.mkdir(parents=True, exist_ok=True)
+            f.write_text(json.dumps(val))
     (out / ".nojekyll").write_text("")
     print(f"Site built in {out}")
 

@@ -46,35 +46,14 @@ button{font:inherit}
 #loader{position:fixed;inset:0;z-index:100;display:grid;place-items:center;background:radial-gradient(1000px 600px at 50% 40%,#0f1d3a,#050a14 70%);transition:opacity .6s ease,visibility .6s}
 :root[data-theme="light"] #loader{background:radial-gradient(1000px 600px at 50% 40%,#ffffff,#e6edf8 70%)}
 #loader.done{opacity:0;visibility:hidden}
-#loader .box{display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center;padding:24px;transition:transform .6s ease}
-#loader.done .box{transform:scale(1.06)}
-.orb{width:180px;height:180px;position:relative}
-.orb svg{width:100%;height:100%;overflow:visible}
-.orb .ring{fill:none;stroke:var(--line2);stroke-width:1}
-.orb .arc{fill:none;stroke:url(#lgA);stroke-width:2.5;stroke-linecap:round;transform-origin:90px 90px}
-.orb .a1{stroke-dasharray:120 400;animation:spin 2.2s linear infinite}
-.orb .a2{stroke-dasharray:70 300;animation:spin 3.4s linear infinite reverse}
-.orb .a3{stroke-dasharray:40 220;animation:spin 1.6s linear infinite}
-.orb .sweep{transform-origin:90px 90px;animation:spin 2.8s linear infinite}
-.orb .node{fill:var(--cyan);animation:blink 2s ease-in-out infinite}
-.orb .edge{stroke:var(--brand);stroke-width:1;opacity:.5;stroke-dasharray:60;stroke-dashoffset:60;animation:drawE 2.4s ease-in-out infinite}
-.orb .core{fill:url(#lgA)}
-.orb text{font:800 34px Inter,sans-serif;fill:#fff}
 @keyframes spin{to{transform:rotate(360deg)}}
 @keyframes blink{0%,100%{opacity:.25}50%{opacity:1}}
-@keyframes drawE{0%{stroke-dashoffset:60}50%{stroke-dashoffset:0}100%{stroke-dashoffset:-60}}
-#loader h1{margin:0;font-size:22px;font-weight:700;letter-spacing:-.01em;color:var(--ink)}
-#loader h1 span{background:linear-gradient(90deg,var(--cyan),var(--brand),var(--brand2));-webkit-background-clip:text;background-clip:text;color:transparent}
-.lstep{font-size:13px;color:var(--ink3);height:20px}
-.lbar{width:260px;height:4px;border-radius:4px;background:var(--line);overflow:hidden}
-.lbar i{display:block;height:100%;width:0;border-radius:4px;background:linear-gradient(90deg,var(--cyan),var(--brand),var(--brand2));transition:width .35s ease}
+
 
 /* ================= HEADER ================= */
 header.top{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 80%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .bar{max-width:1240px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:11px;margin-right:auto;min-width:0;text-decoration:none}
-.logo{width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,var(--cyan),var(--brand) 45%,var(--brand2));display:grid;place-items:center;color:#fff;font-weight:800;box-shadow:0 6px 20px rgba(79,140,255,.4);position:relative;overflow:hidden}
-.logo::after{content:"";position:absolute;inset:-40%;background:linear-gradient(115deg,transparent 40%,rgba(255,255,255,.45) 50%,transparent 60%);animation:shine 4.5s ease-in-out infinite}
 @keyframes shine{0%,70%{transform:translateX(-60%)}100%{transform:translateX(60%)}}
 .brand b{display:block;font-size:15px;line-height:1.2}
 .brand span{display:block;font-size:12px;color:var(--ink3)}
@@ -354,10 +333,7 @@ body{font:400 15px/1.6 var(--font);background:var(--bg)}
 #grid{position:fixed;inset:0;z-index:0;pointer-events:none;
   background:linear-gradient(var(--gridl) 1px,transparent 1px) 0 0/56px 56px,linear-gradient(90deg,var(--gridl) 1px,transparent 1px) 0 0/56px 56px;
   opacity:.16;-webkit-mask-image:radial-gradient(80% 60% at 50% 20%,#000,transparent 75%);mask-image:radial-gradient(80% 60% at 50% 20%,#000,transparent 75%)}
-.wrap{z-index:1}
-
-/* squared geometry everywhere */
-.logo,.status,.btn,.card,h2.h .ico,code,.hero,.chip,.kpi .ic,.item,.item .edge,.tag,.sig,.legend i,.tip,.dleg i,.track,.fill,.seg,.seg button,
+.wrap{z-index:1}.status,.btn,.card,h2.h .ico,code,.hero,.chip,.kpi .ic,.item,.item .edge,.tag,.sig,.legend i,.tip,.dleg i,.track,.fill,.seg,.seg button,
 .search input,select,.tog,.co-card .av,.tier,.cov span,.em-hero,.em-card .why span,.dh .av,.mini div,.threat,.pill,.step .n,.sk,.toast,nav.tabs .new,nav.tabs .ink{border-radius:0!important}
 
 /* ---------- header ---------- */
@@ -846,10 +822,83 @@ footer{border-top-color:rgba(255,255,255,.25)}
 .em-card .ft{margin-top:auto}
 #bgfield{position:fixed;inset:0;width:100vw;height:100vh;z-index:0;pointer-events:none}
 @media print{#bgfield{display:none}}
+
+/* =====================================================================
+   NANODX ICON SET — custom 24px line icons, one stroke weight, sensor-node accents
+   ===================================================================== */
+svg.i{width:1.1em;height:1.1em;flex:none;display:inline-block;vertical-align:-.18em;overflow:visible;
+  fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:8}
+.btn svg.i{width:16px;height:16px;margin-right:7px;vertical-align:-3px}
+.btn.icon-btn svg.i,#toTop svg.i{margin:0;width:17px;height:17px}
+h2.h .ico svg.i{width:14px;height:14px;stroke-width:2}
+.kpi .ic svg.i{width:21px;height:21px;stroke-width:1.9}
+.search svg.i{stroke-width:2}
+#themeBtn{justify-content:center}
+#themeBtn .t-sun{display:none}
+:root[data-theme="light"] #themeBtn .t-sun{display:inline-block}
+:root[data-theme="light"] #themeBtn .t-moon{display:none}
+#themeBtn:hover svg.i{transform:rotate(-18deg);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+nav.tabs button{display:inline-flex;align-items:center}
+nav.tabs .tab-i{width:15px;height:15px;margin-right:8px;opacity:.75;transition:opacity .2s,transform .3s cubic-bezier(.2,.8,.2,1)}
+nav.tabs button[aria-selected="true"] .tab-i{opacity:1;color:var(--cyan);filter:drop-shadow(0 0 6px rgba(116,208,255,.55))}
+:root[data-theme="light"] nav.tabs button[aria-selected="true"] .tab-i{filter:none}
+nav.tabs button:hover .tab-i{transform:translateY(-1px);opacity:1}
+.lnk{display:inline-flex;align-items:center;gap:6px}
+.lnk .go{width:14px;height:14px;transition:transform .25s cubic-bezier(.2,.8,.2,1)}
+.lnk:hover .go{transform:translateX(3px)}
+.sig svg.i{width:12px;height:12px;stroke-width:2.2;margin-right:2px}
+.facts span{display:inline-flex;align-items:center;gap:5px}
+.facts svg.i{width:13px;height:13px;color:var(--cyan)}
+.sub a svg.i{width:12px;height:12px;margin-left:3px;vertical-align:-1px}
+td a svg.i{width:12px;height:12px;margin-left:2px;vertical-align:-1px}
+svg.delta{width:10px;height:10px;margin-right:5px;vertical-align:0}
+summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
+#dClose:hover svg.i{transform:rotate(90deg);transition:transform .3s cubic-bezier(.2,.8,.2,1)}
+#toTop:hover svg.i{transform:translateY(-2px);transition:transform .25s}
+/* icons draw themselves in as their card scrolls into view */
+@keyframes icDraw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+.card.inview h2.h .ico svg.i,.kpi.inview .ic svg.i{stroke-dasharray:1;animation:icDraw 1s .15s cubic-bezier(.6,0,.2,1) both}
+@media (prefers-reduced-motion: reduce){.card.inview h2.h .ico svg.i,.kpi.inview .ic svg.i{animation:none;stroke-dasharray:none}}
+@media (max-width:640px){nav.tabs .tab-i{display:none}}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" id="iconset">
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M7.5 4.5v15l12-7.5z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle pathLength="1" cx="12" cy="12" r="4"/><path pathLength="1" d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path pathLength="1" d="M19.5 14.5A8 8 0 1 1 9.5 4.5a6.5 6.5 0 0 0 10 10z"/><circle fill="currentColor" stroke="none" cx="17.5" cy="5.5" r="1.4"/></symbol>
+  <symbol id="i-digest" viewBox="0 0 24 24"><path pathLength="1" d="M5 3h10l4 4v14H5z"/><path pathLength="1" d="M15 3v4h4M8.5 11.5h7M8.5 15h7M8.5 18h4"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path pathLength="1" d="M13.5 2.5 4.5 13.5H11l-1 8 9-11h-6.5z"/></symbol>
+  <symbol id="i-bell" viewBox="0 0 24 24"><path pathLength="1" d="M6 16.5V10a6 6 0 0 1 12 0v6.5l2 2H4z"/><path pathLength="1" d="M10 21.5h4"/><circle fill="currentColor" stroke="none" cx="18.5" cy="4.5" r="2"/></symbol>
+  <symbol id="i-hexcheck" viewBox="0 0 24 24"><path pathLength="1" d="M12 2.5 20.5 7.25v9.5L12 21.5 3.5 16.75v-9.5z"/><path pathLength="1" d="m8.5 12 2.5 2.5 4.5-5"/></symbol>
+  <symbol id="i-landscape" viewBox="0 0 24 24"><path pathLength="1" d="M3 3v18h18"/><circle pathLength="1" cx="9" cy="14.5" r="2.5"/><circle pathLength="1" cx="15" cy="8.5" r="3.5"/><circle fill="currentColor" stroke="none" cx="18.5" cy="16" r="1.6"/></symbol>
+  <symbol id="i-donut" viewBox="0 0 24 24"><circle pathLength="1" cx="12" cy="12" r="8.5"/><circle pathLength="1" cx="12" cy="12" r="3.8"/><path pathLength="1" d="M12 3.5v4.7M20.1 14.6l-4.5-1.4M6 18l3.2-3.3"/></symbol>
+  <symbol id="i-brief" viewBox="0 0 24 24"><path pathLength="1" d="M6 3h12v18l-6-4-6 4z"/><path pathLength="1" d="M9.5 8h5M9.5 11.5h3"/></symbol>
+  <symbol id="i-radar" viewBox="0 0 24 24"><circle pathLength="1" cx="12" cy="12" r="9"/><circle pathLength="1" cx="12" cy="12" r="4.5"/><path pathLength="1" d="M12 12l6.4-6.4"/><circle fill="currentColor" stroke="none" cx="15.5" cy="15" r="1.6"/></symbol>
+  <symbol id="i-bars" viewBox="0 0 24 24"><path pathLength="1" d="M3.5 13h4v7.5h-4zM10 8h4v12.5h-4zM16.5 3.5h4v17h-4z"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle pathLength="1" cx="10.5" cy="10.5" r="6.5"/><path pathLength="1" d="m15.5 15.5 5 5"/></symbol>
+  <symbol id="i-broadcast" viewBox="0 0 24 24"><path pathLength="1" d="M4.5 9.5a10.5 10.5 0 0 1 15 0M7.6 12.6a6 6 0 0 1 8.8 0M12 17.5v4"/><circle fill="currentColor" stroke="none" cx="12" cy="16" r="1.8"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path pathLength="1" d="M4 12h15M14 6.5l5.5 5.5-5.5 5.5"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path pathLength="1" d="M7 17 17 7M9.5 7H17v7.5"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path pathLength="1" d="M12 3.5v11M7 10l5 5 5-5M4 19.5h16"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path pathLength="1" d="M12 20V5M6 10.5l6-6 6 6"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path pathLength="1" d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path pathLength="1" d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path pathLength="1" d="M12 21.5s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/><circle fill="currentColor" stroke="none" cx="12" cy="10.5" r="2.2"/></symbol>
+  <symbol id="i-stage" viewBox="0 0 24 24"><path pathLength="1" d="M12 2.5 20.5 7.25v9.5L12 21.5 3.5 16.75v-9.5z"/><circle fill="currentColor" stroke="none" cx="12" cy="12" r="2.6"/></symbol>
+  <symbol id="i-tup" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 5.5 20 18.5H4z"/></symbol>
+  <symbol id="i-tdown" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 18.5 4 5.5h16z"/></symbol>
+  <symbol id="i-flat" viewBox="0 0 24 24"><path pathLength="1" d="M5 12h14"/></symbol>
+  <symbol id="i-print" viewBox="0 0 24 24"><path pathLength="1" d="M7 8V3h10v5M7 17H3.5V8h17v9H17M7 13.5h10V21H7z"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><path pathLength="1" d="M3.5 5h17v15.5h-17zM3.5 9.5h17M8 2.5v4M16 2.5v4"/><circle fill="currentColor" stroke="none" cx="8.5" cy="14.5" r="1.6"/></symbol>
+  <symbol id="i-inbox" viewBox="0 0 24 24"><path pathLength="1" d="M3.5 13.5 6 4.5h12l2.5 9v6.5h-17zM3.5 13.5H9l1.5 2.5h3l1.5-2.5h5.5"/></symbol>
+  <symbol id="i-cycle" viewBox="0 0 24 24"><path pathLength="1" d="M20 12a8 8 0 0 1-14.3 4.9M4 12a8 8 0 0 1 14.3-4.9M18.5 2.5V7H14M5.5 21.5V17H10"/></symbol>
+  <symbol id="i-pulse" viewBox="0 0 24 24"><path pathLength="1" d="M2.5 12h4l2.5-6.5 4.5 13 2.5-6.5h5.5"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><path pathLength="1" d="M3.5 3.5h7v7h-7zM13.5 3.5h7v7h-7zM3.5 13.5h7v7h-7z"/><path fill="currentColor" stroke="none" d="M13.5 13.5h7v7h-7z"/></symbol>
+  <symbol id="i-building" viewBox="0 0 24 24"><path pathLength="1" d="M4.5 21V6.5L12 3v18M12 9h7.5v12M2.5 21h19M7.5 9h1.5M7.5 12.5h1.5M7.5 16h1.5M15 12.5h1.5M15 16h1.5"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle pathLength="1" cx="12" cy="12" r="9"/><path pathLength="1" d="M9.5 9.5a2.5 2.5 0 1 1 3.6 2.25c-.7.35-1.1.9-1.1 1.75v.5"/><circle fill="currentColor" stroke="none" cx="12" cy="17" r="1.2"/></symbol>
+</svg>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="wm" viewBox="0 0 200 32.757"><path fill="currentColor" d="M196.806,5.846h.484l.731,1.415.726-1.415h.481v2.2h-.388V6.467l-.687,1.351h-.272l-.689-1.351V8.042h-.386Zm-2.1,0h1.8V6.22h-.689V8.042h-.425V6.22h-.687ZM173.444,16.275l-.006.008,0,0,.006-.008ZM200,32.757h-4.147l-.083-.083L179.645,16.3l1.833-1.868,8.509-8.6h4.142l-10.377,10.51ZM178.69,16.281l-2.119,2.669-2.158-2.669,2.169-2.692ZM176.281,19.8l-1.5,1.619-5.406,5.454h-4.144l9.221-9.291Zm-1.855-4.821-9.049-9.169h4.145l5.255,5.342,1.513,1.583Zm2.439-2.266,1.413-1.5,5.3-5.388h4.144l-9.02,9.125Zm1.743,4.894,15.038,15.148H189.5l-11.08-11.325-1.559-1.615Zm-5.166-1.337L163.115,5.813H158.97L169.3,16.275l-10.429,10.6h4.145l10.42-10.593,0,0ZM86.372,5.815V22.528L72.756,5.817l0,0H66.42V26.857h4.5v-16.7l13.608,16.7,0,0h6.342V5.815ZM48.543,10l-4.512,8.347h8.986ZM51.16,5.819,62.62,26.857h-4.97l0,0-2.364-4.408H41.762L39.4,26.857h-4.97l0-.008L45.888,5.815H51.16Zm79.766,17.068V4.024h12.483a10.068,10.068,0,0,1,7.26,2.646,9.2,9.2,0,0,1,2.766,6.971,9.03,9.03,0,0,1-2.58,6.656,8.914,8.914,0,0,1-6.591,2.59ZM126.468.012V26.9h17.425a14.624,14.624,0,0,0,10.026-3.563,12.229,12.229,0,0,0,4.344-9.580,12.87,12.87,0,0,0-4.1-10.009Q150.057.011,143.038.012ZM30.522,0H26.066V22.059L5.533,0H0V26.884H4.456V4.84L24.979,26.884h5.543Zm83.726,19.521c0-4.086-3.36-6.353-5.413-12.149-.106-.3-.264-.3-.367,0-2.053,5.8-5.413,8.063-5.413,12.149a5.6,5.6,0,1,0,11.192,0m7.976-3.173a10.017,10.017,0,0,1-4.391,8.393,15.162,15.162,0,0,1-9.2,2.723A15.305,15.305,0,0,1,99.4,24.742a9.964,9.964,0,0,1-4.4-8.395,9.887,9.887,0,0,1,4.429-8.335,16.531,16.531,0,0,1,18.363,0,9.942,9.942,0,0,1,4.427,8.333m-12.392,6.973a5.216,5.216,0,0,0,1.092-.116c.43-.1.5.012.12.243a4.6,4.6,0,0,1-6.99-3.927,6.5,6.5,0,0,1,.5-2.468c.164-.409.232-.382.17.054a7.285,7.285,0,0,0-.075,1.042,5.177,5.177,0,0,0,5.18,5.172"/></symbol>
 </svg>
@@ -873,19 +922,19 @@ footer{border-top-color:rgba(255,255,255,.25)}
     </a>
     <div class="pc" id="pc"><b>01</b> / 06</div>
     <span class="status" title="Source status"><span class="dot" id="dot"></span><span id="statusTxt">Loading…</span></span>
-    <a class="btn primary" id="runLink" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M4.5 2.8v10.4L13 8z"/></svg>Run a lookup</a>
+    <a class="btn primary" id="runLink" href="#" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-play"/></svg>Run a lookup</a>
     <button class="btn icon-btn" id="themeBtn" type="button" aria-label="Switch light or dark mode" title="Light / dark">
-      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="3.2"/><path d="M8 1v1.6M8 13.4V15M1 8h1.6M13.4 8H15M3 3l1.1 1.1M11.9 11.9 13 13M3 13l1.1-1.1M11.9 4.1 13 3"/></svg>
+      <svg class="i t-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="i t-moon" aria-hidden="true"><use href="#i-moon"/></svg>
     </button>
   </div>
   <nav class="tabs" role="tablist" aria-label="Sections">
     <div class="wrapper">
-      <button role="tab" data-tab="overview" aria-selected="true">Overview</button>
-      <button role="tab" data-tab="companies" aria-selected="false">Companies</button>
-      <button role="tab" data-tab="emerging" aria-selected="false">Emerging competitors <span class="new" id="emBadge" hidden>0</span></button>
-      <button role="tab" data-tab="activity" aria-selected="false">Activity</button>
-      <button role="tab" data-tab="reports" aria-selected="false">Reports</button>
-      <button role="tab" data-tab="help" aria-selected="false">Help</button>
+      <button role="tab" data-tab="overview" aria-selected="true"><svg class="i tab-i" aria-hidden="true"><use href="#i-grid"/></svg>Overview</button>
+      <button role="tab" data-tab="companies" aria-selected="false"><svg class="i tab-i" aria-hidden="true"><use href="#i-building"/></svg>Companies</button>
+      <button role="tab" data-tab="emerging" aria-selected="false"><svg class="i tab-i" aria-hidden="true"><use href="#i-radar"/></svg>Emerging competitors <span class="new" id="emBadge" hidden>0</span></button>
+      <button role="tab" data-tab="activity" aria-selected="false"><svg class="i tab-i" aria-hidden="true"><use href="#i-pulse"/></svg>Activity</button>
+      <button role="tab" data-tab="reports" aria-selected="false"><svg class="i tab-i" aria-hidden="true"><use href="#i-inbox"/></svg>Reports</button>
+      <button role="tab" data-tab="help" aria-selected="false"><svg class="i tab-i" aria-hidden="true"><use href="#i-help"/></svg>Help</button>
       <span class="ink" id="ink"></span>
     </div>
   </nav>
@@ -915,45 +964,45 @@ footer{border-top-color:rgba(255,255,255,.25)}
     </div>
 
     <div class="grid g4 mt">
-      <div class="card kpi reveal" style="--i:1"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg></div><div><div class="l">New in latest digest</div><div class="v" id="kNew">0</div><div class="s" id="kNewS">&nbsp;</div></div></div>
-      <div class="card kpi hot reveal" style="--i:2"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg></div><div><div class="l">Key moves · 30 days</div><div class="v" id="kSig">0</div><div class="s">FDA decisions, launches, deals</div></div></div>
-      <div class="card kpi alert reveal" style="--i:3"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21a2 2 0 0 0 4 0"/></svg></div><div><div class="l">Alerts · 7 days</div><div class="v" id="kAlerts">0</div><div class="s">sent as instant emails</div></div></div>
-      <div class="card kpi cov reveal" style="--i:4"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></div><div><div class="l">Companies monitored</div><div class="v" id="kCos">0</div><div class="s" id="kCosS">&nbsp;</div></div></div>
+      <div class="card kpi reveal" style="--i:1"><div class="ic"><svg class="i" aria-hidden="true"><use href="#i-digest"/></svg></div><div><div class="l">New in latest digest</div><div class="v" id="kNew">0</div><div class="s" id="kNewS">&nbsp;</div></div></div>
+      <div class="card kpi hot reveal" style="--i:2"><div class="ic"><svg class="i" aria-hidden="true"><use href="#i-bolt"/></svg></div><div><div class="l">Key moves · 30 days</div><div class="v" id="kSig">0</div><div class="s">FDA decisions, launches, deals</div></div></div>
+      <div class="card kpi alert reveal" style="--i:3"><div class="ic"><svg class="i" aria-hidden="true"><use href="#i-bell"/></svg></div><div><div class="l">Alerts · 7 days</div><div class="v" id="kAlerts">0</div><div class="s">sent as instant emails</div></div></div>
+      <div class="card kpi cov reveal" style="--i:4"><div class="ic"><svg class="i" aria-hidden="true"><use href="#i-hexcheck"/></svg></div><div><div class="l">Companies monitored</div><div class="v" id="kCos">0</div><div class="s" id="kCosS">&nbsp;</div></div></div>
     </div>
 
     <div class="grid g2b mt">
       <div class="card pad reveal" style="--i:5">
-        <h2 class="h"><span class="ttl"><span class="ico"><svg viewBox="0 0 16 16" fill="currentColor"><circle cx="4" cy="11" r="2.5"/><circle cx="10" cy="6" r="3.5"/><circle cx="13.5" cy="12" r="1.8"/></svg></span>Competitive landscape</span><span class="note">Company stage vs. activity · bubble size = sources watched</span></h2>
+        <h2 class="h"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-landscape"/></svg></span>Competitive landscape</span><span class="note">Company stage vs. activity · bubble size = sources watched</span></h2>
         <div class="chart" id="land" role="img" aria-label="Bubble chart of competitors by company stage and 30-day activity"></div>
         <div class="legend" id="landLeg"></div>
       </div>
       <div class="card pad reveal" style="--i:6">
-        <h2 class="h"><span class="ttl"><span class="ico"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="8" r="5.5"/></svg></span>Where signals come from</span><span class="note">30 days</span></h2>
+        <h2 class="h"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-donut"/></svg></span>Where signals come from</span><span class="note">30 days</span></h2>
         <div class="donut" id="donut"></div>
-        <h2 class="h" style="margin-top:18px"><span class="ttl">Most active</span><button type="button" class="lnk" data-go="companies">All companies →</button></h2>
+        <h2 class="h" style="margin-top:18px"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-pulse"/></svg></span>Most active</span><button type="button" class="lnk" data-go="companies">All companies <svg class="i go" aria-hidden="true"><use href="#i-arrow"/></svg></button></h2>
         <div class="rank" id="rank"></div>
       </div>
     </div>
 
     <div class="grid g2 mt">
       <div class="card pad reveal" style="--i:7">
-        <h2 class="h"><span class="ttl"><span class="ico"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M8.6 1 2 9h4.4l-.9 6L12 7H7.6z"/></svg></span>Needs attention</span><button type="button" class="lnk" data-go="activity" data-sig="1">View all →</button></h2>
+        <h2 class="h"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-bolt"/></svg></span>Needs attention</span><button type="button" class="lnk" data-go="activity" data-sig="1">View all <svg class="i go" aria-hidden="true"><use href="#i-arrow"/></svg></button></h2>
         <div class="list" id="attention"><div class="sk" style="height:180px"></div></div>
       </div>
       <div class="grid" style="gap:14px;align-content:start">
         <div class="card pad reveal" style="--i:8">
-          <h2 class="h"><span class="ttl"><span class="ico"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M3 2h10v12l-5-3-5 3z"/></svg></span>Analyst brief</span><span class="note" id="briefMeta"></span></h2>
+          <h2 class="h"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-brief"/></svg></span>Analyst brief</span><span class="note" id="briefMeta"></span></h2>
           <div class="md" id="brief"><div class="sk" style="height:90px"></div></div>
         </div>
         <div class="card pad reveal" style="--i:9">
-          <h2 class="h"><span class="ttl"><span class="ico"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="8" r="6"/><path d="M8 8l4-3"/></svg></span>Newest emerging companies</span><button type="button" class="lnk" data-go="emerging">See all →</button></h2>
+          <h2 class="h"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-radar"/></svg></span>Newest emerging companies</span><button type="button" class="lnk" data-go="emerging">See all <svg class="i go" aria-hidden="true"><use href="#i-arrow"/></svg></button></h2>
           <div class="list" id="emMini"></div>
         </div>
       </div>
     </div>
 
     <div class="card pad mt reveal" style="--i:10">
-      <h2 class="h"><span class="ttl"><span class="ico"><svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="8" width="3" height="7"/><rect x="6" y="4" width="3" height="11"/><rect x="11" y="1" width="3" height="14"/></svg></span>Activity over 30 days</span><span class="note">Items per day · click a bar to filter</span></h2>
+      <h2 class="h"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-bars"/></svg></span>Activity over 30 days</span><span class="note">Items per day · click a bar to filter</span></h2>
       <div class="chart" id="chart" role="img" aria-label="Stacked bar chart of items per day by source over the last 30 days"></div>
       <div class="legend" id="legend"></div>
     </div>
@@ -969,7 +1018,7 @@ footer{border-top-color:rgba(255,255,255,.25)}
         <button type="button" data-tier="topic" aria-pressed="false">Market topics</button>
       </div>
       <label class="search"><span class="sr">Find a company</span>
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3.5 3.5"/></svg>
+        <svg class="i" aria-hidden="true"><use href="#i-search"/></svg>
         <input id="coQ" type="search" placeholder="Find a company or product…" autocomplete="off">
       </label>
       <select id="coSort" aria-label="Sort companies"><option value="tier">Direct first</option><option value="active">Most active</option><option value="name">A–Z</option><option value="recent">Most recent</option></select>
@@ -1005,14 +1054,14 @@ footer{border-top-color:rgba(255,255,255,.25)}
         <button type="button" data-em="News" aria-pressed="false">In the news</button>
       </div>
       <label class="search"><span class="sr">Find</span>
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3.5 3.5"/></svg>
+        <svg class="i" aria-hidden="true"><use href="#i-search"/></svg>
         <input id="emQ" type="search" placeholder="Search companies or products…" autocomplete="off">
       </label>
     </div>
     <div class="grid g2b" style="align-items:start">
       <div><div class="em-grid" id="emGrid"></div><div style="text-align:center;margin-top:12px"><button class="btn" id="emMore" hidden>Show more</button></div></div>
       <div class="card pad">
-        <h2 class="h"><span class="ttl"><span class="ico"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12a8 8 0 0 1 12 0"/><path d="M5 12a4.5 4.5 0 0 1 6 0"/><circle cx="8" cy="12.5" r="1" fill="currentColor"/></svg></span>Point-of-care news radar</span></h2>
+        <h2 class="h"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-broadcast"/></svg></span>Point-of-care news radar</span></h2>
         <div class="list" id="emNews"></div>
       </div>
     </div>
@@ -1022,14 +1071,14 @@ footer{border-top-color:rgba(255,255,255,.25)}
   <section class="view" id="v-activity" hidden>
     <div class="toolbar">
       <label class="search"><span class="sr">Search</span>
-        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="4.5"/><path d="m10.5 10.5 3.5 3.5"/></svg>
+        <svg class="i" aria-hidden="true"><use href="#i-search"/></svg>
         <input id="q" type="search" placeholder="Search headlines — e.g. GFAP, 510(k), launch" autocomplete="off">
       </label>
       <select id="fCo" aria-label="Company"><option value="">All companies</option></select>
       <select id="fSrc" aria-label="Source"><option value="">All sources</option></select>
       <select id="fRange" aria-label="Date range"><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="0">All time</option></select>
       <label class="tog"><input type="checkbox" id="fSig"> Key moves only</label>
-      <button class="btn" type="button" id="csvBtn" title="Download these results as a spreadsheet">⇩ Export CSV</button>
+      <button class="btn" type="button" id="csvBtn" title="Download these results as a spreadsheet"><svg class="i" aria-hidden="true"><use href="#i-download"/></svg>Export CSV</button>
     </div>
     <div class="note" id="count" style="margin:0 0 8px"></div>
     <div class="card pad"><div class="list" id="feed"></div></div>
@@ -1039,8 +1088,8 @@ footer{border-top-color:rgba(255,255,255,.25)}
   <!-- ================= REPORTS ================= -->
   <section class="view" id="v-reports" hidden>
     <div class="grid g2">
-      <div class="card pad"><h2 class="h"><span class="ttl">Weekly review</span><span class="note" id="wkMeta"></span></h2><div id="weekly"></div></div>
-      <div class="card pad"><h2 class="h"><span class="ttl">Daily digests</span></h2><div class="tw"><table><thead><tr><th>Date</th><th>New items</th><th></th></tr></thead><tbody id="digests"></tbody></table></div></div>
+      <div class="card pad"><h2 class="h"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-calendar"/></svg></span>Weekly review</span><span class="note" id="wkMeta"></span></h2><div id="weekly"></div></div>
+      <div class="card pad"><h2 class="h"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-inbox"/></svg></span>Daily digests</span></h2><div class="tw"><table><thead><tr><th>Date</th><th>New items</th><th></th></tr></thead><tbody id="digests"></tbody></table></div></div>
     </div>
   </section>
 
@@ -1052,7 +1101,7 @@ footer{border-top-color:rgba(255,255,255,.25)}
       <div class="card pad step reveal" style="--i:2"><div class="n">3</div><b>Watch the newcomers</b><p>“Emerging competitors” lists point-of-care companies not yet on the watchlist. Use “Add to watchlist” to copy a ready-made entry for <code>competitors.yaml</code>.</p></div>
     </div>
     <div class="card pad mt">
-      <h2 class="h"><span class="ttl">What runs automatically</span></h2>
+      <h2 class="h"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-cycle"/></svg></span>What runs automatically</span></h2>
       <ul style="margin:0;padding-left:18px;color:var(--ink2);font-size:14px">
         <li><b>Weekdays ~7am ET</b> — every source is checked, the point-of-care space is scanned for new companies and the daily digest is emailed.</li>
         <li><b>Three more checks each weekday</b> — instant alert emails for FDA decisions, major SEC filings, launches, recalls and deals.</li>
@@ -1062,7 +1111,7 @@ footer{border-top-color:rgba(255,255,255,.25)}
       <p class="note" style="margin-top:10px">Edit the watchlist in <code>competitors.yaml</code> (<a id="editLink" href="#" target="_blank" rel="noopener">edit on GitHub</a>). Only public headlines and short snippets are stored. AI briefs and strategy are emailed only and never published here.</p>
     </div>
     <div class="card pad mt">
-      <details><summary>Source status <span class="note" id="healthSum"></span></summary>
+      <details><summary><svg class="i sum-i" aria-hidden="true"><use href="#i-pulse"/></svg>Source status <span class="note" id="healthSum"></span></summary>
         <div class="tw" style="margin-top:8px"><table><thead><tr><th>Company</th><th>Source</th><th>Status</th><th>Details</th></tr></thead><tbody id="health"></tbody></table></div>
       </details>
     </div>
@@ -1074,13 +1123,14 @@ footer{border-top-color:rgba(255,255,255,.25)}
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-modal="true" role="dialog" aria-labelledby="dTitle"></aside>
 <div class="toast" id="toast" role="status"></div>
-<button class="btn" id="toTop" type="button" aria-label="Back to top" title="Back to top">↑</button>
+<button class="btn" id="toTop" type="button" aria-label="Back to top" title="Back to top"><svg class="i" aria-hidden="true"><use href="#i-up"/></svg></button>
 
 <script>
 (function(){
   "use strict";
   var S = {items:[], comps:[], digests:[], health:{sources:[]}, cards:{}, reg:{}, jobs:{}, alerts:[], weeks:[], em:{companies:[], news:[]}, limit:40, emLimit:24, tier:"all", emf:"all"};
   var $ = function(id){ return document.getElementById(id); };
+  function ic(n, c){ return '<svg class="i' + (c ? " " + c : "") + '" aria-hidden="true"><use href="#i-' + n + '"/></svg>'; }
   var esc = function(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); };
   var safeUrl = function(u){ return /^https?:\/\//i.test(u || "") ? u : "#"; };
   var RM = matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -1340,6 +1390,11 @@ footer{border-top-color:rgba(255,255,255,.25)}
     if (h.indexOf("c=") === 0) { show("companies", false); setTimeout(function(){ openCompany(decodeURIComponent(h.slice(2))); }, 900); }
     else show(h || "overview", false);
     requestAnimationFrame(moveInk);
+    addEventListener("hashchange", function(){
+      var h = location.hash.slice(1);
+      if (h.indexOf("c=") === 0) { show("companies"); setTimeout(function(){ openCompany(decodeURIComponent(h.slice(2))); }, 900); }
+      else { closeCompany(); show(h || "overview"); }
+    });
   }
 
   /* ---------- hero network graphic ---------- */
@@ -1432,7 +1487,7 @@ footer{border-top-color:rgba(255,255,255,.25)}
     return '<div class="item reveal" style="--i:' + (n || 0) + ';--c:' + colorOf(i.source) + '"><span class="edge"></span><div>'
       + '<div class="meta"><span class="co">' + esc(i.competitor) + '</span><span class="tag" style="--c:' + colorOf(i.source) + '"><i></i>' + esc(i.source) + '</span>'
       + (i.publisher ? '<span>' + esc(i.publisher) + '</span>' : '') + '<span>' + esc(ago(itemDate(i))) + '</span>'
-      + (isSig(i) ? '<span class="sig">▲ ' + esc(i.signal.slice(0,2).join(" · ")) + '</span>' : '')
+      + (isSig(i) ? '<span class="sig">' + ic("bolt") + esc(i.signal.slice(0,2).join(" · ")) + '</span>' : '')
       + (i.also && i.also.length ? '<span class="also" title="Also reported by: ' + esc(i.also.map(function(a){ return a.publisher || "another outlet"; }).join(", ")) + '">+' + i.also.length + ' source' + (i.also.length > 1 ? 's' : '') + '</span>' : '')
       + (itemDate(i) === daysAgo(0) ? '<span class="newtag">NEW</span>' : '') + '</div>'
       + '<a class="t" href="' + esc(safeUrl(i.url)) + '" target="_blank" rel="noopener">' + esc(i.title) + '</a>'
@@ -1637,7 +1692,7 @@ footer{border-top-color:rgba(255,255,255,.25)}
       var cov = coverage(r.c.name), p = r.c.profile || {}, tc = TIERC[r.t];
       return '<button type="button" class="card co-card reveal" style="--i:' + Math.min(n, 16) + ';--tc:' + tc + '" data-co="' + esc(r.c.name) + '">'
         + '<div class="hd"><span class="av">' + esc(initials(r.c.name)) + '</span><span class="nm"><b>' + esc(r.c.name) + '</b><span class="cat">' + esc(catOf(r.c)) + '</span></span><span class="tier ' + r.t + '">' + (r.t === "topic" ? "Topic" : r.t === "direct" ? "Direct" : "Indirect") + '</span></div>'
-        + (p.hq || p.stage ? '<div class="facts">' + (p.hq ? '<span>📍 ' + esc(p.hq) + '</span>' : '') + (p.stage ? '<span>◆ ' + esc(p.stage) + '</span>' : '') + '</div>' : '')
+        + (p.hq || p.stage ? '<div class="facts">' + (p.hq ? '<span>' + ic("pin") + esc(p.hq) + '</span>' : '') + (p.stage ? '<span>' + ic("stage") + esc(p.stage) + '</span>' : '') + '</div>' : '')
         + '<div class="row"><div class="num">' + r.n30 + '<small>items · 30 days</small></div>' + spark(r.c.name) + '</div>'
         + '<div class="cov">' + (cov.map(function(x){ return '<span>' + esc(x) + '</span>'; }).join("") || '<span>starts next run</span>') + '</div>'
         + '<div class="note">Last activity: ' + esc(ago(r.last)) + '</div></button>';
@@ -1657,8 +1712,8 @@ footer{border-top-color:rgba(255,255,255,.25)}
     var t = tierOf(c), cov = coverage(name);
     var facts = [["Headquarters", p.hq], ["Founded", p.founded], ["Stage", p.stage], ["Employees", p.employees], ["Listing", p.ticker], ["Customers", p.customers]].filter(function(f){ return f[1]; });
     var html = '<div class="dh"><span class="av" style="--tc:' + TIERC[t] + '">' + esc(initials(name)) + '</span><div style="flex:1;min-width:180px"><div class="sub"><span class="tier ' + t + '">' + (t === "topic" ? "Market topic" : t === "direct" ? "Direct competitor" : "Indirect competitor") + '</span> ' + esc(catOf(c)) + '</div>'
-      + '<h3 id="dTitle">' + esc(name) + '</h3><div class="sub">' + (c.website ? '<a href="' + esc(safeUrl(c.website)) + '" target="_blank" rel="noopener">' + esc(c.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")) + ' ↗</a>' : '') + '</div></div>'
-      + '<div class="no-print" style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn" id="dCsv">⇩ CSV</button><button class="btn" id="dPrint">Print</button><button class="btn icon-btn" id="dClose" aria-label="Close">✕</button></div></div>'
+      + '<h3 id="dTitle">' + esc(name) + '</h3><div class="sub">' + (c.website ? '<a href="' + esc(safeUrl(c.website)) + '" target="_blank" rel="noopener">' + esc(c.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")) + ' ' + ic("ext") + '</a>' : '') + '</div></div>'
+      + '<div class="no-print" style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn" id="dCsv">' + ic("download") + 'CSV</button><button class="btn" id="dPrint">' + ic("print") + 'Print</button><button class="btn icon-btn" id="dClose" aria-label="Close">' + ic("close") + '</button></div></div>'
       + '<div class="db">'
       + '<div class="mini"><div><b>' + recent.length + '</b><span>items · 30 days</span></div><div><b>' + recent.filter(isSig).length + '</b><span>key moves · 30 days</span></div><div><b>' + reg.length + '</b><span>FDA records</span></div><div><b>' + (jobs ? jobs.open_roles : "–") + '</b><span>open roles</span></div></div>'
       + (facts.length ? '<div class="card pad sect"><h4>At a glance</h4><div class="factgrid">' + facts.map(function(f){ return '<div><span>' + f[0] + '</span>' + esc(f[1]) + '</div>'; }).join("") + '</div></div>' : '')
@@ -1728,7 +1783,7 @@ footer{border-top-color:rgba(255,255,255,.25)}
         + '<div style="min-width:0"><b>' + esc(c.name) + '</b><div class="note">First spotted ' + esc(ago(c.first_seen)) + (c.latest ? ' · latest signal ' + esc(ago(c.latest)) : '') + '</div></div></div>'
         + '<div class="why">' + (c.tbi ? '<span class="t">TBI-relevant</span>' : '') + Object.keys(types).map(function(k){ return '<span>' + esc(k) + (types[k] > 1 ? ' ×' + types[k] : '') + '</span>'; }).join("") + '</div>'
         + '<ul>' + c.signals.slice(0, 3).map(function(s){ return '<li><a href="' + esc(safeUrl(s.url)) + '" target="_blank" rel="noopener">' + esc(s.title) + '</a> <span class="note">' + esc(s.date || "") + '</span></li>'; }).join("") + '</ul>'
-        + '<div class="ft"><span>' + esc((c.signals[0] || {}).detail || "") + '</span><button class="btn" type="button" data-add="' + esc(c.name) + '">＋ Add to watchlist</button></div></div>';
+        + '<div class="ft"><span>' + esc((c.signals[0] || {}).detail || "") + '</span><button class="btn" type="button" data-add="' + esc(c.name) + '">' + ic("plus") + 'Add to watchlist</button></div></div>';
     }).join("") || '<div class="empty">' + (all.length ? "No companies match this filter." : "The point-of-care scan runs with the next scheduled check (or click “Run a lookup”).") + '</div>';
     $("emMore").hidden = rows.length <= S.emLimit;
     var news = (S.em.news || []).slice(0, 14);
@@ -1786,7 +1841,7 @@ footer{border-top-color:rgba(255,255,255,.25)}
 
   /* ---------- reports + health ---------- */
   function renderReports(){
-    $("digests").innerHTML = S.digests.map(function(d){ return '<tr><td>' + esc(new Date(d.date + "T12:00:00").toLocaleDateString([], {weekday:"short", month:"short", day:"numeric", year:"numeric"})) + '</td><td>' + d.count + '</td><td><a href="data/digests/' + esc(d.date) + '.html" target="_blank" rel="noopener">Open ↗</a></td></tr>'; }).join("")
+    $("digests").innerHTML = S.digests.map(function(d){ return '<tr><td>' + esc(new Date(d.date + "T12:00:00").toLocaleDateString([], {weekday:"short", month:"short", day:"numeric", year:"numeric"})) + '</td><td>' + d.count + '</td><td><a href="data/digests/' + esc(d.date) + '.html" target="_blank" rel="noopener">Open ' + ic("ext") + '</a></td></tr>'; }).join("")
       || '<tr><td colspan="3" class="empty">No digests yet.</td></tr>';
     var w = S.weeks[0];
     if (!w) { $("weekly").innerHTML = '<div class="empty">The first weekly review is created on Monday morning.</div>'; return; }
@@ -1796,7 +1851,7 @@ footer{border-top-color:rgba(255,255,255,.25)}
       var rows = (d.counts || []).filter(function(c){ return c.this_week || c.last_week; }).sort(function(a,b){ return b.this_week - a.this_week; });
       $("weekly").innerHTML = (d.brief ? '<div class="md" style="margin-bottom:12px">' + mdToHtml(d.brief, d.cites) + '</div>' : d.brief_emailed ? '<p class="note">The written review was emailed to the team.</p>' : '')
         + '<div class="tw"><table><thead><tr><th>Company</th><th>This week</th><th>Last week</th><th>Change</th></tr></thead><tbody>'
-        + (rows.map(function(c){ var diff = c.this_week - c.last_week; return '<tr><td>' + esc(c.name) + '</td><td><b>' + c.this_week + '</b></td><td>' + c.last_week + '</td><td style="color:' + (diff > 0 ? 'var(--good)' : diff < 0 ? 'var(--bad)' : 'var(--ink3)') + '">' + (diff > 0 ? '▲ ' : diff < 0 ? '▼ ' : '— ') + Math.abs(diff) + '</td></tr>'; }).join("") || '<tr><td colspan="4" class="empty">No activity this week.</td></tr>')
+        + (rows.map(function(c){ var diff = c.this_week - c.last_week; return '<tr><td>' + esc(c.name) + '</td><td><b>' + c.this_week + '</b></td><td>' + c.last_week + '</td><td style="color:' + (diff > 0 ? 'var(--good)' : diff < 0 ? 'var(--bad)' : 'var(--ink3)') + '">' + ic(diff > 0 ? "tup" : diff < 0 ? "tdown" : "flat", "delta") + Math.abs(diff) + '</td></tr>'; }).join("") || '<tr><td colspan="4" class="empty">No activity this week.</td></tr>')
         + '</tbody></table></div><p class="note" style="margin-top:10px">Full reports: ' + S.weeks.map(function(x){ return '<a href="data/weekly/' + esc(x.week) + '.html" target="_blank" rel="noopener">' + esc(x.week) + '</a>'; }).join(" · ") + '</p>';
     });
   }
