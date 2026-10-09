@@ -625,6 +625,9 @@ DEFAULT_EXCLUDE_PATTERNS = [
     r"\bclass action (lawsuit )?(filed|deadline|reminder)\b", r"\binvestigation (on behalf|of) .*(shareholders|investors)\b",
 ]
 _EXCLUDE_RE = None
+# Federal awards / NIH grants for a company are kept only when they touch our space
+AWARD_KEYWORDS = ["brain", "concussion", "TBI", "neuro", "head injur", "GFAP", "S100B", "UCH-L1", "biomarker",
+                  "point-of-care", "point of care", "intracranial", "hematoma", "trauma"]
 
 
 def noise(it):
@@ -641,6 +644,8 @@ def relevant(it, rules):
     if noise(it):
         return False
     rule = rules.get(it["competitor"])
+    if it["source"] in ("Federal award", "NIH grant") and not (rule and (rule[0] if isinstance(rule, tuple) else rule)):
+        rule = (AWARD_KEYWORDS, True)   # routine supply contracts are not intelligence
     if not rule:
         return True
     kws, all_sources = rule if isinstance(rule, tuple) else (rule, False)
