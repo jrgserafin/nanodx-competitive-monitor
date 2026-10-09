@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-09T19:48:37+00:00",
+ "checked": "2026-10-09T23:11:24+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -302,6 +302,32 @@
    "first_seen": "2026-10-09T19:02:39+00:00"
   },
   {
+   "id": "98f21b5312bb6d54",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Matching Respiratory Tests to Patients: Connie Savor, MD, MBA",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOEY5WXh6YjJNRkY4dXVQUDBmTl9CTnFXYXZ4eWRVS3ozU0ViSjRIcENpVGc5bGJ6QlBZbDBjNG83WF8tZWd2enREa3lGTUdMd0JGQWpXLUZxQWltQkpVbW1xYllBb2N6dG1OdHBoVG5vVmlZb0FkMjFlQm1LRHBrQ2dzXzdZUEVEV2xpMg?oc=5",
+   "date": "2026-10-09",
+   "snippet": "",
+   "publisher": "AJMC",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-09T23:11:24+00:00"
+  },
+  {
+   "id": "c3db92f1867b2737",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Rapid Urine Test Detects 92% of Invasive Aspergillosis Cases in Study",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNDNmUlpRV2hncmlYbWwtNndmREZ3S2JQb3R5V05iVkdTaG4xaExKQWR3QXg0c0VPV0ZsNlVrTWJfT01Kei04RFl4cnBhU04wdUlYS0kxUHFOTnBjVHROb09SREE2Mzg2a3p3S2h1cEFJaE5zdkdzMlB0NEVJQ2VGc3hIWjlLQ3pzTWNGYTBNU2RIMkREN2JCWTlDOUlOZDJoU09KQw?oc=5",
+   "date": "2026-10-09",
+   "snippet": "",
+   "publisher": "Clinical Lab Products",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-09T23:11:24+00:00"
+  },
+  {
    "id": "263cc435af650e3a",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -430,6 +456,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "b867e895d151558e",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "AXIM Biotechnologies Submits 510(k) to FDA for Next-Generation, Rapid Point-of-Care Tear Lactoferrin Test for Dry Eye Disease",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYjBXcVdsR0k4WkdTZG1WZ0VVMG1kWU5HczNjR2FmOEZmQjRYSFdfRVNySDNkX2ZVOWVueGlVaGpvRXFicEk2NzVHUHRKdHFucC16U0tpNjRPQllGRHdMeUU5UjNYTjNVaWxDWWJUSXVDT1ZCYVB0N2MtVnkwbTltNTBsTnkwWDBialJkY1Jfa0x4blphaE8xZW5QRQ?oc=5",
+   "date": "2026-10-06",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-09T23:11:24+00:00"
   },
   {
    "id": "1a36542a11935603",

@@ -79,6 +79,19 @@
   "signal": []
  },
  {
+  "id": "31e6427512a12a5c",
+  "competitor": "TBI biomarker evidence",
+  "source": "Publication",
+  "title": "Integration of S100B and GFAP with the PECARN Rule for CT Decision-Making in Pediatric Mild Traumatic Brain Injury: A Preliminary Study.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42853777/",
+  "date": "2026-10-07",
+  "snippet": "Pediatric neurosurgery. Ulutas ÖY, Yavuz AY, Karbuz A",
+  "first_seen": "2026-10-09T23:09:11+00:00",
+  "signal": [
+   "GFAP"
+  ]
+ },
+ {
   "id": "3dac6e8dbec75f56",
   "competitor": "Quanterix",
   "source": "News",
