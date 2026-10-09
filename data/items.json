@@ -306,7 +306,8 @@
   "date": "2026-10-06",
   "snippet": "BMC emergency medicine. Flatz W, Hinzmann D, Kampmann P et al.",
   "first_seen": "2026-10-09T17:58:55+00:00",
-  "signal": []
+  "signal": [],
+  "alert": true
  },
  {
   "id": "beee0a293ee22441",
