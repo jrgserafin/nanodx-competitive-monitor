@@ -371,6 +371,7 @@ competitors:
     - NIH
     - TitletownTech
 - name: Sense Neuro Diagnostics
+  aliases: [Sense Diagnostics]
   category: Indirect · Brain scanner
   news_queries:
   - '"Sense Neuro Diagnostics"'
@@ -571,6 +572,8 @@ competitors:
     - 400+ distributors in 130+ countries
 topics:
 - name: TBI diagnostics market
+  # keep only items that are actually about brain injury (applies to news too, because this is a topic)
+  relevance_keywords: [brain, concussion, traumatic, TBI, GFAP, UCH-L1, head injury, intracranial, neuro]
   news_queries:
   - '"traumatic brain injury" blood test'
   - concussion blood test FDA

@@ -6,7 +6,9 @@ Automated competitive intelligence for NanoDx, run by GitHub Actions:
 - **Daily digest** (weekdays ~7am ET) of everything new since the last digest, with an optional **AI analyst brief**.
 - **Instant alerts** (three extra sweeps each weekday) for FDA decisions, material SEC 8-Ks, launches, deals, recalls, reimbursement news.
 - **Weekly review** every Monday: activity vs. prior week, top moves, recommended actions, and refreshed **battlecards** (FDA record, recent moves, strengths/weaknesses, talk track).
-- **Dashboard** on GitHub Pages: search, filters, timeline chart, battlecards with print/PDF, CSV export.
+- **Emerging competitors:** every run scans the wider point-of-care space (new FDA 510(k) clearances in lab-diagnostic and neurology panels, company-sponsored TBI/concussion diagnostic trials, and a news radar) for companies that are *not* on the watchlist yet, and scores them.
+- **Noise control:** the same story from several outlets is grouped into one item ("+2 sources"); paid market-research releases and law-firm "investor alert" spam are dropped; market topics only keep items that are actually about brain injury.
+- **Dashboard** on GitHub Pages, styled to match the NanoDx website: overview with landscape map and charts, company profiles with milestones and FDA record, Emerging competitors, searchable activity feed with CSV export, reports and source health. Keyboard: `/` search, `←`/`→` switch sections, `Esc` closes a profile.
 
 ## Use it
 
@@ -17,6 +19,9 @@ Automated competitive intelligence for NanoDx, run by GitHub Actions:
 | Update a battlecard's notes | Edit the competitor's `profile` block in `competitors.yaml` |
 | Describe NanoDx for the AI | Edit `company_context` in `competitors.yaml` |
 | Add or change a competitor | Edit `competitors.yaml` on GitHub and commit; the next run uses it |
+| Promote an emerging company | Dashboard → Emerging competitors → **Add to watchlist** (copies the YAML), paste under `competitors:` |
+| Stop a company appearing as "emerging" | Add its name to `emerging: ignore:` (or as an `aliases:` entry on the matching competitor) |
+| Hide a kind of junk headline | Add a regular expression to `settings: exclude_title_patterns:` |
 | Change who gets the email | Update the `DIGEST_RECIPIENTS` secret |
 | Change the schedule | Edit the `cron` line in `.github/workflows/monitor.yml` (times are UTC) |
 

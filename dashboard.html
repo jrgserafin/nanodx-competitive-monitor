@@ -6,9 +6,11 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#03111B">
 <title>NanoDx Competitive Intelligence</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Cpath d=%27M16 1l13.9 8v14L16 31 2.1 23V9z%27 fill=%27%2303111B%27 stroke=%27%236FCBFF%27 stroke-width=%272%27/%3E%3Cpath d=%27M10 22V10h2.6l6.8 8.2V10H22v12h-2.6l-6.8-8.2V22z%27 fill=%27%23F4F9FD%27/%3E%3C/svg%3E">
+<meta name="description" content="NanoDx competitive intelligence: TBI and point-of-care diagnostics competitors, emerging companies, FDA, trials and news.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <style>
 :root{
   color-scheme: dark;
@@ -512,9 +514,102 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
 @media (max-width:920px){.pc{display:none}}
 @media print{#grid,#xfer,.ticker{display:none!important}}
 @media (prefers-reduced-motion: reduce){.reveal{filter:none;opacity:1;transform:none}.ldlogo{clip-path:none}.ldsub{opacity:1}.fill{transform:none}}
+
+/* =====================================================================
+   READABILITY + MOTION LAYER
+   Type system: Montserrat = headings & key numbers (brand), Inter = reading text,
+   IBM Plex Mono = short uppercase labels only. Nothing below 12px.
+   ===================================================================== */
+:root{--body:"Inter","Segoe UI",system-ui,-apple-system,Arial,sans-serif}
+body{font:400 15.5px/1.6 var(--body);letter-spacing:-.003em;text-rendering:optimizeLegibility;font-feature-settings:"cv11","ss03"}
+h1,h2,h3,h4,.hero h1,.em-hero h2,#dTitle,.kpi .v,.chip b,.co-card .nm b,.em-card .hd b,.mini b,.btn,#xfer .lb b,.co-card .num{font-family:var(--font)}
+p,li,td,.md{max-width:76ch}
+td,th{max-width:none}
+
+/* labels (mono) — kept short, readable size, calmer tracking */
+h2.h{font-size:12.5px;letter-spacing:.12em}
+nav.tabs button{font-size:13px;letter-spacing:.1em}
+.kpi .l{font-size:12px;letter-spacing:.1em}
+.chip{font-size:11.5px;letter-spacing:.08em}
+.status{font-size:12px;letter-spacing:.08em}
+.tier{font-size:11px!important;letter-spacing:.1em;padding:3px 7px}
+.tkr a b{font-size:12px}
+.ldsub,.ldrow,.pc,#xfer .lb span{font-size:12.5px}
+.brand .bsub{font-size:11px}
+nav.tabs .new{font-size:11px}
+.hero .eyebrow,.em-hero .eyebrow{font-size:12.5px!important;letter-spacing:.14em!important}
+.factgrid div span,th{font:500 12px var(--mono);letter-spacing:.08em;text-transform:uppercase}
+
+/* reading text -> Inter */
+.note,.item .meta,.kpi .s,.legend,.dleg,footer,.facts,.co-card .cat,.co-card .num small,.em-card .ft,.mini span,.em-card .note,.co-card .note,.tag,.sig,.pill,.cov span,.em-card .why span{font-family:var(--body)!important;letter-spacing:0!important}
+.note{font-size:13px;color:var(--ink2)}
+.item .meta{font-size:13px;gap:8px 10px;color:var(--ink2)}
+.item .co{font-weight:700;color:var(--ink)}
+.item .t{font:600 16px/1.42 var(--body);color:var(--ink);letter-spacing:-.01em}
+.item p{font-size:14px;line-height:1.55;color:var(--ink2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:4px}
+.kpi .s{font-size:13px;color:var(--ink2)}
+.tag,.sig,.pill,.cov span,.em-card .why span{font-size:12.5px!important;font-weight:500}
+.legend,.dleg{font-size:13px}
+.co-card .cat{font-size:13.5px;color:var(--ink2)}
+.co-card .nm b{font-size:16.5px}
+.co-card .num small,.mini span,.em-card .ft{font-size:12.5px}
+.facts{font-size:13.5px;color:var(--ink2)}
+footer{font-size:13px;letter-spacing:0}
+.hero p{font-size:16.5px;line-height:1.6}
+.em-hero p{font-size:16px;line-height:1.6}
+.md{font-size:15px;line-height:1.7;color:var(--ink)}
+.md h4{font:600 13px var(--mono);letter-spacing:.08em}
+.rank .n{font-size:14px}
+.rank .c{font-size:13.5px}
+td{font-size:14px}
+.drawer li,.sect li{font-size:14.5px;line-height:1.55}
+.tl li{font-size:15px}
+.tl li b{font-size:13px}
+#land .lbl{font-size:12.5px}
+.donut .sm{font-size:12.5px}
+.empty{font-size:15px}
+input,select,textarea{font-size:15px!important}
+::selection{background:color-mix(in srgb,var(--cyan) 35%,transparent)}
+
+/* ---------- motion ---------- */
+.reveal.wait{animation-play-state:paused}
+.card h2.h{position:relative;padding-bottom:12px}
+.card h2.h::before{content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:var(--cyan);box-shadow:0 0 8px var(--cyan);transition:width 1.1s .25s cubic-bezier(.2,.8,.2,1)}
+.card.inview h2.h::before{width:56px}
+.item{transition:transform .25s cubic-bezier(.2,.8,.2,1),background-color .25s;padding-left:10px;margin-left:-10px}
+.item:hover{transform:translateX(4px);background-color:color-mix(in srgb,var(--cyan) 5%,transparent)}
+.item .edge{transition:box-shadow .25s,width .25s}
+.item:hover .edge{box-shadow:0 0 12px var(--c);width:3px}
+h2.h a,h2.h button.lnk{transition:color .2s,transform .25s;font-size:12px}
+.live-b{font-size:12px}
+h2.h a:hover,h2.h button.lnk:hover{transform:translateX(3px);color:var(--ink)}
+.also{display:inline-flex;align-items:center;gap:5px;font:500 12px var(--body);color:var(--cyan);border:1px solid var(--line2);padding:1px 7px;cursor:help}
+.newtag{display:inline-flex;align-items:center;gap:6px;font:600 11px var(--mono);letter-spacing:.12em;color:var(--aqua)}
+.newtag::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--aqua);box-shadow:0 0 8px var(--aqua);animation:pulseDot 1.6s ease-in-out infinite}
+@keyframes pulseDot{50%{box-shadow:0 0 0 5px rgba(79,209,197,0),0 0 14px var(--aqua);transform:scale(1.25)}}
+.hero .sweep{position:absolute;top:0;bottom:0;left:-30%;width:28%;z-index:0;pointer-events:none;opacity:0;
+  background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--cyan) 16%,transparent) 70%,color-mix(in srgb,var(--cyan) 55%,transparent) 99%,transparent)}
+.hero.go .sweep{animation:sweepX 1.8s .15s cubic-bezier(.6,0,.3,1) forwards}
+@keyframes sweepX{0%{left:-30%;opacity:1}90%{opacity:1}100%{left:105%;opacity:0}}
+.ticker.off .tkr{animation-play-state:paused}
+.kpi .v,.chip b{display:inline-block}
+.bump{animation:bump .5s cubic-bezier(.2,.8,.2,1)}
+@keyframes bump{40%{transform:translateY(-3px);text-shadow:0 0 16px currentColor}}
+#toTop{position:fixed;right:18px;bottom:18px;z-index:45;width:44px;height:44px;padding:0;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .3s,transform .3s,background .2s!important;background:var(--cyan);color:var(--bg);font-size:18px}
+#toTop.on{opacity:1;transform:none!important;pointer-events:auto}
+#toTop:hover{background:var(--ink)}
+.skip{position:absolute;left:12px;top:-60px;z-index:200;background:var(--cyan);color:var(--bg);padding:10px 14px;font-weight:700;text-decoration:none;clip-path:var(--cut-s)}
+.skip:focus{top:10px}
+.co-card .av{transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.co-card:hover .av{transform:rotate(-6deg) scale(1.06)}
+.spark path.ln{filter:drop-shadow(0 0 4px var(--cyan))}
+.empty{animation:rise .5s both}
+@media (prefers-reduced-motion: reduce){.reveal.wait{opacity:1}.hero .sweep,#toTop{transition:none}.item:hover{transform:none}}
+@media (max-width:640px){body{font-size:15px}.item .t{font-size:15.5px}#toTop{right:12px;bottom:12px}}
 </style>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="wm" viewBox="0 0 200 32.757"><path fill="currentColor" d="M196.806,5.846h.484l.731,1.415.726-1.415h.481v2.2h-.388V6.467l-.687,1.351h-.272l-.689-1.351V8.042h-.386Zm-2.1,0h1.8V6.22h-.689V8.042h-.425V6.22h-.687ZM173.444,16.275l-.006.008,0,0,.006-.008ZM200,32.757h-4.147l-.083-.083L179.645,16.3l1.833-1.868,8.509-8.6h4.142l-10.377,10.51ZM178.69,16.281l-2.119,2.669-2.158-2.669,2.169-2.692ZM176.281,19.8l-1.5,1.619-5.406,5.454h-4.144l9.221-9.291Zm-1.855-4.821-9.049-9.169h4.145l5.255,5.342,1.513,1.583Zm2.439-2.266,1.413-1.5,5.3-5.388h4.144l-9.02,9.125Zm1.743,4.894,15.038,15.148H189.5l-11.08-11.325-1.559-1.615Zm-5.166-1.337L163.115,5.813H158.97L169.3,16.275l-10.429,10.6h4.145l10.42-10.593,0,0ZM86.372,5.815V22.528L72.756,5.817l0,0H66.42V26.857h4.5v-16.7l13.608,16.7,0,0h6.342V5.815ZM48.543,10l-4.512,8.347h8.986ZM51.16,5.819,62.62,26.857h-4.97l0,0-2.364-4.408H41.762L39.4,26.857h-4.97l0-.008L45.888,5.815H51.16Zm79.766,17.068V4.024h12.483a10.068,10.068,0,0,1,7.26,2.646,9.2,9.2,0,0,1,2.766,6.971,9.03,9.03,0,0,1-2.58,6.656,8.914,8.914,0,0,1-6.591,2.59ZM126.468.012V26.9h17.425a14.624,14.624,0,0,0,10.026-3.563,12.229,12.229,0,0,0,4.344-9.580,12.87,12.87,0,0,0-4.1-10.009Q150.057.011,143.038.012ZM30.522,0H26.066V22.059L5.533,0H0V26.884H4.456V4.84L24.979,26.884h5.543Zm83.726,19.521c0-4.086-3.36-6.353-5.413-12.149-.106-.3-.264-.3-.367,0-2.053,5.8-5.413,8.063-5.413,12.149a5.6,5.6,0,1,0,11.192,0m7.976-3.173a10.017,10.017,0,0,1-4.391,8.393,15.162,15.162,0,0,1-9.2,2.723A15.305,15.305,0,0,1,99.4,24.742a9.964,9.964,0,0,1-4.4-8.395,9.887,9.887,0,0,1,4.429-8.335,16.531,16.531,0,0,1,18.363,0,9.942,9.942,0,0,1,4.427,8.333m-12.392,6.973a5.216,5.216,0,0,0,1.092-.116c.43-.1.5.012.12.243a4.6,4.6,0,0,1-6.99-3.927,6.5,6.5,0,0,1,.5-2.468c.164-.409.232-.382.17.054a7.285,7.285,0,0,0-.075,1.042,5.177,5.177,0,0,0,5.18,5.172"/></symbol>
 </svg>
@@ -559,11 +654,11 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="lgS" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6FCBFF"/><stop offset="1" stop-color="#4FD1C5"/></linearGradient></defs></svg>
 
-<div class="wrap">
+<div class="wrap" id="main" tabindex="-1">
   <!-- ================= OVERVIEW ================= -->
   <section class="view" id="v-overview">
     <div class="hero reveal" style="--i:0">
-      <canvas id="net" aria-hidden="true"></canvas>
+      <canvas id="net" aria-hidden="true"></canvas><span class="sweep" aria-hidden="true"></span>
       <div class="in">
         <div>
           <div class="eyebrow"><span data-decode>Live competitive landscape</span><span class="live-b">LIVE</span></div>
@@ -738,6 +833,7 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
 <div class="scrim" id="scrim"></div>
 <aside class="drawer" id="drawer" aria-modal="true" role="dialog" aria-labelledby="dTitle"></aside>
 <div class="toast" id="toast" role="status"></div>
+<button class="btn" id="toTop" type="button" aria-label="Back to top" title="Back to top">↑</button>
 
 <script>
 (function(){
@@ -818,7 +914,11 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
       .then(function(){ xf.hidden = true; xbusy = false; })
       .catch(function(){ xf.hidden = true; xbusy = false; if (curView !== name) swapView(name, push); });
   }
+  /* views other than the one on screen are built the first time they are opened */
+  var LAZY = {companies:[function(){ renderCompanies(); }], emerging:[function(){ renderEmerging(); }], activity:[function(){ renderFeed(); }], reports:[function(){ renderReports(); renderHealth(); }]};
+  function ensureView(name){ var l = LAZY[name]; if (!l) return; LAZY[name] = null; l.forEach(function(f){ try { f(); } catch(e){ console.error(e); } }); }
   function swapView(name, push){
+    ensureView(name);
     curView = name; window.scrollTo(0, 0);
     if ($("pc")) $("pc").innerHTML = "<b>" + pad2(VIEWS.indexOf(name) + 1) + "</b> / " + pad2(VIEWS.length);
     document.querySelectorAll("nav.tabs button").forEach(function(b){ b.setAttribute("aria-selected", b.dataset.tab === name); });
@@ -829,6 +929,18 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
     if (push !== false) { try { history.replaceState(null, "", "#" + name); } catch(e){} }
   }
   document.querySelector("nav.tabs").addEventListener("click", function(e){ var b = e.target.closest("button[data-tab]"); if (b) show(b.dataset.tab); });
+  document.querySelector("nav.tabs").addEventListener("keydown", function(e){
+    if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+    var i = VIEWS.indexOf(curView) + (e.key === "ArrowRight" ? 1 : -1); if (i < 0 || i >= VIEWS.length) return;
+    e.preventDefault(); show(VIEWS[i]); var b = document.querySelector('nav.tabs button[data-tab="' + VIEWS[i] + '"]'); if (b) b.focus();
+  });
+  document.addEventListener("keydown", function(e){
+    var dr = $("drawer"); if (e.key !== "Tab" || !dr.classList.contains("on")) return;
+    var f = dr.querySelectorAll('a[href],button:not([disabled]),input,select,[tabindex]:not([tabindex="-1"])'); if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
   document.addEventListener("click", function(e){
     var g = e.target.closest("[data-go]"); if (!g) return;
     e.preventDefault();
@@ -841,12 +953,12 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
   var LNAME = {"data/items.json":"Signal feed synced","data/competitors.json":"Watchlist loaded","data/digests/index.json":"Digest archive indexed","data/health.json":"Source health verified",
     "data/battlecards.json":"Battlecards compiled","data/regulatory.json":"FDA regulatory record linked","data/jobs.json":"Hiring signals parsed","data/alerts.json":"Alert channel armed",
     "data/weekly/index.json":"Weekly reviews indexed","data/emerging.json":"Point-of-care radar scanned"};
-  function get(path, fb){ return fetch(path + "?t=" + Date.now(), {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : fb; }).catch(function(){ return fb; }).then(function(v){ lprog(LNAME[path]); return v; }); }
+  function get(path, fb){ return fetch(path, {cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : fb; }).catch(function(){ return fb; }).then(function(v){ lprog(LNAME[path]); return v; }); }
   Promise.all([get("data/items.json", []), get("data/competitors.json", []), get("data/digests/index.json", []), get("data/health.json", {sources:[]}),
                get("data/battlecards.json", {}), get("data/regulatory.json", {}), get("data/jobs.json", {}), get("data/alerts.json", []), get("data/weekly/index.json", []),
                get("data/emerging.json", {companies:[], news:[]})])
   .then(function(r){
-    S.items = (Array.isArray(r[0]) ? r[0] : []).filter(function(i){ return !i.stale; });
+    S.items = groupStories((Array.isArray(r[0]) ? r[0] : []).filter(function(i){ return !i.stale; }));
     S.comps = Array.isArray(r[1]) ? r[1] : []; S.digests = Array.isArray(r[2]) ? r[2] : []; S.health = r[3] || {sources:[]};
     S.cards = r[4] || {}; S.reg = r[5] || {}; S.jobs = r[6] || {}; S.alerts = Array.isArray(r[7]) ? r[7] : []; S.weeks = Array.isArray(r[8]) ? r[8] : [];
     S.em = (r[9] && r[9].companies) ? r[9] : {companies:[], news:[]};
@@ -855,6 +967,25 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
     hideLoader();
   });
 
+  /* ---------- collapse the same story reported by several outlets ---------- */
+  var STOP = {}; "a an and the of for to in on with by at from as is are be its it this that new says said after over into inc corp ltd llc co plc nasdaq nyse".split(" ").forEach(function(w){ STOP[w] = 1; });
+  function toks(t){ t = String(t || "").split(/\s+[-–|]\s+|\s+by\s+investing\.com/i)[0].toLowerCase();
+    var o = {}; (t.match(/[a-z0-9]+/g) || []).forEach(function(w){ if (w.length > 2 && !STOP[w]) o[w] = 1; }); return o; }
+  function groupStories(items){
+    var heads = [], out = [];
+    items.slice().sort(function(a,b){ return itemDate(b).localeCompare(itemDate(a)); }).forEach(function(it){
+      if (["News","Website","RSS"].indexOf(it.source) < 0) { out.push(it); return; }
+      var tk = toks(it.title), keys = Object.keys(tk), hit = null;
+      for (var k = 0; k < heads.length && keys.length; k++) { var h = heads[k];
+        if (h.it.competitor !== it.competitor) continue;
+        if (Math.abs(new Date(itemDate(h.it)) - new Date(itemDate(it))) > 4 * 864e5) continue;
+        var inter = keys.filter(function(w){ return h.tk[w]; }).length, uni = keys.length + h.n - inter;
+        if (inter / uni >= .4 || (inter >= 4 && inter / Math.min(keys.length, h.n) >= .6)) { hit = h.it; break; } }
+      if (hit) { (hit.also = hit.also || []).push({publisher: it.publisher || "", url: it.url}); if (isSig(it) && !isSig(hit)) hit.signal = it.signal; }
+      else { it = Object.assign({}, it); heads.push({it: it, tk: tk, n: keys.length}); out.push(it); }
+    });
+    return out;
+  }
   function countUp(el, to, suffix){
     to = +to || 0; suffix = suffix || "";
     if (RM) { el.textContent = to + suffix; return; }
@@ -865,7 +996,10 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
   function lastDate(name){ var d = ""; S.items.forEach(function(i){ if (i.competitor === name && itemDate(i) > d) d = itemDate(i); }); return d; }
   function sourcesFor(name){ return (S.health.sources || []).filter(function(s){ return s.entity === name; }); }
   var pending = [];
-  function startAnimations(){ pending.forEach(function(f){ f(); }); pending = []; decodeView(curView); }
+  function startAnimations(){ pending.forEach(function(f){ f(); }); pending = []; decodeView(curView);
+    revReady = true; if (revIO) watchReveals(); else document.querySelectorAll(".wait").forEach(function(el){ el.classList.remove("wait"); });
+    var hero = document.querySelector(".hero"); if (hero) hero.classList.add("go");
+    document.querySelectorAll(".kpi .v").forEach(function(v, i){ setTimeout(function(){ v.classList.add("bump"); }, 1150 + i * 90); }); }
   /* text decode, same glyphs as nanodx-site */
   var GLY = "01ΔΣΩ<>/#+=";
   function decodeText(node){
@@ -878,6 +1012,27 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
   function decodeView(name){
     var v = $("v-" + name); if (!v) return;
     v.querySelectorAll("[data-decode], h2.h .ttl, .em-hero .eyebrow").forEach(function(el, i){ if (i < 14) setTimeout(function(){ decodeText(lastText(el)); }, i * 40); });
+  }
+  var revReady = false, revIO = ("IntersectionObserver" in window) && !RM ? new IntersectionObserver(function(es){
+      es.forEach(function(e){ if (e.isIntersecting) { e.target.classList.remove("wait"); e.target.classList.add("inview"); revIO.unobserve(e.target); } });
+    }, {rootMargin:"0px 0px -5% 0px"}) : null;
+  function watchReveals(){
+    document.querySelectorAll(".reveal:not(.seen), .card:not(.seen)").forEach(function(el){
+      el.classList.add("seen");
+      if (!revIO) { el.classList.add("inview"); return; }
+      if (el.classList.contains("reveal")) el.classList.add("wait");
+      revIO.observe(el);
+    });
+  }
+  function holdReveals(){ document.querySelectorAll(".reveal:not(.seen)").forEach(function(el){ el.classList.add("wait"); }); }
+  function watchUI(){
+    holdReveals();
+    var mq = 0; new MutationObserver(function(){ if (!mq) mq = requestAnimationFrame(function(){ mq = 0; if (revReady) watchReveals(); else holdReveals(); }); })
+      .observe(document.body, {childList:true, subtree:true});
+    if ("IntersectionObserver" in window) new IntersectionObserver(function(es){ $("ticker").classList.toggle("off", !es[0].isIntersecting); }).observe($("ticker"));
+    var tt = $("toTop"), sq = 0;
+    addEventListener("scroll", function(){ if (!sq) sq = requestAnimationFrame(function(){ sq = 0; tt.classList.toggle("on", scrollY > 700); }); }, {passive:true});
+    tt.onclick = function(){ window.scrollTo({top:0, behavior: RM ? "auto" : "smooth"}); };
   }
   function renderTicker(){
     var rows = S.items.slice().sort(function(a,b){ return itemDate(b).localeCompare(itemDate(a)); }).slice(0, 14);
@@ -918,7 +1073,7 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
 
     Array.from(new Set(S.items.map(function(i){ return i.source; }))).sort().forEach(function(s){ var o = document.createElement("option"); o.value = s; o.textContent = s; $("fSrc").appendChild(o); });
     S.comps.slice().sort(function(a,b){ return a.name.localeCompare(b.name); }).forEach(function(c){ var o = document.createElement("option"); o.value = c.name; o.textContent = c.name; $("fCo").appendChild(o); });
-    ["q","fCo","fSrc","fRange","fSig"].forEach(function(id){ $(id).addEventListener("input", function(){ S.limit = 40; renderFeed(); }); });
+    ["q","fCo","fSrc","fRange","fSig"].forEach(function(id){ $(id).addEventListener("input", function(){ S.limit = 40; ensureView("activity"); renderFeed(); }); });
     $("more").onclick = function(){ S.limit += 40; renderFeed(); };
     $("csvBtn").onclick = function(){ var rows = filtered(); downloadCSV(rows, "nanodx-intel-" + daysAgo(0) + ".csv"); toast(rows.length + " rows exported"); };
     $("tierSeg").onclick = function(e){ var b = e.target.closest("[data-tier]"); if (!b) return; S.tier = b.dataset.tier;
@@ -932,13 +1087,13 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
     $("emGrid").addEventListener("click", function(e){ var b = e.target.closest("[data-add]"); if (b) copyWatch(b.dataset.add); });
     document.addEventListener("keydown", function(e){
       if (e.key === "Escape") closeCompany();
-      if (e.key === "/" && !/input|select|textarea/i.test(document.activeElement.tagName)) { e.preventDefault(); show("activity"); $("q").focus(); }
+      if (e.key === "/" && !/input|select|textarea/i.test(document.activeElement.tagName)) { e.preventDefault(); show("activity"); setTimeout(function(){ $("q").focus(); }, RM || curView === "activity" ? 0 : 760); }
     });
     $("scrim").onclick = closeCompany;
 
     renderAttention(); renderBrief(latest); renderChart(); renderRank(last30); renderDonut(last30); renderLandscape(d30);
-    renderCompanies(); renderEmerging(); renderEmMini(); renderFeed(); renderReports(); renderHealth();
-    startNet(); renderTicker();
+    renderEmMini(); emCounts();
+    startNet(); renderTicker(); watchUI();
 
     var h = location.hash.slice(1);
     if (h.indexOf("c=") === 0) { show("companies", false); setTimeout(function(){ openCompany(decodeURIComponent(h.slice(2))); }, 900); }
@@ -977,13 +1132,15 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
       }
       fx.globalAlpha = 1;
     }
-    function tick(){ if (document.hidden || curView !== "overview") { raf = 0; return; } draw(); raf = requestAnimationFrame(tick); }
+    var onScreen = true;
+    if ("IntersectionObserver" in window) new IntersectionObserver(function(es){ onScreen = es[0].isIntersecting; if (onScreen) run(); }).observe(fc);
+    function tick(){ if (document.hidden || curView !== "overview" || !onScreen) { raf = 0; return; } draw(); raf = requestAnimationFrame(tick); }
     function run(){ if (RM) { draw(); return; } if (!raf) raf = requestAnimationFrame(tick); }
     size(); run();
     var rt; addEventListener("resize", function(){ clearTimeout(rt); rt = setTimeout(size, 120); });
     document.addEventListener("visibilitychange", run);
     new MutationObserver(function(){ size(); run(); }).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
-    setInterval(function(){ if (curView === "overview" && !raf && !document.hidden) { if (!W) size(); run(); } }, 500);
+    setInterval(function(){ if (curView === "overview" && onScreen && !raf && !document.hidden) { if (!W) size(); run(); } }, 500);
   }
 
   /* ---------- overview widgets ---------- */
@@ -991,7 +1148,9 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
     return '<div class="item reveal" style="--i:' + (n || 0) + ';--c:' + colorOf(i.source) + '"><span class="edge"></span><div>'
       + '<div class="meta"><span class="co">' + esc(i.competitor) + '</span><span class="tag" style="--c:' + colorOf(i.source) + '"><i></i>' + esc(i.source) + '</span>'
       + (i.publisher ? '<span>' + esc(i.publisher) + '</span>' : '') + '<span>' + esc(ago(itemDate(i))) + '</span>'
-      + (isSig(i) ? '<span class="sig">▲ ' + esc(i.signal.slice(0,2).join(" · ")) + '</span>' : '') + '</div>'
+      + (isSig(i) ? '<span class="sig">▲ ' + esc(i.signal.slice(0,2).join(" · ")) + '</span>' : '')
+      + (i.also && i.also.length ? '<span class="also" title="Also reported by: ' + esc(i.also.map(function(a){ return a.publisher || "another outlet"; }).join(", ")) + '">+' + i.also.length + ' source' + (i.also.length > 1 ? 's' : '') + '</span>' : '')
+      + (itemDate(i) === daysAgo(0) ? '<span class="newtag">NEW</span>' : '') + '</div>'
       + '<a class="t" href="' + esc(safeUrl(i.url)) + '" target="_blank" rel="noopener">' + esc(i.title) + '</a>'
       + (i.snippet ? '<p>' + esc(i.snippet) + '</p>' : '') + '</div></div>';
   }
@@ -1018,7 +1177,7 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
   function renderBrief(latest){
     var none = '<p style="margin:0 0 6px">The AI analyst writes a short brief on each digest: what changed and why it matters for NanoDx.</p><p class="note" style="margin:0">Switch it on with the ANTHROPIC_API_KEY secret. Briefs are emailed to the team and kept off this public page.</p>';
     if (!latest) { $("brief").innerHTML = none; return; }
-    fetch("data/digests/" + latest.date + ".json?t=" + Date.now(), {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }).then(function(d){
+    fetch("data/digests/" + latest.date + ".json", {cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }).then(function(d){
       $("briefMeta").textContent = new Date(latest.date + "T12:00:00").toLocaleDateString([], {month:"short", day:"numeric"});
       if (d && d.brief) $("brief").innerHTML = mdToHtml(d.brief, d.items);
       else if (d && d.brief_emailed) $("brief").innerHTML = '<p style="margin:0 0 6px">Today’s brief was <b>emailed to the team</b>.</p><p class="note" style="margin:0">It is kept off this public page so competitors can’t read NanoDx’s analysis.</p>';
@@ -1037,7 +1196,7 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
     var s = '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="none">';
     for (var v = 0; v <= max; v += step) { var y = T + ph - v / max * ph;
       s += '<line x1="' + L + '" x2="' + (W - R) + '" y1="' + y + '" y2="' + y + '" stroke="var(--line)" stroke-width="1"/>';
-      s += '<text x="' + (L - 6) + '" y="' + (y + 3) + '" text-anchor="end" font-size="10" fill="var(--ink3)">' + v + '</text>'; }
+      s += '<text x="' + (L - 6) + '" y="' + (y + 3) + '" text-anchor="end" font-size="12" fill="var(--ink3)">' + v + '</text>'; }
     days.forEach(function(d, ix){
       var x = L + ix * bw + 3, w = Math.max(2, bw - 6), y = T + ph;
       var segs = GROUPS.filter(function(g){ return counts[ix][g[0]]; });
@@ -1049,7 +1208,7 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
         y = top;
       });
       s += '</g>';
-      if (ix % 5 === 4 || ix === N - 1) { var dt = new Date(d + "T12:00:00"); s += '<text x="' + (L + ix * bw + bw / 2) + '" y="' + (H - 5) + '" text-anchor="middle" font-size="10" fill="var(--ink3)">' + (dt.getMonth() + 1) + '/' + dt.getDate() + '</text>'; }
+      if (ix % 5 === 4 || ix === N - 1) { var dt = new Date(d + "T12:00:00"); s += '<text x="' + (L + ix * bw + bw / 2) + '" y="' + (H - 5) + '" text-anchor="middle" font-size="12" fill="var(--ink3)">' + (dt.getMonth() + 1) + '/' + dt.getDate() + '</text>'; }
       s += '<rect class="hit" data-ix="' + ix + '" x="' + (L + ix * bw) + '" y="' + T + '" width="' + bw + '" height="' + ph + '" fill="transparent" style="cursor:pointer"/>';
     });
     s += '<rect id="hl" x="0" y="' + T + '" width="' + bw + '" height="' + ph + '" fill="var(--brand)" opacity="0" pointer-events="none" rx="4"/></svg><div class="tip" id="tip"></div>';
@@ -1109,10 +1268,10 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
     var s = '<svg viewBox="0 0 ' + W + ' ' + H + '">';
     STAGES.forEach(function(lbl, k){ var x0 = L + k * pw / 4;
       s += '<rect x="' + (x0 + 2) + '" y="' + T + '" width="' + (pw / 4 - 4) + '" height="' + ph + '" rx="10" fill="var(--card2)" opacity="' + (k % 2 ? .55 : .9) + '"/>';
-      s += '<text x="' + (x0 + pw / 8) + '" y="' + (H - 20) + '" text-anchor="middle" font-size="11.5" font-weight="600" fill="var(--ink3)">' + lbl + '</text>'; });
-    [0, .25, .5, 1].forEach(function(f){ var n = Math.round(maxN * f), y = ys(n); s += '<text x="' + (L - 8) + '" y="' + (y + 3) + '" text-anchor="end" font-size="10" fill="var(--ink3)">' + n + '</text><line x1="' + L + '" x2="' + (W - R) + '" y1="' + y + '" y2="' + y + '" stroke="var(--line)" stroke-dasharray="3 4"/>'; });
-    s += '<text x="12" y="' + (T + ph / 2) + '" transform="rotate(-90 12 ' + (T + ph / 2) + ')" text-anchor="middle" font-size="10.5" fill="var(--ink3)">items · 30 days</text>';
-    s += '<text x="' + (L + pw / 2) + '" y="' + (H - 3) + '" text-anchor="middle" font-size="10.5" fill="var(--ink3)">company stage →</text>';
+      s += '<text x="' + (x0 + pw / 8) + '" y="' + (H - 20) + '" text-anchor="middle" font-size="12.5" font-weight="600" fill="var(--ink3)">' + lbl + '</text>'; });
+    [0, .25, .5, 1].forEach(function(f){ var n = Math.round(maxN * f), y = ys(n); s += '<text x="' + (L - 8) + '" y="' + (y + 3) + '" text-anchor="end" font-size="12" fill="var(--ink3)">' + n + '</text><line x1="' + L + '" x2="' + (W - R) + '" y1="' + y + '" y2="' + y + '" stroke="var(--line)" stroke-dasharray="3 4"/>'; });
+    s += '<text x="12" y="' + (T + ph / 2) + '" transform="rotate(-90 12 ' + (T + ph / 2) + ')" text-anchor="middle" font-size="12" fill="var(--ink3)">items · 30 days</text>';
+    s += '<text x="' + (L + pw / 2) + '" y="' + (H - 3) + '" text-anchor="middle" font-size="12" fill="var(--ink3)">company stage →</text>';
     rows.sort(function(a,b){ return b.src - a.src; });
     var pts = rows.map(function(r, i){
       var k = (seen[r.x] = (seen[r.x] || 0) + 1);
@@ -1241,16 +1400,19 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
       + '</div>'
       + '<div class="note">Watching: ' + esc(cov.join(" · ") || "sources start on the next run") + '</div>'
       + '</div>';
-    var dr = $("drawer"); dr.innerHTML = html; dr.scrollTop = 0;
+    var dr = $("drawer"); if (!dr.classList.contains("on")) lastFocus = document.activeElement; dr.innerHTML = html; dr.scrollTop = 0;
+    dr.querySelectorAll(".mini b").forEach(function(b){ var v = +b.textContent; if (!isNaN(v)) countUp(b, v); });
     dr.classList.add("on"); $("scrim").classList.add("on"); document.body.style.overflow = "hidden";
     $("dClose").onclick = closeCompany; $("dPrint").onclick = function(){ window.print(); };
     $("dCsv").onclick = function(){ downloadCSV(mine, "nanodx-" + name.replace(/[^a-z0-9]+/gi, "-").toLowerCase() + ".csv"); toast(mine.length + " rows exported"); };
     setTimeout(function(){ $("dClose").focus({preventScroll:true}); }, 60);
     try { history.replaceState(null, "", "#c=" + encodeURIComponent(name)); } catch(e){}
   }
+  var lastFocus = null;
   function closeCompany(){
     if (!$("drawer").classList.contains("on")) return;
     $("drawer").classList.remove("on"); $("scrim").classList.remove("on"); document.body.style.overflow = "";
+    if (lastFocus && lastFocus.focus) { try { lastFocus.focus({preventScroll:true}); } catch(e){} }
     try { history.replaceState(null, "", "#companies"); } catch(e){}
   }
 
@@ -1264,12 +1426,16 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
       return true;
     });
   }
+  var emCounted = false;
+  function emCounts(){
+    var all = S.em.companies || [], v = [all.length, all.filter(function(c){ return c.tbi; }).length,
+      all.filter(function(c){ return c.signals.some(function(s){ return s.type === "FDA clearance"; }); }).length,
+      all.filter(function(c){ return c.signals.some(function(s){ return s.type === "Clinical trial"; }); }).length];
+    ["emN","emT","emF","emC"].forEach(function(id, k){ $(id).textContent = v[k]; });
+  }
   function renderEmerging(){
+    if (!emCounted) { emCounted = true; ["emN","emT","emF","emC"].forEach(function(id){ countUp($(id), +$(id).textContent); }); }
     var all = S.em.companies || [];
-    $("emN").textContent = all.length;
-    $("emT").textContent = all.filter(function(c){ return c.tbi; }).length;
-    $("emF").textContent = all.filter(function(c){ return c.signals.some(function(s){ return s.type === "FDA clearance"; }); }).length;
-    $("emC").textContent = all.filter(function(c){ return c.signals.some(function(s){ return s.type === "Clinical trial"; }); }).length;
     var rows = emFiltered(), maxS = Math.max(10, Math.max.apply(null, all.map(function(c){ return c.score; }).concat([0])));
     $("emGrid").innerHTML = rows.slice(0, S.emLimit).map(function(c, n){
       var types = {}; c.signals.forEach(function(s){ types[s.type] = (types[s.type] || 0) + 1; });
@@ -1324,7 +1490,8 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
     if (!$("more").hidden) $("more").textContent = "Show more (" + (rows.length - S.limit) + ")";
   }
   function downloadCSV(rows, filename){
-    var cols = ["date","competitor","source","title","url","publisher","signal","snippet"];
+    var cols = ["date","competitor","source","title","url","publisher","signal","snippet","also_reported_by"];
+    rows = rows.map(function(i){ return Object.assign({}, i, {also_reported_by: (i.also || []).map(function(a){ return (a.publisher ? a.publisher + " " : "") + (a.url || ""); })}); });
     var q = function(v){ v = Array.isArray(v) ? v.join("; ") : (v == null ? "" : String(v)); return '"' + v.replace(/"/g, '""') + '"'; };
     var csv = cols.join(",") + "\n" + rows.map(function(i){ return cols.map(function(c){ return q(c === "date" ? itemDate(i) : i[c]); }).join(","); }).join("\n");
     var a = document.createElement("a");
@@ -1340,7 +1507,7 @@ footer{font:400 12px var(--mono);letter-spacing:.06em;color:var(--ink3);border-t
     var w = S.weeks[0];
     if (!w) { $("weekly").innerHTML = '<div class="empty">The first weekly review is created on Monday morning.</div>'; return; }
     $("wkMeta").textContent = w.week;
-    fetch("data/weekly/" + w.week + ".json?t=" + Date.now(), {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }).then(function(d){
+    fetch("data/weekly/" + w.week + ".json", {cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; }).then(function(d){
       if (!d) return;
       var rows = (d.counts || []).filter(function(c){ return c.this_week || c.last_week; }).sort(function(a,b){ return b.this_week - a.this_week; });
       $("weekly").innerHTML = (d.brief ? '<div class="md" style="margin-bottom:12px">' + mdToHtml(d.brief, d.cites) + '</div>' : d.brief_emailed ? '<p class="note">The written review was emailed to the team.</p>' : '')

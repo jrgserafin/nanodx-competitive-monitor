@@ -470,8 +470,12 @@ DEFAULT_ALERT_KEYWORDS = [
 ]
 
 
+_CFG_CACHE: dict = {}
+
+
 def load_config():
     cfg = yaml.safe_load(CONFIG.read_text())
+    _CFG_CACHE.clear(); _CFG_CACHE.update(cfg)
     s = {"digest_title": "Competitive Digest", "lookback_days": 14, "send_when_empty": True,
          "max_items_per_source": 15, "signal_keywords": [], "alert_keywords": DEFAULT_ALERT_KEYWORDS,
          "company_context": "", "ai_model": "claude-sonnet-4-5", "publish_strategy": False}
@@ -513,10 +517,35 @@ def jobs_for(entity):
 FILTERED_SOURCES = {"FDA", "Clinical trial", "Website", "RSS", "Patent", "Hiring"}
 
 
+# Headlines that are almost never competitive intelligence: paid market-research releases and
+# law-firm "investor alert" spam. Extend with `exclude_title_patterns` in competitors.yaml settings.
+DEFAULT_EXCLUDE_PATTERNS = [
+    r"\bmarket\s+(size|share|report|forecast|outlook|research|analysis|trends?|to\s+20\d\d)\b",
+    r"\bCAGR\b", r"\b20\d\d\s*[-–]\s*20\d\d\b.*\bmarket\b",
+    r"fiduciary dut(y|ies)", r"\b(shareholder|investor)s?\s+(alert|notice|reminder)\b",
+    r"\bclass action (lawsuit )?(filed|deadline|reminder)\b", r"\binvestigation (on behalf|of) .*(shareholders|investors)\b",
+]
+_EXCLUDE_RE = None
+
+
+def noise(it):
+    global _EXCLUDE_RE
+    if _EXCLUDE_RE is None:
+        pats = DEFAULT_EXCLUDE_PATTERNS + list((_CFG_CACHE.get("settings") or {}).get("exclude_title_patterns") or [])
+        _EXCLUDE_RE = re.compile("|".join(f"(?:{p})" for p in pats), re.I)
+    return bool(_EXCLUDE_RE.search(it.get("title") or ""))
+
+
 def relevant(it, rules):
-    """For large companies, keep FDA/trial/website/RSS/patent/job items only if they mention our space."""
-    kws = rules.get(it["competitor"])
-    if not kws or it["source"] not in FILTERED_SOURCES:
+    """Drop spam headlines. For large companies keep FDA/trial/website/RSS/patent/job items only if they
+    mention our space; for market topics apply the keywords to every source, news included."""
+    if noise(it):
+        return False
+    rule = rules.get(it["competitor"])
+    if not rule:
+        return True
+    kws, all_sources = rule if isinstance(rule, tuple) else (rule, False)
+    if not kws or (not all_sources and it["source"] not in FILTERED_SOURCES):
         return True
     hay = f"{it['title']} {it.get('snippet', '')}".lower()
     return any(k.lower() in hay for k in kws)
@@ -546,10 +575,14 @@ def collect(only: str | None = None):
         if not ents:
             sys.exit(f"No competitor/topic matches '{only}'")
 
-    rules = {e["name"]: e.get("relevance_keywords") for e in entities(cfg)}
+    rules = {e["name"]: (e.get("relevance_keywords"), e in cfg["topics"] or bool(e.get("relevance_all_sources")))
+             for e in entities(cfg)}
     history = load_json(DATA / "items.json", [])
     known = {h["id"] for h in history}
     history = [h for h in history if relevant(h, rules)]  # re-apply if keywords were added later
+    for h in history:  # Federal Register: flag on the title only (abstracts mention "FDA" constantly)
+        if h["source"] == "Federal Register":
+            h["signal"] = keyword_hits({"title": h["title"]}, s["signal_keywords"])
     cutoff = (now_utc() - dt.timedelta(days=s["lookback_days"])).date().isoformat()
     ts = stamp()
 
@@ -581,7 +614,7 @@ def collect(only: str | None = None):
         if it.get("date") and it["date"] < cutoff:
             it["stale"] = True  # remember it so it never shows as new
         it["first_seen"] = ts
-        it["signal"] = keyword_hits(it, s["signal_keywords"])
+        it["signal"] = keyword_hits({"title": it["title"]} if it["source"] == "Federal Register" else it, s["signal_keywords"])
         history.append(it)
         new += 0 if it.get("stale") else 1
 
@@ -609,7 +642,8 @@ DEFAULT_EMERGING = {
     # Words in FDA 510(k)/De Novo device names that indicate point-of-care or TBI relevance
     "fda_keywords": ["point of care", "point-of-care", "POC", "rapid", "whole blood", "fingerstick",
                      "capillary", "handheld", "brain", "concussion", "traumatic", "GFAP", "UCH-L1", "neuro"],
-    "tbi_keywords": ["brain", "concussion", "traumatic", "TBI", "GFAP", "UCH-L1", "head injury", "neuro"],
+    "tbi_keywords": ["brain", "concussion", "traumatic", "TBI", "GFAP", "UCH-L1", "head injury", "neuro",
+                     "intracranial", "hemorrhage", "haemorrhage", "hematoma", "skull"],
     "trial_conditions": ["traumatic brain injury", "concussion", "mild traumatic brain injury"],
     "news_queries": [
         '"point-of-care" diagnostics startup funding',
@@ -644,18 +678,35 @@ def norm_company(name: str) -> str:
     return n
 
 
+_GENERIC_WORDS = {"diagnostics", "diagnostic", "medical", "health", "healthcare", "bio", "biotech", "labs", "lab",
+                  "systems", "solutions", "technologies", "technology", "the", "neuro", "brain", "global", "group",
+                  "international", "sciences", "science", "instruments", "devices", "point", "care", "rapid"}
+
+
+def _first_word(n):
+    w = re.sub(r"[^a-z0-9]+", " ", n.lower()).split()
+    return w[0] if w and len(w[0]) >= 4 and w[0] not in _GENERIC_WORDS else ""
+
+
 def _tracked_keys(cfg):
+    """Names that count as 'already on the watchlist': names, aliases, FDA/trial/patent names, plus the
+    distinctive first word of each (so 'Sense Diagnostics' matches 'Sense Neuro Diagnostics')."""
     keys = set()
     for e in entities(cfg):
-        for v in (e.get("name"), e.get("fda_applicant"), e.get("trials_sponsor"), e.get("patent_assignee")):
+        for v in [e.get("name"), e.get("fda_applicant"), e.get("trials_sponsor"), e.get("patent_assignee")] + list(e.get("aliases") or []):
             if v:
                 keys.add(norm_company(v).lower())
+                if e in cfg["competitors"]:
+                    fw = _first_word(norm_company(v))
+                    if fw:
+                        keys.add("^" + fw)
     return {k for k in keys if len(k) >= 3}
 
 
 def _is_tracked(name, keys):
     n = norm_company(name).lower()
-    return any(k in n or n in k for k in keys if k)
+    fw = _first_word(n)
+    return any((k[1:] == fw) if k.startswith("^") else (k in n or n in k) for k in keys if k)
 
 
 def discover(cfg):
@@ -891,12 +942,57 @@ def e(s):
     return html.escape(str(s or ""))
 
 
+_STOP = set("a an and the of for to in on with by at from as is are be its it this that new says said after over into "
+             "inc corp ltd llc co plc nasdaq nyse".split())
+
+
+def _tokens(title):
+    t = re.split(r"\s+[-–|]\s+|\s+by\s+investing\.com", title or "", flags=re.I)[0]
+    return {w for w in re.findall(r"[a-z0-9]+", t.lower()) if len(w) > 2 and w not in _STOP}
+
+
+def group_stories(items, days=4):
+    """Collapse near-identical news stories (same company, overlapping headline words, within a few days)
+    into one item with an `also` list of the other outlets."""
+    out, heads = [], []
+    for it in items:
+        if it["source"] not in ("News", "Website", "RSS"):
+            out.append(it)
+            continue
+        tk, d = _tokens(it["title"]), item_date(it)
+        hit = None
+        for h, htk in heads:
+            if h["competitor"] != it["competitor"] or not tk or not htk:
+                continue
+            try:
+                gap = abs((dt.date.fromisoformat(item_date(h)[:10]) - dt.date.fromisoformat(d[:10])).days)
+            except ValueError:
+                gap = 0
+            inter = len(tk & htk)
+            if gap <= days and (inter / len(tk | htk) >= .4 or (inter >= 4 and inter / min(len(tk), len(htk)) >= .6)):
+                hit = h
+                break
+        if hit:
+            hit.setdefault("also", []).append({"publisher": it.get("publisher") or "", "url": it.get("url")})
+            if it.get("signal") and not hit.get("signal"):
+                hit["signal"] = it["signal"]
+        else:
+            it = dict(it)
+            heads.append((it, tk))
+            out.append(it)
+    return out
+
+
 def row(i):
     color = COLORS.get(i["source"], "#475467")
     sig = (" <span style='background:#fef0c7;color:#93370d;border-radius:4px;padding:1px 6px;font-size:11px'>"
            + e(", ".join(i["signal"][:3])) + "</span>") if i.get("signal") else ""
     meta = " · ".join(x for x in [i["competitor"], i.get("publisher"), item_date(i)] if x)
     snip = f"<div style='color:#475467;font-size:13px;margin-top:2px'>{e(i['snippet'])}</div>" if i.get("snippet") else ""
+    if i.get("also"):
+        pubs = ", ".join(e(a["publisher"]) for a in i["also"][:4] if a.get("publisher"))
+        snip += (f"<div style='color:#667085;font-size:12px;margin-top:2px'>Also reported by {len(i['also'])} more"
+                 + (f": {pubs}" if pubs else "") + "</div>")
     return (f"<tr><td style='padding:8px 0;border-bottom:1px solid #eaecf0'>"
             f"<span style='color:{color};font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.04em'>{e(i['source'])}</span>{sig}<br>"
             f"<a href='{e(i.get('url') or '#')}' style='color:#101828;font-weight:600;text-decoration:none;font-size:14px'>{e(i['title'])}</a>"
@@ -986,6 +1082,8 @@ def alerts():
     if not fresh:
         print("No new alerts.")
         return
+    fresh_ids = [i["id"] for i in fresh]
+    fresh = group_stories(sorted(fresh, key=lambda i: item_date(i), reverse=True))
     fresh.sort(key=lambda i: SOURCE_ORDER.index(i["source"]) if i["source"] in SOURCE_ORDER else 99)
     why = ask_claude(analyst_system(cfg),
                      "These items just triggered alerts. In 2-4 bullets, say what each means for NanoDx and whether "
@@ -999,15 +1097,15 @@ def alerts():
                  f"{len(fresh)} high-signal item{'s' if len(fresh) != 1 else ''} just detected.", body, "#b42318")
     sent = send_email(subject, page, text_list(fresh), "ALERT_RECIPIENTS")
     log = load_json(DATA / "alerts.json", [])
-    log.insert(0, {"at": stamp(), "sent": sent, "items": [i["id"] for i in fresh], "titles": [i["title"] for i in fresh]})
+    log.insert(0, {"at": stamp(), "sent": sent, "items": fresh_ids, "titles": [i["title"] for i in fresh]})
     save_json(DATA / "alerts.json", log[:200])
     if sent or os.environ.get("SEND_EMAIL", "").lower() != "true":
         # mark as alerted when delivered, or when email is intentionally off (keeps the log accurate)
-        state["alerted"] = (list(alerted) + [i["id"] for i in fresh])[-4000:]
+        state["alerted"] = (list(alerted) + fresh_ids)[-4000:]
         save_json(DATA / "state.json", state)
     for i in fresh:
         i["alert"] = True
-    ids = {i["id"] for i in fresh}
+    ids = set(fresh_ids)
     for h in history:
         if h["id"] in ids:
             h["alert"] = True
@@ -1062,6 +1160,9 @@ def digest():
     else:
         done = set(done)
         items = [i for i in history if not i.get("stale") and i["id"] not in done]
+    raw_ids = [i["id"] for i in items]
+    items.sort(key=lambda i: item_date(i), reverse=True)
+    items = group_stories(items)
     items.sort(key=lambda i: (not i.get("signal"), i["competitor"], item_date(i)))
     brief = None
     if items:
@@ -1102,7 +1203,7 @@ def digest():
         subject = f"{s['digest_title']} · {day} · {n} new" + (f", {sig} high-signal" if sig else "")
         send_email(subject, page, (brief or "") + "\n\n" + (text_list(items) or "No new activity."))
     state["last_digest_at"] = stamp()
-    state["digested"] = ([] if done is None else list(done)) + [i["id"] for i in items]
+    state["digested"] = ([] if done is None else list(done)) + raw_ids
     state["digested"] = state["digested"][-(MAX_HISTORY + 500):]
     if done is None:  # first digest: everything older is considered seen
         state["digested"] = [i["id"] for i in history][-(MAX_HISTORY + 500):]
