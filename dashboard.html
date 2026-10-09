@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#03112a">
+<meta name="theme-color" content="#070c17">
 <title>NanoDx Competitive Intelligence</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Cpath d=%27M16 1l13.9 8v14L16 31 2.1 23V9z%27 fill=%27%2303111B%27 stroke=%27%236FCBFF%27 stroke-width=%272%27/%3E%3Cpath d=%27M10 22V10h2.6l6.8 8.2V10H22v12h-2.6l-6.8-8.2V22z%27 fill=%27%23F4F9FD%27/%3E%3C/svg%3E">
 <meta name="description" content="NanoDx competitive intelligence: TBI and point-of-care diagnostics competitors, emerging companies, FDA, trials and news.">
@@ -758,6 +758,83 @@ footer{color:var(--ink3)}
 section.view{padding-top:22px}
 .legend{align-items:center;gap:8px 16px}
 h2.h .note{font:400 13px var(--body)!important;letter-spacing:0!important;text-transform:none;color:var(--ink2)}
+
+/* =====================================================================
+   CONTRAST LAYER — vivid blue gradient BEHIND, near-black neutral panels IN FRONT.
+   Blue accents only ever sit on neutral dark (dark mode) or white (light mode).
+   ===================================================================== */
+:root,:root[data-theme="dark"]{
+  --ink:#ffffff; --ink2:#d6deea; --ink3:#a8b6ca;
+  --panel-top:#0d1526; --panel-bot:#070c17; --card:#0b1220; --card2:#131d31; --panel:#0b1220;
+  --surf:#111a2b; --surf-line:#2a3a55;
+  --line:rgba(170,195,235,.20); --line2:rgba(190,215,255,.42);
+  --btnbg:#111a2b; --btnbg2:#18253c; --trk:#1a2639;
+  --page:
+    radial-gradient(1100px 700px at -5% -10%,rgba(56,140,255,.95) 0%,rgba(56,140,255,0) 60%),
+    radial-gradient(900px 650px at 105% 15%,rgba(14,190,240,.75) 0%,rgba(14,190,240,0) 58%),
+    radial-gradient(1000px 700px at 50% 115%,rgba(88,80,236,.80) 0%,rgba(88,80,236,0) 60%),
+    linear-gradient(150deg,#0b2a72 0%,#1546a8 48%,#0b5fa8 100%);
+  --hero:linear-gradient(118deg,#060b16 0%,#0a1324 60%,#0e1a33 100%);
+  --shadow:0 0 0 1px rgba(0,0,0,.35),0 18px 40px rgba(2,8,30,.55);
+}
+:root[data-theme="light"]{
+  --ink:#071a33; --ink2:#2a3d57; --ink3:#3f5470;
+  --panel-top:#ffffff; --panel-bot:#f6f8fc; --card:#ffffff; --card2:#eef2f8; --panel:#ffffff;
+  --surf:#f1f4f9; --surf-line:#cfd9e6;
+  --line:rgba(16,40,80,.14); --line2:rgba(16,40,80,.30);
+  --btnbg:#f1f4f9; --btnbg2:#e5ebf3; --trk:#e3e9f2;
+  --page:
+    radial-gradient(1100px 700px at -5% -10%,rgba(37,99,235,.55) 0%,rgba(37,99,235,0) 60%),
+    radial-gradient(900px 650px at 105% 15%,rgba(14,165,233,.45) 0%,rgba(14,165,233,0) 58%),
+    radial-gradient(1000px 700px at 50% 115%,rgba(99,102,241,.45) 0%,rgba(99,102,241,0) 60%),
+    linear-gradient(150deg,#cfe0ff 0%,#a9c6fb 50%,#9cc3f2 100%);
+  --hero:linear-gradient(118deg,#ffffff 0%,#f7f9fd 60%,#eef3fb 100%);
+  --shadow:0 0 0 1px rgba(16,40,80,.06),0 16px 36px rgba(16,50,120,.22);
+}
+body{background:var(--page) fixed,var(--bg)}
+#grid{opacity:.10}
+
+/* header: neutral dark glass over the gradient */
+header.top{background:rgba(6,10,20,.88);border-bottom:1px solid rgba(255,255,255,.08)}
+:root[data-theme="light"] header.top{background:rgba(255,255,255,.92);border-bottom-color:rgba(16,40,80,.12)}
+
+/* panels: neutral, clearly separated from the blue backdrop */
+.card,.hero,.em-hero{background:linear-gradient(180deg,var(--panel-top),var(--panel-bot))!important;border:1px solid var(--line);box-shadow:var(--shadow)}
+.hero::after{background:linear-gradient(90deg,rgba(6,11,22,.94) 0%,rgba(8,14,28,.70) 55%,rgba(10,18,36,.15) 100%)}
+:root[data-theme="light"] .hero::after{background:linear-gradient(90deg,rgba(255,255,255,.97) 0%,rgba(247,249,253,.75) 55%,rgba(238,243,251,.15) 100%)}
+.mini div{background:var(--surf);border-color:var(--surf-line)}
+aside.drawer{background:linear-gradient(180deg,#0b1220,#060a14)!important}
+:root[data-theme="light"] aside.drawer{background:linear-gradient(180deg,#ffffff,#f3f6fb)!important}
+.dh{background:rgba(7,12,23,.94)}
+:root[data-theme="light"] .dh{background:rgba(255,255,255,.95)}
+
+/* every secondary surface is neutral, not blue */
+.status,.search input,select,.seg,.tog,.ticker .tk,.chip,.btn:not(.primary):not(#toTop),.tag,.pill,.cov span,.tier:not(.direct):not(.emerging),.also,.sig,.chips{
+  background:var(--surf)!important;border-color:var(--surf-line)!important}
+.chips{background:var(--surf-line)!important}
+.tag,.pill,.cov span,.tier:not(.direct){color:var(--ink)!important}
+.status,.chip,.tkr a{color:var(--ink2)}
+.btn:not(.primary):not(#toTop){color:var(--ink)}
+.btn:not(.primary):not(#toTop):hover{background:var(--btnbg2)!important;border-color:var(--line2)!important}
+h2.h .ico{background:var(--surf)!important;border-color:var(--surf-line)!important}
+.kpi .ic,.kpi.hot .ic,.kpi.alert .ic,.kpi.cov .ic{box-shadow:0 0 0 1px rgba(255,255,255,.08)}
+.track{background:var(--trk);border-color:var(--surf-line)}
+.item:hover{background-color:rgba(255,255,255,.04)}
+:root[data-theme="light"] .item:hover{background-color:rgba(16,40,80,.04)}
+.item{border-color:var(--line)}
+
+/* text that sits directly on the blue backdrop: always white (light mode: dark ink) */
+footer,footer a,#count,#count a,.view > .note,section.view > p,.wrap > .note{color:#ffffff!important}
+:root[data-theme="light"] footer,:root[data-theme="light"] footer a,:root[data-theme="light"] #count,:root[data-theme="light"] #count a{color:#071a33!important}
+footer{border-top-color:rgba(255,255,255,.25)}
+
+/* chart surfaces neutral */
+#land rect[fill="var(--card2)"]{fill:var(--card2)}
+.scrim{background:rgba(2,6,16,.75)}
+#xfer{background:linear-gradient(118deg,#060b16,#0d1830)}
+:root[data-theme="light"] #xfer{background:linear-gradient(118deg,#ffffff,#eaf1fb)}
+#loader{background:linear-gradient(160deg,#060b16,#0b1630)}
+:root[data-theme="light"] #loader{background:linear-gradient(160deg,#ffffff,#eaf1fb)}
 </style>
 </head>
 <body>
