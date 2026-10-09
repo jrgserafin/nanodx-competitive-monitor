@@ -24,7 +24,7 @@ on:
         default: false
   push:
     branches: [main]
-    paths: ["dashboard.html", "competitors.yaml", "monitor.py", ".github/workflows/monitor.yml"]
+    paths: ["dashboard.html", "competitors.yaml", "monitor.py", "assets/**", ".github/workflows/monitor.yml"]
 
 permissions:
   contents: write
