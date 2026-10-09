@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-09T18:10:10+00:00",
+ "checked": "2026-10-09T19:02:39+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -288,6 +288,19 @@
   }
  ],
  "news": [
+  {
+   "id": "dca35b6318280b77",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Weekly Buzz: RHHBY, NVS, PFE Win FDA Nod; CRBU Scales Back; PCVX, ABBV Report Positive Trial Data",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRnlYRzVyTS1uU0t3ZmRISXU2dExuLUVkWFN1RTFLVmxpZXhBV3BJc1lxU3pCaWIxbk1aUE8xVC1UbzJyeUVUdlhGU1lWa1ZkTHhTQnQ3a3lQNTA2SzJidmVyTUtZNkNyZzBFUnFLWkhid3BUMTJiX1dHX3FzX0duZDN1dEhZQS1rVWxIRHBqZEsxb0dMei1Ea2xCeHotVnZPWC02d1FtMTJ1SzZPbkIydE9uQWs2Y3FhUHVsWWd2XzlwekhXMk1r?oc=5",
+   "date": "2026-10-09",
+   "snippet": "",
+   "publisher": "RTTNews",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-09T19:02:39+00:00"
+  },
   {
    "id": "263cc435af650e3a",
    "competitor": "Emerging (POC)",
