@@ -876,6 +876,89 @@ summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
 #soundBtn.nudge{animation:nudge 1.6s ease-in-out infinite}
 @keyframes nudge{50%{box-shadow:0 0 0 4px rgba(116,208,255,.25),0 0 18px rgba(116,208,255,.45)}}
 @media (prefers-reduced-motion: reduce){#soundBtn .eq i,#soundBtn.nudge{animation:none}}
+
+/* =====================================================================
+   INTRO SCREEN — "Load Up" gate, 5-second boot sequence, full-song music
+   ===================================================================== */
+#loader,:root[data-theme="light"] #loader{position:fixed;inset:0;z-index:100;display:grid;place-items:center;overflow:hidden;padding:24px;color:#fff;
+  background:radial-gradient(900px 600px at 50% 45%,#0b3170 0%,#061a3d 45%,#020a1c 100%)!important;transition:opacity .9s ease,visibility .9s}
+#loader.done{opacity:0;visibility:hidden;pointer-events:none}
+#ldfx{position:absolute;inset:0;width:100%;height:100%}
+.ldgrid{position:absolute;inset:-50%;background-image:linear-gradient(rgba(120,180,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(120,180,255,.08) 1px,transparent 1px);background-size:48px 48px;
+  transform:perspective(700px) rotateX(62deg) translateY(18%);transform-origin:50% 60%;animation:gridRun 2.4s linear infinite;mask-image:radial-gradient(closest-side at 50% 55%,#000 30%,transparent 75%);-webkit-mask-image:radial-gradient(closest-side at 50% 55%,#000 30%,transparent 75%)}
+@keyframes gridRun{to{background-position:0 48px,0 0}}
+#loader.run .ldgrid{animation-duration:.5s}
+.ldscan{position:absolute;left:0;right:0;height:120px;top:-120px;background:linear-gradient(180deg,transparent,rgba(116,208,255,.06) 70%,rgba(155,231,255,.30) 99%,transparent);animation:ldScan 3.2s cubic-bezier(.6,0,.4,1) infinite;pointer-events:none}
+@keyframes ldScan{to{top:100%}}
+.ldhud{position:absolute;inset:18px;pointer-events:none}
+.ldhud > i{position:absolute;width:26px;height:26px;border:2px solid rgba(155,231,255,.75);opacity:0;animation:hudIn .6s .3s forwards}
+.ldhud > i:nth-child(1){left:0;top:0;border-right:0;border-bottom:0}.ldhud > i:nth-child(2){right:0;top:0;border-left:0;border-bottom:0}
+.ldhud > i:nth-child(3){left:0;bottom:0;border-right:0;border-top:0}.ldhud > i:nth-child(4){right:0;bottom:0;border-left:0;border-top:0}
+@keyframes hudIn{from{opacity:0;transform:scale(1.6)}to{opacity:1;transform:none}}
+.ldhud .hl{position:absolute;font:500 11px var(--mono);letter-spacing:.22em;color:rgba(190,225,255,.7);opacity:0;animation:rise .6s .6s forwards}
+.ldhud .t{top:6px;left:40px}.ldhud .r{top:6px;right:40px;font-variant-numeric:tabular-nums}.ldhud .b{bottom:6px;right:40px}.ldhud .l{bottom:6px;left:40px}
+.ld{position:relative;z-index:2;width:min(440px,92vw);display:grid;justify-items:center;gap:18px;text-align:center}
+.ldcore{position:relative;width:min(300px,72vw);aspect-ratio:1;display:grid;place-items:center}
+.ldrings{position:absolute;inset:0;width:100%;height:100%;overflow:visible;opacity:0;animation:ringsIn 1.1s .15s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes ringsIn{from{opacity:0;transform:scale(.6) rotate(-40deg)}to{opacity:1;transform:none}}
+.rg,.sweep{transform-origin:150px 150px}
+.r1{animation:spin 40s linear infinite}.r2{animation:spin 60s linear infinite reverse}.r3{animation:spin 9s linear infinite}.r4{animation:spin 14s linear infinite reverse}
+.sweep{animation:spin 3.2s linear infinite}
+#loader.run .r3{animation-duration:2.2s}#loader.run .sweep{animation-duration:1.1s}#loader.run .r4{animation-duration:4s}
+@keyframes spin{to{transform:rotate(360deg)}}
+.blips circle{fill:#9be7ff;opacity:0;animation:blip 3.2s infinite}
+.blips circle:nth-child(2){animation-delay:.9s}.blips circle:nth-child(3){animation-delay:1.7s}.blips circle:nth-child(4){animation-delay:2.4s}
+@keyframes blip{0%,70%,100%{opacity:0;r:1}8%{opacity:1;r:4}30%{opacity:.4}}
+.pr{transition:stroke-dashoffset .25s linear;filter:drop-shadow(0 0 6px rgba(116,208,255,.8))}
+.ldlogo{position:relative;width:58%;height:auto;color:#fff;clip-path:inset(0 100% 0 0);animation:wipe .9s .35s cubic-bezier(.7,0,.3,1) forwards;filter:drop-shadow(0 0 14px rgba(116,208,255,.35));transition:transform .5s}
+#loader.run .ldlogo{transform:translateY(-14px)}
+.ldpct{position:absolute;left:0;right:0;top:58%;font:700 26px var(--font);letter-spacing:-.01em;color:#fff;opacity:0;transition:opacity .4s;font-variant-numeric:tabular-nums}
+.ldpct small{font-size:13px;color:#9be7ff;margin-left:2px}
+#loader.run .ldpct{opacity:1}
+.ldsub{font:500 12.5px var(--mono);letter-spacing:.34em;text-transform:uppercase;color:#9be7ff;opacity:0;animation:rise .6s .9s cubic-bezier(.2,.8,.2,1) forwards}
+.ldgate{display:grid;justify-items:center;gap:14px;opacity:0;animation:rise .7s 1.1s cubic-bezier(.2,.8,.2,1) forwards}
+.ldgo{position:relative;display:inline-flex;align-items:center;gap:12px;padding:16px 38px;border:0;cursor:pointer;color:#03112a;font:800 15px var(--font);letter-spacing:.24em;text-transform:uppercase;
+  background:linear-gradient(135deg,#bff0ff 0%,#74d0ff 40%,#3d7dff 100%);clip-path:polygon(14px 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%,0 14px);
+  box-shadow:0 0 40px rgba(116,208,255,.45);transition:transform .25s cubic-bezier(.2,.8,.2,1),filter .25s}
+.ldgo .i{width:16px;height:16px}
+.ldgo:hover{transform:translateY(-2px) scale(1.03);filter:brightness(1.08)}
+.ldgo:active{transform:scale(.97)}
+.ldgo:focus-visible{outline:2px solid #fff;outline-offset:4px}
+.ldgo::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.7) 50%,transparent 70%);transform:translateX(-120%);animation:shine 2.6s 1.8s infinite}
+@keyframes shine{40%,100%{transform:translateX(120%)}}
+.ldgo .ring{position:absolute;inset:-1px;border:1px solid #9be7ff;opacity:0;animation:ringOut 2.2s 1.6s infinite;clip-path:inherit}
+.ldgo .ring.r2{animation-delay:2.7s}
+@keyframes ringOut{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(1.35,1.9)}}
+.ldsnd{display:inline-flex;align-items:center;gap:8px;background:none;border:0;color:rgba(200,230,255,.85);font:500 12px var(--mono);letter-spacing:.16em;text-transform:uppercase;cursor:pointer;padding:6px 10px}
+.ldsnd .i{width:16px;height:16px}.ldsnd .s-off{display:none}.ldsnd[aria-pressed="false"] .s-on{display:none}.ldsnd[aria-pressed="false"] .s-off{display:inline-block}
+.ldsnd:hover{color:#fff}
+.ldprog{width:100%;display:none;gap:12px}
+#loader.run .ldgate{display:none}
+#loader.run .ldprog{display:grid;animation:rise .5s both}
+.ldtrack{position:relative;height:3px;background:rgba(150,205,255,.18);overflow:hidden}
+.ldtrack i{position:absolute;left:0;top:0;bottom:0;width:0;height:auto;background:linear-gradient(90deg,#9be7ff,#3d7dff);box-shadow:0 0 14px #74d0ff}
+.ldtrack::after{content:"";position:absolute;top:0;bottom:0;width:60px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.8),transparent);animation:trk 1.1s linear infinite}
+@keyframes trk{from{left:-60px}to{left:100%}}
+.ldrow{display:flex;justify-content:space-between;gap:12px;font:500 12.5px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:#cfe6ff}
+.ldrow b{color:#fff;font-weight:500;font-variant-numeric:tabular-nums}
+.ldstats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:rgba(150,205,255,.25);border:1px solid rgba(150,205,255,.25)}
+.ldstats div{background:rgba(4,18,44,.85);padding:10px 6px;display:grid;gap:2px}
+.ldstats b{font:700 22px var(--font);color:#fff;font-variant-numeric:tabular-nums}
+.ldstats span{font:500 10.5px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:#9be7ff}
+.ldsteps{list-style:none;margin:0;padding:0;display:grid;gap:6px;text-align:left}
+.ldsteps li{position:relative;padding-left:26px;font:500 12.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:rgba(200,225,255,.45);transition:color .3s}
+.ldsteps li::before{content:"";position:absolute;left:4px;top:50%;width:10px;height:10px;margin-top:-5px;border:1px solid rgba(150,205,255,.5);transform:rotate(45deg);transition:all .3s}
+.ldsteps li.on{color:#fff}.ldsteps li.on::before{border-color:#9be7ff;animation:stepPulse .8s infinite}
+.ldsteps li.ok{color:#9be7ff}.ldsteps li.ok::before{background:#74d0ff;border-color:#74d0ff;box-shadow:0 0 10px #74d0ff}
+@keyframes stepPulse{50%{box-shadow:0 0 0 4px rgba(116,208,255,.25)}}
+.ldflash{position:absolute;inset:0;background:radial-gradient(circle at 50% 45%,rgba(200,240,255,.9),rgba(116,208,255,.25) 30%,transparent 60%);opacity:0;pointer-events:none}
+#loader.out .ldflash{animation:flash .9s ease-out}
+@keyframes flash{20%{opacity:1}100%{opacity:0}}
+#loader.out .ld{animation:ldOut .9s cubic-bezier(.6,0,.4,1) forwards}
+@keyframes ldOut{to{opacity:0;transform:scale(1.25);filter:blur(6px)}}
+#loader.out .ldrings{animation:none;opacity:1;transform:scale(1.6);transition:transform .9s cubic-bezier(.6,0,.4,1)}
+@media (max-width:520px){.ldhud .hl{display:none}.ldstats b{font-size:18px}.ldgo{padding:14px 30px}}
+@media (prefers-reduced-motion: reduce){.ldgrid,.ldscan,.rg,.sweep,.blips circle,.ldgo::after,.ldgo .ring,.ldtrack::after{animation:none!important}.ldlogo{clip-path:none;animation:none}}
 </style>
 </head>
 <body>
@@ -923,13 +1006,44 @@ summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
 <div id="grid" aria-hidden="true"></div>
 <canvas id="bgfield" aria-hidden="true"></canvas>
 <!-- ================= LOADING SCREEN ================= -->
-<div id="loader" role="status" aria-live="polite">
+<div id="loader" class="gate" role="dialog" aria-modal="true" aria-label="NanoDx Competitive Intelligence">
+  <canvas id="ldfx" aria-hidden="true"></canvas>
+  <div class="ldgrid" aria-hidden="true"></div>
+  <div class="ldscan" aria-hidden="true"></div>
+  <div class="ldhud" aria-hidden="true"><i></i><i></i><i></i><i></i>
+    <span class="hl t">NDX // CI-CONSOLE</span><span class="hl r" id="ldClock">--:--:--</span><span class="hl b">SECURE LINK · PUBLIC SOURCES</span><span class="hl l" id="ldCoord">SYS 0x0000</span></div>
   <div class="ld">
-    <svg class="ldlogo" viewBox="0 0 200 32.757" aria-label="NanoDx"><use href="#wm"/></svg>
+    <div class="ldcore">
+      <svg class="ldrings" viewBox="0 0 300 300" aria-hidden="true">
+        <defs>
+          <linearGradient id="ldg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9be7ff"/><stop offset="1" stop-color="#3d7dff"/></linearGradient>
+          <radialGradient id="ldsw" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 150) scale(128)"><stop offset="0" stop-color="#74d0ff" stop-opacity=".0"/><stop offset="1" stop-color="#74d0ff" stop-opacity=".35"/></radialGradient>
+        </defs>
+        <g class="rg r1"><circle cx="150" cy="150" r="142" fill="none" stroke="rgba(150,205,255,.35)" stroke-width="1" stroke-dasharray="2 6"/></g>
+        <g class="rg r2" stroke="rgba(150,205,255,.55)" stroke-width="1.2"><line x1="150" y1="16" x2="150" y2="30" transform="rotate(0 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(6 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(12 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(18 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(24 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(30 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(36 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(42 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(48 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(54 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(60 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(66 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(72 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(78 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(84 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(90 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(96 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(102 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(108 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(114 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(120 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(126 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(132 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(138 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(144 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(150 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(156 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(162 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(168 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(174 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(180 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(186 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(192 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(198 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(204 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(210 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(216 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(222 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(228 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(234 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(240 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(246 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(252 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(258 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(264 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(270 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(276 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(282 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(288 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(294 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(300 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(306 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(312 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(318 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(324 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(330 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(336 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(342 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(348 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(354 150 150)"/></g>
+        <g class="rg r3"><circle cx="150" cy="150" r="112" fill="none" stroke="url(#ldg)" stroke-width="2.5" stroke-dasharray="120 56 40 60 18 70" stroke-linecap="square"/></g>
+        <g class="rg r4"><circle cx="150" cy="150" r="98" fill="none" stroke="rgba(150,205,255,.4)" stroke-width="1" stroke-dasharray="1 4"/></g>
+        <g class="sweep"><path d="M150 150 L150 22 A128 128 0 0 1 240.5 59.5 Z" fill="url(#ldsw)"/><line x1="150" y1="150" x2="240.5" y2="59.5" stroke="#9be7ff" stroke-width="1.2" opacity=".9"/></g>
+        <circle class="pr-bg" cx="150" cy="150" r="84" fill="none" stroke="rgba(150,205,255,.16)" stroke-width="3"/>
+        <circle class="pr" id="ldRing" cx="150" cy="150" r="84" fill="none" stroke="url(#ldg)" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90 150 150)"/>
+        <g class="blips"><circle cx="205" cy="92" r="3"/><circle cx="86" cy="196" r="2.5"/><circle cx="214" cy="205" r="2"/><circle cx="96" cy="88" r="2"/></g>
+      </svg>
+      <svg class="ldlogo" viewBox="0 0 200 32.757" aria-label="NanoDx"><use href="#wm"/></svg>
+      <div class="ldpct" aria-hidden="true"><span id="ldn">0</span><small>%</small></div>
+    </div>
     <div class="ldsub">Competitive Intelligence</div>
-    <div class="ldtrack"><i id="ldb"></i></div>
-    <div class="ldrow"><span id="ldm">Calibrating sensor</span><b><span id="ldn">0</span>%</b></div>
+    <div class="ldgate">
+      <button type="button" class="ldgo" id="ldGo"><span class="ring" aria-hidden="true"></span><span class="ring r2" aria-hidden="true"></span><svg class="i" aria-hidden="true"><use href="#i-play"/></svg><span class="lbl">Load Up</span></button>
+      <button type="button" class="ldsnd" id="ldSnd" aria-pressed="true"><svg class="i s-on" aria-hidden="true"><use href="#i-sound"/></svg><svg class="i s-off" aria-hidden="true"><use href="#i-mute"/></svg><span id="ldSndT">Music on</span></button>
+    </div>
+    <div class="ldprog" aria-live="polite">
+      <div class="ldtrack"><i id="ldb"></i></div>
+      <div class="ldrow"><span id="ldm">Calibrating sensor</span><b id="ldt">00.0s</b></div>
+      <div class="ldstats"><div><b id="lsA">0</b><span>Sources</span></div><div><b id="lsB">0</b><span>Companies</span></div><div><b id="lsC">0</b><span>Signals</span></div><div><b id="lsD">0</b><span>Emerging</span></div></div>
+      <ol class="ldsteps" id="ldSteps"><li>Sensor calibration</li><li>Live source uplink</li><li>FDA · trials · filings</li><li>Competitor mapping</li><li>Emerging radar</li></ol>
+    </div>
   </div>
+  <div class="ldflash" aria-hidden="true"></div>
 </div>
 
 <header class="top">
@@ -1170,59 +1284,90 @@ summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
   function initials(n){ return String(n).replace(/[^A-Za-z0-9 ]/g, "").split(/\s+/).filter(Boolean).slice(0,2).map(function(w){ return w[0]; }).join("").toUpperCase() || "?"; }
   function toast(msg){ var t = $("toast"); t.textContent = msg; t.classList.add("on"); clearTimeout(t._h); t._h = setTimeout(function(){ t.classList.remove("on"); }, 2400); }
 
-  /* ---------- loader (same motion as nanodx-site) ---------- */
-  var loaded = 0, total = 11, t0 = performance.now(), lmsg = "Calibrating sensor", lDone = false, lpc = 0;
+  /* ---------- intro: "Load Up" gate -> 5 s boot sequence (music starts on the click) ---------- */
+  var loaded = 0, total = 11, lmsg = "Calibrating sensor", dataReady = false, booting = false, bootDone = false;
   function lprog(label){ loaded++; if (label) lmsg = label; }
-  function lstep(){
-    if (lDone) return;
-    var tp = Math.min(1, (performance.now() - t0) / 1400), p = Math.min(tp, Math.max(.06, loaded / total)), e = 1 - Math.pow(1 - p, 2.2);
-    lpc = Math.max(lpc, Math.round(e * 100)); $("ldn").textContent = lpc; $("ldb").style.width = lpc + "%"; $("ldm").textContent = lmsg;
-    requestAnimationFrame(lstep);
-  }
-  requestAnimationFrame(lstep);
-  function hideLoader(){
-    var go = function(){
-      var el = performance.now() - t0;
-      if (!RM && !document.hidden && el < 1500) return setTimeout(go, 60);
-      lDone = true; $("ldn").textContent = 100; $("ldb").style.width = "100%"; $("ldm").textContent = "Ready";
-      setTimeout(function(){ $("loader").classList.add("done"); startAnimations(); }, RM ? 0 : 220);
-    };
-    go();
-  }
-
-
-  /* ---------- intro music: plays once per visit; browsers that block sound start it on the first click/key ---------- */
+  function hideLoader(){ dataReady = true; }
+  var BOOT_MS = 5000, seen = false; try { seen = sessionStorage.getItem("ndx-intro") === "1"; } catch(e){}
+  var LD = $("loader"), music = $("intro"), fadeT, wantMusic = true;
+  try { wantMusic = localStorage.getItem("ndx-sound") !== "off"; } catch(e){}
+  function fadeTo(v, ms, done){ clearInterval(fadeT); var from = music.volume, t0 = performance.now();
+    fadeT = setInterval(function(){ var k = Math.min(1, (performance.now() - t0) / ms); music.volume = Math.max(0, Math.min(1, from + (v - from) * k)); if (k >= 1) { clearInterval(fadeT); if (done) done(); } }, 40); }
+  function soundUI(){ var on = !music.paused; $("soundBtn").classList.toggle("on", on); $("soundBtn").setAttribute("aria-pressed", on ? "true" : "false"); }
+  function playMusic(){ music.volume = 0; var p = music.play(); if (p && p.then) p.then(function(){ fadeTo(.9, 1200); soundUI(); }, soundUI); }
+  function ldSndUI(){ $("ldSnd").setAttribute("aria-pressed", wantMusic ? "true" : "false"); $("ldSndT").textContent = wantMusic ? "Music on" : "Music off"; }
+  ldSndUI();
+  $("ldSnd").onclick = function(){ wantMusic = !wantMusic; try { localStorage.setItem("ndx-sound", wantMusic ? "on" : "off"); } catch(e){} ldSndUI(); };
+  $("soundBtn").onclick = function(){
+    if (!music.paused) { fadeTo(0, 400, function(){ music.pause(); soundUI(); }); try { localStorage.setItem("ndx-sound", "off"); } catch(e){} }
+    else { if (music.ended) music.currentTime = 0; try { localStorage.setItem("ndx-sound", "on"); } catch(e){} playMusic(); }
+  };
+  ["play","pause","ended"].forEach(function(t){ music.addEventListener(t, soundUI); });
+  var hiddenPaused = false;
+  document.addEventListener("visibilitychange", function(){
+    if (document.hidden && !music.paused) { hiddenPaused = true; music.pause(); }
+    else if (!document.hidden && hiddenPaused) { hiddenPaused = false; music.play().catch(function(){}); }
+  });
+  /* HUD clock + coordinates */
+  var hudT = setInterval(function(){ if (bootDone) return clearInterval(hudT); var d = new Date();
+    $("ldClock").textContent = d.toTimeString().slice(0, 8); $("ldCoord").textContent = "SYS 0x" + (Math.random() * 65535 | 0).toString(16).toUpperCase().padStart(4, "0"); }, 250);
+  /* scrambled step messages */
+  var GL = "▓▒░<>/\\|#=+*01ABCDEFX";
+  function scramble(el, txt){ if (RM) { el.textContent = txt; return; } var f = 0; clearInterval(el._sc);
+    el._sc = setInterval(function(){ f++; var k = txt.length * f / 12; el.textContent = txt.replace(/\S/g, function(c, i){ return i < k ? c : GL[Math.random() * GL.length | 0]; }); if (f >= 12) clearInterval(el._sc); }, 30); }
+  /* background canvas: drifting sensor nodes in the gate, warp streaks while booting */
   (function(){
-    var a = $("intro"), btn = $("soundBtn"), VOL = .9, LEN = 24, armed = false, fadeT, outing = false;
-    if (!a || !btn) return;
-    var pref = null; try { pref = localStorage.getItem("ndx-sound"); } catch(e){}
-    var played = false; try { played = sessionStorage.getItem("ndx-intro") === "1"; } catch(e){}
-    function ui(){ var on = !a.paused && !a.muted; btn.classList.toggle("on", on); btn.setAttribute("aria-pressed", on ? "true" : "false"); }
-    function fadeTo(v, ms, done){ clearInterval(fadeT); var from = a.volume, t0 = performance.now();
-      fadeT = setInterval(function(){ var k = Math.min(1, (performance.now() - t0) / ms); a.volume = from + (v - from) * k; if (k >= 1) { clearInterval(fadeT); if (done) done(); } }, 40); }
-    function start(){
-      a.muted = false; a.volume = 0;
-      var p = a.play();
-      if (p && p.then) p.then(function(){ disarm(); btn.classList.remove("nudge"); try { sessionStorage.setItem("ndx-intro", "1"); } catch(e){} fadeTo(VOL, 900); ui(); },
-                           function(){ arm(); btn.classList.add("nudge"); ui(); });
+    var c = $("ldfx"), x = c.getContext("2d"), W, H, P = [], N = 140, speed = 0;
+    function size(){ W = c.width = innerWidth; H = c.height = innerHeight; }
+    size(); addEventListener("resize", size);
+    for (var i = 0; i < N; i++) P.push({a: Math.random() * 6.283, r: Math.random() * Math.max(innerWidth, innerHeight) * .7, v: .2 + Math.random() * .8, s: .6 + Math.random() * 1.6});
+    function frame(){
+      if (bootDone) return;
+      var cx = W / 2, cy = H * .45; x.clearRect(0, 0, W, H);
+      var target = booting ? 1 : 0.04; speed += (target - speed) * .03;
+      for (var i = 0; i < N; i++) { var p = P[i], r0 = p.r;
+        p.r += p.v * (0.25 + speed * 14); p.a += booting ? 0 : .0008;
+        if (p.r > Math.max(W, H) * .75) { p.r = 10 + Math.random() * 40; r0 = p.r; }
+        var px = cx + Math.cos(p.a) * p.r, py = cy + Math.sin(p.a) * p.r, qx = cx + Math.cos(p.a) * (r0 - speed * 26 * p.v), qy = cy + Math.sin(p.a) * (r0 - speed * 26 * p.v);
+        var al = Math.min(1, p.r / 220) * .85;
+        x.strokeStyle = "rgba(155,231,255," + al + ")"; x.lineWidth = p.s; x.beginPath(); x.moveTo(qx, qy); x.lineTo(px + .01, py); x.stroke(); }
+      if (!booting) { x.strokeStyle = "rgba(120,180,255,.12)"; x.lineWidth = 1; x.beginPath();
+        for (var a = 0; a < 40; a++) for (var b = a + 1; b < 40; b++) { var A = P[a], B = P[b], ax = cx + Math.cos(A.a) * A.r, ay = cy + Math.sin(A.a) * A.r, bx = cx + Math.cos(B.a) * B.r, by = cy + Math.sin(B.a) * B.r;
+          if ((ax - bx) * (ax - bx) + (ay - by) * (ay - by) < 14000) { x.moveTo(ax, ay); x.lineTo(bx, by); } } x.stroke(); }
+      if (!RM) requestAnimationFrame(frame);
     }
-    function stop(){ fadeTo(0, 400, function(){ a.pause(); ui(); }); }
-    function onFirst(e){ if (e.target && e.target.closest && e.target.closest("#soundBtn")) return; if (e.type === "keydown" && e.key === "Escape") return; start(); }
-    var EV = ["pointerdown", "keydown", "touchend"];
-    function arm(){ if (armed) return; armed = true; EV.forEach(function(t){ addEventListener(t, onFirst, true); }); }
-    function disarm(){ armed = false; EV.forEach(function(t){ removeEventListener(t, onFirst, true); }); }
-    btn.onclick = function(){
-      disarm(); btn.classList.remove("nudge");
-      if (!a.paused && !a.muted) { stop(); try { localStorage.setItem("ndx-sound", "off"); } catch(e){} }
-      else { if (a.ended || a.currentTime > LEN - 5) a.currentTime = 0; outing = false; try { localStorage.setItem("ndx-sound", "on"); } catch(e){} start(); }
-    };
-    a.addEventListener("timeupdate", function(){
-      if (!outing && a.currentTime >= LEN - 4.5 && !a.paused) { outing = true; fadeTo(0, 4300, function(){ a.pause(); a.currentTime = 0; outing = false; ui(); }); }
-    });
-    a.addEventListener("ended", ui); a.addEventListener("pause", ui); a.addEventListener("play", ui);
-    document.addEventListener("visibilitychange", function(){ if (document.hidden && !a.paused) a.pause(); });
-    if (pref !== "off" && !played) start(); else ui();
+    frame();
   })();
+  function count(el, to){ var v = +el.textContent || 0; if (v === to) return; el.textContent = Math.round(v + (to - v) * .18 + (to > v ? .5 : -.5)); }
+  var STEPS = [["Calibrating sensor", 0], ["Uplinking live sources", .2], ["Scanning FDA, trials & filings", .4], ["Mapping the competitive landscape", .6], ["Sweeping the point-of-care radar", .8]];
+  function boot(withMusic){
+    if (booting) return; booting = true;
+    try { sessionStorage.setItem("ndx-intro", "1"); } catch(e){}
+    if (withMusic && wantMusic) playMusic();
+    LD.classList.remove("gate"); LD.classList.add("run");
+    var dur = seen ? 1600 : BOOT_MS, t0 = performance.now(), step = -1, lis = $("ldSteps").children;
+    (function tick(){
+      var el = performance.now() - t0, p = Math.min(1, el / dur);
+      if (!dataReady) p = Math.min(p, .96);
+      var e = p < 1 ? 1 - Math.pow(1 - p, 1.6) : 1, pc = Math.round(e * 100);
+      $("ldn").textContent = pc; $("ldb").style.width = pc + "%"; $("ldRing").style.strokeDashoffset = 100 - pc; $("ldt").textContent = (el / 1000).toFixed(1).padStart(4, "0") + "s";
+      for (var k = STEPS.length - 1; k >= 0; k--) if (p >= STEPS[k][1]) { if (k !== step) { step = k; scramble($("ldm"), STEPS[k][0]);
+        for (var j = 0; j < lis.length; j++) lis[j].className = j < k ? "ok" : j === k ? "on" : ""; } break; }
+      if (dataReady) { var src = (S.health && S.health.sources || []).filter(function(x){ return x.ok && !x.skipped; }).length, cos = (S.comps || []).filter(function(c){ return c.kind !== "topic"; }).length,
+        sig = (S.items || []).length, em = (S.em && S.em.companies || []).length, f = Math.min(1, p * 1.25);
+        count($("lsA"), Math.round(src * f)); count($("lsB"), Math.round(cos * f)); count($("lsC"), Math.round(sig * f)); count($("lsD"), Math.round(em * f)); }
+      if (p >= 1 && dataReady) return finish();
+      requestAnimationFrame(tick);
+    })();
+  }
+  function finish(){
+    for (var j = 0; j < $("ldSteps").children.length; j++) $("ldSteps").children[j].className = "ok";
+    scramble($("ldm"), "Ready"); $("ldn").textContent = 100; $("ldRing").style.strokeDashoffset = 0;
+    setTimeout(function(){ LD.classList.add("out"); }, RM ? 0 : 350);
+    setTimeout(function(){ bootDone = true; LD.classList.add("done"); startAnimations(); }, RM ? 50 : 1150);
+  }
+  $("ldGo").onclick = function(){ boot(true); };
+  if (seen) boot(false); else setTimeout(function(){ try { $("ldGo").focus({preventScroll:true}); } catch(e){} }, 1200);
 
   /* ---------- theme / links ---------- */
   try { var th = localStorage.getItem("ndx-theme2"); document.documentElement.dataset.theme = th === "light" ? "light" : "dark"; } catch(e){}
