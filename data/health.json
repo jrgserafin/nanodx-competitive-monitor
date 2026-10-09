@@ -1,26 +1,26 @@
 {
- "checked": "2026-10-09T02:30:25+00:00",
+ "checked": "2026-10-09T04:23:29+00:00",
  "sources": [
   {
    "entity": "Abbott",
    "source": "News: \"Abbott\" \"TBI\" test",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Abbott",
    "source": "News: \"i-STAT TBI\"",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "entity": "Abbott",
    "source": "News: \"Alinity\" TBI",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Abbott",
@@ -34,7 +34,7 @@
    "source": "FDA: Abbott",
    "ok": true,
    "count": 120,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "entity": "Abbott",
@@ -48,7 +48,7 @@
    "source": "PubMed: \"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 2,
-   "secs": 0.9
+   "secs": 0.8
   },
   {
    "entity": "Abbott",
@@ -87,7 +87,7 @@
    "source": "Homepage: https://www.biomerieux.com",
    "ok": true,
    "count": 0,
-   "secs": 1.0
+   "secs": 1.1
   },
   {
    "entity": "bioMérieux",
@@ -131,7 +131,7 @@
    "source": "Homepage: https://www.brainscope.com",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.5
   },
   {
    "entity": "BrainScope",
@@ -182,7 +182,7 @@
    "source": "Homepage: https://infrascanner.com",
    "ok": true,
    "count": 0,
-   "secs": 0.6
+   "secs": 2.5
   },
   {
    "entity": "InfraScan",
@@ -196,7 +196,7 @@
    "source": "PubMed: Infrascanner",
    "ok": true,
    "count": 1,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "entity": "InfraScan",
@@ -219,7 +219,7 @@
    "source": "News: \"HeadSMART\"",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "entity": "BrainBox Solutions",
@@ -233,14 +233,14 @@
    "source": "Trials: BrainBox Solutions",
    "ok": true,
    "count": 2,
-   "secs": 0.0
+   "secs": 0.1
   },
   {
    "entity": "BrainBox Solutions",
    "source": "PubMed: \"BrainBox\" AND (concussion OR \"traumatic brain injury\")",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "BrainBox Solutions",
@@ -263,7 +263,7 @@
    "source": "News: \"VEUPLEX\"",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "EzDiatech",
@@ -277,7 +277,7 @@
    "source": "PubMed: VEUPLEX OR EzDiatech",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "EzDiatech",
@@ -355,7 +355,7 @@
    "source": "FDA: Quanterix",
    "ok": true,
    "count": 0,
-   "secs": 0.8
+   "secs": 0.3
   },
   {
    "entity": "Quanterix",
@@ -401,7 +401,7 @@
    "source": "Homepage: https://www.genalyte.com",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.4
   },
   {
    "entity": "Genalyte",
@@ -459,7 +459,7 @@
    "source": "PubMed: EyeBOX AND concussion",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Oculogica",
@@ -482,7 +482,7 @@
    "source": "News: \"NeuroHawk\"",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Sense Neuro Diagnostics",
@@ -512,21 +512,21 @@
    "source": "News: \"Nosium\"",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Medicortex",
    "source": "Homepage: https://www.medicortex.fi",
    "ok": true,
    "count": 0,
-   "secs": 3.9
+   "secs": 4.6
   },
   {
    "entity": "Medicortex",
    "source": "PubMed: Medicortex OR ProbTBI",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Medicortex",
@@ -556,7 +556,7 @@
    "source": "Homepage: https://diagnostics.roche.com",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.8
   },
   {
    "entity": "Roche",
@@ -577,7 +577,7 @@
    "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Roche",
@@ -637,7 +637,7 @@
    "source": "Homepage: https://www.aconlabs.com",
    "ok": true,
    "count": 0,
-   "secs": 0.6
+   "secs": 0.7
   },
   {
    "entity": "ACON",
@@ -690,7 +690,7 @@
    "source": "Homepage: https://www.quidelortho.com",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.3
   },
   {
    "entity": "QuidelOrtho",
@@ -761,7 +761,7 @@
    "source": "FDA: Getein",
    "ok": true,
    "count": 0,
-   "secs": 0.9
+   "secs": 0.4
   },
   {
    "entity": "Getein Biotech",
@@ -777,7 +777,7 @@
    "source": "News: \"traumatic brain injury\" blood test",
    "ok": true,
    "count": 11,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "TBI diagnostics market",
@@ -791,7 +791,7 @@
    "source": "PubMed: (\"traumatic brain injury\" OR concussion) AND (GFAP OR \"UCH-L1\") AND \"point-of-care\"",
    "ok": true,
    "count": 1,
-   "secs": 0.7
+   "secs": 0.6
   },
   {
    "entity": "TBI diagnostics market",
@@ -812,14 +812,14 @@
    "source": "Federal Register: \"clinical laboratory fee schedule\" OR \"Medicare Physician Fee Schedule\" OR \"proprietary laboratory analyses\"",
    "ok": true,
    "count": 12,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Emerging (POC)",
    "source": "FDA 510(k) point-of-care scan",
    "ok": true,
    "count": 14,
-   "secs": 3.1
+   "secs": 3.0
   },
   {
    "entity": "Emerging (POC)",
@@ -832,8 +832,8 @@
    "entity": "Emerging (POC)",
    "source": "Google News point-of-care radar",
    "ok": true,
-   "count": 24,
-   "secs": 4.2
+   "count": 23,
+   "secs": 4.9
   }
  ]
 }
