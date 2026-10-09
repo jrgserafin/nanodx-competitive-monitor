@@ -152,6 +152,27 @@ def get(url: str, **kw) -> requests.Response:
     raise RuntimeError(f"{url}: {last}")
 
 
+def post_json(url: str, payload: dict) -> dict:
+    """POST JSON with the same retry / rate-limit handling as get()."""
+    host = urllib.parse.urlsplit(url).netloc
+    if _THROTTLED.get(host, 0) >= 4:
+        raise RuntimeError(f"{url}: skipped, {host} is rate-limiting this run")
+    last = None
+    for attempt in range(3):
+        try:
+            r = session.post(url, json=payload, timeout=TIMEOUT)
+            if r.status_code in (429, 500, 502, 503, 504):
+                _THROTTLED[host] = _THROTTLED.get(host, 0) + 1
+                raise requests.HTTPError(f"HTTP {r.status_code}")
+            r.raise_for_status()
+            _THROTTLED[host] = 0
+            return r.json()
+        except Exception as e:  # noqa: BLE001
+            last = e
+            time.sleep(2 * (attempt + 1))
+    raise RuntimeError(f"{url}: {last}")
+
+
 def load_json(path: Path, default):
     try:
         return json.loads(path.read_text())
@@ -477,6 +498,62 @@ def collect_federal_register(name, query, cfg, ent):
     return out
 
 
+# Federal awards (USAspending.gov: contracts incl. SBIR/STTR, DoD/VA/HHS; and grants). No key needed.
+_AWARD_GROUPS = {"contract": ["A", "B", "C", "D"], "grant": ["02", "03", "04", "05"]}
+
+
+def _awards(name, filters, cfg, uid_prefix):
+    since = (now_utc() - dt.timedelta(days=max(cfg["lookback_days"], 120))).date().isoformat()
+    out = []
+    for kind, codes in _AWARD_GROUPS.items():
+        body = {"filters": dict(filters, award_type_codes=codes,
+                                time_period=[{"start_date": since, "end_date": now_utc().date().isoformat()}]),
+                "fields": ["Award ID", "Recipient Name", "Award Amount", "Description", "Awarding Agency",
+                           "Awarding Sub Agency", "Start Date", "generated_internal_id"],
+                "limit": cfg["max_items_per_source"], "sort": "Start Date", "order": "desc"}
+        for a in post_json("https://api.usaspending.gov/api/v2/search/spending_by_award/", body).get("results", []):
+            amt = a.get("Award Amount") or 0
+            agency = a.get("Awarding Sub Agency") or a.get("Awarding Agency") or "Federal"
+            desc = (a.get("Description") or "").strip().capitalize()
+            gid = a.get("generated_internal_id") or a.get("Award ID") or ""
+            out.append(item(name, "Federal award",
+                            f"{agency} {kind} to {(a.get('Recipient Name') or '').title()}: {desc[:150] or a.get('Award ID')}"
+                            + (f" (${amt:,.0f})" if amt else ""),
+                            f"https://www.usaspending.gov/award/{urllib.parse.quote(gid)}" if gid else "https://www.usaspending.gov/",
+                            parse_date(a.get("Start Date")), f"{a.get('Awarding Agency', '')} · award {a.get('Award ID', '')}. {desc}",
+                            uid=make_id(uid_prefix, gid or desc)))
+    return out
+
+
+def collect_award_recipient(name, recipient, cfg, ent):
+    return _awards(name, {"recipient_search_text": [recipient]}, cfg, "AWD")
+
+
+def collect_award_keywords(name, keywords, cfg, ent):
+    return _awards(name, {"keywords": list(keywords) if isinstance(keywords, (list, tuple)) else [keywords]}, cfg, "AWK")
+
+
+# NIH RePORTER: newly funded research projects (who is funded to work on what). No key needed.
+def collect_nih(name, query, cfg, ent):
+    fy = now_utc().year
+    body = {"criteria": {"advanced_text_search": {"operator": "advanced", "search_field": "projecttitle,abstracttext,terms",
+                                                  "search_text": query}, "fiscal_years": [fy - 1, fy, fy + 1]},
+            "include_fields": ["ApplId", "ProjectTitle", "Organization", "AwardAmount", "ProjectStartDate",
+                               "ProjectNum", "AgencyIcAdmin", "FiscalYear", "ContactPiName"],
+            "limit": cfg["max_items_per_source"], "sort_field": "project_start_date", "sort_order": "desc"}
+    out = []
+    for p in post_json("https://api.reporter.nih.gov/v2/projects/search", body).get("results", []):
+        org = ((p.get("organization") or {}).get("org_name") or "").title()
+        ic = (p.get("agency_ic_admin") or {}).get("abbreviation") or "NIH"
+        amt = p.get("award_amount") or 0
+        out.append(item(name, "NIH grant", f"{org}: {p.get('project_title', '')}" + (f" (${amt:,.0f})" if amt else ""),
+                        f"https://reporter.nih.gov/project-details/{p.get('appl_id')}",
+                        parse_date((p.get("project_start_date") or "")[:10]),
+                        f"{ic} · {p.get('project_num', '')} · PI {p.get('contact_pi_name') or 'n/a'}",
+                        uid=make_id("NIH", str(p.get("appl_id")))))
+    return out
+
+
 # ------------------------------------------------------------------ pipeline
 DEFAULT_ALERT_KEYWORDS = [
     "FDA clearance", "FDA cleared", "clears", "510(k)", "De Novo", "PMA", "approval", "approved",
@@ -525,11 +602,18 @@ def jobs_for(entity):
         yield f"Patents: {entity['patent_assignee']}", collect_patents, entity["patent_assignee"]
     if entity.get("jobs"):
         yield f"Jobs: {next(iter(entity['jobs'].items()))[0]}", collect_jobs, entity["jobs"]
+    if entity.get("award_recipient"):
+        yield f"Federal awards: {entity['award_recipient']}", collect_award_recipient, entity["award_recipient"]
+    if entity.get("award_keywords"):
+        kw = entity["award_keywords"]
+        yield f"Federal awards: {', '.join(kw) if isinstance(kw, list) else kw}", collect_award_keywords, kw
+    if entity.get("nih_query"):
+        yield f"NIH RePORTER: {entity['nih_query']}", collect_nih, entity["nih_query"]
     if entity.get("federal_register_query"):
         yield f"Federal Register: {entity['federal_register_query']}", collect_federal_register, entity["federal_register_query"]
 
 
-FILTERED_SOURCES = {"FDA", "Clinical trial", "Website", "RSS", "Patent", "Hiring"}
+FILTERED_SOURCES = {"FDA", "Clinical trial", "Website", "RSS", "Patent", "Hiring", "Federal award", "NIH grant"}
 
 
 # Headlines that are almost never competitive intelligence: paid market-research releases and
@@ -645,7 +729,7 @@ def collect(only: str | None = None):
     save_json(DATA / "competitors.json", [
         {k: e.get(k) for k in ("name", "category", "website", "kind", "watch_pages", "news_queries", "fda_applicant",
                                "trials_sponsor", "pubmed_query", "rss", "sec_ticker", "patent_assignee", "jobs",
-                               "federal_register_query", "profile")}
+                               "federal_register_query", "award_recipient", "award_keywords", "nih_query", "workstream", "profile")}
         for e in entities(cfg)])
     ok = sum(1 for h in health if h["ok"] and not h.get("skipped"))
     print(f"Sources OK {ok}/{len(health)} · new items {new} · history {len(history)}")
@@ -942,7 +1026,7 @@ SOURCE_ORDER = ["FDA", "SEC filing", "News", "Federal Register", "Website", "RSS
                 "Publication", "Patent", "Hiring"]
 COLORS = {"FDA": "#b42318", "SEC filing": "#b42318", "Federal Register": "#b42318", "News": "#175cd3",
           "Website": "#6941c6", "RSS": "#6941c6", "Patent": "#6941c6", "Hiring": "#6941c6",
-          "Clinical trial": "#067647", "Publication": "#93370d"}
+          "Clinical trial": "#067647", "Publication": "#93370d", "Federal award": "#b54708", "NIH grant": "#067647"}
 
 
 def dashboard_url():

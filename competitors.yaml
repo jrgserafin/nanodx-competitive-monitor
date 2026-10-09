@@ -22,6 +22,11 @@
 #   jobs            Public job board -> hiring signals, e.g. {greenhouse: companyslug},
 #                   {lever: companyslug} or {ashby: companyslug}
 #   federal_register_query  Search of CMS/FDA rules & notices (best on a topic)
+#   award_recipient Company name on federal awards (USAspending.gov): DoD/VA/HHS contracts,
+#                   SBIR/STTR and grants. No key needed.
+#   award_keywords  Federal awards matching keywords (best on a topic)
+#   nih_query       NIH RePORTER search for newly funded research projects (topics)
+#   workstream      (topics) Research workstream the topic feeds, shown on the dashboard
 #   profile         Battlecard notes your team maintains: hq, ticker, products,
 #                   pricing, positioning, notes. The AI battlecard reads these.
 #
@@ -88,6 +93,7 @@ emerging:
 
 competitors:
 - name: Abbott
+  award_recipient: Abbott Laboratories   # federal contracts & grants (USAspending.gov)
   category: Direct · TBI blood test (POC)
   website: https://www.abbott.com
   watch_pages:
@@ -155,6 +161,7 @@ competitors:
     customers: Hospitals/ER, urgent care, military; adults 18+, within 12 h of injury
     notes: 'Focus: blood biomarkers to reduce unnecessary CT scans in mild TBI. Go-to-market: commercialization.'
 - name: BrainScope
+  award_recipient: BrainScope   # federal contracts & grants (USAspending.gov)
   category: Direct · EEG brain function
   website: https://www.brainscope.com
   news_queries:
@@ -182,6 +189,7 @@ competitors:
     customers: ED, military; ages 18-85, within 72 h of injury
     notes: 'Focus: POC brain function + concussion assessment. Go-to-market: commercial growth.'
 - name: InfraScan
+  award_recipient: InfraScan   # federal contracts & grants (USAspending.gov)
   category: Direct · Near-infrared hematoma
   website: https://infrascanner.com
   news_queries:
@@ -208,6 +216,7 @@ competitors:
     - DVBIC
     notes: 'Focus: military and trauma-center adoption (intracranial hematoma screening).'
 - name: BrainBox Solutions
+  award_recipient: BrainBox Solutions   # federal contracts & grants (USAspending.gov)
   category: Direct · Multi-modal biomarkers + AI
   news_queries:
   - '"BrainBox Solutions"'
@@ -257,10 +266,12 @@ competitors:
     customers: Hospitals, labs, trauma centers, military; skilled tech required
     notes: Early commercial; preparing global expansion.
 - name: STATA DX
+  award_recipient: Stata DX   # federal contracts & grants (USAspending.gov)
   category: Direct · Fingerstick biosensor (early)
   news_queries:
   - '"STATA DX"'
   - '"Stata Dx" biosensor'
+  - '"Stata Dx" (funding OR raises OR investors OR SBIR OR "Department of Defense")'
   patent_assignee: Stata
   pubmed_query: eRapid AND (GFAP OR NfL) AND electrochemical
   profile:
@@ -281,6 +292,7 @@ competitors:
     - MassVentures
     notes: MS first; TBI is 4th of 4 programs. No FDA submission (likely De Novo).
 - name: GLIA Diagnostics
+  award_recipient: Glia Diagnostics   # federal contracts & grants (USAspending.gov)
   category: Direct · Fingerstick microRNA (early)
   news_queries:
   - '"GLIA Diagnostics"'
@@ -302,6 +314,7 @@ competitors:
     - US DoW (I-TAB)
     notes: 'Pre-commercial; 18-24 month goal: MVP and first FDA feedback.'
 - name: Quanterix
+  award_recipient: Quanterix   # federal contracts & grants (USAspending.gov)
   category: Indirect · Biomarker platform
   website: https://www.quanterix.com
   news_queries:
@@ -324,6 +337,7 @@ competitors:
     - 'May 2026: Tempus AI + Life Line Screening collaboration'
     notes: 'Focus: novel biomarkers for early diagnosis.'
 - name: Genalyte
+  award_recipient: Genalyte   # federal contracts & grants (USAspending.gov)
   category: Indirect · POC multiplex
   website: https://www.genalyte.com
   news_queries:
@@ -344,6 +358,7 @@ competitors:
     - 'Apr 2025: Burjeel partnership'
     notes: Transitioning focus from Maverick to Merlin.
 - name: Oculogica
+  award_recipient: Oculogica   # federal contracts & grants (USAspending.gov)
   category: Indirect · Eye-tracking (SNAP, EyeBOX)
   website: https://oculogica.com
   news_queries:
@@ -371,6 +386,7 @@ competitors:
     - NIH
     - TitletownTech
 - name: Sense Neuro Diagnostics
+  award_recipient: Sense Neuro   # federal contracts & grants (USAspending.gov)
   aliases: [Sense Diagnostics]
   category: Indirect · Brain scanner
   news_queries:
@@ -391,6 +407,7 @@ competitors:
     - '2021 & 2024: DoW funding'
     notes: Stroke, TBI, hemorrhage detection; clinical, ambulance, military.
 - name: Medicortex
+  award_recipient: Medicortex   # federal contracts & grants (USAspending.gov)
   category: Indirect · Saliva/urine TBI test
   website: https://www.medicortex.fi
   news_queries:
@@ -506,6 +523,7 @@ competitors:
     - 'Jul 2025: Chikungunya rapid test'
     - '2022: COVID home test EUA'
 - name: QuidelOrtho
+  award_recipient: QuidelOrtho   # federal contracts & grants (USAspending.gov)
   category: Indirect · IVD (POC + lab)
   website: https://www.quidelortho.com
   news_queries:
@@ -584,3 +602,65 @@ topics:
   federal_register_query: '"clinical laboratory fee schedule" OR "Medicare Physician Fee Schedule" OR "proprietary laboratory analyses"'
   news_queries:
   - CMS "clinical laboratory fee schedule"
+
+# ---- Research topics from the NanoDx TBI Master Research Workbook (Keyword Library, Oct 2026) ----
+# Generic, public-literature queries only. NanoDx-internal queries (own validation data, investor-deck
+# assumptions) and the Research Backlog are deliberately NOT here: this repo and site are public.
+- name: TBI biomarker evidence
+  workstream: Biomarkers
+  category: Research · Biomarkers
+  relevance_keywords: [GFAP, S100B, UCH-L1, neurofilament, tau protein, biomarker, blood test]
+  pubmed_query: ("traumatic brain injury" OR concussion OR "head injury") AND (GFAP OR S100B OR "UCH-L1") AND (sensitivity OR specificity OR "negative predictive value" OR kinetics OR "diagnostic accuracy")
+  nih_query: (GFAP OR S100B OR "UCH-L1") AND ("traumatic brain injury" OR concussion)
+  news_queries:
+  - (GFAP OR S100B OR "UCH-L1") "brain injury" blood test
+- name: Point-of-care & capillary sampling
+  workstream: Technology
+  category: Research · Technology
+  relevance_keywords: [capillary, fingerstick, finger-stick, whole blood, point-of-care, point of care, biosensor, turnaround, rapid]
+  pubmed_query: (capillary OR fingerstick OR "finger-stick" OR "whole blood" OR "point-of-care" OR biosensor) AND (GFAP OR S100B OR "UCH-L1" OR "brain injury" OR concussion)
+  nih_query: ("point-of-care" OR biosensor OR fingerstick) AND ("traumatic brain injury" OR concussion)
+- name: TBI epidemiology & ED burden
+  workstream: Market sizing
+  category: Research · Market sizing
+  relevance_keywords: [emergency department, ED visits, incidence, prevalence, epidemiolog, hospitalization, burden, mild traumatic, cost]
+  pubmed_query: ("traumatic brain injury" OR concussion OR "head injury") AND ("emergency department" OR "urgent care") AND (incidence OR epidemiology OR visits OR trends OR "direct costs") AND ("United States" OR national)
+  news_queries:
+  - CDC "traumatic brain injury" emergency department visits
+- name: CT avoidance & health economics
+  workstream: Economics
+  category: Research · Economics
+  relevance_keywords: [computed tomography, CT scan, head CT, ' CT ', CT use, CT rate, cost, economic, utilization, imaging]
+  pubmed_query: ("traumatic brain injury" OR "head injury" OR concussion) AND (biomarker OR GFAP OR S100B) AND ("computed tomography" OR CT) AND (cost OR "cost-effectiveness" OR utilization OR "unnecessary")
+- name: TBI clinical guidelines
+  workstream: Regulatory
+  category: Research · Guidelines
+  relevance_keywords: [guideline, ACEP, NICE, recommendation, clinical policy, consensus, Scandinavian]
+  pubmed_query: ("mild traumatic brain injury" OR concussion OR "head injury") AND (guideline OR "clinical policy" OR consensus) AND (biomarker OR GFAP OR S100B)
+  news_queries:
+  - (ACEP OR NICE) "head injury" OR "brain injury" guideline blood biomarker
+- name: TBI test reimbursement (CPT 0570U)
+  workstream: Reimbursement
+  category: Research · Reimbursement
+  relevance_keywords: [0570U, CPT, reimbursement, Medicare, Medicaid, coverage, payer, payment, CMS]
+  news_queries:
+  - '"0570U" OR ("TBI" blood test reimbursement Medicare)'
+  - traumatic brain injury blood test insurance coverage
+- name: Military TBI screening
+  workstream: Military
+  category: Research · Military
+  relevance_keywords: [military, service member, soldier, Army, Navy, Air Force, Marine Corps, DoD, Department of Defense, veteran, Veterans Affairs, blast, combat, Defense Health]
+  news_queries:
+  - military "traumatic brain injury" blood test OR screening OR biomarker
+  award_keywords: ["traumatic brain injury diagnostic", "concussion assessment", "TBI biomarker"]
+- name: EMS & prehospital TBI
+  workstream: EMS
+  category: Research · EMS
+  relevance_keywords: [' EMS', prehospital, pre-hospital, ambulance, paramedic, field triage, emergency medical services]
+  pubmed_query: (prehospital OR "pre-hospital" OR EMS OR ambulance OR paramedic) AND ("traumatic brain injury" OR concussion) AND (biomarker OR triage OR GFAP OR "point-of-care")
+- name: International TBI tests
+  workstream: International
+  category: Research · International
+  relevance_keywords: [CE mark, CE-IVD, IVDR, NMPA, PMDA, Europe, China, Japan, Korea, approval, launch, tariff, price]
+  news_queries:
+  - (GFAP OR "UCH-L1" OR S100B) test (Europe OR "CE mark" OR NMPA OR Japan OR Korea) brain injury

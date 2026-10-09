@@ -2,11 +2,12 @@
 
 Automated competitive intelligence for NanoDx, run by GitHub Actions:
 
-- **Sources:** Google News, competitor web pages (new headlines/links), RSS, FDA 510(k)/PMA, ClinicalTrials.gov, PubMed, **SEC EDGAR filings**, **US patents** (PatentsView), **job boards** (Greenhouse/Lever/Ashby) and the **Federal Register** (CMS/FDA rules).
+- **Sources:** Google News, competitor web pages (new headlines/links), RSS, FDA 510(k)/PMA, ClinicalTrials.gov, PubMed, **SEC EDGAR filings**, **US patents** (PatentsView), **job boards** (Greenhouse/Lever/Ashby), the **Federal Register** (CMS/FDA rules), **federal awards** (USAspending.gov: DoD/VA/HHS contracts, SBIR/STTR, grants) and **NIH RePORTER** grants.
 - **Daily digest** (weekdays ~7am ET) of everything new since the last digest, with an optional **AI analyst brief**.
 - **Instant alerts** (three extra sweeps each weekday) for FDA decisions, material SEC 8-Ks, launches, deals, recalls, reimbursement news.
 - **Weekly review** every Monday: activity vs. prior week, top moves, recommended actions, and refreshed **battlecards** (FDA record, recent moves, strengths/weaknesses, talk track).
 - **Emerging competitors:** every run scans the wider point-of-care space (new FDA 510(k) clearances in lab-diagnostic and neurology panels, company-sponsored TBI/concussion diagnostic trials, and a news radar) for companies that are *not* on the watchlist yet, and scores them.
+- **Research topics** from the TBI Master Research Workbook: biomarker evidence, point-of-care & capillary sampling, epidemiology & ED burden, CT avoidance & economics, clinical guidelines, CPT 0570U reimbursement, military, EMS and international tests — each tagged with its workstream (Companies → *Topics & research*). The Help tab lists the workbook's source directory and which sources are monitored automatically.
 - **Noise control:** the same story from several outlets is grouped into one item ("+2 sources"); paid market-research releases and law-firm "investor alert" spam are dropped; market topics only keep items that are actually about brain injury.
 - **Dashboard** on GitHub Pages, styled to match the NanoDx website: overview with landscape map and charts, company profiles with milestones and FDA record, Emerging competitors, searchable activity feed with CSV export, reports and source health. Keyboard: `/` search, `←`/`→` switch sections, `Esc` closes a profile.
 

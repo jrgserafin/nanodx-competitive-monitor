@@ -1026,6 +1026,14 @@ body.arriving::after{content:"";position:fixed;left:0;right:0;top:-30vh;height:3
 .lnk.inl{background:none;border:0;padding:0;color:var(--cyan);text-decoration:underline;cursor:pointer;font:inherit}
 @media (max-width:640px){.upd{right:12px;bottom:68px}.ghalt{margin-left:0}}
 @media (prefers-reduced-motion: reduce){.updbeam::before,body.updating .card,.card.fresh,.hero.fresh,body.arriving::after,.upd-orb i,#runLink.busy::before,#runLink.busy::after,.upd-bar::after{animation:none!important}}
+
+/* source directory */
+.srcdir td{vertical-align:top}
+.srcdir .mon{display:inline-block;font-size:12px;padding:2px 8px;border:1px solid var(--line);white-space:nowrap}
+.srcdir .mon.auto{color:var(--good);border-color:color-mix(in srgb,var(--good) 45%,transparent)}
+.srcdir .mon.news{color:var(--cyan);border-color:color-mix(in srgb,var(--cyan) 45%,transparent)}
+.srcdir .mon.key{color:var(--hot);border-color:color-mix(in srgb,var(--hot) 45%,transparent)}
+.srcdir .mon.manual{color:var(--ink3)}
 </style>
 </head>
 <body>
@@ -1216,7 +1224,7 @@ body.arriving::after{content:"";position:fixed;left:0;right:0;top:-30vh;height:3
         <button type="button" data-tier="all" aria-pressed="true">All</button>
         <button type="button" data-tier="direct" aria-pressed="false">Direct</button>
         <button type="button" data-tier="indirect" aria-pressed="false">Indirect</button>
-        <button type="button" data-tier="topic" aria-pressed="false">Market topics</button>
+        <button type="button" data-tier="topic" aria-pressed="false">Topics &amp; research</button>
       </div>
       <label class="search"><span class="sr">Find a company</span>
         <svg class="i" aria-hidden="true"><use href="#i-search"/></svg>
@@ -1313,6 +1321,11 @@ body.arriving::after{content:"";position:fixed;left:0;right:0;top:-30vh;height:3
       <p class="note" style="margin-top:10px">Edit the watchlist in <code>competitors.yaml</code> (<a id="editLink" href="#" target="_blank" rel="noopener">edit on GitHub</a>). Only public headlines and short snippets are stored. AI briefs and strategy are emailed only and never published here.</p>
     </div>
     <div class="card pad mt">
+      <h2 class="h"><span class="ttl"><span class="ico"><svg class="i" aria-hidden="true"><use href="#i-search"/></svg></span>Research topics &amp; source directory</span><span class="note">from the TBI Master Research Workbook</span></h2>
+      <p class="note" style="margin:0 0 10px">Research topics (Companies → <b>Topics &amp; research</b>) track the workbook's keyword library by workstream — biomarker evidence, point-of-care sampling, epidemiology, CT avoidance &amp; economics, guidelines, CPT 0570U reimbursement, military, EMS and international tests — across PubMed, NIH grants, federal awards and news. Federal awards (contracts, SBIR/STTR and grants from USAspending.gov) are also tracked for the competitors.</p>
+      <div class="tw"><table class="srcdir"><thead><tr><th>Source</th><th>Use</th><th>Category</th><th>In this tool</th></tr></thead><tbody><tr><td><a href="https://www.cdc.gov/traumatic-brain-injury/" target="_blank" rel="noopener">CDC TBI</a></td><td>Epidemiology, ED visits, public health facts</td><td>Government</td><td><span class="mon news">Via news topics</span></td></tr><tr><td><a href="https://hcup-us.ahrq.gov/" target="_blank" rel="noopener">HCUP</a></td><td>Hospital/ED utilization and encounter data</td><td>Government</td><td><span class="mon manual">Manual reference</span></td></tr><tr><td><a href="https://www.ahrq.gov/" target="_blank" rel="noopener">AHRQ</a></td><td>Healthcare utilization and methods</td><td>Government</td><td><span class="mon manual">Manual reference</span></td></tr><tr><td><a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">PubMed</a></td><td>Peer-reviewed biomedical literature</td><td>Literature</td><td><span class="mon auto">Monitored automatically</span></td></tr><tr><td><a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a></td><td>Registered clinical studies</td><td>Registry</td><td><span class="mon auto">Monitored automatically</span></td></tr><tr><td><a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm" target="_blank" rel="noopener">FDA 510(k)</a></td><td>510(k) decisions and summaries</td><td>Regulatory</td><td><span class="mon auto">Monitored automatically</span></td></tr><tr><td><a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMA/pma.cfm" target="_blank" rel="noopener">FDA PMA</a></td><td>Premarket approval records</td><td>Regulatory</td><td><span class="mon auto">Monitored automatically</span></td></tr><tr><td><a href="https://www.fda.gov/medical-devices" target="_blank" rel="noopener">FDA device database</a></td><td>Clearances, classification and product records</td><td>Regulatory</td><td><span class="mon auto">Monitored automatically</span></td></tr><tr><td><a href="https://www.cms.gov/" target="_blank" rel="noopener">CMS</a></td><td>Medicare payment and coding</td><td>Reimbursement</td><td><span class="mon auto">Monitored automatically</span></td></tr><tr><td><a href="https://patents.google.com/" target="_blank" rel="noopener">Google Patents</a></td><td>Patent families and claims</td><td>IP</td><td><span class="mon key">Needs PATENTSVIEW_API_KEY</span></td></tr><tr><td><a href="https://www.uspto.gov/" target="_blank" rel="noopener">USPTO</a></td><td>Official U.S. patent resources</td><td>IP</td><td><span class="mon key">Needs PATENTSVIEW_API_KEY</span></td></tr><tr><td><a href="https://www.usaspending.gov/" target="_blank" rel="noopener">USAspending.gov</a></td><td>Federal awards and contracts</td><td>Gov. contracts</td><td><span class="mon auto">Monitored automatically</span></td></tr><tr><td><a href="https://www.sbir.gov/" target="_blank" rel="noopener">SBIR.gov</a></td><td>Small business innovation awards</td><td>Gov. funding</td><td><span class="mon auto">Monitored automatically</span></td></tr><tr><td><a href="https://reporter.nih.gov/" target="_blank" rel="noopener">NIH RePORTER</a></td><td>NIH-funded research projects</td><td>Research funding</td><td><span class="mon auto">Monitored automatically</span></td></tr><tr><td><a href="https://www.acep.org/" target="_blank" rel="noopener">ACEP</a></td><td>Emergency medicine clinical policy</td><td>Guidelines</td><td><span class="mon news">Via news topics</span></td></tr><tr><td><a href="https://www.nice.org.uk/" target="_blank" rel="noopener">NICE</a></td><td>UK clinical guidelines and HTA</td><td>Guidelines / HTA</td><td><span class="mon news">Via news topics</span></td></tr></tbody></table></div>
+    </div>
+    <div class="card pad mt">
       <details><summary><svg class="i sum-i" aria-hidden="true"><use href="#i-pulse"/></svg>Source status <span class="note" id="healthSum"></span></summary>
         <div class="tw" style="margin-top:8px"><table><thead><tr><th>Company</th><th>Source</th><th>Status</th><th>Details</th></tr></thead><tbody id="health"></tbody></table></div>
       </details>
@@ -1364,8 +1377,8 @@ body.arriving::after{content:"";position:fixed;left:0;right:0;top:-30vh;height:3
   var esc = function(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); };
   var safeUrl = function(u){ return /^https?:\/\//i.test(u || "") ? u : "#"; };
   var RM = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var GROUPS = [["News","var(--s1)"],["Regulatory","var(--s2)"],["Clinical & science","var(--s3)"],["Corporate","var(--s4)"],["Web & IP","var(--s5)"]];
-  var GROUP_OF = {"News":"News","FDA":"Regulatory","Federal Register":"Regulatory","Clinical trial":"Clinical & science","Publication":"Clinical & science","SEC filing":"Corporate","Hiring":"Corporate","Website":"Web & IP","RSS":"Web & IP","Patent":"Web & IP"};
+  var GROUPS = [["News","var(--s1)"],["Regulatory","var(--s2)"],["Clinical & science","var(--s3)"],["Corporate & funding","var(--s4)"],["Web & IP","var(--s5)"]];
+  var GROUP_OF = {"News":"News","FDA":"Regulatory","Federal Register":"Regulatory","Clinical trial":"Clinical & science","Publication":"Clinical & science","SEC filing":"Corporate & funding","Hiring":"Corporate & funding","Federal award":"Corporate & funding","NIH grant":"Clinical & science","Website":"Web & IP","RSS":"Web & IP","Patent":"Web & IP"};
   var TIERC = {direct:"var(--s1)", indirect:"var(--s2)", topic:"var(--s3)", emerging:"var(--cyan)"};
   function group(src){ return GROUP_OF[src] || "Web & IP"; }
   function colorOf(src){ var g = group(src); for (var k = 0; k < GROUPS.length; k++) if (GROUPS[k][0] === g) return GROUPS[k][1]; return "var(--ink3)"; }
@@ -2021,7 +2034,7 @@ body.arriving::after{content:"";position:fixed;left:0;right:0;top:-30vh;height:3
       S.day = days[+r.dataset.ix]; $("fRange").value = "0"; renderFeed(); show("activity"); window.scrollTo({top:0, behavior:"smooth"}); });
   }
   function renderRank(last30){
-    var rows = S.comps.map(function(c){ return [c.name, last30.filter(function(i){ return i.competitor === c.name; }).length]; })
+    var rows = S.comps.filter(function(c){ return !c.workstream; }).map(function(c){ return [c.name, last30.filter(function(i){ return i.competitor === c.name; }).length]; })
       .filter(function(r){ return r[1] > 0; }).sort(function(a,b){ return b[1] - a[1]; }).slice(0, 6);
     var max = Math.max(1, rows.length ? rows[0][1] : 1);
     $("rank").innerHTML = rows.map(function(r){ return '<button type="button" data-co="' + esc(r[0]) + '" title="Open ' + esc(r[0]) + '"><span class="n">' + esc(r[0]) + '</span><span class="track"><span class="fill" data-w="' + (r[1] / max * 100) + '"></span></span><span class="c">' + r[1] + '</span></button>'; }).join("")
