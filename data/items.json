@@ -891,7 +891,6 @@
   "url": "https://reporter.nih.gov/project-details/11605228",
   "date": "2026-09-11",
   "snippet": "NINDS · 1R56NS151828-01 · PI CHAUDHARI, PRADIP",
-  "stale": true,
   "first_seen": "2026-10-09T17:58:55+00:00",
   "signal": [
    "point-of-care"
@@ -968,7 +967,6 @@
   "url": "https://reporter.nih.gov/project-details/11453534",
   "date": "2026-09-01",
   "snippet": "NINDS · 1R03NS145040-01A1 · PI MEMAR, MARZIEH",
-  "stale": true,
   "first_seen": "2026-10-09T17:58:55+00:00",
   "signal": []
  },
@@ -980,7 +978,6 @@
   "url": "https://reporter.nih.gov/project-details/11578679",
   "date": "2026-08-01",
   "snippet": "NINDS · 7U01NS111680-05 · PI WANG, KEVIN KA WANG",
-  "stale": true,
   "first_seen": "2026-10-09T17:58:55+00:00",
   "signal": []
  },
@@ -1100,7 +1097,6 @@
   "url": "https://reporter.nih.gov/project-details/11245428",
   "date": "2026-05-01",
   "snippet": "VA · 1IK2RD000543-01A2 · PI RADABAUGH, HANNAH LEE",
-  "stale": true,
   "first_seen": "2026-10-09T17:58:55+00:00",
   "signal": [
    "concussion"
