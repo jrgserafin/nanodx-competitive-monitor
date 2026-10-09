@@ -1288,7 +1288,7 @@ summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
   var loaded = 0, total = 11, lmsg = "Calibrating sensor", dataReady = false, booting = false, bootDone = false;
   function lprog(label){ loaded++; if (label) lmsg = label; }
   function hideLoader(){ dataReady = true; }
-  var BOOT_MS = 5000, seen = false; try { seen = sessionStorage.getItem("ndx-intro") === "1"; } catch(e){}
+  var BOOT_MS = 7000, seen = false; try { seen = sessionStorage.getItem("ndx-intro") === "1"; } catch(e){}
   var LD = $("loader"), music = $("intro"), fadeT, wantMusic = true;
   try { wantMusic = localStorage.getItem("ndx-sound") !== "off"; } catch(e){}
   function fadeTo(v, ms, done){ clearInterval(fadeT); var from = music.volume, t0 = performance.now();
