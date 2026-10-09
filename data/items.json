@@ -65,7 +65,8 @@
   "first_seen": "2026-10-09T14:03:11+00:00",
   "signal": [
    "approval"
-  ]
+  ],
+  "alert": true
  },
  {
   "id": "e1d544b3fc71ad0e",
