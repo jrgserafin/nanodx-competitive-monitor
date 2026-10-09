@@ -122,15 +122,30 @@ def parse_date(value) -> str | None:
     return None
 
 
+_THROTTLED: dict = {}   # host -> consecutive "busy" answers (429/5xx) in this run
+
+
 def get(url: str, **kw) -> requests.Response:
+    """GET with retries. A host that keeps answering "busy" (rate limiting) is skipped for the
+    rest of the run, so one throttled source cannot stall the whole collection."""
+    host = urllib.parse.urlsplit(url).netloc
+    if _THROTTLED.get(host, 0) >= 4:
+        raise RuntimeError(f"{url}: skipped, {host} is rate-limiting this run")
     last = None
     for attempt in range(3):
         try:
             r = session.get(url, timeout=TIMEOUT, **kw)
             if r.status_code in (429, 500, 502, 503, 504):
+                _THROTTLED[host] = _THROTTLED.get(host, 0) + 1
+                if _THROTTLED[host] >= 4:
+                    raise RuntimeError(f"HTTP {r.status_code} (host is rate-limiting; skipping it for this run)")
                 raise requests.HTTPError(f"HTTP {r.status_code}")
             r.raise_for_status()
+            _THROTTLED[host] = 0
             return r
+        except RuntimeError as e:
+            last = e
+            break
         except Exception as e:  # noqa: BLE001
             last = e
             time.sleep(2 * (attempt + 1))
