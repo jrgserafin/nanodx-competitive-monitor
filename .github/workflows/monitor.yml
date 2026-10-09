@@ -50,6 +50,8 @@ jobs:
       COMPANY_CONTEXT: ${{ secrets.COMPANY_CONTEXT }}
     steps:
       - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
 
       - uses: actions/setup-python@v6
         with:
@@ -78,6 +80,11 @@ jobs:
             else
               MODE=alerts
             fi
+          elif [ "$EVENT" = "push" ]; then
+            # dashboard / music / docs only -> just rebuild and publish (about a minute, no data collection)
+            CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "monitor.py")
+            echo "Changed: $CHANGED"
+            if [ -n "$CHANGED" ] && ! echo "$CHANGED" | grep -qvE '^(dashboard\.html|README\.md|assets/.*)$'; then MODE=deploy; fi
           elif [ "$EVENT" = "workflow_dispatch" ]; then
             MODE="$IN_MODE"; SEND="$IN_SEND"
             if [ "$MODE" = "weekly" ]; then WEEKLY=true; fi
@@ -88,6 +95,7 @@ jobs:
           echo "Plan: mode=$MODE send=$SEND weekly=$WEEKLY"
 
       - name: Collect
+        if: steps.plan.outputs.mode != 'deploy'
         env:
           ONLY: ${{ inputs.only }}
         run: |
@@ -112,6 +120,7 @@ jobs:
         run: python monitor.py weekly
 
       - name: Save data to repo
+        if: steps.plan.outputs.mode != 'deploy'
         run: |
           git config user.name "competitive-monitor[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
