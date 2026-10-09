@@ -1,5 +1,18 @@
 [
  {
+  "id": "d39cf8dc2d26b240",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Corporation (QDEL) Stock Price, News, Quote & History",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUVkhWNk1FaXhSMkVxSUZ1YzBTRFUxU2tmdzZRZm5pd1pqV0owREVxdjY5SVFQY1h3SzdIQUJROThmQ2NuS05NX0puV1ZmU3owS3c?oc=5",
+  "date": "2026-10-08",
+  "snippet": "",
+  "publisher": "Yahoo! Finance Canada",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-09T11:07:26+00:00",
+  "signal": []
+ },
+ {
   "id": "5c4661704643bb91",
   "competitor": "InfraScan",
   "source": "Publication",
@@ -612,6 +625,19 @@
   "publisher": "Stock Traders Daily",
   "query": "\"QuidelOrtho\"",
   "first_seen": "2026-10-08T16:08:31+00:00",
+  "signal": []
+ },
+ {
+  "id": "7319ea12ce4eda84",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "MGMA outlines 2027 pay cut, end of MIPS and other federal changes coming for physicians",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV2hWMlc2RUpoSThYTjhpdm1qUUN2RDcxX3gxalIxcmxUbDZ6Ylp0VjM3eG95ZFhKeUZoR1BZclM5TWY2N3JERUxham04S21ZWlQwdENOODE1TUpTa2NpV1NESk9zWkJmOXpnS0hjNGpURjVqNHhRTS1UWW5CVWo4N1RfRGhoNTFBTjcwaF9JSHNHTEllcFQxV1hkZlMyWDRhbFBONlp5WlVRVlROS29WNm80eDhscmZVVDdDbUo4Q2Judw?oc=5",
+  "date": "2026-09-28",
+  "snippet": "",
+  "publisher": "Medical Economics",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-10-09T11:07:26+00:00",
   "signal": []
  },
  {
