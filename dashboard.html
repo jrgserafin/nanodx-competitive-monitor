@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#03111B">
+<meta name="theme-color" content="#03112a">
 <title>NanoDx Competitive Intelligence</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Cpath d=%27M16 1l13.9 8v14L16 31 2.1 23V9z%27 fill=%27%2303111B%27 stroke=%27%236FCBFF%27 stroke-width=%272%27/%3E%3Cpath d=%27M10 22V10h2.6l6.8 8.2V10H22v12h-2.6l-6.8-8.2V22z%27 fill=%27%23F4F9FD%27/%3E%3C/svg%3E">
 <meta name="description" content="NanoDx competitive intelligence: TBI and point-of-care diagnostics competitors, emerging companies, FDA, trials and news.">
@@ -606,6 +606,158 @@ h2.h a:hover,h2.h button.lnk:hover{transform:translateX(3px);color:var(--ink)}
 .empty{animation:rise .5s both}
 @media (prefers-reduced-motion: reduce){.reveal.wait{opacity:1}.hero .sweep,#toTop{transition:none}.item:hover{transform:none}}
 @media (max-width:640px){body{font-size:15px}.item .t{font-size:15.5px}#toTop{right:12px;bottom:12px}}
+
+/* =====================================================================
+   BLUE GRADIENT THEME — high contrast (all text ≥ 4.5:1, most ≥ 7:1)
+   ===================================================================== */
+:root,:root[data-theme="dark"]{
+  --bg:#03112a; --bg2:#06204a;
+  --ink:#ffffff; --ink2:#d4e3f7; --ink3:#a9c2e4;
+  --cyan:#74d0ff; --brand:#5aa6ff; --brand2:#2f7bff; --aqua:#74d0ff; --good:#5fe0cf; --bad:#ff8a8a; --hot:#f5b54a;
+  --line:rgba(130,185,255,.30); --line2:rgba(150,200,255,.55);
+  --panel:#0d2a52; --panel-top:#123566; --panel-bot:#0a2246; --card:#0d2a52; --card2:#123a70;
+  --trk:rgba(130,185,255,.16); --btnbg:rgba(130,185,255,.16); --btnbg2:rgba(130,185,255,.28); --gridl:rgba(130,185,255,.30);
+  --grad-acc:linear-gradient(90deg,#8fe0ff 0%,#5aa6ff 55%,#3d7dff 100%);
+  --grad-btn:linear-gradient(135deg,#8fe0ff 0%,#5aa6ff 100%);
+  --page:linear-gradient(165deg,#020b1c 0%,#05193a 38%,#082a5a 72%,#0b3672 100%);
+  --hero:linear-gradient(118deg,#05193a 0%,#0a2f63 48%,#11478f 100%);
+  --s1:#3b8ff0; --s2:#d9771f; --s3:#1a9e8f; --s4:#9d7cf2; --s5:#e5608f;
+  --shadow:0 1px 0 rgba(170,215,255,.10) inset,0 12px 30px rgba(0,6,24,.45);
+}
+:root[data-theme="light"]{
+  --bg:#eef5ff; --bg2:#dde9fb;
+  --ink:#061a36; --ink2:#2a4466; --ink3:#3f5c80;
+  --cyan:#06598f; --brand:#1259c9; --brand2:#0d47a8; --aqua:#06598f; --good:#0a6a5f; --bad:#b3243a; --hot:#8a4e00;
+  --line:rgba(18,89,201,.22); --line2:rgba(18,89,201,.42);
+  --panel:#ffffff; --panel-top:#ffffff; --panel-bot:#f3f8ff; --card:#ffffff; --card2:#e8f1fd;
+  --trk:rgba(18,89,201,.12); --btnbg:rgba(18,89,201,.08); --btnbg2:rgba(18,89,201,.16); --gridl:rgba(18,89,201,.30);
+  --grad-acc:linear-gradient(90deg,#0a6fb8 0%,#1259c9 60%,#2a3fd6 100%);
+  --grad-btn:linear-gradient(135deg,#1565d8 0%,#0d47a8 100%);
+  --page:linear-gradient(165deg,#f7fbff 0%,#eaf3ff 45%,#d9e8fc 100%);
+  --hero:linear-gradient(118deg,#ffffff 0%,#eaf3ff 55%,#d3e5fd 100%);
+  --s1:#1f6fd6; --s2:#e0661f; --s3:#13997f; --s4:#7a5be0; --s5:#d9467e;
+  --shadow:0 1px 2px rgba(6,26,54,.06),0 10px 28px rgba(18,89,201,.10);
+}
+html{background:var(--bg)}
+body{background:var(--page) fixed,var(--bg)}
+#grid{opacity:.12}
+
+/* header + nav */
+header.top{background:linear-gradient(180deg,rgba(3,14,34,.94),rgba(4,20,46,.86));border-bottom:1px solid var(--line)}
+:root[data-theme="light"] header.top{background:linear-gradient(180deg,rgba(255,255,255,.95),rgba(240,247,255,.9))}
+.bar{min-height:62px;align-items:center}
+.bar > *{align-self:center}
+.status,.btn,.icon-btn{height:38px;display:inline-flex;align-items:center}
+.status{background:var(--panel-bot);color:var(--ink2);border-color:var(--line)}
+nav.tabs button{color:var(--ink2)}
+nav.tabs button[aria-selected="true"]{color:var(--ink)}
+nav.tabs .ink{height:2px;background:var(--grad-acc);box-shadow:0 0 12px rgba(116,208,255,.7)}
+nav.tabs .new{background:var(--grad-btn);color:#03112a}
+:root[data-theme="light"] nav.tabs .new{color:#fff}
+
+/* buttons */
+.btn{background:var(--btnbg);color:var(--ink);border:1px solid var(--line)!important}
+.btn:hover{background:var(--btnbg2);border-color:var(--line2)!important}
+.btn.primary,#toTop{background:var(--grad-btn);color:#03112a;border:0!important;font-weight:800}
+.btn.primary:hover,#toTop:hover{background:linear-gradient(135deg,#ffffff,#a8e6ff);color:#03112a}
+:root[data-theme="light"] .btn.primary,:root[data-theme="light"] #toTop{color:#fff}
+:root[data-theme="light"] .btn.primary:hover,:root[data-theme="light"] #toTop:hover{background:linear-gradient(135deg,#0d47a8,#08306f);color:#fff}
+.seg button[aria-pressed="true"]{background:var(--grad-btn)!important;color:#03112a!important;font-weight:700}
+:root[data-theme="light"] .seg button[aria-pressed="true"]{color:#fff!important}
+.search input,select,.seg,.tog{background:var(--panel-bot)!important;color:var(--ink)!important;border-color:var(--line)!important}
+.search input::placeholder{color:var(--ink3);opacity:1}
+
+/* panels: clearly lifted from the page */
+.card{background:linear-gradient(180deg,var(--panel-top) 0%,var(--panel-bot) 100%);border:1px solid var(--line);box-shadow:var(--shadow)}
+.card:hover{border-color:var(--line2)}
+.card::after{--tick:var(--cyan)}
+h2.h{color:var(--ink);align-items:center;min-height:24px}
+h2.h .ttl{gap:10px}
+h2.h .ico{background:linear-gradient(135deg,rgba(116,208,255,.22),rgba(47,123,255,.22));border-color:var(--line2);color:var(--cyan)}
+.card h2.h::before{background:var(--grad-acc);height:2px}
+h2.h .note,h2.h > span:last-child{color:var(--ink2)}
+
+/* hero */
+.hero{background:var(--hero)!important;border-color:var(--line2)}
+.hero::after{background:linear-gradient(90deg,rgba(5,25,58,.92) 0%,rgba(8,40,90,.55) 55%,rgba(14,60,130,.05) 100%)}
+:root[data-theme="light"] .hero::after{background:linear-gradient(90deg,rgba(255,255,255,.95) 0%,rgba(234,243,255,.6) 55%,rgba(211,229,253,.05) 100%)}
+.hero h1{color:var(--ink)}
+.hero h1 em,.hl{background:var(--grad-acc);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--ink2)}
+.chips{background:var(--line2);border-color:var(--line2)}
+.chip{background:rgba(3,17,42,.78);color:var(--ink2)}
+:root[data-theme="light"] .chip{background:#ffffff}
+.chip b{color:var(--ink)}
+.live-b{color:var(--good)}
+.em-hero{background:var(--hero)!important;border-color:var(--line2)}
+
+/* KPI tiles */
+.kpi{align-items:center}
+.kpi > div:last-child{display:grid;gap:2px}
+.kpi .ic,.kpi.hot .ic,.kpi.alert .ic,.kpi.cov .ic{width:44px;height:44px;border:0;background:var(--grad-btn)!important;color:#03112a!important}
+:root[data-theme="light"] .kpi .ic{color:#fff!important}
+.kpi.hot .ic{background:linear-gradient(135deg,#ffd27a,#f5a524)!important}
+.kpi.alert .ic{background:linear-gradient(135deg,#ffb0b0,#ff7a7a)!important}
+.kpi .l{color:var(--ink2)}
+.kpi .v{color:var(--ink);margin:2px 0 0}
+.kpi.hot .v{color:var(--hot)}
+.kpi .s{color:var(--ink3)}
+
+/* lists, tags, badges */
+.item .meta{color:var(--ink3)}
+.item .co{color:var(--ink)}
+.item .t{color:var(--ink)}
+.item .t:hover{color:var(--cyan)}
+.item p{color:var(--ink2)}
+.tag{background:var(--btnbg);border-color:var(--line);color:var(--ink2)}
+.sig{background:rgba(245,181,74,.16);color:var(--hot);border:1px solid rgba(245,181,74,.35)}
+:root[data-theme="light"] .sig{background:#fff3d9;border-color:#f0c779}
+.also{color:var(--cyan);border-color:var(--line2)}
+.newtag{color:var(--good)}
+.tier{color:var(--ink2)!important;border-color:var(--line2)}
+.tier.direct{background:var(--grad-btn)!important;color:#03112a!important;border-color:transparent}
+:root[data-theme="light"] .tier.direct{color:#fff!important}
+.co-card .av,.dh .av{background:var(--grad-btn)!important;color:#03112a}
+:root[data-theme="light"] .co-card .av,:root[data-theme="light"] .dh .av{color:#fff}
+.co-card::before{background:var(--grad-acc)!important}
+.co-card .cat,.facts,.co-card .note{color:var(--ink2)}
+.pill,.cov span{background:var(--btnbg);border-color:var(--line);color:var(--ink)}
+.fill{background:var(--grad-acc)!important}
+.rank .n{color:var(--ink)}
+.note{color:var(--ink3)}
+td{color:var(--ink)}
+th{color:var(--ink2)}
+.tl li b{color:var(--cyan)}
+.tl li:last-child::before{background:var(--cyan);border-color:var(--cyan);animation:pulseBlue 1.8s infinite}
+@keyframes pulseBlue{50%{box-shadow:0 0 0 6px rgba(116,208,255,.15),0 0 14px var(--cyan)}}
+.em-card .why span.t,.tier.emerging{background:var(--grad-btn)!important;color:#03112a!important}
+
+/* ticker + loader + transitions */
+.ticker .live{background:var(--grad-btn);color:#03112a}
+:root[data-theme="light"] .ticker .live{color:#fff}
+.ticker .live i{background:#03112a}
+.ticker .tk{background:var(--panel-bot);border-color:var(--line)}
+.tkr a{color:var(--ink2)}
+.tkr a b{color:var(--ink)}
+#loader{background:var(--page),var(--bg)}
+.ldtrack i{background:var(--grad-acc)}
+#xfer{background:var(--hero)}
+.scrim{background:rgba(2,10,28,.72)}
+aside.drawer{background:linear-gradient(180deg,#05193a,#03112a)}
+:root[data-theme="light"] aside.drawer{background:linear-gradient(180deg,#f7fbff,#eaf3ff)}
+.dh{background:color-mix(in srgb,var(--bg) 92%,transparent)}
+.mini div{background:linear-gradient(180deg,var(--panel-top),var(--panel-bot));border:1px solid var(--line)}
+.mini b{color:var(--ink)}
+.toast{background:var(--grad-btn);color:#03112a}
+footer{color:var(--ink3)}
+
+/* alignment: consistent rhythm */
+.grid{gap:16px}
+.mt{margin-top:16px}
+.pad{padding:20px 22px}
+section.view{padding-top:22px}
+.legend{align-items:center;gap:8px 16px}
+h2.h .note{font:400 13px var(--body)!important;letter-spacing:0!important;text-transform:none;color:var(--ink2)}
 </style>
 </head>
 <body>
@@ -652,7 +804,7 @@ h2.h a:hover,h2.h button.lnk:hover{transform:translateX(3px);color:var(--ink)}
 <div id="xfer" hidden aria-hidden="true"><div class="g"></div><div class="ln" id="xl"></div><div class="lb"><span id="xn">01 / 06</span><b id="xt">Overview</b></div></div>
 <div class="ticker no-print" id="ticker" hidden><span class="live mono"><i></i>LIVE</span><div class="tk"><div class="tkr" id="tkr"></div></div></div>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="lgS" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6FCBFF"/><stop offset="1" stop-color="#4FD1C5"/></linearGradient></defs></svg>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="lgS" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8fe0ff"/><stop offset="1" stop-color="#3d7dff"/></linearGradient></defs></svg>
 
 <div class="wrap" id="main" tabindex="-1">
   <!-- ================= OVERVIEW ================= -->
@@ -663,7 +815,7 @@ h2.h a:hover,h2.h button.lnk:hover{transform:translateX(3px);color:var(--ink)}
         <div>
           <div class="eyebrow"><span data-decode>Live competitive landscape</span><span class="live-b">LIVE</span></div>
           <h1>Every move in <em>TBI &amp; point-of-care diagnostics</em>, in one place.</h1>
-          <p id="heroSub">Tracking competitors across news, FDA, clinical trials, publications, filings and company websites — refreshed automatically every weekday.</p>
+          <p id="heroSub">News, FDA decisions, clinical trials, publications, filings and website updates for every competitor, refreshed automatically each weekday.</p>
         </div>
         <div class="chips">
           <span class="chip"><b id="hcTracked">–</b> companies tracked</span>
@@ -675,14 +827,14 @@ h2.h a:hover,h2.h button.lnk:hover{transform:translateX(3px);color:var(--ink)}
 
     <div class="grid g4 mt">
       <div class="card kpi reveal" style="--i:1"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg></div><div><div class="l">New in latest digest</div><div class="v" id="kNew">0</div><div class="s" id="kNewS">&nbsp;</div></div></div>
-      <div class="card kpi hot reveal" style="--i:2"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg></div><div><div class="l">High-signal · 30 days</div><div class="v" id="kSig">0</div><div class="s">FDA, launches, deals</div></div></div>
-      <div class="card kpi alert reveal" style="--i:3"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21a2 2 0 0 0 4 0"/></svg></div><div><div class="l">Alerts · 7 days</div><div class="v" id="kAlerts">0</div><div class="s">instant emails</div></div></div>
+      <div class="card kpi hot reveal" style="--i:2"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 10-12h-7z"/></svg></div><div><div class="l">Key moves · 30 days</div><div class="v" id="kSig">0</div><div class="s">FDA decisions, launches, deals</div></div></div>
+      <div class="card kpi alert reveal" style="--i:3"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21a2 2 0 0 0 4 0"/></svg></div><div><div class="l">Alerts · 7 days</div><div class="v" id="kAlerts">0</div><div class="s">sent as instant emails</div></div></div>
       <div class="card kpi cov reveal" style="--i:4"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></div><div><div class="l">Companies monitored</div><div class="v" id="kCos">0</div><div class="s" id="kCosS">&nbsp;</div></div></div>
     </div>
 
     <div class="grid g2b mt">
       <div class="card pad reveal" style="--i:5">
-        <h2 class="h"><span class="ttl"><span class="ico"><svg viewBox="0 0 16 16" fill="currentColor"><circle cx="4" cy="11" r="2.5"/><circle cx="10" cy="6" r="3.5"/><circle cx="13.5" cy="12" r="1.8"/></svg></span>Competitive landscape</span><span class="note">stage × activity · bubble = sources watched</span></h2>
+        <h2 class="h"><span class="ttl"><span class="ico"><svg viewBox="0 0 16 16" fill="currentColor"><circle cx="4" cy="11" r="2.5"/><circle cx="10" cy="6" r="3.5"/><circle cx="13.5" cy="12" r="1.8"/></svg></span>Competitive landscape</span><span class="note">Company stage vs. activity · bubble size = sources watched</span></h2>
         <div class="chart" id="land" role="img" aria-label="Bubble chart of competitors by company stage and 30-day activity"></div>
         <div class="legend" id="landLeg"></div>
       </div>
@@ -712,7 +864,7 @@ h2.h a:hover,h2.h button.lnk:hover{transform:translateX(3px);color:var(--ink)}
     </div>
 
     <div class="card pad mt reveal" style="--i:10">
-      <h2 class="h"><span class="ttl"><span class="ico"><svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="8" width="3" height="7"/><rect x="6" y="4" width="3" height="11"/><rect x="11" y="1" width="3" height="14"/></svg></span>Activity over 30 days</span><span class="note">items per day · click a day</span></h2>
+      <h2 class="h"><span class="ttl"><span class="ico"><svg viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="8" width="3" height="7"/><rect x="6" y="4" width="3" height="11"/><rect x="11" y="1" width="3" height="14"/></svg></span>Activity over 30 days</span><span class="note">Items per day · click a bar to filter</span></h2>
       <div class="chart" id="chart" role="img" aria-label="Stacked bar chart of items per day by source over the last 30 days"></div>
       <div class="legend" id="legend"></div>
     </div>
@@ -740,19 +892,19 @@ h2.h a:hover,h2.h button.lnk:hover{transform:translateX(3px);color:var(--ink)}
   <section class="view" id="v-emerging" hidden>
     <div class="em-hero reveal">
       <svg class="radar" viewBox="0 0 260 260" aria-hidden="true">
-        <defs><radialGradient id="rgR" cx="0" cy="0" r="1"><stop offset="0" stop-color="#4FD1C5" stop-opacity=".5"/><stop offset="1" stop-color="#4FD1C5" stop-opacity="0"/></radialGradient></defs>
+        <defs><radialGradient id="rgR" cx="0" cy="0" r="1"><stop offset="0" stop-color="#74d0ff" stop-opacity=".5"/><stop offset="1" stop-color="#74d0ff" stop-opacity="0"/></radialGradient></defs>
         <g fill="none" stroke="var(--line2)"><circle cx="130" cy="130" r="120"/><circle cx="130" cy="130" r="85"/><circle cx="130" cy="130" r="50"/><path d="M10 130h240M130 10v240"/></g>
         <g class="sw"><path d="M130 130 L130 10 A120 120 0 0 1 234 70 Z" fill="url(#rgR)"/></g>
         <circle class="bl" cx="180" cy="80" r="4"/><circle class="bl" cx="90" cy="170" r="3" style="animation-delay:.9s"/><circle class="bl" cx="200" cy="170" r="3.5" style="animation-delay:1.6s"/>
       </svg>
       <div class="eyebrow mono" style="font-size:12px;letter-spacing:.14em;color:var(--cyan);font-weight:700;text-transform:uppercase">Point-of-care radar</div>
       <h2>Emerging competitors</h2>
-      <p>Companies across the point-of-care diagnostics space that are <b>not yet on the watchlist</b>, found automatically from new FDA 510(k) clearances, industry-sponsored brain-injury diagnostic trials and a news radar. Higher scores mean stronger, more recent and more TBI-relevant signals.</p>
+      <p>Point-of-care diagnostics companies <b>not yet on your watchlist</b>, found automatically in new FDA 510(k) clearances, company-sponsored brain-injury diagnostic trials and the news. Higher scores mean stronger, more recent and more TBI-relevant signals.</p>
       <div class="chips" style="margin-top:14px">
         <span class="chip"><b id="emN">–</b> companies found</span>
         <span class="chip"><b id="emT">–</b> TBI-relevant</span>
         <span class="chip"><b id="emF">–</b> with FDA clearances</span>
-        <span class="chip"><b id="emC">–</b> running trials</span>
+        <span class="chip"><b id="emC">–</b> in clinical trials</span>
       </div>
     </div>
     <div class="toolbar mt">
@@ -787,7 +939,7 @@ h2.h a:hover,h2.h button.lnk:hover{transform:translateX(3px);color:var(--ink)}
       <select id="fCo" aria-label="Company"><option value="">All companies</option></select>
       <select id="fSrc" aria-label="Source"><option value="">All sources</option></select>
       <select id="fRange" aria-label="Date range"><option value="7">Last 7 days</option><option value="30" selected>Last 30 days</option><option value="90">Last 90 days</option><option value="0">All time</option></select>
-      <label class="tog"><input type="checkbox" id="fSig"> High-signal</label>
+      <label class="tog"><input type="checkbox" id="fSig"> Key moves only</label>
       <button class="btn" type="button" id="csvBtn" title="Download these results as a spreadsheet">⇩ Export CSV</button>
     </div>
     <div class="note" id="count" style="margin:0 0 8px"></div>
@@ -1376,7 +1528,7 @@ h2.h a:hover,h2.h button.lnk:hover{transform:translateX(3px);color:var(--ink)}
       + '<h3 id="dTitle">' + esc(name) + '</h3><div class="sub">' + (c.website ? '<a href="' + esc(safeUrl(c.website)) + '" target="_blank" rel="noopener">' + esc(c.website.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")) + ' ↗</a>' : '') + '</div></div>'
       + '<div class="no-print" style="display:flex;gap:6px;flex-wrap:wrap"><button class="btn" id="dCsv">⇩ CSV</button><button class="btn" id="dPrint">Print</button><button class="btn icon-btn" id="dClose" aria-label="Close">✕</button></div></div>'
       + '<div class="db">'
-      + '<div class="mini"><div><b>' + recent.length + '</b><span>items · 30 days</span></div><div><b>' + recent.filter(isSig).length + '</b><span>high-signal · 30 days</span></div><div><b>' + reg.length + '</b><span>FDA records</span></div><div><b>' + (jobs ? jobs.open_roles : "–") + '</b><span>open roles</span></div></div>'
+      + '<div class="mini"><div><b>' + recent.length + '</b><span>items · 30 days</span></div><div><b>' + recent.filter(isSig).length + '</b><span>key moves · 30 days</span></div><div><b>' + reg.length + '</b><span>FDA records</span></div><div><b>' + (jobs ? jobs.open_roles : "–") + '</b><span>open roles</span></div></div>'
       + (facts.length ? '<div class="card pad sect"><h4>At a glance</h4><div class="factgrid">' + facts.map(function(f){ return '<div><span>' + f[0] + '</span>' + esc(f[1]) + '</div>'; }).join("") + '</div></div>' : '')
       + (card.summary ? '<div class="card pad sect"><h4>Summary' + (card.threat_level ? ' <span class="threat ' + esc(card.threat_level) + '">' + esc(card.threat_level) + ' threat</span>' : '') + '</h4><div class="md">' + mdToHtml(card.summary, cites) + '</div></div>' : '')
       + ((p.products && p.products.length) || p.notes || (p.partnerships && p.partnerships.length) ? '<div class="card pad sect"><h4>Products & partners</h4>' + (p.products || []).map(function(x){ return '<span class="pill">' + esc(x) + '</span>'; }).join("")
