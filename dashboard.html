@@ -1288,7 +1288,7 @@ summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
   var loaded = 0, total = 11, lmsg = "Calibrating sensor", dataReady = false, booting = false, bootDone = false;
   function lprog(label){ loaded++; if (label) lmsg = label; }
   function hideLoader(){ dataReady = true; }
-  var BOOT_MS = 7000, seen = false; try { seen = sessionStorage.getItem("ndx-intro") === "1"; } catch(e){}
+  var BOOT_MS = 8000, seen = false; try { seen = sessionStorage.getItem("ndx-intro") === "1"; } catch(e){}
   var LD = $("loader"), music = $("intro"), fadeT, wantMusic = true;
   try { wantMusic = localStorage.getItem("ndx-sound") !== "off"; } catch(e){}
   function fadeTo(v, ms, done){ clearInterval(fadeT); var from = music.volume, t0 = performance.now();
@@ -1345,11 +1345,11 @@ summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
     try { sessionStorage.setItem("ndx-intro", "1"); } catch(e){}
     if (withMusic && wantMusic) playMusic();
     LD.classList.remove("gate"); LD.classList.add("run");
-    var dur = seen ? 1600 : BOOT_MS, t0 = performance.now(), step = -1, lis = $("ldSteps").children;
+    var dur = BOOT_MS, t0 = performance.now(), step = -1, lis = $("ldSteps").children;
     (function tick(){
       var el = performance.now() - t0, p = Math.min(1, el / dur);
       if (!dataReady) p = Math.min(p, .96);
-      var e = p < 1 ? 1 - Math.pow(1 - p, 1.6) : 1, pc = Math.round(e * 100);
+      var e = p < 1 ? p : 1, pc = Math.floor(e * 100);
       $("ldn").textContent = pc; $("ldb").style.width = pc + "%"; $("ldRing").style.strokeDashoffset = 100 - pc; $("ldt").textContent = (el / 1000).toFixed(1).padStart(4, "0") + "s";
       for (var k = STEPS.length - 1; k >= 0; k--) if (p >= STEPS[k][1]) { if (k !== step) { step = k; scramble($("ldm"), STEPS[k][0]);
         for (var j = 0; j < lis.length; j++) lis[j].className = j < k ? "ok" : j === k ? "on" : ""; } break; }
@@ -1367,7 +1367,7 @@ summary .sum-i{width:15px;height:15px;margin-right:8px;color:var(--cyan)}
     setTimeout(function(){ bootDone = true; LD.classList.add("done"); startAnimations(); }, RM ? 50 : 1150);
   }
   $("ldGo").onclick = function(){ boot(true); };
-  if (seen) boot(false); else setTimeout(function(){ try { $("ldGo").focus({preventScroll:true}); } catch(e){} }, 1200);
+  setTimeout(function(){ try { $("ldGo").focus({preventScroll:true}); } catch(e){} }, 1200);
 
   /* ---------- theme / links ---------- */
   try { var th = localStorage.getItem("ndx-theme2"); document.documentElement.dataset.theme = th === "light" ? "light" : "dark"; } catch(e){}
