@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#f1f4f8">
+<meta name="theme-color" content="#05193a">
 <title>NanoDx Competitive Intelligence</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Cpath d=%27M16 1l13.9 8v14L16 31 2.1 23V9z%27 fill=%27%2303111B%27 stroke=%27%236FCBFF%27 stroke-width=%272%27/%3E%3Cpath d=%27M10 22V10h2.6l6.8 8.2V10H22v12h-2.6l-6.8-8.2V22z%27 fill=%27%23F4F9FD%27/%3E%3C/svg%3E">
 <meta name="description" content="NanoDx competitive intelligence: TBI and point-of-care diagnostics competitors, emerging companies, FDA, trials and news.">
@@ -765,16 +765,15 @@ h2.h .note{font:400 13px var(--body)!important;letter-spacing:0!important;text-t
    ===================================================================== */
 :root,:root[data-theme="dark"]{
   --ink:#ffffff; --ink2:#d6deea; --ink3:#a8b6ca;
-  --panel-top:#0d1526; --panel-bot:#070c17; --card:#0b1220; --card2:#131d31; --panel:#0b1220;
-  --surf:#111a2b; --surf-line:#2a3a55;
-  --line:rgba(170,195,235,.20); --line2:rgba(190,215,255,.42);
-  --btnbg:#111a2b; --btnbg2:#18253c; --trk:#1a2639;
+  --panel-top:#0b1d3d; --panel-bot:#061229; --card:#081734; --card2:#0e2448; --panel:#081734;
+  --surf:#0c2045; --surf-line:#2a4a80;
+  --line:rgba(120,180,255,.30); --line2:rgba(150,205,255,.55);
+  --btnbg:#0c2045; --btnbg2:#133061; --trk:#12284f;
   --page:
-    radial-gradient(1100px 700px at -5% -10%,rgba(56,140,255,.95) 0%,rgba(56,140,255,0) 60%),
-    radial-gradient(900px 650px at 105% 15%,rgba(14,190,240,.75) 0%,rgba(14,190,240,0) 58%),
-    radial-gradient(1000px 700px at 50% 115%,rgba(88,80,236,.80) 0%,rgba(88,80,236,0) 60%),
-    linear-gradient(150deg,#0b2a72 0%,#1546a8 48%,#0b5fa8 100%);
-  --hero:linear-gradient(118deg,#060b16 0%,#0a1324 60%,#0e1a33 100%);
+    radial-gradient(1000px 650px at -5% -10%,rgba(47,123,255,.55) 0%,rgba(47,123,255,0) 60%),
+    radial-gradient(900px 600px at 105% 20%,rgba(14,165,233,.40) 0%,rgba(14,165,233,0) 58%),
+    linear-gradient(165deg,#031029 0%,#06204f 40%,#0a3274 75%,#0d3f8f 100%);
+  --hero:linear-gradient(118deg,#061229 0%,#0a1f45 60%,#0e2a5c 100%);
   --shadow:0 0 0 1px rgba(0,0,0,.35),0 18px 40px rgba(2,8,30,.55);
 }
 :root[data-theme="light"]{
@@ -795,17 +794,17 @@ body{background:var(--page) fixed,var(--bg)}
 #grid{opacity:.10}
 
 /* header: neutral dark glass over the gradient */
-header.top{background:rgba(6,10,20,.88);border-bottom:1px solid rgba(255,255,255,.08)}
+header.top{background:rgba(3,12,30,.92);border-bottom:1px solid rgba(120,180,255,.22)}
 :root[data-theme="light"] header.top{background:rgba(255,255,255,.92);border-bottom-color:rgba(16,40,80,.12)}
 
 /* panels: neutral, clearly separated from the blue backdrop */
 .card,.hero,.em-hero{background:linear-gradient(180deg,var(--panel-top),var(--panel-bot))!important;border:1px solid var(--line);box-shadow:var(--shadow)}
-.hero::after{background:linear-gradient(90deg,rgba(6,11,22,.94) 0%,rgba(8,14,28,.70) 55%,rgba(10,18,36,.15) 100%)}
+.hero::after{background:linear-gradient(90deg,rgba(6,18,41,.95) 0%,rgba(8,26,58,.72) 55%,rgba(12,36,80,.12) 100%)}
 :root[data-theme="light"] .hero::after{background:linear-gradient(90deg,rgba(255,255,255,.97) 0%,rgba(247,249,253,.75) 55%,rgba(238,243,251,.15) 100%)}
 .mini div{background:var(--surf);border-color:var(--surf-line)}
-aside.drawer{background:linear-gradient(180deg,#0b1220,#060a14)!important}
+aside.drawer{background:linear-gradient(180deg,#081a38,#040d20)!important}
 :root[data-theme="light"] aside.drawer{background:linear-gradient(180deg,#ffffff,#f3f6fb)!important}
-.dh{background:rgba(7,12,23,.94)}
+.dh{background:rgba(5,16,36,.95)}
 :root[data-theme="light"] .dh{background:rgba(255,255,255,.95)}
 
 /* every secondary surface is neutral, not blue */
@@ -819,7 +818,7 @@ aside.drawer{background:linear-gradient(180deg,#0b1220,#060a14)!important}
 h2.h .ico{background:var(--surf)!important;border-color:var(--surf-line)!important}
 .kpi .ic,.kpi.hot .ic,.kpi.alert .ic,.kpi.cov .ic{box-shadow:0 0 0 1px rgba(255,255,255,.08)}
 .track{background:var(--trk);border-color:var(--surf-line)}
-.item:hover{background-color:rgba(255,255,255,.04)}
+.item:hover{background-color:rgba(116,208,255,.06)}
 :root[data-theme="light"] .item:hover{background-color:rgba(16,40,80,.04)}
 .item{border-color:var(--line)}
 
@@ -831,37 +830,20 @@ footer{border-top-color:rgba(255,255,255,.25)}
 /* chart surfaces neutral */
 #land rect[fill="var(--card2)"]{fill:var(--card2)}
 .scrim{background:rgba(2,6,16,.75)}
-#xfer{background:linear-gradient(118deg,#060b16,#0d1830)}
+#xfer{background:linear-gradient(118deg,#031029,#0a3274)}
 :root[data-theme="light"] #xfer{background:linear-gradient(118deg,#ffffff,#eaf1fb)}
-#loader{background:linear-gradient(160deg,#060b16,#0b1630)}
+#loader{background:linear-gradient(160deg,#031029,#06204f 55%,#0a3274)}
 :root[data-theme="light"] #loader{background:linear-gradient(160deg,#ffffff,#eaf1fb)}
 
-/* =====================================================================
-   SOFT WHITE BACKDROP — dark panels float on a soft white page
-   ===================================================================== */
-:root,:root[data-theme="dark"]{
-  --page:radial-gradient(1200px 700px at 0% 0%,#ffffff 0%,rgba(255,255,255,0) 60%),
-         radial-gradient(1000px 700px at 100% 100%,#e3e9f2 0%,rgba(227,233,242,0) 60%),
-         linear-gradient(160deg,#fbfcfe 0%,#f1f4f8 55%,#e8edf4 100%);
-  --pageink:#0b1526; --pageink2:#3b4a60;
-  --shadow:0 1px 2px rgba(15,23,42,.10),0 14px 34px rgba(15,23,42,.22);
-}
-:root[data-theme="light"]{
-  --page:radial-gradient(1200px 700px at 0% 0%,#ffffff 0%,rgba(255,255,255,0) 60%),
-         linear-gradient(160deg,#f7f9fc 0%,#eef2f7 55%,#e6ebf2 100%);
-  --pageink:#0b1526; --pageink2:#3b4a60;
-  --line:rgba(15,23,42,.12); --line2:rgba(15,23,42,.26);
-  --shadow:0 1px 2px rgba(15,23,42,.06),0 12px 30px rgba(15,23,42,.12);
-}
-html{background:#f1f4f8}
-body{background:var(--page) fixed,#f1f4f8}
-#grid{opacity:.35;background:linear-gradient(rgba(15,23,42,.05) 1px,transparent 1px) 0 0/56px 56px,linear-gradient(90deg,rgba(15,23,42,.05) 1px,transparent 1px) 0 0/56px 56px}
-.card,.hero,.em-hero{box-shadow:var(--shadow)}
-/* text that sits on the page itself */
-footer,footer a,#count,#count a,.view > .note,section.view > p,.wrap > .note{color:var(--pageink)!important}
-footer{border-top-color:rgba(15,23,42,.14)}
-.ticker .tk{box-shadow:0 4px 14px rgba(15,23,42,.12)}
-:root[data-theme="light"] .card,:root[data-theme="light"] .hero,:root[data-theme="light"] .em-hero{border-color:rgba(15,23,42,.10)}
+/* finished-tool polish: aligned company cards */
+.co-card{display:flex;flex-direction:column;align-items:stretch;text-align:left}
+.co-card .nm{min-width:0}
+.co-card .nm b{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.25}
+.co-card .cat{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.co-card .facts{min-height:24px}
+.co-card .note{margin-top:auto;padding-top:6px}
+.em-card{display:flex;flex-direction:column}
+.em-card .ft{margin-top:auto}
 #bgfield{position:fixed;inset:0;width:100vw;height:100vh;z-index:0;pointer-events:none}
 @media print{#bgfield{display:none}}
 </style>
@@ -1406,7 +1388,8 @@ footer{border-top-color:rgba(15,23,42,.14)}
   function startBgField(){
     var cv = $("bgfield"); if (!cv || !cv.getContext) return;
     var g = cv.getContext("2d"), W = 0, H = 0, rows = [], P = [], raf = 0, dark = false, sprites = [];
-    function cols(){ return dark ? ["#4DB8F0","#74d0ff","#9d7cf2"] : ["#1f6fd6","#0ea5e9","#6366f1"]; }
+    function cols(){ return dark ? ["#74d0ff","#5aa6ff","#a5b4fc"] : ["#1f6fd6","#0ea5e9","#6366f1"]; }
+    function lineRGB(){ return dark ? "150,205,255," : "31,111,214,"; }
     function mkSprites(){ sprites = cols().map(function(c){ var s = document.createElement("canvas"); s.width = s.height = 64; var x = s.getContext("2d"), r = x.createRadialGradient(32,32,0,32,32,32);
       r.addColorStop(0, c); r.addColorStop(1, "rgba(0,0,0,0)"); x.fillStyle = r; x.fillRect(0,0,64,64); return s; }); }
     function mk(){ return {x: Math.random() * W, y: Math.random() * H, vx: (Math.random() * .35 + .08) * (Math.random() < .5 ? -1 : 1), vy: (Math.random() - .5) * .18, k: Math.random() * 3 | 0, b: 0, l: 0, r: 0}; }
@@ -1414,15 +1397,15 @@ footer{border-top-color:rgba(15,23,42,.14)}
       var d = 1; W = innerWidth; H = innerHeight; cv.width = W * d; cv.height = H * d; g.setTransform(d,0,0,d,0,0);
       rows = []; for (var y = 64; y < H; y += 64) rows.push(y);
       P = []; var n = W < 700 ? 16 : Math.min(48, Math.round(W / 32)); for (var i = 0; i < n; i++) P.push(mk());
-      dark = false; mkSprites();
+      dark = document.documentElement.dataset.theme !== "light"; mkSprites();
     }
     function draw(){
       var C = cols(); g.clearRect(0, 0, W, H);
       g.lineWidth = 1;
-      for (var r = 0; r < rows.length; r++) { g.strokeStyle = "rgba(31,111,214," + (r % 3 ? .07 : .15) + ")"; g.beginPath(); g.moveTo(0, rows[r] + .5); g.lineTo(W, rows[r] + .5); g.stroke(); }
+      for (var r = 0; r < rows.length; r++) { g.strokeStyle = "rgba(" + lineRGB() + (r % 3 ? .06 : .13) + ")"; g.beginPath(); g.moveTo(0, rows[r] + .5); g.lineTo(W, rows[r] + .5); g.stroke(); }
       for (var i = 0; i < P.length; i++) { var p = P[i];
         for (var j = i + 1; j < P.length; j++) { var q = P[j], dx = p.x - q.x, dy = (p.b ? p.r : p.y) - (q.b ? q.r : q.y), dd = dx * dx + dy * dy;
-          if (dd < 16000) { g.strokeStyle = "rgba(31,111,214," + (.24 * (1 - dd / 16000)) + ")"; g.beginPath(); g.moveTo(p.x, p.b ? p.r : p.y); g.lineTo(q.x, q.b ? q.r : q.y); g.stroke(); } }
+          if (dd < 16000) { g.strokeStyle = "rgba(" + lineRGB() + (.22 * (1 - dd / 16000)) + ")"; g.beginPath(); g.moveTo(p.x, p.b ? p.r : p.y); g.lineTo(q.x, q.b ? q.r : q.y); g.stroke(); } }
         if (p.b) { p.l--; if (p.l <= 0) { P[i] = mk(); continue; } var a = Math.min(1, p.l / 40);
           g.globalAlpha = .45 * a; g.drawImage(sprites[p.k], p.x - 30, p.r - 30, 60, 60);
           g.globalAlpha = .55 * a; g.fillStyle = C[p.k]; g.fillRect(p.x - 50, p.r, 100, 1.2);
@@ -1441,6 +1424,7 @@ footer{border-top-color:rgba(15,23,42,.14)}
     size(); if (RM) { draw(); } else raf = requestAnimationFrame(tick);
     var rt; addEventListener("resize", function(){ clearTimeout(rt); rt = setTimeout(function(){ size(); if (RM) draw(); }, 150); });
     document.addEventListener("visibilitychange", function(){ if (!document.hidden && !raf && !RM) raf = requestAnimationFrame(tick); });
+    new MutationObserver(function(){ dark = document.documentElement.dataset.theme !== "light"; mkSprites(); if (RM) draw(); }).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
   }
 
   /* ---------- overview widgets ---------- */
