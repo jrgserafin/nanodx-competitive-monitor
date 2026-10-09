@@ -15,7 +15,7 @@ Automated competitive intelligence for NanoDx, run by GitHub Actions:
 | I want to… | Do this |
 |---|---|
 | See / search activity | Open the dashboard (GitHub Pages URL in the repo's About box) |
-| Look something up now | **Actions → Competitive monitor → Run workflow**. Pick a mode (digest / alerts / weekly / collect), optionally a competitor in *only*, tick *send email* |
+| Look something up now | Dashboard → **Run a lookup**. It runs in the background with a live progress panel and refreshes the page in place when the new data is published (usually 3–8 min). The first time, paste a fine-grained GitHub token (this repo only, *Actions: Read and write*); it is stored only in that browser. Alternative: **Actions → Competitive monitor → Run workflow** (pick a mode, optionally a competitor, tick *send email*) |
 | Update a battlecard's notes | Edit the competitor's `profile` block in `competitors.yaml` |
 | Describe NanoDx for the AI | Edit `company_context` in `competitors.yaml` |
 | Add or change a competitor | Edit `competitors.yaml` on GitHub and commit; the next run uses it |
