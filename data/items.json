@@ -37,6 +37,21 @@
   "signal": []
  },
  {
+  "id": "801070b008f4ae18",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QDEL Stock Eyes Best Day In Over A Year — Point-Of-Care Sale Talks Ignite Rally",
+  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYWEzcXQxcGkyX3dILWtCSDJYTnZ3dE9vVG5rUHhEWVY3YXB3aUl0VTN0LXpmTVBCMW1lSkZBX1FBS1RFb25TbHlTX2VVY0xLVFlQV3MwWjdiSlRpbHZVWTBHZHdnMUZaMzJTQ0czbVhNVXFFSmRvSFBudDFUZHN1MlZYN2cweEMxaHBrZE45QTltRUV5S0FZYmEyU1VJTDB5eTQxZnNOZEZOUmtWTnNBdmtOUm1iSlVXM2ltQW1Da1NVSG14by12djV6ZHZPV0RiZzRJSGFB?oc=5",
+  "date": "2026-10-11",
+  "snippet": "",
+  "publisher": "Stocktwits",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-12T23:10:22+00:00",
+  "signal": [
+   "point-of-care"
+  ]
+ },
+ {
   "id": "19af153e552c2348",
   "competitor": "TBI biomarker evidence",
   "source": "News",
@@ -180,6 +195,19 @@
   "publisher": "Michigan Health & Hospital Association",
   "query": "CMS \"clinical laboratory fee schedule\"",
   "first_seen": "2026-10-08T15:41:11+00:00",
+  "signal": []
+ },
+ {
+  "id": "5c7bbc55d1139064",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "NIH grant funds trial of wellness intervention for TBI caregivers",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNE5Wd3hzb2pBM09DWlBOQmxUT1RvXzlYaE40Rk51ejBnZVVVYmZpMEtWV2pYdGpoallWRzdwNUZVQTF0dThDSHFGNm1IYkEzTWdtUm9Xd3NFN01Ha1hJSlBFa2o4YnlMSjdSSEJ0dXVEYkVCcFdvc3A0d2VBVFBfN0F1bDlPVU83WFJzTGVYZlNpTFJqMEZURU1sTS1xRC1JQmZiTEZucmhxVk03THd6c0ZIRQ?oc=5",
+  "date": "2026-10-07",
+  "snippet": "",
+  "publisher": "News-Medical",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-12T23:10:22+00:00",
   "signal": []
  },
  {
