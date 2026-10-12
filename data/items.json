@@ -11,6 +11,19 @@
   "signal": []
  },
  {
+  "id": "92576049d5f90af0",
+  "competitor": "Sense Neuro Diagnostics",
+  "source": "News",
+  "title": "DeepSight Technology Appoints Scott Huennekens to Board of Directors",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcjBGODRxaVh1NmFKd3hvTjR6NHFmdVZBSUhpMjBpQTA3WG5jXzY5NkRpUWs2cWNma1VOZHBRUmo5VWN6QVFjWnZ1TzBYWGpjSC10T3lYU0tSdkZLVnJwak1oTm40RDVjLW1BR0pETi1jUi1VQlJrWTN2UW1vem5JQUstZ0EzaklKZDZWQS1HQWsya3llNExEZEliZFlOdXdrMlV6OENmR2xnaTQ?oc=5",
+  "date": "2026-10-12",
+  "snippet": "",
+  "publisher": "Yahoo Finance",
+  "query": "\"Sense Neuro Diagnostics\"",
+  "first_seen": "2026-10-12T19:11:11+00:00",
+  "signal": []
+ },
+ {
   "id": "f024fc040edf9fbf",
   "competitor": "QuidelOrtho",
   "source": "News",
@@ -168,6 +181,22 @@
   "query": "CMS \"clinical laboratory fee schedule\"",
   "first_seen": "2026-10-08T15:41:11+00:00",
   "signal": []
+ },
+ {
+  "id": "37295abbd155bd1e",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix and Innovita Expand IVD Access in China with National Medical Products Administration Approvals",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcEVFT1ZMYVh1T0g0bk1NdXVHM2RBWnRVLVRyMS1YcHVva3RQRENVWmlhdmUtNHdmeGdtRDB0XzVLaVVuUVMteWttUnRPbVIxQ2thRGNDM1B4QTJnZU84Uk9mVE4tdW5NdWl3ei1FcWVKTkg4eXdGMFotLWpKXzhfZk9CN2E1bUZTYW5DUFhYSnNYeUpvQ2RuTE5tVUJmQQ?oc=5",
+  "date": "2026-10-07",
+  "snippet": "",
+  "publisher": "Yahoo Finance",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-10-12T19:11:11+00:00",
+  "signal": [
+   "approval"
+  ],
+  "alert": true
  },
  {
   "id": "31e6427512a12a5c",

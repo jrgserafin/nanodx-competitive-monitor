@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-12T15:17:12+00:00",
+ "checked": "2026-10-12T19:13:42+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -300,6 +300,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-10-12T11:12:10+00:00"
+  },
+  {
+   "id": "876c9c7215b4de56",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Paper-Based Sensor Detects Alzheimer’s and Parkinson’s Biomarkers in One Test",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYkx0MERZaVlLUXpmZFNEaEE4cmNjdmRyX2JiSk9uOWJVejJDSXBIc0Q4RVJ6dlBpcmYwdTNQcGUwc2VqVk5HaUtvcFFobUZQdkVtdTQ0ZTZ5cHlXZ0xRaWFDbkpjdGpuNEswY2o1OVJiY0JIcks4NlFjSmZIQ0pyRERoNUZiZUV5Q2NOWDN4THNDc2xFdnZUYjZiLWtzVmhmWFE?oc=5",
+   "date": "2026-10-12",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-12T19:13:42+00:00"
   },
   {
    "id": "dca35b6318280b77",
