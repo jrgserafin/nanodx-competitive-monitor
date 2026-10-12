@@ -1,0 +1,303 @@
+{
+ "date": "2026-10-12",
+ "generated": "2026-10-12T11:12:11+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "c6b82314e4d52339",
+   "competitor": "Point-of-care & capillary sampling",
+   "source": "NIH grant",
+   "title": "Children'S Hospital Of Los Angeles: Point-of-Care Brain MRI in Children with Head Trauma (BRAINCHILD): Protocol Optimization and Clinical Validation ($527,485)",
+   "url": "https://reporter.nih.gov/project-details/11605228",
+   "date": "2026-09-11",
+   "snippet": "NINDS · 1R56NS151828-01 · PI CHAUDHARI, PRADIP",
+   "first_seen": "2026-10-09T17:58:55+00:00",
+   "signal": [
+    "point-of-care"
+   ]
+  },
+  {
+   "id": "3dac6e8dbec75f56",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Corporation And Innovita Biological Technology Co., Ltd. Receive National Medical Products Administration Approvals For Quanterix SIMOA® Instruments And Neurology Biomarker Testing Kits In China",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVmVyZzN3b3VhTTlQUmJPLTRocTAwSEdFbzZ3MEU0M3hUclpCZlZIN2lwRVhIVmJZTmxxZ1dZSmtVNzEySkJ6ZmZFdnFPM1plVzV3UmQ4Wkc3bDZ5MGFJVGREVWxGaE1NeFhTcW0taXJCUkt2c1JtLTdnam8xMG5EVS0zbzFUaXJlUkVBT1R4cUxPbEx5RkIwSjNDZzBjUVRkbzM5ZFJteFZnWkhtQngxUnJSSWVCUlMwYnlLRXpaRjdIZlZFNnRsYXc1V0RBMFpVWUUzMTh6YzBneTAySUdrNEU0ZVY?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "www.marketscreener.com",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-09T14:03:11+00:00",
+   "signal": [
+    "approval"
+   ],
+   "alert": true
+  },
+  {
+   "id": "d98b187a1fdac825",
+   "competitor": "TBI biomarker evidence",
+   "source": "NIH grant",
+   "title": "Veterans Affairs Med Ctr San Francisco: Interpretable Machine Intelligence for Biomarker Discovery in Concussion",
+   "url": "https://reporter.nih.gov/project-details/11245428",
+   "date": "2026-05-01",
+   "snippet": "VA · 1IK2RD000543-01A2 · PI RADABAUGH, HANNAH LEE",
+   "first_seen": "2026-10-09T17:58:55+00:00",
+   "signal": [
+    "concussion"
+   ]
+  },
+  {
+   "id": "31e6427512a12a5c",
+   "competitor": "TBI biomarker evidence",
+   "source": "Publication",
+   "title": "Integration of S100B and GFAP with the PECARN Rule for CT Decision-Making in Pediatric Mild Traumatic Brain Injury: A Preliminary Study.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42853777/",
+   "date": "2026-10-07",
+   "snippet": "Pediatric neurosurgery. Ulutas ÖY, Yavuz AY, Karbuz A",
+   "first_seen": "2026-10-09T23:09:11+00:00",
+   "signal": [
+    "GFAP"
+   ]
+  },
+  {
+   "id": "4a1feb994fba31d5",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Could Psilocybin Help the Brain After Repeated Concussions?",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaVJBVlBrZk11UFZqamp5WGlEaExBNzNvYXd3S0xiSWtxWFlpYzhXeHBTLWZYQ3hfVThTNjN2RUJmbXdYS2NFbDJHc1BDVjJoR1J2eUc1by1LQmJWVUgyUXJvOVBqbjFqOFI3WXVrLU9lNHVXOXk0Vml1UGdvQktnUnJFREV4VEVvaXdta3hHN1VQMGlySjdmRDNmYUtOR1doa3NlRkNXRVdtLS1JTG1WMm1MN3M4TUhQeXk5MHVCY01aWHJ6NWc?oc=5",
+   "date": "2026-10-09",
+   "snippet": "",
+   "publisher": "Psychology Today",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-09T16:23:21+00:00",
+   "signal": [
+    "concussion"
+   ]
+  },
+  {
+   "id": "43720a44f0a0571b",
+   "competitor": "EMS & prehospital TBI",
+   "source": "Publication",
+   "title": "Impact of on-site mobile CT imaging on prehospital patient management during the Munich Oktoberfest: a retrospective observational before-after study at a mass gathering.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42844595/",
+   "date": "2026-10-06",
+   "snippet": "BMC emergency medicine. Flatz W, Hinzmann D, Kampmann P et al.",
+   "first_seen": "2026-10-09T17:58:55+00:00",
+   "signal": [],
+   "alert": true
+  },
+  {
+   "id": "22dc371ad95c2f23",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "How recent legislation has affected payment for lab tests",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUUFqN0diVFZrYTJJX19Oa05aczZCSWFLRU51OXNkNG9WUzZMcnRIQkpaX2UxeUpta3FKZ0pIay1CRWhpSThINUptVG5YUjh5ajZNdXJhS3RNakJ3c3ZZTmFvemJVNFFheG9GclhQUHA4dzhLVkdyTnRILThuQUJmZkNIVGV4VktqcC04NHlrMEI?oc=5",
+   "date": "2026-10-02",
+   "snippet": "",
+   "publisher": "Urology Times",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-10-12T11:09:51+00:00",
+   "signal": []
+  },
+  {
+   "id": "6a31db56f05fd6df",
+   "competitor": "Military TBI screening",
+   "source": "News",
+   "title": "Army says nearly all soldiers have now taken new cognitive test for brain injuries",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRkYwVmxicXV1ZFhBclNZeG1WRGdVY3p0ZEVCNHNjQ3AxSEhMczdleldPTW5QYllzZXowTE5WQ2g2bXI5c0NhZVI4azU1OXpDbU9rREF0UVpCY3RuRXp5X280cDF3VjN0N3FUUXZQdTUybnAycG9fUkxpT1MxbjM2VXJmenNrOGs1emEybDBnbw?oc=5",
+   "date": "2026-09-30",
+   "snippet": "",
+   "publisher": "Task & Purpose",
+   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+   "first_seen": "2026-10-09T17:58:55+00:00",
+   "signal": []
+  },
+  {
+   "id": "a80436a7bf62dc62",
+   "competitor": "Military TBI screening",
+   "source": "News",
+   "title": "Soldiers seriously wounded in Iranian drone strike tell AP the military's medical system failed them",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMjlWZkdmOEVkb1llZHI4UDNkZ0ROV3ZrX0dfV2ZCZUpCYXBzNUVWNkdaaW1vVWwxS2tVWFVxSmJYWXVKZGJfdkQyVlVuLU5ibTRWalBCNG1WaFZMaVR0LXd3UjRYOG5kalFVS2hVRkRLd2ZZcmpWeGhDTGN6elB0LTZoeU5fUHZCeWVUczdnT0dyNUpiY0M0MC1ZeDUwMmFMWVNHMURweWY0QTlhd3R3Mg?oc=5",
+   "date": "2026-10-05",
+   "snippet": "",
+   "publisher": "Stamford Advocate",
+   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+   "first_seen": "2026-10-12T11:09:51+00:00",
+   "signal": []
+  },
+  {
+   "id": "82cab05e8c5d449f",
+   "competitor": "Military TBI screening",
+   "source": "News",
+   "title": "Soldiers Wounded in Iran's Kuwait Drone Strike Describe Missed Brain Injuries and Monthslong Waits for Military Care",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWUVvV0xRdjd2ZDdRakhDWDVUUjl4WVhub2ZaX0w3dlVOZ2NkOExEMWFFOFcwcjA3U29qRGdFckN1QmxkSjRGZVR0ai1HdnhtSFZwd2hkUVF0d3ZvMWhLdmxkT0cwQXFYUzR3Vk9mVklqVzRGa255cXJPT2FKVW1RRTNFbzVtZW5seTZVTU84MUg?oc=5",
+   "date": "2026-10-10",
+   "snippet": "",
+   "publisher": "Medical Daily",
+   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+   "first_seen": "2026-10-12T11:09:51+00:00",
+   "signal": []
+  },
+  {
+   "id": "9b8644aebbb5a86f",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Stock Price Forecast. Should You Buy QTRX?",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAyUEZhRGphT1FMcVZJTXI5VmljWURTTTFXNXAzR042VXpLNTR4ZlFDaHVOcUpRR2lOaEJKdjI0cjA0YUFVdVkwWg?oc=5",
+   "date": "2026-10-09",
+   "snippet": "",
+   "publisher": "StockInvest.us",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-12T11:09:51+00:00",
+   "signal": []
+  },
+  {
+   "id": "16d950b94f7e0cbd",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "SaddleRock Capital Management LLC's QuidelOrtho Corp(QDEL) Holding History",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPM2V1S3M3VGcwakI2SUxZZTlDd3dTYnFhZEdsR3B3OVJHNTRSb2VrUUs2c1hvR1N5bHBRRHFwTDg5UUVIVXpVVHN0c0RFQmtPUWJwVTZxd0VZYXhWU2txTk5hdnBHci1kdEp6OVhoQm9nbGE3U2pHUXk3TmhPRkdVbk5yOTh4LTI0Q0g4bTNR?oc=5",
+   "date": "2026-10-08",
+   "snippet": "",
+   "publisher": "GuruFocus",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-12T11:09:51+00:00",
+   "signal": []
+  },
+  {
+   "id": "87b5bf6e3582b734",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Fell 53% While Sales Rose",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX2FaY3AtbE9mb0Y2TDJ2OHhkY2h0UjZhYm5MQ0JrbDRRZUF6bjdtRlFza0pfbHlVUF9FMDQydlhBZU9lQXlNV1Nkb3NlM0NXZDAxS3pCMy1rTUxpdlhrRnVPOEJpUTZNX3VncDVrVXZiT2FhV3hIbzZLbGFkdkRXSlMtM0Z3cmlUd1djY0t4ZkNfYUhENTdlMFNfME5IUVFXZlhDdGViSHJfVEZs0gGyAUFVX3lxTE04c3U1d2tXallETm5GOV80bDFHZmw0RHhST3o2ZU9KY2JERlQzMzd3aVVtNVo3RWxmMjNCV1J6ZTVYc2VBYV9BRTE4a3RXcVhDMjQzd01qUHllS0VGaW82X2tTc0NXNER4aVFGamtYQWJ0c2Vkc1pFYVY1WG1KRUpXSER6WGNwRlhtekw5N2paTFNlcUZmYXNjQUxjS0syVnVtVEVIUDJudENEeXdhZUtJUWc?oc=5",
+   "date": "2026-10-10",
+   "snippet": "",
+   "publisher": "Simply Wall Street",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-12T11:09:51+00:00",
+   "signal": []
+  },
+  {
+   "id": "32b0351adc08eecd",
+   "competitor": "TBI biomarker evidence",
+   "source": "NIH grant",
+   "title": "Foundation For Applied Molecular Evolutn: Analytical Validation of Tau and P-Tau as Acute and Subacute Prognostic Biomarkers for Complicated Mild TBI ($476,291)",
+   "url": "https://reporter.nih.gov/project-details/11578679",
+   "date": "2026-08-01",
+   "snippet": "NINDS · 7U01NS111680-05 · PI WANG, KEVIN KA WANG",
+   "first_seen": "2026-10-09T17:58:55+00:00",
+   "signal": []
+  },
+  {
+   "id": "5f073db30b55da0a",
+   "competitor": "TBI biomarker evidence",
+   "source": "NIH grant",
+   "title": "University Of Texas San Antonio: Sex-Specific Hormonal and Head Kinematic Effects on Blood Biomarker Responses to Repeated Head Impacts ($169,476)",
+   "url": "https://reporter.nih.gov/project-details/11453534",
+   "date": "2026-09-01",
+   "snippet": "NINDS · 1R03NS145040-01A1 · PI MEMAR, MARZIEH",
+   "first_seen": "2026-10-09T17:58:55+00:00",
+   "signal": []
+  },
+  {
+   "id": "a7a4b886eb95ffe9",
+   "competitor": "TBI biomarker evidence",
+   "source": "Publication",
+   "title": "[Blood biomarkers of mild traumatic brain injury in 2026].",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42800508/",
+   "date": "2026-09-26",
+   "snippet": "Annales pharmaceutiques francaises. Sapin V",
+   "first_seen": "2026-10-09T17:58:55+00:00",
+   "signal": []
+  },
+  {
+   "id": "f3c0936fe0371b80",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "Blood Test Reveals Hidden Brain Injury After Mini-Strokes With Normal Scans",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNFF4UlZoNmt2SS1zdHB4OHJUamxqMjVzVENoM3BmOVlSeGduUjJTS2VNT1gxZXVsemcxZDdKVFg0ajNicWs3R2lvcTRVQ1Zoem1lWU1XV3liM1ppN1RiSW9TNGpDS3AycGFMeE9UOU9SV2hMcGQzWFhxWmZMNXRyUlVUajlNdnNwSzJiWjlONFJiVWZRbThod0lyUlRfZWtnT0E?oc=5",
+   "date": "2026-10-06",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-10-09T17:58:55+00:00",
+   "signal": []
+  },
+  {
+   "id": "19af153e552c2348",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "Blood Biomarkers Could Transform Diagnosis of Sick Newborn Foals",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQklEeGdLdWFjdVJTeHk1T3hmZFdTX0djSS1oX1BBcHI2cHcxVHphdDlqSl9jVU1WZ1ZGb2dIclM1TWRfdnQ1VmdaNE5TRlpqMldfMW1YWGljNUkyREFnUkhhQVpOdC1oX2FFVWNsalFYSkQzYlZlakhCQ21RSHk1R1R2bDZpRTR6NVZVc2c3S3JvNlk?oc=5",
+   "date": "2026-10-11",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-10-12T11:09:51+00:00",
+   "signal": []
+  },
+  {
+   "id": "396ff3e832556bad",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Existing drug could target neuroinflammation in Alzheimer's patients",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeHZGLTZHWDFQbjZPWGpiVTBScVBFc0MzRkdvUlB5aU90RVlrMW96eko1VFVuMDFkQ2k1QWN2ZTBCUXZOa3NNa2JHSVFka1hpN2JvWjR0UGE0ejVJTUVkQmdCZFE2d3FvSnlYdFExUGpFVkVZWE4xT0x5Vmo5ME83c1U4NkhKdnQtb0ZmNlExMmtJVU5VX2F6OXhsRGljMFpqRW9JeGtXUTdSNzRPMno2UXYxVTMyZw?oc=5",
+   "date": "2026-10-05",
+   "snippet": "",
+   "publisher": "News-Medical",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-09T13:39:43+00:00",
+   "signal": []
+  },
+  {
+   "id": "beee0a293ee22441",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Compressing bones releases molecules that ease traumatic brain injuries",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTENCTS00SFFxQ0t3bEhhVlQ5TEpyME90Y3NuV0Vwc1Jsek1UdjFuZlowSllLdlZsNlZfd1BYaGV5MFFGU2pYZEtCQnZqQ2pHZ2R1OF9uN2RTd2haQXVCUUluYlI3d0RpUFlRbFBLcERzd3NKd3FSNGxETnRHZU1ISTZWbWxZUXd0MXRNRG9COVZ0eHZKcW5UOFk0VGMxajhpU0Jmc2hORzl0bFJqdGoyaUliQWhIcDBx?oc=5",
+   "date": "2026-10-06",
+   "snippet": "",
+   "publisher": "New Scientist",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-09T13:39:43+00:00",
+   "signal": []
+  },
+  {
+   "id": "b1928a20d7f7111c",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Mood Disturbances Following Traumatic Brain Injury: A Case Report and Treatment Review",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPX3FJei15U0RwUndfbEkxeE9vWEhranJsTGJ0U29nWHJOUVpJZkhfZWQxVmE1RTd0cXhyWUhsbU9PWnpJaG9kVXhaRHdINmJWMno0MTB4ckxQQV95Vk0xbUQ3NWN6LVRFbEs5VkJDU3VCMWRsd3V0SDJ3UzlJTEszN0swd3JBcE9EX0Q0N0dmRElWeFJKWmtFQ3VPZXJDZGV6NHg3Tm4yODdWTzZISWlTc0h6ZFh4c0VXOW56a2pDWTNjQQ?oc=5",
+   "date": "2026-10-09",
+   "snippet": "",
+   "publisher": "Cureus",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-12T11:09:51+00:00",
+   "signal": []
+  },
+  {
+   "id": "7adc6e01f5fe603c",
+   "competitor": "TBI epidemiology & ED burden",
+   "source": "Publication",
+   "title": "Predictors of mortality available at emergency department arrival in massively transfused trauma patients without severe TBI: A single-center retrospective cohort study.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42821530/",
+   "date": "2026-10-01",
+   "snippet": "PloS one. Jo Y, Park Y, Jeong E et al.",
+   "first_seen": "2026-10-09T17:58:55+00:00",
+   "signal": []
+  },
+  {
+   "id": "98acc0bbf12d260a",
+   "competitor": "TBI epidemiology & ED burden",
+   "source": "Publication",
+   "title": "Emergency Department Visits for Falls and First-Time Seizure.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42848964/",
+   "date": "2026-11-10",
+   "snippet": "Neurology. Wang AY, Wood AJ, Zhang C et al.",
+   "first_seen": "2026-10-09T17:58:55+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}

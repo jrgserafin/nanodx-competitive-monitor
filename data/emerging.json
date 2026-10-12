@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-09T23:11:24+00:00",
+ "checked": "2026-10-12T11:12:10+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -289,6 +289,19 @@
  ],
  "news": [
   {
+   "id": "cbfc618454004af7",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Top stocks to buy: Stock recommendations for October 12, 2026 week - check list",
+   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQTlZ2cldXQkRoMTRFVTNsdWprY2l6RGdlOUpndVhrd3VGRGpxV3RvdmUzeFZQd2Ewa3pfSF9rUU9QR0lOVDVWa2ZMTWRackdLT0pUZUVZREZqRnEtUkY3OHA4RHIzcXZiMi1mZ0VKMHJkRm8zV3V3WFZOQUVjbndnVkM1TUh3VlJEdFVLTjY0dXFUVFBKWlFocnk5empXT3Q4MEpFd3RjbHVNOG1NalVJRENjN2VwcTdWeWdRS2s1RDZVUTd0ZEJiZmgtZEM0eGlfbmtsQkRYZGNrb3RUVGNxOXVjS3Z2c282YUJXMmVUYkxaSWZfQUw0TVdhclBvNktkV05XYjBOajQ5bnRkVnZCTEJQQ1h5YVZJ0gGeAkFVX3lxTE9ITl8wRndMb3ZaUXRPT0tsTEFkb0pmZ2ZhaWs0c2dwRVhXc2hNVTRuSTVRa1Z3RVhGR1dTY1FsV1hua2JUaDFHZjBqTklJZDVLRE5hTk56amJVQkpubGc2Vm9mMWppUHVoMjdFaEFmbFE5X1NtaXo5Uy1XMlpIa044TkVnRVNmaVZJU3dlZG5lQmFaWU5PMHJlU3ZaRUVXUDJVeHJudzI2WHo4Qnpncm51UFY3R0hIRERQSDhuUzhQdW9RclhCYnRueUlQWEdqbTRTU0kzdmM4RVBCMEJLcU1ZYm5WUzFTd0ZPV2ZINExPVDI4U1JoUzBDNmhPd3FmQ3gzMFUza1RKazNWM1I0aDNiV3FPbUY1SjB5U01wUGc?oc=5",
+   "date": "2026-10-12",
+   "snippet": "",
+   "publisher": "The Times of India",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-12T11:12:10+00:00"
+  },
+  {
    "id": "dca35b6318280b77",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -326,6 +339,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-09T23:11:24+00:00"
+  },
+  {
+   "id": "5cba6bb28d445c76",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "3D-Printed PEEK Cranial Implant Market Size, Share, Trends 2036",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOGt3NXp5Y0pGM0FhaDVCajZoNVFPNXRTSzdtZnNkMkZUU1BrZjRLUEdlVGREQ0E2TUp0OWN1RVdCSE90ZUtZYldJOGJlenRlUktZSlVGRWJXa0ZRcEYxRVVIVl90M09lcWRzRWtXWXlXQ0YxaGI0RTBraTd2bFRfeWZ3Um1KUm1kZ0Jv?oc=5",
+   "date": "2026-10-09",
+   "snippet": "",
+   "publisher": "Future Market Insights",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-12T11:12:10+00:00"
   },
   {
    "id": "263cc435af650e3a",
@@ -417,6 +443,32 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-09T00:13:02+00:00"
+  },
+  {
+   "id": "d1f128f5ce3ee3e0",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Advancing Next Generation AMR Diagnostics for Lower Respiratory Tract Infections Programme",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWHNQS0NTTS1WdDVTTU1IdjJwaEZCMUtPOWFoQWJrSWF5VUgyV016MVF4eE5McExHZF9vNU1DeTcxUGhZRzVDXy1Sb0dQVDBELXVONjFyT19vWUtXU3JZU2p6UmdER3ZUWFpjM0poZkJPb3R5ZFpEWHYtNGU3WHprYW1hNkdoT1YxS2dQUTR3RFRSbUdWWXFJZFZFUmhaVzEzNU1TczY0dlRMOVBMa3VxRzByNU5uTnBkYVUxaThHb3ZNakNodUU2SkZScmfSAdIBQVVfeXFMT0ZKMnhqdW1lbDNmUHZGMElOdG4wcVJBVUQ3dEdYRVAwSi15MkQ3MU5pbDJZNnk5N25LcTNUQVBLaWxqVWpnWVFDT0lRX2N3V3lHZmRINkkySDl3UUxnQzllVlJoYVQ5NXRlaXBLTFpHVG9iYVVmaGFOOG0tdFIxWmxGcjZNS2lFLUJBam10SmlBMFpoNnhwWGp1SW01Q1BwdkVFSk8wSWxyQm84VUhGS0JsSnFEeGNhVVYzaHJ5TmNncXVpVXVGSTg5aGFQY252YWpR?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "fundsforNGOs - Grants and Resources for Sustainability",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-12T11:12:10+00:00"
+  },
+  {
+   "id": "93ecbd25f56a47c9",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Butterfly Network (NYSE:BFLY) Stock Forecast & Analyst Predictions",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVGE1cl9TTDg3TU8xam5xbzRUQ2daRHl3MmV3Mjh4QlZoOXlHRjE2azBic2pUcmxaSTlvTnB3Y3pBLTNiRTZyMjg0V0o5bG1WUkdsSkhjdGdmRGUyMEs0T3JhYVRpc2d2QUFHYTdmVTFMaWRVVUhXWGtNNzlGalZIT2pBVQ?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Simply Wall Street",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-12T11:12:10+00:00"
   },
   {
    "id": "8e022c7087d283c9",
@@ -625,6 +677,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-08T19:57:39+00:00"
+  },
+  {
+   "id": "c04b0412756f1e21",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Ceribell Receives FDA 510(k) Clearance for Quantitative EEG Trending and Amplitude-Integrated EEG Analysis",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNNVNxdkNCMnZoZGs0TUZkSkRQTXBfZ0RwazVoY0FlUkFpOW95ZDRfRlVPZUszbW1yV3ZzVTJWMGk1VXVWUS1VR3VaNVhiNXFrUUpKR2twSVNvQV9xckRtY2J0MTVRTnItVTBWNWEyNDFNdzZxUmxYR3V0Z3VKWENWT29qTklDSmhtNi1HR1RKV1c0R29POEN5YlhILWxrb3NZaFRTc3dwVjFQUGZEZVlnN2VLZ3dtUkhJemRZR3d6SnNib19FcGNTb0dCMTk4MjJ3ZE85N2lSOXpXLWdmOXBfOFdRSDNnLWVZVTRIcHJidEJVLV9EWXlUZFpHS00xYzVDbV9aR1VMUWE?oc=5",
+   "date": "2026-09-30",
+   "snippet": "",
+   "publisher": "GlobeNewswire",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-12T11:12:10+00:00"
   },
   {
    "id": "20a5b1b6e0cd7c6e",
