@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-13T11:12:19+00:00",
+ "checked": "2026-10-13T14:06:47+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -288,6 +288,19 @@
   }
  ],
  "news": [
+  {
+   "id": "c3a90549e754abb2",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Abram Scientific Awarded Up To $8.3 Million under a DARPA Contract to Advance Rapid, Portable Blood Coagulation Diagnostics for Trauma Care",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQemdRN2kxOTA3cnlpTll4X1o1MzUwUkpCelItQVJnTHNmOVFpcFRzOFBoX1Z2YzhzZkRzVjZIR3dFMG8xcWNYUjdLOUN5bnVad2RNeWQ2cUgxbjgyUTl1TmhORlk0ZFIxTlBjX0ozbHdKS0tUUUtoeXFvaXdUZEg2d3A4R2NJU25xdkRkVGFTNE5ZcDNFZVRzVktoNWVvVV9DU252b0NCRVc5UzhJd0pSY0ppTkJoczlhZVRJbVBKV3dMRXNaek1HeHFPWUZuOFhwR2p2dlFaQ3dKVWk1a2FFZUhvblpqLUVJNGROWW9nTDNObWtVVWFTcWp3V1ZjQzZNSDYzRGtGeW4?oc=5",
+   "date": "2026-10-13",
+   "snippet": "",
+   "publisher": "BioSpace",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-13T14:06:47+00:00"
+  },
   {
    "id": "cbfc618454004af7",
    "competitor": "Emerging (POC)",
