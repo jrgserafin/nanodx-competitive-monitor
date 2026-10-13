@@ -11,6 +11,31 @@
   "signal": []
  },
  {
+  "id": "64a80b90c63c16b8",
+  "competitor": "Medicortex",
+  "source": "Website",
+  "title": "Börsvärlden published an article about Medicortex",
+  "url": "https://medicortex.fi/2026/10/13/borsvarlden-published-an-article-about-medicortex-2/",
+  "date": "2026-10-13",
+  "snippet": "New on https://www.medicortex.fi",
+  "page": "https://www.medicortex.fi",
+  "first_seen": "2026-10-13T11:09:32+00:00",
+  "signal": []
+ },
+ {
+  "id": "c2d33c55a8307b70",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Reports Q2 2026 Results: Full Earnings Call Transcript",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa1ZiZU9VYlUteUQ0QzcwbndyT1lDci11VElQeUFCNlhHZXp2TWJuYWM2RG1FQVd3ajBJUzFFUE5XbDVZazhhQWFEYTlXRGExNXcwOWtGbnBHRnFrOUpYaG8zREk3dXRwcnkxQkVBRnI4MzkxWWdYZHlfd1FjdU9xVm53QlVsM18wdXJCTGllNmpkd0V6VmpXVWpQc3cyUTloZzdDcE5HVWlqeFZST0hB?oc=5",
+  "date": "2026-10-13",
+  "snippet": "",
+  "publisher": "Benzinga",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-13T11:09:32+00:00",
+  "signal": []
+ },
+ {
   "id": "92576049d5f90af0",
   "competitor": "Sense Neuro Diagnostics",
   "source": "News",
@@ -88,6 +113,19 @@
   "publisher": "Medical Daily",
   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
   "first_seen": "2026-10-12T11:09:51+00:00",
+  "signal": []
+ },
+ {
+  "id": "930a2a932cd34b75",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "The Pentagon Wants to ‘Optimize’ Service Members. Will Testosterone Make Them Better Warfighters?",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tZVc3VkVqNUxzVU1pZUduX0I5RmZlNHcxX3J6bF9sZEZ5aHAtVmEtVFQ5azd0ZUNseG0yQll4cnNUek1qakRZbzNoZXFNZmlhMzNLcVNTSUJ2bDJpZkZtNm1DWjNfc3NGS3RlY0hNWW0?oc=5",
+  "date": "2026-10-09",
+  "snippet": "",
+  "publisher": "The War Horse",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-10-13T11:09:32+00:00",
   "signal": []
  },
  {
