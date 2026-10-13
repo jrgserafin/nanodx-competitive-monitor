@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-13T15:16:23+00:00",
+ "checked": "2026-10-13T19:26:29+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -300,6 +300,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-10-13T14:06:47+00:00"
+  },
+  {
+   "id": "f3258dc38da0b769",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Abram snags $8.3M US DoD contract to advance blood coagulation diagnostic",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRkpKdG1CRUdRa1M1VF9ZOWlQRzB2aVFXUHlkQ0JVRjMzS1R2dHIyVUJiRjBnVldZOGY5R19WZWlRZlVUTF9JUWFmajRqa3RQOEU0NHVyR3VEbV8wUUFpZUN0Z0JwNU1iNmRnZzRyOGRJZTdHLXNkS1dIdmhkMENkYjM3S0U3RFFiWDJrUlZ5WmtJNVFxRzlVQ2xqTnRqVlhwVXByZVVHOWlrek9mRDlDNjNsaw?oc=5",
+   "date": "2026-10-13",
+   "snippet": "",
+   "publisher": "Medical Device Network",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-13T19:26:29+00:00"
   },
   {
    "id": "cbfc618454004af7",
