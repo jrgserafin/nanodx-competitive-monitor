@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-13T23:19:33+00:00",
+ "checked": "2026-10-14T11:22:14+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -289,6 +289,19 @@
  ],
  "news": [
   {
+   "id": "4258b12fa3a33e89",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Capital raising in healthtech: Dimension Biotechnologies, Fuse Diagnostics, Droplet Scientific",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNU01KSXpNcTB2QkpQZkozTjEwT0lsczJnSVUxb28zYWRRblRLcU9GNWlRWG0xX19DaDNBREhOVG9GR0wzREl2OVpCZUxQT3ZzRW9hdDZGM2ZXbXBKcXROLUhicDVvN1pxM0dYMVdFeUNwUzE0VjcwNXJDdXJlVDJlSnhtV1VRRzNuakJCLVZkaHE4QU1mWUpXZzNFU0w3cktqaXJQMVI0eGVaaldwbDNWaEc1M2ZkbjN1b3RpeXRuUi1Xa3BIWkE?oc=5",
+   "date": "2026-10-14",
+   "snippet": "",
+   "publisher": "Healthcare Today",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-14T11:22:14+00:00"
+  },
+  {
    "id": "c3a90549e754abb2",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -313,6 +326,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-13T19:26:29+00:00"
+  },
+  {
+   "id": "3546fd3a4d154721",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Astek Diagnostics Prepping for Clinical Evaluations of Point-of-Care Pooled AST System, UTI Test",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZFc4cFV5MVgwZFA4WGR6UFQxRmQwYXplZnZkd05aemg0amYwbWxDVTlBZjdRc0VjYTlTNzZtck9NRjZkQXBrWU04cUJFam5uc0JqSkpCWXE4dFJiZEF4a29rMkh1M29CZUpiUUQ0cm1nV3JSNFNObWhqdXZEQ0hDc0NBV1laLUtnZnIwQlBDMDhKbmt2MldTZkFybDF5WFpwQWswQjRiSQ?oc=5",
+   "date": "2026-10-13",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-14T11:22:14+00:00"
   },
   {
    "id": "cbfc618454004af7",
@@ -508,6 +534,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-10-12T11:12:10+00:00"
+  },
+  {
+   "id": "38a4121c9be84108",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "CraniUS Therapeutics Secures Second FDA 510(k) Clearance in Six Weeks and Earns U.S. Patent for NeuroPASS™ 3 Cranial Drug Delivery System",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOE5md0VrWmVCT3hweWNWMlZBaGwyQzBhT0FPeko3bFFLa01SUG9pdGZOTTdIcEcyMEpxZ1BmOTBPWkduRS1ESGR4VzFrOEV0TmJieE5sSDUwSFhmY1VpcW11RkxTSlI1cFBFb3pqcklJZDgtRXgtaEpfVVhKaExvUHlhaG5EQzF6ck0teHE5b05VRmVRU0ZBQl9udVAyQ2dCa0E?oc=5",
+   "date": "2026-10-07",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": true,
+   "first_seen": "2026-10-14T11:22:14+00:00"
   },
   {
    "id": "8e022c7087d283c9",
