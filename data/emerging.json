@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-14T11:22:14+00:00",
+ "checked": "2026-10-14T15:28:10+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -300,6 +300,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-10-14T11:22:14+00:00"
+  },
+  {
+   "id": "cb78e3c58713d543",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Automated Biochemical Identification And Susceptibility Testing Market To 2035: AMR Burden Drives Growth - News and Statistics",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPaVZoVFZ1b2JDUlBkamlncXdkamhfVUY2OFlXdlBEaGVOcGVFekxIOUYwR1FiRUVYMFhaUmVnNzd1eUtLWGl3c3FCWFBiVktTVE5ubHRUZ2liU2NodnlWOUlyT3ZVbnF3bGRrSlh5dks1c1FTUnZEbkF4ZnpUMldDZjhBYUMyaTgzazFMZ0tWOHRELXc0bnR0T1NEZzlER1RpUGRtM1oyMV9VOTZWYzliYWZyYUhuRzJobHFkbDE3TUdWLTNwNzBUZVpocmxYQ3NZUFRrUDE3dXhqeVJ6WVBmRkNmQzdZN0VqNXdhOHU0V3I?oc=5",
+   "date": "2026-10-14",
+   "snippet": "",
+   "publisher": "IndexBox",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-14T15:28:10+00:00"
   },
   {
    "id": "c3a90549e754abb2",
