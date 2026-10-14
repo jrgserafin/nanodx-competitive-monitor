@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-14T15:28:10+00:00",
+ "checked": "2026-10-14T19:29:23+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -313,6 +313,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-14T15:28:10+00:00"
+  },
+  {
+   "id": "62470ba1b7535b2e",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "USPTO Awards UpRight Science the Registered Trademark for Balance: The Sixth Vital Sign",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUHJIMFZPeng1eHJNVzhTRFV2ZVlVTjE0N05pdTZxRXU0VmloZ2ZxeFE3Mkx5dDRhdGVQOEJQS1hBZEdRT01IbTdUdkVmUVNQcVpuOFlWbUlMRUpYSWE0T0xQbXlmb21sSWlSNHV5VVZ4LTM3MUdhN3BXU1dSZThsQkhHRHBOZlQ2aUJQRWpqYk5Yd1QxTXllRU9MRm4zcGU2OFE?oc=5",
+   "date": "2026-10-14",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-14T19:29:23+00:00"
   },
   {
    "id": "c3a90549e754abb2",
