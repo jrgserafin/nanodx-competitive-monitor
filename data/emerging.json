@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-14T19:29:23+00:00",
+ "checked": "2026-10-14T23:21:57+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -326,6 +326,32 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-14T19:29:23+00:00"
+  },
+  {
+   "id": "f3d156b8ba165463",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Bia Health raises $2.15 million for AI to reduce unnecessary medical interventions",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX3ctMXBrVnE5YkZaQlpRWmp5WnBTWFNGdWxQZzRtTUw3V0tfQUhfS04xeTR2UF9uWF9MQnQtYkF6Z19mVjIwZVprdlJJNi1LeUE2NWRsQm9Ndy00V1JoVGRGdnZWUXdOQy13czhUWWl5Mmh1OHF0emF3VFdYS3E0SmJZX1FwdU83UzY2czJuRFZJZFhSQVJyMEllQ2xfSG9xR0tkLQ?oc=5",
+   "date": "2026-10-14",
+   "snippet": "",
+   "publisher": "BetaKit",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-14T23:21:57+00:00"
+  },
+  {
+   "id": "e2a2b890d5dae056",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "CorVista System With Pulmonary Capillary Wedge Pressure Add-On Earns FDA Clearance",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSTE2VHY2bF9vVy1WT2d4ZTZ4U3lMVnF4djc4YmhLX28xb3ZmaEp3bldXbjZOMUdYZ1hVOWlnU29FRDg4Q2RnUVVSUXlVWlpGajJyb3hWMWxScDdZMktRSzRCYzJJZXdLRHJWaEtkWjRFaHhEVXlCNVdsR1lJVVhKa0hrYkpIdTdmWXY0TV9vTDQ3VTNtQnBrUjJuQ1dOVzQ1R0hXZ2FnSGZPeHh1Y0hXVkNrbkpJR0o1aFNZeU1B?oc=5",
+   "date": "2026-10-14",
+   "snippet": "",
+   "publisher": "Medical Product Outsourcing",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-14T23:21:57+00:00"
   },
   {
    "id": "c3a90549e754abb2",
