@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-14T23:21:57+00:00",
+ "checked": "2026-10-15T11:21:57+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -288,6 +288,19 @@
   }
  ],
  "news": [
+  {
+   "id": "33086d8d4b06e798",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "ThinkSono Secures FDA Clearance for Ultrasound AI Software for Blood Clots",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdGtUb01kelczNDZrWkdnbFRkbG1vTTcxN1R2U0FMSWpENmxDbGwwRk9wRm55a1dDWExYNTlOUGpGU3E3QTRhQzhjakRoOXlCV1A4NDZMMVVrNzdBamRTbUoyMDdvNW10Nzc5UThRd0ZXc01NLVpXQmlIVjZrT0xvR182dFZUaDM2ZVlnMm1meVBMaXplejhSOTY4c0xCNHQ5dWlTM3diUGdRWDVWeEk1TlpnQQ?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "Medical Product Outsourcing",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-15T11:21:57+00:00"
+  },
   {
    "id": "4258b12fa3a33e89",
    "competitor": "Emerging (POC)",

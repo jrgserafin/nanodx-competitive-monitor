@@ -11,6 +11,62 @@
   "signal": []
  },
  {
+  "id": "d4b4de129eb8e748",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Experts call for lifelong care after brain and spinal injuries",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYWlOMEpVZ2M0R3FlckhPN0ZBaFFHVlJCenh1YnNKM2lpODI5Ry1nd0VSdWc1cE56dVV1SzRyQmoxYU9TQ2wzQlpCSmdOQVFZdUpJbGd1QUJJXzZEX0d1OFR4WkpSTUE1RGw4WkF1alpIRUlDODROWUt4NjJVYjMyYjY3TU1KdGJGR3lWVXlfcmNuMmlVb0JrYW9KSEhIdTNwOVVza0xlekRuTTQyWEZj?oc=5",
+  "date": "2026-10-15",
+  "snippet": "",
+  "publisher": "News-Medical",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-15T11:19:20+00:00",
+  "signal": []
+ },
+ {
+  "id": "18cb31d61c1c8ddc",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Brothers back 15-minute concussion blood test",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUtld3l3SHlhQ1AzQkhIVUlWbHpscUpXT3Ffb2w1elBraTZGRTZheXpFVkFqVDQwMFdab044RVowc3FldEV5WVpVVndkTTBiUTdRU255dFZtZzN5OE9JR2JaenFyMHVRNlk0RE83bktfNjhYMGZxUk9wS1NmZ0REX05DVVN6YkFJMkVWWmxWeUfSAZABQVVfeXFMTjVLZXd5d0h5YUNQM0JISFVJVmx6bHFKV09xX29sNXpQa2k2RkU2YXl6RVZBalQ0MDBXWm9OOEVaMHNxZXRFeVlaVVZ3ZE0wYlE3UVNueXRWbWczeThPSUdiWnpxcjB1UTZZNERPN25LXzY4WDBmcVJPcEtTZmdERF9OQ1VTemJBSTJFVlpsVnlH?oc=5",
+  "date": "2026-10-15",
+  "snippet": "",
+  "publisher": "The Australian Jewish News",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-15T11:19:20+00:00",
+  "signal": [
+   "concussion"
+  ]
+ },
+ {
+  "id": "f5bb4331924afecd",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "Biodesix (BDSX) Stock Sees Fair Value Lift As Analysts Back MRD Growth",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON3lNOVJOa3BfeHBCYVFfSzFPMEhDNjdGMU9QeUEybkZOMlBTTDMySzRuUFA4dG94VVNab1hFZEk1LVFTTG5pNjN5ZVZtYkNNTWY0SWhla21DTFpGRFNkMS1jRTlXWEtIVjhnNjZ5a0Zzb0FieXNFNHVvN21IX1B6NzdsTU9na24wNzNMUS1Rb3hoUHUxSVBLNkhR?oc=5",
+  "date": "2026-10-15",
+  "snippet": "",
+  "publisher": "Yahoo Finance",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-10-15T11:19:20+00:00",
+  "signal": []
+ },
+ {
+  "id": "454c398ff4376e1d",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "Brothers back 15-minute concussion blood test",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUtld3l3SHlhQ1AzQkhIVUlWbHpscUpXT3Ffb2w1elBraTZGRTZheXpFVkFqVDQwMFdab044RVowc3FldEV5WVpVVndkTTBiUTdRU255dFZtZzN5OE9JR2JaenFyMHVRNlk0RE83bktfNjhYMGZxUk9wS1NmZ0REX05DVVN6YkFJMkVWWmxWeUfSAZABQVVfeXFMTjVLZXd5d0h5YUNQM0JISFVJVmx6bHFKV09xX29sNXpQa2k2RkU2YXl6RVZBalQ0MDBXWm9OOEVaMHNxZXRFeVlaVVZ3ZE0wYlE3UVNueXRWbWczeThPSUdiWnpxcjB1UTZZNERPN25LXzY4WDBmcVJPcEtTZmdERF9OQ1VTemJBSTJFVlpsVnlH?oc=5",
+  "date": "2026-10-15",
+  "snippet": "",
+  "publisher": "The Australian Jewish News",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-10-15T11:19:20+00:00",
+  "signal": [
+   "concussion"
+  ]
+ },
+ {
   "id": "5dc6cdc67628f42e",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -60,6 +116,19 @@
   "publisher": "NR Times",
   "query": "\"traumatic brain injury\" blood test",
   "first_seen": "2026-10-14T11:19:47+00:00",
+  "signal": []
+ },
+ {
+  "id": "9d35fc35939efffa",
+  "competitor": "BrainBox Solutions",
+  "source": "News",
+  "title": "All Things Neuro: NFL CTE Headlines Renew a Simple Question: Has the Brain Been Tested?",
+  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWWxPckUzS0w1QVJDRUVaR1dSZVRDNkFQQ0RkREhEQXR5VlR5ZjRYdzJlRVNRUWV6N01fYWppUkE2WWpDTURFbS1KaHJfV1lpQ28wX25YbDNEWTg3WnJ6OE5wT2NOMWRiRldLQVUwUi1WOHhzLS1udER3SmZtQ3E2Q29XWEZ0UXRPY2hJNy1tWkpaeEFydVE?oc=5",
+  "date": "2026-10-13",
+  "snippet": "",
+  "publisher": "Yahoo Finance",
+  "query": "\"BrainBox Solutions\"",
+  "first_seen": "2026-10-15T11:19:20+00:00",
   "signal": []
  },
  {

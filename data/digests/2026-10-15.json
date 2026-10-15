@@ -1,0 +1,118 @@
+{
+ "date": "2026-10-15",
+ "generated": "2026-10-15T11:21:57+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "454c398ff4376e1d",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "Brothers back 15-minute concussion blood test",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUtld3l3SHlhQ1AzQkhIVUlWbHpscUpXT3Ffb2w1elBraTZGRTZheXpFVkFqVDQwMFdab044RVowc3FldEV5WVpVVndkTTBiUTdRU255dFZtZzN5OE9JR2JaenFyMHVRNlk0RE83bktfNjhYMGZxUk9wS1NmZ0REX05DVVN6YkFJMkVWWmxWeUfSAZABQVVfeXFMTjVLZXd5d0h5YUNQM0JISFVJVmx6bHFKV09xX29sNXpQa2k2RkU2YXl6RVZBalQ0MDBXWm9OOEVaMHNxZXRFeVlaVVZ3ZE0wYlE3UVNueXRWbWczeThPSUdiWnpxcjB1UTZZNERPN25LXzY4WDBmcVJPcEtTZmdERF9OQ1VTemJBSTJFVlpsVnlH?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "The Australian Jewish News",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-10-15T11:19:20+00:00",
+   "signal": [
+    "concussion"
+   ]
+  },
+  {
+   "id": "18cb31d61c1c8ddc",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Brothers back 15-minute concussion blood test",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUtld3l3SHlhQ1AzQkhIVUlWbHpscUpXT3Ffb2w1elBraTZGRTZheXpFVkFqVDQwMFdab044RVowc3FldEV5WVpVVndkTTBiUTdRU255dFZtZzN5OE9JR2JaenFyMHVRNlk0RE83bktfNjhYMGZxUk9wS1NmZ0REX05DVVN6YkFJMkVWWmxWeUfSAZABQVVfeXFMTjVLZXd5d0h5YUNQM0JISFVJVmx6bHFKV09xX29sNXpQa2k2RkU2YXl6RVZBalQ0MDBXWm9OOEVaMHNxZXRFeVlaVVZ3ZE0wYlE3UVNueXRWbWczeThPSUdiWnpxcjB1UTZZNERPN25LXzY4WDBmcVJPcEtTZmdERF9OQ1VTemJBSTJFVlpsVnlH?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "The Australian Jewish News",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-15T11:19:20+00:00",
+   "signal": [
+    "concussion"
+   ]
+  },
+  {
+   "id": "9d35fc35939efffa",
+   "competitor": "BrainBox Solutions",
+   "source": "News",
+   "title": "All Things Neuro: NFL CTE Headlines Renew a Simple Question: Has the Brain Been Tested?",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWWxPckUzS0w1QVJDRUVaR1dSZVRDNkFQQ0RkREhEQXR5VlR5ZjRYdzJlRVNRUWV6N01fYWppUkE2WWpDTURFbS1KaHJfV1lpQ28wX25YbDNEWTg3WnJ6OE5wT2NOMWRiRldLQVUwUi1WOHhzLS1udER3SmZtQ3E2Q29XWEZ0UXRPY2hJNy1tWkpaeEFydVE?oc=5",
+   "date": "2026-10-13",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"BrainBox Solutions\"",
+   "first_seen": "2026-10-15T11:19:20+00:00",
+   "signal": []
+  },
+  {
+   "id": "f5bb4331924afecd",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "Biodesix (BDSX) Stock Sees Fair Value Lift As Analysts Back MRD Growth",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON3lNOVJOa3BfeHBCYVFfSzFPMEhDNjdGMU9QeUEybkZOMlBTTDMySzRuUFA4dG94VVNab1hFZEk1LVFTTG5pNjN5ZVZtYkNNTWY0SWhla21DTFpGRFNkMS1jRTlXWEtIVjhnNjZ5a0Zzb0FieXNFNHVvN21IX1B6NzdsTU9na24wNzNMUS1Rb3hoUHUxSVBLNkhR?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-10-15T11:19:20+00:00",
+   "signal": []
+  },
+  {
+   "id": "00c0d9d86d2f85fe",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "Quidel Corporation (QDEL) stock price, news, quote and history",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3a2ItYlNlQlFnTHFiT2JaNksxTUtiYmpmQkNzMm9KM3dxb1RSd21NWC1ZVG1PRlExcmpjMXpOd2E2VDZWbV9aUFpFUjh1bWE5TEE?oc=5",
+   "date": "2026-10-13",
+   "snippet": "",
+   "publisher": "Yahoo Finance UK",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-14T19:26:58+00:00",
+   "signal": []
+  },
+  {
+   "id": "0330a10d89e9f2db",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "Reasons to Add QuidelOrtho Stock to Your Portfolio for Now",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUUVGMzlQSFlnNUlJY1RyLVJCcEQtOE0xcXFqTUNsMTdWY21lTkdrUG5nNEQtLWpCRmlpOWt4SngybzFaQjVIdk5maTgzT2pkN29YUnJyUDlYWG5kcWwxN3BRVzllUUNwZmJXT0Y2R0p1RnVycmVKUktVV2gybW9EYjMzLVZkakJsaHdNT2hVVjI4b3Z4NGJZekRLSzdqc1FQ?oc=5",
+   "date": "2026-10-14",
+   "snippet": "",
+   "publisher": "Zacks Investment Research",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-14T15:25:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "5dc6cdc67628f42e",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "AI Warns of Dangerous Brain Pressure Hours Before It Strikes, Multicentre Study Confirms",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdURJUXZ4U2UtSW5uNXVNRFdLNURaLVdsc05oU0c5OFhicEZfSVZySnhrY2t3RFQ3MVN5ZDlLU1FwODBTcmpzSGoybUZmYzdtNElSeVBQTmlqLUxJSXZpeVBhRmhKaXItdEtNcEZKRHlfN0hxV181cmJxTm1DYjJoVWREVGtnUW91dHZ2WWM1Q29OcFJ2WjJKTFBrb21KaXpSUFVqOUdtcllqd3pMRmZMSlB3?oc=5",
+   "date": "2026-10-14",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-14T19:26:58+00:00",
+   "signal": []
+  },
+  {
+   "id": "d4b4de129eb8e748",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Experts call for lifelong care after brain and spinal injuries",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYWlOMEpVZ2M0R3FlckhPN0ZBaFFHVlJCenh1YnNKM2lpODI5Ry1nd0VSdWc1cE56dVV1SzRyQmoxYU9TQ2wzQlpCSmdOQVFZdUpJbGd1QUJJXzZEX0d1OFR4WkpSTUE1RGw4WkF1alpIRUlDODROWUt4NjJVYjMyYjY3TU1KdGJGR3lWVXlfcmNuMmlVb0JrYW9KSEhIdTNwOVVza0xlekRuTTQyWEZj?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "News-Medical",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-15T11:19:20+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}
