@@ -11,6 +11,30 @@
   "signal": []
  },
  {
+  "id": "2fcc27c4bc335b9b",
+  "competitor": "Abbott",
+  "source": "Clinical trial",
+  "title": "Evaluation of the Abbott i-STAT TBI Biomarker Test (Terminated)",
+  "url": "https://clinicaltrials.gov/study/NCT06766435",
+  "date": "2026-10-15",
+  "snippet": "NCT06766435 · lead sponsor Icahn School of Medicine at Mount Sinai · updated 2026-10-15",
+  "first_seen": "2026-10-15T15:26:06+00:00",
+  "signal": []
+ },
+ {
+  "id": "75cf1565d3b56b0f",
+  "competitor": "Oculogica",
+  "source": "News",
+  "title": "Oculogica SNAP: The Best Inventions of 2026",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE91UVV1akpoX2JJR2hQc040LTJWSTZRcUowbDNsakxlcUw5MGhmT1NlVU5sSEtLcFJ1aDA4eXFvbjNzZjVtSktoMU4xR3d6SEtFM1AxMHo4VmJEUmlfbjZ3ZmtsZEdxNElkMDN1YWVYWGVjQQ?oc=5",
+  "date": "2026-10-15",
+  "snippet": "",
+  "publisher": "Time Magazine",
+  "query": "\"Oculogica\"",
+  "first_seen": "2026-10-15T15:26:06+00:00",
+  "signal": []
+ },
+ {
   "id": "d4b4de129eb8e748",
   "competitor": "TBI diagnostics market",
   "source": "News",

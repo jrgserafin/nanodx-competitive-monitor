@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-15T11:21:57+00:00",
+ "checked": "2026-10-15T15:28:23+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -300,6 +300,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-15T11:21:57+00:00"
+  },
+  {
+   "id": "e551b087d6c232a6",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "FloatBio Secures 200 Million Won Investment from MYSC… Develops Diagnostic Kit to Screen for Bladder Cancer Using Urine",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nWlctTmhjTFBzTlJ6akVCbi10RGJCZEluTjZnQTVHUWREbjRpVUdlNklNSER3cXlVMUVvbEtWUDFmaDZXZW1jOW4yYXdnLVctZXU0?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "벤처스퀘어",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": true,
+   "first_seen": "2026-10-15T15:28:23+00:00"
   },
   {
    "id": "4258b12fa3a33e89",
