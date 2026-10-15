@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-15T15:28:23+00:00",
+ "checked": "2026-10-15T19:27:46+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -313,6 +313,32 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": true,
    "first_seen": "2026-10-15T15:28:23+00:00"
+  },
+  {
+   "id": "4a04c628b7c79a82",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Bladder cancer diagnostics startup floatbio raises $148K from MYSC",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR0JHRmF2NGlfZExIN2RQLTJwc1lqRVVTdktNWnE3SkJhU3R5X3NBZkF1WnR2cE9LMnA2UHRoMjc5N3ZVUTAxbzRURGJUXzN1eGs2QTVQY290N2VoYVZCR3N4Wk1YYUdTWmlLT3NNc1BINXc4QWdrUTQ3RnowOF9LOGhsV3g5QkdndXRxY1JUVWZiVVRZcHNJOWlnejZPOEpF?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "Dealroom",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": true,
+   "first_seen": "2026-10-15T19:27:46+00:00"
+  },
+  {
+   "id": "a1b12067cdff5aab",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Float Bio Raises USD 140K for Point-of-Care Bladder Cancer Diagnostic Kit",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9vMFJsVnowTWxqbXhRZTZPWmJUOF81emlDelBSbHR2QkVHbzNRVWlwYmwwMzgyOU9wZGRmQWJkMUVLS0pBenExZmxxa1p3eDdkZE1r?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "Wowtale",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-15T19:27:46+00:00"
   },
   {
    "id": "4258b12fa3a33e89",
