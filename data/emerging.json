@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-16T15:23:30+00:00",
+ "checked": "2026-10-16T19:23:32+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -339,6 +339,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-10-15T19:27:46+00:00"
+  },
+  {
+   "id": "27009db7d9cff458",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "BioTools Innovator Announces the 2026 Grand Prize and Best Video Winners at the Annual Capstone Event",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcV83WWs4N2tva184bmF6NkxoODYxZXFJOWwwLUNEbHBsdHZLeDY1ZGxudmZEbWpISDRHbEdXRVY3cDktXzV6VlZFMVU1MFFKdjgzVFlHNFVqbUlyV1p1LVFvUFY0UmViZkU3WFFuQ1hxdko3Y1lxVGhtQXNLMVUzd09yd1JsYlljUU9tYlFRWlFmbnV6UlhyeWpJQnVpR1k0U0RLQlNiQzZvbHNyTldkWlR2S3prT1BpUnhEOXBzeHA?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "01net",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-16T19:23:32+00:00"
   },
   {
    "id": "4258b12fa3a33e89",

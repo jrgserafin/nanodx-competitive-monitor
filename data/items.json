@@ -22,6 +22,30 @@
   "signal": []
  },
  {
+  "id": "0cd00ba55e4be9b7",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "Blood Biomarkers Reveal Brain Injury Clues in Maladjusted Newborn Foals",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVFFxNk5NeTFLOWpjdXZlbW1nbG1PWUFOWHZrV2dGMkF0cWg3d3ZyMjc1MHl2Qk52UDJjbUxYNm5LalczaUlRSFlPdlJMM2Jmb2NHU085c2M5R2lPZTl3M2R3ZGNYRnhTRWlkczdCZHpsN1pSMkl2QlJTOGJad0xKVVdNbE91akszNWhhdHRXSWlNbXBZa3BzN0FFbjU?oc=5",
+  "date": "2026-10-16",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-10-16T19:21:10+00:00",
+  "signal": []
+ },
+ {
+  "id": "277552ecd13e73c2",
+  "competitor": "Point-of-care & capillary sampling",
+  "source": "Publication",
+  "title": "Alzheimer's Disease Biomarkers Measured by Capillary Blood Collection Versus Venous Plasma and Cerebrospinal Fluid.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42885968/",
+  "date": "2026-10-16",
+  "snippet": "Annals of clinical and translational neurology. Ho S, Shen Z, Lewis A et al.",
+  "first_seen": "2026-10-16T19:21:10+00:00",
+  "signal": []
+ },
+ {
   "id": "6a348d7556fbc63f",
   "competitor": "Lab reimbursement (CMS)",
   "source": "News",
