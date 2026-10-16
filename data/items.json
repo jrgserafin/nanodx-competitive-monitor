@@ -22,6 +22,19 @@
   "signal": []
  },
  {
+  "id": "6a348d7556fbc63f",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "Biomerica Reports First Quarter Fiscal 2027 Financial Results",
+  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOV0xYa21jVnhBUklvZkdqVVdIYWRQT2lDamRlRHpRVXdvTEVjdks0VlloUEZCSjh1TzI0a1JDTnJ2M1VyTWxubDZMZW5uYU9MUlhVcTg4bmdkRVZVbkw1aWV6OGUzTnQzZHhwSC1yME4xQzU3dHVWSVktVHNGZVl5QXBib3psR0ZOUndxVVQ4OUFRWkhTTmJnNlR0amkxLThBdHB5N0ZqQ2NrTW1tckxmdS0tcHh1cFg5YlN5enNxQVV2YlF1clpBdVhxNWw1Tk5JZ19lLTN30gHWAUFVX3lxTE5XTFhrbWNWeEFSSW9mR2pVV0hhZFBPaUNqZGVEelFVd29MRWN2SzRWWWhQRkJKOHVPMjRrUkNOcnYzVXJNbG5sNkxlbm5hT0xSWFVxODhuZ2RFVlVuTDVpZXo4ZTNOdDNkeHBILXIwTjFDNTd0dVZJWS1Uc0ZlWXlBcGJvemxHRk5Sd3FVVDg5QVFaSFNOYmc2VHRqaTEtOEF0cHk3RmpDY2tNbW1yTGZ1LS1weHVwWDliU3l6c3FBVXZiUXVyWkF1WHE1bDVOTklnX2UtM3c?oc=5",
+  "date": "2026-10-16",
+  "snippet": "",
+  "publisher": "The Manila Times",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-10-16T15:21:04+00:00",
+  "signal": []
+ },
+ {
   "id": "1a71c16de00f1044",
   "competitor": "Quanterix",
   "source": "News",
@@ -515,6 +528,22 @@
   "query": "CMS \"clinical laboratory fee schedule\"",
   "first_seen": "2026-10-08T15:41:11+00:00",
   "signal": []
+ },
+ {
+  "id": "cef66e8c1f78e49c",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix partner receives China approval for neurology tests",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTjlIWFQzREhud2t2YTAzR1VwTmhhVmI3Um9pdjlPaUFrSmZwN0swYldJal9ZdVotaFV3S25NYWJKMUZsaHVBU0hteEZmaTU4dE1icWRIWkRld3FUVGlwOVNCak1TYUZQbDQxUkZCV01IU2dYc1NYaWRpb2plLUF2NXlScWFYZTZwaGlURzFMZVVxeGVOWENreFVxOU91R2toamFDTHhKWUxVWURKQmhnRF9KQ2EzMWV2YlE?oc=5",
+  "date": "2026-10-07",
+  "snippet": "",
+  "publisher": "Investing.com",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-10-16T15:21:04+00:00",
+  "signal": [
+   "approval"
+  ],
+  "alert": true
  },
  {
   "id": "932fcf67eed5aa51",
