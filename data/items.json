@@ -1,5 +1,16 @@
 [
  {
+  "id": "19212242fa904846",
+  "competitor": "TBI epidemiology & ED burden",
+  "source": "Publication",
+  "title": "Fighting for safety: head and spine injuries in martial arts presenting to U.S. emergency departments.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42759081/",
+  "date": "2026-12-01",
+  "snippet": "Journal of clinical neuroscience : official journal of the Neurosurgical Society of Australasia. Rabon W, Tirmizi Z, Carnovale B et al.",
+  "first_seen": "2026-10-16T11:18:39+00:00",
+  "signal": []
+ },
+ {
   "id": "98acc0bbf12d260a",
   "competitor": "TBI epidemiology & ED burden",
   "source": "Publication",
@@ -8,6 +19,64 @@
   "date": "2026-11-10",
   "snippet": "Neurology. Wang AY, Wood AJ, Zhang C et al.",
   "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "1a71c16de00f1044",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "TD Cowen raises target to USD 3.50 for Quanterix stock",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLWd3QW1LSlJMZW9IWWc2blNCdnV2YnZGSDdVQmVBanlrWnJYOHhjMmpKdjZjUnJEZFRfYWJTSDFOcW9qbGpLeDZ3SVRVR0otejlpeVJWUkd2S3ZqbXBiRUVEMUY5SGpISUNhNTF1c1luQU5CRUUyREd4RFhyMkNiazk1MGNQSU95VzJqWHQwTlJQWEZzOWJlSVpJWXlTdTE1STJmTWVyUS1oTi1uSGk5S1J5NA?oc=5",
+  "date": "2026-10-16",
+  "snippet": "",
+  "publisher": "ad-hoc-news.de",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-10-16T11:18:39+00:00",
+  "signal": [
+   "raises"
+  ]
+ },
+ {
+  "id": "eb9d3ceae8f293c8",
+  "competitor": "Medicortex",
+  "source": "News",
+  "title": "Medicortex also aims beyond concussions",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmkza0k5VktDbjVnNnVya0JzRXRmVmRtaGtEQVNmSlVaMkE0eV92R3AwZ2hjQmhKQ3RwOTVkdWd4Tm5xY3dNc1VNWVF6VndJOTRRTnhMYXd6OGx1a0FiS3Fvelc4eDJFR3M1clo5V3VzY2g5QnA4TTdRa21fOWZGcG9NNA?oc=5",
+  "date": "2026-10-16",
+  "snippet": "",
+  "publisher": "Biostock",
+  "query": "\"Medicortex\"",
+  "first_seen": "2026-10-16T11:18:39+00:00",
+  "signal": [
+   "concussion"
+  ]
+ },
+ {
+  "id": "68efe21f22c67917",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Medicortex also aims beyond concussions",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmkza0k5VktDbjVnNnVya0JzRXRmVmRtaGtEQVNmSlVaMkE0eV92R3AwZ2hjQmhKQ3RwOTVkdWd4Tm5xY3dNc1VNWVF6VndJOTRRTnhMYXd6OGx1a0FiS3Fvelc4eDJFR3M1clo5V3VzY2g5QnA4TTdRa21fOWZGcG9NNA?oc=5",
+  "date": "2026-10-16",
+  "snippet": "",
+  "publisher": "Biostock",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-16T11:18:39+00:00",
+  "signal": [
+   "concussion"
+  ]
+ },
+ {
+  "id": "bb747867b4acbffc",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "Medicare Plans Lab Payment Changes for 2027: What Patients Need to Know",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCWEVtYzlsa2pLbUZFRlFFWG9yeml1Mk41M0ZGbnREb29FNzdNY05IbURsQ290MXVWaGlRVlJaZjNsSjdrMmlVU0gxbFdWYmVGUmh4eDltWkRPWW1tel8yQm1INVkzTXVncnBOSXRwdHNYdW1DLXc?oc=5",
+  "date": "2026-10-16",
+  "snippet": "",
+  "publisher": "Low Income Relief",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-10-16T11:18:39+00:00",
   "signal": []
  },
  {
@@ -1061,6 +1130,21 @@
   "query": "\"Quanterix\"",
   "first_seen": "2026-10-08T13:40:13+00:00",
   "signal": []
+ },
+ {
+  "id": "f996b5f3b69b77bc",
+  "competitor": "Abbott",
+  "source": "Publication",
+  "title": "Prehospital Point-of-Care GFAP for Detection of Intracranial Hemorrhage in Acute Nontraumatic Coma.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42879151/",
+  "date": "2026-10-01",
+  "snippet": "JAMA network open. Price J, Lachowycz K, Palti G et al.",
+  "stale": true,
+  "first_seen": "2026-10-16T11:18:39+00:00",
+  "signal": [
+   "point-of-care",
+   "GFAP"
+  ]
  },
  {
   "id": "7adc6e01f5fe603c",
