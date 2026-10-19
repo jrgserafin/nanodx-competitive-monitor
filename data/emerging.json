@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-19T19:29:21+00:00",
+ "checked": "2026-10-19T23:23:46+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -404,6 +404,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-19T11:23:40+00:00"
+  },
+  {
+   "id": "0c66cfab4079d22c",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Medicortex also aims beyond concussions",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlNnV3NlSHNhcXJNc1VJSDBvMkQ2MFpGTjVhdmFDUmlZaHNJZjVBMWYtSVFwUjdrLVFiV2pFeE55alVRa0U4bEhwMzFLaGZJTFJlOUpzV2REenNNYVY1cEIwRC02ZUwxaWsteVI4UGQtWkQ3WndKcS05cTJfd25qZ3BkRlZWUGZN?oc=5",
+   "date": "2026-10-16",
+   "snippet": "",
+   "publisher": "Biostock",
+   "query": "\"rapid test\" \"brain injury\"",
+   "tbi": true,
+   "first_seen": "2026-10-19T23:23:46+00:00"
   },
   {
    "id": "33086d8d4b06e798",
