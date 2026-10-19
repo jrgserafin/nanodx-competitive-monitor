@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-19T15:29:27+00:00",
+ "checked": "2026-10-19T19:29:21+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -328,6 +328,19 @@
    "first_seen": "2026-10-19T11:23:40+00:00"
   },
   {
+   "id": "26d58acbd5cbbfdd",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "FDA Grants 510(k) Clearances to Beckman Coulter, Abbott, BioMérieux, Others in September",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWEZZWFZWenFwSnFOa2xjTEN5QlhRYUJkemNybmFQYXM3X2ZDaE9EMWxZbkJuN3c1YkZ6V3liQndiSWRnYmFWX3lxdFV4WVZaTTJJT1pwb3ZCVFdla3RQYlZtMmdfUGg1cmxfdkFHdk41YW9uODFLaV9SZnpPYm9NcjI4THp0R3FZdnRLZ2h0LVhhdVJH?oc=5",
+   "date": "2026-10-19",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-19T19:29:21+00:00"
+  },
+  {
    "id": "7f1d429a9c10ae82",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -365,6 +378,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": true,
    "first_seen": "2026-10-19T11:23:40+00:00"
+  },
+  {
+   "id": "adbe45cf25ad708a",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Sepsis Diagnostics Face a Long Road From Biomarker Discovery to Certified Bedside Tests",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYnB3M0Vta3k3al8xaW5xaGhwMVVVU0hfWWJaZnNWaE9WLWxPQUxjLXhvcUZxVlV5TzhWZ0wtWHRNRV9PZFNSX011SURHRnZvOE5yaWh3dC1JY0hEd09uQ2pjdU5ER19OUFZqQ2dJazlZY2RqdU1RMnlwRnFFc0g4M1hURzlBNUJQd3pRWEdGUzRzc0YwN2lNVWVtaGx4RU10Vl9pMnQ3SkRoX3pUZ2QzZk5n?oc=5",
+   "date": "2026-10-17",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-19T19:29:21+00:00"
   },
   {
    "id": "d9ca39db336b85e1",
