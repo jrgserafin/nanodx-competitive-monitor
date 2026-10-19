@@ -22,6 +22,83 @@
   "signal": []
  },
  {
+  "id": "483f8709dc6aad3b",
+  "competitor": "Medicortex",
+  "source": "News",
+  "title": "Medicortex International publishes company presentation",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ0hCYUFVNHhEbnlkejdyN2VKaXVucnN6YzFMMlJ5QjJpTVpsMHJtbjJwZEdMNnppZnlDNFRDbFlyVFdjMmEwbUd5UnBpTjRNQWlMejU2b21jcjRHSDRSc1RES3Z5aUR5eG5RWlVubEh4ZUloOG1lSmhJRXp5Nk5sMUVCZ3Azajl6UXZHTUxMdmNnci1uNEkwODF3SF9GcHNvczRsQW9nWGt4ZG9WNUJqMmM5X2FmWS1zSURPdDJn?oc=5",
+  "date": "2026-10-19",
+  "snippet": "",
+  "publisher": "TradingView",
+  "query": "\"Medicortex\"",
+  "first_seen": "2026-10-19T11:21:08+00:00",
+  "signal": []
+ },
+ {
+  "id": "a32be650f6f56a83",
+  "competitor": "Medicortex",
+  "source": "Website",
+  "title": "BioStock published about Medicortex",
+  "url": "https://medicortex.fi/2026/10/19/biostock-published-about-medicortex/",
+  "date": "2026-10-19",
+  "snippet": "New on https://www.medicortex.fi",
+  "page": "https://www.medicortex.fi",
+  "first_seen": "2026-10-19T11:21:08+00:00",
+  "signal": []
+ },
+ {
+  "id": "42513429a7003d60",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Admission Lactate Adds Little to Prognosis in Severe Traumatic Brain Injury",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbDZOZ3FzM1NheUM1Vk5RQ0xCTkE5RlBvQnZPWG56VXpNVEFRTkdJVTlRdkF2SEEza3gxU1hFMXRWWXd6S0puYllpd001VjZYbVBULXFBOEFiTGtjTGpOWlRFZ05TY2FyamFTYkJyZkU4X1M2TmJSa3VvZXJ6cmowNmd5UVJKTy0xUWVlRE1Ea3B4Q3U0ODhsdTRPZWZUaGtBbUE?oc=5",
+  "date": "2026-10-19",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-19T11:21:08+00:00",
+  "signal": []
+ },
+ {
+  "id": "edf35c3bf15bc10a",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Form 4 Quanterix Corp: Michael Francis Miller (CTO) For: 15 October",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcmhGMDdEeDN6Y2E4RWhXYUxTQVVOSzloNm5GUWhRZDl4elI1WXFZblV2a2ZIUjhsdW51NUd1WGVZeWctWExYdkFFcmNRVEVVNU5EU2NxSHRvLVMyaWVCYXF6dEdvTUFlSk9zSk5UWUZQMmdKZjhobUp5YTRHV1M2RVg3LWxEOFJFa21YSnY0aHBTZkkzTDVqdGdlUXRNQXlPd1VXVkI2bnpEYnQ1dVJhYmNXMkI5SVJDbmFNSE9YQ05sQQ?oc=5",
+  "date": "2026-10-17",
+  "snippet": "",
+  "publisher": "Investing.com UK",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-10-19T11:21:08+00:00",
+  "signal": []
+ },
+ {
+  "id": "f2fdcb8df160093d",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Brain Oxygen and EEG Monitors Predict Outcomes in Children With Severe Head Injuries",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTXl4Z2I2cUl6bm5zc2FtRG5vRXhIOU5RVXNSQmdyckhWYUFzX1hUM3JNdEFFaUtjM0dTZ2JnbjJOWF9jT2YwTEZ3Z2JEZW9uOWl6SW1NaGNUdTF0Qm9TX1JieDM5ano4WmVpZXcwYjFSMjZKbGx3SVRiZDVGNzBxblhIYjc3S296V0hYY1hOWUhPSjluVmh6VWtDVHYyekE5WnhaeE92NXQ2TEhNekE?oc=5",
+  "date": "2026-10-17",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-19T11:21:08+00:00",
+  "signal": []
+ },
+ {
+  "id": "aa4f81c1a533d2d3",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Dynamic Brain Imaging Meets EEG Spectral Analysis to Catch Hidden Early Brain Injury",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeUFYa29WNGxnbjd5Z1Zyalg2XzJXanBRTldtS1gtTmZDUWZNeUFwR3NiV2E3VVlHeXp0WDJoWEJYeHU2RFJuSjVNQnZwbnl6ZFNuUzlKcW1QYnhXcEt5V2hGdnQwQWlqYU9iMHJaTkNkb09SMENQUTFrUzBQcUdFYURwSnp3NHBUak9CZnkyQ1p2M2l3Sm5MWjdrNy1VYjFpZHVCaWhXS2NVSjRncHc?oc=5",
+  "date": "2026-10-17",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-19T11:21:08+00:00",
+  "signal": []
+ },
+ {
   "id": "b5821b9673af5982",
   "competitor": "Quanterix",
   "source": "News",
@@ -509,6 +586,21 @@
   "publisher": "Psychology Today",
   "query": "\"traumatic brain injury\" blood test",
   "first_seen": "2026-10-09T16:23:21+00:00",
+  "signal": [
+   "concussion"
+  ]
+ },
+ {
+  "id": "3d9190110f01a7b5",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Psilocybin May Help the Brain Recover From Concussion, New Study Shows",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wb1BObURDQVAybzdMUFhYN2JpNTk0amlDM1RVVkRUQ2ZFVjNRVXBpWGYxNGxBSnNTb1k0SmxJWlhkRjJWcHE3Ynowd1BEWkRTaDRER1JMYzdPM3AzbWhYalRjM2FxajdraGItZDVVaWM?oc=5",
+  "date": "2026-10-08",
+  "snippet": "",
+  "publisher": "Carleton University",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-19T11:21:08+00:00",
   "signal": [
    "concussion"
   ]

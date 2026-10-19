@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-16T23:18:40+00:00",
+ "checked": "2026-10-19T11:23:40+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -288,6 +288,97 @@
   }
  ],
  "news": [
+  {
+   "id": "5b12c3f0141affac",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "ICMR Selects Seven Indian Institutions to Develop Medical Devices & Diagnostic Technologies",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRG51OFF1VFlweEE0OEg1THpkRXd0OWxXRUpnVm9IMmpsUFpRa2xjU1VGOHBJUkg3bjVQUVZKNElHY0tJa0wtVXpXZFpMWWhIY01OSks5V1p2NjVpVnY1d29PYXVUanlDSkFMdTBtbXdwX2VZS3JSWXFEVDI2S0dqZmNBcXJKQW05TFc2TG5VNWM1X1pEMFo5TWFYMDZDQVRaQjNFTW1RY01sMjRuVjBoSjNGSVI1OW5xSU5Kd0M1TGs?oc=5",
+   "date": "2026-10-19",
+   "snippet": "",
+   "publisher": "Digital Health News",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-19T11:23:40+00:00"
+  },
+  {
+   "id": "d51ad0f551a78bc1",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "SD Biosensor lists TB test globally and reports growth for SD Biosensor stock",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbWk3RUpUUTgxbTJzTFk4NE9NdlYzWThPSEJ1TTd6RUNxMUtsSFZrMTRJczlNVGs5aVhVclkyaUgtdElYSURpRGZOazFiR1RLZW9EQy03NkExZGFFdWduM216d2I5Z3JVa0dEcm9LRFNXcE8zZmI5UDVFNWkzV0UxSmVwRDN0MDFpNHllWHFiVEY1cWt4TlI0NGNQcE9zYjVQNHNxZlA5UWRlYmQtTFZyMXAwTV9qRGRYMmlqRlZwU21mQXFmRFpnMVFkVHdtNW15TWc?oc=5",
+   "date": "2026-10-19",
+   "snippet": "",
+   "publisher": "ad-hoc-news.de",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-19T11:23:40+00:00"
+  },
+  {
+   "id": "03207ee41a432213",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Medicortex International publishes company presentation",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ0hCYUFVNHhEbnlkejdyN2VKaXVucnN6YzFMMlJ5QjJpTVpsMHJtbjJwZEdMNnppZnlDNFRDbFlyVFdjMmEwbUd5UnBpTjRNQWlMejU2b21jcjRHSDRSc1RES3Z5aUR5eG5RWlVubEh4ZUloOG1lSmhJRXp5Nk5sMUVCZ3Azajl6UXZHTUxMdmNnci1uNEkwODF3SF9GcHNvczRsQW9nWGt4ZG9WNUJqMmM5X2FmWS1zSURPdDJn?oc=5",
+   "date": "2026-10-19",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"rapid test\" \"brain injury\"",
+   "tbi": false,
+   "first_seen": "2026-10-19T11:23:40+00:00"
+  },
+  {
+   "id": "7f1d429a9c10ae82",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "[Korean Startup Weekly News #140] Wearable Robotics Powers Korea’s Deep Tech Rally",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Dcjk2OTZucTJHUURZbDN5MWxHU2tHS3d2RmlmNUVvRGdUVE1aLXFxTUQ3eVVWLW52T0dxd3gwVWRQZFhmWGVfdG9lMFV0T2J1cng0?oc=5",
+   "date": "2026-10-18",
+   "snippet": "",
+   "publisher": "Wowtale",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-19T11:23:40+00:00"
+  },
+  {
+   "id": "0a9ee160595d1c77",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Men are using a button to track their testosterone at home. It's part of a booming new health market.",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUVdKWGwyVmJqVWVjQ25kelY0MkFGbnhyOG1tcTd6V1NCdldEa1B0elFaSV9jNEMtVjhtbUpIb2xLWWp2RzYwaVZBYzdoQlhnaU1NcWk3QnZmcldUdHhTcXo3azNQTWFJeTdGekFMQU9VVlhEYWs3Q2liWktUcXVDcFdoOFhXcW1FN2sw?oc=5",
+   "date": "2026-10-17",
+   "snippet": "",
+   "publisher": "Business Insider",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-19T11:23:40+00:00"
+  },
+  {
+   "id": "35c88ce8e318e9f7",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "DNA Nanosensors Paired With AI Aim to Catch Brain Inflammation Early",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOc3dIWk56b3FwUHpQRjdBMk9tLXkyMVI2S3hXbDNvaDdYSUVkYTUwcFYxb1BzX3FiODRhSGNnMzVwZ3BlcXI2M28xNkZESHdHaE5CdUFRU0VEaU5hTWhRVUgxcnJVYlY2SnBIUU0zcFZlam9Ka0Q1VGF3bjlRYWdRMnlwNWhGUlBnTzJkMHh4di1ISHpvNzJ4OQ?oc=5",
+   "date": "2026-10-17",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": true,
+   "first_seen": "2026-10-19T11:23:40+00:00"
+  },
+  {
+   "id": "d9ca39db336b85e1",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "CurveBeam AI to Host Investor Webinar on 21 October 2026 Covering FDA Clearance and China NMPA Approval",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQeEwzdVNBT2pPOVRtYXMtOE5MaTZVY2hRVnNYWmdUOUZsc1ZpMWUzN196VUhkY0hJVDl5TVloNE53eFlpVDJSWlA2UmNQOEh4NWtGLUpwaC1MbzFpZDVRQUxJNi1iN0FNUlRNV01yeTVZX0xiVlRVZUg5TEY2dUtfeUFQR0c5bXUzQ0hBdWtLdF8zZ3JReTVpQjgzWmNQRjVWV0hLc0hxV2htYTBxMDdrRi1VSDU3ZmJ2T2R4YS1NblVvQUFoNUQySHJQTXdHa2FMZThKUFZXTlBUdmFiZXc?oc=5",
+   "date": "2026-10-16",
+   "snippet": "",
+   "publisher": "Kalkine",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-19T11:23:40+00:00"
+  },
   {
    "id": "33086d8d4b06e798",
    "competitor": "Emerging (POC)",

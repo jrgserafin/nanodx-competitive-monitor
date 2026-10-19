@@ -1,0 +1,437 @@
+{
+ "week": "2026-W43",
+ "start": "2026-10-12",
+ "end": "2026-10-19",
+ "generated": "2026-10-19T11:23:58+00:00",
+ "counts": [
+  {
+   "name": "Abbott",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "bioMérieux",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainScope",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "InfraScan",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "BrainBox Solutions",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "EzDiatech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "STATA DX",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "GLIA Diagnostics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Quanterix",
+   "this_week": 4,
+   "last_week": 14,
+   "signal": 2
+  },
+  {
+   "name": "Genalyte",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Oculogica",
+   "this_week": 2,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Sense Neuro Diagnostics",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Medicortex",
+   "this_week": 4,
+   "last_week": 0,
+   "signal": 1
+  },
+  {
+   "name": "Roche",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "AeHealth",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Wondfo",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "ACON",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Hotgen",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "QuidelOrtho",
+   "this_week": 5,
+   "last_week": 13,
+   "signal": 0
+  },
+  {
+   "name": "Boditech Med",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Getein Biotech",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "TBI diagnostics market",
+   "this_week": 8,
+   "last_week": 7,
+   "signal": 2
+  },
+  {
+   "name": "Lab reimbursement (CMS)",
+   "this_week": 4,
+   "last_week": 4,
+   "signal": 0
+  },
+  {
+   "name": "TBI biomarker evidence",
+   "this_week": 2,
+   "last_week": 3,
+   "signal": 1
+  },
+  {
+   "name": "Point-of-care & capillary sampling",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI epidemiology & ED burden",
+   "this_week": 2,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "CT avoidance & health economics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI clinical guidelines",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI test reimbursement (CPT 0570U)",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Military TBI screening",
+   "this_week": 0,
+   "last_week": 2,
+   "signal": 0
+  },
+  {
+   "name": "EMS & prehospital TBI",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "International TBI tests",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  }
+ ],
+ "top": [
+  {
+   "id": "1a71c16de00f1044",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "TD Cowen raises target to USD 3.50 for Quanterix stock",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLWd3QW1LSlJMZW9IWWc2blNCdnV2YnZGSDdVQmVBanlrWnJYOHhjMmpKdjZjUnJEZFRfYWJTSDFOcW9qbGpLeDZ3SVRVR0otejlpeVJWUkd2S3ZqbXBiRUVEMUY5SGpISUNhNTF1c1luQU5CRUUyREd4RFhyMkNiazk1MGNQSU95VzJqWHQwTlJQWEZzOWJlSVpJWXlTdTE1STJmTWVyUS1oTi1uSGk5S1J5NA?oc=5",
+   "date": "2026-10-16",
+   "snippet": "",
+   "publisher": "ad-hoc-news.de",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-16T11:18:39+00:00",
+   "signal": [
+    "raises"
+   ]
+  },
+  {
+   "id": "eb9d3ceae8f293c8",
+   "competitor": "Medicortex",
+   "source": "News",
+   "title": "Medicortex also aims beyond concussions",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmkza0k5VktDbjVnNnVya0JzRXRmVmRtaGtEQVNmSlVaMkE0eV92R3AwZ2hjQmhKQ3RwOTVkdWd4Tm5xY3dNc1VNWVF6VndJOTRRTnhMYXd6OGx1a0FiS3Fvelc4eDJFR3M1clo5V3VzY2g5QnA4TTdRa21fOWZGcG9NNA?oc=5",
+   "date": "2026-10-16",
+   "snippet": "",
+   "publisher": "Biostock",
+   "query": "\"Medicortex\"",
+   "first_seen": "2026-10-16T11:18:39+00:00",
+   "signal": [
+    "concussion"
+   ]
+  },
+  {
+   "id": "68efe21f22c67917",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Medicortex also aims beyond concussions",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmkza0k5VktDbjVnNnVya0JzRXRmVmRtaGtEQVNmSlVaMkE0eV92R3AwZ2hjQmhKQ3RwOTVkdWd4Tm5xY3dNc1VNWVF6VndJOTRRTnhMYXd6OGx1a0FiS3Fvelc4eDJFR3M1clo5V3VzY2g5QnA4TTdRa21fOWZGcG9NNA?oc=5",
+   "date": "2026-10-16",
+   "snippet": "",
+   "publisher": "Biostock",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-16T11:18:39+00:00",
+   "signal": [
+    "concussion"
+   ]
+  },
+  {
+   "id": "18cb31d61c1c8ddc",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Brothers back 15-minute concussion blood test",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUtld3l3SHlhQ1AzQkhIVUlWbHpscUpXT3Ffb2w1elBraTZGRTZheXpFVkFqVDQwMFdab044RVowc3FldEV5WVpVVndkTTBiUTdRU255dFZtZzN5OE9JR2JaenFyMHVRNlk0RE83bktfNjhYMGZxUk9wS1NmZ0REX05DVVN6YkFJMkVWWmxWeUfSAZABQVVfeXFMTjVLZXd5d0h5YUNQM0JISFVJVmx6bHFKV09xX29sNXpQa2k2RkU2YXl6RVZBalQ0MDBXWm9OOEVaMHNxZXRFeVlaVVZ3ZE0wYlE3UVNueXRWbWczeThPSUdiWnpxcjB1UTZZNERPN25LXzY4WDBmcVJPcEtTZmdERF9OQ1VTemJBSTJFVlpsVnlH?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "The Australian Jewish News",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-15T11:19:20+00:00",
+   "signal": [
+    "concussion"
+   ]
+  },
+  {
+   "id": "454c398ff4376e1d",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "Brothers back 15-minute concussion blood test",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUtld3l3SHlhQ1AzQkhIVUlWbHpscUpXT3Ffb2w1elBraTZGRTZheXpFVkFqVDQwMFdab044RVowc3FldEV5WVpVVndkTTBiUTdRU255dFZtZzN5OE9JR2JaenFyMHVRNlk0RE83bktfNjhYMGZxUk9wS1NmZ0REX05DVVN6YkFJMkVWWmxWeUfSAZABQVVfeXFMTjVLZXd5d0h5YUNQM0JISFVJVmx6bHFKV09xX29sNXpQa2k2RkU2YXl6RVZBalQ0MDBXWm9OOEVaMHNxZXRFeVlaVVZ3ZE0wYlE3UVNueXRWbWczeThPSUdiWnpxcjB1UTZZNERPN25LXzY4WDBmcVJPcEtTZmdERF9OQ1VTemJBSTJFVlpsVnlH?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "The Australian Jewish News",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-10-15T11:19:20+00:00",
+   "signal": [
+    "concussion"
+   ]
+  },
+  {
+   "id": "8d0cbe5a564823b5",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "TD Cowen Maintains Quanterix(QTRX.US) With Hold Rating, Raises Target Price to $3.5",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMmRXY2VNSk1CajBncmo2SFBpXzJab3NIOVVnakxfNjBLbXEwTktvT1pSRkJDN3ZocDh5V01FRFI2bjZhTllqS3RYeEFFQ1owbXhXQ3Q5XzBHUmpVSlR2WmtGbnM2cmZBU1lDQXQ1cExQXzB5enZWQlNhVHBQUXpNeGRXZ0J6Z2dJWkVhN0RsOUpZVzR5MW5md2JPcU05WG0tQ0xVN2lOemV4R0o3T0hv?oc=5",
+   "date": "2026-10-13",
+   "snippet": "",
+   "publisher": "Moomoo",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-13T23:17:02+00:00",
+   "signal": [
+    "raises"
+   ]
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false,
+ "cites": [
+  {
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLWd3QW1LSlJMZW9IWWc2blNCdnV2YnZGSDdVQmVBanlrWnJYOHhjMmpKdjZjUnJEZFRfYWJTSDFOcW9qbGpLeDZ3SVRVR0otejlpeVJWUkd2S3ZqbXBiRUVEMUY5SGpISUNhNTF1c1luQU5CRUUyREd4RFhyMkNiazk1MGNQSU95VzJqWHQwTlJQWEZzOWJlSVpJWXlTdTE1STJmTWVyUS1oTi1uSGk5S1J5NA?oc=5",
+   "title": "TD Cowen raises target to USD 3.50 for Quanterix stock"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmkza0k5VktDbjVnNnVya0JzRXRmVmRtaGtEQVNmSlVaMkE0eV92R3AwZ2hjQmhKQ3RwOTVkdWd4Tm5xY3dNc1VNWVF6VndJOTRRTnhMYXd6OGx1a0FiS3Fvelc4eDJFR3M1clo5V3VzY2g5QnA4TTdRa21fOWZGcG9NNA?oc=5",
+   "title": "Medicortex also aims beyond concussions"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSmkza0k5VktDbjVnNnVya0JzRXRmVmRtaGtEQVNmSlVaMkE0eV92R3AwZ2hjQmhKQ3RwOTVkdWd4Tm5xY3dNc1VNWVF6VndJOTRRTnhMYXd6OGx1a0FiS3Fvelc4eDJFR3M1clo5V3VzY2g5QnA4TTdRa21fOWZGcG9NNA?oc=5",
+   "title": "Medicortex also aims beyond concussions"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUtld3l3SHlhQ1AzQkhIVUlWbHpscUpXT3Ffb2w1elBraTZGRTZheXpFVkFqVDQwMFdab044RVowc3FldEV5WVpVVndkTTBiUTdRU255dFZtZzN5OE9JR2JaenFyMHVRNlk0RE83bktfNjhYMGZxUk9wS1NmZ0REX05DVVN6YkFJMkVWWmxWeUfSAZABQVVfeXFMTjVLZXd5d0h5YUNQM0JISFVJVmx6bHFKV09xX29sNXpQa2k2RkU2YXl6RVZBalQ0MDBXWm9OOEVaMHNxZXRFeVlaVVZ3ZE0wYlE3UVNueXRWbWczeThPSUdiWnpxcjB1UTZZNERPN25LXzY4WDBmcVJPcEtTZmdERF9OQ1VTemJBSTJFVlpsVnlH?oc=5",
+   "title": "Brothers back 15-minute concussion blood test"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUtld3l3SHlhQ1AzQkhIVUlWbHpscUpXT3Ffb2w1elBraTZGRTZheXpFVkFqVDQwMFdab044RVowc3FldEV5WVpVVndkTTBiUTdRU255dFZtZzN5OE9JR2JaenFyMHVRNlk0RE83bktfNjhYMGZxUk9wS1NmZ0REX05DVVN6YkFJMkVWWmxWeUfSAZABQVVfeXFMTjVLZXd5d0h5YUNQM0JISFVJVmx6bHFKV09xX29sNXpQa2k2RkU2YXl6RVZBalQ0MDBXWm9OOEVaMHNxZXRFeVlaVVZ3ZE0wYlE3UVNueXRWbWczeThPSUdiWnpxcjB1UTZZNERPN25LXzY4WDBmcVJPcEtTZmdERF9OQ1VTemJBSTJFVlpsVnlH?oc=5",
+   "title": "Brothers back 15-minute concussion blood test"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMmRXY2VNSk1CajBncmo2SFBpXzJab3NIOVVnakxfNjBLbXEwTktvT1pSRkJDN3ZocDh5V01FRFI2bjZhTllqS3RYeEFFQ1owbXhXQ3Q5XzBHUmpVSlR2WmtGbnM2cmZBU1lDQXQ1cExQXzB5enZWQlNhVHBQUXpNeGRXZ0J6Z2dJWkVhN0RsOUpZVzR5MW5md2JPcU05WG0tQ0xVN2lOemV4R0o3T0hv?oc=5",
+   "title": "TD Cowen Maintains Quanterix(QTRX.US) With Hold Rating, Raises Target Price to $3.5"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42759081/",
+   "title": "Fighting for safety: head and spine injuries in martial arts presenting to U.S. emergency departments."
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42848964/",
+   "title": "Emergency Department Visits for Falls and First-Time Seizure."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ0hCYUFVNHhEbnlkejdyN2VKaXVucnN6YzFMMlJ5QjJpTVpsMHJtbjJwZEdMNnppZnlDNFRDbFlyVFdjMmEwbUd5UnBpTjRNQWlMejU2b21jcjRHSDRSc1RES3Z5aUR5eG5RWlVubEh4ZUloOG1lSmhJRXp5Nk5sMUVCZ3Azajl6UXZHTUxMdmNnci1uNEkwODF3SF9GcHNvczRsQW9nWGt4ZG9WNUJqMmM5X2FmWS1zSURPdDJn?oc=5",
+   "title": "Medicortex International publishes company presentation"
+  },
+  {
+   "url": "https://medicortex.fi/2026/10/19/biostock-published-about-medicortex/",
+   "title": "BioStock published about Medicortex"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbDZOZ3FzM1NheUM1Vk5RQ0xCTkE5RlBvQnZPWG56VXpNVEFRTkdJVTlRdkF2SEEza3gxU1hFMXRWWXd6S0puYllpd001VjZYbVBULXFBOEFiTGtjTGpOWlRFZ05TY2FyamFTYkJyZkU4X1M2TmJSa3VvZXJ6cmowNmd5UVJKTy0xUWVlRE1Ea3B4Q3U0ODhsdTRPZWZUaGtBbUE?oc=5",
+   "title": "Admission Lactate Adds Little to Prognosis in Severe Traumatic Brain Injury"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcmhGMDdEeDN6Y2E4RWhXYUxTQVVOSzloNm5GUWhRZDl4elI1WXFZblV2a2ZIUjhsdW51NUd1WGVZeWctWExYdkFFcmNRVEVVNU5EU2NxSHRvLVMyaWVCYXF6dEdvTUFlSk9zSk5UWUZQMmdKZjhobUp5YTRHV1M2RVg3LWxEOFJFa21YSnY0aHBTZkkzTDVqdGdlUXRNQXlPd1VXVkI2bnpEYnQ1dVJhYmNXMkI5SVJDbmFNSE9YQ05sQQ?oc=5",
+   "title": "Form 4 Quanterix Corp: Michael Francis Miller (CTO) For: 15 October"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTXl4Z2I2cUl6bm5zc2FtRG5vRXhIOU5RVXNSQmdyckhWYUFzX1hUM3JNdEFFaUtjM0dTZ2JnbjJOWF9jT2YwTEZ3Z2JEZW9uOWl6SW1NaGNUdTF0Qm9TX1JieDM5ano4WmVpZXcwYjFSMjZKbGx3SVRiZDVGNzBxblhIYjc3S296V0hYY1hOWUhPSjluVmh6VWtDVHYyekE5WnhaeE92NXQ2TEhNekE?oc=5",
+   "title": "Brain Oxygen and EEG Monitors Predict Outcomes in Children With Severe Head Injuries"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeUFYa29WNGxnbjd5Z1Zyalg2XzJXanBRTldtS1gtTmZDUWZNeUFwR3NiV2E3VVlHeXp0WDJoWEJYeHU2RFJuSjVNQnZwbnl6ZFNuUzlKcW1QYnhXcEt5V2hGdnQwQWlqYU9iMHJaTkNkb09SMENQUTFrUzBQcUdFYURwSnp3NHBUak9CZnkyQ1p2M2l3Sm5MWjdrNy1VYjFpZHVCaWhXS2NVSjRncHc?oc=5",
+   "title": "Dynamic Brain Imaging Meets EEG Spectral Analysis to Catch Hidden Early Brain Injury"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObTRNZ29zVW9RX2IwNGh6QnN6ZFFSbFZsNDhhaS0tcnUyS0VEdm0tQVFuczNlandhRmsxekpkYzF6RVYyWkJpMk5qbkFTYzhyNmQzQmJSZ1g4bDhBZkIyUVFwc0dRMlRjVlVfU0ctbE14Z09fNmF6TDNJaHR1eHJ4YUttbHhSYmk3ZmViOFF3UWdCSUtHZm02UnVzbC1xTHhCNmIzTUFESlpxZ0Fw?oc=5",
+   "title": "1,558 stock awards convert into shares for Quanterix (QTRX) technology chief Michael Francis Miller."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZ1pJSjlVTzVJR3lvY1h2X3VRamowQzF4cVlfb1VLVW5fLXdiNXRSNFNnQTZaR2hwSk1EbVhYR3Joel9JR1pwXzktdldwUXJzaUJmRWJfa0lEdjRHdGxBU1BzWndWRUNMREtIQWM4T3haZTF3TFdHQmRxbUZVcHZKSUNodmtVMk9jYmtfdi1NZnptMTRMdkxqUzRTZ1RMazBNQTVrY3FPeFBHZkpyREdrNg?oc=5",
+   "title": "Medtronic, Recor, Oculogica and more make Time’s best inventions list"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVFFxNk5NeTFLOWpjdXZlbW1nbG1PWUFOWHZrV2dGMkF0cWg3d3ZyMjc1MHl2Qk52UDJjbUxYNm5LalczaUlRSFlPdlJMM2Jmb2NHU085c2M5R2lPZTl3M2R3ZGNYRnhTRWlkczdCZHpsN1pSMkl2QlJTOGJad0xKVVdNbE91akszNWhhdHRXSWlNbXBZa3BzN0FFbjU?oc=5",
+   "title": "Blood Biomarkers Reveal Brain Injury Clues in Maladjusted Newborn Foals"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42885968/",
+   "title": "Alzheimer's Disease Biomarkers Measured by Capillary Blood Collection Versus Venous Plasma and Cerebrospinal Fluid."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOV0xYa21jVnhBUklvZkdqVVdIYWRQT2lDamRlRHpRVXdvTEVjdks0VlloUEZCSjh1TzI0a1JDTnJ2M1VyTWxubDZMZW5uYU9MUlhVcTg4bmdkRVZVbkw1aWV6OGUzTnQzZHhwSC1yME4xQzU3dHVWSVktVHNGZVl5QXBib3psR0ZOUndxVVQ4OUFRWkhTTmJnNlR0amkxLThBdHB5N0ZqQ2NrTW1tckxmdS0tcHh1cFg5YlN5enNxQVV2YlF1clpBdVhxNWw1Tk5JZ19lLTN30gHWAUFVX3lxTE5XTFhrbWNWeEFSSW9mR2pVV0hhZFBPaUNqZGVEelFVd29MRWN2SzRWWWhQRkJKOHVPMjRrUkNOcnYzVXJNbG5sNkxlbm5hT0xSWFVxODhuZ2RFVlVuTDVpZXo4ZTNOdDNkeHBILXIwTjFDNTd0dVZJWS1Uc0ZlWXlBcGJvemxHRk5Sd3FVVDg5QVFaSFNOYmc2VHRqaTEtOEF0cHk3RmpDY2tNbW1yTGZ1LS1weHVwWDliU3l6c3FBVXZiUXVyWkF1WHE1bDVOTklnX2UtM3c?oc=5",
+   "title": "Biomerica Reports First Quarter Fiscal 2027 Financial Results"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCWEVtYzlsa2pLbUZFRlFFWG9yeml1Mk41M0ZGbnREb29FNzdNY05IbURsQ290MXVWaGlRVlJaZjNsSjdrMmlVU0gxbFdWYmVGUmh4eDltWkRPWW1tel8yQm1INVkzTXVncnBOSXRwdHNYdW1DLXc?oc=5",
+   "title": "Medicare Plans Lab Payment Changes for 2027: What Patients Need to Know"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMGgxNDBaSjdibk16a1VacFl0eVhURDVsRkZ3N2V6dDZrUXF0X3R1NXk4YWN0Vkp0V2dTY3dnMXVTR1FZbUVyY0xzQlJ0eHZKNnEydDdtaWZlZjRsQ2xpTHNjZ0xlUFdlLWJhVVFkM3ZfLVVTTGl5S25Uc1lCQU9CZGREaEo1Y2R2bFdjdnZ5MWs2VWZlVVZQTVBRNHZzUnJyMjFIYmdGQXdxLXBZOHVDTkYxNzZHZ0ZabGZyM2VTS1d3R0gyUDhkUzB5ZnVOMkg4eHJkUDhR?oc=5",
+   "title": "QuidelOrtho Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)"
+  },
+  {
+   "url": "https://clinicaltrials.gov/study/NCT06766435",
+   "title": "Evaluation of the Abbott i-STAT TBI Biomarker Test (Terminated)"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE91UVV1akpoX2JJR2hQc040LTJWSTZRcUowbDNsakxlcUw5MGhmT1NlVU5sSEtLcFJ1aDA4eXFvbjNzZjVtSktoMU4xR3d6SEtFM1AxMHo4VmJEUmlfbjZ3ZmtsZEdxNElkMDN1YWVYWGVjQQ?oc=5",
+   "title": "Oculogica SNAP: The Best Inventions of 2026"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYWlOMEpVZ2M0R3FlckhPN0ZBaFFHVlJCenh1YnNKM2lpODI5Ry1nd0VSdWc1cE56dVV1SzRyQmoxYU9TQ2wzQlpCSmdOQVFZdUpJbGd1QUJJXzZEX0d1OFR4WkpSTUE1RGw4WkF1alpIRUlDODROWUt4NjJVYjMyYjY3TU1KdGJGR3lWVXlfcmNuMmlVb0JrYW9KSEhIdTNwOVVza0xlekRuTTQyWEZj?oc=5",
+   "title": "Experts call for lifelong care after brain and spinal injuries"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON3lNOVJOa3BfeHBCYVFfSzFPMEhDNjdGMU9QeUEybkZOMlBTTDMySzRuUFA4dG94VVNab1hFZEk1LVFTTG5pNjN5ZVZtYkNNTWY0SWhla21DTFpGRFNkMS1jRTlXWEtIVjhnNjZ5a0Zzb0FieXNFNHVvN21IX1B6NzdsTU9na24wNzNMUS1Rb3hoUHUxSVBLNkhR?oc=5",
+   "title": "Biodesix (BDSX) Stock Sees Fair Value Lift As Analysts Back MRD Growth"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdURJUXZ4U2UtSW5uNXVNRFdLNURaLVdsc05oU0c5OFhicEZfSVZySnhrY2t3RFQ3MVN5ZDlLU1FwODBTcmpzSGoybUZmYzdtNElSeVBQTmlqLUxJSXZpeVBhRmhKaXItdEtNcEZKRHlfN0hxV181cmJxTm1DYjJoVWREVGtnUW91dHZ2WWM1Q29OcFJ2WjJKTFBrb21KaXpSUFVqOUdtcllqd3pMRmZMSlB3?oc=5",
+   "title": "AI Warns of Dangerous Brain Pressure Hours Before It Strikes, Multicentre Study Confirms"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUUVGMzlQSFlnNUlJY1RyLVJCcEQtOE0xcXFqTUNsMTdWY21lTkdrUG5nNEQtLWpCRmlpOWt4SngybzFaQjVIdk5maTgzT2pkN29YUnJyUDlYWG5kcWwxN3BRVzllUUNwZmJXT0Y2R0p1RnVycmVKUktVV2gybW9EYjMzLVZkakJsaHdNT2hVVjI4b3Z4NGJZekRLSzdqc1FQ?oc=5",
+   "title": "Reasons to Add QuidelOrtho Stock to Your Portfolio for Now"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONXRsRmlqeG43R3Vib29GR205RzEwcWhyLWsyNVg4OXN3UEdmV2hUWGlXakU5NjVYV1JHM2Q3SGVmTGN6dTFaZzE5TG1DRE1EZEROU0tJSXZjaENrRXRRR2tlOGR4OWdaWnpZRFNsSW95M2RKbllJUXg2SkdyVE9BVElZNnE0Z2wtOU9uNkJoZE1ER0dicGdBcG5OcV82ZWNJZWZ5Y3dJS0RITGhaSDB3Qkh3OUJOaHZHVHhRa191alB3THBpSnYxWGt6UQ?oc=5",
+   "title": "POC Hand Held Hematology Analyzers Market to Accelerate on Decentralized Care, Reaching 2035 Expansion"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYzlCOTB6dldBYXhZNHJQdmdjejBOR3FNZmdXQjVRQXJBcktUamlfTk0xbmtkSzU3Qk1hWWNkSExHZVRoRjI2dkU5eFRNUW5MUE9GS0RLY1doTC1ucEJKSmVVR25SRUtiN0dEWVZ0T3RFYUYtekFxRHRfZ3VBbUN1YzZaTHh4b2dY?oc=5",
+   "title": "Plant compound may help repair brain injuries – study"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWWxPckUzS0w1QVJDRUVaR1dSZVRDNkFQQ0RkREhEQXR5VlR5ZjRYdzJlRVNRUWV6N01fYWppUkE2WWpDTURFbS1KaHJfV1lpQ28wX25YbDNEWTg3WnJ6OE5wT2NOMWRiRldLQVUwUi1WOHhzLS1udER3SmZtQ3E2Q29XWEZ0UXRPY2hJNy1tWkpaeEFydVE?oc=5",
+   "title": "All Things Neuro: NFL CTE Headlines Renew a Simple Question: Has the Brain Been Tested?"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3a2ItYlNlQlFnTHFiT2JaNksxTUtiYmpmQkNzMm9KM3dxb1RSd21NWC1ZVG1PRlExcmpjMXpOd2E2VDZWbV9aUFpFUjh1bWE5TEE?oc=5",
+   "title": "Quidel Corporation (QDEL) stock price, news, quote and history"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcWdDRHJSRDYzUWduekFBWVVVdVRQSkthMTBjdjV2S2pVSTh6dVhzRFlrRTB1Y1pYNEc1SDY3cFlmUzk4VDFucE94cFdhdl82a0EyUzNWWGlzQXIyejBYZUkyYWJrMnAwT3pOWElPejlNNDhzcTcyMGFnbHZUeVgxRXR4SlczS1otRFVnRjlzY2dJaWZPdXk5cFFiNExhZ2k1REFmM1g5SHlxeDVZOVE?oc=5",
+   "title": "QuidelOrtho Corp (QDEL) Stock Up 6.4% and Still Undervalued -- G"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX1dCV01oZEVrT3lJaVBFOXQxdUhGNDVRbXM5WDRhOTVoTTdTQkI3SFNfOW1adkNjVk9vNDZqaDlsdHBuS0Y0X04wX2dGVmtacEpvNFVCTmVVUHVaeDBzNUg0Z2ZoaW42eWFGRTNqa1F0UFhLRzFwbGxibUl5SVBnVDhjOUF1UUpNSDdZd2kyQTgxVjlmVUZHOFl5MlZPa19lOFJfeTRBLXpWZmFsLWxEZjZOVk1rX2xXUHU1ZQ?oc=5",
+   "title": "On telehealth and incident-to billing: MedPAC debates physician fee schedule values"
+  },
+  {
+   "url": "https://medicortex.fi/2026/10/13/borsvarlden-published-an-article-about-medicortex-2/",
+   "title": "Börsvärlden published an article about Medicortex"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa1ZiZU9VYlUteUQ0QzcwbndyT1lDci11VElQeUFCNlhHZXp2TWJuYWM2RG1FQVd3ajBJUzFFUE5XbDVZazhhQWFEYTlXRGExNXcwOWtGbnBHRnFrOUpYaG8zREk3dXRwcnkxQkVBRnI4MzkxWWdYZHlfd1FjdU9xVm53QlVsM18wdXJCTGllNmpkd0V6VmpXVWpQc3cyUTloZzdDcE5HVWlqeFZST0hB?oc=5",
+   "title": "QuidelOrtho Reports Q2 2026 Results: Full Earnings Call Transcript"
+  }
+ ]
+}
