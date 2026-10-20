@@ -1,0 +1,88 @@
+{
+ "date": "2026-10-20",
+ "generated": "2026-10-20T11:22:56+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "18bd46fb7f55a79b",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Concussions may disrupt testosterone for years. Researchers are connecting the dots.",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BS2h5aXZvUXdqeW5XazhCOVpDRjFIOThqODZfaC1EOGgtWXNvNjlqR3ZjTmVNSHBQMnhObnlHckRsazRoQlotQ0pZd2VpVFRmYm1ib3NncGRxbFlOLWx0djFQbTc1VGV1WGp6c1NROE16dWfSAXNBVV95cUxOLVQtQVlwZTFDcWlWNWdqd2JfTU1EdXNLeWpuVk43ejUtd011YXk4QkVOMW5jRWlfZ2poa1htUGhqT29aMjd0cXBRR0ZDNFFfNVV5TTJ2bG5ocGFrV1RaQndNS2VwYWNpVjBMdU9Day05TUQ4?oc=5",
+   "date": "2026-10-20",
+   "snippet": "",
+   "publisher": "Fort Worth Star-Telegram",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-20T11:20:18+00:00",
+   "signal": [
+    "concussion"
+   ]
+  },
+  {
+   "id": "6ba9c0ce98154956",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "Novavax, Ocular Therapeutix, and QuidelOrtho Shares Plummet, What You Need To Know",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeUdSSUN2Skh5MEdCdDl1NDhnOS1jU2VwZDBQY0haa0tid1c4NjZieGRZWkJ3a2NMQ0Y4TkZCQVlRZVNIRFNfYnVYQ0ZPQk1oQ0gwRW9zVWwxNWlFdmkwQ3ZBVzljVm96ZXIwdC0wMjFuNzB1REctbGpBekNBcFVXTDJ0TVE3dDlXZ1d5ZzhoY2l4TU1PTnRva3NNOE5pZHhBcldYcGxWRHIyVmJLazR3?oc=5",
+   "date": "2026-10-16",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-20T11:20:18+00:00",
+   "signal": []
+  },
+  {
+   "id": "3e79c17c279cacbe",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Corporation (QDEL) stock price, news, quote and history",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5b2FwV3pCbkN2dzJrSFdfRUFmd3NHWFNwMTRKTnN0aHMybENyME8xaVE3RHMtXzh1RlVIa2pQc08xNTViOGNoYjhTN014N1VFZ0E?oc=5",
+   "date": "2026-10-17",
+   "snippet": "",
+   "publisher": "Yahoo Finance Australia",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-19T19:26:50+00:00",
+   "signal": []
+  },
+  {
+   "id": "8c02f7c63f7d9b31",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "A stock grant vests at QuidelOrtho (QDEL), with 6,695 shares withheld for taxes.",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObzNTVWp5cWttUEpBTEhNMGNKbUY5Z3dBakNRZGZheUx6cm5rX3BEbTZEaHVvZW5JQUt0MDdzN2NiUjJBTktDV1htV1Z0TUNHaDBzb2dkOG1vYmZ6MzBnVWxPLXZJdWZFWkt0dmpLVmd5ZmZvcnJTc2pDOVVZdTlfYnBuZC04Y2tXbGJvbS1mMXFqRWxid0JMaTJ4elNwelV2azJOaWVUbm9qd0tyVG1zXw?oc=5",
+   "date": "2026-10-19",
+   "snippet": "",
+   "publisher": "Stock Titan",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-19T23:21:09+00:00",
+   "signal": []
+  },
+  {
+   "id": "d3d80ff484193bcc",
+   "competitor": "Roche",
+   "source": "Clinical trial",
+   "title": "A Study to Develop a Blood-based Test for Aiding the Diagnosis/Prognosis of Traumatic Brain Injury in Adults and for Monitoring the Development of Secondary Events in Patients Diagnosed With Traumatic Brain Injury (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT07455136",
+   "date": "2026-10-19",
+   "snippet": "NCT07455136 · lead sponsor Hoffmann-La Roche · updated 2026-10-19",
+   "first_seen": "2026-10-19T13:48:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "2feb462ec53b43fd",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Mitochondrial Metabolic Remodeling Drives Blood–Brain Barrier Dysfunction After Repetitive Mild Traumatic Brain Injury",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaTN3NkttTkRWR2o3clBsWHFuR18wZVJfR2xjZ1MzazJZNE5YRWVRU1MyOGlLTXBPRHZlSFVCUnpXR1pGTkFIcXVOR29YWVhpWjRqczlqZmN3Y1ZtMnB5S1liMWpQbzg4a2paTEFJYk9VdHdMa3hYUGJQQUh2TFRUUzZialp2T0hudnRmQk5oZ2VaeDc1OFZCd0l2djdxNTVvSEQydWZMMTY1cjRjbVFEZFJxQzRMa3BON3g2LUhJVXE5RUx1eU1kQmUtang3ZFhGZC1vYjFBaGtyZFU?oc=5",
+   "date": "2026-10-17",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-20T11:20:18+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}
