@@ -1,7 +1,24 @@
 {
  "url": "https://diagnostics.roche.com",
- "checked": "2026-10-21T19:27:47+00:00",
+ "checked": "2026-10-21T23:19:34+00:00",
  "links": [
+  "https://diagnostics.roche.com/global/en/diagnostics-insights/polyendocrine-metabolic-ovarian-syndrome-pmos-and-amh-testing.html",
+  "https://diagnostics.roche.com/global/en/lab-leaders/article/bcid-panels-bloodstream-infection-treatment.html",
+  "https://diagnostics.roche.com/global/en/lab-leaders/article/lab-design-optimization.html",
+  "https://diagnostics.roche.com/global/en/lab-leaders/article/standardize-hub-and-spoke-laboratory-network.html",
+  "https://diagnostics.roche.com/global/en/products/instruments/benchmark-special-stains-ins-3198.html",
+  "https://diagnostics.roche.com/global/en/products/instruments/benchmark-ultra-plus-ins-6476.html",
+  "https://diagnostics.roche.com/global/en/products/instruments/cobas-5800-ins-6638.html",
+  "https://diagnostics.roche.com/global/en/products/instruments/cobas-c-703-ins-6965.html",
+  "https://diagnostics.roche.com/global/en/products/instruments/cobas-liat-ins-6050.html",
+  "https://diagnostics.roche.com/global/en/products/instruments/cobas-pulse-system.html",
+  "https://diagnostics.roche.com/global/en/products/instruments/lightcycler-pro-ins-6284.html",
+  "https://diagnostics.roche.com/global/en/products/product-category/lab-type/digital-solutions.html",
+  "https://diagnostics.roche.com/global/en/products/set/kapa-hyperexome-v2-probes-pid00001174.html",
+  "https://diagnostics.roche.com/global/en/products/set/kapa-rna-evoprep-kits-pid00001204.html",
+  "https://diagnostics.roche.com/global/en/products/systems/cobas-eplex-system-sys-447.html",
+  "https://diagnostics.roche.com/global/en/products/systems/cobas-pro-integrated-system-sys-295.html",
+  "https://diagnostics.roche.com/global/en/products/systems/cobas-pure-integrated-solutions-sys-351.html",
   "https://diagnostics.roche.com/us/en/c/cobas-c-703-and-cobas-ise-neo-analytical-units.html",
   "https://diagnostics.roche.com/us/en/products/systems/digital-lightcycler-system-sys-362.html"
  ]

@@ -22,6 +22,62 @@
   "signal": []
  },
  {
+  "id": "e90317404aa0e746",
+  "competitor": "Oculogica",
+  "source": "News",
+  "title": "KACH collaboration garners FDA approval of TBI diagnosis device; device recognized by TIME",
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNckxDVzVESEtwTm1Tdk8xLUM3NXM1bEVwM2s4NlpIbmt0ZHItQWRmWVBxTHlvZHNhZFVMdHZNQ3NtNXZ2YThWcTE5bHE2NlNlQ2VrZXUwbVdna0FxNXhjTXI1aXZWZlVselpOb09TVTVBeldDLThFbTRQMktDOGdPRzRMQV9yR0FsMFBkWFpDcTFhZVpLei0ydnRYOU1iQ3haNk0zd29HV2F6aWlNZnlrNHpScW1ocmVKRnVuNg?oc=5",
+  "date": "2026-10-21",
+  "snippet": "",
+  "publisher": "DVIDS",
+  "query": "\"Oculogica\"",
+  "first_seen": "2026-10-21T23:18:05+00:00",
+  "signal": [
+   "FDA",
+   "approval"
+  ],
+  "alert": true
+ },
+ {
+  "id": "f91d78758e04b676",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Shares Rise More Than 11% After Friday's 7% Drop",
+  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtcmdUNERjaWRwdmN6LUFhNjlXSDQxdkMzXzJyY3FnNk1PbGFtNjFjbFJDS2RxVDRoay1najdPaFlQM09XTTc4dWxyQ2NPU0FNcU02TFNGTjk?oc=5",
+  "date": "2026-10-21",
+  "snippet": "",
+  "publisher": "TOKENPOST",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-21T23:18:05+00:00",
+  "signal": []
+ },
+ {
+  "id": "0d20c0b3a4fe18ec",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "AHA comments to CMS on preliminary 2027 Medicare clinical laboratory fee schedule rates",
+  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcXNpNE9RV0RvVkc1RmdCa2pLd1BjOXktX09pVWFGNDc2Zl9ubDR2Y2tmYUYzTGpwRHFUM250N2otUXlNSjNfRmw2NDdDSUJCMkhnYTZWcUpZaXpTcUZsd0VXdFZLYnQzdnNKSkxhSmg2ck9oaFk2QjNjcDZfTlhtOUtINVpFcUlIUVFqTlAxRExEaElTZHNlOTZ2Q01jMy1yVlBneG9HaDRYMXZSYXBYaGxsY2I3LUxlY215b0NMY256djRQ?oc=5",
+  "date": "2026-10-21",
+  "snippet": "",
+  "publisher": "American Hospital Association",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-10-21T23:18:05+00:00",
+  "signal": []
+ },
+ {
+  "id": "7a82cdbe88f251a3",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho (QDEL) Shares Surge 11.52% Amid Volatile Trading on October 20, 2026",
+  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb0JfbmVVdS1hU09wTnBGS1llQnlEWWhXNzI4ZUNLVkttMFQwWHVwZGxNZ21Kek1lcjhqaWtOQnBkSjNFYXBzOXZGVTFhendBcEJOQkdvVzJpQkpRckR2V29MMFliTW1YaWQzdXp5WGhKQWtkRWl2LWhTVzA4empfU2o5ZnBCWmtFYUd2X1hjZnp0dlBZM2F6VkstVDRTMDBhdExnMTVmRlIxc0pQZF9nTE92MEU?oc=5",
+  "date": "2026-10-20",
+  "snippet": "",
+  "publisher": "GuruFocus",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-21T23:18:05+00:00",
+  "signal": []
+ },
+ {
   "id": "edd4043caf41722a",
   "competitor": "QuidelOrtho",
   "source": "News",
