@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-20T23:22:02+00:00",
+ "checked": "2026-10-21T11:23:24+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -288,6 +288,45 @@
   }
  ],
  "news": [
+  {
+   "id": "eaa5f55ec7c29fc5",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Medical Operating Layer Sunlight AI Raises $17.4M Seed",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5T05LVldTUFBqU3FhNDdicTJVbXJCdXZhcWlrTDlwRjRiVWtXZnk3LUxaYUVsSWhnNzNsT3JyVkZacEFVNTJNVElGVG93RlQ5aDFN?oc=5",
+   "date": "2026-10-21",
+   "snippet": "",
+   "publisher": "Wowtale",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-21T11:23:24+00:00"
+  },
+  {
+   "id": "8bda5a8b40533df8",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "ICMR bets on academic centres to build affordable indigenous MedTech",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLS1zOThKYXVuTkhlVWNuV1E0cVdzSHdMYXU2N25Fam9rbWdySmVGOEEway10WDNKNXhhdEh1ZXZhSThCTTRuajJsbm9OczNLOHQ5SnIxOE5EdXM4cGU5RUdFOWQ2bzdBd1BTN041MUdOYlNtS2RUanlQWjRYSURtRy1jUE9INXdWX091ZEZzSWdrdXhNVWhwYlNZVks?oc=5",
+   "date": "2026-10-21",
+   "snippet": "",
+   "publisher": "Medical Buyer",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-21T11:23:24+00:00"
+  },
+  {
+   "id": "1cc67602a8fd6d42",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Purdue honors 2026 Showalter Scholars, expands early career research awards",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSGs5bnE4RktpUklxM1V4TERkZTNKcDhkWFRueVlEanIycFQxTjhMN3RfVGUxX0x2MWFuMGpzUF9MYmI3RWlJUXBvTzEydXpGUE5tTmoxUlgwLVBxYXJFZ1phRjYtNGw3OUt1bzJBaVhkZGM1MFVueC1PQWJyR210LUlpU0d6WUpONDMxMnE5TklwbjFya2F5eDRwd2RPU1VSbktwZlcyd1I5eDF5dW9RVkFCMTNmd0ViSjRyX1FFVHNpdEh2?oc=5",
+   "date": "2026-10-21",
+   "snippet": "",
+   "publisher": "Purdue University",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-21T11:23:24+00:00"
+  },
   {
    "id": "5b12c3f0141affac",
    "competitor": "Emerging (POC)",
