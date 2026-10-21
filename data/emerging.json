@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-21T11:23:24+00:00",
+ "checked": "2026-10-21T15:27:11+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -586,6 +586,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-14T23:21:57+00:00"
+  },
+  {
+   "id": "ec84fba5d3184329",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Meet the 55 deep tech startups pitching investors at UNSW’s showcase",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTHJzQ3F2ckpJREVUemZjQzU5LTFDUzNxMkI4R3pZcmtpSVRabzY1a0lwTFU5MDBJWnhwVWxLUlV1Sk42Qkh1SGFrb2Jzel9EX3FxNEl6RDc5MkllakZQbEYydU9VTjgwbFEtSTdkR2E4WkthYnZDYy03MWk5Z09zeUVMVnVJUlJYakQ4eG1GdGk4cUtnNjNoamFNTUlYSnpsNEF0U3lmWTBfajI3NFUtdmN1c0M?oc=5",
+   "date": "2026-10-14",
+   "snippet": "",
+   "publisher": "Startup Daily",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-21T15:27:11+00:00"
   },
   {
    "id": "c3a90549e754abb2",
