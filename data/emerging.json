@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-21T23:20:37+00:00",
+ "checked": "2026-10-22T11:23:50+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -599,6 +599,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-10-21T15:27:11+00:00"
+  },
+  {
+   "id": "cadf73d0c81b2ea1",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Nexsen Limited (ASX:NXN): Rapid Diagnostics Development and 2026 Regulatory Milestones",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPam1ZOWFZcDFjY0lscm8zanBTWlNZNGRPQU5KV2MwY1daUzFmbWdlNlpoeEJzejgyWHJsZnlCVHpfNHhKY0ZrZ0JybnRHOG1UcnVGNEdMYUgtMWI0ZG93TmdUQl9wTVRfTE5TeWVrUzVhLTZLUll3R1hMamVCa3M1TVNoRTh2X2FxdXlkX0l6STN0V2FCOVFtdWdSQ3prN3ROTFYydXljeWlyTXozNDg0UzIzY192Ykt3SGdNSWVn?oc=5",
+   "date": "2026-10-14",
+   "snippet": "",
+   "publisher": "Kalkine",
+   "query": "\"rapid test\" \"brain injury\"",
+   "tbi": false,
+   "first_seen": "2026-10-22T11:23:50+00:00"
   },
   {
    "id": "c3a90549e754abb2",

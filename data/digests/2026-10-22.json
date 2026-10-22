@@ -1,0 +1,159 @@
+{
+ "date": "2026-10-22",
+ "generated": "2026-10-22T11:23:51+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "e90317404aa0e746",
+   "competitor": "Oculogica",
+   "source": "News",
+   "title": "KACH collaboration garners FDA approval of TBI diagnosis device; device recognized by TIME",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNckxDVzVESEtwTm1Tdk8xLUM3NXM1bEVwM2s4NlpIbmt0ZHItQWRmWVBxTHlvZHNhZFVMdHZNQ3NtNXZ2YThWcTE5bHE2NlNlQ2VrZXUwbVdna0FxNXhjTXI1aXZWZlVselpOb09TVTVBeldDLThFbTRQMktDOGdPRzRMQV9yR0FsMFBkWFpDcTFhZVpLei0ydnRYOU1iQ3haNk0zd29HV2F6aWlNZnlrNHpScW1ocmVKRnVuNg?oc=5",
+   "date": "2026-10-21",
+   "snippet": "",
+   "publisher": "DVIDS",
+   "query": "\"Oculogica\"",
+   "first_seen": "2026-10-21T23:18:05+00:00",
+   "signal": [
+    "FDA",
+    "approval"
+   ],
+   "alert": true
+  },
+  {
+   "id": "b15c3790cb1e054c",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "Rising GFAP After Thrombolysis Flags Early Stroke Deterioration",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYVRidnRyWTRIaXJuN3l2aU5FRC1JTmRCVmEwNG8yY19BQTF1azYtX1NrMnMzakFfb1dtQ0NXVmVqZ3o5TXdIX3p0ZmlnM1lOdlA1cHBTMXNyaDQ0WGRVemZ2YjJNanlab2hkUmpIWVVBdUl6LXpnSWxMUEpMTi1uaEd3NXlSd0NiY3JnRTdtWHFYdw?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-10-22T11:21:19+00:00",
+   "signal": [
+    "GFAP"
+   ]
+  },
+  {
+   "id": "0d20c0b3a4fe18ec",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "AHA comments to CMS on preliminary 2027 Medicare clinical laboratory fee schedule rates",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcXNpNE9RV0RvVkc1RmdCa2pLd1BjOXktX09pVWFGNDc2Zl9ubDR2Y2tmYUYzTGpwRHFUM250N2otUXlNSjNfRmw2NDdDSUJCMkhnYTZWcUpZaXpTcUZsd0VXdFZLYnQzdnNKSkxhSmg2ck9oaFk2QjNjcDZfTlhtOUtINVpFcUlIUVFqTlAxRExEaElTZHNlOTZ2Q01jMy1yVlBneG9HaDRYMXZSYXBYaGxsY2I3LUxlY215b0NMY256djRQ?oc=5",
+   "date": "2026-10-21",
+   "snippet": "",
+   "publisher": "American Hospital Association",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-10-21T23:18:05+00:00",
+   "signal": []
+  },
+  {
+   "id": "e68bae44b98f78d5",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "QTRX Q2 2026 Earnings: Wider-Than-Expected Loss Delivers a Sharp EPS Miss, Yet Shares Edge Higher - Core Business Growth",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUVEtYklFVHlWYS1lVk9ocFRRb1NIWS1HaXNiQVg4NldzQTBFNTNDSkg1aDk2RUFySjVjQTBBVHVFV2VOZkdOTkgycGZleExIeVBvcmxaVFN1c1BJMFBzSmt2bmZxeGV5bTMxRzB4QncydFpNZG1SRURHYU9hbXpES0FaZGIxTFhhNVpRQ0o1QU9qbjdlTzRWZWdSQ0k2YUhzZGpReXowWTdTc25TaGI5SEM0Q0dBdTA3UDZSV0U3UHJKWjdYaVdXNGxqMFVmQVVDd1Vn?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "www.dars.gov.et",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-21T15:24:37+00:00",
+   "signal": []
+  },
+  {
+   "id": "cba60c17f5e72374",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QUIDELORTHO CORPORATION (QDEL1.MX) Q4 FY2025 earnings call transcript",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSGQtaUIyY0hqd2lUYlkzX0tHblFnVEY0VTZTUTRoN0xqb01uZFhxWVMxcU5BZHdBVVZQVG5IdndNaFJYN0ZCdW1Dek5OZjRkMUV2bWF6cEVoZlJRT2xTaEN5R3hDOFlLMHJjclJVMlE1NTdiWTg0NHJrbExycjJFNmhUclhzVmRMMnZmdndDV1VGejZUZUlr?oc=5",
+   "date": "2026-10-17",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-21T15:24:37+00:00",
+   "signal": []
+  },
+  {
+   "id": "f2a9727ffa2f808a",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "Form 4 QuidelOrtho Corp: Jonathan Philip Siegrist (EVP of R&D & CTO) For: 15 October",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMkRUWlJldUNNV3BXUGV0dF9zVTR4b0dFTWtrY0tHUkd0NVcyVDh0c0RPR21Yako4NEhRVEUweFR0SzNXNm1kTDZyM29DeHE4MnBUMW9zSmJqMjN5dnFFdVUxOVYwYkgxX21TXzFlUlJzaWdHd2JVSmRjZGdUWmhDeFJmems4U0hXX3BtT1NaakJDSWZubnM4cm50OE5YWmV3bVF6czFveko3cWtycjBKWkp1Rnl1RUV5a2s2eHYtbXIwYVdLNVFZemZzZllQLUtjbnN2bGRR?oc=5",
+   "date": "2026-10-20",
+   "snippet": "",
+   "publisher": "Investing.com Canada",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-22T11:21:19+00:00",
+   "signal": []
+  },
+  {
+   "id": "7a82cdbe88f251a3",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho (QDEL) Shares Surge 11.52% Amid Volatile Trading on October 20, 2026",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb0JfbmVVdS1hU09wTnBGS1llQnlEWWhXNzI4ZUNLVkttMFQwWHVwZGxNZ21Kek1lcjhqaWtOQnBkSjNFYXBzOXZGVTFhendBcEJOQkdvVzJpQkpRckR2V29MMFliTW1YaWQzdXp5WGhKQWtkRWl2LWhTVzA4empfU2o5ZnBCWmtFYUd2X1hjZnp0dlBZM2F6VkstVDRTMDBhdExnMTVmRlIxc0pQZF9nTE92MEU?oc=5",
+   "date": "2026-10-20",
+   "snippet": "",
+   "publisher": "GuruFocus",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-21T23:18:05+00:00",
+   "signal": []
+  },
+  {
+   "id": "edd4043caf41722a",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho to Report Third Quarter 2026 Financial Results on November 3, 2026",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc08zTkZjeXdCTVFSQ256UFpmSFpodU9vMWlyWXBoLXJvOUE3cXFwbU0tZllmaF9uN1JWYmhKUlNrRWgxdUJSY0Rlb1NHNEEweGh5NVJ5cXM0c0hqVkdTN21vdVBfYlZxemt2eDMwTXlGaXVsM1RPTXFpUjA0dGFJMUZkM3hRWnRldmI5T0YwU2F3dWpsaUpEUTByUjZSMFU?oc=5",
+   "date": "2026-10-20",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-21T15:24:37+00:00",
+   "signal": []
+  },
+  {
+   "id": "f91d78758e04b676",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Shares Rise More Than 11% After Friday's 7% Drop",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtcmdUNERjaWRwdmN6LUFhNjlXSDQxdkMzXzJyY3FnNk1PbGFtNjFjbFJDS2RxVDRoay1najdPaFlQM09XTTc4dWxyQ2NPU0FNcU02TFNGTjk?oc=5",
+   "date": "2026-10-21",
+   "snippet": "",
+   "publisher": "TOKENPOST",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-21T23:18:05+00:00",
+   "signal": []
+  },
+  {
+   "id": "2b35a6c91dd1aa0f",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "How Quantitative MRI Reveals Brain Changes the Eye Can’t See",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUXljanNFdnV0bDNpdnJ1RXBza2FQM1RuNjdSV2dPdG0tbnU0ckFuMHRLVHAtWE1HY0FReGg5TG5LWVlqNWRNcUYxcUN3N2RkZV82aVIwQlI5S0toT3R3RzdMVFk3RkJ1UnlpaVFHQk5VaTV0NGg2WnhMTFlTT0hYVm1nT2UtWGE1aVdaR2t3?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "Being Patient",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-22T11:21:19+00:00",
+   "signal": []
+  },
+  {
+   "id": "5710aaea7b2882e4",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "California Seventh-Grader Reaches National Science Finals with Fruit Fly Research on Traumatic Brain Injury",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM2NuOXJRVlVMM1V2cHBoWl9BbGxTODBPWkdudFpvRkUwcjBIMWUzb1JnYXZjN2dSSHNYekUxWWJqNXdfMWUwOEoyXzFNTUc5WUFKdWpOUEJIWnp3RThUWFVzMWZBei1uaTFmdW8wMlZHLWRhdnByT0phOEZtaHYzaE9rcTNIcnFBNFd2QkI3YmhZenVSWV9CZTdHZEQ5cmUzUV9RMFhmLXh4LXlKVXBRWWFTSTRRY0UzdWZQZ2lsMjczU2o0bWpVVGpHbEMyUUtQbTk0Z2FNenQ?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "streamlinefeed.co.ke",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-22T11:21:19+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}

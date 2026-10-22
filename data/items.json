@@ -22,6 +22,47 @@
   "signal": []
  },
  {
+  "id": "2b35a6c91dd1aa0f",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "How Quantitative MRI Reveals Brain Changes the Eye Can’t See",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUXljanNFdnV0bDNpdnJ1RXBza2FQM1RuNjdSV2dPdG0tbnU0ckFuMHRLVHAtWE1HY0FReGg5TG5LWVlqNWRNcUYxcUN3N2RkZV82aVIwQlI5S0toT3R3RzdMVFk3RkJ1UnlpaVFHQk5VaTV0NGg2WnhMTFlTT0hYVm1nT2UtWGE1aVdaR2t3?oc=5",
+  "date": "2026-10-22",
+  "snippet": "",
+  "publisher": "Being Patient",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-22T11:21:19+00:00",
+  "signal": []
+ },
+ {
+  "id": "5710aaea7b2882e4",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "California Seventh-Grader Reaches National Science Finals with Fruit Fly Research on Traumatic Brain Injury",
+  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM2NuOXJRVlVMM1V2cHBoWl9BbGxTODBPWkdudFpvRkUwcjBIMWUzb1JnYXZjN2dSSHNYekUxWWJqNXdfMWUwOEoyXzFNTUc5WUFKdWpOUEJIWnp3RThUWFVzMWZBei1uaTFmdW8wMlZHLWRhdnByT0phOEZtaHYzaE9rcTNIcnFBNFd2QkI3YmhZenVSWV9CZTdHZEQ5cmUzUV9RMFhmLXh4LXlKVXBRWWFTSTRRY0UzdWZQZ2lsMjczU2o0bWpVVGpHbEMyUUtQbTk0Z2FNenQ?oc=5",
+  "date": "2026-10-22",
+  "snippet": "",
+  "publisher": "streamlinefeed.co.ke",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-22T11:21:19+00:00",
+  "signal": []
+ },
+ {
+  "id": "b15c3790cb1e054c",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "Rising GFAP After Thrombolysis Flags Early Stroke Deterioration",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYVRidnRyWTRIaXJuN3l2aU5FRC1JTmRCVmEwNG8yY19BQTF1azYtX1NrMnMzakFfb1dtQ0NXVmVqZ3o5TXdIX3p0ZmlnM1lOdlA1cHBTMXNyaDQ0WGRVemZ2YjJNanlab2hkUmpIWVVBdUl6LXpnSWxMUEpMTi1uaEd3NXlSd0NiY3JnRTdtWHFYdw?oc=5",
+  "date": "2026-10-22",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-10-22T11:21:19+00:00",
+  "signal": [
+   "GFAP"
+  ]
+ },
+ {
   "id": "e90317404aa0e746",
   "competitor": "Oculogica",
   "source": "News",
@@ -62,6 +103,19 @@
   "publisher": "American Hospital Association",
   "query": "CMS \"clinical laboratory fee schedule\"",
   "first_seen": "2026-10-21T23:18:05+00:00",
+  "signal": []
+ },
+ {
+  "id": "f2a9727ffa2f808a",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "Form 4 QuidelOrtho Corp: Jonathan Philip Siegrist (EVP of R&D & CTO) For: 15 October",
+  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMkRUWlJldUNNV3BXUGV0dF9zVTR4b0dFTWtrY0tHUkd0NVcyVDh0c0RPR21Yako4NEhRVEUweFR0SzNXNm1kTDZyM29DeHE4MnBUMW9zSmJqMjN5dnFFdVUxOVYwYkgxX21TXzFlUlJzaWdHd2JVSmRjZGdUWmhDeFJmems4U0hXX3BtT1NaakJDSWZubnM4cm50OE5YWmV3bVF6czFveko3cWtycjBKWkp1Rnl1RUV5a2s2eHYtbXIwYVdLNVFZemZzZllQLUtjbnN2bGRR?oc=5",
+  "date": "2026-10-20",
+  "snippet": "",
+  "publisher": "Investing.com Canada",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-22T11:21:19+00:00",
   "signal": []
  },
  {
