@@ -22,6 +22,19 @@
   "signal": []
  },
  {
+  "id": "2e3076aa2ada9d9e",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Neurofilament Light Chain Blood Test: Results & Limits",
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbjJjdUlRLTlJNHljQUhETUZGRU9CUVRNWVRwSUxsdDJXRHVsYW1aWHpPVWpCTTY4UUpVYUE0OGE5cmRrNnRocVowbTU3NTU4QUFKN2tuWUlWMTNqMlVvT2JLMDBqRFV4MDZSNFVETmpkOHR6cVYxaHAyWEhEQ2h1ZzVjd043QQ?oc=5",
+  "date": "2026-10-22",
+  "snippet": "",
+  "publisher": "Kantesti AI Blood Test Analyzer",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-22T23:21:10+00:00",
+  "signal": []
+ },
+ {
   "id": "2b35a6c91dd1aa0f",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -61,6 +74,19 @@
   "signal": [
    "GFAP"
   ]
+ },
+ {
+  "id": "bcb4d0e916856fc3",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Differential sex-dependent responses of circulating steroid hormones and cortical gene expression in a traumatic brain injury model",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03dWpzV0lWUkN2Mm1FekpubmJiNHBQNWtNbW1Ca0FBUDZoalJteHQtSlZYZTdHc3FxcWhNdzdlZGp3REVDczNRSURaNHV2aXlqQl9WLUlWZlJuNDVaeXdz?oc=5",
+  "date": "2026-10-21",
+  "snippet": "",
+  "publisher": "Science | AAAS",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-22T23:21:10+00:00",
+  "signal": []
  },
  {
   "id": "e90317404aa0e746",
@@ -457,6 +483,19 @@
   "publisher": "Low Income Relief",
   "query": "CMS \"clinical laboratory fee schedule\"",
   "first_seen": "2026-10-16T11:18:39+00:00",
+  "signal": []
+ },
+ {
+  "id": "ecb346a1c17678a8",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "QTRX Q2 2026 Earnings: Wider-Than-Expected Loss Delivers a Sharp EPS Miss, Yet Shares Edge Higher - EPS Estimate Trend",
+  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUVEtYklFVHlWYS1lVk9ocFRRb1NIWS1HaXNiQVg4NldzQTBFNTNDSkg1aDk2RUFySjVjQTBBVHVFV2VOZkdOTkgycGZleExIeVBvcmxaVFN1c1BJMFBzSmt2bmZxeGV5bTMxRzB4QncydFpNZG1SRURHYU9hbXpES0FaZGIxTFhhNVpRQ0o1QU9qbjdlTzRWZWdSQ0k2YUhzZGpReXowWTdTc25TaGI5SEM0Q0dBdTA3UDZSV0U3UHJKWjdYaVdXNGxqMFVmQVVDd1Vn?oc=5",
+  "date": "2026-10-15",
+  "snippet": "",
+  "publisher": "https://www.dars.gov.et/",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-10-22T23:21:10+00:00",
   "signal": []
  },
  {
@@ -1267,6 +1306,18 @@
   "signal": [
    "approval"
   ]
+ },
+ {
+  "id": "f44eb9ef53f4ae6c",
+  "competitor": "Point-of-care & capillary sampling",
+  "source": "Publication",
+  "title": "Capillary stalling after traumatic brain injury: an emerging microcirculatory contributor to secondary brain injury.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42903673/",
+  "date": "2026-10-06",
+  "snippet": "Frontiers in neurology. Lei X, Yang Y, Yang X et al.",
+  "stale": true,
+  "first_seen": "2026-10-22T23:21:10+00:00",
+  "signal": []
  },
  {
   "id": "f3c0936fe0371b80",
