@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-22T15:29:17+00:00",
+ "checked": "2026-10-22T19:29:31+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -288,6 +288,45 @@
   }
  ],
  "news": [
+  {
+   "id": "6be824da0e38c813",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "FDA Clears Point-of-Care Vaginitis PCR Panel with CLIA Waiver",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaWF5LU9UclFMUDc1VWlCVkpBQWdMVm9GZ1kwdWl5d3lFbmNsT0JXSGlWUkM0NjloOG5Gd3d5WVpNN3lqZ1JvMm5uZUhZeXMxa1YwNXRDQzluRDJfRkpIem9sa2QzeUF6RzhKbzNjY29RNGlHaUhhSG9pTHVrUWFDOHMwakotOXhjTEdnY3RxNmdJQnhNTEFVREJEZUk5MVp2dDczbGh4ZTdoSDhM?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "Clinical Lab Products",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-22T19:29:31+00:00"
+  },
+  {
+   "id": "e62630a42bd44e79",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "RIVANNA Wins FDA Clearance for BoneEnhance AI Module on Accuro XV",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMnBMQ1JZYVhmdlRMRFRnVTFIcFU4U25maklpZjFpWHhBOGhjLXhzck9pVEEzRG84Yk9Zd1hIdzV6TkFqTEVkUGVTeFFpdTZ3WjRCNXFuOEFxTDlqS2tXcTVVVlZRdzRFRlRRX3UtZERneUdETHNWVHhDOHY1RWNtejEyTG8wWTdZX2ZxV0ZHUDU?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "Unite.AI",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-22T19:29:31+00:00"
+  },
+  {
+   "id": "da0748605f7a48b2",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Eko Health Launches Stethoscope with AI-Based Murmur Detection",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZDB4WDJtaDhCZEJXNlJETkZtdTdxOVRUQVhhZjZDc09mWnFOM2NfdjRWQUJJX052VVROblU3a051SGNkUE9BRWtRaHBFcG42X3VMQ1VHdjNONDBpNHQ0Z1gzOVR6YXMxWThkVmR2Wk5zbElTM3czZ3FOeERianJ6NDFpVUItVkxfZ0pua1N2MlhYVzRPWVpxZHNJUnJfUzNiX3RN?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "Medical Product Outsourcing",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-22T19:29:31+00:00"
+  },
   {
    "id": "eaa5f55ec7c29fc5",
    "competitor": "Emerging (POC)",
