@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-22T23:23:45+00:00",
+ "checked": "2026-10-23T11:23:37+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -288,6 +288,19 @@
   }
  ],
  "news": [
+  {
+   "id": "1d3e72f31c84eb0a",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Blood test can help clinicians better identify brain injury severity in patients",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNclprbmhpTTVIM3N2U0lQZk9SWTZ6eFllZGh2YUl3WkFiaDVVcW5Kdkthdm4tbWRndi0yNnJOeDNGVkVDNGRHSV9WaEQ2YkVncEdvU1FEM1JCdzcxTUlEeFhKanA1d0FoWVRzdkpCME0tWXIwcEUwa3lTbGpaR2pJcjJTQ0wySmQ2TGc?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "Medical Xpress",
+   "query": "\"rapid test\" \"brain injury\"",
+   "tbi": true,
+   "first_seen": "2026-10-23T11:23:37+00:00"
+  },
   {
    "id": "6be824da0e38c813",
    "competitor": "Emerging (POC)",

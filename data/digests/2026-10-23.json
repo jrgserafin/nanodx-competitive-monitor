@@ -1,0 +1,163 @@
+{
+ "date": "2026-10-23",
+ "generated": "2026-10-23T11:23:38+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "f7bc6c4438014170",
+   "competitor": "Roche",
+   "source": "News",
+   "title": "Serum GFAP Linked to Multiple Sclerosis Progression Independent of Relapse",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbVV2S3NzRFk4Q19aSDNXZGQ0Nzg3dkMzb3YyWUpTemdpWUZ0OTl4OEtRcjVkaWxzZnZxWDllZ1FPVW9PYmpaOEF6WGc1b0h0UjdxRm5oSXdKTkk4bjRndEJIQWlwU2czRkQ0UF9tM2EtSkFxWnhhdTF3NWhqTVdLQUFyQXpSb2stYXBYVlg3SVlqUUhLeTNYUERLYldoT1FjZ1E?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "AJMC",
+   "query": "\"Roche\" \"Elecsys\" (GFAP OR \"UCH-L1\" OR \"brain injury\")",
+   "first_seen": "2026-10-23T11:21:02+00:00",
+   "signal": [
+    "GFAP"
+   ]
+  },
+  {
+   "id": "451b5d80ac58d035",
+   "competitor": "BrainBox Solutions",
+   "source": "News",
+   "title": "Blood test can help clinicians better identify brain injury severity in patients",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE02enAxS3dnTkdqbUFUVkFrVHBPV3lrXzZPblI2bS1Yblh3NHg3czFDdk92dzNCSVV5NmdYSEZqM1pWMWpISTBfb2loR2prSkhSQUZQT3NjZkhmVDNj?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "EurekAlert!",
+   "query": "\"BrainBox Solutions\"",
+   "first_seen": "2026-10-23T11:21:02+00:00",
+   "signal": []
+  },
+  {
+   "id": "0507f024580fa7fb",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "QTRX Q2 2026 Earnings: Wider-Than-Expected Loss Delivers a Sharp EPS Miss, Yet Shares Edge Higher - Operating Margin Analysis",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUVEtYklFVHlWYS1lVk9ocFRRb1NIWS1HaXNiQVg4NldzQTBFNTNDSkg1aDk2RUFySjVjQTBBVHVFV2VOZkdOTkgycGZleExIeVBvcmxaVFN1c1BJMFBzSmt2bmZxeGV5bTMxRzB4QncydFpNZG1SRURHYU9hbXpES0FaZGIxTFhhNVpRQ0o1QU9qbjdlTzRWZWdSQ0k2YUhzZGpReXowWTdTc25TaGI5SEM0Q0dBdTA3UDZSV0U3UHJKWjdYaVdXNGxqMFVmQVVDd1Vn?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "https://www.dars.gov.et/",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-23T11:21:02+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "https://www.dars.gov.et/",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUVEtYklFVHlWYS1lVk9ocFRRb1NIWS1HaXNiQVg4NldzQTBFNTNDSkg1aDk2RUFySjVjQTBBVHVFV2VOZkdOTkgycGZleExIeVBvcmxaVFN1c1BJMFBzSmt2bmZxeGV5bTMxRzB4QncydFpNZG1SRURHYU9hbXpES0FaZGIxTFhhNVpRQ0o1QU9qbjdlTzRWZWdSQ0k2YUhzZGpReXowWTdTc25TaGI5SEM0Q0dBdTA3UDZSV0U3UHJKWjdYaVdXNGxqMFVmQVVDd1Vn?oc=5"
+    },
+    {
+     "publisher": "www.dars.gov.et",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUVEtYklFVHlWYS1lVk9ocFRRb1NIWS1HaXNiQVg4NldzQTBFNTNDSkg1aDk2RUFySjVjQTBBVHVFV2VOZkdOTkgycGZleExIeVBvcmxaVFN1c1BJMFBzSmt2bmZxeGV5bTMxRzB4QncydFpNZG1SRURHYU9hbXpES0FaZGIxTFhhNVpRQ0o1QU9qbjdlTzRWZWdSQ0k2YUhzZGpReXowWTdTc25TaGI5SEM0Q0dBdTA3UDZSV0U3UHJKWjdYaVdXNGxqMFVmQVVDd1Vn?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "624ae0d5d433b57f",
+   "competitor": "TBI biomarker evidence",
+   "source": "Publication",
+   "title": "DTI-Associated Blood Biomarkers in a Human Perioperative Brain Perturbation Model.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42908436/",
+   "date": "2026-10-22",
+   "snippet": "Journal of neurotrauma. Liu J, Wang Y, Gao Z et al.",
+   "first_seen": "2026-10-23T11:21:02+00:00",
+   "signal": []
+  },
+  {
+   "id": "0406ea0e710c9aca",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "Blood test can help clinicians better identify brain injury severity in patients",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNclprbmhpTTVIM3N2U0lQZk9SWTZ6eFllZGh2YUl3WkFiaDVVcW5Kdkthdm4tbWRndi0yNnJOeDNGVkVDNGRHSV9WaEQ2YkVncEdvU1FEM1JCdzcxTUlEeFhKanA1d0FoWVRzdkpCME0tWXIwcEUwa3lTbGpaR2pJcjJTQ0wySmQ2TGc?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "Medical Xpress",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-10-23T11:21:02+00:00",
+   "signal": []
+  },
+  {
+   "id": "c5e497b25be92223",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "Blood Test Could Identify Brain Injuries Missed by CT Scans",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRlBsc1NHMHl6OHV1TGlHMU54S0h3c0UzekZVTG5tanNlSnVfcXRUVWVZRkRlbGtsclhyRnJCOFIzbkRjTEsxNEtBRkk3eGxQMkFRc0RUMFIyN05MXzExRXZ4YTkyeDV6djg1S0h6WmczdzZKbzg5V1JyVnRqVWNaUkp3STJ6b0daZkxuRFp3aHRESVlJcjhnYWVRUGt1RS0tWUhKWDJLRHJZUk9yQ2xFMzNRSTR4Sm1QQTAwSg?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "Inside Precision Medicine",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-10-23T11:21:02+00:00",
+   "signal": []
+  },
+  {
+   "id": "bcb4d0e916856fc3",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Differential sex-dependent responses of circulating steroid hormones and cortical gene expression in a traumatic brain injury model",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03dWpzV0lWUkN2Mm1FekpubmJiNHBQNWtNbW1Ca0FBUDZoalJteHQtSlZYZTdHc3FxcWhNdzdlZGp3REVDczNRSURaNHV2aXlqQl9WLUlWZlJuNDVaeXdz?oc=5",
+   "date": "2026-10-21",
+   "snippet": "",
+   "publisher": "Science | AAAS",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-22T23:21:10+00:00",
+   "signal": []
+  },
+  {
+   "id": "2e3076aa2ada9d9e",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Neurofilament Light Chain Blood Test: Results & Limits",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbjJjdUlRLTlJNHljQUhETUZGRU9CUVRNWVRwSUxsdDJXRHVsYW1aWHpPVWpCTTY4UUpVYUE0OGE5cmRrNnRocVowbTU3NTU4QUFKN2tuWUlWMTNqMlVvT2JLMDBqRFV4MDZSNFVETmpkOHR6cVYxaHAyWEhEQ2h1ZzVjd043QQ?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "Kantesti AI Blood Test Analyzer",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-22T23:21:10+00:00",
+   "signal": []
+  },
+  {
+   "id": "0a6c24bb3098c27a",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Blood test can help clinicians better identify brain injury severity in patients",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNclprbmhpTTVIM3N2U0lQZk9SWTZ6eFllZGh2YUl3WkFiaDVVcW5Kdkthdm4tbWRndi0yNnJOeDNGVkVDNGRHSV9WaEQ2YkVncEdvU1FEM1JCdzcxTUlEeFhKanA1d0FoWVRzdkpCME0tWXIwcEUwa3lTbGpaR2pJcjJTQ0wySmQ2TGc?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "Medical Xpress",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-23T11:21:02+00:00",
+   "signal": []
+  },
+  {
+   "id": "fe05669b4e521611",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Blood Test Could Identify Brain Injuries Missed by CT Scans",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRlBsc1NHMHl6OHV1TGlHMU54S0h3c0UzekZVTG5tanNlSnVfcXRUVWVZRkRlbGtsclhyRnJCOFIzbkRjTEsxNEtBRkk3eGxQMkFRc0RUMFIyN05MXzExRXZ4YTkyeDV6djg1S0h6WmczdzZKbzg5V1JyVnRqVWNaUkp3STJ6b0daZkxuRFp3aHRESVlJcjhnYWVRUGt1RS0tWUhKWDJLRHJZUk9yQ2xFMzNRSTR4Sm1QQTAwSg?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "Inside Precision Medicine",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-23T11:21:02+00:00",
+   "signal": []
+  },
+  {
+   "id": "694828d1a9b6e3a9",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Long-Term Mortality After Moderate-to-Severe TBI Remains High in Low-Resource Settings",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNXUwT2d6UTJ2WkRJQVMtMTFGa0pzS2tpdjFqd0p5QW5iY2YybzcyZFp1NTM5RnZuemNvM0Q1bnpYV2NQQ1dMUDh5SHhJOVpIYXlsN2FMSnFVLVJad1V5dlBHekg4QTItZ3U0QnZBR2plTFprV2xrSjBIcURIX1FrVVRTLWdTN21SY3lILXdoV2VXQjFkZ1pEaEl3bU1jODIyTW8wSWE3QlNmUndsNDYzN2RBcHBCcExqVG1YVHM0UVJuQQ?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "Physicians Weekly",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-23T11:21:02+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}
