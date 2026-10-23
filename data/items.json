@@ -22,6 +22,19 @@
   "signal": []
  },
  {
+  "id": "6dba806287802ab6",
+  "competitor": "Abbott",
+  "source": "News",
+  "title": "Lynchburg Woman Running NYC Marathon to Raise Awareness for Brain Injury Survivors",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWlJlWUtSVDZCVXRpTXBzM0trQUhjbUxybmVCSXE5Ylh3SWN4cmwzckVfUEhXeWd5aWhKR0NvMFIzUDhFUmh5alhLVHZ1VDRrNzNFaFo2Z2plb2VFZDIxSkhURjhibG4zckx2ZzdBMmZQakRCOHYxZ0J4MlZ3OW5zcXdnbHhfYUNuMGFKUnNIQ3RIVFhRZ3FDV2VtN05DNFBLYm5xdEhEWllZZmpXOEktNWJn?oc=5",
+  "date": "2026-10-23",
+  "snippet": "",
+  "publisher": "WSLS",
+  "query": "\"Abbott\" \"TBI\" test",
+  "first_seen": "2026-10-23T23:18:22+00:00",
+  "signal": []
+ },
+ {
   "id": "ae94e8af603bf347",
   "competitor": "Quanterix",
   "source": "News",
@@ -704,6 +717,19 @@
   "publisher": "Low Income Relief",
   "query": "CMS \"clinical laboratory fee schedule\"",
   "first_seen": "2026-10-16T11:18:39+00:00",
+  "signal": []
+ },
+ {
+  "id": "c9119ba37905c0c0",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "QTRX Q2 2026 Earnings: Wider-Than-Expected Loss Delivers a Sharp EPS Miss, Yet Shares Edge Higher - Estimate Accuracy",
+  "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWUZWS0E5UDlMU0JabS1fUndyYTk4X2M4ZGhzQUNmVU95XzZoTzNzOXJRN2J4cVB2UUNjeEt3MHJOMHV5TmphY1YxZGRaUDhjT0ZrNmc1TG4yRERuUlA0eWNRNVRMenYyQThrZy1iLVN5b0lMUXpvQ2E2aUFORTJ6b2hiSF81ckh1Q1BEZ1VscWNJbkpYWTFraERCX0RpbjZQaThhbDA5WGNJZ1FsSzQxNV9wQlhLcVloUjhJekhuNUFMbUF4bkxsZ2JaUEwzTVhS?oc=5",
+  "date": "2026-10-15",
+  "snippet": "",
+  "publisher": "www.dars.gov.et",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-10-23T23:18:22+00:00",
   "signal": []
  },
  {

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-23T19:29:11+00:00",
+ "checked": "2026-10-23T23:20:41+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -521,6 +521,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-19T19:29:21+00:00"
+  },
+  {
+   "id": "ec3b9c6a2269fd28",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "US chip startup Bolt Graphics seeks $100 million funding, sidesteps AI battlefield to take on Nvidia and AMD",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JMFFzUERBdDlpWWdOVFB1R0lHYXZxMk5ic0FYVHV5eEtXdEphOFJNS1J0WmZGa3pJWFp0aDlPMlduNGtzX3puM0lUSTY1Q0g5SWN4VDM4MlhlMVRJVG1ITlZVeVpvaUR5OUFWQXNndmpvcGtOcUE?oc=5",
+   "date": "2026-10-17",
+   "snippet": "",
+   "publisher": "BigGo Finance",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-23T23:20:41+00:00"
   },
   {
    "id": "d9ca39db336b85e1",
