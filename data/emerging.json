@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-23T11:23:37+00:00",
+ "checked": "2026-10-23T15:29:12+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -302,6 +302,19 @@
    "first_seen": "2026-10-23T11:23:37+00:00"
   },
   {
+   "id": "ec6fcc4da18e707b",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "FDA Clears Machine Learning Module for Emerging Musculoskeletal Ultrasound Platform",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTk1ETFd5Rk5DSjMzN0RjbHBrMUY1T29ndjVvOTM4QmVMTGJMVFpZRUNlSmplZDl0RldqZHF5QndDMG1STURVWUdHLXVNVkh6b1pDVDRweFFhLWFDbzlfOEhvSEdPNUxxUUJVSXhEdXhud0ZTd3E5cE9HX2R6ZjRwcEhfSWliWUtCcUJkMllfOWRXTlRwYXNXN202M1AyQmlHRUE5OUFSNk0xLUt5TDhV?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "Diagnostic Imaging",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-23T15:29:12+00:00"
+  },
+  {
    "id": "6be824da0e38c813",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -339,6 +352,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-22T19:29:31+00:00"
+  },
+  {
+   "id": "9f86ab8e9d69d301",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "World Urea Enzymatic Biosensors - Market Analysis, Forecast, Size, Trends and Insights",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdXVqYjlqUDVhQUV5RWFiSVNxSEhvNE03WWxtVV9qc19Tcmxoam9EUXd4dFd5cmUtZWpKVXAyZTJEMjh3ZV90Qko5VkNHM1BKeUp6UGk3bHJmeUxwVUZVbXZCQXJyUGh3SHkwaUNqUTlKQ0d4V2ZaTVpMblYtaGxHZWhpNUlrS1R3bm90c1NWZ3EwTHhKWmx4bHZoYjBWWm9tbkljQ0Y4MEFPcm5kRFZ5NU95ZmM4ajJMcGtZanhUQWRTLXpORHR3M1FB?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "IndexBox",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-23T15:29:12+00:00"
   },
   {
    "id": "eaa5f55ec7c29fc5",
