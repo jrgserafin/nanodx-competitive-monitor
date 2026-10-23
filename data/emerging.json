@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-23T15:29:12+00:00",
+ "checked": "2026-10-23T19:29:11+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -365,6 +365,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-10-23T15:29:12+00:00"
+  },
+  {
+   "id": "be4374b57f29bfc9",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "LSPR Nanoparticle Biosensors Market Forecast to 2035: Point-of-Care Diagnostics Demand Drives 12% CAGR",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdU1MbWo3ejkzaVpQdnVrTzBQR0NqcVRzUFlWa205ZHRTV3RLSC1EM08tTXh0WmV0ZE1nMTB5Q2kzWHhGUXd5Y3JGckVYLXBMS1Rfdm4za2VDYlZmSVIzMlJpYjQxYnB3RE5EUjZlS3B3eTVUYzkyTi1jWHAzUnFwa2dycTN6LXhGckJGQllPSXdtYTNEOFI3OExFX1ZkX0s5WF93VGJkV0N4VzctaVg5Zm1rbWVrVWE3eGRuMDJuSm8wV0J6WWhaOEJR?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "IndexBox",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-23T19:29:11+00:00"
   },
   {
    "id": "eaa5f55ec7c29fc5",

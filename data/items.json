@@ -22,6 +22,32 @@
   "signal": []
  },
  {
+  "id": "ae94e8af603bf347",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix Corporation Estimates – NASDAQ:QTRX",
+  "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fZGQ3X1U1TUtLVll3b0JGWjhLZWxWRWRBODdmRlVzMEc5d0V4U0Ftc195ejVGT3RoVURrMTgxeWRxY2w3cFlnRWF4OUF4XzdKWm9kUTRFNk1WUzkzbDdNbzNMSWxwR1dvc0I5QnhHVHBBTFFVT0p3bA?oc=5",
+  "date": "2026-10-23",
+  "snippet": "",
+  "publisher": "TradingView",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-10-23T19:26:46+00:00",
+  "signal": []
+ },
+ {
+  "id": "bb99728b49c39895",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Corporation Estimates – NASDAQ:QDEL",
+  "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RMVJRd2ZrUng0WFQ3TkE1Tk9uTTJ6U0xkcm5UTE53bkxwbFJDLUNFbXZDTGxMVkdabDMtMDZoRW11MlJHZWVnV2pHRjJIQnhlZ2c0SXV2RXVqbk82S2tlY1pvS3k2TV9NS0dCYkRHbUFUUjVHTnN3dA?oc=5",
+  "date": "2026-10-23",
+  "snippet": "",
+  "publisher": "TradingView",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-23T19:26:46+00:00",
+  "signal": []
+ },
+ {
   "id": "be00e0f7896eeab2",
   "competitor": "Abbott",
   "source": "News",
