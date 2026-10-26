@@ -1,0 +1,434 @@
+{
+ "week": "2026-W44",
+ "start": "2026-10-19",
+ "end": "2026-10-26",
+ "generated": "2026-10-26T11:32:26+00:00",
+ "counts": [
+  {
+   "name": "Abbott",
+   "this_week": 3,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "bioMérieux",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainScope",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "InfraScan",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainBox Solutions",
+   "this_week": 1,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "EzDiatech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "STATA DX",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "GLIA Diagnostics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Quanterix",
+   "this_week": 2,
+   "last_week": 10,
+   "signal": 0
+  },
+  {
+   "name": "Genalyte",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Oculogica",
+   "this_week": 1,
+   "last_week": 2,
+   "signal": 1
+  },
+  {
+   "name": "Sense Neuro Diagnostics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Medicortex",
+   "this_week": 1,
+   "last_week": 4,
+   "signal": 0
+  },
+  {
+   "name": "Roche",
+   "this_week": 1,
+   "last_week": 1,
+   "signal": 1
+  },
+  {
+   "name": "AeHealth",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Wondfo",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "ACON",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Hotgen",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "QuidelOrtho",
+   "this_week": 8,
+   "last_week": 10,
+   "signal": 0
+  },
+  {
+   "name": "Boditech Med",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Getein Biotech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI diagnostics market",
+   "this_week": 12,
+   "last_week": 9,
+   "signal": 1
+  },
+  {
+   "name": "Lab reimbursement (CMS)",
+   "this_week": 1,
+   "last_week": 6,
+   "signal": 0
+  },
+  {
+   "name": "TBI biomarker evidence",
+   "this_week": 5,
+   "last_week": 2,
+   "signal": 1
+  },
+  {
+   "name": "Point-of-care & capillary sampling",
+   "this_week": 1,
+   "last_week": 1,
+   "signal": 1
+  },
+  {
+   "name": "TBI epidemiology & ED burden",
+   "this_week": 2,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "CT avoidance & health economics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI clinical guidelines",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI test reimbursement (CPT 0570U)",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Military TBI screening",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "EMS & prehospital TBI",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "International TBI tests",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  }
+ ],
+ "top": [
+  {
+   "id": "3aa951ba5cec8fde",
+   "competitor": "Point-of-care & capillary sampling",
+   "source": "Publication",
+   "title": "Point-of-Care Computer Vision for Postural Assessment in Brain Injury Rehabilitation.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42927784/",
+   "date": "2026-10-25",
+   "snippet": "Archives of physical medicine and rehabilitation. Kirkby E, Burke H, Cline S et al.",
+   "first_seen": "2026-10-26T11:29:47+00:00",
+   "signal": [
+    "point-of-care"
+   ]
+  },
+  {
+   "id": "f7bc6c4438014170",
+   "competitor": "Roche",
+   "source": "News",
+   "title": "Serum GFAP Linked to Multiple Sclerosis Progression Independent of Relapse",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbVV2S3NzRFk4Q19aSDNXZGQ0Nzg3dkMzb3YyWUpTemdpWUZ0OTl4OEtRcjVkaWxzZnZxWDllZ1FPVW9PYmpaOEF6WGc1b0h0UjdxRm5oSXdKTkk4bjRndEJIQWlwU2czRkQ0UF9tM2EtSkFxWnhhdTF3NWhqTVdLQUFyQXpSb2stYXBYVlg3SVlqUUhLeTNYUERLYldoT1FjZ1E?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "AJMC",
+   "query": "\"Roche\" \"Elecsys\" (GFAP OR \"UCH-L1\" OR \"brain injury\")",
+   "first_seen": "2026-10-23T11:21:02+00:00",
+   "signal": [
+    "GFAP"
+   ]
+  },
+  {
+   "id": "b15c3790cb1e054c",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "Rising GFAP After Thrombolysis Flags Early Stroke Deterioration",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYVRidnRyWTRIaXJuN3l2aU5FRC1JTmRCVmEwNG8yY19BQTF1azYtX1NrMnMzakFfb1dtQ0NXVmVqZ3o5TXdIX3p0ZmlnM1lOdlA1cHBTMXNyaDQ0WGRVemZ2YjJNanlab2hkUmpIWVVBdUl6LXpnSWxMUEpMTi1uaEd3NXlSd0NiY3JnRTdtWHFYdw?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-10-22T11:21:19+00:00",
+   "signal": [
+    "GFAP"
+   ]
+  },
+  {
+   "id": "e90317404aa0e746",
+   "competitor": "Oculogica",
+   "source": "News",
+   "title": "KACH collaboration garners FDA approval of TBI diagnosis device; device recognized by TIME",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNckxDVzVESEtwTm1Tdk8xLUM3NXM1bEVwM2s4NlpIbmt0ZHItQWRmWVBxTHlvZHNhZFVMdHZNQ3NtNXZ2YThWcTE5bHE2NlNlQ2VrZXUwbVdna0FxNXhjTXI1aXZWZlVselpOb09TVTVBeldDLThFbTRQMktDOGdPRzRMQV9yR0FsMFBkWFpDcTFhZVpLei0ydnRYOU1iQ3haNk0zd29HV2F6aWlNZnlrNHpScW1ocmVKRnVuNg?oc=5",
+   "date": "2026-10-21",
+   "snippet": "",
+   "publisher": "DVIDS",
+   "query": "\"Oculogica\"",
+   "first_seen": "2026-10-21T23:18:05+00:00",
+   "signal": [
+    "FDA",
+    "approval"
+   ],
+   "alert": true
+  },
+  {
+   "id": "18bd46fb7f55a79b",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Concussions may disrupt testosterone for years. Researchers are connecting the dots.",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BS2h5aXZvUXdqeW5XazhCOVpDRjFIOThqODZfaC1EOGgtWXNvNjlqR3ZjTmVNSHBQMnhObnlHckRsazRoQlotQ0pZd2VpVFRmYm1ib3NncGRxbFlOLWx0djFQbTc1VGV1WGp6c1NROE16dWfSAXNBVV95cUxOLVQtQVlwZTFDcWlWNWdqd2JfTU1EdXNLeWpuVk43ejUtd011YXk4QkVOMW5jRWlfZ2poa1htUGhqT29aMjd0cXBRR0ZDNFFfNVV5TTJ2bG5ocGFrV1RaQndNS2VwYWNpVjBMdU9Day05TUQ4?oc=5",
+   "date": "2026-10-20",
+   "snippet": "",
+   "publisher": "Fort Worth Star-Telegram",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-20T11:20:18+00:00",
+   "signal": [
+    "concussion"
+   ]
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false,
+ "cites": [
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42927784/",
+   "title": "Point-of-Care Computer Vision for Postural Assessment in Brain Injury Rehabilitation."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbVV2S3NzRFk4Q19aSDNXZGQ0Nzg3dkMzb3YyWUpTemdpWUZ0OTl4OEtRcjVkaWxzZnZxWDllZ1FPVW9PYmpaOEF6WGc1b0h0UjdxRm5oSXdKTkk4bjRndEJIQWlwU2czRkQ0UF9tM2EtSkFxWnhhdTF3NWhqTVdLQUFyQXpSb2stYXBYVlg3SVlqUUhLeTNYUERLYldoT1FjZ1E?oc=5",
+   "title": "Serum GFAP Linked to Multiple Sclerosis Progression Independent of Relapse"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYVRidnRyWTRIaXJuN3l2aU5FRC1JTmRCVmEwNG8yY19BQTF1azYtX1NrMnMzakFfb1dtQ0NXVmVqZ3o5TXdIX3p0ZmlnM1lOdlA1cHBTMXNyaDQ0WGRVemZ2YjJNanlab2hkUmpIWVVBdUl6LXpnSWxMUEpMTi1uaEd3NXlSd0NiY3JnRTdtWHFYdw?oc=5",
+   "title": "Rising GFAP After Thrombolysis Flags Early Stroke Deterioration"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNckxDVzVESEtwTm1Tdk8xLUM3NXM1bEVwM2s4NlpIbmt0ZHItQWRmWVBxTHlvZHNhZFVMdHZNQ3NtNXZ2YThWcTE5bHE2NlNlQ2VrZXUwbVdna0FxNXhjTXI1aXZWZlVselpOb09TVTVBeldDLThFbTRQMktDOGdPRzRMQV9yR0FsMFBkWFpDcTFhZVpLei0ydnRYOU1iQ3haNk0zd29HV2F6aWlNZnlrNHpScW1ocmVKRnVuNg?oc=5",
+   "title": "KACH collaboration garners FDA approval of TBI diagnosis device; device recognized by TIME"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BS2h5aXZvUXdqeW5XazhCOVpDRjFIOThqODZfaC1EOGgtWXNvNjlqR3ZjTmVNSHBQMnhObnlHckRsazRoQlotQ0pZd2VpVFRmYm1ib3NncGRxbFlOLWx0djFQbTc1VGV1WGp6c1NROE16dWfSAXNBVV95cUxOLVQtQVlwZTFDcWlWNWdqd2JfTU1EdXNLeWpuVk43ejUtd011YXk4QkVOMW5jRWlfZ2poa1htUGhqT29aMjd0cXBRR0ZDNFFfNVV5TTJ2bG5ocGFrV1RaQndNS2VwYWNpVjBMdU9Day05TUQ4?oc=5",
+   "title": "Concussions may disrupt testosterone for years. Researchers are connecting the dots."
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42759081/",
+   "title": "Fighting for safety: head and spine injuries in martial arts presenting to U.S. emergency departments."
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42848964/",
+   "title": "Emergency Department Visits for Falls and First-Time Seizure."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBXclJ4cTNCTDlCcGpQWFJtN1FRUFd2NmFXZGNrTjR1YzlMY0RMTUZfMGJDUms1LUxENnlXbi0zRVZNS1ZWRnhPdk1neWl6TDFZNk01aXdYNGpJaVVTR2h1THZhZUs3dUcwbnJQOUx2Qk5seFBxY0I5U2pR?oc=5",
+   "title": "Medicortex International AB (publ) Class B Estimates – NGM:MEDFIN.B"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ0JlbW5aWFBaUk5xaHh1NkZGNlF1SGJYU1ZDaFdXY2FiYWlvbmo3ZTJUMUw2Z2E4RlNZS1ZoM29UMTB2ZmtuM1cyTzlJYWJTMUFULVg2Ym9fZXNsUWlFbTB1M0tPeWEycTQtdEtSOTFCWWV5NVItQWV2U2VvRDZQYV83NWZzVkJkVXQ2RzE2WWlDcldubXltSF9fZGRyRWZNZ1R6cG5R?oc=5",
+   "title": "Blood Protein Cutoffs Help Clinicians Identify Brain Injury That CT Scans Miss"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbXZkdTlhSHlONV96QXB0eFEtQVF4OXlJWWJZVC1aMWJ1WFZnUTNDWkdaX2dqaFYxVnlaZURPWjY3TlNTc09leFJPQXN3eDI3QXJHRlZqVzJjNHBJTnhBVUxpc2dmakRHeEhtc05YbUZoZ3hxVTRzWFhsQW9oWTcyUHA1a0g1N2wyYXZrUkRDc1ZnOU90bTZmOHk0MGZ3STlDZVE?oc=5",
+   "title": "How sex-based biology shapes the brain’s response to injury"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWlJlWUtSVDZCVXRpTXBzM0trQUhjbUxybmVCSXE5Ylh3SWN4cmwzckVfUEhXeWd5aWhKR0NvMFIzUDhFUmh5alhLVHZ1VDRrNzNFaFo2Z2plb2VFZDIxSkhURjhibG4zckx2ZzdBMmZQakRCOHYxZ0J4MlZ3OW5zcXdnbHhfYUNuMGFKUnNIQ3RIVFhRZ3FDV2VtN05DNFBLYm5xdEhEWllZZmpXOEktNWJn?oc=5",
+   "title": "Lynchburg Woman Running NYC Marathon to Raise Awareness for Brain Injury Survivors"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fZGQ3X1U1TUtLVll3b0JGWjhLZWxWRWRBODdmRlVzMEc5d0V4U0Ftc195ejVGT3RoVURrMTgxeWRxY2w3cFlnRWF4OUF4XzdKWm9kUTRFNk1WUzkzbDdNbzNMSWxwR1dvc0I5QnhHVHBBTFFVT0p3bA?oc=5",
+   "title": "Quanterix Corporation Estimates – NASDAQ:QTRX"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RMVJRd2ZrUng0WFQ3TkE1Tk9uTTJ6U0xkcm5UTE53bkxwbFJDLUNFbXZDTGxMVkdabDMtMDZoRW11MlJHZWVnV2pHRjJIQnhlZ2c0SXV2RXVqbk82S2tlY1pvS3k2TV9NS0dCYkRHbUFUUjVHTnN3dA?oc=5",
+   "title": "QuidelOrtho Corporation Estimates – NASDAQ:QDEL"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ0hSWDlHckp1N044UkJwcHFQUFNYZlF0QXlzYWpmd2FzZXVzRjJ3dURQVm9lczZJR09YdGptS2xSVlpzU0dQRlhoS1AzLUVxNlQyZlNrWHlaWDBhUURzWUZ1OHMtQVB5WjRUTkEyd0pnNkFUV0puRVhaaXVtMWo4Mkl1MDRiQzY1R1J2ZngySmVoVHFGWUFkbnhzWHZoVndpLUtrUlNKLUVKQWo3WDBrNnNGYnhwU05DZEdVWVJZR1lpaWppWUxvck1meV8wQQ?oc=5",
+   "title": "Blood Test May Detect Brain Injuries Missed by CT Scans"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE02enAxS3dnTkdqbUFUVkFrVHBPV3lrXzZPblI2bS1Yblh3NHg3czFDdk92dzNCSVV5NmdYSEZqM1pWMWpISTBfb2loR2prSkhSQUZQT3NjZkhmVDNj?oc=5",
+   "title": "Blood test can help clinicians better identify brain injury severity in patients"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLVXpqRGw2RmJnM2NCWkpTTzYwUjNiMS1KQnJrZVVjR2xDcmo5Nkc5QVdYb0ZzR1NRRXhDOHVXV1VTYkVkcTNYMXdONVRnWGxpVU5MQmhoX3hNaTRNNk5DRnhNZE5hUjQySnZDRl9aU1pZekFG?oc=5",
+   "title": "QuidelOrtho Corporation Estimates – FWB:QL1A"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ0hSWDlHckp1N044UkJwcHFQUFNYZlF0QXlzYWpmd2FzZXVzRjJ3dURQVm9lczZJR09YdGptS2xSVlpzU0dQRlhoS1AzLUVxNlQyZlNrWHlaWDBhUURzWUZ1OHMtQVB5WjRUTkEyd0pnNkFUV0puRVhaaXVtMWo4Mkl1MDRiQzY1R1J2ZngySmVoVHFGWUFkbnhzWHZoVndpLUtrUlNKLUVKQWo3WDBrNnNGYnhwU05DZEdVWVJZR1lpaWppWUxvck1meV8wQQ?oc=5",
+   "title": "Blood Test May Detect Brain Injuries Missed by CT Scans"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ0hSWDlHckp1N044UkJwcHFQUFNYZlF0QXlzYWpmd2FzZXVzRjJ3dURQVm9lczZJR09YdGptS2xSVlpzU0dQRlhoS1AzLUVxNlQyZlNrWHlaWDBhUURzWUZ1OHMtQVB5WjRUTkEyd0pnNkFUV0puRVhaaXVtMWo4Mkl1MDRiQzY1R1J2ZngySmVoVHFGWUFkbnhzWHZoVndpLUtrUlNKLUVKQWo3WDBrNnNGYnhwU05DZEdVWVJZR1lpaWppWUxvck1meV8wQQ?oc=5",
+   "title": "Blood Test May Detect Brain Injuries Missed by CT Scans"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE02enAxS3dnTkdqbUFUVkFrVHBPV3lrXzZPblI2bS1Yblh3NHg3czFDdk92dzNCSVV5NmdYSEZqM1pWMWpISTBfb2loR2prSkhSQUZQT3NjZkhmVDNj?oc=5",
+   "title": "Blood test can help clinicians better identify brain injury severity in patients"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNclprbmhpTTVIM3N2U0lQZk9SWTZ6eFllZGh2YUl3WkFiaDVVcW5Kdkthdm4tbWRndi0yNnJOeDNGVkVDNGRHSV9WaEQ2YkVncEdvU1FEM1JCdzcxTUlEeFhKanA1d0FoWVRzdkpCME0tWXIwcEUwa3lTbGpaR2pJcjJTQ0wySmQ2TGc?oc=5",
+   "title": "Blood test can help clinicians better identify brain injury severity in patients"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRlBsc1NHMHl6OHV1TGlHMU54S0h3c0UzekZVTG5tanNlSnVfcXRUVWVZRkRlbGtsclhyRnJCOFIzbkRjTEsxNEtBRkk3eGxQMkFRc0RUMFIyN05MXzExRXZ4YTkyeDV6djg1S0h6WmczdzZKbzg5V1JyVnRqVWNaUkp3STJ6b0daZkxuRFp3aHRESVlJcjhnYWVRUGt1RS0tWUhKWDJLRHJZUk9yQ2xFMzNRSTR4Sm1QQTAwSg?oc=5",
+   "title": "Blood Test Could Identify Brain Injuries Missed by CT Scans"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNXUwT2d6UTJ2WkRJQVMtMTFGa0pzS2tpdjFqd0p5QW5iY2YybzcyZFp1NTM5RnZuemNvM0Q1bnpYV2NQQ1dMUDh5SHhJOVpIYXlsN2FMSnFVLVJad1V5dlBHekg4QTItZ3U0QnZBR2plTFprV2xrSjBIcURIX1FrVVRTLWdTN21SY3lILXdoV2VXQjFkZ1pEaEl3bU1jODIyTW8wSWE3QlNmUndsNDYzN2RBcHBCcExqVG1YVHM0UVJuQQ?oc=5",
+   "title": "Long-Term Mortality After Moderate-to-Severe TBI Remains High in Low-Resource Settings"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNclprbmhpTTVIM3N2U0lQZk9SWTZ6eFllZGh2YUl3WkFiaDVVcW5Kdkthdm4tbWRndi0yNnJOeDNGVkVDNGRHSV9WaEQ2YkVncEdvU1FEM1JCdzcxTUlEeFhKanA1d0FoWVRzdkpCME0tWXIwcEUwa3lTbGpaR2pJcjJTQ0wySmQ2TGc?oc=5",
+   "title": "Blood test can help clinicians better identify brain injury severity in patients"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRlBsc1NHMHl6OHV1TGlHMU54S0h3c0UzekZVTG5tanNlSnVfcXRUVWVZRkRlbGtsclhyRnJCOFIzbkRjTEsxNEtBRkk3eGxQMkFRc0RUMFIyN05MXzExRXZ4YTkyeDV6djg1S0h6WmczdzZKbzg5V1JyVnRqVWNaUkp3STJ6b0daZkxuRFp3aHRESVlJcjhnYWVRUGt1RS0tWUhKWDJLRHJZUk9yQ2xFMzNRSTR4Sm1QQTAwSg?oc=5",
+   "title": "Blood Test Could Identify Brain Injuries Missed by CT Scans"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQlFLWGVtdmRkUjlON1VDeW15bFY2TDNaMS1aT05qLUo0cDJwMXpNc1FRakhEdHJ1NHRqSUpLLW1OV0JkS3RIOU9DdTVIWFlxeEh3b0w1OEhNRUkwOFNxU2lSekE1NDhkX3Btek1zNFdCUkRlYS05eXBkTjhDdVhBU2s5bjFJQlhfQUllZWM5TVN6S1lZWjIybFlCR0dJWGt3UFNCZmhhRktJOUFCczNPQUM0Szl3ME1j?oc=5",
+   "title": "Integrating Spatial Transcriptomics and Proteomics: Unlocking More from Every Tissue Section, Upcoming Webinar Hosted by Xtalks"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQkRWdFR1dTQtNXhVaVRjSWdBcFU3dTFFOWl1endzVDhhNlhRVXQxWWt2VElrSG4zMmppeXZEcENkYlIycjhmckdNMVVIX2kxNjVmSjhiRVp6RU54REx1ZmloTXpaQ3RJd0IyaWxYM1h5bDBSOEdWd0dwdDJYMm1GMDg0TEJ3cXl6WFdIbFZsaWFuS0pqWXNVWlRCNlpmZGluYUdLRTFGRUVfWGNNeTVKSjlncXBLRXRrb3NtOVMwNGxfVl9aMkY5dm1mSG3SAdIBQVVfeXFMUGRzWVVISGtjcWN5OXVNX24xX3UxLVc1dWJuSmRlaldHTmh1S3VrLXFzS0wxNTAxcDMxcjRIelhVY3NHNUVQUHRGYWFuQk5GODlfYm9ra2ctT2xNR3FNVHN5WjFSaHp0ak5hUkdENzhFNmlVaTZFaDdTQ2JGcjJvOUtpdHRqRExJRGt2OVJuZFRlTlB6Nk5YdWF4RWZGWWpGd1hYdllIUU96Y3NKY1RvZ2lab2VEalNxMnB5UW5CbVZiemVNY0MtY19IWFBnLXNiOVFB?oc=5",
+   "title": "What Investors Got Wrong About QuidelOrtho Before A 53% Slide"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42908436/",
+   "title": "DTI-Associated Blood Biomarkers in a Human Perioperative Brain Perturbation Model."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbjJjdUlRLTlJNHljQUhETUZGRU9CUVRNWVRwSUxsdDJXRHVsYW1aWHpPVWpCTTY4UUpVYUE0OGE5cmRrNnRocVowbTU3NTU4QUFKN2tuWUlWMTNqMlVvT2JLMDBqRFV4MDZSNFVETmpkOHR6cVYxaHAyWEhEQ2h1ZzVjd043QQ?oc=5",
+   "title": "Neurofilament Light Chain Blood Test: Results & Limits"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUXljanNFdnV0bDNpdnJ1RXBza2FQM1RuNjdSV2dPdG0tbnU0ckFuMHRLVHAtWE1HY0FReGg5TG5LWVlqNWRNcUYxcUN3N2RkZV82aVIwQlI5S0toT3R3RzdMVFk3RkJ1UnlpaVFHQk5VaTV0NGg2WnhMTFlTT0hYVm1nT2UtWGE1aVdaR2t3?oc=5",
+   "title": "How Quantitative MRI Reveals Brain Changes the Eye Can’t See"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM2NuOXJRVlVMM1V2cHBoWl9BbGxTODBPWkdudFpvRkUwcjBIMWUzb1JnYXZjN2dSSHNYekUxWWJqNXdfMWUwOEoyXzFNTUc5WUFKdWpOUEJIWnp3RThUWFVzMWZBei1uaTFmdW8wMlZHLWRhdnByT0phOEZtaHYzaE9rcTNIcnFBNFd2QkI3YmhZenVSWV9CZTdHZEQ5cmUzUV9RMFhmLXh4LXlKVXBRWWFTSTRRY0UzdWZQZ2lsMjczU2o0bWpVVGpHbEMyUUtQbTk0Z2FNenQ?oc=5",
+   "title": "California Seventh-Grader Reaches National Science Finals with Fruit Fly Research on Traumatic Brain Injury"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03dWpzV0lWUkN2Mm1FekpubmJiNHBQNWtNbW1Ca0FBUDZoalJteHQtSlZYZTdHc3FxcWhNdzdlZGp3REVDczNRSURaNHV2aXlqQl9WLUlWZlJuNDVaeXdz?oc=5",
+   "title": "Differential sex-dependent responses of circulating steroid hormones and cortical gene expression in a traumatic brain injury model"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtcmdUNERjaWRwdmN6LUFhNjlXSDQxdkMzXzJyY3FnNk1PbGFtNjFjbFJDS2RxVDRoay1najdPaFlQM09XTTc4dWxyQ2NPU0FNcU02TFNGTjk?oc=5",
+   "title": "QuidelOrtho Shares Rise More Than 11% After Friday's 7% Drop"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcXNpNE9RV0RvVkc1RmdCa2pLd1BjOXktX09pVWFGNDc2Zl9ubDR2Y2tmYUYzTGpwRHFUM250N2otUXlNSjNfRmw2NDdDSUJCMkhnYTZWcUpZaXpTcUZsd0VXdFZLYnQzdnNKSkxhSmg2ck9oaFk2QjNjcDZfTlhtOUtINVpFcUlIUVFqTlAxRExEaElTZHNlOTZ2Q01jMy1yVlBneG9HaDRYMXZSYXBYaGxsY2I3LUxlY215b0NMY256djRQ?oc=5",
+   "title": "AHA comments to CMS on preliminary 2027 Medicare clinical laboratory fee schedule rates"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMkRUWlJldUNNV3BXUGV0dF9zVTR4b0dFTWtrY0tHUkd0NVcyVDh0c0RPR21Yako4NEhRVEUweFR0SzNXNm1kTDZyM29DeHE4MnBUMW9zSmJqMjN5dnFFdVUxOVYwYkgxX21TXzFlUlJzaWdHd2JVSmRjZGdUWmhDeFJmems4U0hXX3BtT1NaakJDSWZubnM4cm50OE5YWmV3bVF6czFveko3cWtycjBKWkp1Rnl1RUV5a2s2eHYtbXIwYVdLNVFZemZzZllQLUtjbnN2bGRR?oc=5",
+   "title": "Form 4 QuidelOrtho Corp: Jonathan Philip Siegrist (EVP of R&D & CTO) For: 15 October"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb0JfbmVVdS1hU09wTnBGS1llQnlEWWhXNzI4ZUNLVkttMFQwWHVwZGxNZ21Kek1lcjhqaWtOQnBkSjNFYXBzOXZGVTFhendBcEJOQkdvVzJpQkpRckR2V29MMFliTW1YaWQzdXp5WGhKQWtkRWl2LWhTVzA4empfU2o5ZnBCWmtFYUd2X1hjZnp0dlBZM2F6VkstVDRTMDBhdExnMTVmRlIxc0pQZF9nTE92MEU?oc=5",
+   "title": "QuidelOrtho (QDEL) Shares Surge 11.52% Amid Volatile Trading on October 20, 2026"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc08zTkZjeXdCTVFSQ256UFpmSFpodU9vMWlyWXBoLXJvOUE3cXFwbU0tZllmaF9uN1JWYmhKUlNrRWgxdUJSY0Rlb1NHNEEweGh5NVJ5cXM0c0hqVkdTN21vdVBfYlZxemt2eDMwTXlGaXVsM1RPTXFpUjA0dGFJMUZkM3hRWnRldmI5T0YwU2F3dWpsaUpEUTByUjZSMFU?oc=5",
+   "title": "QuidelOrtho to Report Third Quarter 2026 Financial Results on November 3, 2026"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMjlVWnFkd1h0ZHRvejVEU2Y4U3RQVl9ZQ2ZuODRKWF9VcGdRaXV4RFg0REZpeWVmMXBxU0VwN2NuQ1ZuMFgxWFN3TFF6Q0Q4emRLTkFwUjJSUWhoWWRJOWxQMXRhNzV6dEVQU3lucVd4Z2lGOGhGMmhiMGRLcThnRXFZOG5RRnVkbnZwcFRYQXprREVFNExxSjJ1SQ?oc=5",
+   "title": "Mayville State QB Matt Donovan’s Life Has Been ‘Saved’ After Suffering a Traumatic Brain Injury"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYjdIWkZ1V2dPNlU0UjlDUlB6QnRuLUJzeHJFVWZuVkFLQnN0X1BtVDV3V1Zxemx5VklnWGowSVRPNTdvSTFLZVpEb3pJNUhJWWdQOFEwZGw5Y21OaE44dngzTEtqZHEzSXN6aE9tdldRT0JHUWtMTl9TdzNuRWRpeS1KMl9zYV9GaVRvMVNWckU1Zw?oc=5",
+   "title": "QuidelOrtho rebounds from recent weakness, jumps 12% (QDEL:NASDAQ)"
+  }
+ ]
+}

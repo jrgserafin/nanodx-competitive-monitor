@@ -1,6 +1,6 @@
 {
  "Abbott": {
-  "checked": "2026-10-19T11:23:45+00:00",
+  "checked": "2026-10-26T11:32:10+00:00",
   "records": [
    {
     "id": "f0718cf196dd62c6",
@@ -38,7 +38,7 @@
   ]
  },
  "bioMérieux": {
-  "checked": "2026-10-19T11:23:46+00:00",
+  "checked": "2026-10-26T11:32:11+00:00",
   "records": [
    {
     "id": "4f6e68b867dd6c6d",
@@ -54,15 +54,15 @@
   ]
  },
  "Roche": {
-  "checked": "2026-10-19T11:23:53+00:00",
+  "checked": "2026-10-26T11:32:20+00:00",
   "records": []
  },
  "Quanterix": {
-  "checked": "2026-10-19T11:23:50+00:00",
+  "checked": "2026-10-26T11:32:16+00:00",
   "records": []
  },
  "BrainScope": {
-  "checked": "2026-10-19T11:23:46+00:00",
+  "checked": "2026-10-26T11:32:12+00:00",
   "records": [
    {
     "id": "7f0ecd5b1dadfe4c",
@@ -155,7 +155,7 @@
   ]
  },
  "InfraScan": {
-  "checked": "2026-10-19T11:23:47+00:00",
+  "checked": "2026-10-26T11:32:13+00:00",
   "records": [
    {
     "id": "5051c7fda4a3695a",
@@ -215,15 +215,15 @@
   ]
  },
  "BrainBox Solutions": {
-  "checked": "2026-10-19T11:23:48+00:00",
+  "checked": "2026-10-26T11:32:14+00:00",
   "records": []
  },
  "EzDiatech": {
-  "checked": "2026-10-19T11:23:49+00:00",
+  "checked": "2026-10-26T11:32:15+00:00",
   "records": []
  },
  "Genalyte": {
-  "checked": "2026-10-19T11:23:50+00:00",
+  "checked": "2026-10-26T11:32:17+00:00",
   "records": [
    {
     "id": "de1b3577ead3a90b",
@@ -250,7 +250,7 @@
   ]
  },
  "Oculogica": {
-  "checked": "2026-10-19T11:23:51+00:00",
+  "checked": "2026-10-26T11:32:18+00:00",
   "records": [
    {
     "id": "4d1462b11fdc903b",
@@ -321,11 +321,11 @@
   ]
  },
  "Sense Neuro Diagnostics": {
-  "checked": "2026-10-19T11:23:52+00:00",
+  "checked": "2026-10-26T11:32:19+00:00",
   "records": []
  },
  "Wondfo": {
-  "checked": "2026-10-19T11:23:54+00:00",
+  "checked": "2026-10-26T11:32:21+00:00",
   "records": [
    {
     "id": "ed5037a0e84cfe92",
@@ -770,7 +770,7 @@
   ]
  },
  "ACON": {
-  "checked": "2026-10-19T11:23:54+00:00",
+  "checked": "2026-10-26T11:32:22+00:00",
   "records": [
    {
     "id": "287fe850e5d72f22",
@@ -1215,11 +1215,11 @@
   ]
  },
  "Hotgen": {
-  "checked": "2026-10-19T11:23:55+00:00",
+  "checked": "2026-10-26T11:32:22+00:00",
   "records": []
  },
  "QuidelOrtho": {
-  "checked": "2026-10-19T11:23:56+00:00",
+  "checked": "2026-10-26T11:32:24+00:00",
   "records": [
    {
     "id": "3e6fbdfa9d1fcf03",
@@ -1365,17 +1365,6 @@
     "fda_number": "K180288"
    },
    {
-    "id": "a051ea2601e4d987",
-    "competitor": "QuidelOrtho",
-    "source": "FDA",
-    "title": "FDA 510(k) K171976: Sofia Strep A+ FIA, Sofia 2 Analyzer",
-    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171976",
-    "date": "2017-12-21",
-    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
-    "fda_kind": "510(k)",
-    "fda_number": "K171976"
-   },
-   {
     "id": "412907475b268a14",
     "competitor": "QuidelOrtho",
     "source": "FDA",
@@ -1385,6 +1374,17 @@
     "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
     "fda_kind": "510(k)",
     "fda_number": "K173250"
+   },
+   {
+    "id": "a051ea2601e4d987",
+    "competitor": "QuidelOrtho",
+    "source": "FDA",
+    "title": "FDA 510(k) K171976: Sofia Strep A+ FIA, Sofia 2 Analyzer",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K171976",
+    "date": "2017-12-21",
+    "snippet": "Applicant: Quidel Corporation. Decision: Substantially Equivalent.",
+    "fda_kind": "510(k)",
+    "fda_number": "K171976"
    },
    {
     "id": "c01cf3fb0026cbbc",
@@ -1664,7 +1664,7 @@
   ]
  },
  "Boditech Med": {
-  "checked": "2026-10-19T11:23:57+00:00",
+  "checked": "2026-10-26T11:32:25+00:00",
   "records": [
    {
     "id": "ac7e65ed7b75cd83",
@@ -1702,7 +1702,7 @@
   ]
  },
  "Getein Biotech": {
-  "checked": "2026-10-19T11:23:57+00:00",
+  "checked": "2026-10-26T11:32:26+00:00",
   "records": []
  }
 }

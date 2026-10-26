@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-23T23:20:41+00:00",
+ "checked": "2026-10-26T11:32:09+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -289,6 +289,32 @@
  ],
  "news": [
   {
+   "id": "b3147be2e9d03d80",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "bioMérieux (ENXTPA:BIM) Secures FDA Clearance As Valuation Views Start To Split",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMUxmWThIYzhET0NHekh5ajc0UHlkZUxqczhub05JV1Iwb1I1LVZ4UGlqSldCMmNKVHQ2ZnJYYUxzaGtjZHROelBNYXl1YWx6bzZyVnZ1b09kdVB1Q2dvNXBpSzRadDYzcXdoNDFIMUhFSU1aMEZyYWZHeVcwZmpFejFFc0dCNUtWcGxqVU00QWZMdTlHR01OY0UxRzNxRXNsY1FISU1uU19YVDV2ZkNKV2d1b21iYU9hWmVmU3BGRm03OWpoR1drMDZKR0VnREHSAdQBQVVfeXFMTzYtaEthb3NFY2RwbmVleGlvSi13U3pfMEo2bmJsbDY5SnloUkgtQldSY2d5X1Bya2NXUTV3enNtcll6RnBwNThodDFPYk1NZVpTTlRHOERfc3MyVzBZZEFzYWZNU3ROeWFCZzFzMXJscjVFSkx6akNQbTRVV3dXRVBCRGp6M0c4bFdqZzFsd1pGOTJsZ0RVaXpya1g4LUx3Q19iblFwb2RUclRfUExrc004NzAwbkpRVU9vcldlekppNG5YYThVSkRLOUN3MWR3cWlobEs?oc=5",
+   "date": "2026-10-24",
+   "snippet": "",
+   "publisher": "Simply Wall Street",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-26T11:32:09+00:00"
+  },
+  {
+   "id": "566dc782f7f96cf7",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Optical Biosensors Market To 2035: POC Diagnostics Demand Supports 9–12% CAGR - News and Statistics",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVEJYaTY0MEZwYWdkeGM0S0VYR1RJVHZJa1YzT3oyNUJBY0NQQWdwV3RjQ3pqanZ3eHA5cGk3T1c5QnVOMXlMaEFiajB6eGNNYzczRW9CV1JlcGwwb1FpUE52Rmc0MmtlTmR1TlYzWVlwNVB5R1FHR29zRG42SllLTFhrbTlEOWk0c29aek9vVC16YnlMTzdmbUFxMkkyeHdqMHVlYWxGWE1FMzFNVFJURWRrTFk4UXR4TG1kMUhmdw?oc=5",
+   "date": "2026-10-24",
+   "snippet": "",
+   "publisher": "IndexBox",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-26T11:32:09+00:00"
+  },
+  {
    "id": "1d3e72f31c84eb0a",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -313,6 +339,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-23T15:29:12+00:00"
+  },
+  {
+   "id": "693a9e3f53e3dfdf",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Enzyme Biosensors Market Forecast to 2035: Growth Accelerates on Rising Demand for Rapid Metabolite Detection",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdnA3S0QtOGZEcHMxZ2t4SlRqRG1yeXVXMzRHejJJYjBRdzY2aXJDa0VUVm1oNXR6Q0NPNG9IVVZEaWF0RVpzTkVzaFVzS0NYWllCSnBTUC1PSnNscW1ieFVIdjN6SHBzanBZa3VuR0U0V3NlQjlHS210UmN0TEg5RHprSXRiUk9ULWlMcVZUQWFrUmoyTlVqNDNxRXlSNUtQVVNyRU1rOUI5VVhvbFVnMjI1dWxuTXRuN2R6ek5FYjF2Z3NtaFVYNFVXTVJRUjlwREtoQg?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "IndexBox",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-26T11:32:09+00:00"
   },
   {
    "id": "6be824da0e38c813",
