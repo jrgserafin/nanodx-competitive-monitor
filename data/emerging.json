@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-26T15:59:18+00:00",
+ "checked": "2026-10-26T17:49:33+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -288,6 +288,19 @@
   }
  ],
  "news": [
+  {
+   "id": "3c197ead9f8379b5",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Preeclampsia Diagnostics Market 2025-2031 | Top",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWUtHWUJjcm1peDhyalZjNThCZ1V3bkM2TE9HSVJzc1pQdGZzMUFKcWRJYmttT28xT0JJYmZud2FBNVktelVxQVNXRHdXUWd0a2E3bnZ6eVJBVnJYd0RrbV8xMERVbVFkc2VrdzhYamx0MFdjQlJScEx1SnBLT3h2V2N2Y3N2Uk9U?oc=5",
+   "date": "2026-10-26",
+   "snippet": "",
+   "publisher": "openPR.com",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-26T17:49:33+00:00"
+  },
   {
    "id": "b3147be2e9d03d80",
    "competitor": "Emerging (POC)",
