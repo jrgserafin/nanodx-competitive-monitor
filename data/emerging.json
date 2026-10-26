@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-26T17:49:33+00:00",
+ "checked": "2026-10-26T19:36:47+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -300,6 +300,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-26T17:49:33+00:00"
+  },
+  {
+   "id": "985cd854ca811877",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "FDA clears bioMérieux BIOFIRE SPOTFIRE Vaginitis Panel for rapid point-of-care molecular testing",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPY3RwZldTYjVVbzVIblV0aEg2VGs2UGx2a3VNbWdIRE1YcF9WY1hFaUZWNS11WkE4NDd2cmxxdE9JcTIzVFBSVTBzZ0xiQThtQnk3QVpxNFFQN0JJWjBYMmVhTldEc0FJUUQwU3RPN2J4WlBWbGlHbVg4OW9sNC1wcnRNdUV6RnpKcDl1NzV0V2R0QUdZc3MySVktYUpQdElERzJlN21BclowekFJVVdBc0dMRnhBU1VOTVY1ZW5FVjNZXzBTSndIbHJGMEJlbEE?oc=5",
+   "date": "2026-10-26",
+   "snippet": "",
+   "publisher": "Select Science",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-26T19:36:47+00:00"
   },
   {
    "id": "b3147be2e9d03d80",
