@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-26T19:36:47+00:00",
+ "checked": "2026-10-26T23:23:00+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -26,6 +26,24 @@
    "tbi": true,
    "score": 13,
    "latest": "2026-08-12"
+  },
+  {
+   "key": "karl storz se co kg",
+   "name": "Karl Storz SE & CO. KG",
+   "first_seen": "2026-10-26",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K260581: KARL STORZ Flexible Video Neuro-Endoscope",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260581",
+     "date": "2026-10-14",
+     "detail": "Substantially Equivalent · product code GWG"
+    }
+   ],
+   "last_seen": "2026-10-26",
+   "tbi": true,
+   "score": 11,
+   "latest": "2026-10-14"
   },
   {
    "key": "b b",
@@ -154,6 +172,31 @@
    "latest": "2023-04-04"
   },
   {
+   "key": "cordx",
+   "name": "CorDx",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "FDA clearance",
+     "title": "K262432: CorDx Tyfast Flu A/B & COVID-19 At Home Multiplex Rapid Test; CorDx Tyfast Flu A/B & COVID-19 Multiplex Rapid Test",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262432",
+     "date": "2026-10-14",
+     "detail": "Substantially Equivalent · product code SCA"
+    },
+    {
+     "type": "FDA clearance",
+     "title": "K253882: CorDx Tyfast COVID-19 Ag Rapid Test Rx",
+     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253882",
+     "date": "2026-06-01",
+     "detail": "Substantially Equivalent · product code QVF"
+    }
+   ],
+   "last_seen": "2026-10-26",
+   "tbi": false,
+   "score": 6,
+   "latest": "2026-10-14"
+  },
+  {
    "key": "ihealth labs",
    "name": "Ihealth Labs",
    "first_seen": "2026-10-08",
@@ -177,24 +220,6 @@
    "tbi": false,
    "score": 5,
    "latest": "2025-12-12"
-  },
-  {
-   "key": "cordx",
-   "name": "CorDx",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "FDA clearance",
-     "title": "K253882: CorDx Tyfast COVID-19 Ag Rapid Test Rx",
-     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253882",
-     "date": "2026-06-01",
-     "detail": "Substantially Equivalent · product code QVF"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": false,
-   "score": 4,
-   "latest": "2026-06-01"
   },
   {
    "key": "hangzhou alltest biotech",

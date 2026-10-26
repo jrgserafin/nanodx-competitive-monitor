@@ -2089,6 +2089,20 @@
   "signal": []
  },
  {
+  "id": "c34264c7cfb68888",
+  "competitor": "TBI biomarker evidence",
+  "source": "Publication",
+  "title": "GFAP Use in Emergency Medicine-A Narrative Review.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42931255/",
+  "date": "2026-09-30",
+  "snippet": "NeuroSci. Ghazala MT, Sula I, Jihwaprani MC et al.",
+  "stale": true,
+  "first_seen": "2026-10-26T23:20:37+00:00",
+  "signal": [
+   "GFAP"
+  ]
+ },
+ {
   "id": "6a31db56f05fd6df",
   "competitor": "Military TBI screening",
   "source": "News",
