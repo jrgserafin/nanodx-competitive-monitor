@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-27T11:28:32+00:00",
+ "checked": "2026-10-27T15:40:56+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -325,6 +325,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-27T11:28:32+00:00"
+  },
+  {
+   "id": "2d19184a2f4c0fb6",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Sekisui Diagnostics’ COVID/Flu Rapid Test 510(k) Gets FDA Clearance, CLIA Waiver",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcGY2TnRjWDhRajhvc0Q5YVVyYmNTZ0E1QWotcjZNSS1SU05CV3EyeGw4ZjZsUWtSVkthVDFSOURacng3VnNXNHBVcXJjTWNGOUxjRUdwUE9PMmZUdWlmR01VZlZ6d3c2S3UyUzVha1RrMDIzSDJJbm5YNW1rVVBTVEpDaDB6Q19heWhQVmxnaVBxWWI0V3hGcDRjbHNlRkozekhSdTBCc295WGJlNnJUdE5yNmdOM29EbExYd3ZtRmJRY2ZLR05YV2w3bUg3dw?oc=5",
+   "date": "2026-10-27",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-27T15:40:56+00:00"
   },
   {
    "id": "3c197ead9f8379b5",

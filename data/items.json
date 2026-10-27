@@ -22,6 +22,32 @@
   "signal": []
  },
  {
+  "id": "5df40e9770fae192",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Blood test could help identify brain injuries missed by CT scans",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcllISnlOV24zV203b1RZRUdhV2cwNmhaY1BvZWlSQnJVdlRVM3VHcC1EV0luMFQ4V0t5YnZZanF5OXBRdS1rZWpXdGNtT09ia3hocXVaTnZ2UmE5OGFBZFpmZDBGVHBEZnJ2emdveFMtVGFkempsVldyZ1g5bzBxLVE1UDdIR1dKbm1mTXBacDhheVRrWV84R1RR?oc=5",
+  "date": "2026-10-27",
+  "snippet": "",
+  "publisher": "NR Times",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-10-27T15:38:40+00:00",
+  "signal": []
+ },
+ {
+  "id": "9025e1a29e3ea49b",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "Blood test could help identify brain injuries missed by CT scans",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcllISnlOV24zV203b1RZRUdhV2cwNmhaY1BvZWlSQnJVdlRVM3VHcC1EV0luMFQ4V0t5YnZZanF5OXBRdS1rZWpXdGNtT09ia3hocXVaTnZ2UmE5OGFBZFpmZDBGVHBEZnJ2emdveFMtVGFkempsVldyZ1g5bzBxLVE1UDdIR1dKbm1mTXBacDhheVRrWV84R1RR?oc=5",
+  "date": "2026-10-27",
+  "snippet": "",
+  "publisher": "NR Times",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-10-27T15:38:40+00:00",
+  "signal": []
+ },
+ {
   "id": "628cbae6ee5f312c",
   "competitor": "Medicortex",
   "source": "News",
@@ -677,6 +703,19 @@
   "signal": []
  },
  {
+  "id": "b222be116d2a9880",
+  "competitor": "Point-of-care & capillary sampling",
+  "source": "Publication",
+  "title": "A Review on Glial Fibrillary Acidic Protein Biosensors for Point-of-Care Stroke Diagnosis.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42944442/",
+  "date": "2026-10-16",
+  "snippet": "Sensors (Basel, Switzerland). Caetano LC, Pinto VC, Catarino SO",
+  "first_seen": "2026-10-27T15:38:40+00:00",
+  "signal": [
+   "point-of-care"
+  ]
+ },
+ {
   "id": "1b3cd01f90cedf56",
   "competitor": "Lab reimbursement (CMS)",
   "source": "News",
@@ -832,6 +871,19 @@
   "publisher": "Low Income Relief",
   "query": "CMS \"clinical laboratory fee schedule\"",
   "first_seen": "2026-10-16T11:18:39+00:00",
+  "signal": []
+ },
+ {
+  "id": "40452c74e859b057",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "J.P. Morgan keeps USD 12.00 target for QuidelOrtho stock, 13.92 percent below price",
+  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbjBVTXlKUzg4STFiakF0OUgtWnZuUWFXa0h1OHhjM0dDa1BHM003SFVTZExOVmwyaUx0ZE5YQm51Y3JnczR3b1djdmNKSGpBSGVweFVDM1NXbk1yVy1yb0ZVYjg1NjItLUVhck9mZTA4ZXMxenVfT3oxVTBmQnhHRFJiaGREMlVCSXZSLXEteWE3eENCNlozOUo1X1FNdEI0d0xQYmY5M0M2TFR1WXhMOFdDbmZWel95SFAzMzY2TUJJR2xDVnYwRGRwbUowQ01KT0ZNV0Vaaw?oc=5",
+  "date": "2026-10-15",
+  "snippet": "",
+  "publisher": "ad-hoc-news.de",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-27T15:38:40+00:00",
   "signal": []
  },
  {
@@ -2112,6 +2164,18 @@
   "publisher": "PLOS",
   "query": "\"traumatic brain injury\" blood test",
   "first_seen": "2026-10-08T13:40:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "f46b91c10e11eaf4",
+  "competitor": "TBI biomarker evidence",
+  "source": "Publication",
+  "title": "From Brain to Blood to Skin: Compartment Biology, Interstitial Fluid Dynamics, and Microneedle Sampling of Neurological Biomarkers.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42939310/",
+  "date": "2026-09-30",
+  "snippet": "Brain sciences. Shiu MYY, Cote M, McLeish N et al.",
+  "stale": true,
+  "first_seen": "2026-10-27T15:38:40+00:00",
   "signal": []
  },
  {
