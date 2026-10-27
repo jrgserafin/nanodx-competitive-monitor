@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-27T15:40:56+00:00",
+ "checked": "2026-10-27T19:37:21+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -429,6 +429,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-10-26T11:32:09+00:00"
+  },
+  {
+   "id": "2cfa63b22ca35e0c",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Microfluidic Biosensor Cartridges Market Forecast to 2035, Driven by Point-of-Care Testing Expansion",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZm5UQU1RUWtiaVRQMjg2a3hOeUZJN3BsNk4xNDlwOEwxM3lPZGZtT1VkUE81ajN2ZWN2bzZsWmJWUzM5NXRNUXVMR29ZQUpsNzFIV05QQjFaRS1xNjdKaFpUWWFhVGhXZzhuTmh1aEg5ZXVocnlzQTJNYUg4YlplMmVuajlLQ1NwMEo1TGt2V1dPR1pzRzVtdTZCMTVOTnZrNEVwVWVsbTM5a0s2SEpJVDNZdmtQU1g0V1cwT3VMVnltaEN0X0R5aw?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "IndexBox",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-27T19:37:21+00:00"
   },
   {
    "id": "6be824da0e38c813",
