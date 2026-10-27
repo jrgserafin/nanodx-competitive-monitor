@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-26T23:23:00+00:00",
+ "checked": "2026-10-27T11:28:32+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -313,6 +313,19 @@
   }
  ],
  "news": [
+  {
+   "id": "341ce2044083bd73",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Chembio lands $5.7M BARDA grant for portable biothreat test",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT3duel9rUGx5OWdNQU4xZjNtYmRPUHllY25sbXBldEdRNFJkc2tTejNoSjhHUVh6NWEyTjhXR25RbzRGQlRacTlFRWpJcm9mbHJBWWJ3UFBTTGNRTE4yelZDZDRpUnh6MENkY1lyanFtQW5wWm94eEJkcC1fU3BwYXcwYVp2dkxOR1RuclA0WjVEc2Y2dS1j?oc=5",
+   "date": "2026-10-27",
+   "snippet": "",
+   "publisher": "Dealroom",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-27T11:28:32+00:00"
+  },
   {
    "id": "3c197ead9f8379b5",
    "competitor": "Emerging (POC)",

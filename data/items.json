@@ -61,6 +61,19 @@
   ]
  },
  {
+  "id": "003723797f5e101f",
+  "competitor": "AeHealth",
+  "source": "News",
+  "title": "Men's Basketball Exhibition vs. Endicott",
+  "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kS013cC0tYWNOVmN4OXotNXVvQnoyOXE3bEQ3bTM1SWt4alladG9vNDRLU3M4YmpCNk1HMXFXcU1EZTBkdHhrT2E4MDdyTm9GaUdzbEphNFBCa2ZM?oc=5",
+  "date": "2026-10-24",
+  "snippet": "",
+  "publisher": "Bucknell University Athletics",
+  "query": "\"Lamuno\"",
+  "first_seen": "2026-10-27T11:26:07+00:00",
+  "signal": []
+ },
+ {
   "id": "ca62eba33b66c87c",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -360,6 +373,19 @@
   "signal": [
    "GFAP"
   ]
+ },
+ {
+  "id": "b6b37f58ed26b18d",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "Why Are Intuitive Surgical (NASDAQ:ISRG), QuidelOrtho (NASDAQ:QDEL), MannKind (NASDAQ:MNKD) and Praxis (NASDAQ:PRAX) Moving Before the Open?",
+  "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWVdfei0yS1JKOGRUSGp0b2pRT0lpVElwRlVOT3d0Ty04VXdScEZnVnNtRUlJSTZEbkVvSUlTOVFHME9Gdi1VUGwySVVab0JXaFpUYlk3dFhxcE9QZkFPQzFFUjVtNGt1WXdVd2liR3JTdFNGMHdFQmRGZEZUM0ZGYkJRWUdMbEJ3czVNWi1HTlpFbTV0WExQN3Y0dWRLUmlyaW9KaFppRFpwUFZjTFBtcjVYVnFIMXMxajJGeEZTaXJvNjI0Njc0UVV1NzFZSVR4dVhQZVF2b2FiczB1S3pUQlo2WG9hOTZBVURXUWxoZ2Ridw?oc=5",
+  "date": "2026-10-21",
+  "snippet": "",
+  "publisher": "kalkine.ca",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-27T11:26:07+00:00",
+  "signal": []
  },
  {
   "id": "bcb4d0e916856fc3",
