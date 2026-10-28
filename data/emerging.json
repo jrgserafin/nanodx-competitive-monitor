@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-28T11:31:15+00:00",
+ "checked": "2026-10-28T15:42:51+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -314,6 +314,19 @@
  ],
  "news": [
   {
+   "id": "4f117d96d47602f2",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Co-Diagnostics Advances India Launch of Point-of-Care TB Test After Clinical Study",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSWxuUmpxTzU1VDJVU1dCRzVHTV9KV2xYTTZ0OE5kekRadlFqY2dMMUVBeVFaN1RHTlNPZGZvanBOZEJheGNaRDRPVjZyaUdkc0E2SzgwVDQtb0Q0Tzlla3Uwc0VZWEZvdjJ3LXltQUVaYlVQZ2U3Rk1lSVhhWVBPZXhKdEowcDZkbjNzYTVJUlYtM1dyb092c2NDa01rQklMdTlibXdaQjB4Tjd4WmhGS0NHa0ZKQmM?oc=5",
+   "date": "2026-10-28",
+   "snippet": "",
+   "publisher": "Digital Health News",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-28T15:42:51+00:00"
+  },
+  {
    "id": "341ce2044083bd73",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -533,6 +546,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-10-23T19:29:11+00:00"
+  },
+  {
+   "id": "b4ee52de84f38248",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Through the Future of Health Innovation Tournament Challenge, CAI Crowns TIMSER Its First-Ever Grand Champion",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNd2U2dlF3eUJNcDFiWEpGWi1QZWFacThZQkc1Sk1fUEFvREpjcjFSaFF4OFVjQUJGWFBySDhaVHBXZ3ZTbzdDQU5veXYxdEtlRVdLTlNuTmM0WVlUT0RHdUVJcktNOFhveWNpd0hEeVA2RzZPQnBmWVZka3l5SlUwbHhnd3R1NzV4bEpiQ19lWmRpaDlaMTYxLVcwRUpNam9pcEFseUJSa2hIajFpXzVEQmxQWHhDR2VDVGNEd3dWbWh1RndHQVVqRzFqRzRrRlYzTGRtZzJPWWsyOUZfbXRNMHJUWE9Edw?oc=5",
+   "date": "2026-10-22",
+   "snippet": "",
+   "publisher": "Issuewire.com",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-28T15:42:51+00:00"
   },
   {
    "id": "eaa5f55ec7c29fc5",
