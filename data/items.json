@@ -22,6 +22,32 @@
   "signal": []
  },
  {
+  "id": "9fb51126c5b2861d",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix To Report Third Quarter 2026 Financial Results on November 9, 2026",
+  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcExTTUJaOEEyRDZ5VDBHYzVEbF93Q3lodjdEUnRBUlltSXV6dzhqVjc1R1p4SkMyU0NtTFhZQkZNaFQ3cXJXNTVlYnpoSzZkYXJjTFBSU285OTZydll2VFJvbW1CQnJwUW5jSjhsRHdqaWYzTzlPS015VXhFOENoOE5zOTJMTTdFeHl1NUZTd1h3QkUzeVA1aThOc3RMdzVrTzhtR0JTRmY5NjI1TVQ4c3Y1bmx3V2Nzc0pNODJLYXdmV2FnY2hRWWozWXV0V1VNbW9R?oc=5",
+  "date": "2026-10-28",
+  "snippet": "",
+  "publisher": "StreetInsider",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-10-28T23:25:48+00:00",
+  "signal": []
+ },
+ {
+  "id": "597555f3300c4d33",
+  "competitor": "Boditech Med",
+  "source": "News",
+  "title": "Korea Opens 1.5 Trillion Won In-House Testing Market",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeV8ybjVONVl5eVNqWFoyYWxkZldwVlZCR09QOHRSV2Z4RDJsenJwQzJ5V1Q3UW1HcXpwQTYzR1FQQWhIRjBqa0xkd3YwTUd2a2tvNWhvNlVuTXB6RlUwLUJYQUhuVU4xX2FncE0tTlNfeGNwQ21VWWxKVVVQWmRPcV9zVFZFNGZHT2IxVXlyWXp2NmZuR1M5Mw?oc=5",
+  "date": "2026-10-28",
+  "snippet": "",
+  "publisher": "Seoul Economic Daily",
+  "query": "\"Boditech\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+  "first_seen": "2026-10-28T23:25:48+00:00",
+  "signal": []
+ },
+ {
   "id": "6880c782dd52dbba",
   "competitor": "Lab reimbursement (CMS)",
   "source": "News",
@@ -58,6 +84,17 @@
   "publisher": "marketscreener.com",
   "query": "\"BrainBox Solutions\"",
   "first_seen": "2026-10-28T11:28:42+00:00",
+  "signal": []
+ },
+ {
+  "id": "fd02c4aa9d8db647",
+  "competitor": "TBI biomarker evidence",
+  "source": "Publication",
+  "title": "Associations Between Diagnostic Blood-Based Biomarkers and Neuroimaging Findings in Mild Traumatic Brain Injury.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42949696/",
+  "date": "2026-10-27",
+  "snippet": "Annals of emergency medicine. Pandey S, Chen Y, Yue JK et al.",
+  "first_seen": "2026-10-28T23:25:48+00:00",
   "signal": []
  },
  {
