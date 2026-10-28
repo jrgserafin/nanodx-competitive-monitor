@@ -22,6 +22,45 @@
   "signal": []
  },
  {
+  "id": "19b67cb6ea3dc021",
+  "competitor": "BrainBox Solutions",
+  "source": "News",
+  "title": "Prolight receives first order of approximately SEK 19.9 million from BRAINBox",
+  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNFo3OXNCMUJhb2tEZmtFRmtXR3FlSHZVY1FjWjdfSDFBd0ZYLWFzSl9INE1jbGxVU2U4alQyYzJUUGhIQkREamVHUHgwaGR0ZDk5MHdERFdCNk9XNW1sT0x2bVNGdUpXZHRHQTNrNU1MUVJucHAyd2VFV3BfNVR5MUZWTE5FQk5uR3YwYjA0RzhVSEEzY0hiYjBfMDgxUFpuY3FjT0NJMHBkejR0aE1hUExZUFVwVkVCTTFsQ3VwTmZhUlNxYWlyeGJycGV5YlE3N0VVV2dHR0FmS3M?oc=5",
+  "date": "2026-10-28",
+  "snippet": "",
+  "publisher": "TradingView",
+  "query": "\"BrainBox Solutions\"",
+  "first_seen": "2026-10-28T11:28:42+00:00",
+  "signal": []
+ },
+ {
+  "id": "a5d12ce9848e4193",
+  "competitor": "BrainBox Solutions",
+  "source": "News",
+  "title": "Prolight Diagnostics Receives First Order Under Supply Deal with BrainBox",
+  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmlmN2ZvLXMtWXZpT2lDVGh6cG1Ja2RXbzhtT2ZuU1NJRlJFZThuZWh1Y09MWmVrVVNXTU5fbnBjR0tyVW9uLUNCV0FvS0szanpzSk83dWVVVDUyeFdmSWVQcnZDYVBrWThCeEQ0T0ljbFROSVRkQUx1UUxSa0JXQ2FFbWNEUjBzcXZKblhLdFBGeDBkQWxLOXp6dFdsUFV6WEREZm90bXNrQ1NydDBzcUNRdE42NXRMeUU2dENiV0V5dUN4?oc=5",
+  "date": "2026-10-28",
+  "snippet": "",
+  "publisher": "marketscreener.com",
+  "query": "\"BrainBox Solutions\"",
+  "first_seen": "2026-10-28T11:28:42+00:00",
+  "signal": []
+ },
+ {
+  "id": "503621921d03b050",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Wake Forest Building Registry to Study Real-World Use of Alzheimer’s Blood Tests",
+  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVmZ5R2U0bHNLeDdjaklYZmVJb0RKX3hsam9oSVY5UG1pVWRGMmZ0RXctMk1WWERrUFdyM05vNnJmeGNpWUlYcTBsakdUZUstMjdxVDMwWE5UWjljejZlaXZONTVlTWtlU2kydUF2dG82U2x5Skh4c243MGZOdGdnRC02eVh4YTVMMl9PbWYyVjlUTE9XOWpzamRDenR2S01tQ1pJd3pLcw?oc=5",
+  "date": "2026-10-27",
+  "snippet": "",
+  "publisher": "GenomeWeb",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-10-28T11:28:42+00:00",
+  "signal": []
+ },
+ {
   "id": "4caa006e815c4d88",
   "competitor": "Quanterix",
   "source": "News",
@@ -124,6 +163,17 @@
   "signal": [
    "point-of-care"
   ]
+ },
+ {
+  "id": "f8aa7096fc7b0b6a",
+  "competitor": "TBI epidemiology & ED burden",
+  "source": "Publication",
+  "title": "The downside of the pull-up: A 10-year national analysis of emergency department visits, 2015-2024.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42945744/",
+  "date": "2026-10-24",
+  "snippet": "Injury. Shabbir R, Layton B, Kang Z et al.",
+  "first_seen": "2026-10-28T11:28:42+00:00",
+  "signal": []
  },
  {
   "id": "003723797f5e101f",

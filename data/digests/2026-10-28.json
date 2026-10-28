@@ -1,0 +1,144 @@
+{
+ "date": "2026-10-28",
+ "generated": "2026-10-28T11:31:15+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "b222be116d2a9880",
+   "competitor": "Point-of-care & capillary sampling",
+   "source": "Publication",
+   "title": "A Review on Glial Fibrillary Acidic Protein Biosensors for Point-of-Care Stroke Diagnosis.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42944442/",
+   "date": "2026-10-16",
+   "snippet": "Sensors (Basel, Switzerland). Caetano LC, Pinto VC, Catarino SO",
+   "first_seen": "2026-10-27T15:38:40+00:00",
+   "signal": [
+    "point-of-care"
+   ]
+  },
+  {
+   "id": "19b67cb6ea3dc021",
+   "competitor": "BrainBox Solutions",
+   "source": "News",
+   "title": "Prolight receives first order of approximately SEK 19.9 million from BRAINBox",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNFo3OXNCMUJhb2tEZmtFRmtXR3FlSHZVY1FjWjdfSDFBd0ZYLWFzSl9INE1jbGxVU2U4alQyYzJUUGhIQkREamVHUHgwaGR0ZDk5MHdERFdCNk9XNW1sT0x2bVNGdUpXZHRHQTNrNU1MUVJucHAyd2VFV3BfNVR5MUZWTE5FQk5uR3YwYjA0RzhVSEEzY0hiYjBfMDgxUFpuY3FjT0NJMHBkejR0aE1hUExZUFVwVkVCTTFsQ3VwTmZhUlNxYWlyeGJycGV5YlE3N0VVV2dHR0FmS3M?oc=5",
+   "date": "2026-10-28",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"BrainBox Solutions\"",
+   "first_seen": "2026-10-28T11:28:42+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "marketscreener.com",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmlmN2ZvLXMtWXZpT2lDVGh6cG1Ja2RXbzhtT2ZuU1NJRlJFZThuZWh1Y09MWmVrVVNXTU5fbnBjR0tyVW9uLUNCV0FvS0szanpzSk83dWVVVDUyeFdmSWVQcnZDYVBrWThCeEQ0T0ljbFROSVRkQUx1UUxSa0JXQ2FFbWNEUjBzcXZKblhLdFBGeDBkQWxLOXp6dFdsUFV6WEREZm90bXNrQ1NydDBzcUNRdE42NXRMeUU2dENiV0V5dUN4?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "3f260a20037ed2da",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "Thousands of Labs, Other Providers Face Deep Payment Cuts Unless PAMA Reform Passes by Year-End",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcklsWGNCLU1yNDhVUFY5U2ktSDRnTlFpa25Xd0pmSlV4Y3hDVUdrY0tuVlVnRUo0WmFUd2ViRVBwOWhJeVZpeFJCZ3dGczRqUUxjaHVtcTVuT1JhU1hHUW9YM3I2OGFGeTBudU9KUXRnU09zeVJ1SGNQOXlFUmtiek5KdTBWS0VxX25BcUlLczhCcWRsUl9rdHpR?oc=5",
+   "date": "2026-10-27",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-10-27T19:34:50+00:00",
+   "signal": []
+  },
+  {
+   "id": "503621921d03b050",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Wake Forest Building Registry to Study Real-World Use of Alzheimer’s Blood Tests",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVmZ5R2U0bHNLeDdjaklYZmVJb0RKX3hsam9oSVY5UG1pVWRGMmZ0RXctMk1WWERrUFdyM05vNnJmeGNpWUlYcTBsakdUZUstMjdxVDMwWE5UWjljejZlaXZONTVlTWtlU2kydUF2dG82U2x5Skh4c243MGZOdGdnRC02eVh4YTVMMl9PbWYyVjlUTE9XOWpzamRDenR2S01tQ1pJd3pLcw?oc=5",
+   "date": "2026-10-27",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-28T11:28:42+00:00",
+   "signal": []
+  },
+  {
+   "id": "4caa006e815c4d88",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Jim Gute is Named Chief Commercial Officer at Quanterix",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbFFZcDRrb2FhczJFSE16YUF5czd2QVoySVAxd2N5cHRjdU5vRWo1MV9MaWJnYU5vSC04NkpsdTh3NXowem1HU3hxNGpTdk9qSXgxZnFEQ2VhZ0NaMENaYzJHUDlhakJXTkFpTi1Tano2ZXpGS1ZGOWdlczR5MVMtZFdQNUxIVjVCYm5IV0VTX2xITl8zVU9PcGhB?oc=5",
+   "date": "2026-10-27",
+   "snippet": "",
+   "publisher": "Medical Product Outsourcing",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-10-27T23:23:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "40452c74e859b057",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "J.P. Morgan keeps USD 12.00 target for QuidelOrtho stock, 13.92 percent below price",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbjBVTXlKUzg4STFiakF0OUgtWnZuUWFXa0h1OHhjM0dDa1BHM003SFVTZExOVmwyaUx0ZE5YQm51Y3JnczR3b1djdmNKSGpBSGVweFVDM1NXbk1yVy1yb0ZVYjg1NjItLUVhck9mZTA4ZXMxenVfT3oxVTBmQnhHRFJiaGREMlVCSXZSLXEteWE3eENCNlozOUo1X1FNdEI0d0xQYmY5M0M2TFR1WXhMOFdDbmZWel95SFAzMzY2TUJJR2xDVnYwRGRwbUowQ01KT0ZNV0Vaaw?oc=5",
+   "date": "2026-10-15",
+   "snippet": "",
+   "publisher": "ad-hoc-news.de",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-10-27T15:38:40+00:00",
+   "signal": []
+  },
+  {
+   "id": "9025e1a29e3ea49b",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "Blood test could help identify brain injuries missed by CT scans",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcllISnlOV24zV203b1RZRUdhV2cwNmhaY1BvZWlSQnJVdlRVM3VHcC1EV0luMFQ4V0t5YnZZanF5OXBRdS1rZWpXdGNtT09ia3hocXVaTnZ2UmE5OGFBZFpmZDBGVHBEZnJ2emdveFMtVGFkempsVldyZ1g5bzBxLVE1UDdIR1dKbm1mTXBacDhheVRrWV84R1RR?oc=5",
+   "date": "2026-10-27",
+   "snippet": "",
+   "publisher": "NR Times",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-10-27T15:38:40+00:00",
+   "signal": []
+  },
+  {
+   "id": "fa39a65336a22021",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "How sex-based biology shapes the brain’s response to injury | Newswise",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWnVGc0pQaUsxQlpsSXZVcHdyUk9MT3RFbUpVZnozM0FwdUxMNnVFeHNDekczdDVBeXZIclI0c0NkTkF5Xzh6ZDd5Ynk2R3JWbTZ3eTBfckFEeXJjX1V3QWtRWHd6Wk9Qd2pSR29mOWFfdGlBaURuSDdUd2JsRHFpSlVmZ3VBeUMtMGdHT1E2dVplWDBzTVZya9IBmAFBVV95cUxPWnVGc0pQaUsxQlpsSXZVcHdyUk9MT3RFbUpVZnozM0FwdUxMNnVFeHNDekczdDVBeXZIclI0c0NkTkF5Xzh6ZDd5Ynk2R3JWbTZ3eTBfckFEeXJjX1V3QWtRWHd6Wk9Qd2pSR29mOWFfdGlBaURuSDdUd2JsRHFpSlVmZ3VBeUMtMGdHT1E2dVplWDBzTVZyaw?oc=5",
+   "date": "2026-10-27",
+   "snippet": "",
+   "publisher": "Newswise",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-27T23:23:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "5df40e9770fae192",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Blood test could help identify brain injuries missed by CT scans",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcllISnlOV24zV203b1RZRUdhV2cwNmhaY1BvZWlSQnJVdlRVM3VHcC1EV0luMFQ4V0t5YnZZanF5OXBRdS1rZWpXdGNtT09ia3hocXVaTnZ2UmE5OGFBZFpmZDBGVHBEZnJ2emdveFMtVGFkempsVldyZ1g5bzBxLVE1UDdIR1dKbm1mTXBacDhheVRrWV84R1RR?oc=5",
+   "date": "2026-10-27",
+   "snippet": "",
+   "publisher": "NR Times",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-10-27T15:38:40+00:00",
+   "signal": []
+  },
+  {
+   "id": "f8aa7096fc7b0b6a",
+   "competitor": "TBI epidemiology & ED burden",
+   "source": "Publication",
+   "title": "The downside of the pull-up: A 10-year national analysis of emergency department visits, 2015-2024.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42945744/",
+   "date": "2026-10-24",
+   "snippet": "Injury. Shabbir R, Layton B, Kang Z et al.",
+   "first_seen": "2026-10-28T11:28:42+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}

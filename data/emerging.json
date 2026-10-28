@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-27T23:25:36+00:00",
+ "checked": "2026-10-28T11:31:15+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -340,6 +340,19 @@
    "first_seen": "2026-10-27T15:40:56+00:00"
   },
   {
+   "id": "c26732a5865fe29c",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "SEKISUI Diagnostics Announces 510(k) Clearance and Launch of the OSOM® COVID-19/Flu A&B Combo Test",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeUtzdDh2SVVuT0N1RjdmZ2FVOExOcEJCTUVIVGR4ZnZPLVZGYVIyRnF3aGdDSi0wSVBWbzF6VGdNVFV3bWZQLUtYSTdNMkRsNkxKOE5XSGYwUlhHd2RMb0RMME4yb0llX3VyN2FmV0VRQnFHeDJDSF9mZEUzTEVMd0VreGJDNm13YWh1OU1RTG11aUo4cF9NazZFaFA?oc=5",
+   "date": "2026-10-27",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-28T11:31:15+00:00"
+  },
+  {
    "id": "3c197ead9f8379b5",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -442,6 +455,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-10-27T19:37:21+00:00"
+  },
+  {
+   "id": "24ed4a6c1f5319ef",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Wearable Biosensor Patch Systems Market To 2035: Remote Monitoring Demand Drives Growth - News and Statistics",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc0o4UWYxWWpaZ01vQVJrZ3IwX05TOVZSVGZlMVYzWWFXRDdDWG1ydVBnRVNWLVR0MTdBSUIwNHdoaHY3TDFoU2NkVkN0N0lWa1pnNlR4T0RqMlpzN1BIMS1UeVBjOFF0MENneTJnOWo0T0dZM1VkY2ZFb0pYUlhlbHA5dGRDeTdkMDE0b1M5TV80c2NvU21QbUxYMHA0VF9fV095b3Z2NGtMMjFUM2ZKSGpCMzktWDAzWnpCZkhWX2ZzSWt3b0c4OA?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "IndexBox",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-10-28T11:31:15+00:00"
   },
   {
    "id": "6be824da0e38c813",
