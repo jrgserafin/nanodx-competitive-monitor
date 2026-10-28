@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-28T15:42:51+00:00",
+ "checked": "2026-10-28T19:40:07+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -325,6 +325,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-10-28T15:42:51+00:00"
+  },
+  {
+   "id": "11318fbd944ed980",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "George Institute Researchers Target Stroke, Heart Risk With Funding",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTHdLYzRmcTJLVEM5VVVKS29HZ21qM1ZIQWtBQThUcFdFMUk4Zlc0b29ieU9BN2tna2xFUXJwaklrVkIzUlladFhoWVhFTGV5aVF6emZrYkpPWnZTcnpfUWxRS1E5MUVFM0wtaVl1RkY3d2VkNzRoMXdPbWZTanZLWDlJRWM?oc=5",
+   "date": "2026-10-28",
+   "snippet": "",
+   "publisher": "Mirage News",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-28T19:40:07+00:00"
   },
   {
    "id": "341ce2044083bd73",
