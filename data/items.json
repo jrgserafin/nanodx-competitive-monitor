@@ -22,6 +22,45 @@
   "signal": []
  },
  {
+  "id": "59d44de73d96c31a",
+  "competitor": "BrainBox Solutions",
+  "source": "News",
+  "title": "Prolight secures two additional European patents for Psyros®",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWUY1LXZJQXFOVnhOcVJvOG8tbXpYS0dzVFA0R2RiSU5JVHdWamZMZElyTU5vOUJrRC1lODY0M0pKV2VELVRNa1JmYnp2R09ad2xud0xkcHFxaVNMaWJfcV9RclpOeTBPUEJiR0ZFOXpidzhtQW93V21qaXpnT1JMMDFkN1lKZjdod1V5MWVoNW9GZnFnR2NSQkczNUFXU1c1b0tGZVFiQ29FMGRQWm9MOEFPOThYSHpoSE5lNGNrZnlHM2c?oc=5",
+  "date": "2026-10-29",
+  "snippet": "",
+  "publisher": "TradingView",
+  "query": "\"BrainBox Solutions\"",
+  "first_seen": "2026-10-29T11:28:47+00:00",
+  "signal": []
+ },
+ {
+  "id": "9629eb8d50aaa9fd",
+  "competitor": "ACON",
+  "source": "News",
+  "title": "Ketones in Urine Test Strips: How They Work and Their Limits",
+  "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNM0FxUzJYOHQwZHdpem5LMWZiTkxoQVBTenpnWC1yS0tDRGtNRnpieGJvY0FlTC0zeWlYR29LbW9qenBzTlNJamNvbEN3U2xYd1k3by0xOHNiX0JiM1FRV01VN3U?oc=5",
+  "date": "2026-10-29",
+  "snippet": "",
+  "publisher": "CASRAI",
+  "query": "\"ACON Laboratories\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+  "first_seen": "2026-10-29T11:28:47+00:00",
+  "signal": []
+ },
+ {
+  "id": "846960318040dd32",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Childhood mild traumatic brain injury linked to worse mental health in U.S. Veterans",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObE0yeUE3ajU5SEZWTmtGWkNsRXFHU3cwRDBiSi1TdnJPTHA4U0lJOTFRQzdYM0hKRUNfS2E4N2RmWUVQTmpwRnFBQUlVUkpGQVppeWEydjdsNG1HVmRsYTRpNE02aThHRTFETmVMemMtZ1JmQTB3aW1iZk5DZ1Jtd2tfRklfd203OEZ0WU9uYTNXSHprbEl6MWZGa1lzM2FRSElITkRkbEc2dDgt?oc=5",
+  "date": "2026-10-29",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-10-29T11:28:47+00:00",
+  "signal": []
+ },
+ {
   "id": "9fb51126c5b2861d",
   "competitor": "Quanterix",
   "source": "News",
@@ -619,6 +658,19 @@
   "publisher": "American Hospital Association",
   "query": "CMS \"clinical laboratory fee schedule\"",
   "first_seen": "2026-10-21T23:18:05+00:00",
+  "signal": []
+ },
+ {
+  "id": "9162566b5622bd04",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "J.P. Morgan kept a Sell rating and USD 12.00 target for QuidelOrtho stock",
+  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWjBxVFNNang5RUl2eXVhRHQ5aEppMkdtNEVqWHdRVGFRcDh0OFdqUUhOTmllbTlGUHNETmVmeEF3QjBzWm1rZXRfNXRFWUdlWHVNRmtzenREamQxUjRyRWVpVFJoTkNFSTh6ZzNLYzR5YnpSdVhkSE5QT3piS0ROd0lMZTRSdVVoc0xIaVh0ZmVvQkU4VjNhM2xZa1NBenhFYUgwSVROeXR3OUZQRG1OZndEYlQ5bVFQcXpTcHJOVzhZcUhMNXJ5MjJKMA?oc=5",
+  "date": "2026-10-20",
+  "snippet": "",
+  "publisher": "ad-hoc-news.de",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-29T11:28:47+00:00",
   "signal": []
  },
  {
@@ -2515,6 +2567,20 @@
   "query": "\"traumatic brain injury\" blood test",
   "first_seen": "2026-10-08T13:40:13+00:00",
   "signal": []
+ },
+ {
+  "id": "5a9e3dceff13ee85",
+  "competitor": "TBI diagnostics market",
+  "source": "Publication",
+  "title": "[Mild traumatic brain injury in prehospital primary care emergency services: care pathway and the opportunity of point-of-care biomarkers].",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42950372/",
+  "date": "2026-09-22",
+  "snippet": "Semergen. Almenara Abellán JL, Gragera Hidalgo M, Fernández Natera A et al.",
+  "stale": true,
+  "first_seen": "2026-10-29T11:28:47+00:00",
+  "signal": [
+   "point-of-care"
+  ]
  },
  {
   "id": "846e19bf995a0cb7",

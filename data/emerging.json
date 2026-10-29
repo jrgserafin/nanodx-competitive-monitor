@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-28T23:28:09+00:00",
+ "checked": "2026-10-29T11:31:17+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -379,6 +379,19 @@
    "first_seen": "2026-10-28T11:31:15+00:00"
   },
   {
+   "id": "c0d0832f0392a955",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Capitainer Initiates Clinical Sampling for HbA1c FDA 510(k) Study",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRlVzOERvbEZzNDUtUW1aQU9NLXY4OVUyTUhKTFF1dGVZb1ZZWW41OUFjclNwY3draVUwLWZoYVE0SjJYTG5nQkNDMGl6VDlGQkpfRFhNWVktd3kzVko3eXdiS3NScHVkTlZQZVAyUUlYLVkwb1h2THlxWkptdThhdmNuZFNObWVYMGZzMFRrbnc5dFJQQVNEcDVLeFdmdy0zc3h1elhhQi0?oc=5",
+   "date": "2026-10-27",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-29T11:31:17+00:00"
+  },
+  {
    "id": "3c197ead9f8379b5",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -754,6 +767,19 @@
    "query": "\"rapid test\" \"brain injury\"",
    "tbi": true,
    "first_seen": "2026-10-19T23:23:46+00:00"
+  },
+  {
+   "id": "7c9bd92b16c6d9a3",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "US-based Healthtech startup Confido Health Raises $12.5 Mn in Funding led by Z47",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbjAwX1JnS0NoQXBIRGhKSkRqcUJEeU40NXRETXNVS3NqZkViRTlybTRYUXA4dTU5MWVPR1p3aEVHRmJ3eDhmSDVNV2xHVkxkb09mRHRCWDU3NENXYVBadzRET0dubktYR1VrNlZzeFVtM1N2dU5ZTGpqVHBNRUN1ZmtZOUk1WlRsUGdWR0ZxMUllTG5WLUloMk9mY2ROWVZZRmprN2tmZFphbEVwVUFWZHd5QQ?oc=5",
+   "date": "2026-10-16",
+   "snippet": "",
+   "publisher": "Digital Health News",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-29T11:31:17+00:00"
   },
   {
    "id": "33086d8d4b06e798",
