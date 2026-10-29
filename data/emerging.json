@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-29T19:43:04+00:00",
+ "checked": "2026-10-29T23:28:48+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -351,6 +351,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-10-29T15:45:01+00:00"
+  },
+  {
+   "id": "38fe9feae595eaa4",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "RIVANNA Secures FDA Clearance for AI-Powered Bone Visualization Software",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTzY4SEVQLV9wd3FuTlgyWUpGc3lvSDlZbWNXNGZRcm5lUjRNNXVMWGlUVEh6N2JJRXNpeXZjSS1rYXVWRlpnMXBwNF9mTXdsS2Z6MmJmaE5JTmVpaU1RLXFYYlpZai1tT2R6WjFuQmNYNV9wRHJmNVl4Z3Znb1czaXJ5eEFTck9ESlZCVGpaQjlQQXcxRUZJRDc2QVl5QQ?oc=5",
+   "date": "2026-10-28",
+   "snippet": "",
+   "publisher": "BioBuzz",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-10-29T23:28:48+00:00"
   },
   {
    "id": "341ce2044083bd73",
