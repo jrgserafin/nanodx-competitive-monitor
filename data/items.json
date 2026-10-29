@@ -22,6 +22,17 @@
   "signal": []
  },
  {
+  "id": "418bb6173901b92f",
+  "competitor": "Abbott",
+  "source": "Clinical trial",
+  "title": "Clinical Evaluation of the i-STAT TBI Test (Completed)",
+  "url": "https://clinicaltrials.gov/study/NCT04171960",
+  "date": "2026-10-29",
+  "snippet": "NCT04171960 · lead sponsor Abbott Point of Care · updated 2026-10-29",
+  "first_seen": "2026-10-29T15:42:34+00:00",
+  "signal": []
+ },
+ {
   "id": "59d44de73d96c31a",
   "competitor": "BrainBox Solutions",
   "source": "News",
@@ -904,6 +915,19 @@
   "publisher": "Bioengineer.org",
   "query": "\"traumatic brain injury\" blood test",
   "first_seen": "2026-10-19T11:21:08+00:00",
+  "signal": []
+ },
+ {
+  "id": "633b189b81dde9e2",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho announces inducement grants",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNei1zVG14UXdWYVhraGZkVVZOTFpmaDZtck9LYWJTZHdWQWF0S05lWHVoekdlckN1dzBXVWtmMmdLcGVCdHYxWE5uR3VWdDc0c3ZTSW9HdUpyM3ZYOURtbnZxZkNDbnpkNHF6b2N5a2V3Tnkyamc?oc=5",
+  "date": "2026-10-16",
+  "snippet": "",
+  "publisher": "Medical Buyer",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-29T15:42:34+00:00",
   "signal": []
  },
  {

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-29T11:31:17+00:00",
+ "checked": "2026-10-29T15:45:01+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -340,6 +340,19 @@
    "first_seen": "2026-10-28T19:40:07+00:00"
   },
   {
+   "id": "cdc018d4981750b1",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Korea Opens 1.5 Trillion Won In-House Testing Market",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeV8ybjVONVl5eVNqWFoyYWxkZldwVlZCR09QOHRSV2Z4RDJsenJwQzJ5V1Q3UW1HcXpwQTYzR1FQQWhIRjBqa0xkd3YwTUd2a2tvNWhvNlVuTXB6RlUwLUJYQUhuVU4xX2FncE0tTlNfeGNwQ21VWWxKVVVQWmRPcV9zVFZFNGZHT2IxVXlyWXp2NmZuR1M5Mw?oc=5",
+   "date": "2026-10-28",
+   "snippet": "",
+   "publisher": "Seoul Economic Daily",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-29T15:45:01+00:00"
+  },
+  {
    "id": "341ce2044083bd73",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -624,6 +637,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-10-21T11:23:24+00:00"
+  },
+  {
+   "id": "4811fc480218e886",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Even Healthcare Raises $50 Mn in Series B Funding Led by Khosla Ventures",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQ0VjNFFET08weENZaHp2Q0hsdnluZnRSMmpDVUNfNm16cHY1SXdQQ3RoWWdfaWtfd2oydHZRd1E2cS1WcWMtb2FUdHFqNGNBYllOZkNFZE9nTXNsSVRtSHl6T3BUWjBoNUREaGRDdGYtS3h4dmVSQng0QXFxMmN5TDlNYmduYlBEcDVNMTUtRURiZXBhQklURkRnS1NiOXlEbDJuZ0VqSGk?oc=5",
+   "date": "2026-10-21",
+   "snippet": "",
+   "publisher": "Digital Health News",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-29T15:45:01+00:00"
   },
   {
    "id": "5b12c3f0141affac",
