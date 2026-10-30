@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-29T23:28:48+00:00",
+ "checked": "2026-10-30T11:28:35+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -442,6 +442,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-10-26T19:36:47+00:00"
+  },
+  {
+   "id": "098d35a0ebc8e640",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "CU Anschutz Innovations: At an Inflection Point for Healthcare",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSE1BLXVudG9CZ1hzZDl2WTlhUll1RC1ZcFo1bXdrQXMtT0dNcGJjaXhvZHVxbE1rNW94WDRpZEFYaHBLOWxmclZSekRvNE1mSnNBc3N0MEFGR05ubXBQemdZaEhxMXZiRWFuMHZkYWY3NGJkcnh4OGxUTlloY1pjd0hVU1lqNG9XVmtEVDg0QU83TFJFLTFvNTN1eDdXUjJIU3pPMVNUSdIBtwFBVV95cUxNUC0tRU1wMUZoOG5iaUpyVU9GRk9WUW1jeXBfM2FhZHN6Q0JQaGQzRGtPUGV4cjVFRnhSRG5pVmp6NHpfVjI3MWs0ODVwTWE0Qk56TFo2ZkplZmZxYUlYTEo4Nk80MldoT2Q1SUgyN0hTRGtkMXR3RGhKTnN1TU1qOGwwQnJYMXE1QWNLaWRBQUdKLWU1a1laVGRpX1dzUHVzb09rSkRfZTE3ZGt5R2N5LUZIY3VaNnM?oc=5",
+   "date": "2026-10-26",
+   "snippet": "",
+   "publisher": "University of Colorado Anschutz",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-30T11:28:35+00:00"
   },
   {
    "id": "b3147be2e9d03d80",
