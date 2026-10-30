@@ -22,6 +22,45 @@
   "signal": []
  },
  {
+  "id": "55bb44a509947d2d",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix Corporation (QTRX) Stock Price, News, Quote & History",
+  "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tRFdoTTk5eVlmWU1FWFMxaHNaSXpSaEl0UGRvdFpEanE0N3k2eDZIc0pSSEs0RHR3b1p2R2pTb2tUWWM2S3Z4QXQwT21tNzJpcnc?oc=5",
+  "date": "2026-10-30",
+  "snippet": "",
+  "publisher": "Yahoo! Finance Canada",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-10-30T19:38:04+00:00",
+  "signal": []
+ },
+ {
+  "id": "920b3e21ec5d4d82",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "How Quidelortho Corp Com (QDEL) Affects Rotational Strategy Timing",
+  "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNGYxNldzVk1SQjUwYlNOWnQtV1gxTzdTX2dLYTE4b2Nwal96SE1pZWVIeXcwZXl2VHJrWFZyc1lENHgwak44WHRBZlhJemRDOFFrQkxNbGdTekJkTkRoa01iR1dIb1c2R2lqRTJ3VXVhYXppc2o2XzJZVmVRV3FLTzdOa3RCOXhBVVhCMXNkejBQcXVLQXlHNFUtaHdTeUR1QzJUeHpGS2E4YTFHcWVqR25yeDlBZWtkLUY0bHR3RjNnRklhbVBkUWFsM3Byc2F3eFYwckxKaXlJMVVVd2c?oc=5",
+  "date": "2026-10-30",
+  "snippet": "",
+  "publisher": "Stock Traders Daily",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-10-30T19:38:04+00:00",
+  "signal": []
+ },
+ {
+  "id": "72175b90aa3786d0",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "Could a Blood Test Help Identify Brain Injury in Newborn Foals? New Research Offers Hope",
+  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMnVpb0syRUxDcVU5dkdRaGhHMFZzZWp2MHZvdDJ4MmdvY0pSX29XdmpHejVlcVlsOEtST2FTTHo0S1NDSjhUdVRFYjY2eTNnb2ZIdHRVWkxCd3kzWVI3cUk2dXZicG5MVkZNbG1tR2hocldPYlEwbWZ6WUR1X191a1VpbnVKcXhOcllLNTN0cWxXbGpJY0FSeVgtcVdXZXlndnI4WUFSSWRKbjRQLWpVWUVJVG5KVlFIVjBDemdjVlFCRXp3akJRSlZ3?oc=5",
+  "date": "2026-10-30",
+  "snippet": "",
+  "publisher": "Vet Candy",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-10-30T19:38:04+00:00",
+  "signal": []
+ },
+ {
   "id": "b566a75f23bf0b47",
   "competitor": "BrainBox Solutions",
   "source": "News",

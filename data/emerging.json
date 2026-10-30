@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-30T15:43:06+00:00",
+ "checked": "2026-10-30T19:41:50+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -313,6 +313,19 @@
   }
  ],
  "news": [
+  {
+   "id": "7d83fed546c3eb0e",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Sparrow Bio Debuts With Lower-Cost At-Home qPCR System",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRzhBZVlsUlpiU0lWTUYzc0w4eHVGa0hmVHdUVFNObWFDSmZlZnBnUUVVUU9lM05oaW1Ud0FtdXlvWGJpWU5pSnZxUmxieF90U085bndXZUc5V0htN1JSdlJJZ2dpLWlycTVPT3JGcVpBdWNJOF9DaHZKdjVEcWVvQUZIcmN0Z1hISUtKX1VOU3JfeXR3cE42WFBlcm1nNU9h?oc=5",
+   "date": "2026-10-30",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-10-30T19:41:50+00:00"
+  },
   {
    "id": "4f117d96d47602f2",
    "competitor": "Emerging (POC)",
