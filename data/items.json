@@ -22,6 +22,34 @@
   "signal": []
  },
  {
+  "id": "b566a75f23bf0b47",
+  "competitor": "BrainBox Solutions",
+  "source": "News",
+  "title": "Prolight's American partner wants to make concussions measurable",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY0dSWGQxSFZhTEJsQlZuZ3V4dmQ2RkVHVUpVZzRvWkhRQlpqdWdRVEgzLTZYUUphemxrSGs1VnNrUkZEOG9GMDU3ZG5BajBtWWw0bExTQkdnVUwycXp5WXNkcHhJZVlyd3Q1RE5VZWpnZWp3THo1T24tM19fT0JacE5nTlNtWTFtYkxTclJBbFBnTHZ6cHRvUnRMWQ?oc=5",
+  "date": "2026-10-30",
+  "snippet": "",
+  "publisher": "Biostock",
+  "query": "\"BrainBox Solutions\"",
+  "first_seen": "2026-10-30T15:40:15+00:00",
+  "signal": [
+   "concussion"
+  ]
+ },
+ {
+  "id": "6204e9486a1ddb33",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "Labcorp, Quest urge RESULTS Act passage as lab payment cuts loom",
+  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPT01TdE9uOVlIeGVvYjZPemVld0VSakwwd2t6Q0JMbzljRllKcmNZSkZnYmNPT1lRTGZRWUUwVEIwRHZtRHBCTWZjWjFDbjJXeGI1S2R6VDZNYVljREd6RlpFeTVpQml3Z0tjQ3pfQWN5b0NBSVF2ZktJc1EtMHY3SDZxam9UNnotek56WFBVRk5Ca3Q0T3NGdnViSVhWbk9GZ0JJOUI1UQ?oc=5",
+  "date": "2026-10-30",
+  "snippet": "",
+  "publisher": "MedTech Dive",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-10-30T15:40:15+00:00",
+  "signal": []
+ },
+ {
   "id": "02cc0a45acf61f77",
   "competitor": "Quanterix",
   "source": "News",
