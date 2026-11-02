@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-10-30T23:27:30+00:00",
+ "checked": "2026-11-02T11:42:58+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -314,6 +314,45 @@
  ],
  "news": [
   {
+   "id": "5a798ce749f5679f",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Texas Weekly Deal Highlights",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XU0sxUVQ2WjhramNQTHlaX0l6NnZZT0oxbDFBQ05QYXVIZ3lzZlJxY2JZRVdsZmJaNk9hNjRETU5uWEJ1MkRmY1JEZ1pSNElERUNqT2FuaUZ1TnRhU1EyTWlsMG1LSWtRei04a01leGZmTGVrUlE?oc=5",
+   "date": "2026-11-02",
+   "snippet": "",
+   "publisher": "Texas CEO Magazine",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-02T11:42:58+00:00"
+  },
+  {
+   "id": "5a28b7837fdeb769",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Henry Schein (HSIC) Q2 2026 Earnings Call Transcript",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mMkpwcmk2VzVoZlgyaHdXa0lxME9weFdIWTVKSnZzSHV3NlBLSUdQX2RNOVV2UGpfeUhyR0lCZmZpa1dWeHBlZFRrNERXa3UtSWdiQ2FkWDBZUlJwUnRGSWlsU2k1d1FlN3c?oc=5",
+   "date": "2026-10-31",
+   "snippet": "",
+   "publisher": "Fortune",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-02T11:42:58+00:00"
+  },
+  {
+   "id": "4ea4bdbfd23df7c9",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Gastrointestinal Diagnostics Market Companies, Size & Trends 2026-2035",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtNFREREE5NHpBdDlWVUtVZjlNZjVoMmxSdmk1REhEVjI4b2tPaUxIQVdfTmM0bjZvNlAzMkd0RGhRSHJoU2xpeU9sbDBvYnlwMDdWSkY3M29NaXJPNVRmVVR3WEVOSV8xRVJEOHlBTW9wdDY5Qzh2X3pn?oc=5",
+   "date": "2026-10-31",
+   "snippet": "",
+   "publisher": "Precedence Research",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-02T11:42:58+00:00"
+  },
+  {
    "id": "7d83fed546c3eb0e",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -559,6 +598,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-10-28T11:31:15+00:00"
+  },
+  {
+   "id": "ff58eb13f4987c53",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Blood Test May Detect Brain Injuries Missed by CT Scans",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZ0hSWDlHckp1N044UkJwcHFQUFNYZlF0QXlzYWpmd2FzZXVzRjJ3dURQVm9lczZJR09YdGptS2xSVlpzU0dQRlhoS1AzLUVxNlQyZlNrWHlaWDBhUURzWUZ1OHMtQVB5WjRUTkEyd0pnNkFUV0puRVhaaXVtMWo4Mkl1MDRiQzY1R1J2ZngySmVoVHFGWUFkbnhzWHZoVndpLUtrUlNKLUVKQWo3WDBrNnNGYnhwU05DZEdVWVJZR1lpaWppWUxvck1meV8wQQ?oc=5",
+   "date": "2026-10-23",
+   "snippet": "",
+   "publisher": "Clinical Lab Products",
+   "query": "\"rapid test\" \"brain injury\"",
+   "tbi": true,
+   "first_seen": "2026-11-02T11:42:58+00:00"
   },
   {
    "id": "6be824da0e38c813",

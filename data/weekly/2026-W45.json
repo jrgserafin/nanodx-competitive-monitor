@@ -1,0 +1,385 @@
+{
+ "week": "2026-W45",
+ "start": "2026-10-26",
+ "end": "2026-11-02",
+ "generated": "2026-11-02T11:43:13+00:00",
+ "counts": [
+  {
+   "name": "Abbott",
+   "this_week": 2,
+   "last_week": 3,
+   "signal": 0
+  },
+  {
+   "name": "bioMérieux",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainScope",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "InfraScan",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainBox Solutions",
+   "this_week": 4,
+   "last_week": 1,
+   "signal": 1
+  },
+  {
+   "name": "EzDiatech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "STATA DX",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "GLIA Diagnostics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Quanterix",
+   "this_week": 8,
+   "last_week": 2,
+   "signal": 0
+  },
+  {
+   "name": "Genalyte",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Oculogica",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Sense Neuro Diagnostics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Medicortex",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Roche",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "AeHealth",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Wondfo",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "ACON",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Hotgen",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "QuidelOrtho",
+   "this_week": 7,
+   "last_week": 10,
+   "signal": 0
+  },
+  {
+   "name": "Boditech Med",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Getein Biotech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI diagnostics market",
+   "this_week": 4,
+   "last_week": 12,
+   "signal": 1
+  },
+  {
+   "name": "Lab reimbursement (CMS)",
+   "this_week": 4,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "TBI biomarker evidence",
+   "this_week": 3,
+   "last_week": 5,
+   "signal": 0
+  },
+  {
+   "name": "Point-of-care & capillary sampling",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "TBI epidemiology & ED burden",
+   "this_week": 2,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "CT avoidance & health economics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI clinical guidelines",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI test reimbursement (CPT 0570U)",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Military TBI screening",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "EMS & prehospital TBI",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "International TBI tests",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  }
+ ],
+ "top": [
+  {
+   "id": "b566a75f23bf0b47",
+   "competitor": "BrainBox Solutions",
+   "source": "News",
+   "title": "Prolight's American partner wants to make concussions measurable",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY0dSWGQxSFZhTEJsQlZuZ3V4dmQ2RkVHVUpVZzRvWkhRQlpqdWdRVEgzLTZYUUphemxrSGs1VnNrUkZEOG9GMDU3ZG5BajBtWWw0bExTQkdnVUwycXp5WXNkcHhJZVlyd3Q1RE5VZWpnZWp3THo1T24tM19fT0JacE5nTlNtWTFtYkxTclJBbFBnTHZ6cHRvUnRMWQ?oc=5",
+   "date": "2026-10-30",
+   "snippet": "",
+   "publisher": "Biostock",
+   "query": "\"BrainBox Solutions\"",
+   "first_seen": "2026-10-30T15:40:15+00:00",
+   "signal": [
+    "concussion"
+   ]
+  },
+  {
+   "id": "1f03cfa8a132b877",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Prolight's American partner wants to make concussions measurable",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY0dSWGQxSFZhTEJsQlZuZ3V4dmQ2RkVHVUpVZzRvWkhRQlpqdWdRVEgzLTZYUUphemxrSGs1VnNrUkZEOG9GMDU3ZG5BajBtWWw0bExTQkdnVUwycXp5WXNkcHhJZVlyd3Q1RE5VZWpnZWp3THo1T24tM19fT0JacE5nTlNtWTFtYkxTclJBbFBnTHZ6cHRvUnRMWQ?oc=5",
+   "date": "2026-10-30",
+   "snippet": "",
+   "publisher": "Biostock",
+   "query": "concussion blood test FDA",
+   "first_seen": "2026-10-30T11:25:39+00:00",
+   "signal": [
+    "concussion"
+   ]
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false,
+ "cites": [
+  {
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY0dSWGQxSFZhTEJsQlZuZ3V4dmQ2RkVHVUpVZzRvWkhRQlpqdWdRVEgzLTZYUUphemxrSGs1VnNrUkZEOG9GMDU3ZG5BajBtWWw0bExTQkdnVUwycXp5WXNkcHhJZVlyd3Q1RE5VZWpnZWp3THo1T24tM19fT0JacE5nTlNtWTFtYkxTclJBbFBnTHZ6cHRvUnRMWQ?oc=5",
+   "title": "Prolight's American partner wants to make concussions measurable"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY0dSWGQxSFZhTEJsQlZuZ3V4dmQ2RkVHVUpVZzRvWkhRQlpqdWdRVEgzLTZYUUphemxrSGs1VnNrUkZEOG9GMDU3ZG5BajBtWWw0bExTQkdnVUwycXp5WXNkcHhJZVlyd3Q1RE5VZWpnZWp3THo1T24tM19fT0JacE5nTlNtWTFtYkxTclJBbFBnTHZ6cHRvUnRMWQ?oc=5",
+   "title": "Prolight's American partner wants to make concussions measurable"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42759081/",
+   "title": "Fighting for safety: head and spine injuries in martial arts presenting to U.S. emergency departments."
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42848964/",
+   "title": "Emergency Department Visits for Falls and First-Time Seizure."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR1pVRjNrdDhDclN2TmtmbGxqOTFmS3p3WDAyZU5Vb04wVERaTWtMaDNfTV90Ynl6VUlyeGdiVFk2NzdiOXdHRjZtN1RjN280Vjhvd2JxYVZ3VjE0UTVVSFl6LUJlWjFMNFA5dFJ0OUl5T1d5bjJ6aDVFYWNsZ2Z6UGYxZGpUd0VtWWlhRjdkSjJ3UVRFZnMydzA2cVI4Y2p5WjJ2REFLZEItT3BL?oc=5",
+   "title": "What to expect from QuidelOrtho’s (QDEL) Q3 earnings"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kOGFRdkRYR1doMmh5OUpER3MtRnZyWmgtQ01wT1Z1bllsaWVwVWNIeVBVSWptNUVGUk9wVTN6dmRPc0JfVkVUSEVwZG9HM3RxMU5sVzlONlRoM0RscGZGTXFR?oc=5",
+   "title": "Quanterix Corporation (QTRX) Seasonal returns chart"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM0ZhMktkdGVnOWRmNHVWMm5BTThZZnBuV05PRlFnOGgxazBDZW5PcXhSQUQ4RGtnS0hLNzV3R2JmTzAwY2V6MkVjbmk0S2tHNDZlQkJfZFE2QXVvYTIxc0dxdEdjSFNRRnF0Y01YeHRVWWVEVzc2VGlDUVRlcWUxT0F1WFc1YnNDb3ZjQWVWNnZIOHJfU2tzNHRhS3E1TVQ4M0Q3alU5bkJpWEtrQktGdXo3ZE1nd9IBuwFBVV95cUxNdjN6RTNSSEc3NmlaT2hHS0stOWFrVTY3ZGNuZ2ZTQ0ZnTVA4WnUzdkwtLU9PRjBOWko0OFZrbEtkZjRSTEVIUE9jWjZranFXSzg5eTlXYkRRZVRKbnE2cVRHQ2NKdzY2NU8yT1BVa2ZKZEFxTGR4YTExdk1rYndMQnU5MzM5TTFjYTNvWDVZOUd5ZjdkemhQQTFYTlI1dENGeHVLLUhLbmVnaTMxQXktWVROTDVJS2hXa2FZ?oc=5",
+   "title": "What QuidelOrtho Bears Saw Before A 54% Drop"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tRFdoTTk5eVlmWU1FWFMxaHNaSXpSaEl0UGRvdFpEanE0N3k2eDZIc0pSSEs0RHR3b1p2R2pTb2tUWWM2S3Z4QXQwT21tNzJpcnc?oc=5",
+   "title": "Quanterix Corporation (QTRX) Stock Price, News, Quote & History"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNGYxNldzVk1SQjUwYlNOWnQtV1gxTzdTX2dLYTE4b2Nwal96SE1pZWVIeXcwZXl2VHJrWFZyc1lENHgwak44WHRBZlhJemRDOFFrQkxNbGdTekJkTkRoa01iR1dIb1c2R2lqRTJ3VXVhYXppc2o2XzJZVmVRV3FLTzdOa3RCOXhBVVhCMXNkejBQcXVLQXlHNFUtaHdTeUR1QzJUeHpGS2E4YTFHcWVqR25yeDlBZWtkLUY0bHR3RjNnRklhbVBkUWFsM3Byc2F3eFYwckxKaXlJMVVVd2c?oc=5",
+   "title": "How Quidelortho Corp Com (QDEL) Affects Rotational Strategy Timing"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMnVpb0syRUxDcVU5dkdRaGhHMFZzZWp2MHZvdDJ4MmdvY0pSX29XdmpHejVlcVlsOEtST2FTTHo0S1NDSjhUdVRFYjY2eTNnb2ZIdHRVWkxCd3kzWVI3cUk2dXZicG5MVkZNbG1tR2hocldPYlEwbWZ6WUR1X191a1VpbnVKcXhOcllLNTN0cWxXbGpJY0FSeVgtcVdXZXlndnI4WUFSSWRKbjRQLWpVWUVJVG5KVlFIVjBDemdjVlFCRXp3akJRSlZ3?oc=5",
+   "title": "Could a Blood Test Help Identify Brain Injury in Newborn Foals? New Research Offers Hope"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPT01TdE9uOVlIeGVvYjZPemVld0VSakwwd2t6Q0JMbzljRllKcmNZSkZnYmNPT1lRTGZRWUUwVEIwRHZtRHBCTWZjWjFDbjJXeGI1S2R6VDZNYVljREd6RlpFeTVpQml3Z0tjQ3pfQWN5b0NBSVF2ZktJc1EtMHY3SDZxam9UNnotek56WFBVRk5Ca3Q0T3NGdnViSVhWbk9GZ0JJOUI1UQ?oc=5",
+   "title": "Labcorp, Quest urge RESULTS Act passage as lab payment cuts loom"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMzM1V1Z4YWlSR25vYk9ob2FBb3Z1R1RMUFBJekU0OFRhcmstSUZUY2hVMmJyeTFJRmpYQjZhYXRxd0YxM3VYTzRkTlRGcjN6SFJQbjl2VHVLQmh4N3dGeUpzcW1iOU8tdEEzd01BVTRKeHlPbDR2Nkk1X2FZbVVzQXpkeWpscU9YWkNDT3V1YUlUNEdreFJDcmVQWGVzckN2ck50YnVxTVA1dEVUbVE?oc=5",
+   "title": "Quanterix stock: Q3 2026 results set for November 9"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNS1fRjRta25hVWhmY3NQZ2REVnhTTmtienJmNUZ3ek5nZUtYMlA4WDViX2lFYWpKZl9HbmM2QndVMGhZRjZTb19kNS11WjFaeDhzbnRNQmM2cXdEQkRUY3plc2xkbGI5Yy1TSUdINTdoVkZoRU1vMU1lNjFSZmloVGtNYTBhVnlQTVFaLXVDOXc2dUZEYXd0ZWUtWHJfMEFyTHhwQkloQkdXQnYxNWJWQUNoUmNWQQ?oc=5",
+   "title": "QuidelOrtho stock spotlights AI in laboratory operations"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdnRsNEp1b2V5dkpUMXNGdGo2VXE2aUpFMERIa3BHSEJSV0Vtejg2eWZITm9ocDVtM0MtbFR3ZFhVVTgwb0VvYjJpaXNOX1dUd2J1U0NjcUZOQnFkYTl1bVlEckNuUUhRbHZuMHhlaGFDdjZiek9yd1BTZERKZURUSk5yZ3ZBM2IzUF9JVGQxMHphbWJxV3hfWG9NaE9qcEhtUnBZUXJjYldkVV9HQTJ6UHRTRkZwMDFqRkZSZl96Q2REZlpXVXVNLWFVaUMyRnkydXM3Uk4zdkJqTjVmV21QckN5MzBRZw?oc=5",
+   "title": "KOAA-TV | UCHealth hospitals in Colorado Springs first in state to implement tool that can eliminate need for CT scan"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTWw2eVlTZk1nQVhNYjRoNmV5MDRXYmxMS1NyYlJjVzZseUx2T2RMTWFYSUtZMVQ3MGpMWk03bjBmRkZIT2I0YnZkaWc3S0JkMHpSdHQ1enZjWmJJT0lBSGVCSTUwcm9ucnd3T1ZEam9LVW10dU1sRXdyT1psOEhUUnpNSWZIY1RFWlBCa2ptWUEyT1RwREowRzJMeUFqNXc4X0RXNHFOSkprLXN6SERrU3NTcnBDMHlUclpsNlJGSzNyd3BGV2ZRY2J0ZkM0Tk0ybGfSAdcBQVVfeXFMT0I2bjhWUmpoMnpNYTZkbnNyYVZac3hzdGkwaG9SV3JZc3UybjR1ck8wQW56VTdVRExoVlhZUzhUVjgzZFdMMVgzTVUweThDZWRQdEYtRHZ0eEY4WEI3R1Z0aGdWWV9NNEJaQmYwOHhsWXVYYllOa0RQNW95UkVXY3RONmNuUmVDeGp2NHYyQ0lxOFQxUHVmRWFvbnRrbFVVUi1WZVFfTzlrTEpQRUQ5UDE5OExjZkZNS1B6OGZELXc5eXNtbjFBWG9tOUlzT0ZxcEY2WUYyRVk?oc=5",
+   "title": "American Resources And 2 Other Promising Penny Stocks"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMmJNalVqb0NvX2RFdDV2aTBWbHhqUWpCZ1JEck0xVWp2b0hoTENtdURSSG43eGFibGFMNVdWbXBqaXFpSmZwUklYbzNVMVdlSGZPNlZZWGtoeXlVLVZaYm1rYjlYVklWVktJSnlFSjloc3hCajdWdlZQUHhEdF9OZERHZUh5dnpfWjBpTzl5YUtfYVJPVW9VWUVEQnltTGNVUEdFaGlkblJGY0o2OFNzN3BCV3ZOZw?oc=5",
+   "title": "Earnings Preview: QuidelOrtho to Report Financial Results Post-market on November 03"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcGFzdXpZUFVqNDdPZFltZWhtVmdVWHRxV01GYlZia2pNQS13a1dWVVlzSjJEWERDTEVyNXdYNUtKYmFfalM5eG01NGZuZGZZdkdDdTlrTmc2QlM2TzRqVGwwbEhEVlNndklpM2Y2V3dCZFN6VWJhczhUSnVUb0c2M0k4RnExUENBbFcxaUFWMVlGVTIxbDRQR2JoWHQ?oc=5",
+   "title": "Transforming Data Into Actionable Insights in the Lab"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTG1MRTFWUXl4RldZeUpGVGYtSE9kUGthV3VqRFBrSFdVTHBLV19zYUVRdFRFZERGTVRJLVVXZEw0ZmJrc2lSdmg3MEJadGM1WF9sRXo4d3pfWTc4Tl9vclZTSnNYR2t5R0ttS25XQ245NzNaczBZLU1EdnRmSU5IWFRYZnJuU1I5SGMw?oc=5",
+   "title": "QuidelOrtho highlights AI and informatics to im..."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTV95VERodkR2Z3RZcnRxU1hLeVFrQThVNERvQ1BnUG9GS1lyd3NzcE1weEdTcGpfaWZObHJxUVh0Rk40Wk05X1RmU0t1Rmp4bU9CeFJNNmdyTDdsZWR0Z2hrV214M3NzVGJKZnNlaVFEcUNHQ2lIZFQyaDV5UmZHQmk5NGJsanFDWGVIVjhwMkQxcy10MUctbzZCbGxxWkQteGc?oc=5",
+   "title": "AHA, others advocate on mandatory payment model for specialists"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fM3FCU3pmalBtYTlyd0lSSlZpMHBhTEgyYXlQOE1BekJLMW80OWcwOVRPZ2ZmS093QkFxTDh1WG9XU3hXazVxT1hnSDdndHFINGc?oc=5",
+   "title": "Quanterix Corporation (QTRX) stock price, news, quote and history"
+  },
+  {
+   "url": "https://clinicaltrials.gov/study/NCT04171960",
+   "title": "Clinical Evaluation of the i-STAT TBI Test (Completed)"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWUY1LXZJQXFOVnhOcVJvOG8tbXpYS0dzVFA0R2RiSU5JVHdWamZMZElyTU5vOUJrRC1lODY0M0pKV2VELVRNa1JmYnp2R09ad2xud0xkcHFxaVNMaWJfcV9RclpOeTBPUEJiR0ZFOXpidzhtQW93V21qaXpnT1JMMDFkN1lKZjdod1V5MWVoNW9GZnFnR2NSQkczNUFXU1c1b0tGZVFiQ29FMGRQWm9MOEFPOThYSHpoSE5lNGNrZnlHM2c?oc=5",
+   "title": "Prolight secures two additional European patents for Psyros®"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNM0FxUzJYOHQwZHdpem5LMWZiTkxoQVBTenpnWC1yS0tDRGtNRnpieGJvY0FlTC0zeWlYR29LbW9qenBzTlNJamNvbEN3U2xYd1k3by0xOHNiX0JiM1FRV01VN3U?oc=5",
+   "title": "Ketones in Urine Test Strips: How They Work and Their Limits"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObE0yeUE3ajU5SEZWTmtGWkNsRXFHU3cwRDBiSi1TdnJPTHA4U0lJOTFRQzdYM0hKRUNfS2E4N2RmWUVQTmpwRnFBQUlVUkpGQVppeWEydjdsNG1HVmRsYTRpNE02aThHRTFETmVMemMtZ1JmQTB3aW1iZk5DZ1Jtd2tfRklfd203OEZ0WU9uYTNXSHprbEl6MWZGa1lzM2FRSElITkRkbEc2dDgt?oc=5",
+   "title": "Childhood mild traumatic brain injury linked to worse mental health in U.S. Veterans"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcExTTUJaOEEyRDZ5VDBHYzVEbF93Q3lodjdEUnRBUlltSXV6dzhqVjc1R1p4SkMyU0NtTFhZQkZNaFQ3cXJXNTVlYnpoSzZkYXJjTFBSU285OTZydll2VFJvbW1CQnJwUW5jSjhsRHdqaWYzTzlPS015VXhFOENoOE5zOTJMTTdFeHl1NUZTd1h3QkUzeVA1aThOc3RMdzVrTzhtR0JTRmY5NjI1TVQ4c3Y1bmx3V2Nzc0pNODJLYXdmV2FnY2hRWWozWXV0V1VNbW9R?oc=5",
+   "title": "Quanterix To Report Third Quarter 2026 Financial Results on November 9, 2026"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeV8ybjVONVl5eVNqWFoyYWxkZldwVlZCR09QOHRSV2Z4RDJsenJwQzJ5V1Q3UW1HcXpwQTYzR1FQQWhIRjBqa0xkd3YwTUd2a2tvNWhvNlVuTXB6RlUwLUJYQUhuVU4xX2FncE0tTlNfeGNwQ21VWWxKVVVQWmRPcV9zVFZFNGZHT2IxVXlyWXp2NmZuR1M5Mw?oc=5",
+   "title": "Korea Opens 1.5 Trillion Won In-House Testing Market"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSm5kUDF6ZnU4aXB1c0NicG9xMUlwWm0tTlRlOU5LSHNtcUtOR2FsckpmaHBDX2l1d0tfRmJ4Vng0WjYwbExoUkZSWDFWR0gtTnBnQXg3dDU0TFp2aHhIYlgxWmNwNTFlanZUNi1YTlQ2LWtXZjFDSHpyOEFyLUx1cmRXS2xsdzha?oc=5",
+   "title": "Labcorp Holdings Inc Stock (LH) Moved Up by 10.60% on Oct 28: Facts Behind the Movement"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNFo3OXNCMUJhb2tEZmtFRmtXR3FlSHZVY1FjWjdfSDFBd0ZYLWFzSl9INE1jbGxVU2U4alQyYzJUUGhIQkREamVHUHgwaGR0ZDk5MHdERFdCNk9XNW1sT0x2bVNGdUpXZHRHQTNrNU1MUVJucHAyd2VFV3BfNVR5MUZWTE5FQk5uR3YwYjA0RzhVSEEzY0hiYjBfMDgxUFpuY3FjT0NJMHBkejR0aE1hUExZUFVwVkVCTTFsQ3VwTmZhUlNxYWlyeGJycGV5YlE3N0VVV2dHR0FmS3M?oc=5",
+   "title": "Prolight receives first order of approximately SEK 19.9 million from BRAINBox"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmlmN2ZvLXMtWXZpT2lDVGh6cG1Ja2RXbzhtT2ZuU1NJRlJFZThuZWh1Y09MWmVrVVNXTU5fbnBjR0tyVW9uLUNCV0FvS0szanpzSk83dWVVVDUyeFdmSWVQcnZDYVBrWThCeEQ0T0ljbFROSVRkQUx1UUxSa0JXQ2FFbWNEUjBzcXZKblhLdFBGeDBkQWxLOXp6dFdsUFV6WEREZm90bXNrQ1NydDBzcUNRdE42NXRMeUU2dENiV0V5dUN4?oc=5",
+   "title": "Prolight Diagnostics Receives First Order Under Supply Deal with BrainBox"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42949696/",
+   "title": "Associations Between Diagnostic Blood-Based Biomarkers and Neuroimaging Findings in Mild Traumatic Brain Injury."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5EcDBHVnVJR2VMS3lTTlJEejVsWndpaU43NjZQU3RMcVpnWnV6NGRDejRDNV92djh5cUo4SWFRa2RmT2lySVJxNnZYSG1KakpMV0I2SWFvZnkyaDM0S2xGczlRUlRya0p6LTZNamY4dmdpb1lWVVE?oc=5",
+   "title": "Chronic traumatic encephalopathy (CTE) | Diagnosis, Treatment, & Football"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVmZ5R2U0bHNLeDdjaklYZmVJb0RKX3hsam9oSVY5UG1pVWRGMmZ0RXctMk1WWERrUFdyM05vNnJmeGNpWUlYcTBsakdUZUstMjdxVDMwWE5UWjljejZlaXZONTVlTWtlU2kydUF2dG82U2x5Skh4c243MGZOdGdnRC02eVh4YTVMMl9PbWYyVjlUTE9XOWpzamRDenR2S01tQ1pJd3pLcw?oc=5",
+   "title": "Wake Forest Building Registry to Study Real-World Use of Alzheimer’s Blood Tests"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbFFZcDRrb2FhczJFSE16YUF5czd2QVoySVAxd2N5cHRjdU5vRWo1MV9MaWJnYU5vSC04NkpsdTh3NXowem1HU3hxNGpTdk9qSXgxZnFEQ2VhZ0NaMENaYzJHUDlhakJXTkFpTi1Tano2ZXpGS1ZGOWdlczR5MVMtZFdQNUxIVjVCYm5IV0VTX2xITl8zVU9PcGhB?oc=5",
+   "title": "Jim Gute is Named Chief Commercial Officer at Quanterix"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWnVGc0pQaUsxQlpsSXZVcHdyUk9MT3RFbUpVZnozM0FwdUxMNnVFeHNDekczdDVBeXZIclI0c0NkTkF5Xzh6ZDd5Ynk2R3JWbTZ3eTBfckFEeXJjX1V3QWtRWHd6Wk9Qd2pSR29mOWFfdGlBaURuSDdUd2JsRHFpSlVmZ3VBeUMtMGdHT1E2dVplWDBzTVZya9IBmAFBVV95cUxPWnVGc0pQaUsxQlpsSXZVcHdyUk9MT3RFbUpVZnozM0FwdUxMNnVFeHNDekczdDVBeXZIclI0c0NkTkF5Xzh6ZDd5Ynk2R3JWbTZ3eTBfckFEeXJjX1V3QWtRWHd6Wk9Qd2pSR29mOWFfdGlBaURuSDdUd2JsRHFpSlVmZ3VBeUMtMGdHT1E2dVplWDBzTVZyaw?oc=5",
+   "title": "How sex-based biology shapes the brain’s response to injury | Newswise"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcklsWGNCLU1yNDhVUFY5U2ktSDRnTlFpa25Xd0pmSlV4Y3hDVUdrY0tuVlVnRUo0WmFUd2ViRVBwOWhJeVZpeFJCZ3dGczRqUUxjaHVtcTVuT1JhU1hHUW9YM3I2OGFGeTBudU9KUXRnU09zeVJ1SGNQOXlFUmtiek5KdTBWS0VxX25BcUlLczhCcWRsUl9rdHpR?oc=5",
+   "title": "Thousands of Labs, Other Providers Face Deep Payment Cuts Unless PAMA Reform Passes by Year-End"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcllISnlOV24zV203b1RZRUdhV2cwNmhaY1BvZWlSQnJVdlRVM3VHcC1EV0luMFQ4V0t5YnZZanF5OXBRdS1rZWpXdGNtT09ia3hocXVaTnZ2UmE5OGFBZFpmZDBGVHBEZnJ2emdveFMtVGFkempsVldyZ1g5bzBxLVE1UDdIR1dKbm1mTXBacDhheVRrWV84R1RR?oc=5",
+   "title": "Blood test could help identify brain injuries missed by CT scans"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcllISnlOV24zV203b1RZRUdhV2cwNmhaY1BvZWlSQnJVdlRVM3VHcC1EV0luMFQ4V0t5YnZZanF5OXBRdS1rZWpXdGNtT09ia3hocXVaTnZ2UmE5OGFBZFpmZDBGVHBEZnJ2emdveFMtVGFkempsVldyZ1g5bzBxLVE1UDdIR1dKbm1mTXBacDhheVRrWV84R1RR?oc=5",
+   "title": "Blood test could help identify brain injuries missed by CT scans"
+  }
+ ]
+}
