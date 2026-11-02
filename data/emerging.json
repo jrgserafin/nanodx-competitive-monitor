@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-02T15:52:29+00:00",
+ "checked": "2026-11-02T19:47:24+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -351,6 +351,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-11-02T15:52:29+00:00"
+  },
+  {
+   "id": "b7d8ea0cabf6cba4",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Roche Secures FDA Clearance for New cobas eplex Respiratory Panel Detecting Up to 19 Pathogens",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQkh0QVdvY2FISWpXQnV1eFFlcDBSZmVybGUtV1NKUEtNRUtYN2dDenF0b01ONUV2U0taU2RjczhhaTQ2NzhLb0dkYl9zVExuNzBPYVM2V2xLZkNkZ2o0VlNMSDJ6ZkJta0RjTGk4ekhaQ3duSHBoMEJ6OGd5S2lwME5zM2RXSGJOb3ZQZEdBUXc2ZWlHTFBQZUJB?oc=5",
+   "date": "2026-11-02",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-02T19:47:24+00:00"
   },
   {
    "id": "5a28b7837fdeb769",
@@ -780,6 +793,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-10-29T15:45:01+00:00"
+  },
+  {
+   "id": "424cc17059657c45",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Ceribell to Report Third Quarter 2026 Financial Results on November 3, 2026",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTTFiTHRreXU5cXdIMjREeGJwMTBkR0NTdENjWm5RRWZXd25ySmc5d0JKWEo3b0JHNDQ0c0NoWEJJWks1RW9HXzlZRmQ1ODg2cnBJaElxcnFqeDZ4TkZwNENOTzE0MFRrd05PMGR3RmNhczE2bHZXeEZ1Y2VBc1llRktSZi1NYkZhUlBkNVFJY1B1cHJIa0NsN2x4WkR0azUycllpVGI1YkRtWWViMGJ0b05KdUhvMTM2Qlh4U3JDcTlBZ01CelVVb0QwOGVHdw?oc=5",
+   "date": "2026-10-20",
+   "snippet": "",
+   "publisher": "markets.businessinsider.com",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-02T19:47:24+00:00"
   },
   {
    "id": "5b12c3f0141affac",
