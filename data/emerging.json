@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-02T11:42:58+00:00",
+ "checked": "2026-11-02T15:52:29+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -327,6 +327,32 @@
    "first_seen": "2026-11-02T11:42:58+00:00"
   },
   {
+   "id": "9a02c578b453722f",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "New PolySense™ Accessories for WatchPAT® 400 Receive FDA Clearance",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcG0zNFNRMS1BbUpmX0Y2ZWR3VWRNZ1ZvWDIwUG1Gb29wRWszTm43YVNNaFk5OGdPajlOcEtBRmJMT3A0UzdRLXh2dW1ySnVxWEF5V1YybFZqSk5JSnlFYVBKZjBjUm90MkRaV2w3ZkVwVExnR0trZW5BTlBPRk0yZG4zTFBpNDdUVE5fUnlzT0FkTW5BUjZDUnR1V2g3cTRBbkFBODRn?oc=5",
+   "date": "2026-11-02",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-02T15:52:29+00:00"
+  },
+  {
+   "id": "944db4575af42bd1",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Approval of a cheap version of HIV-prevention shot lenacapavir raises hopes in low-income countries",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaUxHZFJWc2RSaDRjWEZLUlN1elZiWkFKWFY2dF95U25VY3BMN3pzRjdPZVdWT25jdUxsSU5CVExVM2ZmV3hLWjRqb2VPMENTZ1FiQUZMeFpFTGt0NGZzRXVBNFI0dC1IX2M2UDh1UTkyNExESEJONTRYcmNhWVBSYU1GbWppbTE2ZkoyZTVmNUNtV3IzSkNYUWlfTnozN0FOMk50clEzQk9yVGdTOXJJQ0M1aGxscUJoY01nUlFub1JCbGlVQU1qMmpQZ0ZfalA4bjZjTTJfa3dXX3M?oc=5",
+   "date": "2026-11-02",
+   "snippet": "",
+   "publisher": "Barchart.com",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-02T15:52:29+00:00"
+  },
+  {
    "id": "5a28b7837fdeb769",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -351,6 +377,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-11-02T11:42:58+00:00"
+  },
+  {
+   "id": "5775076e518d3f08",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Procalcitonin Testing Market Companies, Size & Trends 2026-2035",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JU3hVMzhKTnJVb0h3VHRCX0tETk5qRkdXLXRQd3MwYUV1TUY2VFNvX3J1QUM0NlVuTDc1bkhuT3R2Wl8xX0YxRXp2enJ6Ri1CMVNseEd3el9HUXAtcllGRElYdkkyNk5xcklmaXY3MU8?oc=5",
+   "date": "2026-10-31",
+   "snippet": "",
+   "publisher": "Precedence Research",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-02T15:52:29+00:00"
   },
   {
    "id": "7d83fed546c3eb0e",
