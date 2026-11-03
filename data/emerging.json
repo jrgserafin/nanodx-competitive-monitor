@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-02T23:30:58+00:00",
+ "checked": "2026-11-03T11:42:20+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -314,6 +314,19 @@
  ],
  "news": [
   {
+   "id": "04a8c172376e941f",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Clinics On Cloud Raises ₹120 Cr at ₹600 Cr Value [2026]",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNnctQmxoZ2ZULWc4LXNqYWl4bkFCNlJxU1lwS3h5RmJ5djV1NFR3QXkzZEY0WG5GcEpabTVpeEpsam5yTUpaaDl2OWt3eF80UWFHaHZhbnhKTTNkVDVzOWpCbVRQYUpOelpYa1Q0WWR6ek5tdDlFRlFvb1VqQmZvcm1acEVCWHlYLW5WOEdXLTJ3TlhI?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "shattered.io",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-03T11:42:20+00:00"
+  },
+  {
    "id": "5a798ce749f5679f",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -364,6 +377,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-11-02T19:47:24+00:00"
+  },
+  {
+   "id": "12b9f822473d3a01",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Primary Care POC Diagnostics Market Companies, Size & Trends 2026-2035",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1zYWFXRThsT290aGpncEcwMzNkcFowYXNwTUZPSEczV3huNG9JcXRNbW1wMGhxYVV3X1F2Q2xEbHdJVDZlQ0dITi1ERV9NNDJxcGNKbERVSE1KYjlaRkR1a1ROaGctSXA4MXJyNGhGRk9zcnQzbUlaTFRn?oc=5",
+   "date": "2026-11-02",
+   "snippet": "",
+   "publisher": "Precedence Research",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-03T11:42:20+00:00"
   },
   {
    "id": "5a28b7837fdeb769",
