@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-03T15:41:14+00:00",
+ "checked": "2026-11-03T19:44:58+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -351,6 +351,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-11-03T15:41:14+00:00"
+  },
+  {
+   "id": "a5469a69d0c1b2dd",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Tech Roundup - Nov. 3, 2026",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XVkoyaVpSN1daa2VRSmY3Q2J5RVlRaFdEb1E1clhtNUd3N29KY181cXZkVkpNSnAtVjc1TFg3TWxVX0xPVjdOWHN4aFJYRVhndzRQdXBoVWk2YVBmbjQxX2FPTXI?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Taproot Edmonton",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-03T19:44:58+00:00"
   },
   {
    "id": "5a798ce749f5679f",
