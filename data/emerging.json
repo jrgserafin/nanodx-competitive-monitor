@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-03T11:42:20+00:00",
+ "checked": "2026-11-03T15:41:14+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -325,6 +325,32 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-11-03T11:42:20+00:00"
+  },
+  {
+   "id": "37a85699a14c5c93",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Tech Roundup",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XVkoyaVpSN1daa2VRSmY3Q2J5RVlRaFdEb1E1clhtNUd3N29KY181cXZkVkpNSnAtVjc1TFg3TWxVX0xPVjdOWHN4aFJYRVhndzRQdXBoVWk2YVBmbjQxX2FPTXI?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Taproot Edmonton",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-03T15:41:14+00:00"
+  },
+  {
+   "id": "b9ba0cfb266fba1a",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Edwards Wins FDA Tricuspid Repair Nod, Medtronic Posts Strong Ablation Results, and Stryker Expands Shoulder Portfolio",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9TdjM0aW5mQm5MUHdwTGZyazNkT0ZiNUctTlBIZElpUVlMbHJhbDBSc3dnaC15VkJoS01yQVMwWXlhSGVNdjVjV1lhQ2FhTFhNVTFJTEd5cG1CTzBWV2F5N3Z6dUhIR1ZlOVYzQzMxSWFibkhZX2VNbmpNeFYtUQ?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "MedReps",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-03T15:41:14+00:00"
   },
   {
    "id": "5a798ce749f5679f",
