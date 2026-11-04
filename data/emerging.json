@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-04T19:52:46+00:00",
+ "checked": "2026-11-04T23:37:35+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -351,6 +351,19 @@
    "query": "concussion blood test startup",
    "tbi": true,
    "first_seen": "2026-11-04T19:52:46+00:00"
+  },
+  {
+   "id": "942b8a08edd1369b",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "FDA Clears 15-Minute Blood Test to Help Distinguish Bacterial From Viral Infections",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTF9GVW5tZ3Zyb1QzZnR6Wk9jZDNRV0NsWTFmM0c4bENacll6a25xcWlZcFdyX1VNQmhCbjk0M0VOdHFadVBjbENRdWtWamtEUHd1Tm9uUHVXYy1ncjYteFNrTU1jdkhmc2xIeWxHVm80Z1QxWWpmQmg2Q29pM0FnMmFnTDAwT3JZQTlXcHg3bHJCOTdqMllKX2dPWExta1o4U1JwTno2SEQtMWNiZm13Rzl1dU5WNTZOQ2JEZmhFQQ?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "Patient Care Online",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-04T23:37:35+00:00"
   },
   {
    "id": "04a8c172376e941f",
