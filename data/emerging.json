@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-03T23:33:48+00:00",
+ "checked": "2026-11-04T12:08:07+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -313,6 +313,32 @@
   }
  ],
  "news": [
+  {
+   "id": "24897dcb7de5bd02",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "From Molecular Glues to High-Iron Peas: Discovery Spark Welcomes 10 New Science Start-Ups",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNW1WZVRWcTdHajIzb0JIX3VqejdWdFZNQjRXNWpkdFFsbDR6NldxckdPMnBvQWJBdkJFakxLdktZRV9SOHZYSTBLWWMyajlGdlZfUnJjc3dCNHA4NVZ2VWxJR2ZOTWJ2RDdfZEhYeW05RDhpd3JoQ05sTTJ0eERURndYSzdaeE1QdW5xNkF0SzRJUGJ6X1hhODNVZ0Z1UllZMmQ3eFdiTmlwdUtVTE5NdjBOOE8?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "UKSPA",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-04T12:08:07+00:00"
+  },
+  {
+   "id": "8435f1177d25675d",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "SD Biosensor stock: 2029 plan targets 1.2 trillion won revenue",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdDhQRFdiRmhMZjNIR0wxUk1WLTVsdFM5amRfMW5kNjNIQ2g1cU9ZRkx5VThpMDZsUk5MV2wyLVNoYUNBd0lpMThXaVZjd3haN0I3U0EwbU55NGItWF9rQmN5emhXamswUU91ZjkyRzZlMEFDc0ZGX0lnTDU5R256OEhlVjNHLUlUUWJNYzZsTkp3WWpGOWx5YjdXT1dLb3F5Z05wdEV0bklaRzFFSnRkYUJDQ0FxWWJEWDZ0cg?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "ad-hoc-news.de",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-04T12:08:07+00:00"
+  },
   {
    "id": "04a8c172376e941f",
    "competitor": "Emerging (POC)",

@@ -1,0 +1,282 @@
+{
+ "date": "2026-11-04",
+ "generated": "2026-11-04T12:08:08+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "8fc8508baeb16e37",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho launches restructuring program, eliminates COO role",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0tMQ2tjRHp0bkpBU1NFcHBMTk5QdE5NSE9Id0pGanpPYUxiaVExMjBGN3ZNandTbHlQRWc5OUpqVi1JaHMtbmlfcnpfSGVkWkRMUVpMRVB2ZFNONlBFNTdFNlNQLVJ6aVZ2eU1WdXUxY1RTRHhrRkFTMVNKbFY4bUpzMlAtTWw2cXVDcW1oYzBzcTlTRk43LXZueEZjR2FQQUNVdTZJdV8yczE4Z2w1by1wSmViYUhsN25FQzNDMkVnS0U?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-03T23:30:18+00:00",
+   "signal": [
+    "launch"
+   ],
+   "alert": true
+  },
+  {
+   "id": "100bc487f55d823f",
+   "competitor": "AeHealth",
+   "source": "News",
+   "title": "Maryland 96-67 Bucknell (Nov 2, 2026) Game Recap",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vOXNLTmJPdUl2MV9Hd1Q2RjRFTnpnYnE3bFdib2ZDOXZYSkRwamZRTGxOZER2SGp2ekhqaUFWWTJXXzZyRGoxSDQ1RkpoVHd2X0k3N2tHWkFKTFR2MGxyaUdCUTlQVEI5UmxCZzN6cEs4bDJQNVE?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "ESPN",
+   "query": "\"Lamuno\"",
+   "first_seen": "2026-11-03T19:42:25+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "ESPN",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY0o3bTUtSkYzTE5UNkM2dTFYaTBYT1NMVjN0eHlRankwaDd4b1RXaTctSGpHSUJOZ2pfc3NQZ2lIVkk2anlhNmU3aE5nUHZWUjc1SHZJWl8tcXhIQ1hIOHFfMkxDdWQxRlZRNzdjWUZCbDVULVM3eGpXUXhNVzlUWGFSMUxBVUk2VFI1ZFVHMWxkdw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "8cf16b13a3a4d977",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Earnings Preview: Quanterix to Report Financial Results Pre-market on November 09",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ2t3Y2dSLXRLNlRwb0hMMzFvVkxvTHN5TWd5alNYSkd6UUN2cDZ5aHZTdWI0ejJVeGRJVXdUT1c0V1VGenVQQlp2ZzZrWjFHRHdLWjJpbWV5cUlsS3FrZmNodnRESkw5U0Iyc3VVWFpTbzAySlEtRGlRWlBLRnhwTDlVRlZPZjhqQVpPSHR1UTVWTm1SbnlsNkk0S2dIYUpUdllEV1BiMV9aM25NUDBYRFRB?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "Moomoo",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-04T11:44:52+00:00",
+   "signal": []
+  },
+  {
+   "id": "cf0afa1c82d03711",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Corp (QL1A.DU) Seasonal returns chart",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxX29qN2xzclNkYXRvQ25NS0IyQzlTRjlUM1hpQnJqMzUwc1BTNjdwYnN4ZFd5dGxRWjdZWWw2NVlNcjBlT3dnS2RQQVMtQ0VONXRKbWlnaTI0dTdteW9pbDVieUtIdw?oc=5",
+   "date": "2026-10-31",
+   "snippet": "",
+   "publisher": "Yahoo Finance Australia",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-03T15:38:36+00:00",
+   "signal": []
+  },
+  {
+   "id": "bff82fed84614b69",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho: Q3 Earnings Snapshot",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTlpBV25tUzBLZFc4Uzk4bGtzNzU2WlNVV0NmTWhlN2JzV2tnY2xTZldCc1E0NFBnaGt0UUd0VTh6MkE2OFk1MDY1cDIwYVF1dmd6blVsNWtCMmhiS0g5aHItNnQyLUFvZmMtUUdweURQSlZSakd1ZEQ2b0JpSFQ5ZDQ3UU5vMjhFeE9SNWJvZlZEcjlUYm90dGpPbzVlZHdqSFpNOGlCc01rQ2FmQnBGYk9BNFFRN3E5VlhSNTNvcFdvMmJLQVotOVhlNA?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "kens5.com",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-03T23:30:18+00:00",
+   "signal": []
+  },
+  {
+   "id": "c45ca09317c0dd2b",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho (NASDAQ:QDEL) reports sales below analyst estimates in Q3 2026 earnings, stock drops 10.6%",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNd1R5UVNiRjhIN1FKZF85MFF4alBNSUpYNlF1WmYwV2ZieHVrTjBHYzNiZm1YZ3JuZVNsc3hiWlNGMHV4cGVSOWZPclQxTENPQVE0cy1zeTd4VXpQVS1OdGlGWkFjX1ozaDZSYnRjbVY5SDAxYmFaNlNLNmVfZ1h1NnRvSUlwbGtwM2JtMVY2YUZRdTYtUTNxaHhhY3JHeDZLVHV2ckh6MmM4UWtyUGsxWWREeGZBdTNxWkFNWUQwSDZpalJJeE9lYWJmeExLZFdreW5XMlRlamFSMGhaRm45SkNGZW80ekh3OHFzVkdXcUhXUUQ3RUwybC1iYXB6UQ?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "FinancialContent",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-03T23:30:18+00:00",
+   "signal": []
+  },
+  {
+   "id": "17bd62df1ed7a822",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho earnings beat by $0.11, revenue fell short of estimates",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeFpkeGh0WTlkWmVXcTdUQkVDZkoyM2E1MjdHcHhhd3pFT0FYdFp6R2JJUTNVQ09Na04xaWltNl9mQ3ZiaWlLTm5PWkt1Qnh4b2c4LWU4WVEtOWZiTjJuajg2UGptUWc5Ny00Vk42OVFMUXN6UUFONEZkLWhpNE9CdXluZ0VVaEE1QTI2SU1jUGt5cG56dVBvUDlvckVPS2xEb0FNUFo1ckE5WGtzZnV6TkZ3?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Investing.com",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-03T23:30:18+00:00",
+   "signal": []
+  },
+  {
+   "id": "eda3f8190b6f8f1f",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "Earnings Flash (QDEL) QuidelOrtho Corporation Reports Q3 Revenue $618.9M, vs. FactSet Est of $627.8M",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOX09nUnBXNjNNWF9VZTluZlR6UTdDc19XcU5WSUFJTmJJVEJEN0xwQzFXUzFSVEI1Y0RwSlVDd3pNTzBSaGF1Mkt0RmJtak1CeW85S0p4enpjY2Jwc184VGREcU9ueFl5Q2lpdFliZzdRWHp4Umhramg5MUdBaFRCWi1SRnZ0MmpsNmdtcWlUWFRsMFZsaldrZ19XQWlVRnlPVWRGZW9MWjhWQXlZV09QNlRrQmx6Q3BnWHFtbzBEVGNIS2ZnY2hvZXpvS3dUOUtQT3hOWjE0YzlKRF9kMnJuZA?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "marketscreener.com",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-03T23:30:18+00:00",
+   "signal": []
+  },
+  {
+   "id": "03a0689e8b85a400",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "Form 8K QuidelOrtho Corp For: 3 November By Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSHF5bGg3c2ttUU1kbkFGNkhKb2lFRVpWQVhGMmtldnE4dTdkZWZpNUVxM1RISDZkZ1l1d09MQVZzbVlnMUtvTkdwbTh4c05rWDVYUktMNG1Lc0ttT0QxYW1UM0NRZG5yZTMzR1dwZE11YW9rTTBtWXNlTk9jVFQ1YlNpTjh0clV6QUw1bXluUE82SWNvZ3dxRENDczVhTDIxOUE?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Investing.com South Africa",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-03T23:30:18+00:00",
+   "signal": []
+  },
+  {
+   "id": "83675f27c2feea9d",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Reports Third Quarter 2026 Financial Results",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTEtmN1h3V2ZWNlFsZjJkbHdjdEY3OUI0MmdId0VvMnMtd3FvM3lOY1lIM1VlalZYSzdqV2xoUUZoUUN3Qjl6MllIME1aMHc2SjBVQTZVSW5iVDBQYlB6TWo4Nl9FU2dGNUJiT3lLTldidUlsS2JmREc2SUZJbm1tQktCdTFWVmdHMjJoSGZKTjZVY2c2TWpHYXZFMEhuczdlM1NjR1JkQlI2cklTbmpPX2p0TEJfZExm?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-03T23:30:18+00:00",
+   "signal": []
+  },
+  {
+   "id": "f730e5211cf4a576",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Corp (NASDAQ:QDEL) Q3 2026: EPS Beat, Revenue Miss, and Restructuring Plan",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSS10b05lV0ZsZ1lpX2ZvanoxVjFYdnhZTXZ2aFhSY195ZU5XUEFxa1NFaTF2VDJ1eERYcUJNcVpEQXRYRlF1dG85clVVV1RUSWJlR3BYNFNEYlNEYWU2cFl5WUFFSFJMd2ZySGdKb1JHMFBSZGl2TlJRWXM5eE51QmNQLVRZck5rR3FMMlNqcC1weDI1eWRfWDlRREo5YzdQLXhuUlAwTk5SeWJ6Y1RlVTI4bFo2RXppTmNhcW5KbDRhb0pGV3VFdzlONWI?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "ChartMill",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-04T11:44:52+00:00",
+   "signal": []
+  },
+  {
+   "id": "bc8ad02638999565",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho (QDEL) Unveils Restructuring Plan, Shares Drop 11% i",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR3lEbUdPaXZWZmJQN0lwRkd6d2VvZnNCdmhTTDRyVldMSDUydzNqVXBUTlNjWkdLUDg4V3pfaDk1aHZmSmxTd3ZIdkFqbk5ndTBuUWVnS181bkluV0NhQ0hHMVNMRGhrWjJockxTM2JneTc1Q2hfZUx2ZEZVdUNxSkNURE4xU0xoRFgydzhOQThZdVIzazlDdUVZSTQwY1RaM0NDaWVZZTJqVGxCUlJ0X1hlVGltQnFuQ1Fz?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "GuruFocus",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-04T11:44:52+00:00",
+   "signal": []
+  },
+  {
+   "id": "61f531ef050923c7",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Q3 2026 slides: profit beat masks revenue challenges",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM0tZT0xzNmh1VXdPV09zZklKRzNrdU5yUUszSDh2SHFESW9kU09IaGhrNER5R0p5bjQ4cloxQVc5STRJWnB3UVFzNDVuVHNLbG45Rm5hT1BtZS1vZzc2TG95NzRBM1BEZ2pDRkdBazRfM0J2S2hrLXNhTE1KS0NNU3lUWG9ELVU2MTBqMVBwSncxc1lKcXI1aGN5a1VYT2Z2cFc4MXNFSERBSHVfUzN3akg4OHVpNXhGZ0N0RA?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "Investing.com",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-04T11:44:52+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "Investing.com",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYlUyQ0E4MzZYVXV1QlkyR3RVSVZjcURLM2xhd003MWVJeHY4b2hVXzh4VVkzRnFSTnNKV2UyU1ljTGQyVV9tZHRCcmhLVERoYWNfa2tlNkRYaVZrNWpLWVFqYkE1TUdXYlc5eEg1ZUxwcDg2cDdIZmQ4YUg5M1h6YzBYM0pxVm16ZXBQS0xPOEREVVJLX0g2ekhiX1AzX3VMSmNKSDVkVkZGWUxDTlR2WGN3Qm8wS2ZPaXFaUF9TWDdiYk13MTVnVlk5eS1yQ1JhY0RRemQ4UTU?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "8819a10432eead4d",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho (QDEL) Reports Q3 2026 Revenue of $619M Amid Market Challenges",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMmhCRjJ6bmxtLVhpMFU0MXdZdGNMM3NRY3FMTHV3QXNnMUVUdlhPcFNmWTVDQUpYWG9kYnhDSzdMbTdZZTluQlRYTjNzN0RMd1pWMXFNaHM3SDJVLUppcHhtMWdNWnJVb2hpTWZ2LTJPYzRySFFZS3FPVVhfSnltQzYyaDhkOG8yVGtXWkFfMHNtYnd3UU5ON09KX05XNW82b0pBc3ljMlMwYU9fejJj?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "GuruFocus",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-04T11:44:52+00:00",
+   "signal": []
+  },
+  {
+   "id": "508c68e05609a90f",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "What QuidelOrtho (QDEL) Said on Its Q3 Earnings Call",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd3lMSjNqejFwV1dHaGFUSUxFRUJ5Q25qTndIUHBwdHZzcGRKNHU1VmRTWFNpdFFBNjBBd3FmSV9JcXVGY2tRU05ZdXYwZGEteElBVmlKdnp2UjN5NkQ3YmxkcEV1Ym1HSUNpODJGQlhGNjctdGJnY3JwbDBnTlFsdjFaRzNMb0o0LXlJMDN4eDRoUjdGa05NTnJR?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-04T11:44:52+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNQWFkamt4aG9PMk5ya21lY3RDRUxzSzk0M0lKVWZFS1Fidl8tU3NjZFE0cU1PN3FKTWM3UFhRcEtXYWlEMloybnFrd3d2NVJnX0MtTXFyb3dBVmxhdkVoSHBoeHA3V1k?oc=5"
+    },
+    {
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOXFsRFQ4WEN6TVY3ZFdXSUV3RWV5VUZkcUtIeHVFNXBXZU5scWREbktKWGYzWDRMUmlHQU90SWdiUlk3UTQtT2czOEJhOVpSUFRlcks1VHFjQUZBa0xCZzlGVW9SYTY3cy1Sd2tyX3JYdzRkanRpUDRYX0JBWG50Y0tZaXJvaWM2M0syNWtUVTNDY2c?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "4af9f780c093ea9a",
+   "competitor": "Roche",
+   "source": "News",
+   "title": "Immunoassay Neurological Biomarkers Market Companies, Size & Trends 2026-2035",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ1pEVFhHZjdqOWsxSGlzMlROT296a19UMXdVVGNuN3VHRGtoZ3dWRXFjcjZfd2VOYzJvRllpVXptUjBlaDg2V0lsUjlaTmlWV1IwM3duenR6bWU2cWxxdFFfU1ZlRktES1BaQ2JCWVQ1VW1hX2RVNFdWWWlXRHF4RkYwbw?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Precedence Research",
+   "query": "\"Roche\" \"Elecsys\" (GFAP OR \"UCH-L1\" OR \"brain injury\")",
+   "first_seen": "2026-11-03T19:42:25+00:00",
+   "signal": []
+  },
+  {
+   "id": "0f0a0560305d07ff",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "Immunoassay Neurological Biomarkers Market Companies, Size & Trends 2026-2035",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ1pEVFhHZjdqOWsxSGlzMlROT296a19UMXdVVGNuN3VHRGtoZ3dWRXFjcjZfd2VOYzJvRllpVXptUjBlaDg2V0lsUjlaTmlWV1IwM3duenR6bWU2cWxxdFFfU1ZlRktES1BaQ2JCWVQ1VW1hX2RVNFdWWWlXRHF4RkYwbw?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Precedence Research",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-11-03T19:42:25+00:00",
+   "signal": []
+  },
+  {
+   "id": "dca57529bec2adcb",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "East Anglian Air Ambulance proves rapid pre-hospital blood test can diagnose brain bleeds in minutes",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRHNYdkZJRVIyeHBKZDRHUzQ2Z2JJSE91Q1NMbHROX2RVU0UyTU5WRHNvc2NYbzlfMjNnWG9QLUJ6azR6d2xIMFZScEJqdHBxTnRuVE9fWkg2Zm91V001aXlZNHFreU9ibGU2UGZhSXJCTGVJTWk2NGRQd080ZS1RWTk2S0NyaXA5VHRmMi1TQkUxZkxjSzIwdTVfWnl3SGRra1Q4MDlwcmpsS3o1ZThNMS0yUUgtRHVyVTVYUGo5M0IzNUpaYjVmdGlaUnAxUUdXOUw4TFBMT21ZNjFlNGxxUmF3?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "News-Medical",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-11-04T11:44:52+00:00",
+   "signal": []
+  },
+  {
+   "id": "11c5195f23fee242",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Immunoassay Neurological Biomarkers Market Companies, Size & Trends 2026-2035",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ1pEVFhHZjdqOWsxSGlzMlROT296a19UMXdVVGNuN3VHRGtoZ3dWRXFjcjZfd2VOYzJvRllpVXptUjBlaDg2V0lsUjlaTmlWV1IwM3duenR6bWU2cWxxdFFfU1ZlRktES1BaQ2JCWVQ1VW1hX2RVNFdWWWlXRHF4RkYwbw?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Precedence Research",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-11-03T19:42:25+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}

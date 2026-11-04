@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-03T23:30:18+00:00",
+ "checked": "2026-11-04T11:44:52+00:00",
  "sources": [
   {
    "entity": "Abbott",
@@ -27,28 +27,28 @@
    "source": "Page: https://abbott.mediaroom.com/press-releases",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 25.3
   },
   {
    "entity": "Abbott",
    "source": "FDA: Abbott",
    "ok": true,
    "count": 118,
-   "secs": 1.3
+   "secs": 0.6
   },
   {
    "entity": "Abbott",
    "source": "Trials: Abbott",
    "ok": true,
    "count": 10,
-   "secs": 0.4
+   "secs": 0.3
   },
   {
    "entity": "Abbott",
    "source": "PubMed: \"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 1,
-   "secs": 0.8
+   "secs": 0.9
   },
   {
    "entity": "Abbott",
@@ -73,7 +73,7 @@
    "source": "Federal awards: Abbott Laboratories",
    "ok": true,
    "count": 15,
-   "secs": 12.2
+   "secs": 123.6
   },
   {
    "entity": "bioMérieux",
@@ -94,14 +94,14 @@
    "source": "Homepage: https://www.biomerieux.com",
    "ok": true,
    "count": 0,
-   "secs": 1.4
+   "secs": 2.5
   },
   {
    "entity": "bioMérieux",
    "source": "FDA: bioMerieux",
    "ok": true,
    "count": 4,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "bioMérieux",
@@ -115,7 +115,7 @@
    "source": "PubMed: \"VIDAS TBI\"",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "bioMérieux",
@@ -138,21 +138,21 @@
    "source": "Homepage: https://www.brainscope.com",
    "ok": true,
    "count": 0,
-   "secs": 0.6
+   "secs": 0.3
   },
   {
    "entity": "BrainScope",
    "source": "FDA: BrainScope",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "BrainScope",
    "source": "Trials: BrainScope",
    "ok": true,
    "count": 10,
-   "secs": 0.6
+   "secs": 0.1
   },
   {
    "entity": "BrainScope",
@@ -173,9 +173,9 @@
   {
    "entity": "BrainScope",
    "source": "Federal awards: BrainScope",
-   "ok": true,
-   "count": 0,
-   "secs": 5.0
+   "ok": false,
+   "error": "https://api.usaspending.gov/api/v2/search/spending_by_award/: HTTPSConnectionPool(host='api.usaspending.gov', port=443): Read timed out. (read timeout=25)",
+   "secs": 87.2
   },
   {
    "entity": "InfraScan",
@@ -196,21 +196,21 @@
    "source": "Homepage: https://infrascanner.com",
    "ok": true,
    "count": 0,
-   "secs": 1.5
+   "secs": 0.7
   },
   {
    "entity": "InfraScan",
    "source": "FDA: InfraScan",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "InfraScan",
    "source": "PubMed: Infrascanner",
    "ok": true,
    "count": 1,
-   "secs": 0.7
+   "secs": 0.9
   },
   {
    "entity": "InfraScan",
@@ -224,9 +224,9 @@
   {
    "entity": "InfraScan",
    "source": "Federal awards: InfraScan",
-   "ok": true,
-   "count": 0,
-   "secs": 1.2
+   "ok": false,
+   "error": "https://api.usaspending.gov/api/v2/search/spending_by_award/: HTTPSConnectionPool(host='api.usaspending.gov', port=443): Read timed out. (read timeout=25)",
+   "secs": 143.9
   },
   {
    "entity": "BrainBox Solutions",
@@ -275,9 +275,9 @@
   {
    "entity": "BrainBox Solutions",
    "source": "Federal awards: BrainBox Solutions",
-   "ok": true,
-   "count": 0,
-   "secs": 9.1
+   "ok": false,
+   "error": "https://api.usaspending.gov/api/v2/search/spending_by_award/: HTTPSConnectionPool(host='api.usaspending.gov', port=443): Max retries exceeded with url: /api/v2/search/spending_by_award/ (Caused by NewConnectionError(\"HTTPSConnection(host='api.usaspending.gov', port=443): Failed to establish a new co",
+   "secs": 87.2
   },
   {
    "entity": "EzDiatech",
@@ -291,7 +291,7 @@
    "source": "News: \"VEUPLEX\"",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "entity": "EzDiatech",
@@ -305,7 +305,7 @@
    "source": "PubMed: VEUPLEX OR EzDiatech",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "entity": "EzDiatech",
@@ -356,9 +356,9 @@
   {
    "entity": "STATA DX",
    "source": "Federal awards: Stata DX",
-   "ok": true,
-   "count": 0,
-   "secs": 2.0
+   "ok": false,
+   "error": "https://api.usaspending.gov/api/v2/search/spending_by_award/: HTTPSConnectionPool(host='api.usaspending.gov', port=443): Max retries exceeded with url: /api/v2/search/spending_by_award/ (Caused by NewConnectionError(\"HTTPSConnection(host='api.usaspending.gov', port=443): Failed to establish a new co",
+   "secs": 78.9
   },
   {
    "entity": "GLIA Diagnostics",
@@ -381,13 +381,13 @@
    "source": "Federal awards: Glia Diagnostics",
    "ok": true,
    "count": 0,
-   "secs": 6.3
+   "secs": 86.7
   },
   {
    "entity": "Quanterix",
    "source": "News: \"Quanterix\"",
    "ok": true,
-   "count": 6,
+   "count": 7,
    "secs": 0.2
   },
   {
@@ -404,14 +404,14 @@
    "source": "FDA: Quanterix",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "Quanterix",
    "source": "Trials: Quanterix",
    "ok": true,
    "count": 1,
-   "secs": 0.4
+   "secs": 0.1
   },
   {
    "entity": "Quanterix",
@@ -443,7 +443,7 @@
    "source": "Federal awards: Quanterix",
    "ok": true,
    "count": 4,
-   "secs": 14.1
+   "secs": 83.6
   },
   {
    "entity": "Genalyte",
@@ -464,7 +464,7 @@
    "source": "FDA: Genalyte",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "Genalyte",
@@ -480,13 +480,13 @@
    "source": "Federal awards: Genalyte",
    "ok": true,
    "count": 0,
-   "secs": 5.4
+   "secs": 83.6
   },
   {
    "entity": "Oculogica",
    "source": "News: \"Oculogica\"",
    "ok": true,
-   "count": 3,
+   "count": 2,
    "secs": 0.2
   },
   {
@@ -501,14 +501,14 @@
    "source": "Homepage: https://oculogica.com",
    "ok": true,
    "count": 0,
-   "secs": 1.0
+   "secs": 1.3
   },
   {
    "entity": "Oculogica",
    "source": "FDA: Oculogica",
    "ok": true,
    "count": 1,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "Oculogica",
@@ -522,7 +522,7 @@
    "source": "PubMed: EyeBOX AND concussion",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Oculogica",
@@ -538,7 +538,7 @@
    "source": "Federal awards: Oculogica",
    "ok": true,
    "count": 0,
-   "secs": 0.9
+   "secs": 57.3
   },
   {
    "entity": "Sense Neuro Diagnostics",
@@ -559,7 +559,7 @@
    "source": "FDA: Sense Neuro",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 4.3
   },
   {
    "entity": "Sense Neuro Diagnostics",
@@ -575,7 +575,7 @@
    "source": "Federal awards: Sense Neuro",
    "ok": true,
    "count": 0,
-   "secs": 5.1
+   "secs": 107.3
   },
   {
    "entity": "Medicortex",
@@ -596,14 +596,14 @@
    "source": "Homepage: https://www.medicortex.fi",
    "ok": true,
    "count": 0,
-   "secs": 4.6
+   "secs": 4.5
   },
   {
    "entity": "Medicortex",
    "source": "PubMed: Medicortex OR ProbTBI",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.3
   },
   {
    "entity": "Medicortex",
@@ -617,9 +617,9 @@
   {
    "entity": "Medicortex",
    "source": "Federal awards: Medicortex",
-   "ok": true,
-   "count": 0,
-   "secs": 4.4
+   "ok": false,
+   "error": "https://api.usaspending.gov/api/v2/search/spending_by_award/: HTTPSConnectionPool(host='api.usaspending.gov', port=443): Read timed out. (read timeout=25)",
+   "secs": 87.2
   },
   {
    "entity": "Roche",
@@ -646,22 +646,22 @@
    "entity": "Roche",
    "source": "FDA: Roche",
    "ok": true,
-   "count": 48,
-   "secs": 0.4
+   "count": 46,
+   "secs": 0.3
   },
   {
    "entity": "Roche",
    "source": "Trials: Roche",
    "ok": true,
    "count": 10,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Roche",
    "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "entity": "Roche",
@@ -698,7 +698,7 @@
    "source": "FDA: Wondfo",
    "ok": true,
    "count": 2,
-   "secs": 0.3
+   "secs": 0.5
   },
   {
    "entity": "Wondfo",
@@ -721,7 +721,7 @@
    "source": "Homepage: https://www.aconlabs.com",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.4
   },
   {
    "entity": "ACON",
@@ -767,21 +767,21 @@
    "source": "News: \"QuidelOrtho\"",
    "ok": true,
    "count": 15,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "QuidelOrtho",
    "source": "Homepage: https://www.quidelortho.com",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.4
   },
   {
    "entity": "QuidelOrtho",
    "source": "FDA: Quidel",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "QuidelOrtho",
@@ -804,9 +804,9 @@
   {
    "entity": "QuidelOrtho",
    "source": "Federal awards: QuidelOrtho",
-   "ok": true,
-   "count": 15,
-   "secs": 1.1
+   "ok": false,
+   "error": "https://api.usaspending.gov/api/v2/search/spending_by_award/: HTTPSConnectionPool(host='api.usaspending.gov', port=443): Read timed out. (read timeout=25)",
+   "secs": 87.3
   },
   {
    "entity": "Boditech Med",
@@ -829,7 +829,7 @@
    "source": "FDA: Boditech",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.9
   },
   {
    "entity": "Boditech Med",
@@ -882,14 +882,14 @@
    "source": "PubMed: (\"traumatic brain injury\" OR concussion) AND (GFAP OR \"UCH-L1\") AND \"point-of-care\"",
    "ok": true,
    "count": 1,
-   "secs": 0.7
+   "secs": 0.9
   },
   {
    "entity": "TBI diagnostics market",
    "source": "Federal Register: traumatic brain injury",
    "ok": true,
    "count": 15,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Lab reimbursement (CMS)",
@@ -903,35 +903,35 @@
    "source": "Federal Register: \"clinical laboratory fee schedule\" OR \"Medicare Physician Fee Schedule\" OR \"proprietary laboratory analyses\"",
    "ok": true,
    "count": 12,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "TBI biomarker evidence",
    "source": "News: (GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
    "ok": true,
    "count": 6,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "TBI biomarker evidence",
    "source": "PubMed: (\"traumatic brain injury\" OR concussion OR \"head injury\") AND (GFAP OR S100B OR \"UCH-L1\") AND (sensitivity OR specificity OR \"negative predictive value\" OR kinetics OR \"diagnostic accuracy\")",
    "ok": true,
    "count": 5,
-   "secs": 0.9
+   "secs": 0.8
   },
   {
    "entity": "TBI biomarker evidence",
    "source": "NIH RePORTER: (GFAP OR S100B OR \"UCH-L1\") AND (\"traumatic brain injury\" OR concussion)",
    "ok": true,
    "count": 15,
-   "secs": 0.3
+   "secs": 0.4
   },
   {
    "entity": "Point-of-care & capillary sampling",
    "source": "PubMed: (capillary OR fingerstick OR \"finger-stick\" OR \"whole blood\" OR \"point-of-care\" OR biosensor) AND (GFAP OR S100B OR \"UCH-L1\" OR \"brain injury\" OR concussion)",
    "ok": true,
    "count": 11,
-   "secs": 0.9
+   "secs": 1.0
   },
   {
    "entity": "Point-of-care & capillary sampling",
@@ -952,14 +952,14 @@
    "source": "PubMed: (\"traumatic brain injury\" OR concussion OR \"head injury\") AND (\"emergency department\" OR \"urgent care\") AND (incidence OR epidemiology OR visits OR trends OR \"direct costs\") AND (\"United States\" OR national)",
    "ok": true,
    "count": 4,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "entity": "CT avoidance & health economics",
    "source": "PubMed: (\"traumatic brain injury\" OR \"head injury\" OR concussion) AND (biomarker OR GFAP OR S100B) AND (\"computed tomography\" OR CT) AND (cost OR \"cost-effectiveness\" OR utilization OR \"unnecessary\")",
    "ok": true,
    "count": 5,
-   "secs": 0.8
+   "secs": 0.9
   },
   {
    "entity": "TBI clinical guidelines",
@@ -994,14 +994,14 @@
    "source": "News: military \"traumatic brain injury\" blood test OR screening OR biomarker",
    "ok": true,
    "count": 9,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Military TBI screening",
    "source": "Federal awards: traumatic brain injury diagnostic, concussion assessment, TBI biomarker",
    "ok": true,
    "count": 2,
-   "secs": 4.3
+   "secs": 113.0
   },
   {
    "entity": "EMS & prehospital TBI",
@@ -1015,21 +1015,21 @@
    "source": "News: (GFAP OR \"UCH-L1\" OR S100B) test (Europe OR \"CE mark\" OR NMPA OR Japan OR Korea) brain injury",
    "ok": true,
    "count": 4,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Emerging (POC)",
    "source": "FDA 510(k) point-of-care scan",
    "ok": true,
    "count": 15,
-   "secs": 4.7
+   "secs": 3.3
   },
   {
    "entity": "Emerging (POC)",
    "source": "ClinicalTrials.gov industry TBI diagnostics",
    "ok": true,
    "count": 15,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Emerging (POC)",
