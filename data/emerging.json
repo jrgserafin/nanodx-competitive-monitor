@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-04T15:49:12+00:00",
+ "checked": "2026-11-04T19:52:46+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -340,6 +340,19 @@
    "first_seen": "2026-11-04T12:08:07+00:00"
   },
   {
+   "id": "1e9a5c6cfabce45d",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Browns QB Watson enters concussion protocol after symptoms surfaced, Sanders could go against Saints",
+   "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQZUtqVjZodTF4RVBsYzlTZVdZa2RWN25DZ3RvaGRmci1NaFdMTGFuRHZFTDFjSHZKa3ZsMWNibzJxSWotanZLQ0lxM3pWTTRBajdlMV9Ga1F1TXhkbS1iS21ZU0w1ZVM2S2NWQk50ZjNkbW5zVS1DZ1ZBaTRReHpkUGJjTWNEX19lV29IbWJSR2o3NG8xazFzeUNMRm1FQm5FZDJmODZQVkswT2NSNDczbkEyRjBiZFRLR3Zkem0ySDktSGZWNkJKZzdMZmhJYkJRUEoxVDBVa2lpQXl0d1hQR0owQzFpODlvWFp5Tk12ZGQwa3Z2TjZZUVFxMTVaSlN5bnBtOHFZQkpHV3hoZHFQSy01aF9JSFdCODJNTDA0SnV5elFuQV9uN0tWQQ?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "Times Argus",
+   "query": "concussion blood test startup",
+   "tbi": true,
+   "first_seen": "2026-11-04T19:52:46+00:00"
+  },
+  {
    "id": "04a8c172376e941f",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -390,6 +403,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-11-03T19:44:58+00:00"
+  },
+  {
+   "id": "2b46f2887bb9d4a2",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Cepheid Receives FDA Clearance for Xpert® Hemorrhagic Fever Panel Test",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVWx4bldSWGt4TXBNSHJoaVlCZU1HdnJUeGhINFFsc3dKeWlJX2hmRTUwSGdZU2duMDhfNUFwR20yNWI0V1ZfcFJFM1g2RWtuc1dyVWJjXzZBclctRE4xTUtRbXg3X2VrenM1aTdueDBJWVB6MWVpRElGRmxpMXl2enl0WFNjWEc0NVd3Z2tUN0tiYnBrNVZPUVQxdmg5QQ?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-04T19:52:46+00:00"
   },
   {
    "id": "5a798ce749f5679f",
