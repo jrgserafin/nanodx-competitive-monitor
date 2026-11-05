@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-05T11:46:50+00:00",
+ "checked": "2026-11-05T15:51:56+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -313,6 +313,32 @@
   }
  ],
  "news": [
+  {
+   "id": "be29847ce311e02f",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Nucleic Acid Testing Market to Reach US$ 27.01 Billion by 2035 as",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV3ZoQ2FIcTdDaXktUkEwbHZKb0hTZ3dQWFdNc3VwanRLYVctRUp1b1lYV080M29LOTl5ZDlkelVrWGw5cTNOVERpMENSYTh0cjcyS3FEUkNTNHpzTEJpMkNHa1RtZ0pydFMyVkwtQWtpOVJIbkZlMUIwcjFldFRvQmZwT2pTUnRDa1lRMU5BVmludGN6NTRwc1N1eXNZWVc4VHc?oc=5",
+   "date": "2026-11-05",
+   "snippet": "",
+   "publisher": "openPR.com",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-05T15:51:56+00:00"
+  },
+  {
+   "id": "3b0668afbd1dd1d3",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Bank of England raises main interest rate a quarter point to 4% as Iran war stokes inflation",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQNnRoSG5hWWJKa19aQi1pTHFrc3haUVpRSURnNHNGLS11Y0xJU1lYMnN4VlRBRzJONXYtTGR4cXBaWVNVRWRzdl9RRTZRZHJEY01zZVZGNFRndmQwdllvR1VFNGNib0E3RTVMY1RpWHdzNlQtVUsxV0JKVm5sUVczSEs3Y2paLXlrR09UVkw3MzdnRmFvdTlnY1NZTmpUckxVM0VQQWFZMVlIcVFxb0ZsRTh0d2ppUFVfbmRZTjhUQ29HU1BtQm5iVXV2VUhmal95dXlJVDVOTQ?oc=5",
+   "date": "2026-11-05",
+   "snippet": "",
+   "publisher": "Barchart.com",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-05T15:51:56+00:00"
+  },
   {
    "id": "24897dcb7de5bd02",
    "competitor": "Emerging (POC)",
