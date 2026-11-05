@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-04T23:37:35+00:00",
+ "checked": "2026-11-05T11:46:50+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -366,6 +366,19 @@
    "first_seen": "2026-11-04T23:37:35+00:00"
   },
   {
+   "id": "87323e675166091d",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Abbvie's Nxera deal, Nooks $500m, and the birth of Onvaro",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaC0xM0NZYWJKM3JLYjRoM19GdnRRUm1IdV9QY2FjMGt4Qy1GbW9HWlBwaTNBLTJnVG1nc3RjajdobEV1YXR4djRBVDdTdlRCbmJENzU2emY3TmhvNjhka2lGOHVCOXF5TDZBRWdCaHNoTGljZTZpVGMySkZGdzYxNV9xbkNub0ZSMmZSR2o3UzRmSFBRcEVEZ1hvNGtzN2hPRUJkSUo0bkdLc1RmYU5B?oc=5",
+   "date": "2026-11-04",
+   "snippet": "",
+   "publisher": "Axios",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-05T11:46:50+00:00"
+  },
+  {
    "id": "04a8c172376e941f",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -494,6 +507,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-11-03T11:42:20+00:00"
+  },
+  {
+   "id": "b93dc40647e8e493",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Rapid Pathogen Detection Diagnostics Market Companies, Size & Trends 2026-2035",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR2lBamtIcGZxSkNJZ0FTbWllanhEVmFGM0pNM1Zjazg5cnNaZWNidGViR3BTOXFEcHlTeFNIOC1VNFJVVkdQVkFPLWNLaDRBOFJQQUh2c21HVlZ3UElXd09fbXBYWndPejU3VENuRWp5OHh2aUVjVDlEb3V6cFFmSTlaU20?oc=5",
+   "date": "2026-11-02",
+   "snippet": "",
+   "publisher": "Precedence Research",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-05T11:46:50+00:00"
   },
   {
    "id": "5a28b7837fdeb769",

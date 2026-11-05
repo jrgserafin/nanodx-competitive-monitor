@@ -22,6 +22,19 @@
   "signal": []
  },
  {
+  "id": "857a40a55796b96d",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "Blood test helps air ambulance teams identify brain bleeds at scene of emergency",
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQWV6cGFzdGRjVDFMdm82RlZOVXZ4Z0VRa1FNNGRsWHFBWl9LMjFOaFl4V19uZ3J0UzBrRE9XVXRpTUYwOElWV3hpdEhDWGJaOVhXdzhkYTZlV0dxS21iZ2tzQkpFOGdVYWIyQ3BUUWhoU3A2N2o4UWpRQzZwQ091WTAwVEtQT0RXNDdWclZMYzJJZE1Od2hYZThuMHoxSzVLZ3dYaTZHc0JhM3JST0ZXZW5HR2thTjB0UXlVZWgyaW1veW01eHc?oc=5",
+  "date": "2026-11-05",
+  "snippet": "",
+  "publisher": "Emergency Services Times",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-11-05T11:44:16+00:00",
+  "signal": []
+ },
+ {
   "id": "ef7eaf8bffb79812",
   "competitor": "Point-of-care & capillary sampling",
   "source": "Publication",
@@ -186,6 +199,32 @@
   "publisher": "News-Medical",
   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
   "first_seen": "2026-11-04T11:44:52+00:00",
+  "signal": []
+ },
+ {
+  "id": "1ea9fddc786428d6",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "symbol__ Stock Quote Price and Forecast",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1HQnJITmVKZTRxRDZWb0FONnp6UGFsQjRMU3ZBYzItcExzbTFJdVY0NWx1MXdMZXhoMnBhQ3Q4Q21sX1BiR0NWSzlGM1plMlBv?oc=5",
+  "date": "2026-11-03",
+  "snippet": "",
+  "publisher": "CNN",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-05T11:44:16+00:00",
+  "signal": []
+ },
+ {
+  "id": "38bc36022d85144f",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho (QDEL) Beats Q3 Earnings and Revenue Estimates",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd210ZDJjb0szQ21NRUVSeHlmekM3dzlHNnUzTnJMb3pLWWRYNU1KME8xNEVWN2JNWEROY2xaZGQ0ODcwMnlpNU1vUXhETjVpOURTMUJZM1pMeEp3SWhaTDRuTzFwaVZyaV9DaTBYYm1MN2NhN3V1R2daa0J2N1RXSjlVVWU4RXhLc1Z3TTBKZlhVc2t6N1NpcWU5RQ?oc=5",
+  "date": "2026-11-03",
+  "snippet": "",
+  "publisher": "Yahoo Finance",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-05T11:44:16+00:00",
   "signal": []
  },
  {
@@ -993,6 +1032,19 @@
   "publisher": "Bucknell University Athletics",
   "query": "\"Lamuno\"",
   "first_seen": "2026-10-27T11:26:07+00:00",
+  "signal": []
+ },
+ {
+  "id": "fecb6ae1083ed877",
+  "competitor": "Medicortex",
+  "source": "News",
+  "title": "DIV.B: Medicortex’s write-down drove losses higher as Evendo’s annualized fulfilled volume reached 155 MSEK",
+  "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQWWIyUnplQ3Z3SHEyVXJENWcwY19qRUw0V2gtN1ZwYjc2V25lMWFxSmVwQmRLWXNoQ3ZBX3JpSl9wT0dUbjQ2SVZtNEpBdTBTZEhuNDdqVFYyZ1Y0TEdBQzRnZTY5d3p5bzRfemktbGVhXzBkVWlVTzhuYjI2NzdJMXgwUXhrWDdBVDdONElTSmJRMV9wRWJtNkFob1c5WnBueXpvdnR4RjhSbVFZSnY3RnpDZ1BBbGhfTXljU0hMQ3FrYUViQ1JYR1REalRXdGdraUV3QnBaak9LbUk0SWUyVXJnXzByQ21xVVEzckxxN3U4eGU1YmF5TG53MXlxYU1BMEVWSDRZOXZweXlUdHdndUUxSW5tQXd5?oc=5",
+  "date": "2026-10-23",
+  "snippet": "",
+  "publisher": "TradingView",
+  "query": "\"Medicortex\"",
+  "first_seen": "2026-11-05T11:44:16+00:00",
   "signal": []
  },
  {
