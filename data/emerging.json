@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-05T15:51:56+00:00",
+ "checked": "2026-11-05T19:47:14+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -340,6 +340,19 @@
    "first_seen": "2026-11-05T15:51:56+00:00"
   },
   {
+   "id": "49d03081d5c57ad3",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Molbio broadens diagnostics with radiology and digital pathology",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTndmQk1BQmtqdDB5NTZ2NFMyTXJQZm1zYlRBazRfb2FiS3pZcDM2eUVlSC1nQzFjVFcybXhiQ2ZEZHNYVm1wcGpUZlY1Qm5pcndYcURIbEFULUVhLTg3Um5rMk13Y2drMVVPVXRScXFQSW1ZNVl0elNNYWZVTm41TWtRc2hualJPZDFoN0JySEhpUThSMUdZd3NIdTdvSFFKV1VnajctMnlpcU5ZbHFBYWl1b2Y4dFYxYloza0VzZ1o?oc=5",
+   "date": "2026-11-05",
+   "snippet": "",
+   "publisher": "Multibagg AI",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-05T19:47:14+00:00"
+  },
+  {
    "id": "24897dcb7de5bd02",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -468,6 +481,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-11-04T19:52:46+00:00"
+  },
+  {
+   "id": "3e6a191087630cd4",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "This Data Center and Storage Stock Just Raised Its Dividend by Nearly 17%",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdUloNTFwM1lyUGI1X2VmZlcwNmJ3ams2XzgwMEozOHVldWNNaUJYNTdldEJjU2NRS3BncUstWnVTVkNxbFlLY2ZWM254eFNsS05CTVNwWlNWeHZ2OXhab0sweng2dzR2Y2pSUE1yUXNJNWpQa1p3VlNlVzVXWHREeDBNdkNVUDc4UHF5aUVuZ1J0ZjlSa25Yd0FkZGFWRVk2SkgtaS1vQnAwYjdZbjdZdVkwb1hWdEU?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Barchart.com",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-05T19:47:14+00:00"
   },
   {
    "id": "5a798ce749f5679f",
