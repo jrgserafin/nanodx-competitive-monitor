@@ -22,6 +22,71 @@
   "signal": []
  },
  {
+  "id": "d1708a9502aaec4f",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "What QuidelOrtho Bears Saw Before A 55% Drop",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQei0wbnF0WXc2TnVMNTZMMHZSd0huWkczR2FLcWh2cE4zOVE1LXo3N29GUkl4cks4ajQzZlZBSTMxNC00bzFZNjd6UjNRQ0MzeUg1ai1UMGZoYUc5azdUb0JwTWZ1NzBGR0R0S0FLR3hQZUZIWFpIbWxST21IZXlXejdtVU9rVEZPZksxSENaWFljMHhiWXE0OVN3?oc=5",
+  "date": "2026-11-06",
+  "snippet": "",
+  "publisher": "Yahoo Finance",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-06T11:41:32+00:00",
+  "signal": []
+ },
+ {
+  "id": "e5c0927460fabbbf",
+  "competitor": "Boditech Med",
+  "source": "News",
+  "title": "Boditech targets Singapore diagnostic testing market",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTlgwVzF2SXFINDBoMEhPQ3M2ZGNNa1hTUVRndktIaWhRdGRwaUVmWUxQRkhvSjBnVVM3QURlb0E1LU1sWWZnbzMzV0R2akd3SEZmanBuMjdwREtJeDlaeFVab0dKLTVOMnFfRVBOUkktVXpEWjd2aUV6cnNJcS1TS0NLMTM?oc=5",
+  "date": "2026-11-06",
+  "snippet": "",
+  "publisher": "Singapore Business Review",
+  "query": "\"Boditech\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+  "first_seen": "2026-11-06T11:41:32+00:00",
+  "signal": []
+ },
+ {
+  "id": "5391a10b89b8091e",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Meet the kindness in brain injury care award shortlist",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRnY5SV9nUTc5VUtsYkV4Z1lKUXBhVDFHVWdoZzI5dll1STlpMTJ0Zy1nQXN4NWFBcVdhQmNvQkVGUXA1akhDWEJzTG9vWlh1YnNrbmJVMU1iWUV4NmJUaGViY0dQN0xWUzBMbENxRUs0ZzBvbmt6RWpmYjUxTkhIT3ZVYXppSXdkcmJoUGN3?oc=5",
+  "date": "2026-11-05",
+  "snippet": "",
+  "publisher": "NR Times",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-06T11:41:32+00:00",
+  "signal": []
+ },
+ {
+  "id": "12d8f4a69d0b6f1c",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "Air ambulance blood test detects brain bleeds within minutes",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV2NLM0pta0g4c1V4ZUR3WWM0dGRwQkpIWldxaTJqMFJtbWxTNElYM3B0U0FRZU0xdjU0T3poUWxJdncxWFVXb3Z5TmZtZE1ob092M3FqdWItVjRJNjFrbWRKdmRCRVFxYU4wMkViRFJqQ3NrOGs3WU5HQlhJWGpBSlZFdDJwUE1lQkYzMEtTMnl5YlFN?oc=5",
+  "date": "2026-11-05",
+  "snippet": "",
+  "publisher": "NR Times",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-11-06T11:41:32+00:00",
+  "signal": []
+ },
+ {
+  "id": "300df964a0f7551b",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Collaborative AI project seeks to improve care for veterans with mild brain injuries",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzBPR2VWVklkdm1zTHg5T1VwQ1Q5X0pGZ2JrakhjalloMWNPb1RQb0RvMzFidnpBc3k4U2MxV0xnVGJ3czFiOGUtS01Nc0ZaQTJnZmZZcWk5aE5nQTBRa3ZTdmNNb2haWGRnOVZ2ZlVYWjZhSGlhMHJmTFVQU0tmS1VHTFVoYWZvVTBzRHZUY0xEaGUwUmZDQWw5N1FidW94YkRMODl4bHVsb2lUckFj?oc=5",
+  "date": "2026-11-05",
+  "snippet": "",
+  "publisher": "UT Health San Antonio",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-06T11:41:32+00:00",
+  "signal": []
+ },
+ {
   "id": "857a40a55796b96d",
   "competitor": "TBI biomarker evidence",
   "source": "News",
@@ -32,6 +97,19 @@
   "publisher": "Emergency Services Times",
   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
   "first_seen": "2026-11-05T11:44:16+00:00",
+  "signal": []
+ },
+ {
+  "id": "f1e407b5b6502535",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "BillionToOne FY27 sales guidance of $460M-$470M trails estimates",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVUVUeURmUFF4ZXVjZnpPSGg0dVVaVlo4WmZyc2t2RE11YzlpVnE0TWo2aUJmYjRsaGRSY3p5VlFhcTJtMVpNOXNCajVYWnZIemZieWdZVzZodE9tN0hlWEhnbF83MVpQcHhpaTRLR1U3VjlWNDRZenBJc0JpYjFIcnFLZzB5OU1PakJpS29vWVY4a1l3bTdBQ3pUU0NMektaV2V5WUF4VTM1VjFfWEF4NUVuZHdIN0E?oc=5",
+  "date": "2026-11-04",
+  "snippet": "",
+  "publisher": "scanx.trade",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-11-06T11:41:32+00:00",
   "signal": []
  },
  {
@@ -212,6 +290,19 @@
   "publisher": "News-Medical",
   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
   "first_seen": "2026-11-04T11:44:52+00:00",
+  "signal": []
+ },
+ {
+  "id": "bc2dff82858ae2f6",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Rugby league funds study to support players’ long-term brain health",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVjUtYjRIM2JnVWlFSlN5RkFxR0FCMEdOc2ZrSjlyWTl6cjNlbWNTVENXcjFnbVhwX1k5NHduYTdzQU5mSE1hd2Jnem1UU01ZSENMR2JXUG83b3BTTzlydmp2SjdjdHB4VGFuTmpVeGx4aVNkQ3F5T0pVV1lMa05BcTBMckF3VTQ1blFraktkeXlROTVSMHRjQlhpSQ?oc=5",
+  "date": "2026-11-03",
+  "snippet": "",
+  "publisher": "NR Times",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-06T11:41:32+00:00",
   "signal": []
  },
  {
@@ -1048,6 +1139,19 @@
   "signal": [
    "point-of-care"
   ]
+ },
+ {
+  "id": "5eab7d3c81c3b25e",
+  "competitor": "AeHealth",
+  "source": "News",
+  "title": "Rocco Lamuno - Photo Galleries",
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWVhmaWRWM3lVR2JhMDR1QzFzSzhiZGtjRGFXS2JyQVR0dmVncGRVc2N5UGpUZUYzWlloVFhYR09iaXJmQXVBcFZ2OGZVQUl1RURsaEtxMm5lN2Noay1vUjMwekZtdU1zeml2SUI3T0otVHZMeUU2YkdLSVNVQ1BqbVhidzJZdTR4NjZYV194WVI3cnFvVjA1ODNYaEIwVVA3N0lnRDE5TlhQR05zWU5uMWhkM3pHQQ?oc=5",
+  "date": "2026-10-24",
+  "snippet": "",
+  "publisher": "Bucknell University Athletics",
+  "query": "\"Lamuno\"",
+  "first_seen": "2026-11-06T11:41:32+00:00",
+  "signal": []
  },
  {
   "id": "f8aa7096fc7b0b6a",

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-05T23:38:30+00:00",
+ "checked": "2026-11-06T11:43:55+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -314,6 +314,19 @@
  ],
  "news": [
   {
+   "id": "e06b69f53895f6a1",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "This Insurance Stock Just Raised Its Dividend by Over 11%",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbkhtSFJuN3lxaFNRc1BBNkFDVXViSksxUEtpUXRvaGRNcl9DSHpoN3ZsYzVKc21MVmRlbUJYY1JIdGN0VmpOZTlnZkt2c0hiX0VieVBzSDNMYUVfOGpLeXVBU2xFa1dQOWcxSkNzcmRRZ3FjZlZ4OVJTenhZWWN3LUNSRGZvLWRVYU5oM1gyUmpQcjA0d3N5WTkzLTlTZVdER1E?oc=5",
+   "date": "2026-11-06",
+   "snippet": "",
+   "publisher": "Barchart.com",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-06T11:43:55+00:00"
+  },
+  {
    "id": "be29847ce311e02f",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -494,6 +507,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-11-05T19:47:14+00:00"
+  },
+  {
+   "id": "87c6b42267045358",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Clinics On Cloud Raises ₹120 Cr at ₹600 Cr [2026]",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNnctQmxoZ2ZULWc4LXNqYWl4bkFCNlJxU1lwS3h5RmJ5djV1NFR3QXkzZEY0WG5GcEpabTVpeEpsam5yTUpaaDl2OWt3eF80UWFHaHZhbnhKTTNkVDVzOWpCbVRQYUpOelpYa1Q0WWR6ek5tdDlFRlFvb1VqQmZvcm1acEVCWHlYLW5WOEdXLTJ3TlhI?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "shattered.io",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-06T11:43:55+00:00"
   },
   {
    "id": "5a798ce749f5679f",
