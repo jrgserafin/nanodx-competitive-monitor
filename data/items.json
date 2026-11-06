@@ -22,6 +22,32 @@
   "signal": []
  },
  {
+  "id": "6b58d66337158603",
+  "competitor": "AeHealth",
+  "source": "News",
+  "title": "Men's Basketball Welcomes Old Dominion for Home Opener Saturday at 5 p.m.",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHFtcFZ2SUMxbjNnUG5UWlN2MnRVSlVJeldlLVNteDlwSzl1a2JMMTUxVEsxSnNmbWs4cWpLcnVXU3Q5a0NZWjJpUUw2dE5ORmRZTDBGYUZkeTZBOGw2clU0ZFBWQ0VETkxzZ0lmOXZhT1Y4ZjdpNk1uTjlya0xUZ1BHSE54UE5UUk01OEd4dkRJSlcxbl8xZE8yVHJKZC1yelJRU3B0M05JclV3OEVvNA?oc=5",
+  "date": "2026-11-06",
+  "snippet": "",
+  "publisher": "Bucknell University Athletics",
+  "query": "\"Lamuno\"",
+  "first_seen": "2026-11-06T23:38:06+00:00",
+  "signal": []
+ },
+ {
+  "id": "c3cb68dedaa7d64b",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "CMS Finalizes Interim Payment Policy for Software as a Medical Service in Hospital Outpatient, Physician Fee Schedule Rules",
+  "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPQ2NYQXdPX3Q1QmFVUWFhTS1nSHRZMktIR3haMUw3Y0RlbHRoc0VoRDNQcEk3ajAzbGwyT05lQms2czRMUU5tR24xRzBBSXgxcjd3Y2ota25WVkNCN1dHMTR1bENzcDZWTFVaSUpGNER5STFaLU40S005MUE0RUxVTm1PUzB5amJ6SWxodlByQ3lNSVpqMzZpdTRXemlXc1RhYlNOVTBSSm1MU1E3LU95dW80ZmpxT20zYTJkVkY3Ti05di1pTFVCVkZJSmxWRnQ0ZzEzT2g5Sy1UNHhMdC1JM0JyVEZHRTkyUkEzZ3Z1cS1GVXVDcU1UbkFCSkk?oc=5",
+  "date": "2026-11-06",
+  "snippet": "",
+  "publisher": "Reed Smith LLP",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-11-06T23:38:06+00:00",
+  "signal": []
+ },
+ {
   "id": "2a73bc2e9219ba19",
   "competitor": "Quanterix",
   "source": "News",
@@ -1138,6 +1164,19 @@
   "publisher": "NR Times",
   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
   "first_seen": "2026-10-27T15:38:40+00:00",
+  "signal": []
+ },
+ {
+  "id": "c67818a3835cd973",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Blood Biomarker Tests Could Improve Traumatic Brain Injury Care",
+  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPN3dLcHpRdEwzeExaV3p6cnM4SmRwVHMxbTlIMDhPZVNYUDRncGpObTNwUk5VOEFmTEw2bTF3WFZfaVFVUDZYTG5kLTNHVVZwd2t6WXR5akhQakpmX0FHbXYyejFZNUY0b011SXkxVzZBZWdmdGtnVzVvVHJhVDdVOWx2aExMV1RVWnFwMEhMZmhuWEZaU19rWWQ4V0RWb043djg2WGxhbWY2bkI5MzdSQUpBd25xV3RwTmVsVS01bw?oc=5",
+  "date": "2026-10-26",
+  "snippet": "",
+  "publisher": "Technology Networks",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-06T23:38:06+00:00",
   "signal": []
  },
  {

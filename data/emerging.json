@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-06T15:41:38+00:00",
+ "checked": "2026-11-06T23:40:36+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -325,6 +325,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-11-06T11:43:55+00:00"
+  },
+  {
+   "id": "279c8dd7c9b59af3",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Browns to start Shedeur Sanders vs. Saints with Deshaun Watson in concussion protocol",
+   "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPOVNoNUxBc1JkOUpuNFdKZHlkeWRQbTFjUDlDM0FYTUVDN2VrbWJQbUt5dFpZYVBlVXd3bFVDQXhDc01GNTZRejc3VHphZ3pKb1FtVUZXeFhnaDAxME1aRkJNc0Q3Qms4V3hnX0dybXgtUnAwUVJFRGdpSFA2cm11RXJ4dkUtdFRleVFNUHd1THB2dmEybFQ5NlZXaEt1Zy0zRkprcnlfSnBHZGp6VEY5a0xuN2s5RUdhOXlsR0NUM1NFLWdqMkdzVFBqckk3OENiOVZPcGhIRFI5SkkyUEc4dkp0QkRWbktrUDZpOE5yQWo1bUNyZzBLSDd1MkdkRnRfZkVNeXF0QTg2SXdPblM5Y2R4dXpPMDQ?oc=5",
+   "date": "2026-11-06",
+   "snippet": "",
+   "publisher": "Times Argus",
+   "query": "concussion blood test startup",
+   "tbi": true,
+   "first_seen": "2026-11-06T23:40:36+00:00"
   },
   {
    "id": "be29847ce311e02f",
