@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-09T11:53:10+00:00",
+ "checked": "2026-11-09T23:43:14+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -313,6 +313,45 @@
   }
  ],
  "news": [
+  {
+   "id": "6087b74c66320306",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "BIOFIRE FILMARRAY GI1.1 Panels receive FDA clearance for gastrointestinal pathogen detection",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOd0VITnNZd3B3QWNleVpsbm5SeGJDRmhqa0lrc3FjY3dTdkh5UWM3YlBSM0JsWHg5dS1LTE5zYjd1M0FDVDJ2dWRibkUxTUU0TV94WmlRRF9fUHFqdENsdEh1UmJpSEtPQ1E4dkJVdkhLUVYyOTNZZktDMWM3NTVjYjUycG42S01oV0dkVk15MzFOX3JOWDZnUTBZNWk5OW5ZZURqYkVGejF5bHRHV0E1eGh0S2E3YmJ5bEY1YUdxaXZEbWViSHVVSXp3?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "SelectScience",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-09T23:43:14+00:00"
+  },
+  {
+   "id": "e38ff24bd80c948a",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Beckman Coulter Advancing Clinical Implementation of MeMed Bacterial/Viral Test",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVFhid2JBaW84U3p2TEJCcmUtcUVlZG5CNF9wU2FMR2VOV0FBaTJwYVUwRzBJejNOa05UX0FUZjBwQnZHQ2hWM0R2WnFJLVFxMHBBcTU5d0pkaDZXLXNGYTF5eDBTaUFjOTN2UkxVMlJpbXBCUFJTSG9xSnNzRDd1NEV1b0FldWpZa0ZxUGtKWGlMR3dQYkNjdnhyNVVOWmFHbFhSMnpn?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-09T23:43:14+00:00"
+  },
+  {
+   "id": "3044b1565bf839e1",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Stanford study reveals new insights about concussions in sports",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPb0s5ZkJRNHpJRTBzNHRfcGtMLW80NlYwQTBxR01nSzB1UmdpcWo1VTZYd1llM3VnWkNLakk4Vlk2VHRLU1A5U3dxT2RVTWdGQVVySHJRWm44WkRXUjRvM2pLQ19WRHcxbVQycUFBQ3BBSU0yd05Kdm42VmFLeExfREE1VkhPZnRGanBjMzl6RjUyeG9YTDNhYjh0MjdHMlNXOGs0ZlV5Vy1MN0U4N29kQU5rZWUtaDVqbU5yN0JLSlZSdGtFbzVneVpIdzJtd2p2NVJhNUxZOWJNeDFDNHd5STJvRS1IbHRYQkVLQ0Rtc0stZTM2SzAw?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "mcduffieprogress.com",
+   "query": "concussion blood test startup",
+   "tbi": true,
+   "first_seen": "2026-11-09T23:43:14+00:00"
+  },
   {
    "id": "c1e2a18fcfb9dff4",
    "competitor": "Emerging (POC)",
