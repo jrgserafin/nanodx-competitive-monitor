@@ -22,6 +22,86 @@
   "signal": []
  },
  {
+  "id": "7536a998f6d1d9c6",
+  "competitor": "AeHealth",
+  "source": "News",
+  "title": "College basketball roundup: Bucknell men fall to ODU 3-point barrage in home opener",
+  "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOQms2bGVmblJnOHU0eUNlSkZHaEg0U3d5ckFGdDdZdUIxWkw1NTlKY0xuTjVtMTNqRHlHbjV0RmtrUURvRFJ0QlhybzZiMEJIb0QzVkxIUkdtMGhIN3F4TjlSQVBUR3BENGdia3dsa1l5TzI1SzBJMlZNYXV4QW51M2FVQk93ZGxHWjBheVFWY3M2TjRSUkR2R1BkU2pZMDUzenh1UWhWVjZYZlN0NjN5Z2ZWS3pRYUxhVHA2MGdndUI3cENYdkpZZTNDWDh3bjRGRnl2S0pzak9oYkhWMV9sQ3NMZl9ZcnRCMVpSTzc5ZWpJVEpJT3V4Mm55UHIycF9ZMGFrZnEtRFJsZw?oc=5",
+  "date": "2026-11-09",
+  "snippet": "",
+  "publisher": "standard-journal.com",
+  "query": "\"Lamuno\"",
+  "first_seen": "2026-11-09T11:43:53+00:00",
+  "signal": []
+ },
+ {
+  "id": "8f0e6f9312bee2de",
+  "competitor": "Boditech Med",
+  "source": "News",
+  "title": "Boditech Med Reports Higher Revenue and Operating Profit in Third Quarter",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSVZsdmg0dHhNUFZ5UzdVQWM3ellBSWgwdzAyWEFaeTlXSm1nWlNnS0ZWUlpwZFhQQ0JmZDRrSG1ZYS1sZkhteS1wR0hFWDJVM0Nsa19LMzloUURGYTY1M2lVaS1EMnZjWUZjQXRFZllCX2IxQzF1VmVyUWQ4aGpzbm90OUxuTWlPakozXzJDdjdtdklORjdSNTNsU3ZEQkxxZThrQURXNVdGcGR2SVBJR2kxZlg5ako4X1RVcmdlaTVyR1k?oc=5",
+  "date": "2026-11-09",
+  "snippet": "",
+  "publisher": "TipRanks",
+  "query": "\"Boditech\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+  "first_seen": "2026-11-09T11:43:53+00:00",
+  "signal": []
+ },
+ {
+  "id": "3aa6b0ad9b28b530",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "GFAP Protein: Astrocyte Marker and Brain-Injury Biomarker",
+  "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBlaTZ4VG14a1IyaEZjaDJRRDlrS000SzRseGt0ZllyMFJ6UnNYR01hSV9RREhwNWlaNS1kd0NKS25HVnJIeDlnd1R4Zi02UU0?oc=5",
+  "date": "2026-11-08",
+  "snippet": "",
+  "publisher": "CASRAI",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-11-09T11:43:53+00:00",
+  "signal": [
+   "GFAP"
+  ]
+ },
+ {
+  "id": "780a34ebeb515709",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix Corporation (QTRX) Seasonal Returns Chart - Yahoo Finance",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vUFEzWWw0SnJ2ME51NWtiNk9zRF9WWDFDRGtrMFE3MVotQlFyTFlyTERsbTRXZEFaU0RtRFNZUnh1M3dtSW1FVFhqTVVJd1RRb2Q4clJHUkROVzdHRkk1c01B?oc=5",
+  "date": "2026-11-06",
+  "snippet": "",
+  "publisher": "Yahoo! Finance Canada",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-09T11:43:53+00:00",
+  "signal": []
+ },
+ {
+  "id": "8e529dbcd2a173be",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "QTRX Q3'26 Earnings: EPS estimate is (0.42) USD",
+  "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ3hPODh0eDE5VlRZMTZ4dGlMVmVoNHA2cDdJR21WZWZLWGxmd3c2dU5yLU9fd0pKRDNOVzZ2d2dNaEVSQ2x2TU9GdjlpdTM4RVNmS2s0bEIxY1k3RjVsR01MLTQ0emFxV3J4X0s3R3BQQThTM2Rid3UwSWw5TmwyQ3pFUElmdkgtdldRaC0tMi14QWRXY2lFWHZRZlZhTXpQUzdyYTAyQXJfZw?oc=5",
+  "date": "2026-11-06",
+  "snippet": "",
+  "publisher": "TradingView",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-09T11:43:53+00:00",
+  "signal": []
+ },
+ {
+  "id": "685c859d6cc53e62",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Corporation 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:QDEL) 2026-11-06",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYnpfekhXbmR4NzBRN0ZDdTVfODIzMUNEemRadUQyeFR0LW1uaVFDMHdjZUtVal92bkdTdUN6U29PRmVGek1Rak5Eb2QtVWRlbmpCOEZlWlFESUwtMFBvb0sxRTJpNXNXc3ZIRE9CZ1VHZFE2dnNyS3R3MDU5VjlkeGlYZEluY2c4R0dMbGYtY2tiRWxZRm5ZcndoSmo0ZmxGeW82aEZ4aTBLNm8?oc=5",
+  "date": "2026-11-06",
+  "snippet": "",
+  "publisher": "Seeking Alpha",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-09T11:43:53+00:00",
+  "signal": []
+ },
+ {
   "id": "6b58d66337158603",
   "competitor": "AeHealth",
   "source": "News",
@@ -162,6 +242,32 @@
   "publisher": "Emergency Services Times",
   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
   "first_seen": "2026-11-05T11:44:16+00:00",
+  "signal": []
+ },
+ {
+  "id": "d0c6178e23c22b3f",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Corp (QDEL) Q3 2026 Earnings Call Highlights: Revenue Falls 12% on China Destocking ...",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSktwNmxYZnZGMDBRYUY4eG5OZXhuRzhWei1BbmZydmlwbUFsdndFYW5WSHRYNkpFQnYybWRPNW1VVFV4a0Vod3BaMzJpR0twdF9waEhtejJvUzk3RnNWdkR2VHgzbWZWYWFEQ1dVZDg4R2t3Y0JjWms1dFBHTVBtV0Q1RjNGTTVOWUpodFpSel9BVEZa?oc=5",
+  "date": "2026-11-04",
+  "snippet": "",
+  "publisher": "Yahoo Finance",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-09T11:43:53+00:00",
+  "signal": []
+ },
+ {
+  "id": "bdda84af2e1bf6b3",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho 3Q 2026: Revenue $618.9M, Net loss $53.8M, EPS $(0.78) — 10-Q Summary",
+  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcDRuNFJHTTd5bjh2LUhNRnE5RXpDc3UyX2hQVVdoNmptTHN2UVZ1T19wYlN5MjQ0MFhlY0YzYVZRZE9uclJVLVRiVV9zYk9SdnFGQVRhbnY5Z2VrOG85aUtxNC0tMjY1QmE2VjQ1MmFIMFJ6Vl91UjZLQlB4VHdsZF9MUk1pUzZ5TDBpajRpM2JpM2oxaGZlVkFXbjYyRGtRYlVFeU9KRUMtOVVlT0tKd1R3MDh6XzlzQnNJbGZ0YzBZS3NQX0E0YlZidW5zdw?oc=5",
+  "date": "2026-11-04",
+  "snippet": "",
+  "publisher": "TradingView",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-09T11:43:53+00:00",
   "signal": []
  },
  {
@@ -631,6 +737,19 @@
   "publisher": "Idaho Statesman",
   "query": "\"Lamuno\"",
   "first_seen": "2026-11-03T11:39:49+00:00",
+  "signal": []
+ },
+ {
+  "id": "7eef1edc2e068ac2",
+  "competitor": "AeHealth",
+  "source": "News",
+  "title": "Maryland 96-67 Bucknell (Nov 2, 2026) Final Score",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNLXNfOXVwZ1ZucGdLQW1XM3lpc21OcE55cmZpNmtDTW5iUnJldUhLSjQ3LTZzbndwQWZWdmdjczdXRGNhMV9naEEybExkZU04NHZHTnJUSjdwS0N1bE5vUkV6NEpHWmdsVk1SZWtQLUl4eVZMVEd3bG5tcXdSMl9hRG1yR3NleGdtb21MeGZmZw?oc=5",
+  "date": "2026-11-02",
+  "snippet": "",
+  "publisher": "ESPN",
+  "query": "\"Lamuno\"",
+  "first_seen": "2026-11-09T11:43:53+00:00",
   "signal": []
  },
  {

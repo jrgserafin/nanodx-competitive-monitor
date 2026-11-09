@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-06T23:40:36+00:00",
+ "checked": "2026-11-09T11:53:10+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -314,6 +314,32 @@
  ],
  "news": [
   {
+   "id": "c1e2a18fcfb9dff4",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Paper Biosensors Advance Point of Care MicroRNA Detection for Disease Diagnosis",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUpkQ3AtS2dEeHpTRGxFQjByM2o5X2xndHg2QWQ0bF9OVHo0cE9aemtwcnM1eHBEc1RzQ3JCMWh2NlBmaDVvOUhyei1YQjVmc1UyZ253MlJndW1jMnZJQ29lS1Fqb3JYVDlxQ09WMlZaSGVjUjJwdnYzVkhvbmlGR0g4bExBa1MzS2NLZXh3OVB6VU9Tem1veVpVNzZKMWlSRng4NnJHNA?oc=5",
+   "date": "2026-11-08",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-09T11:53:10+00:00"
+  },
+  {
+   "id": "10c13866118a642a",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Cancer Biosensors Advance From Detection To Targeted Drug Delivery",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUmU3b3UwRmRpc0JJWkpQQVZRUjJBdU1NUGZ0cHgxcm1oZ3FXTEFwVTNvN01ZY0FpaFlLdEVBUTZibmRpRGRKLVZlOVhzMUVCbUtvNF9aSHJWZ3JsUHZSbUItUURSRVNjUEEyamZmdEtNZWpxYlVrcUtsZzVHQWNZNkhqdmxMUzA3R2FJR1FkMDJJRlBwMWc?oc=5",
+   "date": "2026-11-07",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-09T11:53:10+00:00"
+  },
+  {
    "id": "e06b69f53895f6a1",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -535,6 +561,32 @@
    "first_seen": "2026-11-06T11:43:55+00:00"
   },
   {
+   "id": "381504ec372ba691",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "AI guidance helped non-experts acquire diagnostic-quality lung exams with 95.2% success.",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaXhhb016bzBJNzEycjlWOVFBUlRMOTJHaWtVTkhRZ3hrUXI0Yzdjd0tvU0xHUjlDc19WS1BwTDVFc0ZzZ3FtRXZMZk54UzNhWW5qY3BYLVNqbF8zbldZNG1SYlVIMDJEQV9JeEpvYVhJSnBfb1NiTkRFOERDSk00YzliN29IeE04VkNrVHFZWng5SDlsMXBwM21VVm12eFdDbGd6aDRUZmRSMUE3UllsRnU2Nnh0SlFSNVluTg?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Stock Titan",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-09T11:53:10+00:00"
+  },
+  {
+   "id": "58cb0d5599c6693e",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Real-Time Infection Detection Devices Market will Reach",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWXZZeXZhcm02ZVNKaEwyS05yU2FEcHVXZlZ3OC1yeEREdDRGMGRmeWh2dVM4TFNPTk83Vy1Ud0dKbkRhMHA1YTE1M1ZUS0dIMnJPeWw4cFpUZy1KTXh4WFlYdzAzVmdzTVZVRC1wYTN5T3JsQ2JGb3pOVWRMdGxmRF8yUjBpWllwdTI3UFc3SURUV3VENnc?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "openPR.com",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-09T11:53:10+00:00"
+  },
+  {
    "id": "5a798ce749f5679f",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -663,6 +715,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-10-30T19:41:50+00:00"
+  },
+  {
+   "id": "a94a7c144b618569",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "At-Home Testing Market Size, Share, Trends 2036",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBid2pXbUVxRzZYNnIwT09fVUgtTE1iZ1BQRGZ1SFBnMFhOczY0N2hHRVA5WFRTUEdad1FyRkdObjEzeGFtU3ptNVlVS3kzaWVJOVJzbS0wMFNSOUpHRUQxV2tPRE1uYzhfNVZqNERwY2VhbE85aFE?oc=5",
+   "date": "2026-10-29",
+   "snippet": "",
+   "publisher": "Future Market Insights",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-09T11:53:10+00:00"
   },
   {
    "id": "4f117d96d47602f2",

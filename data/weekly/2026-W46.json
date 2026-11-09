@@ -1,0 +1,466 @@
+{
+ "week": "2026-W46",
+ "start": "2026-11-02",
+ "end": "2026-11-09",
+ "generated": "2026-11-09T11:53:23+00:00",
+ "counts": [
+  {
+   "name": "Abbott",
+   "this_week": 1,
+   "last_week": 2,
+   "signal": 0
+  },
+  {
+   "name": "bioMérieux",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainScope",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "InfraScan",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainBox Solutions",
+   "this_week": 0,
+   "last_week": 4,
+   "signal": 0
+  },
+  {
+   "name": "EzDiatech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "STATA DX",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "GLIA Diagnostics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Quanterix",
+   "this_week": 4,
+   "last_week": 10,
+   "signal": 0
+  },
+  {
+   "name": "Genalyte",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Oculogica",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Sense Neuro Diagnostics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Medicortex",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Roche",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "AeHealth",
+   "this_week": 5,
+   "last_week": 2,
+   "signal": 0
+  },
+  {
+   "name": "Wondfo",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "ACON",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Hotgen",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "QuidelOrtho",
+   "this_week": 27,
+   "last_week": 9,
+   "signal": 1
+  },
+  {
+   "name": "Boditech Med",
+   "this_week": 2,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Getein Biotech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI diagnostics market",
+   "this_week": 4,
+   "last_week": 4,
+   "signal": 0
+  },
+  {
+   "name": "Lab reimbursement (CMS)",
+   "this_week": 2,
+   "last_week": 4,
+   "signal": 0
+  },
+  {
+   "name": "TBI biomarker evidence",
+   "this_week": 6,
+   "last_week": 3,
+   "signal": 1
+  },
+  {
+   "name": "Point-of-care & capillary sampling",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI epidemiology & ED burden",
+   "this_week": 2,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "CT avoidance & health economics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI clinical guidelines",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI test reimbursement (CPT 0570U)",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Military TBI screening",
+   "this_week": 2,
+   "last_week": 2,
+   "signal": 0
+  },
+  {
+   "name": "EMS & prehospital TBI",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "International TBI tests",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  }
+ ],
+ "top": [
+  {
+   "id": "3aa6b0ad9b28b530",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "GFAP Protein: Astrocyte Marker and Brain-Injury Biomarker",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBlaTZ4VG14a1IyaEZjaDJRRDlrS000SzRseGt0ZllyMFJ6UnNYR01hSV9RREhwNWlaNS1kd0NKS25HVnJIeDlnd1R4Zi02UU0?oc=5",
+   "date": "2026-11-08",
+   "snippet": "",
+   "publisher": "CASRAI",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-11-09T11:43:53+00:00",
+   "signal": [
+    "GFAP"
+   ]
+  },
+  {
+   "id": "8fc8508baeb16e37",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho launches restructuring program, eliminates COO role",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0tMQ2tjRHp0bkpBU1NFcHBMTk5QdE5NSE9Id0pGanpPYUxiaVExMjBGN3ZNandTbHlQRWc5OUpqVi1JaHMtbmlfcnpfSGVkWkRMUVpMRVB2ZFNONlBFNTdFNlNQLVJ6aVZ2eU1WdXUxY1RTRHhrRkFTMVNKbFY4bUpzMlAtTWw2cXVDcW1oYzBzcTlTRk43LXZueEZjR2FQQUNVdTZJdV8yczE4Z2w1by1wSmViYUhsN25FQzNDMkVnS0U?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-03T23:30:18+00:00",
+   "signal": [
+    "launch"
+   ],
+   "alert": true
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false,
+ "cites": [
+  {
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBlaTZ4VG14a1IyaEZjaDJRRDlrS000SzRseGt0ZllyMFJ6UnNYR01hSV9RREhwNWlaNS1kd0NKS25HVnJIeDlnd1R4Zi02UU0?oc=5",
+   "title": "GFAP Protein: Astrocyte Marker and Brain-Injury Biomarker"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb0tMQ2tjRHp0bkpBU1NFcHBMTk5QdE5NSE9Id0pGanpPYUxiaVExMjBGN3ZNandTbHlQRWc5OUpqVi1JaHMtbmlfcnpfSGVkWkRMUVpMRVB2ZFNONlBFNTdFNlNQLVJ6aVZ2eU1WdXUxY1RTRHhrRkFTMVNKbFY4bUpzMlAtTWw2cXVDcW1oYzBzcTlTRk43LXZueEZjR2FQQUNVdTZJdV8yczE4Z2w1by1wSmViYUhsN25FQzNDMkVnS0U?oc=5",
+   "title": "QuidelOrtho launches restructuring program, eliminates COO role"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42759081/",
+   "title": "Fighting for safety: head and spine injuries in martial arts presenting to U.S. emergency departments."
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42848964/",
+   "title": "Emergency Department Visits for Falls and First-Time Seizure."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOQms2bGVmblJnOHU0eUNlSkZHaEg0U3d5ckFGdDdZdUIxWkw1NTlKY0xuTjVtMTNqRHlHbjV0RmtrUURvRFJ0QlhybzZiMEJIb0QzVkxIUkdtMGhIN3F4TjlSQVBUR3BENGdia3dsa1l5TzI1SzBJMlZNYXV4QW51M2FVQk93ZGxHWjBheVFWY3M2TjRSUkR2R1BkU2pZMDUzenh1UWhWVjZYZlN0NjN5Z2ZWS3pRYUxhVHA2MGdndUI3cENYdkpZZTNDWDh3bjRGRnl2S0pzak9oYkhWMV9sQ3NMZl9ZcnRCMVpSTzc5ZWpJVEpJT3V4Mm55UHIycF9ZMGFrZnEtRFJsZw?oc=5",
+   "title": "College basketball roundup: Bucknell men fall to ODU 3-point barrage in home opener"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSVZsdmg0dHhNUFZ5UzdVQWM3ellBSWgwdzAyWEFaeTlXSm1nWlNnS0ZWUlpwZFhQQ0JmZDRrSG1ZYS1sZkhteS1wR0hFWDJVM0Nsa19LMzloUURGYTY1M2lVaS1EMnZjWUZjQXRFZllCX2IxQzF1VmVyUWQ4aGpzbm90OUxuTWlPakozXzJDdjdtdklORjdSNTNsU3ZEQkxxZThrQURXNVdGcGR2SVBJR2kxZlg5ako4X1RVcmdlaTVyR1k?oc=5",
+   "title": "Boditech Med Reports Higher Revenue and Operating Profit in Third Quarter"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vUFEzWWw0SnJ2ME51NWtiNk9zRF9WWDFDRGtrMFE3MVotQlFyTFlyTERsbTRXZEFaU0RtRFNZUnh1M3dtSW1FVFhqTVVJd1RRb2Q4clJHUkROVzdHRkk1c01B?oc=5",
+   "title": "Quanterix Corporation (QTRX) Seasonal Returns Chart - Yahoo Finance"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ3hPODh0eDE5VlRZMTZ4dGlMVmVoNHA2cDdJR21WZWZLWGxmd3c2dU5yLU9fd0pKRDNOVzZ2d2dNaEVSQ2x2TU9GdjlpdTM4RVNmS2s0bEIxY1k3RjVsR01MLTQ0emFxV3J4X0s3R3BQQThTM2Rid3UwSWw5TmwyQ3pFUElmdkgtdldRaC0tMi14QWRXY2lFWHZRZlZhTXpQUzdyYTAyQXJfZw?oc=5",
+   "title": "QTRX Q3'26 Earnings: EPS estimate is (0.42) USD"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYnpfekhXbmR4NzBRN0ZDdTVfODIzMUNEemRadUQyeFR0LW1uaVFDMHdjZUtVal92bkdTdUN6U29PRmVGek1Rak5Eb2QtVWRlbmpCOEZlWlFESUwtMFBvb0sxRTJpNXNXc3ZIRE9CZ1VHZFE2dnNyS3R3MDU5VjlkeGlYZEluY2c4R0dMbGYtY2tiRWxZRm5ZcndoSmo0ZmxGeW82aEZ4aTBLNm8?oc=5",
+   "title": "QuidelOrtho Corporation 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:QDEL) 2026-11-06"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHFtcFZ2SUMxbjNnUG5UWlN2MnRVSlVJeldlLVNteDlwSzl1a2JMMTUxVEsxSnNmbWs4cWpLcnVXU3Q5a0NZWjJpUUw2dE5ORmRZTDBGYUZkeTZBOGw2clU0ZFBWQ0VETkxzZ0lmOXZhT1Y4ZjdpNk1uTjlya0xUZ1BHSE54UE5UUk01OEd4dkRJSlcxbl8xZE8yVHJKZC1yelJRU3B0M05JclV3OEVvNA?oc=5",
+   "title": "Men's Basketball Welcomes Old Dominion for Home Opener Saturday at 5 p.m."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPQ2NYQXdPX3Q1QmFVUWFhTS1nSHRZMktIR3haMUw3Y0RlbHRoc0VoRDNQcEk3ajAzbGwyT05lQms2czRMUU5tR24xRzBBSXgxcjd3Y2ota25WVkNCN1dHMTR1bENzcDZWTFVaSUpGNER5STFaLU40S005MUE0RUxVTm1PUzB5amJ6SWxodlByQ3lNSVpqMzZpdTRXemlXc1RhYlNOVTBSSm1MU1E3LU95dW80ZmpxT20zYTJkVkY3Ti05di1pTFVCVkZJSmxWRnQ0ZzEzT2g5Sy1UNHhMdC1JM0JyVEZHRTkyUkEzZ3Z1cS1GVXVDcU1UbkFCSkk?oc=5",
+   "title": "CMS Finalizes Interim Payment Policy for Software as a Medical Service in Hospital Outpatient, Physician Fee Schedule Rules"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeWxkVS04VkFtcHBFdm9CRkZ5NVR2ejRVM0xhajR2RnA4Vi14T2RMU2l5Q0daVndMeXpHc3g3Wlo2OExQUVlQN1ZkN1hWSFJjdjE2R3NWeDA5VVRnR3lONFdUeWtTRVhpTGFSWTJ1d2VhdllpZXZPeUFOZEF4elpqenIwVUh0djI1aVVXel94WDZsd3ozd1FlMkJtc0N1RUJNSm1JSEtEOWhBTmE1d2c?oc=5",
+   "title": "Earnings to Watch: Quanterix Corp (QTRX) Q3 2026 -- GF Value Sees 187% Upside"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeUQzLWJjdkpSMEgxWVc5bUQtQWphRzlOcXg1MGpuWjE4c094SUs5d0VyMlZFc0Z0QzdRRjk1Y1JvOW8xVHhOMDE1Zi1GTDNoMHlNZk1SVkJIblh4SExCcFpFOWtRUVFaWTN5dUtkVW1OTHFtZGMxcUxTSk5wWlVSQVJRTGpZVDZaTVNIdTc1RU9PSWNPbmdIcXJmUUJFa3FaeE5pOVh3?oc=5",
+   "title": "AI speech analysis project aims to improve brain injury care for veterans"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeUQzLWJjdkpSMEgxWVc5bUQtQWphRzlOcXg1MGpuWjE4c094SUs5d0VyMlZFc0Z0QzdRRjk1Y1JvOW8xVHhOMDE1Zi1GTDNoMHlNZk1SVkJIblh4SExCcFpFOWtRUVFaWTN5dUtkVW1OTHFtZGMxcUxTSk5wWlVSQVJRTGpZVDZaTVNIdTc1RU9PSWNPbmdIcXJmUUJFa3FaeE5pOVh3?oc=5",
+   "title": "AI speech analysis project aims to improve brain injury care for veterans"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQei0wbnF0WXc2TnVMNTZMMHZSd0huWkczR2FLcWh2cE4zOVE1LXo3N29GUkl4cks4ajQzZlZBSTMxNC00bzFZNjd6UjNRQ0MzeUg1ai1UMGZoYUc5azdUb0JwTWZ1NzBGR0R0S0FLR3hQZUZIWFpIbWxST21IZXlXejdtVU9rVEZPZksxSENaWFljMHhiWXE0OVN3?oc=5",
+   "title": "What QuidelOrtho Bears Saw Before A 55% Drop"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTlgwVzF2SXFINDBoMEhPQ3M2ZGNNa1hTUVRndktIaWhRdGRwaUVmWUxQRkhvSjBnVVM3QURlb0E1LU1sWWZnbzMzV0R2akd3SEZmanBuMjdwREtJeDlaeFVab0dKLTVOMnFfRVBOUkktVXpEWjd2aUV6cnNJcS1TS0NLMTM?oc=5",
+   "title": "Boditech targets Singapore diagnostic testing market"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRnY5SV9nUTc5VUtsYkV4Z1lKUXBhVDFHVWdoZzI5dll1STlpMTJ0Zy1nQXN4NWFBcVdhQmNvQkVGUXA1akhDWEJzTG9vWlh1YnNrbmJVMU1iWUV4NmJUaGViY0dQN0xWUzBMbENxRUs0ZzBvbmt6RWpmYjUxTkhIT3ZVYXppSXdkcmJoUGN3?oc=5",
+   "title": "Meet the kindness in brain injury care award shortlist"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV2NLM0pta0g4c1V4ZUR3WWM0dGRwQkpIWldxaTJqMFJtbWxTNElYM3B0U0FRZU0xdjU0T3poUWxJdncxWFVXb3Z5TmZtZE1ob092M3FqdWItVjRJNjFrbWRKdmRCRVFxYU4wMkViRFJqQ3NrOGs3WU5HQlhJWGpBSlZFdDJwUE1lQkYzMEtTMnl5YlFN?oc=5",
+   "title": "Air ambulance blood test detects brain bleeds within minutes"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzBPR2VWVklkdm1zTHg5T1VwQ1Q5X0pGZ2JrakhjalloMWNPb1RQb0RvMzFidnpBc3k4U2MxV0xnVGJ3czFiOGUtS01Nc0ZaQTJnZmZZcWk5aE5nQTBRa3ZTdmNNb2haWGRnOVZ2ZlVYWjZhSGlhMHJmTFVQU0tmS1VHTFVoYWZvVTBzRHZUY0xEaGUwUmZDQWw5N1FidW94YkRMODl4bHVsb2lUckFj?oc=5",
+   "title": "Collaborative AI project seeks to improve care for veterans with mild brain injuries"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQWV6cGFzdGRjVDFMdm82RlZOVXZ4Z0VRa1FNNGRsWHFBWl9LMjFOaFl4V19uZ3J0UzBrRE9XVXRpTUYwOElWV3hpdEhDWGJaOVhXdzhkYTZlV0dxS21iZ2tzQkpFOGdVYWIyQ3BUUWhoU3A2N2o4UWpRQzZwQ091WTAwVEtQT0RXNDdWclZMYzJJZE1Od2hYZThuMHoxSzVLZ3dYaTZHc0JhM3JST0ZXZW5HR2thTjB0UXlVZWgyaW1veW01eHc?oc=5",
+   "title": "Blood test helps air ambulance teams identify brain bleeds at scene of emergency"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSktwNmxYZnZGMDBRYUY4eG5OZXhuRzhWei1BbmZydmlwbUFsdndFYW5WSHRYNkpFQnYybWRPNW1VVFV4a0Vod3BaMzJpR0twdF9waEhtejJvUzk3RnNWdkR2VHgzbWZWYWFEQ1dVZDg4R2t3Y0JjWms1dFBHTVBtV0Q1RjNGTTVOWUpodFpSel9BVEZa?oc=5",
+   "title": "QuidelOrtho Corp (QDEL) Q3 2026 Earnings Call Highlights: Revenue Falls 12% on China Destocking ..."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNcDRuNFJHTTd5bjh2LUhNRnE5RXpDc3UyX2hQVVdoNmptTHN2UVZ1T19wYlN5MjQ0MFhlY0YzYVZRZE9uclJVLVRiVV9zYk9SdnFGQVRhbnY5Z2VrOG85aUtxNC0tMjY1QmE2VjQ1MmFIMFJ6Vl91UjZLQlB4VHdsZF9MUk1pUzZ5TDBpajRpM2JpM2oxaGZlVkFXbjYyRGtRYlVFeU9KRUMtOVVlT0tKd1R3MDh6XzlzQnNJbGZ0YzBZS3NQX0E0YlZidW5zdw?oc=5",
+   "title": "QuidelOrtho 3Q 2026: Revenue $618.9M, Net loss $53.8M, EPS $(0.78) — 10-Q Summary"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVUVUeURmUFF4ZXVjZnpPSGg0dVVaVlo4WmZyc2t2RE11YzlpVnE0TWo2aUJmYjRsaGRSY3p5VlFhcTJtMVpNOXNCajVYWnZIemZieWdZVzZodE9tN0hlWEhnbF83MVpQcHhpaTRLR1U3VjlWNDRZenBJc0JpYjFIcnFLZzB5OU1PakJpS29vWVY4a1l3bTdBQ3pUU0NMektaV2V5WUF4VTM1VjFfWEF4NUVuZHdIN0E?oc=5",
+   "title": "BillionToOne FY27 sales guidance of $460M-$470M trails estimates"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTWlueG4yNVBHMFpDbkMtRFQtb29DUjdCbXpzaVBhSXVvUVdLdl9GYzdNXzBhTEdtckdoVDdaa0w5SjE5dldnM2dHT19NcjNjUVNFZ1NOd1czRDFhZ3hJaDJBVzJKLThQclpXUTFqS05iQ3liSEZBRXF1V2ZjZzVzb19oUnFaNHFRMnl3Xy1lRmxCSGxwbHBZb3lOMlpvSlRIdW1kc1NiWi0?oc=5",
+   "title": "QuidelOrtho Corporation Q3 2026 Earnings Call Summary"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42981477/",
+   "title": "Stalled Capillary Blood Flow in the Brain: New Measurement Tools Unveil a Critical Role in Neurological Diseases."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSHhkT3gtZk50US1RNFVJNllza0ZMN2ktZElOUzRfaGtUNi1CTXB5RnFNSTMwM0pENUI3cS1vcFBiTXhiVkd1TGFjYk1Pd29scFVlSGw0UWtoeThLNVloVXpmeVJVaDZXbmc0eVNVbTdBQ3U2cTVudnpZSmFzSklsMDRUMUNqWEJLbmlCUmk5Y2QtanI4MGlDcUFjUm40MnBCV01iR21pQzdCdw?oc=5",
+   "title": "Prehospital blood test helps diagnose ICH “within minutes” in UK patients"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV1hRdi1fWXdGMzF5Y0owbzVrSWdpTW1Ra1FFYmlIZVFWYm9YT0M2REd5VFIzRzl2VGR0am01TTFubEgzY21ValdCY0FGNEVVbmpXaWZENDBhTkNIZHhhbXM0WWZESi1WcjBQUHAyY25CYk9MTHlKVjE2YkZMZVlEeTJhMU1Jd0s0bVdROVo3LXRmZTBPRG5BdmZBWU9QYkhPaExDdnlqYlVuMmxLWGJr?oc=5",
+   "title": "QuidelOrtho Initiates Organizational Restructuring Following Q3 Revenue Slump"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9PNnJGUzU5M21iWmhuMXFJQ2xmZ2VMam9lNjYzZzYxN3UxMXE5RWNRN3NKRmRtN2FObGZOYkFHU293THF5YkF5TUY3ak01NVViWW00X2lPR05jV1ZuekZpYS1hNjQyZw?oc=5",
+   "title": "QuidelOrtho Narrows 2026 Outlook as Q3 Revenue Falls"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSHhkT3gtZk50US1RNFVJNllza0ZMN2ktZElOUzRfaGtUNi1CTXB5RnFNSTMwM0pENUI3cS1vcFBiTXhiVkd1TGFjYk1Pd29scFVlSGw0UWtoeThLNVloVXpmeVJVaDZXbmc0eVNVbTdBQ3U2cTVudnpZSmFzSklsMDRUMUNqWEJLbmlCUmk5Y2QtanI4MGlDcUFjUm40MnBCV01iR21pQzdCdw?oc=5",
+   "title": "Prehospital blood test helps diagnose ICH “within minutes” in UK patients"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ2t3Y2dSLXRLNlRwb0hMMzFvVkxvTHN5TWd5alNYSkd6UUN2cDZ5aHZTdWI0ejJVeGRJVXdUT1c0V1VGenVQQlp2ZzZrWjFHRHdLWjJpbWV5cUlsS3FrZmNodnRESkw5U0Iyc3VVWFpTbzAySlEtRGlRWlBLRnhwTDlVRlZPZjhqQVpPSHR1UTVWTm1SbnlsNkk0S2dIYUpUdllEV1BiMV9aM25NUDBYRFRB?oc=5",
+   "title": "Earnings Preview: Quanterix to Report Financial Results Pre-market on November 09"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSS10b05lV0ZsZ1lpX2ZvanoxVjFYdnhZTXZ2aFhSY195ZU5XUEFxa1NFaTF2VDJ1eERYcUJNcVpEQXRYRlF1dG85clVVV1RUSWJlR3BYNFNEYlNEYWU2cFl5WUFFSFJMd2ZySGdKb1JHMFBSZGl2TlJRWXM5eE51QmNQLVRZck5rR3FMMlNqcC1weDI1eWRfWDlRREo5YzdQLXhuUlAwTk5SeWJ6Y1RlVTI4bFo2RXppTmNhcW5KbDRhb0pGV3VFdzlONWI?oc=5",
+   "title": "QuidelOrtho Corp (NASDAQ:QDEL) Q3 2026: EPS Beat, Revenue Miss, and Restructuring Plan"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR3lEbUdPaXZWZmJQN0lwRkd6d2VvZnNCdmhTTDRyVldMSDUydzNqVXBUTlNjWkdLUDg4V3pfaDk1aHZmSmxTd3ZIdkFqbk5ndTBuUWVnS181bkluV0NhQ0hHMVNMRGhrWjJockxTM2JneTc1Q2hfZUx2ZEZVdUNxSkNURE4xU0xoRFgydzhOQThZdVIzazlDdUVZSTQwY1RaM0NDaWVZZTJqVGxCUlJ0X1hlVGltQnFuQ1Fz?oc=5",
+   "title": "QuidelOrtho (QDEL) Unveils Restructuring Plan, Shares Drop 11% i"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM0tZT0xzNmh1VXdPV09zZklKRzNrdU5yUUszSDh2SHFESW9kU09IaGhrNER5R0p5bjQ4cloxQVc5STRJWnB3UVFzNDVuVHNLbG45Rm5hT1BtZS1vZzc2TG95NzRBM1BEZ2pDRkdBazRfM0J2S2hrLXNhTE1KS0NNU3lUWG9ELVU2MTBqMVBwSncxc1lKcXI1aGN5a1VYT2Z2cFc4MXNFSERBSHVfUzN3akg4OHVpNXhGZ0N0RA?oc=5",
+   "title": "QuidelOrtho Q3 2026 slides: profit beat masks revenue challenges"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMmhCRjJ6bmxtLVhpMFU0MXdZdGNMM3NRY3FMTHV3QXNnMUVUdlhPcFNmWTVDQUpYWG9kYnhDSzdMbTdZZTluQlRYTjNzN0RMd1pWMXFNaHM3SDJVLUppcHhtMWdNWnJVb2hpTWZ2LTJPYzRySFFZS3FPVVhfSnltQzYyaDhkOG8yVGtXWkFfMHNtYnd3UU5ON09KX05XNW82b0pBc3ljMlMwYU9fejJj?oc=5",
+   "title": "QuidelOrtho (QDEL) Reports Q3 2026 Revenue of $619M Amid Market Challenges"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYlUyQ0E4MzZYVXV1QlkyR3RVSVZjcURLM2xhd003MWVJeHY4b2hVXzh4VVkzRnFSTnNKV2UyU1ljTGQyVV9tZHRCcmhLVERoYWNfa2tlNkRYaVZrNWpLWVFqYkE1TUdXYlc5eEg1ZUxwcDg2cDdIZmQ4YUg5M1h6YzBYM0pxVm16ZXBQS0xPOEREVVJLX0g2ekhiX1AzX3VMSmNKSDVkVkZGWUxDTlR2WGN3Qm8wS2ZPaXFaUF9TWDdiYk13MTVnVlk5eS1yQ1JhY0RRemQ4UTU?oc=5",
+   "title": "Earnings call transcript: QuidelOrtho Q3 2026 profit beat overshadowed by revenue miss"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd3lMSjNqejFwV1dHaGFUSUxFRUJ5Q25qTndIUHBwdHZzcGRKNHU1VmRTWFNpdFFBNjBBd3FmSV9JcXVGY2tRU05ZdXYwZGEteElBVmlKdnp2UjN5NkQ3YmxkcEV1Ym1HSUNpODJGQlhGNjctdGJnY3JwbDBnTlFsdjFaRzNMb0o0LXlJMDN4eDRoUjdGa05NTnJR?oc=5",
+   "title": "What QuidelOrtho (QDEL) Said on Its Q3 Earnings Call"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRHNYdkZJRVIyeHBKZDRHUzQ2Z2JJSE91Q1NMbHROX2RVU0UyTU5WRHNvc2NYbzlfMjNnWG9QLUJ6azR6d2xIMFZScEJqdHBxTnRuVE9fWkg2Zm91V001aXlZNHFreU9ibGU2UGZhSXJCTGVJTWk2NGRQd080ZS1RWTk2S0NyaXA5VHRmMi1TQkUxZkxjSzIwdTVfWnl3SGRra1Q4MDlwcmpsS3o1ZThNMS0yUUgtRHVyVTVYUGo5M0IzNUpaYjVmdGlaUnAxUUdXOUw4TFBMT21ZNjFlNGxxUmF3?oc=5",
+   "title": "East Anglian Air Ambulance proves rapid pre-hospital blood test can diagnose brain bleeds in minutes"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVjUtYjRIM2JnVWlFSlN5RkFxR0FCMEdOc2ZrSjlyWTl6cjNlbWNTVENXcjFnbVhwX1k5NHduYTdzQU5mSE1hd2Jnem1UU01ZSENMR2JXUG83b3BTTzlydmp2SjdjdHB4VGFuTmpVeGx4aVNkQ3F5T0pVV1lMa05BcTBMckF3VTQ1blFraktkeXlROTVSMHRjQlhpSQ?oc=5",
+   "title": "Rugby league funds study to support players’ long-term brain health"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOT1NzNW85ZU1Jb3VLbkZ0YTFNNWdDTEJjQkNuYnI2aV9FeXJDOEFLOVp3MTNUZFF4Z3l3OWtuejQ0Szh1X2ROcGNVYmhINHhWUENZTTg2VDdwbjlUX1JPZDBFQnhJdF9vdlRkMUJQdmpoNUo1RVFHb2VKMjR0LWZEY3pCSl9vaHZNRWpkX2JHTkJ2Tm12ak4weGRpTkp6VGpodUdoOHh6WkpQRTdxQ1padU5TT2FuQjhGaHdFSDdzUFA5d1U2bnpoeF81eG5RbFoxZ29EMWdNUHZUSlBhS1NrejN0Vm1rNy15dEE?oc=5",
+   "title": "QuidelOrtho Corp reports results for the quarter ended September 30 - Earnings Summary"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQWw0TVlKQlE0VEoxcHNienZPa1o3VEQ5Mjdvb3hibnhHVjc3cFBTWHgxRnNRWmlhS1VPdU02UzRwaTNVLUhpUm9TLWRzZ29HdTVCbVFVWFJqNmJOdzhjRVpuTjlrM2x5OEFPeXlfYXRaTkNVTW5FdVF4WE5zQ2E1QWdnQTlnTktiQ2hqRGVnVFJDaExYa3V1c3RrRG1hdkRaaXRTM0t2WXhpeWFPRnNUTTcyclRENVdDOVplUWdBaE1Cdw?oc=5",
+   "title": "QuidelOrtho (QDEL) Expects $80M+ Annual Savings From Restructuring"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1HQnJITmVKZTRxRDZWb0FONnp6UGFsQjRMU3ZBYzItcExzbTFJdVY0NWx1MXdMZXhoMnBhQ3Q4Q21sX1BiR0NWSzlGM1plMlBv?oc=5",
+   "title": "symbol__ Stock Quote Price and Forecast"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNd210ZDJjb0szQ21NRUVSeHlmekM3dzlHNnUzTnJMb3pLWWRYNU1KME8xNEVWN2JNWEROY2xaZGQ0ODcwMnlpNU1vUXhETjVpOURTMUJZM1pMeEp3SWhaTDRuTzFwaVZyaV9DaTBYYm1MN2NhN3V1R2daa0J2N1RXSjlVVWU4RXhLc1Z3TTBKZlhVc2t6N1NpcWU5RQ?oc=5",
+   "title": "QuidelOrtho (QDEL) Beats Q3 Earnings and Revenue Estimates"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbFVwTHFSMDBBYmI5dHpERFRyNkktQ2p1dmp3aXpkS0FWeTMydXVOcDEtT0hyTU8wbUQ2NXk2Wk1lOF9FdlM3UWRlWDhRVVVaTVNIM1RyR0Z1RWNjQTA2QWRaSmhYZGNoNHV1LUdPY3JVWXllbEp6dDV2ckxLaDdYbmNYWU90bkgtMVo3bGtycC1mR0pZTzZmalc5djZBdXJzZjZsMUlEZExraVJmeHZEN3B2dnNTT016aWI0SFdCdGF6am1WLWY4NWp4bmVNM0V1RDRZOTdUQm0?oc=5",
+   "title": "2026 Patriot League NCAA College Basketball Offensive Rating Leaders & Stats - Advanced Stats"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPOEx0OXNTbkpmbDBuMkpKWjF0RFM5UUg4d3ozNUJYTHZSVjhMaUUxQ2REaVBlOEZnVnFDWGlzVGlzTXVVWUpjZFA1SVAyc2RuYl9oLVRaS2RaVWtxR0E0Z1I1SmNrZEl6RjlqX1lyaTlsbWtBb3FyeG9wcTdTcDIyLWF5dmE0RVFxbVppMjdqNldIYTU5UGFVa0Q1cXNsUVJ6RERlQTJFeVZ6SEtYUjh0eXZtVm51SzhHZlRSaWxUc1hOT0dkR1plTnk5ZHY1MUs4dmI4UUVkcVNxWUh1bFEw?oc=5",
+   "title": "QuidelOrtho Corp Reports Q3 Revenue of $619 Million and GAAP Los"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNQWFkamt4aG9PMk5ya21lY3RDRUxzSzk0M0lKVWZFS1Fidl8tU3NjZFE0cU1PN3FKTWM3UFhRcEtXYWlEMloybnFrd3d2NVJnX0MtTXFyb3dBVmxhdkVoSHBoeHA3V1k?oc=5",
+   "title": "Q3 2026 QuidelOrtho Corp Earnings Call Transcript"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTlpBV25tUzBLZFc4Uzk4bGtzNzU2WlNVV0NmTWhlN2JzV2tnY2xTZldCc1E0NFBnaGt0UUd0VTh6MkE2OFk1MDY1cDIwYVF1dmd6blVsNWtCMmhiS0g5aHItNnQyLUFvZmMtUUdweURQSlZSakd1ZEQ2b0JpSFQ5ZDQ3UU5vMjhFeE9SNWJvZlZEcjlUYm90dGpPbzVlZHdqSFpNOGlCc01rQ2FmQnBGYk9BNFFRN3E5VlhSNTNvcFdvMmJLQVotOVhlNA?oc=5",
+   "title": "QuidelOrtho: Q3 Earnings Snapshot"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNd1R5UVNiRjhIN1FKZF85MFF4alBNSUpYNlF1WmYwV2ZieHVrTjBHYzNiZm1YZ3JuZVNsc3hiWlNGMHV4cGVSOWZPclQxTENPQVE0cy1zeTd4VXpQVS1OdGlGWkFjX1ozaDZSYnRjbVY5SDAxYmFaNlNLNmVfZ1h1NnRvSUlwbGtwM2JtMVY2YUZRdTYtUTNxaHhhY3JHeDZLVHV2ckh6MmM4UWtyUGsxWWREeGZBdTNxWkFNWUQwSDZpalJJeE9lYWJmeExLZFdreW5XMlRlamFSMGhaRm45SkNGZW80ekh3OHFzVkdXcUhXUUQ3RUwybC1iYXB6UQ?oc=5",
+   "title": "QuidelOrtho (NASDAQ:QDEL) reports sales below analyst estimates in Q3 2026 earnings, stock drops 10.6%"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOXFsRFQ4WEN6TVY3ZFdXSUV3RWV5VUZkcUtIeHVFNXBXZU5scWREbktKWGYzWDRMUmlHQU90SWdiUlk3UTQtT2czOEJhOVpSUFRlcks1VHFjQUZBa0xCZzlGVW9SYTY3cy1Sd2tyX3JYdzRkanRpUDRYX0JBWG50Y0tZaXJvaWM2M0syNWtUVTNDY2c?oc=5",
+   "title": "QuidelOrtho Q3 2026 Earnings Call Transcript"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeFpkeGh0WTlkWmVXcTdUQkVDZkoyM2E1MjdHcHhhd3pFT0FYdFp6R2JJUTNVQ09Na04xaWltNl9mQ3ZiaWlLTm5PWkt1Qnh4b2c4LWU4WVEtOWZiTjJuajg2UGptUWc5Ny00Vk42OVFMUXN6UUFONEZkLWhpNE9CdXluZ0VVaEE1QTI2SU1jUGt5cG56dVBvUDlvckVPS2xEb0FNUFo1ckE5WGtzZnV6TkZ3?oc=5",
+   "title": "QuidelOrtho earnings beat by $0.11, revenue fell short of estimates"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOX09nUnBXNjNNWF9VZTluZlR6UTdDc19XcU5WSUFJTmJJVEJEN0xwQzFXUzFSVEI1Y0RwSlVDd3pNTzBSaGF1Mkt0RmJtak1CeW85S0p4enpjY2Jwc184VGREcU9ueFl5Q2lpdFliZzdRWHp4Umhramg5MUdBaFRCWi1SRnZ0MmpsNmdtcWlUWFRsMFZsaldrZ19XQWlVRnlPVWRGZW9MWjhWQXlZV09QNlRrQmx6Q3BnWHFtbzBEVGNIS2ZnY2hvZXpvS3dUOUtQT3hOWjE0YzlKRF9kMnJuZA?oc=5",
+   "title": "Earnings Flash (QDEL) QuidelOrtho Corporation Reports Q3 Revenue $618.9M, vs. FactSet Est of $627.8M"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSHF5bGg3c2ttUU1kbkFGNkhKb2lFRVpWQVhGMmtldnE4dTdkZWZpNUVxM1RISDZkZ1l1d09MQVZzbVlnMUtvTkdwbTh4c05rWDVYUktMNG1Lc0ttT0QxYW1UM0NRZG5yZTMzR1dwZE11YW9rTTBtWXNlTk9jVFQ1YlNpTjh0clV6QUw1bXluUE82SWNvZ3dxRENDczVhTDIxOUE?oc=5",
+   "title": "Form 8K QuidelOrtho Corp For: 3 November By Investing.com"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTEtmN1h3V2ZWNlFsZjJkbHdjdEY3OUI0MmdId0VvMnMtd3FvM3lOY1lIM1VlalZYSzdqV2xoUUZoUUN3Qjl6MllIME1aMHc2SjBVQTZVSW5iVDBQYlB6TWo4Nl9FU2dGNUJiT3lLTldidUlsS2JmREc2SUZJbm1tQktCdTFWVmdHMjJoSGZKTjZVY2c2TWpHYXZFMEhuczdlM1NjR1JkQlI2cklTbmpPX2p0TEJfZExm?oc=5",
+   "title": "QuidelOrtho Reports Third Quarter 2026 Financial Results"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ1pEVFhHZjdqOWsxSGlzMlROT296a19UMXdVVGNuN3VHRGtoZ3dWRXFjcjZfd2VOYzJvRllpVXptUjBlaDg2V0lsUjlaTmlWV1IwM3duenR6bWU2cWxxdFFfU1ZlRktES1BaQ2JCWVQ1VW1hX2RVNFdWWWlXRHF4RkYwbw?oc=5",
+   "title": "Immunoassay Neurological Biomarkers Market Companies, Size & Trends 2026-2035"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vOXNLTmJPdUl2MV9Hd1Q2RjRFTnpnYnE3bFdib2ZDOXZYSkRwamZRTGxOZER2SGp2ekhqaUFWWTJXXzZyRGoxSDQ1RkpoVHd2X0k3N2tHWkFKTFR2MGxyaUdCUTlQVEI5UmxCZzN6cEs4bDJQNVE?oc=5",
+   "title": "Maryland 96-67 Bucknell (Nov 2, 2026) Game Recap"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ1pEVFhHZjdqOWsxSGlzMlROT296a19UMXdVVGNuN3VHRGtoZ3dWRXFjcjZfd2VOYzJvRllpVXptUjBlaDg2V0lsUjlaTmlWV1IwM3duenR6bWU2cWxxdFFfU1ZlRktES1BaQ2JCWVQ1VW1hX2RVNFdWWWlXRHF4RkYwbw?oc=5",
+   "title": "Immunoassay Neurological Biomarkers Market Companies, Size & Trends 2026-2035"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZ1pEVFhHZjdqOWsxSGlzMlROT296a19UMXdVVGNuN3VHRGtoZ3dWRXFjcjZfd2VOYzJvRllpVXptUjBlaDg2V0lsUjlaTmlWV1IwM3duenR6bWU2cWxxdFFfU1ZlRktES1BaQ2JCWVQ1VW1hX2RVNFdWWWlXRHF4RkYwbw?oc=5",
+   "title": "Immunoassay Neurological Biomarkers Market Companies, Size & Trends 2026-2035"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVTm5ydXBTYXQwclh5VmtoeG5hVS1mdTJoMldSRDJDMHp1bTZaWGhDcVhKSWZ1aUQ3dEsxbC1NQWs2bzQ0UjNxc3N1Z0RiT28zUE1IWGZYenY1dDBfeWQ3b2czQ0EyUU15TllzdnNSMldQaUczTmc?oc=5",
+   "title": "Andre Mills leads Maryland to easy win over Bucknell"
+  }
+ ]
+}
