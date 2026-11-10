@@ -11,6 +11,21 @@
   "signal": []
  },
  {
+  "id": "22847dbede52107d",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "TD Cowen maintains Quanterix at Hold, raises price target to $4 from $3.50",
+  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObnRKWGRKNzdoRExnMU9ydzZ2OXR1bTRLLU5xZWFpTms5eEQ0VmhRU18xaUNSck5ZTW5vYy1LQzBDUXZmX055cTdVTXNzbFowWDRMX0Y1QUQ2N014WV9BSHNsZnpDN1RGbkFQdmFjMUhyQTZqZnJwZ3N1enRqSkJFdjlpU1h5SGdWMmNKSGVfTkNLcmFPaUxOaENJV05KOTE5Y0Q5NnIzX2ZNOEdNQk5qenlURHRLX3lfWW5JNG1ZZ0YyQ2ZRaWc2ejNhVW8tQQ?oc=5",
+  "date": "2026-11-10",
+  "snippet": "",
+  "publisher": "TradingView",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-10T21:11:21+00:00",
+  "signal": [
+   "raises"
+  ]
+ },
+ {
   "id": "1abbee8d5811ac4b",
   "competitor": "Lab reimbursement (CMS)",
   "source": "News",
@@ -32,6 +47,19 @@
   "date": "2026-11-10",
   "snippet": "Neurology. Wang AY, Wood AJ, Zhang C et al.",
   "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "9f12c013f1efb872",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Growth in the Traumatic Brain Injuries Assessment",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTEVJWVVfRDczYUtqRERpdGR3UzVkWHdPLXk1WXZLQ3l6MnRHdVlKTlFhQ1RVUnQtYU9PdFdPaUM1b05qM01hdFJMcDNCRUMxbVN1bkxQUFBYbm5BQTFlUnN6bG1NTWxCazBjVm9wT0NncmVtbEE5Unk1UUU1NlNPSWtCeUpqT2FRQUdZLTdn?oc=5",
+  "date": "2026-11-09",
+  "snippet": "",
+  "publisher": "openPR.com",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-10T21:11:21+00:00",
   "signal": []
  },
  {
