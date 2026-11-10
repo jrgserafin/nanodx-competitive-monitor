@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-09T23:43:14+00:00",
+ "checked": "2026-11-10T18:26:27+00:00",
  "companies": [
   {
    "key": "rebiscan",
@@ -314,6 +314,32 @@
  ],
  "news": [
   {
+   "id": "6fabcb67bd32de49",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Nanopath Raises $25M in Series B Financing Round",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNejIzUVFyN1Z3U3hycmZXNlJWTmc0ZzNuSXVMRVkwVU91UGgzU2swNXJ3TXRtR29JTm1ydHFaTkpEdHZhTTNOVXFnR0diSk5nWWpoZGJOb3lPRmt6Z2djeXZxR1ZJSEVDX0hONnFpNXBUMGVkZVJwU19uTU9hQktLWUhYOFpwa3doZEpDbUpMenVYTUJwRmt1OUQ4RllHcUFpMkZpRVhqTWk?oc=5",
+   "date": "2026-11-10",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-10T18:26:27+00:00"
+  },
+  {
+   "id": "347a10e735aaaf82",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Wheat Getting Spillover Support, as USDA Raises Stocks",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSFNkdVE2QXJ3Zy1NMkJhMFVfcGNoOTRUS3gzTkZaazMwVUZOblBTNGxCV284Smtadk9icGNYRTMxYmstZlM0Tl8tQzI0V0dScW90ZHlUMzRqMHg3RVFMeU1wZC1BNGROOTBOYkt6S0FtTlJTejRBOHRQYllSSVQ0N0Z4TXl4dVUwSEdBRTBJZk9PajZzcjNXRGpRUGQ3UQ?oc=5",
+   "date": "2026-11-10",
+   "snippet": "",
+   "publisher": "Barchart.com",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-10T18:26:27+00:00"
+  },
+  {
    "id": "6087b74c66320306",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -351,6 +377,19 @@
    "query": "concussion blood test startup",
    "tbi": true,
    "first_seen": "2026-11-09T23:43:14+00:00"
+  },
+  {
+   "id": "bbc3bda3dc4f59fa",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Stanford study’s new data about sports concussions",
+   "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPb0s5ZkJRNHpJRTBzNHRfcGtMLW80NlYwQTBxR01nSzB1UmdpcWo1VTZYd1llM3VnWkNLakk4Vlk2VHRLU1A5U3dxT2RVTWdGQVVySHJRWm44WkRXUjRvM2pLQ19WRHcxbVQycUFBQ3BBSU0yd05Kdm42VmFLeExfREE1VkhPZnRGanBjMzl6RjUyeG9YTDNhYjh0MjdHMlNXOGs0ZlV5Vy1MN0U4N29kQU5rZWUtaDVqbU5yN0JLSlZSdGtFbzVneVpIdzJtd2p2NVJhNUxZOWJNeDFDNHd5STJvRS1IbHRYQkVLQ0Rtc0stZTM2SzAw?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "mcduffieprogress.com",
+   "query": "concussion blood test startup",
+   "tbi": true,
+   "first_seen": "2026-11-10T18:26:27+00:00"
   },
   {
    "id": "c1e2a18fcfb9dff4",
@@ -624,6 +663,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-11-09T11:53:10+00:00"
+  },
+  {
+   "id": "46d54e92aab8e1c8",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "CFPs: Advancing Portable Point-of-Care Diagnostic Technologies for Faster and Accurate Disease Detection",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVk9xbkNPWmgxaDBFTHBnaHB4bzA3NGhsZzl2bm9ROUk4N3JyRmJiamV4RXQ3T3h0b1JVS3BYWkNZN2UxbE9NNF9jUWxqWWl3QUFJem5uMnBTa3VtbDhsNnFaaVoxNG5ja2VmZVlUYnJ0M1hScE9qcWpSaE5yRkFfb21TdlZtN0lZWmw3VG54MTdKU2c1WDBBQkozTzJJcWtPSU94NzJrdTU5SWN5YU9sVEkzaWpWNGxHalBNV0ZGOWJ5Y2J3MmluUHhCV3k0clpYNWRQNkNOYzhqemZjOHfSAeMBQVVfeXFMT2pDZlhiTHRhTlplVWUxd3ZfRmRVR3VxLWpsZUdUeWhhdktoUENMOWN1cGtDcW51MFlVWklIUnY3Um5kNjQzdGFsVDJTOEpYVWVTeEpRNDNZM3ZEX2RlZ19PN0h6c0tvV2haOHo5QXZlUzFfS0Jld3ZPcHdKdWFxR3k1RmpGVGllR0cwc2owY0xwR0FvV1dJbW45TlZQWEFFTng4VFM1bVVZNUU0bUY0TUpuSUdSbGxlT2hhS2x3WlZzb0xweTlNZWwwZVpnNWk5SnQtbTUxRW9sMkp4VFNHcGU2Rjg?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "fundsforNGOs - Grants and Resources for Sustainability",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-10T18:26:27+00:00"
   },
   {
    "id": "5a798ce749f5679f",

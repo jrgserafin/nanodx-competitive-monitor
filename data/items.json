@@ -11,6 +11,19 @@
   "signal": []
  },
  {
+  "id": "1abbee8d5811ac4b",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "Holland & Knight Health Dose: November 10, 2026",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYTB2ekpKaGxoeGtjRF9taHA4Q01TRlo4Yk1RbGkwVWlnMENXZjJJR3RPN2k3RmVLbjFsYmM4ZURnN0ViTGgtbG45cmhsX1B5WkxPOHVsQWVrbWotRkVKYjN2UjZkX05TSENQMDlTRG1naGdkbGJ2blNablFoMVp0a3BocUtOWS01anFUMWZQTXZVZ3BOdGRGWXNDLTQyR1BjSHpGdw?oc=5",
+  "date": "2026-11-10",
+  "snippet": "",
+  "publisher": "Holland & Knight",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-11-10T18:23:53+00:00",
+  "signal": []
+ },
+ {
   "id": "98acc0bbf12d260a",
   "competitor": "TBI epidemiology & ED burden",
   "source": "Publication",
@@ -19,6 +32,58 @@
   "date": "2026-11-10",
   "snippet": "Neurology. Wang AY, Wood AJ, Zhang C et al.",
   "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "169e82208a962381",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix Corporation 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:QTRX) 2026-11-09",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcm9aVXYyUl9fSDdGQ2JyMHl2N2M4SERYbFNMR0wzNTJKVUVieUMxVTlxUTRWb3BxV25BX1FMNk1iRlNNSllITkpPY1VvLU41YkZfMllTX29mWS1JcUlMVjl5Y2VNeVVRUDhzQ1lhaXlmRFpaNkFaeEJNYVJxRFBSUU5UR2N1VUw2blhNZV80LWtncVFON05mNmVPSFp1V05qXzc3ZW5RYjc?oc=5",
+  "date": "2026-11-09",
+  "snippet": "",
+  "publisher": "Seeking Alpha",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-10T18:23:53+00:00",
+  "signal": []
+ },
+ {
+  "id": "92249f36e266f7c5",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "What Quanterix (QTRX) Said on Its Q3 Earnings Call",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMXppS1k1ejhqVW16a1V2d1FZTnNFUkhMWW5WQ2V5UkhyS0J3UUNia0ZwSTBtMXJoMHBxc20zOVpSYmxJT0pLMDcyUndNRnN5UjBnN3QxVmMwVGZhamNWX2E0VzdvWFJ4TDkzd0l0dkxMLXBCNFliRENsUHA0VXB5R09rSzlvbF9UMi11anlVNWNuZFdLc0MwV1JmLTl5SVg0enlDTDBOVlZ1cHM3bXc?oc=5",
+  "date": "2026-11-09",
+  "snippet": "",
+  "publisher": "TradingView",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-10T18:23:53+00:00",
+  "signal": []
+ },
+ {
+  "id": "bcaf33818baa81a5",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix Corporation Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026",
+  "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObFk5czg0VEkwbTdrdENyV3dRbkxzWkpYY1lVMHNUSEtJNloxWWFjSjBJZHdLb2VMb2dYV0ZqWHRDRVBwSU50bDIySWZKWHJVOU1Kdm9OSmVvNFJtLVZvS1lFSTV1N2hDQ2dhendVS2ZOMG5wenh6TWs4SHdEdkpvSlVlaVRmN1JYRENDWjh1R2RFbWh6eDdIUVlFN2N0WVRsbzBiNEZyeWphNFdEQUZFSDI2VjZlNFpYd01ZekRKY0xwZmFOTUZhUmprSUVqcXh0ZXJ6d0FoU0hHMG5kYWxvNUotRDZoSnNX?oc=5",
+  "date": "2026-11-09",
+  "snippet": "",
+  "publisher": "marketscreener.com",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-10T18:23:53+00:00",
+  "signal": []
+ },
+ {
+  "id": "2b294c1c6f4e2d14",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix Corp Reports Q3 Revenue of $35.0 Million, Missing EPS Estimates with a Loss of $0.46 per Share",
+  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMVdEaTEtUzRDUEdqaGRYRjZ1SW42N0RVRGUtUUNSazNxVG1rOVotSm9ld0g3dGQ0X0xhQ2YwWFVacFhEMllIbUU0aERIWmkwdDRqSDAzX0w4Y2VYTHlmaTNZV3k4aFZ5allKd0lsSEVIWDAtaE5kbGs4U0xKUU9tZXVsUlp4UC1UY0ktdllacElpclpTdF9LQWw5Q1NmTzJpV3pyS2FRQlctTFdJS0tMZWxKdTNBYVhwV3djQ0o5MXlxSkdtZUtIaDgyb0lHdWRCQXQ0QQ?oc=5",
+  "date": "2026-11-09",
+  "snippet": "",
+  "publisher": "GuruFocus",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-10T18:23:53+00:00",
   "signal": []
  },
  {
@@ -256,6 +321,19 @@
   ]
  },
  {
+  "id": "d7e71371d9c6f630",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Repeat brain injuries linked to higher mental health risks – study",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNnpLbXViWjRhU3RERUFKVGFPdWVGa1ZianFaMlNNMzRESzNKNGlocEhRNXpqeERYT3M0akV6TGljaTVOT3pkSGFVTUJkUWg4a3ZIZlJrYlZ3NWhsMUVNRlkwaERkQXVwS29lOE80bldRTjdVdWZFRWMzMnNIN3U5UGZVSDFwdnFMaVVpRWhTTWJXcW5jWE5sZlh3?oc=5",
+  "date": "2026-11-06",
+  "snippet": "",
+  "publisher": "NR Times",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-10T18:23:53+00:00",
+  "signal": []
+ },
+ {
   "id": "5a24eb9b1c3bdcf8",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -410,6 +488,22 @@
   "query": "\"Boditech\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
   "first_seen": "2026-11-06T11:41:32+00:00",
   "signal": []
+ },
+ {
+  "id": "e58870d38212d19e",
+  "competitor": "Boditech Med",
+  "source": "News",
+  "title": "Singapore and Norway launch call for greener shipping research grant",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaEIxbk9ESEtFeUEyWUp1V3VlNUVsN005dE1HSXRjeGI5dmZ4T1R5SXdodGdDS3lVaENUSndYTkhadTA4LW9XaWNVZEhpNXZkS19rRGpYaThjU1RuNUZibWdIOTVJbTB0Z3hiUWlubWhEX0NyOTJpVVpURGZKZ1BMY2ZTc2dUREhsRTZnenlJa2JYdw?oc=5",
+  "date": "2026-11-05",
+  "snippet": "",
+  "publisher": "Singapore Business Review",
+  "query": "\"Boditech\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+  "first_seen": "2026-11-10T18:23:53+00:00",
+  "signal": [
+   "launch"
+  ],
+  "alert": true
  },
  {
   "id": "5391a10b89b8091e",
@@ -680,6 +774,19 @@
   "publisher": "News-Medical",
   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
   "first_seen": "2026-11-04T11:44:52+00:00",
+  "signal": []
+ },
+ {
+  "id": "2c1290a9f59aa809",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Brain Monitoring Moves Beyond Fixed Blood Flow Limits",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU2x4WW9ObVcwV0c0N2I5TkVwdTQxbmhXXzlZeGEwUTllZldwd25HM2lBMTZyT2t2dnFwaE5faXlhM1I4dWRjcTRNLV9EXzB5eWp3MFlZNU0tNlZPLWx0cGxNWkhDOVpDZFdWZG9vRFFaMkY2ZTdUUkI1dEdpeEdsVVZqY0Y?oc=5",
+  "date": "2026-11-03",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-10T18:23:53+00:00",
   "signal": []
  },
  {

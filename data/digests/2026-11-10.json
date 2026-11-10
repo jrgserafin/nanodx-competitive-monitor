@@ -1,0 +1,312 @@
+{
+ "date": "2026-11-10",
+ "generated": "2026-11-10T18:26:27+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "e58870d38212d19e",
+   "competitor": "Boditech Med",
+   "source": "News",
+   "title": "Singapore and Norway launch call for greener shipping research grant",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaEIxbk9ESEtFeUEyWUp1V3VlNUVsN005dE1HSXRjeGI5dmZ4T1R5SXdodGdDS3lVaENUSndYTkhadTA4LW9XaWNVZEhpNXZkS19rRGpYaThjU1RuNUZibWdIOTVJbTB0Z3hiUWlubWhEX0NyOTJpVVpURGZKZ1BMY2ZTc2dUREhsRTZnenlJa2JYdw?oc=5",
+   "date": "2026-11-05",
+   "snippet": "",
+   "publisher": "Singapore Business Review",
+   "query": "\"Boditech\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
+   "first_seen": "2026-11-10T18:23:53+00:00",
+   "signal": [
+    "launch"
+   ],
+   "alert": true
+  },
+  {
+   "id": "7a80f25eb1bce797",
+   "competitor": "BrainBox Solutions",
+   "source": "News",
+   "title": "Growth in the Traumatic Brain Injury Diagnostic Equipment",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVkJ0VGdOM3VNRlVENFJtaG5VOGRGcHBUYUFURXpVMU1XWXE0MnNCMlg4U3lRZUtxNDl0dkoxek84U20wenBqVkctOHY1WmlYUEUzUzVQZlZPU3Y5ek9zUzBtOUNjV3dHQU9fM3NKTHd5UmxDdEt4V2U1OTY2bnc2dTV2ZU5KRHN4ZnpzRG9oeGoyNzJWWFJrcA?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "openPR.com",
+   "query": "\"BrainBox Solutions\"",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "15365b11fd360226",
+   "competitor": "CT avoidance & health economics",
+   "source": "Publication",
+   "title": "Development and validation of an adjunctive diagnostic tool for Canadian CT head rule-positive patients: a pilot study.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43000583/",
+   "date": "2026-11-09",
+   "snippet": "Neurosurgical review. Lampros M, Symeou S, Vlachodimitropoulou L et al.",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "1abbee8d5811ac4b",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "Holland & Knight Health Dose: November 10, 2026",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYTB2ekpKaGxoeGtjRF9taHA4Q01TRlo4Yk1RbGkwVWlnMENXZjJJR3RPN2k3RmVLbjFsYmM4ZURnN0ViTGgtbG45cmhsX1B5WkxPOHVsQWVrbWotRkVKYjN2UjZkX05TSENQMDlTRG1naGdkbGJ2blNablFoMVp0a3BocUtOWS01anFUMWZQTXZVZ3BOdGRGWXNDLTQyR1BjSHpGdw?oc=5",
+   "date": "2026-11-10",
+   "snippet": "",
+   "publisher": "Holland & Knight",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-11-10T18:23:53+00:00",
+   "signal": []
+  },
+  {
+   "id": "37e4b9c5a31b142c",
+   "competitor": "Military TBI screening",
+   "source": "News",
+   "title": "Sleep in the Military: How Much Sleep Do Service Members Get?",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aSms2dnlBRDZheWF2WHBqeU9DYkRON1g0ODBlTDdHVVdieFlSbmpOdlZNUS1rNkFNb1dhX1hYTlY2MEpraUYwNnJyLU9URl9aS1kyT0xLWTZpb2NVX1R4N2xIbw?oc=5",
+   "date": "2026-11-06",
+   "snippet": "",
+   "publisher": "Sleep Foundation",
+   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "2a8327dfeeedf058",
+   "competitor": "Military TBI screening",
+   "source": "News",
+   "title": "For veterans with mild traumatic brain injury, a restaurant or other noisy environment can feel like a battlefield",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVHBlZjBnWG9Oc2RhcFY2dkdFSks5ZnFCdUpOZHBkMHppd3FCZTdNclh3d0Z0T21pdC1HRzFOenU5bjV2ZEoyS0tHX1RMS2V4Y3lpcUNxZkVuWWptRmF2UkFqcGlMSWhBdWotZWZ0RXFzaXhORVRXV2V5bXpKekk4OUl1bncwRzg?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "Medical Xpress",
+   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "f00eb8397297195f",
+   "competitor": "Military TBI screening",
+   "source": "News",
+   "title": "Understanding Hidden Wounds Of Military Service",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNanlmaHMzdmRQdUJJUDlBbG0zVjhrb3FPb3B5UlBGVzJjU3Z2aFh1d2ZwTXRqRDA1RDFsZ0dLWWY0RjM3ZkhHTlBWa0hYRXAtZmFvUEFyYTVBbWZPTk40N1hWU0ZabWY5RjZaWG1lZjBZVy1YTktNeWRfRXZ1RHMtUGc4UHJxSmlTNldz?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "Mirage News",
+   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "169e82208a962381",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Corporation 2026 Q3 - Results - Earnings Call Presentation (NASDAQ:QTRX) 2026-11-09",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcm9aVXYyUl9fSDdGQ2JyMHl2N2M4SERYbFNMR0wzNTJKVUVieUMxVTlxUTRWb3BxV25BX1FMNk1iRlNNSllITkpPY1VvLU41YkZfMllTX29mWS1JcUlMVjl5Y2VNeVVRUDhzQ1lhaXlmRFpaNkFaeEJNYVJxRFBSUU5UR2N1VUw2blhNZV80LWtncVFON05mNmVPSFp1V05qXzc3ZW5RYjc?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "Seeking Alpha",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-10T18:23:53+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "www.marketscreener.com",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeG5pRGp3dk50bWYxaDRQbFVUWXlfc3FjVkFmSjlqUFFvOUd1Q2pSa2N3U0xEWnpuUllKelIwNXFBRUdnMEp0dFVLY0NxcHpvUFg1R3Y5TEFtbEtnal9yZTlFZEhOaGdEb1QtaU9BdGJ1OC1GMzJkbTNKcHVZOVhQM3JBSmxSUTJfaWFVdjJhRVc2YnZFSzVwZTc2b2g3WHRQQmdkRTRCSXVORzNNOUpHSlZ2dkJ1WkFPazJR?oc=5"
+    },
+    {
+     "publisher": "Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeVVUcmtMbTgwMFlVVzdFN0JzN010NXFleEljcWs2UExwSENUdkJsUm1KaXB3Q1dVV25oTFV2d0txSU5NZ3AySEkxdXl2dTI3eS13Nm9JZTFoNk5oWkhBOS0tWnIxel9hN242TVJGRHpSalh1UTRlZ1F5TkJVcUpBMG1FNVhpZmU3ZGNiRjZRVFg1ODFqUENhQ1RpcGI0UjRmNlVTV2hn?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "92249f36e266f7c5",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "What Quanterix (QTRX) Said on Its Q3 Earnings Call",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMXppS1k1ejhqVW16a1V2d1FZTnNFUkhMWW5WQ2V5UkhyS0J3UUNia0ZwSTBtMXJoMHBxc20zOVpSYmxJT0pLMDcyUndNRnN5UjBnN3QxVmMwVGZhamNWX2E0VzdvWFJ4TDkzd0l0dkxMLXBCNFliRENsUHA0VXB5R09rSzlvbF9UMi11anlVNWNuZFdLc0MwV1JmLTl5SVg0enlDTDBOVlZ1cHM3bXc?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-10T18:23:53+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeUYzTkw3SHRXcXlBUjBuQmNXLTEwVmUtR3lMQ3lGNkV3emtFeHlldVF1bUwwTkVJbVJCamxUYVF5VmF1QXpIVUEtMlU4RlJvMjg0VjBBSGdQRkNDNE5MRzE0SkNLZWd1OHM1QzZ2OUdyWF9BYzk4Y3p2Y2Q0TzdHRHNoVm1kUXdjRFB2OXpGUzk?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "bcaf33818baa81a5",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Corporation Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObFk5czg0VEkwbTdrdENyV3dRbkxzWkpYY1lVMHNUSEtJNloxWWFjSjBJZHdLb2VMb2dYV0ZqWHRDRVBwSU50bDIySWZKWHJVOU1Kdm9OSmVvNFJtLVZvS1lFSTV1N2hDQ2dhendVS2ZOMG5wenh6TWs4SHdEdkpvSlVlaVRmN1JYRENDWjh1R2RFbWh6eDdIUVlFN2N0WVRsbzBiNEZyeWphNFdEQUZFSDI2VjZlNFpYd01ZekRKY0xwZmFOTUZhUmprSUVqcXh0ZXJ6d0FoU0hHMG5kYWxvNUotRDZoSnNX?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "marketscreener.com",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-10T18:23:53+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQcHhSaVcxaGZVUGxPcWVSVHdpUm1Sck9zczh1THNmMnVGTnNzaVBaVjI5UW1ZeVpmdVVkSUNaaTdydUpxUnlPNW85Ty1WY2FLdHFmcUtnd0tkZ1BlM1diMnJHVXR5OWNHNllDS2JhdmVydHZDQkxEWFNQWGYyX3RpTUt5elRPWFFHdEpqbEhxeVVxVEo5TkJfRmlYNUVaeVBKZURvNWpDRzBKVzdYMG1IX1IzdmhzZ2o2VV93Z01kLXpOTV81UjU2eGZQaERlYXhTdGItclgydDhhUEdoZDBoUGs5aXVHUWdfdnBOZzBWeDU?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "2b294c1c6f4e2d14",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Corp Reports Q3 Revenue of $35.0 Million, Missing EPS Estimates with a Loss of $0.46 per Share",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMVdEaTEtUzRDUEdqaGRYRjZ1SW42N0RVRGUtUUNSazNxVG1rOVotSm9ld0g3dGQ0X0xhQ2YwWFVacFhEMllIbUU0aERIWmkwdDRqSDAzX0w4Y2VYTHlmaTNZV3k4aFZ5allKd0lsSEVIWDAtaE5kbGs4U0xKUU9tZXVsUlp4UC1UY0ktdllacElpclpTdF9LQWw5Q1NmTzJpV3pyS2FRQlctTFdJS0tMZWxKdTNBYVhwV3djQ0o5MXlxSkdtZUtIaDgyb0lHdWRCQXQ0QQ?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "GuruFocus",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-10T18:23:53+00:00",
+   "signal": []
+  },
+  {
+   "id": "7d462f298c2d7a85",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix’s Q3 Revenue Declines 13 Percent",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPV0o5MWhhV01yQklmVkRHaHpHNGtfb2Q2dDRTMmpyRW9nWlhQa3hpdzhwTlB2YUdqenFDc1ZVQmtKamlrNmdVV2xVMmZXNWE5Ny14Vk53UkdNWXJCZWN1THRsNUZfTy1zMkMxRVZ1WkJKX1FMeEdZOXh6dkFEWFB2cDRFbU1DZ1FSMXZuVnVHVVFBdThsUXlv?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "93d099239fa9c9b7",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "QTRX: Quanterix Corporation filed SEC Form 8-K: Results of...",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVFRPVW8zZU5obTNJYkE3bmh3SGNxZTFjRlUwRVhNczBSVlRWdnhXbGcxUUQxZzNYMi1WVGNqWnBwZEQxSG14VzNvZWJWUFhZbXFXUnNlRXd4VHp6NDRZa09iRVNjZ2QwbmNTdFNQN3BORDdpQXlDdy1YdmZvdDh3cHo1UTM1NzRrRWFqWWRrT3ByRFA3X1NCTWloY3pmQkdJRlQzVjExSDNoU3lDSGc?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "Quantisnow",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "Quantisnow",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMlVldjhNdER0VFUxX1BrOUJsNXNCVFpoZ3NmQ2JmU2pMTm55Mk9UeFhhNkllcl85YU9BVnE0cTc0LVNCZHhJd3pZQXUtN05EQXQ5LWZ6eUcwS0d1aUI2aDkyTllqdjBPU2ZUWGl2Ry1kLXpOTFNGZ0xUY3gwVUxCTUpCRDVrVGJwYzgyZ3ZHbEg?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "25fe1b812c6463ab",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Q3 2026: Revenue Beats, Loss Wider Than Expected",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUU9MZHNZTC0xNWVYbjN1eklkOHVPRW01X3pFVlE4VE1EWTViVW1ON0ptYm15LUdieDY3Q2RUWWFQaDd4TjlVNXlrV1UzbVBaR05pbUt2YV9UWDlScU5UM0JsOXVRdTFUcmZGai1yM1NORjJiX3lYM0d0QU1vUEU4YUdLc0FYamc3SkVCTnN4cw?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "24/7 Wall St.",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "067eeaaf385b7e13",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix 3Q 2026: Revenue $34.97M, EPS ($0.46) — 10-Q Summary",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbWxTWkM4bHBTVEVXTzhCRHdITHNYSzVLbU03UVlHVFB6YVdWU056X3lQYWJaN1g1eDJxd1ZFZXMyNW5FQm9Ybk9jZUI2SlIyTEVFdUE4c29MLWVfRlZEcXZxSksxWHE1OEl0bDdrR1dmTF8yU2tXT25OSmp6VmdQTmJQLTBUSnpkT19jZ0lReHNkYlEtamJPeExxT09kRzdLb1JwWWM2eXc5d0kyNnhHYmdRUERZRUE?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "dc3f4e1df6d444f2",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix earnings missed by $0.03, revenue topped estimates",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV3hpNXF2WVpLNmxZVzdFdTFXUE1kcUtfYlVqcjdqZFNFUkVMeWRidVlENU13M1RCZUt6U0NRTTlsX1ZYQ3FHaDBkZkE5Z3pZRGhXLXNiUGN5UnJ1SjBVVTl0d1dGVFBKS2RfZDBDTjU4VVdCcEItNk9QMUQxbV91a0VJWDFsLTJnQ0h3OG9qTEF6WWxzM2ozOGNiY3ZDX1h2LTBHNDJpYlA?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "Investing.com",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "0bef54045c4dc320",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix (QTRX) Posts 6.3% Sequential Revenue Growth in Q3, Adj",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFRUWEdYZHNCVG5pZjBCcUxKQ0ZRTDB2a0tsanNjZnBjaVljQXRSV2JUYUJOTEpGN2ZHRnRGMGl1S29xWUpnM2syVU81RlpId3lQV3dQdVNadlg0emNSb2taUWY2bUp2YlVnNWxwbUI4OHRnZmNfZ09mTXRGT0dwQmRjV3BNeVlQU1M2MWRZWXNhcFU1aWJpN1REWXRkMHZ3U3NQdWhnMjJFMGt2S0Q5Zkl2VlFvLUgtd0N0Tw?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "GuruFocus",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "48911a97c511870f",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Q3 2026 Earnings Call Is Live",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWFo4aXItbnpoMlMtWUN3Y0ZibUZiSzVTZkhRVUdHLXhrcENSSW1nQTdNWE1OMFBDYnExSjFzanh3bW51eHBFWXdvbVFhQThKWDFqLVBmMGdPb0x2RHZhSjIydENmWmJscXpWaFdqRVEzWDRHd2hJMnlhZDJCMGlkdEc1ek9zaFgxOHA4UE1fUFVrWnZJd25KaXZ5TG1jX3NYSUozWFNFS1JLT0htOVp3?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "2c1290a9f59aa809",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Brain Monitoring Moves Beyond Fixed Blood Flow Limits",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU2x4WW9ObVcwV0c0N2I5TkVwdTQxbmhXXzlZeGEwUTllZldwd25HM2lBMTZyT2t2dnFwaE5faXlhM1I4dWRjcTRNLV9EXzB5eWp3MFlZNU0tNlZPLWx0cGxNWkhDOVpDZFdWZG9vRFFaMkY2ZTdUUkI1dEdpeEdsVVZqY0Y?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-11-10T18:23:53+00:00",
+   "signal": []
+  },
+  {
+   "id": "d7e71371d9c6f630",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Repeat brain injuries linked to higher mental health risks – study",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNnpLbXViWjRhU3RERUFKVGFPdWVGa1ZianFaMlNNMzRESzNKNGlocEhRNXpqeERYT3M0akV6TGljaTVOT3pkSGFVTUJkUWg4a3ZIZlJrYlZ3NWhsMUVNRlkwaERkQXVwS29lOE80bldRTjdVdWZFRWMzMnNIN3U5UGZVSDFwdnFMaVVpRWhTTWJXcW5jWE5sZlh3?oc=5",
+   "date": "2026-11-06",
+   "snippet": "",
+   "publisher": "NR Times",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-11-10T18:23:53+00:00",
+   "signal": []
+  },
+  {
+   "id": "5a24eb9b1c3bdcf8",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Chest CT Scores and Bedside Nomogram Predict Severe Pneumonia After Traumatic Brain Injury",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSkJZVlRXcndPem1Ecko5WWtMTlVZUVNrdFgwMHJuakc3MXBtYVdHREVTOUlLZmtkLVdiOWs2MGRyS3JWVEhiYWFYaHNGTnhMYm1kMGt1dGJfQm8wSlpvczd1b0hMbWFWazlmQUFrUGg1VlFNczh2TlZDRjFkcGE0SmRaQ3doM1plS1lobm1JZnM5bk1qU2c4VEwycDk5d0hsOURVVlYwYWlIOEhmRGRtVF8zSUROUQ?oc=5",
+   "date": "2026-11-06",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-11-09T23:40:41+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}
