@@ -1,0 +1,154 @@
+{
+ "date": "2026-11-11",
+ "generated": "2026-11-11T18:18:56+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "0d312f0d9b1081e6",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "Digital Health and AI: Key Regulatory, Reimbursement and Policy Developments",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRGpmWmlpNE9vYW1wX0VJUmFYWFpXb195UndHeUMyOUp0N3ZiM2JoNHl5ampPbk1adlNCTkVYX0tlVTNQYW9pTWFxQUdGTkxsT01uU0FKdHFWV1BlOHdTN1JOYUdkZS12WHRJN3FNQUpueWJUOE5ERUYwNDA5d25aWmZKMVVTdw?oc=5",
+   "date": "2026-11-10",
+   "snippet": "",
+   "publisher": "JD Supra",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-11-11T02:30:39+00:00",
+   "signal": [
+    "reimbursement"
+   ],
+   "alert": true
+  },
+  {
+   "id": "22847dbede52107d",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "TD Cowen maintains Quanterix at Hold, raises price target to $4 from $3.50",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObnRKWGRKNzdoRExnMU9ydzZ2OXR1bTRLLU5xZWFpTms5eEQ0VmhRU18xaUNSck5ZTW5vYy1LQzBDUXZmX055cTdVTXNzbFowWDRMX0Y1QUQ2N014WV9BSHNsZnpDN1RGbkFQdmFjMUhyQTZqZnJwZ3N1enRqSkJFdjlpU1h5SGdWMmNKSGVfTkNLcmFPaUxOaENJV05KOTE5Y0Q5NnIzX2ZNOEdNQk5qenlURHRLX3lfWW5JNG1ZZ0YyQ2ZRaWc2ejNhVW8tQQ?oc=5",
+   "date": "2026-11-10",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-10T21:11:21+00:00",
+   "signal": [
+    "raises"
+   ]
+  },
+  {
+   "id": "00a7c2ee93df236f",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho launches VITROS 450 waterless chemistry testing for low-volume laboratories",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTENlOGgweWdyRmJ6enVzOXN5TnE3ek1CTU01VzdWbFo1X1BaZmFMdDEwdkRpbjRsM1F3Z2FEVWVfWVVpWWZieDlYOXM0NWowbG9OU3ZTTWZwcGpyNmtvdVJWaDVNbXlpLWJKTDd2cHQtanIxUlZnUTlENU93TVZCNjJqVXdFNTBsVFdCcldwekVwckF0dzVJeVVfMlg0TUtDXzhvTWotQmZFaVNuVkd2SDhKbVpQcWFQZjdiSlRGalFiMDQ?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "SelectScience",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-11T18:15:42+00:00",
+   "signal": [
+    "launch"
+   ],
+   "alert": true
+  },
+  {
+   "id": "a700a72d0e8e120d",
+   "competitor": "AeHealth",
+   "source": "News",
+   "title": "Men’s Basketball Drops Season Debut at Maryland",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTl9xN2x3MEwtSXdlbU5oN291MmVaMk9LbEg4LW95emZxOGFpcFc0dlF4cXhCMkxQZVVENkl0T2tFeTQxdzl6QVdTWWRPNnVtS1E5U3J2X2UyRG1RSnRnOWc3SElGdjAybGdnMDd1NkhaNzEzTnN2bUhsLU5QWFBXNmpwSjU4RXV0SFVxbVlBNmt5N2pZTUtxenY4LXFPNXMwNVNtSThR?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Bucknell University Athletics",
+   "query": "\"Lamuno\"",
+   "first_seen": "2026-11-11T02:30:39+00:00",
+   "signal": []
+  },
+  {
+   "id": "f6515546b96f0663",
+   "competitor": "AeHealth",
+   "source": "News",
+   "title": "Virginia 95-61 Bucknell (Nov 10, 2026) Final Score",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCYlgtSU9WYUd1STdjY0dfeEtBbHpJVlVYTTJfeERPMjhhRlQ2bnNvclFpUXV5a1ZfSlBQOG5hd1l6OF9BNlUtcFV1a2Yta1hyR25kei1jWVpQYW5jUTZMakZrMS05eFBQR1V0UXZYd0xJS1Iz?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "ESPN",
+   "query": "\"Lamuno\"",
+   "first_seen": "2026-11-11T18:15:42+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "ESPN Philippines",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lTkRHOGd1ckRqRU94OXN4WnBVWmQxQ3ZVVmRlTmJWbUhCVDYxc2MzYndoMnVaVVZEbVFKSURVQ3lmeFpDNExMMENnWUpFaTF3Q01EbVZPTzFJN1F0SUlWNzZPczM2QkhuenRuYnJUYm9GQ3VsdzR4TnllcU9aZw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "10372032a2e525bf",
+   "competitor": "AeHealth",
+   "source": "News",
+   "title": "David Teel: Virginia Tech, UVA hoops among Tuesday’s crossover highlights",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPekJiTlRhcW9pMlVZM2MtNFBNWEdsWFZqRkNXaWpjUDBqRGJrbEpjc1Z3a2s2TnZiZmhlbFF2QndDY29hQW5HU2FiQUEtSFhzVXk3cVY4R0RMNEtpZW42b2RTVnltTWRXUlkySUZIV1ZTYk5FZDRTU1ZhLXRQYWlxZnNla182RVp6djhZZEEwWEZJaExOUkYwczFkWXFSMzlMUjdVV3FaeVcwWEVuS1Jr?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "The Virginian-Pilot",
+   "query": "\"Lamuno\"",
+   "first_seen": "2026-11-11T18:15:42+00:00",
+   "signal": []
+  },
+  {
+   "id": "2beb4de142d4da1a",
+   "competitor": "AeHealth",
+   "source": "News",
+   "title": "No. 6 Virginia dominates Bucknell to remain unbeaten",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdEJ3clVGSEVXdktXVnpVeTRjUmU1OFFPSmxlcnNZZy1nTU01MVkzd3ZXZUhtbDI5aUViTl9uR1ZkQjBZWmtXNEU2VDAxZW8xQkwxLU5mR1Jpdkc2WHVoVG8tZzNiZmJrUFlpNGc2cDZYYi05UGY1TnZQZW5nMEJ6T1hIZDFkMzF4QkpXSW5ubTEweVFrcE5uNmYyazNhQQ?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "Big News Network.com",
+   "query": "\"Lamuno\"",
+   "first_seen": "2026-11-11T18:15:42+00:00",
+   "signal": []
+  },
+  {
+   "id": "f81b31bf21a81c07",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Releases Financial Results for the Third Quarter of 2026",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNekVtd1pxNlpfSzRfbVZ3NE5zSGpsNC1UUjV6X3lZdHRlc0gtckRrc0xSZ01INXloWml2bktuN0REOVA2Vmg1U21ZbS1Pa3hwd1psU18xOEZzdTlyX01SZHVEanBRc0FiSkk1dlVoc01pTndJbHZ6aUZZRnZDRjFwNFV0WlZXZUNSQ05BZUhQQlVRMlY1OWV2YnF0MzE0Y1Z0VVlweHNB?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-11T18:15:42+00:00",
+   "signal": []
+  },
+  {
+   "id": "958ffd049385c3d2",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Q3 2026 slides: revenue decline narrows as AD diagnostics ramp",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0hKeEtxRFprQldkZHhNNHVXMFphQlUybG1OODNEdC1KTWFEWE4tRENqdUkwQVlMejQtU2hOWGRBTWozMmxaQzBNNnF5QTI0Nk82Y2tDNldUUmFZQWowREo0cTFpdnNxVW5iVGp3bmh2cFJLNnoxVVVNVUxRaVF5aGE0aEt5Smxnb1pYQ0Z6VTh0V1RJeDRVUEVVaEZmQnNibHNWaWdlalllRk5Hd2p4UHFiMTZncTZBREtvUFVJU1lxZzNTTndv?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "Investing.com",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-11T18:15:42+00:00",
+   "signal": []
+  },
+  {
+   "id": "9f12c013f1efb872",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Growth in the Traumatic Brain Injuries Assessment",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTEVJWVVfRDczYUtqRERpdGR3UzVkWHdPLXk1WXZLQ3l6MnRHdVlKTlFhQ1RVUnQtYU9PdFdPaUM1b05qM01hdFJMcDNCRUMxbVN1bkxQUFBYbm5BQTFlUnN6bG1NTWxCazBjVm9wT0NncmVtbEE5Unk1UUU1NlNPSWtCeUpqT2FRQUdZLTdn?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "openPR.com",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-11-10T21:11:21+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}

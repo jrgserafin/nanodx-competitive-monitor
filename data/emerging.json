@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-11T02:33:05+00:00",
+ "checked": "2026-11-11T18:18:55+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -314,6 +314,19 @@
  ],
  "news": [
   {
+   "id": "2463016ce923218f",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Watson to start for Browns against Texans after sitting out with concussion, watching Sanders",
+   "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNcVVGdjJEVHRQSklvOWk5Z3ZDQkZ6eWN6Y08xMUh3N1g1MjJUdzJpTTFWY0JMaldqNzNqd0RNWVZoSlZWR0dTbkN3X1BxZXdTWlNaVnlOOGJWZkhCZFN0bmRJYjhVamNlWmliZWpvWktiYWRLQ0U5ZlpMN3Rrb1NWa1d5TmQzeTR2NjNiZnlxRk5GUVk3TUc4cGZTY3pJQXBaV0tBNDRtczJhQTlnVDVUYklrYTM3NVNIZkJlR1dIREQtcHNJR2dnWUtrekRUWE1iWEl3VW1lRy1DcTl5TWU2NnM2Q3NJUGV0akVKcnNrRFdkVF9pLUdIck9vYnBTRmpPWHhwYjRFdVF2RWowbDRpOE1HazVpcWp5cm5lT1o1dk1Bdw?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "Times Argus",
+   "query": "concussion blood test startup",
+   "tbi": true,
+   "first_seen": "2026-11-11T18:18:55+00:00"
+  },
+  {
    "id": "6fabcb67bd32de49",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -364,6 +377,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-11-11T02:33:05+00:00"
+  },
+  {
+   "id": "9e24fbb8c0805494",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "OraSure Technologies Q3 Earnings Call Highlights",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNE5QZzdVVnlScHItRkhMUVFFYWM5N19CQTNBX2ZmcXVwcE1EekRQa1MxWV9aNGRuUWc5dDJoRWE2TWZ4elBoSGdOR1o2dkpfUUlmaVBXdWI4RHNOWHRnUS1vNVhheTMxSlExTzJjbTZIUl83MmNXd3lKczlRSXhGbFdzQzVyY1dieGpUNTB3bElwdG9QOEF6MEVrMmNlV0I0aElRdEFtbzJTOE9a?oc=5",
+   "date": "2026-11-10",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-11T18:18:55+00:00"
   },
   {
    "id": "6087b74c66320306",

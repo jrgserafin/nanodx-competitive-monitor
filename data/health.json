@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-11T02:30:39+00:00",
+ "checked": "2026-11-11T18:15:42+00:00",
  "sources": [
   {
    "entity": "Abbott",
@@ -27,14 +27,14 @@
    "source": "Page: https://abbott.mediaroom.com/press-releases",
    "ok": true,
    "count": 0,
-   "secs": 0.5
+   "secs": 0.3
   },
   {
    "entity": "Abbott",
    "source": "FDA: Abbott",
    "ok": true,
    "count": 118,
-   "secs": 0.9
+   "secs": 1.5
   },
   {
    "entity": "Abbott",
@@ -73,7 +73,7 @@
    "source": "Federal awards: Abbott Laboratories",
    "ok": true,
    "count": 15,
-   "secs": 6.7
+   "secs": 6.0
   },
   {
    "entity": "bioMérieux",
@@ -94,21 +94,21 @@
    "source": "Homepage: https://www.biomerieux.com",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.5
   },
   {
    "entity": "bioMérieux",
    "source": "FDA: bioMerieux",
-   "ok": true,
-   "count": 4,
-   "secs": 0.4
+   "ok": false,
+   "error": "500 Server Error: Internal Server Error for url: https://api.fda.gov/device/510k.json?search=applicant:%22bioMerieux%22+AND+decision_date:%5B20251111+TO+20261111%5D&sort=decision_date:desc&limit=100",
+   "secs": 5.0
   },
   {
    "entity": "bioMérieux",
    "source": "Trials: bioMérieux",
    "ok": true,
    "count": 3,
-   "secs": 0.0
+   "secs": 0.1
   },
   {
    "entity": "bioMérieux",
@@ -138,14 +138,14 @@
    "source": "Homepage: https://www.brainscope.com",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.6
   },
   {
    "entity": "BrainScope",
    "source": "FDA: BrainScope",
-   "ok": true,
-   "count": 0,
-   "secs": 0.8
+   "ok": false,
+   "error": "500 Server Error: Internal Server Error for url: https://api.fda.gov/device/510k.json?search=applicant:%22BrainScope%22+AND+decision_date:%5B20251111+TO+20261111%5D&sort=decision_date:desc&limit=100",
+   "secs": 3.2
   },
   {
    "entity": "BrainScope",
@@ -175,7 +175,7 @@
    "source": "Federal awards: BrainScope",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.5
   },
   {
    "entity": "InfraScan",
@@ -196,14 +196,14 @@
    "source": "Homepage: https://infrascanner.com",
    "ok": true,
    "count": 0,
-   "secs": 1.3
+   "secs": 2.3
   },
   {
    "entity": "InfraScan",
    "source": "FDA: InfraScan",
-   "ok": true,
-   "count": 0,
-   "secs": 0.3
+   "ok": false,
+   "error": "500 Server Error: Internal Server Error for url: https://api.fda.gov/device/510k.json?search=applicant:%22InfraScan%22+AND+decision_date:%5B20251111+TO+20261111%5D&sort=decision_date:desc&limit=100",
+   "secs": 3.2
   },
   {
    "entity": "InfraScan",
@@ -226,13 +226,13 @@
    "source": "Federal awards: InfraScan",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.5
   },
   {
    "entity": "BrainBox Solutions",
    "source": "News: \"BrainBox Solutions\"",
    "ok": true,
-   "count": 3,
+   "count": 1,
    "secs": 0.2
   },
   {
@@ -245,9 +245,9 @@
   {
    "entity": "BrainBox Solutions",
    "source": "FDA: BrainBox",
-   "ok": true,
-   "count": 0,
-   "secs": 0.3
+   "ok": false,
+   "error": "500 Server Error: Internal Server Error for url: https://api.fda.gov/device/510k.json?search=applicant:%22BrainBox%22+AND+decision_date:%5B20251111+TO+20261111%5D&sort=decision_date:desc&limit=100",
+   "secs": 3.2
   },
   {
    "entity": "BrainBox Solutions",
@@ -296,9 +296,9 @@
   {
    "entity": "EzDiatech",
    "source": "FDA: EzDiatech",
-   "ok": true,
-   "count": 0,
-   "secs": 0.5
+   "ok": false,
+   "error": "500 Server Error: Internal Server Error for url: https://api.fda.gov/device/510k.json?search=applicant:%22EzDiatech%22+AND+decision_date:%5B20251111+TO+20261111%5D&sort=decision_date:desc&limit=100",
+   "secs": 3.2
   },
   {
    "entity": "EzDiatech",
@@ -381,14 +381,14 @@
    "source": "Federal awards: Glia Diagnostics",
    "ok": true,
    "count": 0,
-   "secs": 2.1
+   "secs": 0.4
   },
   {
    "entity": "Quanterix",
    "source": "News: \"Quanterix\"",
    "ok": true,
    "count": 15,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "Quanterix",
@@ -402,9 +402,9 @@
   {
    "entity": "Quanterix",
    "source": "FDA: Quanterix",
-   "ok": true,
-   "count": 0,
-   "secs": 0.3
+   "ok": false,
+   "error": "500 Server Error: Internal Server Error for url: https://api.fda.gov/device/510k.json?search=applicant:%22Quanterix%22+AND+decision_date:%5B20251111+TO+20261111%5D&sort=decision_date:desc&limit=100",
+   "secs": 3.2
   },
   {
    "entity": "Quanterix",
@@ -457,14 +457,14 @@
    "source": "Homepage: https://www.genalyte.com",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "entity": "Genalyte",
    "source": "FDA: Genalyte",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 17.4
   },
   {
    "entity": "Genalyte",
@@ -501,14 +501,14 @@
    "source": "Homepage: https://oculogica.com",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.8
   },
   {
    "entity": "Oculogica",
    "source": "FDA: Oculogica",
    "ok": true,
    "count": 1,
-   "secs": 0.3
+   "secs": 4.8
   },
   {
    "entity": "Oculogica",
@@ -545,7 +545,7 @@
    "source": "News: \"Sense Neuro Diagnostics\"",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Sense Neuro Diagnostics",
@@ -559,7 +559,7 @@
    "source": "FDA: Sense Neuro",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 1.3
   },
   {
    "entity": "Sense Neuro Diagnostics",
@@ -575,7 +575,7 @@
    "source": "Federal awards: Sense Neuro",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.5
   },
   {
    "entity": "Medicortex",
@@ -596,7 +596,7 @@
    "source": "Homepage: https://www.medicortex.fi",
    "ok": true,
    "count": 0,
-   "secs": 4.1
+   "secs": 4.5
   },
   {
    "entity": "Medicortex",
@@ -640,14 +640,14 @@
    "source": "Homepage: https://diagnostics.roche.com",
    "ok": true,
    "count": 0,
-   "secs": 0.5
+   "secs": 0.3
   },
   {
    "entity": "Roche",
    "source": "FDA: Roche",
    "ok": true,
    "count": 52,
-   "secs": 0.3
+   "secs": 3.8
   },
   {
    "entity": "Roche",
@@ -661,7 +661,7 @@
    "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Roche",
@@ -698,7 +698,7 @@
    "source": "FDA: Wondfo",
    "ok": true,
    "count": 2,
-   "secs": 0.3
+   "secs": 1.3
   },
   {
    "entity": "Wondfo",
@@ -728,7 +728,7 @@
    "source": "FDA: ACON",
    "ok": true,
    "count": 2,
-   "secs": 0.3
+   "secs": 0.4
   },
   {
    "entity": "ACON",
@@ -751,7 +751,7 @@
    "source": "FDA: Hotgen",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.4
   },
   {
    "entity": "Hotgen",
@@ -767,21 +767,21 @@
    "source": "News: \"QuidelOrtho\"",
    "ok": true,
    "count": 15,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "QuidelOrtho",
    "source": "Homepage: https://www.quidelortho.com",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "entity": "QuidelOrtho",
    "source": "FDA: Quidel",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.3
   },
   {
    "entity": "QuidelOrtho",
@@ -813,7 +813,7 @@
    "source": "News: \"Boditech\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
    "ok": true,
    "count": 4,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Boditech Med",
@@ -829,7 +829,7 @@
    "source": "FDA: Boditech",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.4
   },
   {
    "entity": "Boditech Med",
@@ -867,7 +867,7 @@
    "entity": "TBI diagnostics market",
    "source": "News: \"traumatic brain injury\" blood test",
    "ok": true,
-   "count": 13,
+   "count": 11,
    "secs": 0.3
   },
   {
@@ -882,21 +882,21 @@
    "source": "PubMed: (\"traumatic brain injury\" OR concussion) AND (GFAP OR \"UCH-L1\") AND \"point-of-care\"",
    "ok": true,
    "count": 1,
-   "secs": 0.5
+   "secs": 0.6
   },
   {
    "entity": "TBI diagnostics market",
    "source": "Federal Register: traumatic brain injury",
    "ok": true,
    "count": 15,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "entity": "Lab reimbursement (CMS)",
    "source": "News: CMS \"clinical laboratory fee schedule\"",
    "ok": true,
-   "count": 6,
-   "secs": 0.2
+   "count": 4,
+   "secs": 0.3
   },
   {
    "entity": "Lab reimbursement (CMS)",
@@ -930,15 +930,15 @@
    "entity": "Point-of-care & capillary sampling",
    "source": "PubMed: (capillary OR fingerstick OR \"finger-stick\" OR \"whole blood\" OR \"point-of-care\" OR biosensor) AND (GFAP OR S100B OR \"UCH-L1\" OR \"brain injury\" OR concussion)",
    "ok": true,
-   "count": 15,
-   "secs": 0.6
+   "count": 14,
+   "secs": 0.7
   },
   {
    "entity": "Point-of-care & capillary sampling",
    "source": "NIH RePORTER: (\"point-of-care\" OR biosensor OR fingerstick) AND (\"traumatic brain injury\" OR concussion)",
    "ok": true,
    "count": 15,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "TBI epidemiology & ED burden",
@@ -1015,14 +1015,14 @@
    "source": "News: (GFAP OR \"UCH-L1\" OR S100B) test (Europe OR \"CE mark\" OR NMPA OR Japan OR Korea) brain injury",
    "ok": true,
    "count": 2,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "Emerging (POC)",
    "source": "FDA 510(k) point-of-care scan",
    "ok": true,
    "count": 15,
-   "secs": 3.7
+   "secs": 4.0
   },
   {
    "entity": "Emerging (POC)",
@@ -1035,8 +1035,8 @@
    "entity": "Emerging (POC)",
    "source": "Google News point-of-care radar",
    "ok": true,
-   "count": 29,
-   "secs": 4.5
+   "count": 26,
+   "secs": 4.6
   }
  ]
 }
