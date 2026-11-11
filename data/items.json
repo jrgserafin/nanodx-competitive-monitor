@@ -11,6 +11,22 @@
   "signal": []
  },
  {
+  "id": "0d312f0d9b1081e6",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "Digital Health and AI: Key Regulatory, Reimbursement and Policy Developments",
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRGpmWmlpNE9vYW1wX0VJUmFYWFpXb195UndHeUMyOUp0N3ZiM2JoNHl5ampPbk1adlNCTkVYX0tlVTNQYW9pTWFxQUdGTkxsT01uU0FKdHFWV1BlOHdTN1JOYUdkZS12WHRJN3FNQUpueWJUOE5ERUYwNDA5d25aWmZKMVVTdw?oc=5",
+  "date": "2026-11-10",
+  "snippet": "",
+  "publisher": "JD Supra",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-11-11T02:30:39+00:00",
+  "signal": [
+   "reimbursement"
+  ],
+  "alert": true
+ },
+ {
   "id": "22847dbede52107d",
   "competitor": "Quanterix",
   "source": "News",
@@ -802,6 +818,19 @@
   "publisher": "News-Medical",
   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
   "first_seen": "2026-11-04T11:44:52+00:00",
+  "signal": []
+ },
+ {
+  "id": "a700a72d0e8e120d",
+  "competitor": "AeHealth",
+  "source": "News",
+  "title": "Men’s Basketball Drops Season Debut at Maryland",
+  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTl9xN2x3MEwtSXdlbU5oN291MmVaMk9LbEg4LW95emZxOGFpcFc0dlF4cXhCMkxQZVVENkl0T2tFeTQxdzl6QVdTWWRPNnVtS1E5U3J2X2UyRG1RSnRnOWc3SElGdjAybGdnMDd1NkhaNzEzTnN2bUhsLU5QWFBXNmpwSjU4RXV0SFVxbVlBNmt5N2pZTUtxenY4LXFPNXMwNVNtSThR?oc=5",
+  "date": "2026-11-03",
+  "snippet": "",
+  "publisher": "Bucknell University Athletics",
+  "query": "\"Lamuno\"",
+  "first_seen": "2026-11-11T02:30:39+00:00",
   "signal": []
  },
  {

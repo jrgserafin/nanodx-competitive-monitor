@@ -1,32 +1,7 @@
 {
  "version": 2,
- "checked": "2026-11-10T21:13:44+00:00",
+ "checked": "2026-11-11T02:33:05+00:00",
  "companies": [
-  {
-   "key": "rebiscan",
-   "name": "Rebiscan",
-   "first_seen": "2026-10-08",
-   "signals": [
-    {
-     "type": "Clinical trial",
-     "title": "HITT for the Identification of Mild Traumatic Brain Injury",
-     "url": "https://clinicaltrials.gov/study/NCT05092282",
-     "date": "2026-08-12",
-     "detail": "NCT05092282 · Completed"
-    },
-    {
-     "type": "Clinical trial",
-     "title": "Head and Intraocular Trauma Tool for the Identification of Mild Traumatic Brain Injury",
-     "url": "https://clinicaltrials.gov/study/NCT05092295",
-     "date": "2026-08-12",
-     "detail": "NCT05092295 · Active Not Recruiting"
-    }
-   ],
-   "last_seen": "2026-10-08",
-   "tbi": true,
-   "score": 13,
-   "latest": "2026-08-12"
-  },
   {
    "key": "karl storz se co kg",
    "name": "Karl Storz SE & CO. KG",
@@ -62,6 +37,31 @@
    "tbi": true,
    "score": 11,
    "latest": "2026-09-24"
+  },
+  {
+   "key": "rebiscan",
+   "name": "Rebiscan",
+   "first_seen": "2026-10-08",
+   "signals": [
+    {
+     "type": "Clinical trial",
+     "title": "HITT for the Identification of Mild Traumatic Brain Injury",
+     "url": "https://clinicaltrials.gov/study/NCT05092282",
+     "date": "2026-08-12",
+     "detail": "NCT05092282 · Completed"
+    },
+    {
+     "type": "Clinical trial",
+     "title": "Head and Intraocular Trauma Tool for the Identification of Mild Traumatic Brain Injury",
+     "url": "https://clinicaltrials.gov/study/NCT05092295",
+     "date": "2026-08-12",
+     "detail": "NCT05092295 · Active Not Recruiting"
+    }
+   ],
+   "last_seen": "2026-10-08",
+   "tbi": true,
+   "score": 11,
+   "latest": "2026-08-12"
   },
   {
    "key": "ceribell",
@@ -351,6 +351,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-11-10T21:13:44+00:00"
+  },
+  {
+   "id": "db338f49ee2742bc",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Impact of Theranos Still Haunts Diagnostics Companies, Say Leaders At Babson And Truvian",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQc09odG5nanRPYkFXRENPVGp5eWhhZjBzU1dlSjVIb3pWTktoN0hRZi1UMElRWGJHUzd3U1BENnJLWWlBV1BWOVRIek5URXM3cGhpTW1FOUdaWFIweXpyS3M0Y0Q2RGdkcU5PVXRfcGFETl9oclduUjJ2bTJ1cnMtZ0htWkx4RDVqLWZRaVdldW45Tnc5YnExNXdJWk5pYm1CSFRkdUVBbkY4U2RIV1RVMHA0V29BYnhZUEZTcjNabDA4eHRWV3psSnhtUUVHSkJxZmktR2EyQThsSTZMS29hZnFjUXFoUEtXVUZxS3VBWFhHb21OTjBvRG1uRTlLazBoSWc?oc=5",
+   "date": "2026-11-10",
+   "snippet": "",
+   "publisher": "insights.citeline.com",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-11T02:33:05+00:00"
   },
   {
    "id": "6087b74c66320306",
