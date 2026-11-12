@@ -1,0 +1,78 @@
+{
+ "date": "2026-11-12",
+ "generated": "2026-11-12T18:42:07+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "2877d9782114f3c4",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "LigoLab Examines Potential 2027 Medicare Laboratory Reimbursement Cuts and Their Implications for U.S. Laboratories",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZlFod0o5Qkd0d3dRVGRqM3R4TUFYSEhKLVdGd05GTDlLYTczZDVwc2dEbXRHcmxhYU9HZW82OW1pbTJmQkVhNV91RE9Cb2dlZG84cWxWcVFqcEphZU5TWW9OeGJBUWx6TTJBZzVEbDlEcFpSenBCQlEzUzFqUE5yd2FKLXhlRnRFa1JnS1BDb3QzZGY4RVkzaVVTdnViMm5hSUUwVTdaV0hiMUwwT3lxamtmdGxXMlQ5bnNXZFFWOV9Ea0Z0S0ZiZTJkd0RfcFk4R2ZOUFM0ZTNkaUc0Q20xd05KWmFCMjltX25xaFFwMUNFMlRUMi1QcllIT2o4bl83WmRMQw?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "StreetInsider",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-11-12T18:39:34+00:00",
+   "signal": [
+    "reimbursement"
+   ],
+   "alert": true
+  },
+  {
+   "id": "7d735e1725c7b60a",
+   "competitor": "AeHealth",
+   "source": "News",
+   "title": "Virginia 95-61 Bucknell (11 Nov, 2026) Final Score",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE12dVE5aDBuU0o4LXl5N19odlFMMzZwbEFhY2g0d20wR0FHbVlZQ2Y5X2xocV9ERlZpbk80OTNwOFdZOTBqSFJOTGc1QktaeGVFTTFxUERLVWlkWkFMa2dMVUZWY1hoWmYtczJKbXhNV0xYeUhZSHNaMmdB?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "ESPN",
+   "query": "\"Lamuno\"",
+   "first_seen": "2026-11-12T03:35:26+00:00",
+   "signal": []
+  },
+  {
+   "id": "c043bb5b9c5aafa4",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Corporation Narrows Earnings Guidance for the Year 2026",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNUs0SmF4X1NzQ3ZnNmNVR2UzS1hWRHVIZDNvSFB3SWFwQ3ctR2VFakdNVUxwcDF2LVZMUGZQQm9MWlRNSHNvdDRDV21UOFc4Zjc2a096YkRIQjV3SGxtN1QtVlR3bjdDWWtOWThnVFctYmdMcjU5WVBFYzZpSVFNMVZtX3V4cE9vaThiV2pUUjRVT05GWFU3NXZLdmlSaFBYSVpUZXV4Z3c1TW1tSVZCN296RjgwZl9HcEE?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "www.marketscreener.com",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-11T21:43:00+00:00",
+   "signal": []
+  },
+  {
+   "id": "46bb2974c374d643",
+   "competitor": "TBI biomarker evidence",
+   "source": "News",
+   "title": "Biomarkers in Patients With Acute Ischaemic Stroke Undergoing Thrombectomy Compared With Controls: A Pilot Study",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa3BNenJ0Mi03UXNhREw2OExfUi03Ml9kNkxwYm5jOFppbEYxV0tVTnY5YTN6X0lzQng5WTZURGlnNnd4VHJMamxiVkZzcEZlQzB6MjdQZ212UzFUa3hkMlJ5Mk83anJ1cWVBdTNWQ3pqOEVJOTNyTUhsRWl4Q2d6SGFJU291aUdrdXJFQW5XNlZNWG9uakI0VGFRMnBYdExtMC1EQUk5bkJ5eTNucFFpUDhvRFpPaVQ4TzJPN2h3?oc=5",
+   "date": "2026-11-08",
+   "snippet": "",
+   "publisher": "UK DRI",
+   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+   "first_seen": "2026-11-12T18:39:34+00:00",
+   "signal": []
+  },
+  {
+   "id": "a26261a8e4d14288",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "For veterans with mild traumatic brain injury, a restaurant or other noisy environment can feel like a battlefield",
+   "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOWnozZDZWMTdQOFVSZnNlYzc3eFM4UmZYT0NldE1FT2xrUHlJeXY4bnotcHVldWlkUlRxWkpWbGwtZzBxQnlUV0ZFel9QN0wwNlJvdnA4dC0tMUJ2UXEySEN1anUtbFM5dDdxNWc3QXREVWxkdjllMGVzeEFJYkUxSHc1NWhZemtvMXhFMFZ4SDNQYmhKaGM2bzZTZHZjTUpQUHIwUS0tRTFYQzFEQmJxZ0NWeURqRF9qNS1iSXl6WDZ2SmFqdk9LUVowakxWOHRQMXZlUnhjN0lKX2YtY1Q1ZnJwR0FsSXE2WEVOckVPOWowaTdkQjc2SzBxRlZjaHdadEhYeDJ1NWxpeVI4WGpTUE9VV0p3c2JZZXpr?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "WFMZ.com",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-11-12T03:35:26+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}

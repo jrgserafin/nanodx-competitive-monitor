@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-12T03:37:53+00:00",
+ "checked": "2026-11-12T18:42:06+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -314,6 +314,97 @@
  ],
  "news": [
   {
+   "id": "818ebef8b9376ae8",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Cobas Liat: Point-of-Care PCR System Guide",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0wVlZEUmh4dEo3bHZheGdQbno3YU1JWG5COG5zQjdULVpJZnF5WmZGYV9pN1NWTTExOWw3QWkwS1daZ1lrdnJwTktFdGI?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "CASRAI",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-12T18:42:06+00:00"
+  },
+  {
+   "id": "64421051b6290121",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Lausanne Olympic Capital Region: A Hub for Concussion Expertise",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeWdKLUNpVUEyTU40SlE1Q1RoOHVTRG9kc0ZSZGprUXFVOGgxZS05dlNDSFhqdGNUY1JWYjJFaEpPelZFR2tmcGNPOXl4Y2M1MktVMDJOUF9BSGJqbDRvTkthcldFSU8yNlNxUWpBOHFmaTgtVm5VcGlXY2VFVkx0S1NLaw?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "EPFL",
+   "query": "\"traumatic brain injury\" diagnostic startup",
+   "tbi": true,
+   "first_seen": "2026-11-12T18:42:06+00:00"
+  },
+  {
+   "id": "48021016cd2a898a",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Toyota Mobility Foundation and MaRS select participants for Mobility Unlimited Hub Toronto's third cohort",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPM0hvendJYVNwRUVsSklRSkc4c2VRN0VVYnVWanJ1SGlYLVJoSzZZeGNYWWlCWGdGWVc3Yy1IbU1mbnk2V0Jlc25qd1lSZE1UNDd6MDZsNGpfOGhyeGJnNmsxbWpjSm9wYTJaQ1JFekRaN09pd045NmE1VUpiQVFDa3FPQUpvTXdMeF9rS08tVjhVR19FOTUzc3dCWGxBQ3VJdl83TnVYd3FUdFFrNjZldmhrSGdrUlU4blVfejJxXzFEdVlrNTlqZWhsWjBmcGxpUEJiMUZZUXBFSnhfbmVxcVM5SnhqNnpYd0g4MzltVQ?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "PR Newswire Canada",
+   "query": "\"traumatic brain injury\" diagnostic startup",
+   "tbi": false,
+   "first_seen": "2026-11-12T18:42:06+00:00"
+  },
+  {
+   "id": "65c7a66b61332fd2",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Toyota Mobility Foundation and MaRS select participants for Mobility Unlimited Hub Toronto’s next cohort",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQX0EyY2xlWHZ5X2pvOEtDSnAtbWR3V3IzWVdfaFhJQnJucm9XRFdleFZXbDNRaW8xTTV1VkJhcHN5bUV1aVBsbHZ2empqQUN5Uk1ueDNzYW8xSXJReUFfVnhPN0NKaUNjMTJqVDk2VmQ4WXlEM2tITG93TU9ud19KRWpmMm5vMi1qM25nUFNCZ29jeFlYeUk2ZWY4MzVoZkdCcmlLYURndHZmekdtbDVDX3BCXy0tTHl0V3EtcEcteWVOb0N5RzcwT0R0R3VmcjFzLVAweVFsWEFXcjhFVHhCVFhqZ3FxWktVSVozOWQ0RUpEM05RUkE?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "Canadian Manufacturing",
+   "query": "\"traumatic brain injury\" diagnostic startup",
+   "tbi": false,
+   "first_seen": "2026-11-12T18:42:06+00:00"
+  },
+  {
+   "id": "a3bd32f643893241",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Nanopath raises $25M to advance 15-minute vaginitis test",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcnpWRTBRbjdzY1NLZ1JVWGdGTXN3V3I0N293NlhrYXdZZnExRF9EeEJtaktnc0xPc3N6bWIwN3lIUU9wa2tnYVExY1dsZElDcXcxQWJySUdnczZhcUJjdzVnYTQ4YmhtdFlaMnlqVXE5N3Q3MjIzZmc2dWdDb1Nfc2pBcEE1SFpnelBKaXZaWjRGUQ?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "MobiHealthNews",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-12T18:42:06+00:00"
+  },
+  {
+   "id": "adb8aa559dba6720",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Skribe Medical Raises $1.65M in Pre-Seed Funding",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSElzaGRfand6MjhzR3lMQkoyRk0tbkp4S2ZsN1o4RWc5REJaNmJtMktOSWRXeFZHZGw4eDgwb0tkYmROVnhaU1pUNHhZckNTX3Jfc2o0MGlJRU9QS3oxSGZSdTVtX3kxVkFsRGRmLU0zREtaRWtsOGlkRFIxQV9NazZackZteGxJak5sTQ?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "FinSMEs",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-12T18:42:06+00:00"
+  },
+  {
+   "id": "185cca0ac7380ec0",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Review Evaluates Nanomaterial Classes Shaping Advanced Electrochemical and Optical Biosensors",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmxESnJwcHktZjdQeDE3UEhXSXFzclhNNlZFVzBiUEc4bW1yOXAySHRETzduT1RsNGpyeWtTdkczUXZlNUdBbl9RQU80RXY1cHdiMUlkeG5CYXlUZmVSZlJGMUozQWludHhnUExfMlV1X3h3Q1dNSHl2Tk9IWjlIZzV1RnNhdnUyaktTckNOSjBBQldzYl9oRmNaaExSV1d0UUlDV3R4NDlLZ0hPc3A2LUduMVpQWnpMaWc?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-12T18:42:06+00:00"
+  },
+  {
    "id": "2463016ce923218f",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -403,6 +494,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-11-11T18:18:55+00:00"
+  },
+  {
+   "id": "ee10cca30e9d77c7",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "TETmedical Appoints Dr. Hooman Kamel and Dr. Evan Gerber as Medical Advisors",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdWFwT3N1RUltY0tkMHNod1UwQ2VoYnZKNnJScVplREhjcmtVLThESUIxaFZ0c3ctdEE1M19jY21ibklBRzktbF92UmllTTlFRTFpUmNsWTdlRGp0QmhMdkZuV3FCWHRYYjhJTXY0cGZsUjdxVVk0RFNyblFXdnpYNE1LU3R0SWtVZ0xPdWR5dTROaEQyU0swR3pTTEU?oc=5",
+   "date": "2026-11-10",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"rapid test\" \"brain injury\"",
+   "tbi": false,
+   "first_seen": "2026-11-12T18:42:06+00:00"
   },
   {
    "id": "6087b74c66320306",

@@ -11,6 +11,22 @@
   "signal": []
  },
  {
+  "id": "2877d9782114f3c4",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "LigoLab Examines Potential 2027 Medicare Laboratory Reimbursement Cuts and Their Implications for U.S. Laboratories",
+  "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZlFod0o5Qkd0d3dRVGRqM3R4TUFYSEhKLVdGd05GTDlLYTczZDVwc2dEbXRHcmxhYU9HZW82OW1pbTJmQkVhNV91RE9Cb2dlZG84cWxWcVFqcEphZU5TWW9OeGJBUWx6TTJBZzVEbDlEcFpSenBCQlEzUzFqUE5yd2FKLXhlRnRFa1JnS1BDb3QzZGY4RVkzaVVTdnViMm5hSUUwVTdaV0hiMUwwT3lxamtmdGxXMlQ5bnNXZFFWOV9Ea0Z0S0ZiZTJkd0RfcFk4R2ZOUFM0ZTNkaUc0Q20xd05KWmFCMjltX25xaFFwMUNFMlRUMi1QcllIT2o4bl83WmRMQw?oc=5",
+  "date": "2026-11-12",
+  "snippet": "",
+  "publisher": "StreetInsider",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-11-12T18:39:34+00:00",
+  "signal": [
+   "reimbursement"
+  ],
+  "alert": true
+ },
+ {
   "id": "7d735e1725c7b60a",
   "competitor": "AeHealth",
   "source": "News",
@@ -480,6 +496,19 @@
   "publisher": "TipRanks",
   "query": "\"Boditech\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
   "first_seen": "2026-11-09T11:43:53+00:00",
+  "signal": []
+ },
+ {
+  "id": "46bb2974c374d643",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "Biomarkers in Patients With Acute Ischaemic Stroke Undergoing Thrombectomy Compared With Controls: A Pilot Study",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa3BNenJ0Mi03UXNhREw2OExfUi03Ml9kNkxwYm5jOFppbEYxV0tVTnY5YTN6X0lzQng5WTZURGlnNnd4VHJMamxiVkZzcEZlQzB6MjdQZ212UzFUa3hkMlJ5Mk83anJ1cWVBdTNWQ3pqOEVJOTNyTUhsRWl4Q2d6SGFJU291aUdrdXJFQW5XNlZNWG9uakI0VGFRMnBYdExtMC1EQUk5bkJ5eTNucFFpUDhvRFpPaVQ4TzJPN2h3?oc=5",
+  "date": "2026-11-08",
+  "snippet": "",
+  "publisher": "UK DRI",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-11-12T18:39:34+00:00",
   "signal": []
  },
  {
