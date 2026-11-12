@@ -11,6 +11,19 @@
   "signal": []
  },
  {
+  "id": "4832d318317f873f",
+  "competitor": "BrainScope",
+  "source": "News",
+  "title": "AI Champion: Laurie Silver",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaXZsNjJOUWxOcE9nblZWYzAtSVBZd1JfVWR6VHJ1NmlwVFpHcWFiMC1UeXlMdlh5dEU2TTUxcUJ0dmdhcUEwLVhGXzN4QnBjYWNVcEtIZXRVSGd3MkUyZFlpVkRjNm9GazRvRmljMC1TeDBmc1d6MmN0anZ3ZHIwNHlmaFVYc0VhcENJMFNuZmpJdzJ3ZzhWamZzQ3U2SlFRck9CejVvazhCa1U?oc=5",
+  "date": "2026-11-12",
+  "snippet": "",
+  "publisher": "The Business Journals",
+  "query": "\"BrainScope\"",
+  "first_seen": "2026-11-12T21:42:37+00:00",
+  "signal": []
+ },
+ {
   "id": "2877d9782114f3c4",
   "competitor": "Lab reimbursement (CMS)",
   "source": "News",
@@ -25,6 +38,19 @@
    "reimbursement"
   ],
   "alert": true
+ },
+ {
+  "id": "64530b460686461a",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of QuidelOrtho Corporation - QDEL",
+  "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQVWhieVhRN0tHZTBIYlUtMlk4aTVIMWFKNG81cnpXcFp2Vm9WWEFPN004OXNnMVVBNVhncnJ6R0ZmV21DTHNHVl9PeXhhWVNNRUpyRXd0YlI3VEJVTlhlR3RaRS02aDFDbGM5Ym5uM1N6bFFRc01kNmU1QWxJVHotREhSeE84YjU2MmJsOWtDRlk0VWNXakdBbmxRc1JMWjFxR2RHRVpJcHFKRldlX2R5T2VxR1ZjUmZ4MUdVeDNyMU5EX3NTWkoyQlhkYWJydU01U2kySUJGT01Ob3E2bzBLcFVyMjJjUzhwUHEybWR4eWQyODBCaE1tN1Q1RnU1eV9RWnNsd0MxcWhGVmxzYkViaUVOb2w?oc=5",
+  "date": "2026-11-11",
+  "snippet": "",
+  "publisher": "Business Wire",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-12T21:42:37+00:00",
+  "signal": []
  },
  {
   "id": "7d735e1725c7b60a",

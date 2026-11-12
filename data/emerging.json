@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-12T18:42:06+00:00",
+ "checked": "2026-11-12T21:44:48+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -845,6 +845,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-11-10T18:26:27+00:00"
+  },
+  {
+   "id": "126f65f15f5fed20",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Henry Schein (HSIC) Q3 2026 Earnings Call Transcript",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xSHpHc0ZGQk1mbU4zWkpNQ1JOaHhCb1Z3YXVPQVg0NTlBd2xlRkh4STgzblAxXzZxeTh0djZlMTlZVFZLVXNSLWxEVUJOWXZNUG9KN0ZkWW9wQUlCYklCVjJhSDNfcXkxYUE?oc=5",
+   "date": "2026-11-03",
+   "snippet": "",
+   "publisher": "Fortune",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-12T21:44:48+00:00"
   },
   {
    "id": "5a798ce749f5679f",
