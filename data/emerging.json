@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-11T21:45:33+00:00",
+ "checked": "2026-11-12T03:37:53+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -325,6 +325,19 @@
    "query": "concussion blood test startup",
    "tbi": true,
    "first_seen": "2026-11-11T18:18:55+00:00"
+  },
+  {
+   "id": "5bb05045b415f3dd",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Watson starting for Browns at QB against Texans after sitting out with concussion, watching Sanders",
+   "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNYkZIRzBkWlR6ZWV0VTd4T3ExSHBXWGx4U0NxcG92Z2YzT08xbXdnTFRXaGtXUkw1SHJNTWpMX294bm4tN3JCaDRqSDlsaFZrYmhHQTZMTkVwZVFNbTY3WkdVSHBqOWUzd29wZGU5bkNOQk51Z21CdUxDRU9iVk1ZMGw4X3J5amd4T0hPeXpsY1E1VW9hS01iNWFwRXN5VUItd21IQTA4d3dqVnN4OVYwckpLc2dmNkJqX29WM2pYeG0yQlZ5YUFDaUoyTmpQRjJrc3BweUkxUlZmc1Byd1BXOVd3VjJ2bUMtbzd2T1pHY0Z3Z09nQU8yMXREaG9FWE9xTnppc0pMRkpnXzA3c2JoekNJSXJ5eXBkdjI2QWFMR2ZWUFBFTzJsUGVn?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "Times Argus",
+   "query": "concussion blood test startup",
+   "tbi": true,
+   "first_seen": "2026-11-12T03:37:53+00:00"
   },
   {
    "id": "6fabcb67bd32de49",
