@@ -1,0 +1,169 @@
+{
+ "date": "2026-11-13",
+ "generated": "2026-11-13T18:22:18+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "1182d1b290b890ef",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "CMS Rule on Reimbursement of Algorithm-Only Tests Raises Concerns, Uncertainty",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMHlxOGNKajFGa3loUFlhNktxMzJuZlB1QWZ5c0o2TmtyWm8zeXBlWjVOQUM2UWp5a1pvajZqaVUzV0tINXRham9PZGpKeHItRDc3eTBQVlo2R05NYm84Z2E0X1JBcVk2RHNJQl8yR2FKN1JORXNRY0F3bnlOTGdjdHplVlQ?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-11-13T03:07:41+00:00",
+   "signal": [
+    "reimbursement",
+    "raises"
+   ],
+   "alert": true
+  },
+  {
+   "id": "7528ffe7e403b5a3",
+   "competitor": "Sense Neuro Diagnostics",
+   "source": "News",
+   "title": "China's Brain-Computer Interface Sector Enters First Year of Clinical Application: World's First Approval Leads to 12 Commercial Implants, Shanghai's Huibao Reimburses Up to 30%",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEdDF0Q3NMSEE3OGhxWk9tNjBLaFlLcXdCRkRGYWc1Vkp2YWFiV3Z6RWx4TjN2b2FmQTczM1FYV0FteDZmR0xvcDNZeUxwX0FJblpIVVJwNEJxdDdvMEIzb0hra0V1dWh2M1h4cXhoeWpUQ2Fwb0E?oc=5",
+   "date": "2026-11-13",
+   "snippet": "",
+   "publisher": "BigGo Finance",
+   "query": "\"NeuroHawk\"",
+   "first_seen": "2026-11-13T18:19:13+00:00",
+   "signal": [
+    "approval"
+   ],
+   "alert": true
+  },
+  {
+   "id": "4832d318317f873f",
+   "competitor": "BrainScope",
+   "source": "News",
+   "title": "AI Champion: Laurie Silver",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaXZsNjJOUWxOcE9nblZWYzAtSVBZd1JfVWR6VHJ1NmlwVFpHcWFiMC1UeXlMdlh5dEU2TTUxcUJ0dmdhcUEwLVhGXzN4QnBjYWNVcEtIZXRVSGd3MkUyZFlpVkRjNm9GazRvRmljMC1TeDBmc1d6MmN0anZ3ZHIwNHlmaFVYc0VhcENJMFNuZmpJdzJ3ZzhWamZzQ3U2SlFRck9CejVvazhCa1U?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "The Business Journals",
+   "query": "\"BrainScope\"",
+   "first_seen": "2026-11-12T21:42:37+00:00",
+   "signal": []
+  },
+  {
+   "id": "13f60f735ed54240",
+   "competitor": "CT avoidance & health economics",
+   "source": "Publication",
+   "title": "Exploring the cost-effectiveness of blood biomarker tests to select patients with head injury and possible traumatic brain injury for CT brain scans in the UK setting.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43020487/",
+   "date": "2026-11-12",
+   "snippet": "BMJ open. Mon-Yee M, Thokala P, Lecky F et al.",
+   "first_seen": "2026-11-13T18:19:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "90e6c140a3046f46",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "CMS Releases Medicare 2027 Physician Fee Schedule Final Rule",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWnZkSUJDZ3FVQk5uYmo5TlpLVEo4UFZmbVhtYjh3cl9seEliQ2Y4ZGlaR2NuWXpxeFNvRXF3RVlIUU8wcDZaUGprZExTNzE2MzZ4QXJUak1OajFZUkpLZEJDc3g5Z013UjJkMFR1UFNUS09LLVNENDBHbWtXS1F0b01jbkdjamhCM2xFZkdMSGs5MkI4?oc=5",
+   "date": "2026-11-13",
+   "snippet": "",
+   "publisher": "Michigan Health & Hospital Association",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-11-13T18:19:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "2f051c63302b5c80",
+   "competitor": "Military TBI screening",
+   "source": "News",
+   "title": "Understanding the hidden wounds of military service",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEwydkNMbG1uamowZjJvQ2xTWjFLTGJucjFXU1ZsM2N4TUQxWTBjYlRhVUZ4RUxuZFd6R1VGRGs2dGt2Yzd4X3g3akRWZ3RPUGh5TDluX0otTWVxYkJVNXRLaVltY1dUZ2xvZ2xQR3pvRHBLSGZXTk1WeDdhMXg5SE42SXFNNFRCQzVPNmYxQ0g0ZFRsNzZkbA?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "the University of South Florida",
+   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+   "first_seen": "2026-11-13T03:07:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "a31a97fde62e36cc",
+   "competitor": "Military TBI screening",
+   "source": "News",
+   "title": "Study will test whether hyperbaric oxygen therapy can ease invisible brain injuries in veterans",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTG04UHdPbTVTNHRhNmM4TDJfYnNXbmdjRi1fZXVMY21mSlh5MTc4a3phNkNsWlRueXBzUGRzQ0hKWGVDbl9OYXpDQ0MtSjZoZlhTZW1GNTNSNktMWXcxVnFhd1ZaTEhTUEcxZk1WMTg2WThSMHVhZENjekltT1pZdjRaUm1ITGp3OWpLaDhwSmlFQUFBMWNj0gGXAUFVX3lxTFBMbThQd09tNVM0dGE2YzhMMl9ic1duZ2NGLV9ldUxjbWZKWHkxNzhremE2Q2xaVG55cHNQZHNDSEpYZUNuX05hekNDQy1KNmhmWFNlbUY1M1I2S0xZdzFWcWF3VlpMSFNQRzFmTVYxODZZOFIwdWFkQ2N6SW1PWll2NFpSbUhManc5aktoOHBKaUVBQUExY2M?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "Science X",
+   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+   "first_seen": "2026-11-13T18:19:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "0f303d462825f430",
+   "competitor": "Military TBI screening",
+   "source": "News",
+   "title": "The Military Medical Commission Recognized a Man with Severe Head Injury after a Car Accident and Optic Nerve Atrophy as Fit: He Appealed the Decision and Won the Case",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQQURjZjRLZU51SUQ0dEd0Y0wtRTVsOGlweWFhNUpsRkxfRjhDR0ZEcmJPSG9YS1NZVHNjS1BSd2ljSDgzSlduTUdydkU5VXZqVFFhZHRpZGkxY1BCd1JvQWZXTmV2eWJTR3p5Y2M5U0xSOEFYWUNKQ05tQTc0bW1YSzNHem42QjhHekFFeVFMbjJTM3BZUTJyN3RqVlE4SmFNb1F6c1VHYk9XNDVrS3BwbmtCNURsUmF0eVlULUU3amptMUl0ZE1KT09DQlpJU0ExOUVMMXhEaC11NENINnJuLTlwbHpLVi1RTFR1UERXRURWQ1R4UGV3TkttYVpia09Bbko4ZllSR2xCblg1NDNR?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "Судово-юридична газета",
+   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+   "first_seen": "2026-11-13T03:07:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "9785280481ad1c35",
+   "competitor": "Military TBI screening",
+   "source": "News",
+   "title": "Military Researchers Reveal Microbiome Links to Health, Surveillance, and Materials Degradation",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZzlRY3dvdXJNdXpwM2QyeDBtX3AtZ21la25pRTBxSkFUd2gxMWd0WHRrT25vd2RqdWpBeG1zU25yRUNLdDg1YVUyVGVVT3JMQnNRcW1KRXBadEZfdGlaQWt3Vm5abmVCbFAwTVp4NUE5bVp6S3FzVnh3LWY1MFpMeDZ2MnNWdy1UNVN4UE42bEFoRUJOeU9kRzlkSjlBWlBXb2c5U192UmtvNDF0dDZIR2J5RThqTDZfZHc?oc=5",
+   "date": "2026-11-13",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+   "first_seen": "2026-11-13T18:19:13+00:00",
+   "signal": []
+  },
+  {
+   "id": "5ef56229426e39f7",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into QuidelOrtho (QDEL)",
+   "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPbnA1dWdSNWU2Z0h5cUFuOFZRUjJKUGw0QzRKVFN2QU05YTdzdXZuTmFBTDBoM1l4a1dST2gxYlhERm5weUVTaGt2ZW9VUHg0NmFYZDM3NDNsVW5KbWUxU0ZNUzJxV3RLZ05WMl9BTVY3SVNYamtnMUpHZl84cUxveDNPMFBYamluLXBRYzlpR0lZZ2FTaDB4QjVkSE9iZnViaTc0cE0yTXhXN2JUeUE0OVBrMXVKUjJ5aGJBcEd6ZTQxNXM4VFNsMTVnM0JZRUFjTzJPcUFDa2UzRHIxUmlzVHZqNTZNamtlMXRUbkdpd3BBWVNGQW5LTE9FN0FtbG8?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "PR Newswire",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-13T03:07:41+00:00",
+   "signal": []
+  },
+  {
+   "id": "64530b460686461a",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of QuidelOrtho Corporation - QDEL",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQVWhieVhRN0tHZTBIYlUtMlk4aTVIMWFKNG81cnpXcFp2Vm9WWEFPN004OXNnMVVBNVhncnJ6R0ZmV21DTHNHVl9PeXhhWVNNRUpyRXd0YlI3VEJVTlhlR3RaRS02aDFDbGM5Ym5uM1N6bFFRc01kNmU1QWxJVHotREhSeE84YjU2MmJsOWtDRlk0VWNXakdBbmxRc1JMWjFxR2RHRVpJcHFKRldlX2R5T2VxR1ZjUmZ4MUdVeDNyMU5EX3NTWkoyQlhkYWJydU01U2kySUJGT01Ob3E2bzBLcFVyMjJjUzhwUHEybWR4eWQyODBCaE1tN1Q1RnU1eV9RWnNsd0MxcWhGVmxzYkViaUVOb2w?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "Business Wire",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-12T21:42:37+00:00",
+   "signal": []
+  },
+  {
+   "id": "fc784c967c93bff0",
+   "competitor": "Roche",
+   "source": "Clinical trial",
+   "title": "A Study to Develop a Blood-based Test for Aiding the Diagnosis/Prognosis of Traumatic Brain Injury in Adults and for Monitoring the Development of Secondary Events in Patients Diagnosed With Traumatic Brain Injury (Recruiting)",
+   "url": "https://clinicaltrials.gov/study/NCT07455136",
+   "date": "2026-11-13",
+   "snippet": "NCT07455136 · lead sponsor Hoffmann-La Roche · updated 2026-11-13",
+   "first_seen": "2026-11-13T18:19:13+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}

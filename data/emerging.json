@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-13T03:10:10+00:00",
+ "checked": "2026-11-13T18:22:17+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -314,6 +314,32 @@
  ],
  "news": [
   {
+   "id": "bedf86b352765614",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Nelson Advisors: This Week in European HealthTech, MedTech and Health AI: 13th November 2026",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS2k3TnNNbzdIQXN3dTFiT0NnNm8tYjhtckdPZ0haMmNPN2twWl8yTTNTaWdQemtDNlhaZW1fUnlWZU5xbVB1bmNHTzZhWnl0bDdWMnVmNVowdnVnRTdTTERQZ1gtU3Q3M0FyT0NkUmtBUzRCcS1KdzgtWU1fWnEtVjJHQ0JqUG1NNXlPZjFYYlZ5a2dLNFQ1NzNHLXlyZFh6al9saHF3Vy1SX0drUnpLSHRqb3NDdFdickFfUmVBaXJXbzZUWjZySDlHTnQ?oc=5",
+   "date": "2026-11-13",
+   "snippet": "",
+   "publisher": "https://www.healthcare.digital/",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-13T18:22:17+00:00"
+  },
+  {
+   "id": "66e8d523abbad00d",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Molecular Diagnostics Market Size, Share & Forecast 2033",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ISVVhTjJGUXBrOUJEaFpQZGlkZHFwVlU1MlRmSkpwTWFIbWdDZnk1c3BSaGg5LUxEbWViSjNoTzRVSGJ5RDVpMVdMc3lsRkJUMkpGN2VvaWlrVU11aVZiMFc1UHdvZ09RRnlLR1FrOE41cmJxakQxVldB?oc=5",
+   "date": "2026-11-13",
+   "snippet": "",
+   "publisher": "Kings Research",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-13T18:22:17+00:00"
+  },
+  {
    "id": "818ebef8b9376ae8",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -559,6 +585,19 @@
    "query": "concussion blood test startup",
    "tbi": true,
    "first_seen": "2026-11-10T18:26:27+00:00"
+  },
+  {
+   "id": "1aae7404de653813",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "27 Top Healthcare Startup Accelerators To Know In 2026",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWmlzVV9uckNManhnZ1dzU0NkTGg3YzdsUFlNNVZZZURJU0tMeTdGQ0FnZDNBb1BTWW9YTTdBR0o0ajhtX3p5Rk5RQ0dWUHZkOUJDZFJUZ1Rsc2haSE10b0ZkV2Jnamw0RS1jRFcwVkdKVHhNemFkWTdPRGotSnltNDVVYUlLcmEwMzZyTXFlUC1VcU1DQ0RpazEwcjN4dw?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "Forbes",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-13T18:22:17+00:00"
   },
   {
    "id": "c1e2a18fcfb9dff4",

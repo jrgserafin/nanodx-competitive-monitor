@@ -11,6 +11,70 @@
   "signal": []
  },
  {
+  "id": "7528ffe7e403b5a3",
+  "competitor": "Sense Neuro Diagnostics",
+  "source": "News",
+  "title": "China's Brain-Computer Interface Sector Enters First Year of Clinical Application: World's First Approval Leads to 12 Commercial Implants, Shanghai's Huibao Reimburses Up to 30%",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEdDF0Q3NMSEE3OGhxWk9tNjBLaFlLcXdCRkRGYWc1Vkp2YWFiV3Z6RWx4TjN2b2FmQTczM1FYV0FteDZmR0xvcDNZeUxwX0FJblpIVVJwNEJxdDdvMEIzb0hra0V1dWh2M1h4cXhoeWpUQ2Fwb0E?oc=5",
+  "date": "2026-11-13",
+  "snippet": "",
+  "publisher": "BigGo Finance",
+  "query": "\"NeuroHawk\"",
+  "first_seen": "2026-11-13T18:19:13+00:00",
+  "signal": [
+   "approval"
+  ],
+  "alert": true
+ },
+ {
+  "id": "fc784c967c93bff0",
+  "competitor": "Roche",
+  "source": "Clinical trial",
+  "title": "A Study to Develop a Blood-based Test for Aiding the Diagnosis/Prognosis of Traumatic Brain Injury in Adults and for Monitoring the Development of Secondary Events in Patients Diagnosed With Traumatic Brain Injury (Recruiting)",
+  "url": "https://clinicaltrials.gov/study/NCT07455136",
+  "date": "2026-11-13",
+  "snippet": "NCT07455136 · lead sponsor Hoffmann-La Roche · updated 2026-11-13",
+  "first_seen": "2026-11-13T18:19:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "90e6c140a3046f46",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "CMS Releases Medicare 2027 Physician Fee Schedule Final Rule",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWnZkSUJDZ3FVQk5uYmo5TlpLVEo4UFZmbVhtYjh3cl9seEliQ2Y4ZGlaR2NuWXpxeFNvRXF3RVlIUU8wcDZaUGprZExTNzE2MzZ4QXJUak1OajFZUkpLZEJDc3g5Z013UjJkMFR1UFNUS09LLVNENDBHbWtXS1F0b01jbkdjamhCM2xFZkdMSGs5MkI4?oc=5",
+  "date": "2026-11-13",
+  "snippet": "",
+  "publisher": "Michigan Health & Hospital Association",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-11-13T18:19:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "9785280481ad1c35",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Military Researchers Reveal Microbiome Links to Health, Surveillance, and Materials Degradation",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZzlRY3dvdXJNdXpwM2QyeDBtX3AtZ21la25pRTBxSkFUd2gxMWd0WHRrT25vd2RqdWpBeG1zU25yRUNLdDg1YVUyVGVVT3JMQnNRcW1KRXBadEZfdGlaQWt3Vm5abmVCbFAwTVp4NUE5bVp6S3FzVnh3LWY1MFpMeDZ2MnNWdy1UNVN4UE42bEFoRUJOeU9kRzlkSjlBWlBXb2c5U192UmtvNDF0dDZIR2J5RThqTDZfZHc?oc=5",
+  "date": "2026-11-13",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-13T18:19:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "13f60f735ed54240",
+  "competitor": "CT avoidance & health economics",
+  "source": "Publication",
+  "title": "Exploring the cost-effectiveness of blood biomarker tests to select patients with head injury and possible traumatic brain injury for CT brain scans in the UK setting.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43020487/",
+  "date": "2026-11-12",
+  "snippet": "BMJ open. Mon-Yee M, Thokala P, Lecky F et al.",
+  "first_seen": "2026-11-13T18:19:13+00:00",
+  "signal": []
+ },
+ {
   "id": "1182d1b290b890ef",
   "competitor": "Lab reimbursement (CMS)",
   "source": "News",
@@ -68,6 +132,19 @@
    "reimbursement"
   ],
   "alert": true
+ },
+ {
+  "id": "a31a97fde62e36cc",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Study will test whether hyperbaric oxygen therapy can ease invisible brain injuries in veterans",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTG04UHdPbTVTNHRhNmM4TDJfYnNXbmdjRi1fZXVMY21mSlh5MTc4a3phNkNsWlRueXBzUGRzQ0hKWGVDbl9OYXpDQ0MtSjZoZlhTZW1GNTNSNktMWXcxVnFhd1ZaTEhTUEcxZk1WMTg2WThSMHVhZENjekltT1pZdjRaUm1ITGp3OWpLaDhwSmlFQUFBMWNj0gGXAUFVX3lxTFBMbThQd09tNVM0dGE2YzhMMl9ic1duZ2NGLV9ldUxjbWZKWHkxNzhremE2Q2xaVG55cHNQZHNDSEpYZUNuX05hekNDQy1KNmhmWFNlbUY1M1I2S0xZdzFWcWF3VlpMSFNQRzFmTVYxODZZOFIwdWFkQ2N6SW1PWll2NFpSbUhManc5aktoOHBKaUVBQUExY2M?oc=5",
+  "date": "2026-11-11",
+  "snippet": "",
+  "publisher": "Science X",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-13T18:19:13+00:00",
+  "signal": []
  },
  {
   "id": "64530b460686461a",
