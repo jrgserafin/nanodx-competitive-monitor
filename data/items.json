@@ -11,6 +11,36 @@
   "signal": []
  },
  {
+  "id": "1182d1b290b890ef",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "CMS Rule on Reimbursement of Algorithm-Only Tests Raises Concerns, Uncertainty",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMHlxOGNKajFGa3loUFlhNktxMzJuZlB1QWZ5c0o2TmtyWm8zeXBlWjVOQUM2UWp5a1pvajZqaVUzV0tINXRham9PZGpKeHItRDc3eTBQVlo2R05NYm84Z2E0X1JBcVk2RHNJQl8yR2FKN1JORXNRY0F3bnlOTGdjdHplVlQ?oc=5",
+  "date": "2026-11-12",
+  "snippet": "",
+  "publisher": "GenomeWeb",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-11-13T03:07:41+00:00",
+  "signal": [
+   "reimbursement",
+   "raises"
+  ],
+  "alert": true
+ },
+ {
+  "id": "0f303d462825f430",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "The Military Medical Commission Recognized a Man with Severe Head Injury after a Car Accident and Optic Nerve Atrophy as Fit: He Appealed the Decision and Won the Case",
+  "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQQURjZjRLZU51SUQ0dEd0Y0wtRTVsOGlweWFhNUpsRkxfRjhDR0ZEcmJPSG9YS1NZVHNjS1BSd2ljSDgzSlduTUdydkU5VXZqVFFhZHRpZGkxY1BCd1JvQWZXTmV2eWJTR3p5Y2M5U0xSOEFYWUNKQ05tQTc0bW1YSzNHem42QjhHekFFeVFMbjJTM3BZUTJyN3RqVlE4SmFNb1F6c1VHYk9XNDVrS3BwbmtCNURsUmF0eVlULUU3amptMUl0ZE1KT09DQlpJU0ExOUVMMXhEaC11NENINnJuLTlwbHpLVi1RTFR1UERXRURWQ1R4UGV3TkttYVpia09Bbko4ZllSR2xCblg1NDNR?oc=5",
+  "date": "2026-11-12",
+  "snippet": "",
+  "publisher": "Судово-юридична газета",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-13T03:07:41+00:00",
+  "signal": []
+ },
+ {
   "id": "4832d318317f873f",
   "competitor": "BrainScope",
   "source": "News",
@@ -186,6 +216,32 @@
   "date": "2026-11-10",
   "snippet": "Neurology. Wang AY, Wood AJ, Zhang C et al.",
   "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "5ef56229426e39f7",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into QuidelOrtho (QDEL)",
+  "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPbnA1dWdSNWU2Z0h5cUFuOFZRUjJKUGw0QzRKVFN2QU05YTdzdXZuTmFBTDBoM1l4a1dST2gxYlhERm5weUVTaGt2ZW9VUHg0NmFYZDM3NDNsVW5KbWUxU0ZNUzJxV3RLZ05WMl9BTVY3SVNYamtnMUpHZl84cUxveDNPMFBYamluLXBRYzlpR0lZZ2FTaDB4QjVkSE9iZnViaTc0cE0yTXhXN2JUeUE0OVBrMXVKUjJ5aGJBcEd6ZTQxNXM4VFNsMTVnM0JZRUFjTzJPcUFDa2UzRHIxUmlzVHZqNTZNamtlMXRUbkdpd3BBWVNGQW5LTE9FN0FtbG8?oc=5",
+  "date": "2026-11-09",
+  "snippet": "",
+  "publisher": "PR Newswire",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-13T03:07:41+00:00",
+  "signal": []
+ },
+ {
+  "id": "2f051c63302b5c80",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Understanding the hidden wounds of military service",
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEwydkNMbG1uamowZjJvQ2xTWjFLTGJucjFXU1ZsM2N4TUQxWTBjYlRhVUZ4RUxuZFd6R1VGRGs2dGt2Yzd4X3g3akRWZ3RPUGh5TDluX0otTWVxYkJVNXRLaVltY1dUZ2xvZ2xQR3pvRHBLSGZXTk1WeDdhMXg5SE42SXFNNFRCQzVPNmYxQ0g0ZFRsNzZkbA?oc=5",
+  "date": "2026-11-09",
+  "snippet": "",
+  "publisher": "the University of South Florida",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-13T03:07:41+00:00",
   "signal": []
  },
  {

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-12T21:44:48+00:00",
+ "checked": "2026-11-13T03:10:10+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -613,6 +613,19 @@
    "first_seen": "2026-11-06T23:40:36+00:00"
   },
   {
+   "id": "004c6a59f83e7d84",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Molecular Diagnostic Market Size, Share, Trends 2036",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE93a1B2VE02Z1FycnpmZ1BwbWprbVpFSWhHdjRRdm1qandVYzlmamFqYzE2S2Y3R0VHVUFKQjNzaEd6NFpHcmhBVnV5ZnVMVlVFcjBZYlVCYzdEWE5Hd1l0ZFVzemNVdjdKbXdBMU9neXk5dlUtOUtZWkNTeXMtdw?oc=5",
+   "date": "2026-11-06",
+   "snippet": "",
+   "publisher": "Future Market Insights",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-13T03:10:10+00:00"
+  },
+  {
    "id": "be29847ce311e02f",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -936,6 +949,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-11-05T11:46:50+00:00"
+  },
+  {
+   "id": "0021d3b4f409a552",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Roche receives FDA 510(k) clearance for new cobas® eplex respiratory pathogen panel 3, enabling labs to customize respiratory testing for local patient needs",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVGNVd09jSHBueUhtb0hheDlZaEMwcEtJazNWcW1lVEFXVGtCUnp2MWZ4SkFYOGlwMmV2b1dKWWIzdjN4YWZwcjNGVENRSjJKd21pbFBHOEY4eC1EQUpWOWIzQ3htemdxRXJDZHpmU0ZuaFFISE1XQVpxaG1pQnlyWUNHelVYU3F2ZktudkR3?oc=5",
+   "date": "2026-11-02",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-13T03:10:10+00:00"
   },
   {
    "id": "5a28b7837fdeb769",
