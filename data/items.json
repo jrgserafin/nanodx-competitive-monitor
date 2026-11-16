@@ -11,6 +11,80 @@
   "signal": []
  },
  {
+  "id": "9bc8216016ca8b76",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix partners with Sherman Abrams to expand Alzheimer's blood test",
+  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTm45TmozVDNEcEI2bG84TWZzWmRwYW1TYXZtRVN6Z055Skd1cnpyeTIyTUlWWEYxbmd3SjZvUVpsY19RTjZkcVk3TXFTd2F4WmlxLVRGa3VNR0xTRTBoYVVXdHdlOGVuWkY1ZlQwdnRRUUZwRzVZSEw1emFOYWFyd29JQ3FpNlpwc2syaDRFMEZKWXpwTk1xbE8xTmpreUNvTmhJUWNjTnRqaEZoNTBnMGpmM1JZTE5ERE1ncEUxZTVTZlBSdTRUXw?oc=5",
+  "date": "2026-11-16",
+  "snippet": "",
+  "publisher": "StreetInsider",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-16T20:45:09+00:00",
+  "signal": []
+ },
+ {
+  "id": "7fc92b0a4920ef9f",
+  "competitor": "Medicortex",
+  "source": "Website",
+  "title": "Medicortex International: new website published",
+  "url": "https://medicortex.fi/2026/11/16/medicortex-international-new-website-published/",
+  "date": "2026-11-16",
+  "snippet": "New on https://www.medicortex.fi",
+  "page": "https://www.medicortex.fi",
+  "first_seen": "2026-11-16T20:45:09+00:00",
+  "signal": []
+ },
+ {
+  "id": "161596332f3f2238",
+  "competitor": "Medicortex",
+  "source": "Website",
+  "title": "Medicortex’s new article on BioStock",
+  "url": "https://medicortex.fi/2026/11/16/medicortexs-new-article-on-biostock/",
+  "date": "2026-11-16",
+  "snippet": "New on https://www.medicortex.fi",
+  "page": "https://www.medicortex.fi",
+  "first_seen": "2026-11-16T20:45:09+00:00",
+  "signal": []
+ },
+ {
+  "id": "860058c80007b67d",
+  "competitor": "Point-of-care & capillary sampling",
+  "source": "Publication",
+  "title": "MEC-BioSense: Material-Encoded Capillary Biointerface for Autonomous Whole-Blood Biomarker Sensing.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43036064/",
+  "date": "2026-11-15",
+  "snippet": "Advanced science (Weinheim, Baden-Wurttemberg, Germany). Farrokhnia M, Babamiri B, Jalali P et al.",
+  "first_seen": "2026-11-16T20:45:09+00:00",
+  "signal": []
+ },
+ {
+  "id": "eb370c0b7a5fee33",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Federal Ibogaine Research for Veterans: Treatment, Eligibility, Timeline, and Locations",
+  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVFdiYW9Qbi1zX19XdHdpNDAtbDZuOWQ1Q0hYRTRpaVN6bkFSMFRUcXpJWncwcHFGWWtNSzJQbUxuTkVzaVhELTJvc2NsN3kxVWVIU3pSMkZyOVZSLUNOak9KQVJYejh3dmpJS2laN29xcWl3YndXcXREcHpPLXc3RG1yTkVZMzVPeUk0WDhFcDBza24xYlhkSkltaWFEc0xG?oc=5",
+  "date": "2026-11-14",
+  "snippet": "",
+  "publisher": "News Talk Florida",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-16T20:45:09+00:00",
+  "signal": []
+ },
+ {
+  "id": "ad97df7256515ffe",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Brain injuries are common, costly and often missed",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeF94b2FvUEhPdlVKYkVfVUhjOUxDU3d1V3g3bnBUR2VsaUY4Snlzdm9pOWdENjI4Qm13MUU3WlRVMDFpZmUzbzhhVnZtNkpONFdDS3I4ZTAzZ3A1TXZnZFFVUHdubzNDRG1yLVRDeUdhVm5HLVVJT2g0UFJQMTdaZTBHN0JCenM?oc=5",
+  "date": "2026-11-13",
+  "snippet": "",
+  "publisher": "Biostock",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-16T20:45:09+00:00",
+  "signal": []
+ },
+ {
   "id": "f6ede4d66367c0df",
   "competitor": "TBI biomarker evidence",
   "source": "News",
@@ -87,6 +161,19 @@
   "publisher": "Bioengineer.org",
   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
   "first_seen": "2026-11-13T18:19:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "3a86e0f353a09099",
+  "competitor": "BrainBox Solutions",
+  "source": "News",
+  "title": "Prolight Diagnostics AB (publ) (0G5I.IL) Latest Press Releases & Corporate News - Yahoo Finance",
+  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1HaWpFTzJxbnBRVTVLQ3RWRDMzQnlfWmtKa3JDeFBPSHlXR0szZXZCWkU4SFBTN3huVlpwU1RZUVBraEhYNEVBaVc5dmdBcWsySVgxY19nN2RFNlg2Qi02MkVOR3ZJczhnU2c?oc=5",
+  "date": "2026-11-12",
+  "snippet": "",
+  "publisher": "Yahoo! Finance Canada",
+  "query": "\"BrainBox Solutions\"",
+  "first_seen": "2026-11-16T20:45:09+00:00",
   "signal": []
  },
  {
@@ -907,6 +994,19 @@
   "signal": []
  },
  {
+  "id": "a96719db4accd29d",
+  "competitor": "Point-of-care & capillary sampling",
+  "source": "Publication",
+  "title": "Whole blood transfusion in adult patients with traumatic brain injury: A systematic review and meta-analysis.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43025005/",
+  "date": "2026-11-05",
+  "snippet": "The American journal of emergency medicine. Nagamura T, Taniguchi H, Utsumi S et al.",
+  "first_seen": "2026-11-16T20:45:09+00:00",
+  "signal": [
+   "whole blood"
+  ]
+ },
+ {
   "id": "e58870d38212d19e",
   "competitor": "Boditech Med",
   "source": "News",
@@ -1191,6 +1291,19 @@
   "publisher": "News-Medical",
   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
   "first_seen": "2026-11-04T11:44:52+00:00",
+  "signal": []
+ },
+ {
+  "id": "2c966875ce4343a7",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho names Siegrist and Hanson to lead diagnostics businesses",
+  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYURCbmRqeHE4WS1NeUxmRlR1Ry1vc0xQR3NacVRhOU5lN0I1N3JwMjZ1ZGVvUUNobDdYZk9mcG1DdVhMREhpaVJUM2tLTFlPTlVtTXhGQzdXV0FiallCMEEzdGZDbVNxWmRhM1QyclVkZkVRLUNlUWx4SVY4OFRLVmpSbF9fN2FDdmgyU1lhazNqY1BjV2s5d0E0VHpmbXo4Q3dFWV9HRFVMZFc3bVBTZHRPaW15M3owVThiOGNtMVUxSnZ1NmZWWVln?oc=5",
+  "date": "2026-11-03",
+  "snippet": "",
+  "publisher": "TradingView",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-16T20:45:09+00:00",
   "signal": []
  },
  {

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-14T02:56:36+00:00",
+ "checked": "2026-11-16T20:47:59+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -313,6 +313,97 @@
   }
  ],
  "news": [
+  {
+   "id": "799542a35d037580",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Global Health & WASH: Mid-November 2026 Funding Opportunities (26 new opportunities)",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE10b0VoY2FMd25ja0FFY3d5WF9mbmFHNDBhNkZxdExFdzdac0FQckR3SHcxTmtnZHlNYlc4WkV6TktjWUh2cE9EVVFxaVIwSnNyWlFfbl9wcXBiZkwzdFdkWlFsZ1dmcWJZejZUWFRFR25qbzZfRXFuYkZpVlE?oc=5",
+   "date": "2026-11-16",
+   "snippet": "",
+   "publisher": "Substack",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-16T20:47:59+00:00"
+  },
+  {
+   "id": "6c6f02396ec55857",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Vaginitis Test Startup Nanopath Lands Labcorp In $25 Million Series B",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeGFEcHdGUnV0c1VwakxRVllKemFwRkxqUFdsMzRLWWlaZmIwbmgxTzZwNlg4aU55eVk4RkdFVEE5c1MxTHl4dVNVbm1iYnA2cDM2cmM1VkU4Z2hhQmVzMkQ1aGIxNF9rbkRSbm9iR3hFa3Y2bC11a3hBejV5LUh4cDZrWnREZ182Z2ZCZHdGNmhEd2tsdkFVYzMxWkdZQUl6TzFHTWtCekMyS2ZMbzlqSFJKOGhKQl9M?oc=5",
+   "date": "2026-11-16",
+   "snippet": "",
+   "publisher": "Forbes",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-16T20:47:59+00:00"
+  },
+  {
+   "id": "7ba7869fc6bbe499",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Zus Health raises $33 million to build data layer for healthcare AI",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONGh1RHJNZHk2U3QwcVZPa01EZlo4a3FiMGpfTU44czBkWnNRaUlUYXI3OHFJc19UdUpJWGp5NVBhbWhOZ3ZhNXo2cWxPZ2luemNKSW9jM2tvcTNMelZ6Q2NDSXM4b0FvT0NIYXFUUTNhV09RVDFIUWlmcDd1aUZlSHdwaEl0d2FNT2RMZjJuSmVxYjJnU1Frb3hwOA?oc=5",
+   "date": "2026-11-16",
+   "snippet": "",
+   "publisher": "news.lavx.hu",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-16T20:47:59+00:00"
+  },
+  {
+   "id": "3a49528b1293567d",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Virology Testing Market to Reach USD 15.20 Billion by 2035 as",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUE1OdEtBVllkaWQ5aEVDMWVBLTVYN2dDYU4zdHVnN3JPMkVkRUs5N09sNUtYbHMySHFhQjh5SDRnV05XUUVpQktxS2FvbVBMNjBLeVZ6QVhPVEZWUkdmZGU4d1Jzb2VGWWExMUJac3VQc2lpMjhSYUZZQVY4SkZYWFA5NXYwZ2Z4YmlMRGJCR29ScG1zcXA0MTFzNzhUQQ?oc=5",
+   "date": "2026-11-16",
+   "snippet": "",
+   "publisher": "openPR.com",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-16T20:47:59+00:00"
+  },
+  {
+   "id": "280d7d83e9813a37",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Point of Care Devices Market to Reach US$ 63.4 Billion by 2033, Growing at 9.1% CAGR",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSm52RlQwYmdZdHY5N1dlUDdwVElORUhKa3UtMHY1eUVIODQyU1gwYjlJM2pWYndqc1JKa2V5dTliV1hvUnVndV9MWTFlM0ZDbjYxR2NHRkVkcXpzekZMZ2p0UVZiZTg3NTdoYWtuWUZKZmlhSy14bDZULVNueDhUU3J1NF83RnI2MTZiX1NsWlhnaHhZZkY5UzdMS1lOQQ?oc=5",
+   "date": "2026-11-16",
+   "snippet": "",
+   "publisher": "openPR.com",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-16T20:47:59+00:00"
+  },
+  {
+   "id": "2cc942029a859a62",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Vidcare: Making Quantitative Diagnostics More Accessible",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQXFVckhXZ21NZmxlQlNjQTZzT0gxb0tWM0drMDdJT3FNb0g3cUs0ODNHcmRHZGJWc2pFMVFaekE2cVczTHJxdnplSS05c3hlWHFjRHNwN0dkTVFlcml3S2dEY20zYm9GQWRVQWtYTFZIcFRfeFdsZFpudE9iVkR4RUMtb0h0MUdaWUpsblA3LWVzRzY5ZGV6QndtamZrcFZwRFlETA?oc=5",
+   "date": "2026-11-14",
+   "snippet": "",
+   "publisher": "Indian Startup Times",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-16T20:47:59+00:00"
+  },
+  {
+   "id": "8c70ae20c488fcaf",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Odisha startup BabyCue wins national challenge with its rapid diagnostic test for children",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ1IxRkdVSmlEVXBKSjdIdmVleFhtOVktZHhnOUJEblVYeHFiMFUxc2xhWFNFc0t2OS1fRlNFV21JczlvdTVEVTF6QTFuMGxMbmhkVWYwcEVJcFNzTUxteExSZVFkQVQ3aWt3VUFBSFNpTF83WVBfVmdENVpiMXlZUFNnREdIZjduZEk4aHo4MEFWTTFjMjZPb0E1YTdHdTdJUDVwbzFEOUlWU0E0U09TNjhoRQ?oc=5",
+   "date": "2026-11-14",
+   "snippet": "",
+   "publisher": "YourStory.com",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-16T20:47:59+00:00"
+  },
   {
    "id": "bedf86b352765614",
    "competitor": "Emerging (POC)",

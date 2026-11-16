@@ -1,12 +1,12 @@
 {
- "checked": "2026-11-14T02:54:12+00:00",
+ "checked": "2026-11-16T20:45:09+00:00",
  "sources": [
   {
    "entity": "Abbott",
    "source": "News: \"Abbott\" \"TBI\" test",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 2.6
   },
   {
    "entity": "Abbott",
@@ -19,7 +19,7 @@
    "entity": "Abbott",
    "source": "News: \"Alinity\" TBI",
    "ok": true,
-   "count": 0,
+   "count": 1,
    "secs": 0.2
   },
   {
@@ -27,14 +27,14 @@
    "source": "Page: https://abbott.mediaroom.com/press-releases",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "Abbott",
    "source": "FDA: Abbott",
    "ok": true,
    "count": 118,
-   "secs": 0.6
+   "secs": 0.8
   },
   {
    "entity": "Abbott",
@@ -47,8 +47,8 @@
    "entity": "Abbott",
    "source": "PubMed: \"i-STAT TBI\" OR \"i-STAT Alinity\" AND (GFAP OR \"UCH-L1\")",
    "ok": true,
-   "count": 1,
-   "secs": 0.8
+   "count": 0,
+   "secs": 0.2
   },
   {
    "entity": "Abbott",
@@ -73,14 +73,14 @@
    "source": "Federal awards: Abbott Laboratories",
    "ok": true,
    "count": 15,
-   "secs": 4.8
+   "secs": 4.9
   },
   {
    "entity": "bioMérieux",
    "source": "News: \"bioMerieux\" \"VIDAS TBI\"",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 2.6
   },
   {
    "entity": "bioMérieux",
@@ -93,15 +93,15 @@
    "entity": "bioMérieux",
    "source": "Homepage: https://www.biomerieux.com",
    "ok": true,
-   "count": 0,
-   "secs": 0.4
+   "count": 2,
+   "secs": 0.3
   },
   {
    "entity": "bioMérieux",
    "source": "FDA: bioMerieux",
    "ok": true,
    "count": 4,
-   "secs": 0.4
+   "secs": 0.5
   },
   {
    "entity": "bioMérieux",
@@ -159,7 +159,7 @@
    "source": "PubMed: BrainScope AND (concussion OR \"traumatic brain injury\")",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.3
   },
   {
    "entity": "BrainScope",
@@ -182,7 +182,7 @@
    "source": "News: \"Infrascanner\"",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 2.4
   },
   {
    "entity": "InfraScan",
@@ -196,14 +196,14 @@
    "source": "Homepage: https://infrascanner.com",
    "ok": true,
    "count": 0,
-   "secs": 2.4
+   "secs": 2.3
   },
   {
    "entity": "InfraScan",
    "source": "FDA: InfraScan",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "InfraScan",
@@ -226,7 +226,7 @@
    "source": "Federal awards: InfraScan",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.5
   },
   {
    "entity": "BrainBox Solutions",
@@ -247,7 +247,7 @@
    "source": "FDA: BrainBox",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.5
   },
   {
    "entity": "BrainBox Solutions",
@@ -291,21 +291,21 @@
    "source": "News: \"VEUPLEX\"",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 2.6
   },
   {
    "entity": "EzDiatech",
    "source": "FDA: EzDiatech",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "EzDiatech",
    "source": "PubMed: VEUPLEX OR EzDiatech",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "EzDiatech",
@@ -335,7 +335,7 @@
    "source": "News: \"Stata Dx\" (funding OR raises OR investors OR SBIR OR \"Department of Defense\")",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 2.7
   },
   {
    "entity": "STATA DX",
@@ -358,7 +358,7 @@
    "source": "Federal awards: Stata DX",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.6
   },
   {
    "entity": "GLIA Diagnostics",
@@ -381,14 +381,14 @@
    "source": "Federal awards: Glia Diagnostics",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.5
   },
   {
    "entity": "Quanterix",
    "source": "News: \"Quanterix\"",
    "ok": true,
    "count": 15,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "Quanterix",
@@ -411,7 +411,7 @@
    "source": "Trials: Quanterix",
    "ok": true,
    "count": 1,
-   "secs": 0.1
+   "secs": 0.5
   },
   {
    "entity": "Quanterix",
@@ -443,14 +443,14 @@
    "source": "Federal awards: Quanterix",
    "ok": true,
    "count": 4,
-   "secs": 0.5
+   "secs": 0.4
   },
   {
    "entity": "Genalyte",
    "source": "News: \"Genalyte\"",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 2.4
   },
   {
    "entity": "Genalyte",
@@ -480,14 +480,14 @@
    "source": "Federal awards: Genalyte",
    "ok": true,
    "count": 0,
-   "secs": 0.5
+   "secs": 0.6
   },
   {
    "entity": "Oculogica",
    "source": "News: \"Oculogica\"",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 2.5
   },
   {
    "entity": "Oculogica",
@@ -501,7 +501,7 @@
    "source": "Homepage: https://oculogica.com",
    "ok": true,
    "count": 0,
-   "secs": 0.7
+   "secs": 0.2
   },
   {
    "entity": "Oculogica",
@@ -522,7 +522,7 @@
    "source": "PubMed: EyeBOX AND concussion",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "Oculogica",
@@ -559,7 +559,7 @@
    "source": "FDA: Sense Neuro",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.4
   },
   {
    "entity": "Sense Neuro Diagnostics",
@@ -575,7 +575,7 @@
    "source": "Federal awards: Sense Neuro",
    "ok": true,
    "count": 0,
-   "secs": 0.6
+   "secs": 0.4
   },
   {
    "entity": "Medicortex",
@@ -595,8 +595,8 @@
    "entity": "Medicortex",
    "source": "Homepage: https://www.medicortex.fi",
    "ok": true,
-   "count": 0,
-   "secs": 4.1
+   "count": 2,
+   "secs": 3.4
   },
   {
    "entity": "Medicortex",
@@ -619,7 +619,7 @@
    "source": "Federal awards: Medicortex",
    "ok": true,
    "count": 0,
-   "secs": 0.6
+   "secs": 0.5
   },
   {
    "entity": "Roche",
@@ -633,7 +633,7 @@
    "source": "News: \"Roche Diagnostics\" concussion",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 0.1
   },
   {
    "entity": "Roche",
@@ -647,7 +647,7 @@
    "source": "FDA: Roche",
    "ok": true,
    "count": 52,
-   "secs": 0.3
+   "secs": 0.4
   },
   {
    "entity": "Roche",
@@ -661,7 +661,7 @@
    "source": "PubMed: Elecsys AND (GFAP OR \"UCH-L1\")",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.5
   },
   {
    "entity": "Roche",
@@ -677,7 +677,7 @@
    "source": "News: \"AeHealth\"",
    "ok": true,
    "count": 0,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "AeHealth",
@@ -713,7 +713,7 @@
    "entity": "ACON",
    "source": "News: \"ACON Laboratories\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
    "ok": true,
-   "count": 0,
+   "count": 1,
    "secs": 0.2
   },
   {
@@ -721,7 +721,7 @@
    "source": "Homepage: https://www.aconlabs.com",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.2
   },
   {
    "entity": "ACON",
@@ -767,21 +767,21 @@
    "source": "News: \"QuidelOrtho\"",
    "ok": true,
    "count": 15,
-   "secs": 0.2
+   "secs": 0.3
   },
   {
    "entity": "QuidelOrtho",
    "source": "Homepage: https://www.quidelortho.com",
    "ok": true,
    "count": 0,
-   "secs": 0.4
+   "secs": 0.2
   },
   {
    "entity": "QuidelOrtho",
    "source": "FDA: Quidel",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 0.4
   },
   {
    "entity": "QuidelOrtho",
@@ -806,7 +806,7 @@
    "source": "Federal awards: QuidelOrtho",
    "ok": true,
    "count": 15,
-   "secs": 0.6
+   "secs": 0.5
   },
   {
    "entity": "Boditech Med",
@@ -845,14 +845,14 @@
    "source": "News: \"Getein\" (FDA OR \"point-of-care\" OR TBI OR acquisition OR launch)",
    "ok": true,
    "count": 0,
-   "secs": 0.2
+   "secs": 2.5
   },
   {
    "entity": "Getein Biotech",
    "source": "FDA: Getein",
    "ok": true,
    "count": 0,
-   "secs": 0.3
+   "secs": 1.0
   },
   {
    "entity": "Getein Biotech",
@@ -868,13 +868,13 @@
    "source": "News: \"traumatic brain injury\" blood test",
    "ok": true,
    "count": 9,
-   "secs": 0.2
+   "secs": 6.8
   },
   {
    "entity": "TBI diagnostics market",
    "source": "News: concussion blood test FDA",
    "ok": true,
-   "count": 2,
+   "count": 1,
    "secs": 0.2
   },
   {
@@ -895,7 +895,7 @@
    "entity": "Lab reimbursement (CMS)",
    "source": "News: CMS \"clinical laboratory fee schedule\"",
    "ok": true,
-   "count": 7,
+   "count": 6,
    "secs": 0.2
   },
   {
@@ -909,7 +909,7 @@
    "entity": "TBI biomarker evidence",
    "source": "News: (GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
    "ok": true,
-   "count": 9,
+   "count": 8,
    "secs": 0.2
   },
   {
@@ -917,7 +917,7 @@
    "source": "PubMed: (\"traumatic brain injury\" OR concussion OR \"head injury\") AND (GFAP OR S100B OR \"UCH-L1\") AND (sensitivity OR specificity OR \"negative predictive value\" OR kinetics OR \"diagnostic accuracy\")",
    "ok": true,
    "count": 5,
-   "secs": 0.7
+   "secs": 0.6
   },
   {
    "entity": "TBI biomarker evidence",
@@ -931,14 +931,14 @@
    "source": "PubMed: (capillary OR fingerstick OR \"finger-stick\" OR \"whole blood\" OR \"point-of-care\" OR biosensor) AND (GFAP OR S100B OR \"UCH-L1\" OR \"brain injury\" OR concussion)",
    "ok": true,
    "count": 14,
-   "secs": 0.7
+   "secs": 1.1
   },
   {
    "entity": "Point-of-care & capillary sampling",
    "source": "NIH RePORTER: (\"point-of-care\" OR biosensor OR fingerstick) AND (\"traumatic brain injury\" OR concussion)",
    "ok": true,
    "count": 15,
-   "secs": 0.1
+   "secs": 0.2
   },
   {
    "entity": "TBI epidemiology & ED burden",
@@ -952,14 +952,14 @@
    "source": "PubMed: (\"traumatic brain injury\" OR concussion OR \"head injury\") AND (\"emergency department\" OR \"urgent care\") AND (incidence OR epidemiology OR visits OR trends OR \"direct costs\") AND (\"United States\" OR national)",
    "ok": true,
    "count": 2,
-   "secs": 0.7
+   "secs": 0.6
   },
   {
    "entity": "CT avoidance & health economics",
    "source": "PubMed: (\"traumatic brain injury\" OR \"head injury\" OR concussion) AND (biomarker OR GFAP OR S100B) AND (\"computed tomography\" OR CT) AND (cost OR \"cost-effectiveness\" OR utilization OR \"unnecessary\")",
    "ok": true,
-   "count": 8,
-   "secs": 0.8
+   "count": 9,
+   "secs": 0.7
   },
   {
    "entity": "TBI clinical guidelines",
@@ -972,8 +972,8 @@
    "entity": "TBI clinical guidelines",
    "source": "PubMed: (\"mild traumatic brain injury\" OR concussion OR \"head injury\") AND (guideline OR \"clinical policy\" OR consensus) AND (biomarker OR GFAP OR S100B)",
    "ok": true,
-   "count": 0,
-   "secs": 0.1
+   "count": 1,
+   "secs": 0.9
   },
   {
    "entity": "TBI test reimbursement (CPT 0570U)",
@@ -987,13 +987,13 @@
    "source": "News: traumatic brain injury blood test insurance coverage",
    "ok": true,
    "count": 15,
-   "secs": 0.4
+   "secs": 0.3
   },
   {
    "entity": "Military TBI screening",
    "source": "News: military \"traumatic brain injury\" blood test OR screening OR biomarker",
    "ok": true,
-   "count": 7,
+   "count": 10,
    "secs": 0.2
   },
   {
@@ -1001,28 +1001,28 @@
    "source": "Federal awards: traumatic brain injury diagnostic, concussion assessment, TBI biomarker",
    "ok": true,
    "count": 2,
-   "secs": 0.5
+   "secs": 0.4
   },
   {
    "entity": "EMS & prehospital TBI",
    "source": "PubMed: (prehospital OR \"pre-hospital\" OR EMS OR ambulance OR paramedic) AND (\"traumatic brain injury\" OR concussion) AND (biomarker OR triage OR GFAP OR \"point-of-care\")",
    "ok": true,
    "count": 1,
-   "secs": 0.7
+   "secs": 0.8
   },
   {
    "entity": "International TBI tests",
    "source": "News: (GFAP OR \"UCH-L1\" OR S100B) test (Europe OR \"CE mark\" OR NMPA OR Japan OR Korea) brain injury",
    "ok": true,
-   "count": 0,
-   "secs": 0.2
+   "count": 2,
+   "secs": 0.3
   },
   {
    "entity": "Emerging (POC)",
    "source": "FDA 510(k) point-of-care scan",
    "ok": true,
    "count": 15,
-   "secs": 3.3
+   "secs": 3.9
   },
   {
    "entity": "Emerging (POC)",
@@ -1035,7 +1035,7 @@
    "entity": "Emerging (POC)",
    "source": "Google News point-of-care radar",
    "ok": true,
-   "count": 31,
+   "count": 29,
    "secs": 4.3
   }
  ]

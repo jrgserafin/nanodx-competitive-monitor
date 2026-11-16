@@ -1,0 +1,431 @@
+{
+ "week": "2026-W47",
+ "start": "2026-11-09",
+ "end": "2026-11-16",
+ "generated": "2026-11-16T20:48:17+00:00",
+ "counts": [
+  {
+   "name": "Abbott",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "bioMérieux",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainScope",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "InfraScan",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainBox Solutions",
+   "this_week": 1,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "EzDiatech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "STATA DX",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "GLIA Diagnostics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Quanterix",
+   "this_week": 3,
+   "last_week": 23,
+   "signal": 1
+  },
+  {
+   "name": "Genalyte",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Oculogica",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Sense Neuro Diagnostics",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 1
+  },
+  {
+   "name": "Medicortex",
+   "this_week": 2,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Roche",
+   "this_week": 1,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "AeHealth",
+   "this_week": 5,
+   "last_week": 6,
+   "signal": 0
+  },
+  {
+   "name": "Wondfo",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "ACON",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Hotgen",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "QuidelOrtho",
+   "this_week": 2,
+   "last_week": 30,
+   "signal": 1
+  },
+  {
+   "name": "Boditech Med",
+   "this_week": 0,
+   "last_week": 3,
+   "signal": 0
+  },
+  {
+   "name": "Getein Biotech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI diagnostics market",
+   "this_week": 2,
+   "last_week": 9,
+   "signal": 0
+  },
+  {
+   "name": "Lab reimbursement (CMS)",
+   "this_week": 5,
+   "last_week": 2,
+   "signal": 3
+  },
+  {
+   "name": "TBI biomarker evidence",
+   "this_week": 1,
+   "last_week": 7,
+   "signal": 0
+  },
+  {
+   "name": "Point-of-care & capillary sampling",
+   "this_week": 1,
+   "last_week": 2,
+   "signal": 0
+  },
+  {
+   "name": "TBI epidemiology & ED burden",
+   "this_week": 2,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "CT avoidance & health economics",
+   "this_week": 1,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "TBI clinical guidelines",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI test reimbursement (CPT 0570U)",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Military TBI screening",
+   "this_week": 4,
+   "last_week": 6,
+   "signal": 0
+  },
+  {
+   "name": "EMS & prehospital TBI",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "International TBI tests",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  }
+ ],
+ "top": [
+  {
+   "id": "7528ffe7e403b5a3",
+   "competitor": "Sense Neuro Diagnostics",
+   "source": "News",
+   "title": "China's Brain-Computer Interface Sector Enters First Year of Clinical Application: World's First Approval Leads to 12 Commercial Implants, Shanghai's Huibao Reimburses Up to 30%",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEdDF0Q3NMSEE3OGhxWk9tNjBLaFlLcXdCRkRGYWc1Vkp2YWFiV3Z6RWx4TjN2b2FmQTczM1FYV0FteDZmR0xvcDNZeUxwX0FJblpIVVJwNEJxdDdvMEIzb0hra0V1dWh2M1h4cXhoeWpUQ2Fwb0E?oc=5",
+   "date": "2026-11-13",
+   "snippet": "",
+   "publisher": "BigGo Finance",
+   "query": "\"NeuroHawk\"",
+   "first_seen": "2026-11-13T18:19:13+00:00",
+   "signal": [
+    "approval"
+   ],
+   "alert": true
+  },
+  {
+   "id": "1182d1b290b890ef",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "CMS Rule on Reimbursement of Algorithm-Only Tests Raises Concerns, Uncertainty",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMHlxOGNKajFGa3loUFlhNktxMzJuZlB1QWZ5c0o2TmtyWm8zeXBlWjVOQUM2UWp5a1pvajZqaVUzV0tINXRham9PZGpKeHItRDc3eTBQVlo2R05NYm84Z2E0X1JBcVk2RHNJQl8yR2FKN1JORXNRY0F3bnlOTGdjdHplVlQ?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-11-13T03:07:41+00:00",
+   "signal": [
+    "reimbursement",
+    "raises"
+   ],
+   "alert": true
+  },
+  {
+   "id": "2877d9782114f3c4",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "LigoLab Examines Potential 2027 Medicare Laboratory Reimbursement Cuts and Their Implications for U.S. Laboratories",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZlFod0o5Qkd0d3dRVGRqM3R4TUFYSEhKLVdGd05GTDlLYTczZDVwc2dEbXRHcmxhYU9HZW82OW1pbTJmQkVhNV91RE9Cb2dlZG84cWxWcVFqcEphZU5TWW9OeGJBUWx6TTJBZzVEbDlEcFpSenBCQlEzUzFqUE5yd2FKLXhlRnRFa1JnS1BDb3QzZGY4RVkzaVVTdnViMm5hSUUwVTdaV0hiMUwwT3lxamtmdGxXMlQ5bnNXZFFWOV9Ea0Z0S0ZiZTJkd0RfcFk4R2ZOUFM0ZTNkaUc0Q20xd05KWmFCMjltX25xaFFwMUNFMlRUMi1QcllIT2o4bl83WmRMQw?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "StreetInsider",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-11-12T18:39:34+00:00",
+   "signal": [
+    "reimbursement"
+   ],
+   "alert": true
+  },
+  {
+   "id": "00a7c2ee93df236f",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho launches VITROS 450 waterless chemistry testing for low-volume laboratories",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTENlOGgweWdyRmJ6enVzOXN5TnE3ek1CTU01VzdWbFo1X1BaZmFMdDEwdkRpbjRsM1F3Z2FEVWVfWVVpWWZieDlYOXM0NWowbG9OU3ZTTWZwcGpyNmtvdVJWaDVNbXlpLWJKTDd2cHQtanIxUlZnUTlENU93TVZCNjJqVXdFNTBsVFdCcldwekVwckF0dzVJeVVfMlg0TUtDXzhvTWotQmZFaVNuVkd2SDhKbVpQcWFQZjdiSlRGalFiMDQ?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "SelectScience",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-11T18:15:42+00:00",
+   "signal": [
+    "launch"
+   ],
+   "alert": true
+  },
+  {
+   "id": "0d312f0d9b1081e6",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "Digital Health and AI: Key Regulatory, Reimbursement and Policy Developments",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRGpmWmlpNE9vYW1wX0VJUmFYWFpXb195UndHeUMyOUp0N3ZiM2JoNHl5ampPbk1adlNCTkVYX0tlVTNQYW9pTWFxQUdGTkxsT01uU0FKdHFWV1BlOHdTN1JOYUdkZS12WHRJN3FNQUpueWJUOE5ERUYwNDA5d25aWmZKMVVTdw?oc=5",
+   "date": "2026-11-10",
+   "snippet": "",
+   "publisher": "JD Supra",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-11-11T02:30:39+00:00",
+   "signal": [
+    "reimbursement"
+   ],
+   "alert": true
+  },
+  {
+   "id": "22847dbede52107d",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "TD Cowen maintains Quanterix at Hold, raises price target to $4 from $3.50",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObnRKWGRKNzdoRExnMU9ydzZ2OXR1bTRLLU5xZWFpTms5eEQ0VmhRU18xaUNSck5ZTW5vYy1LQzBDUXZmX055cTdVTXNzbFowWDRMX0Y1QUQ2N014WV9BSHNsZnpDN1RGbkFQdmFjMUhyQTZqZnJwZ3N1enRqSkJFdjlpU1h5SGdWMmNKSGVfTkNLcmFPaUxOaENJV05KOTE5Y0Q5NnIzX2ZNOEdNQk5qenlURHRLX3lfWW5JNG1ZZ0YyQ2ZRaWc2ejNhVW8tQQ?oc=5",
+   "date": "2026-11-10",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-10T21:11:21+00:00",
+   "signal": [
+    "raises"
+   ]
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false,
+ "cites": [
+  {
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBEdDF0Q3NMSEE3OGhxWk9tNjBLaFlLcXdCRkRGYWc1Vkp2YWFiV3Z6RWx4TjN2b2FmQTczM1FYV0FteDZmR0xvcDNZeUxwX0FJblpIVVJwNEJxdDdvMEIzb0hra0V1dWh2M1h4cXhoeWpUQ2Fwb0E?oc=5",
+   "title": "China's Brain-Computer Interface Sector Enters First Year of Clinical Application: World's First Approval Leads to 12 Commercial Implants, Shanghai's Huibao Reimburses Up to 30%"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMHlxOGNKajFGa3loUFlhNktxMzJuZlB1QWZ5c0o2TmtyWm8zeXBlWjVOQUM2UWp5a1pvajZqaVUzV0tINXRham9PZGpKeHItRDc3eTBQVlo2R05NYm84Z2E0X1JBcVk2RHNJQl8yR2FKN1JORXNRY0F3bnlOTGdjdHplVlQ?oc=5",
+   "title": "CMS Rule on Reimbursement of Algorithm-Only Tests Raises Concerns, Uncertainty"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZlFod0o5Qkd0d3dRVGRqM3R4TUFYSEhKLVdGd05GTDlLYTczZDVwc2dEbXRHcmxhYU9HZW82OW1pbTJmQkVhNV91RE9Cb2dlZG84cWxWcVFqcEphZU5TWW9OeGJBUWx6TTJBZzVEbDlEcFpSenBCQlEzUzFqUE5yd2FKLXhlRnRFa1JnS1BDb3QzZGY4RVkzaVVTdnViMm5hSUUwVTdaV0hiMUwwT3lxamtmdGxXMlQ5bnNXZFFWOV9Ea0Z0S0ZiZTJkd0RfcFk4R2ZOUFM0ZTNkaUc0Q20xd05KWmFCMjltX25xaFFwMUNFMlRUMi1QcllIT2o4bl83WmRMQw?oc=5",
+   "title": "LigoLab Examines Potential 2027 Medicare Laboratory Reimbursement Cuts and Their Implications for U.S. Laboratories"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTENlOGgweWdyRmJ6enVzOXN5TnE3ek1CTU01VzdWbFo1X1BaZmFMdDEwdkRpbjRsM1F3Z2FEVWVfWVVpWWZieDlYOXM0NWowbG9OU3ZTTWZwcGpyNmtvdVJWaDVNbXlpLWJKTDd2cHQtanIxUlZnUTlENU93TVZCNjJqVXdFNTBsVFdCcldwekVwckF0dzVJeVVfMlg0TUtDXzhvTWotQmZFaVNuVkd2SDhKbVpQcWFQZjdiSlRGalFiMDQ?oc=5",
+   "title": "QuidelOrtho launches VITROS 450 waterless chemistry testing for low-volume laboratories"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRGpmWmlpNE9vYW1wX0VJUmFYWFpXb195UndHeUMyOUp0N3ZiM2JoNHl5ampPbk1adlNCTkVYX0tlVTNQYW9pTWFxQUdGTkxsT01uU0FKdHFWV1BlOHdTN1JOYUdkZS12WHRJN3FNQUpueWJUOE5ERUYwNDA5d25aWmZKMVVTdw?oc=5",
+   "title": "Digital Health and AI: Key Regulatory, Reimbursement and Policy Developments"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObnRKWGRKNzdoRExnMU9ydzZ2OXR1bTRLLU5xZWFpTms5eEQ0VmhRU18xaUNSck5ZTW5vYy1LQzBDUXZmX055cTdVTXNzbFowWDRMX0Y1QUQ2N014WV9BSHNsZnpDN1RGbkFQdmFjMUhyQTZqZnJwZ3N1enRqSkJFdjlpU1h5SGdWMmNKSGVfTkNLcmFPaUxOaENJV05KOTE5Y0Q5NnIzX2ZNOEdNQk5qenlURHRLX3lfWW5JNG1ZZ0YyQ2ZRaWc2ejNhVW8tQQ?oc=5",
+   "title": "TD Cowen maintains Quanterix at Hold, raises price target to $4 from $3.50"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42759081/",
+   "title": "Fighting for safety: head and spine injuries in martial arts presenting to U.S. emergency departments."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTm45TmozVDNEcEI2bG84TWZzWmRwYW1TYXZtRVN6Z055Skd1cnpyeTIyTUlWWEYxbmd3SjZvUVpsY19RTjZkcVk3TXFTd2F4WmlxLVRGa3VNR0xTRTBoYVVXdHdlOGVuWkY1ZlQwdnRRUUZwRzVZSEw1emFOYWFyd29JQ3FpNlpwc2syaDRFMEZKWXpwTk1xbE8xTmpreUNvTmhJUWNjTnRqaEZoNTBnMGpmM1JZTE5ERE1ncEUxZTVTZlBSdTRUXw?oc=5",
+   "title": "Quanterix partners with Sherman Abrams to expand Alzheimer's blood test"
+  },
+  {
+   "url": "https://medicortex.fi/2026/11/16/medicortex-international-new-website-published/",
+   "title": "Medicortex International: new website published"
+  },
+  {
+   "url": "https://medicortex.fi/2026/11/16/medicortexs-new-article-on-biostock/",
+   "title": "Medicortex’s new article on BioStock"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43036064/",
+   "title": "MEC-BioSense: Material-Encoded Capillary Biointerface for Autonomous Whole-Blood Biomarker Sensing."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVFdiYW9Qbi1zX19XdHdpNDAtbDZuOWQ1Q0hYRTRpaVN6bkFSMFRUcXpJWncwcHFGWWtNSzJQbUxuTkVzaVhELTJvc2NsN3kxVWVIU3pSMkZyOVZSLUNOak9KQVJYejh3dmpJS2laN29xcWl3YndXcXREcHpPLXc3RG1yTkVZMzVPeUk0WDhFcDBza24xYlhkSkltaWFEc0xG?oc=5",
+   "title": "Federal Ibogaine Research for Veterans: Treatment, Eligibility, Timeline, and Locations"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeF94b2FvUEhPdlVKYkVfVUhjOUxDU3d1V3g3bnBUR2VsaUY4Snlzdm9pOWdENjI4Qm13MUU3WlRVMDFpZmUzbzhhVnZtNkpONFdDS3I4ZTAzZ3A1TXZnZFFVUHdubzNDRG1yLVRDeUdhVm5HLVVJT2g0UFJQMTdaZTBHN0JCenM?oc=5",
+   "title": "Brain injuries are common, costly and often missed"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPakRxWU9lRGtWZmU0VkxmdnNxUmJmTzRKaUswN3lNVVZGNUF4U2JlU0N5R3NScVJlZ0Z4SUh4cEl2YWFfRjJZMUlnR01LelFtTEFsdUhJQ2NsWDRjeVdWZWFMN3lyUzlxLXgtTEpwY2tiaFpiTE8tcWVlUHFMbjdfMDF2b0I4REoxTFQ5TlVR?oc=5",
+   "title": "Brain Injury Biomarkers at 72 Hours Match Neurological Exams"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPakRxWU9lRGtWZmU0VkxmdnNxUmJmTzRKaUswN3lNVVZGNUF4U2JlU0N5R3NScVJlZ0Z4SUh4cEl2YWFfRjJZMUlnR01LelFtTEFsdUhJQ2NsWDRjeVdWZWFMN3lyUzlxLXgtTEpwY2tiaFpiTE8tcWVlUHFMbjdfMDF2b0I4REoxTFQ5TlVR?oc=5",
+   "title": "Brain Injury Biomarkers at 72 Hours Match Neurological Exams"
+  },
+  {
+   "url": "https://clinicaltrials.gov/study/NCT07455136",
+   "title": "A Study to Develop a Blood-based Test for Aiding the Diagnosis/Prognosis of Traumatic Brain Injury in Adults and for Monitoring the Development of Secondary Events in Patients Diagnosed With Traumatic Brain Injury (Recruiting)"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWnZkSUJDZ3FVQk5uYmo5TlpLVEo4UFZmbVhtYjh3cl9seEliQ2Y4ZGlaR2NuWXpxeFNvRXF3RVlIUU8wcDZaUGprZExTNzE2MzZ4QXJUak1OajFZUkpLZEJDc3g5Z013UjJkMFR1UFNUS09LLVNENDBHbWtXS1F0b01jbkdjamhCM2xFZkdMSGs5MkI4?oc=5",
+   "title": "CMS Releases Medicare 2027 Physician Fee Schedule Final Rule"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZzlRY3dvdXJNdXpwM2QyeDBtX3AtZ21la25pRTBxSkFUd2gxMWd0WHRrT25vd2RqdWpBeG1zU25yRUNLdDg1YVUyVGVVT3JMQnNRcW1KRXBadEZfdGlaQWt3Vm5abmVCbFAwTVp4NUE5bVp6S3FzVnh3LWY1MFpMeDZ2MnNWdy1UNVN4UE42bEFoRUJOeU9kRzlkSjlBWlBXb2c5U192UmtvNDF0dDZIR2J5RThqTDZfZHc?oc=5",
+   "title": "Military Researchers Reveal Microbiome Links to Health, Surveillance, and Materials Degradation"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1HaWpFTzJxbnBRVTVLQ3RWRDMzQnlfWmtKa3JDeFBPSHlXR0szZXZCWkU4SFBTN3huVlpwU1RZUVBraEhYNEVBaVc5dmdBcWsySVgxY19nN2RFNlg2Qi02MkVOR3ZJczhnU2c?oc=5",
+   "title": "Prolight Diagnostics AB (publ) (0G5I.IL) Latest Press Releases & Corporate News - Yahoo Finance"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNFlrbVczc3J5ZXV6WVB2d0hRUGVFU0pyMC10YUVySGFtbFBTRnBmSUdPZmhsejZhVlYtRmJtVWRyM0s5UHRxUUlwSDVZcFdleDBQMjhEZ01xOWZaMFk2Q29iWjE1YzRqdElrdDVfNkp1QnJGbEZOS3N0Rk5zczE4VTJkVlkwclRIMmhTUl90Mmxodw?oc=5",
+   "title": "Quanterix Corp (QTRX) Q3 2026 Earnings Call Highlights: Sequential Growth and Strategic ..."
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43020487/",
+   "title": "Exploring the cost-effectiveness of blood biomarker tests to select patients with head injury and possible traumatic brain injury for CT brain scans in the UK setting."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQQURjZjRLZU51SUQ0dEd0Y0wtRTVsOGlweWFhNUpsRkxfRjhDR0ZEcmJPSG9YS1NZVHNjS1BSd2ljSDgzSlduTUdydkU5VXZqVFFhZHRpZGkxY1BCd1JvQWZXTmV2eWJTR3p5Y2M5U0xSOEFYWUNKQ05tQTc0bW1YSzNHem42QjhHekFFeVFMbjJTM3BZUTJyN3RqVlE4SmFNb1F6c1VHYk9XNDVrS3BwbmtCNURsUmF0eVlULUU3amptMUl0ZE1KT09DQlpJU0ExOUVMMXhEaC11NENINnJuLTlwbHpLVi1RTFR1UERXRURWQ1R4UGV3TkttYVpia09Bbko4ZllSR2xCblg1NDNR?oc=5",
+   "title": "The Military Medical Commission Recognized a Man with Severe Head Injury after a Car Accident and Optic Nerve Atrophy as Fit: He Appealed the Decision and Won the Case"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaXZsNjJOUWxOcE9nblZWYzAtSVBZd1JfVWR6VHJ1NmlwVFpHcWFiMC1UeXlMdlh5dEU2TTUxcUJ0dmdhcUEwLVhGXzN4QnBjYWNVcEtIZXRVSGd3MkUyZFlpVkRjNm9GazRvRmljMC1TeDBmc1d6MmN0anZ3ZHIwNHlmaFVYc0VhcENJMFNuZmpJdzJ3ZzhWamZzQ3U2SlFRck9CejVvazhCa1U?oc=5",
+   "title": "AI Champion: Laurie Silver"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTG04UHdPbTVTNHRhNmM4TDJfYnNXbmdjRi1fZXVMY21mSlh5MTc4a3phNkNsWlRueXBzUGRzQ0hKWGVDbl9OYXpDQ0MtSjZoZlhTZW1GNTNSNktMWXcxVnFhd1ZaTEhTUEcxZk1WMTg2WThSMHVhZENjekltT1pZdjRaUm1ITGp3OWpLaDhwSmlFQUFBMWNj0gGXAUFVX3lxTFBMbThQd09tNVM0dGE2YzhMMl9ic1duZ2NGLV9ldUxjbWZKWHkxNzhremE2Q2xaVG55cHNQZHNDSEpYZUNuX05hekNDQy1KNmhmWFNlbUY1M1I2S0xZdzFWcWF3VlpMSFNQRzFmTVYxODZZOFIwdWFkQ2N6SW1PWll2NFpSbUhManc5aktoOHBKaUVBQUExY2M?oc=5",
+   "title": "Study will test whether hyperbaric oxygen therapy can ease invisible brain injuries in veterans"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQVWhieVhRN0tHZTBIYlUtMlk4aTVIMWFKNG81cnpXcFp2Vm9WWEFPN004OXNnMVVBNVhncnJ6R0ZmV21DTHNHVl9PeXhhWVNNRUpyRXd0YlI3VEJVTlhlR3RaRS02aDFDbGM5Ym5uM1N6bFFRc01kNmU1QWxJVHotREhSeE84YjU2MmJsOWtDRlk0VWNXakdBbmxRc1JMWjFxR2RHRVpJcHFKRldlX2R5T2VxR1ZjUmZ4MUdVeDNyMU5EX3NTWkoyQlhkYWJydU01U2kySUJGT01Ob3E2bzBLcFVyMjJjUzhwUHEybWR4eWQyODBCaE1tN1Q1RnU1eV9RWnNsd0MxcWhGVmxzYkViaUVOb2w?oc=5",
+   "title": "QuidelOrtho Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of QuidelOrtho Corporation - QDEL"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE12dVE5aDBuU0o4LXl5N19odlFMMzZwbEFhY2g0d20wR0FHbVlZQ2Y5X2xocV9ERlZpbk80OTNwOFdZOTBqSFJOTGc1QktaeGVFTTFxUERLVWlkWkFMa2dMVUZWY1hoWmYtczJKbXhNV0xYeUhZSHNaMmdB?oc=5",
+   "title": "Virginia 95-61 Bucknell (11 Nov, 2026) Final Score"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCYlgtSU9WYUd1STdjY0dfeEtBbHpJVlVYTTJfeERPMjhhRlQ2bnNvclFpUXV5a1ZfSlBQOG5hd1l6OF9BNlUtcFV1a2Yta1hyR25kei1jWVpQYW5jUTZMakZrMS05eFBQR1V0UXZYd0xJS1Iz?oc=5",
+   "title": "Virginia 95-61 Bucknell (Nov 10, 2026) Final Score"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPekJiTlRhcW9pMlVZM2MtNFBNWEdsWFZqRkNXaWpjUDBqRGJrbEpjc1Z3a2s2TnZiZmhlbFF2QndDY29hQW5HU2FiQUEtSFhzVXk3cVY4R0RMNEtpZW42b2RTVnltTWRXUlkySUZIV1ZTYk5FZDRTU1ZhLXRQYWlxZnNla182RVp6djhZZEEwWEZJaExOUkYwczFkWXFSMzlMUjdVV3FaeVcwWEVuS1Jr?oc=5",
+   "title": "David Teel: Virginia Tech, UVA hoops among Tuesday’s crossover highlights"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lTkRHOGd1ckRqRU94OXN4WnBVWmQxQ3ZVVmRlTmJWbUhCVDYxc2MzYndoMnVaVVZEbVFKSURVQ3lmeFpDNExMMENnWUpFaTF3Q01EbVZPTzFJN1F0SUlWNzZPczM2QkhuenRuYnJUYm9GQ3VsdzR4TnllcU9aZw?oc=5",
+   "title": "Virginia 95-61 Bucknell (11 Nov, 2026) Play-by-Play"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdEJ3clVGSEVXdktXVnpVeTRjUmU1OFFPSmxlcnNZZy1nTU01MVkzd3ZXZUhtbDI5aUViTl9uR1ZkQjBZWmtXNEU2VDAxZW8xQkwxLU5mR1Jpdkc2WHVoVG8tZzNiZmJrUFlpNGc2cDZYYi05UGY1TnZQZW5nMEJ6T1hIZDFkMzF4QkpXSW5ubTEweVFrcE5uNmYyazNhQQ?oc=5",
+   "title": "No. 6 Virginia dominates Bucknell to remain unbeaten"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYTB2ekpKaGxoeGtjRF9taHA4Q01TRlo4Yk1RbGkwVWlnMENXZjJJR3RPN2k3RmVLbjFsYmM4ZURnN0ViTGgtbG45cmhsX1B5WkxPOHVsQWVrbWotRkVKYjN2UjZkX05TSENQMDlTRG1naGdkbGJ2blNablFoMVp0a3BocUtOWS01anFUMWZQTXZVZ3BOdGRGWXNDLTQyR1BjSHpGdw?oc=5",
+   "title": "Holland & Knight Health Dose: November 10, 2026"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42848964/",
+   "title": "Emergency Department Visits for Falls and First-Time Seizure."
+  }
+ ]
+}
