@@ -11,6 +11,45 @@
   "signal": []
  },
  {
+  "id": "069e8c2e0744abbf",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "AHA requests Congress to act on key healthcare priorities before end of the year",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaEJubjI3LVhTUjlpRzhtVkZDV014Y1RZWUljdEhpb3U3cVJkc3ZYdklKOUhtc2pWQVNPenhJaWNrMlJ1M0hPOWlzLXhRR09fY0I2bHo5TUdfT1lVX3FpYzdpeUx2WkR2dUdDUHYzV09rWE5NaEdoN3FrMzNoT2VrbmJ0dzRhblY3a09XbmN2ZEJBMXFpTjJkZWg4cHA4V3drV3dEbTZKTEI?oc=5",
+  "date": "2026-11-16",
+  "snippet": "",
+  "publisher": "American Hospital Association",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-11-16T23:38:11+00:00",
+  "signal": []
+ },
+ {
+  "id": "f42a28cb751721dd",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Insomnia, Apnea and the Rest: The Sleep Disorders Most Common in the Military",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOemdkaFd3WHBJb3R1TEdJQ2JLNHYxVzRNMXhBSHRqWnNCQ3A0NjA5aHRNUGplQmw1ZEw1Nzd1QTZGRWVWWXlpWFRlUmtjOUVzYlpLUGhPNFRsTXJUbWtrempkNERod2RzcHlSTEFnbUFvaVJ3b3FqVVI2Tmo3MVlBbGYwYVRqT1dqTmNGel9LU3dtZHAwN3NYM0lzN3l0N2FhZlJ4RTJyMDhSZXRLczU1QkxlaXhwRF8wbzFjSHJEck1ScWM?oc=5",
+  "date": "2026-11-16",
+  "snippet": "",
+  "publisher": "U.S. Medicine",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-16T23:38:11+00:00",
+  "signal": []
+ },
+ {
+  "id": "f02b8276d6e02776",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "U.S. Veterans With Direct Exposure to Agent Orange Have a 99 Percent Higher Risk of Parkinson’s",
+  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRzUzaUN1Sk50Z01pcDg1NGR4WjVfZXVXNlEyVU1VTlk3SDZ2bDVGdWFjY0hhbGQyUG1jVGZuRUFmWDRQQWtpb2JfckxkYjlFZ1VZV0phMFdLQ3lQVXgtU2VZTElPVUpieTVWRzl1YmRLb05LS2V2TkhqV2xEeDZtUDFjQkxMemlieGE0ck5qMG9iMDgzMzdNam42MFRNZThselMzZ3BHaU1kTlpkZk5XVndZMkVVSE5DTmJSQmE1VXhXb3d3MGxNdWl6TFNodw?oc=5",
+  "date": "2026-11-16",
+  "snippet": "",
+  "publisher": "Discover Magazine",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-16T23:38:11+00:00",
+  "signal": []
+ },
+ {
   "id": "9bc8216016ca8b76",
   "competitor": "Quanterix",
   "source": "News",
@@ -1073,6 +1112,21 @@
   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
   "first_seen": "2026-11-05T11:44:16+00:00",
   "signal": []
+ },
+ {
+  "id": "f5d70aea1f6fcdc7",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "Multimodal MRI correlates of elevated plasma NfL and GFAP in Parkinson’s disease with probable REM sleep behavior disorder",
+  "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0td2VNQThjZ2I3T3BDMkpid0QtN1EtV1U1OW93WTZRdUxNb01vbDBqRnhtdjVGQTNzWXhQMFNrWVRjaFhxM1ZzbkZOVzlPWjZTakhjTWEwalR0M3Z5TDlN?oc=5",
+  "date": "2026-11-04",
+  "snippet": "",
+  "publisher": "Nature",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-11-16T23:38:11+00:00",
+  "signal": [
+   "GFAP"
+  ]
  },
  {
   "id": "d0c6178e23c22b3f",

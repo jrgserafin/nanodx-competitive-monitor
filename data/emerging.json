@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-16T20:47:59+00:00",
+ "checked": "2026-11-16T23:41:02+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -754,6 +754,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-11-13T03:10:10+00:00"
+  },
+  {
+   "id": "02f15efa0a97b2fb",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "You Can See Something: How Diagnostics Companies Are Rising from the Ashes of Theranos",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNUpHWHdsaXVzYWRqS0k3ZmRQOUVJMUlKOUpaeUpMZDJyNG52Xy1CZWppa1ZtcWdYRl9pOGk0WVlxRGU5bEhIX0Y4a3VFN2dtdjVHZ2Jidkp4V1FndlozSlk1cFRqaUFFMTdBMXFsWmxhZG41TDRvUzVMZnBXNnU2bGR4d0lVLXZDRzM4cWtuRWVIdXdQa19WaktkeVZtMkNsa1dFMnVFYWIwRWRyVzlDWlNtY0pFcFB4aFFFd19IMDNSRkFsNGpQcTdOYmVFR09WT0JiYU0xZlRwNzU3elBF?oc=5",
+   "date": "2026-11-06",
+   "snippet": "",
+   "publisher": "Inside Precision Medicine",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-16T23:41:02+00:00"
   },
   {
    "id": "be29847ce311e02f",
