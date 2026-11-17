@@ -11,6 +11,32 @@
   "signal": []
  },
  {
+  "id": "db80463320423f10",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "American Century Entities Disclose Over 5% Ownership in QuidelOrtho as of September 30, 2026",
+  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYjVFQi1tMWZmVGFpLTFBd0NyUEtlM2tBTEpQR0hzTXYyTlZ2eG9DLTJiZ3JtSGNibjFiemh3Zi1XRklVbDVXeEJrYWZqX1JTSG9BbUFmVjhSX3k0dUo2MXVrWE4zYnBxRzltTWlhbjhySG1ZM19aU1hKS0NJVXFKc2diSFdacHlqbkg0dEkwQUFNSC12blVBdnM1WVZ6SUVjcXV4bEpQZVVTZFZFbW5wYnEzb2RrQzBMRnFMck85S25vT043cm5fY2hwSjZtd0lWeEVv?oc=5",
+  "date": "2026-11-17",
+  "snippet": "",
+  "publisher": "Kalkine Media",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-17T22:46:00+00:00",
+  "signal": []
+ },
+ {
+  "id": "4c39be3498033ac0",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Still opening doors: His traumatic brain injury recovery continues more than a decade later",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONi14TUtNbTlpZUtlZXVLNFo0blJyS3IxeHZWOWFjbWdCWnNreXZFSi1Hb1R6ZEhhUHF3UWhwZGc1LUN2cTdiaHFKR0NDamM5RF9DTWdick9HOFZmbDJCS3VXbmYxVkxsWEhPTHB0MGp1eTBkZURjVjBFZHk4dUdvbg?oc=5",
+  "date": "2026-11-17",
+  "snippet": "",
+  "publisher": "UCHealth",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-17T22:46:00+00:00",
+  "signal": []
+ },
+ {
   "id": "c22dc2c7ca1ae002",
   "competitor": "BrainBox Solutions",
   "source": "News",
@@ -486,6 +512,19 @@
   "alert": true
  },
  {
+  "id": "2715f409e9982591",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QDEL SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving QuidelOrtho",
+  "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQdGhpc0dmb0VDZVhNdEdYdHFnRS1fVEtwMkpBN2dTNGNFRWNRN09tRkRIZXlwSHFSUWJ4aTFyUE1TNU5IdWIwTFY3M2dGcVpFeVpXTnB6VkdiRUpPX29ubFpTX21ReWhmSWdiT0VsRlk0V0NuMElYZDZIRzhTZDBKN2JuRERsRnA3ZXdRcWQ4YXEyT3pidWtibWROTDlrTnVsdzRGM1FHdlVkbHljbjE2bnBob3d4Vl83Y19FZ1ZVYmVqNVZEVDZxc0ZCeGxTV084OFJGWGpfcFp6RGMzOU5PZ3B5RFlyM09MdXV0MWlfb2ZobnhIVElEVDVQVFU?oc=5",
+  "date": "2026-11-10",
+  "snippet": "",
+  "publisher": "PR Newswire",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-17T22:46:00+00:00",
+  "signal": []
+ },
+ {
   "id": "0d312f0d9b1081e6",
   "competitor": "Lab reimbursement (CMS)",
   "source": "News",
@@ -538,6 +577,19 @@
   "date": "2026-11-10",
   "snippet": "Neurology. Wang AY, Wood AJ, Zhang C et al.",
   "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "91c7c67091e5b721",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Study will test whether hyperbaric oxygen therapy can ease invisible brain injuries in veterans",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY19BT1BjSUVXWC1KQUlLeFlNNEZVdzRxWm1lT0hwNWVmYjJ6c2MwZkQ1YkNBV1BxUkhSdUladmxIZDY4bktBOEtXZy02cHFwRWZSanhwMXdMcGtsczdscWZTRlJmcmlyWDJJVWEzLVcwZEhFZnVFZUZCVzZrOV80cWRxb3I4X2V2WnVrVg?oc=5",
+  "date": "2026-11-09",
+  "snippet": "",
+  "publisher": "Medical Xpress",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-17T22:46:00+00:00",
   "signal": []
  },
  {
