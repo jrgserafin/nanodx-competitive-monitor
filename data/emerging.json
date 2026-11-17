@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-16T23:41:02+00:00",
+ "checked": "2026-11-17T19:32:39+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -313,6 +313,71 @@
   }
  ],
  "news": [
+  {
+   "id": "831fba58799e692c",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Nanopath raises US$25m to bring rapid vaginitis test to market",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOckt3YVN1Wlh2Ui10YUMwOHgyMk0teHd4dURTVDBwS3dfcHUxMFRJRGdxRE4xODBqM3VjajEtVWRhSDVyNmFfX1NNNmZQNjNTb0VKRXFzWnJqOS1uRlI3enRwRVFrYThtQTJjSXFrN0JoR3JFWHZMNVd0MnI1Y1E4VmtDWFNKakFONWZWeWNVWUw1S1JqbWhWcmwxRHZ3dGFWaVVZaUs3MA?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "FemTech World",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-17T19:32:39+00:00"
+  },
+  {
+   "id": "efb6de3c4a8a228d",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Werfen Receives FDA Clearance for ROTEM sigma Trauma Cartridge",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQazhKRHRwX005WVMyNkd2LVBtRi1BbGU1V2JacUlBT3E0MEFoUWREelVaNUhiNnRtQmRqQTZhZzdrQkFMT2tYeGJMTjJfdE4wT1I5cGVLVmUtRVdiazJlUGpvSnVRM0dXTzZFNUNGWU5TVGRDMVpGUVpzZDBMTUl4djRxRzRDejVNbko0MFEtM3d6Z2dRb3FOZEpzNURaTmNfSHg5eXZORHVFWWh2aV85endIb2U3LS1LUU9LczZhaDR3OHNkZVJ5SlpRUGZGUQ?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "Clinical Lab Products",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-17T19:32:39+00:00"
+  },
+  {
+   "id": "ef6c18a9f1832315",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Conexeu Sciences Announces Early-Stage Development of W.A.F.E.R.™ Sheet and W.A.F.E.R.™ Lattice, Fabricated Formats of Its Investigational CXU™ Platform",
+   "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQcjJiUWJjN2phVGJJN056N2cxNUVRSEYyaHdEWDBtRlJMSmFkMkdOTDJFM3RxajdadTRrVkZJZEt6N3dzdEdPSTZmNmtWbnFRcGxtSWtfemU4eVZjTGtfdWVSRXdxa1VNY1J2bWo2aXl3SU9UWVRxbGtDNUJISno2OGpaazVvTDZJZkZnR0RveGdQY2c0bTNSS29lX2ZZTXN3UC1yRzhWalpteUJKMDR2d1VnZUE1UWdKNEUxM0g1VXFHU2RYRWlPY2FwN19OT1BHakRzalcxV01TazNmTVNrUzhwMnVwZF9FUUZmc2RnUENoanZPdUxoZ25jbFRHNjJXZmppOW93WS1wRFN3QVNTWmFoMmw?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "BioSpace",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-17T19:32:39+00:00"
+  },
+  {
+   "id": "3c6acf64fdbaa9ef",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "MedMira Receives U.S. FDA Breakthrough Device Designation for Its Multiplo(R) Complete Syphilis (TP/nTP) Antibody Test",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPc3NEM1VWdVZBUU94bkxnVzBucm9NTFJaSW1IdUxDZ1pIdTd0WFNVaTl2NGpENXlVMG9rU0FwOGtWQ3U3RnR4UUx6M291TWI2LXZuMEZNamFodDVkNmlHQWMxWFBGb0RpUGctOG9VT1JaOFFyaDUxQTV2S3RkODFHOV9DNHR6WWN4QzU2WlQ2akc4Sy1ORThnbUVrMVIzY0VWRWVfNjUybGVILUFGZTRja19vOFgzSXJxcUxrbHBSbU93QnpNZE50eHVfVzdPMVhIQWNaRWlkZTJEeGRrdjZSdUFhdDludTBrSTVfbllNVHRJN0ZGa1N4THRMamk1NFVCVWFGMg?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-17T19:32:39+00:00"
+  },
+  {
+   "id": "dd29ac4ec12b7539",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Wearable Neural Biosensors Show Potential for Early Detection of Neurodegenerative Diseases",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMGZpV3ZhLXcxeVRQUmpZeVFUVzU0aFhOV3FNNHh6OTJ1NEVadUpWNFhMemtfbDBWY2hIdmhPMTBRV1ZycFJYWDNPQXoyVG4xRWg3enpIdXhNSEtJWE9OWjJSYjNnYXB5T0ZKSWRqRUxBWnZITk9hd3FqUU9ucXpfenJiZlJFSTBMdnNiLUVhSmY0ajNDSjNPUGM5SmxDZ2lrY3dIdENqTnhfNVQwRnFzLUFpZTRUZWM?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": true,
+   "first_seen": "2026-11-17T19:32:39+00:00"
+  },
   {
    "id": "799542a35d037580",
    "competitor": "Emerging (POC)",

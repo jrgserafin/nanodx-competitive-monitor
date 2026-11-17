@@ -11,6 +11,47 @@
   "signal": []
  },
  {
+  "id": "c22dc2c7ca1ae002",
+  "competitor": "BrainBox Solutions",
+  "source": "News",
+  "title": "BRAINBox Solutions to Present Data Supporting Multimodal Concussion Diagnostic/Prognostic Testing in Geriatric and Young Adult Patient Populations",
+  "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPOVp5ZkJDYTEzWW5sQUZ1eDQ4eV9RU2JKQkg5RDVGQVBfZ3BUUExDZVFtUV9ZWWFlQTV4UFc4NklpbDVNTDl5YjI1a2doa3VnVGJJeExIaFZMclVhZDRpaTZDWndzZG9hTFdWRjd5ZmoxS1hVblAyaFVFdjI3ZUgxczM4dlpPUGNLbUdJdjNJNHRQN2p5QUNfVElJQ2dCMXA2QlpMbmRxWlJVbTVwc1ZXd290OXNvZVlYdEs5R2JPa084TW9yZHVnaUFQQks2U3lEX3Vzb2o2Ml9wd1EyWDVvMlY3VS0yMy1YckRsdDg0RGhnUVdZS3JMTFFWZjJ2YXBjWjZaRzJJRXVLMnRhdVVtdUpPV21KN2o2bHFQZGZmdE5DbXo1d19BMw?oc=5",
+  "date": "2026-11-17",
+  "snippet": "",
+  "publisher": "PR Newswire",
+  "query": "\"BrainBox Solutions\"",
+  "first_seen": "2026-11-17T19:30:06+00:00",
+  "signal": [
+   "concussion"
+  ]
+ },
+ {
+  "id": "e4debe58d26c07cd",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "European Guidelines Support Brain Injury Biomarkers but Belgian Hospital Adoption Lags",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdDdIUTNwXzRfM2dfelR3ZXg2RW9qRlVLSWNYWlkxQURmbUt3Sk84c21QUlFiY1RhS2FUaC1HbUpzUW9LVmdlU0dYWU9jQnhvSm9Iem9yMmFncUNaSXMtT3ZJVmJheUVzRDZPTUdyV0plVjhyR1ktbjRYclBGQVVRQjZic05OakowdkFpTzVzb1hweWlzVFMtZkVPUC10MmtiZENzNnhWMEJTTlExNXJ5RQ?oc=5",
+  "date": "2026-11-17",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-11-17T19:30:06+00:00",
+  "signal": []
+ },
+ {
+  "id": "db5eeea2975183f7",
+  "competitor": "International TBI tests",
+  "source": "News",
+  "title": "European Guidelines Support Brain Injury Biomarkers but Belgian Hospital Adoption Lags",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdDdIUTNwXzRfM2dfelR3ZXg2RW9qRlVLSWNYWlkxQURmbUt3Sk84c21QUlFiY1RhS2FUaC1HbUpzUW9LVmdlU0dYWU9jQnhvSm9Iem9yMmFncUNaSXMtT3ZJVmJheUVzRDZPTUdyV0plVjhyR1ktbjRYclBGQVVRQjZic05OakowdkFpTzVzb1hweWlzVFMtZkVPUC10MmtiZENzNnhWMEJTTlExNXJ5RQ?oc=5",
+  "date": "2026-11-17",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "(GFAP OR \"UCH-L1\" OR S100B) test (Europe OR \"CE mark\" OR NMPA OR Japan OR Korea) brain injury",
+  "first_seen": "2026-11-17T19:30:06+00:00",
+  "signal": []
+ },
+ {
   "id": "069e8c2e0744abbf",
   "competitor": "Lab reimbursement (CMS)",
   "source": "News",
@@ -95,6 +136,19 @@
   "date": "2026-11-15",
   "snippet": "Advanced science (Weinheim, Baden-Wurttemberg, Germany). Farrokhnia M, Babamiri B, Jalali P et al.",
   "first_seen": "2026-11-16T20:45:09+00:00",
+  "signal": []
+ },
+ {
+  "id": "45682864d57f356f",
+  "competitor": "AeHealth",
+  "source": "News",
+  "title": "Men's Basketball Falls to Columbia at Home, 77-59",
+  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWUs4amNqeFV6eGhubmsyUlh4MzE0TWpTem55TkR5N25VNUZlRERmYWIyc3BBYUZrLVp1WFZOcGoyVTVNNjRGNmYzTXBBaTAxdmNCaHB6X2xHbTZmVUgtNms2RV9leVlGckxhcEIzWEp4MXBxcFB4ZnJVbllVTTQ0bHhzMVZlbkVBVWtEZXZpcE1reXc?oc=5",
+  "date": "2026-11-14",
+  "snippet": "",
+  "publisher": "Bucknell University Athletics",
+  "query": "\"Lamuno\"",
+  "first_seen": "2026-11-17T19:30:06+00:00",
   "signal": []
  },
  {
@@ -203,6 +257,19 @@
   "signal": []
  },
  {
+  "id": "b0f961e7e2165ef6",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Q3 Operating Income USD -7.5 Mill",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeklvdVFOX1NOUC11VURsZ0k5MjJCTmxyMElOdGtXVWJlR0U0SERfd0piNnVDb2I5NlRxV2JabWRneVZRQV9ZUFN2QWxIS25tYmhaYllKRUlfTWdxVHdOa1o0MjNsRVFKZ19RQk9wdTRxM1dQTUlEXzdTaktfUFRwTHZ6cDVkdmMtWlZjcHZlM2FtN2lWNGtN?oc=5",
+  "date": "2026-11-12",
+  "snippet": "",
+  "publisher": "Moomoo",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-17T19:30:06+00:00",
+  "signal": []
+ },
+ {
   "id": "3a86e0f353a09099",
   "competitor": "BrainBox Solutions",
   "source": "News",
@@ -297,6 +364,19 @@
    "reimbursement"
   ],
   "alert": true
+ },
+ {
+  "id": "7df9e100eed9ff49",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "What Has Changed For QuidelOrtho Since Its 60% Fall",
+  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRDB0ejVqS0V1bDVyVk9DUV8tV0pXZTBTekdMOXpvajM3SWRHeVFkMHJqZHN5SDZaSnp1YVk4dmhOUkFkbmhBdVVvTVpEVGl3dnlEajhBalFNR1NCMjlCV1Q3cG1FTmVvM3N6SG50Qm5hYXBObkRxUDZWYlBad3BsOUloczNrMXRmaVVNaWVLNmszaHFEd0pRaVFWZGRQX0ZNUVNHQVg4bjFBS1NiNENzZkZ4cDJHb245bzNVQ09Cd9IBxAFBVV95cUxPTFA1X2ZTN3ktS1lXWDRnM2l3ZFZiQlJMNHVtTlM0M0lRNjB4cHNpUmsycl82OTlRY21lbC1XMVZzRDlpaEhPMlpralZRTlBaSGRySkd1cVVCV3k4ZHU4d0EtTmJhOGNWMUR5bW14RTF1MHV3VVc5QWktd0swLTE4MGRrblNVRGlFSktGOGFYdlltNUpGUVZVOUZwTnNheUJXX1p0Z00zd1EyenA2c0RQQkk5Q3NWWnBnaVZOczNFYk1JZlFm?oc=5",
+  "date": "2026-11-11",
+  "snippet": "",
+  "publisher": "Simply Wall St",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-17T19:30:06+00:00",
+  "signal": []
  },
  {
   "id": "a31a97fde62e36cc",
@@ -864,6 +944,19 @@
   ]
  },
  {
+  "id": "d8029e75fe71c291",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Uncovering hidden wounds from war: Air Force nurse helped identify traumatic brain injuries",
+  "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQTkJ5d0haTHdGb2JHM25tSkFFQlRtZFlhNUd1MnBXRzdINXpoOXFIRmFwVUlDQ2luaERReWZnakZCaEJOYk1hNkp1ZXlCcFRFR0pJY3VtZWFIZ2x5elBROTRwa2NGdEZfZ2djdUlyZ3dTbEJGdEhEc1dHOHFUNENhaGpvbDVxMlVfbTU3b1VhZGdkUHlBTjcyOWNqUG5MZlFpdkRPdHpWYUtJRU9tT2RLTjd6cU5xcHhVRjRheVFvUXZMdEZQQzZOZnZlQTUwZHQ0dVdtaVNiRVpQeExKRThQdF8zRFlrTU1Qc2QyWHdkX3hBNHIydWl6c0JkUVNfRndfbm9tYTZRbw?oc=5",
+  "date": "2026-11-06",
+  "snippet": "",
+  "publisher": "The Mountaineer",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-17T19:30:06+00:00",
+  "signal": []
+ },
+ {
   "id": "d7e71371d9c6f630",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -1111,6 +1204,32 @@
   "publisher": "Emergency Services Times",
   "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
   "first_seen": "2026-11-05T11:44:16+00:00",
+  "signal": []
+ },
+ {
+  "id": "b82c6e139e8c9274",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "QuidelOrtho Q3 2026 slides: profit beat masks revenue challenges By Investing.com",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcXBMUGlCMkphYXA1dlJpZGUtalRwWnVJbERZWE9YZFJJQVpaRFJoVFo0WHYtenlXc3dxQWlzTU9ob1pZX1EyTWRlSXE2N2dvU3N5VmhiZ3RKTnA5UjhPZmo0YTJ2eXRwRHQxUGV6WHI4WmRnMVNGeWJCWGtydHl4WFpJeFBJSGNMVGVodEhPcHRObWxzTllCclY5dERxLXJGYTUxYk9VVngtYnJKbWVMTnA5OEZGelpBWThYY0Y5SjdRZw?oc=5",
+  "date": "2026-11-04",
+  "snippet": "",
+  "publisher": "Investing.com UK",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-17T19:30:06+00:00",
+  "signal": []
+ },
+ {
+  "id": "0cf4550eed87ce98",
+  "competitor": "QuidelOrtho",
+  "source": "News",
+  "title": "Can USD 80 Million of Savings Offset the 12% Revenue Slide at QuidelOrtho (NASDAQ:QDEL)?",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOFhIcUZlcTMtVnlTSHFsdUNlQ01VS2tHNi1fMlI3SDd4NXpUdmVORzZ4Ykx6LVZic3dUT2dIUzdTbTFXZ0xLVG5jdmNJQm9Nb1g1eUJ4ZEk4dml3UEo5bEs5OVF2TUVWR3E1S2dVdS1TTWdBWDB0QlpUQTZZMDRoM0laSnR6Nk0xQ0Y0VlFZcTJ6eVNITzM0azFoOUN3Y3ZqWVpuX3FPVDRpR1UwZG56am1VVDdqa19nQkE?oc=5",
+  "date": "2026-11-04",
+  "snippet": "",
+  "publisher": "kalkine.ca",
+  "query": "\"QuidelOrtho\"",
+  "first_seen": "2026-11-17T19:30:06+00:00",
   "signal": []
  },
  {
