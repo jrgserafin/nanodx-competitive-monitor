@@ -1,0 +1,265 @@
+{
+ "date": "2026-11-18",
+ "generated": "2026-11-18T19:14:56+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "18e260362ffd1da2",
+   "competitor": "Lab reimbursement (CMS)",
+   "source": "News",
+   "title": "Digital Health and AI: Key Regulatory, Reimbursement and Policy Developments | BakerHostetler",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRGpmWmlpNE9vYW1wX0VJUmFYWFpXb195UndHeUMyOUp0N3ZiM2JoNHl5ampPbk1adlNCTkVYX0tlVTNQYW9pTWFxQUdGTkxsT01uU0FKdHFWV1BlOHdTN1JOYUdkZS12WHRJN3FNQUpueWJUOE5ERUYwNDA5d25aWmZKMVVTdw?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "JD Supra",
+   "query": "CMS \"clinical laboratory fee schedule\"",
+   "first_seen": "2026-11-18T14:17:40+00:00",
+   "signal": [
+    "reimbursement"
+   ],
+   "alert": true
+  },
+  {
+   "id": "cea46b3119996a4e",
+   "competitor": "AeHealth",
+   "source": "News",
+   "title": "Old Dominion 82-62 Bucknell (8 Nov, 2026) Final Score",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNThjUkhsRnNtc1BnbDNndWRmRGE1Sl9yeXBIcnRtMXhjYU9KMkVnUnhlN0N2X2xfbXJXSE1LQzNpU05nYk8zazRtVExOLWNpQ2ZLOFBBZkhNTnM4VUFaMjJSSUlfUzJRRVZiRTk5UklhcHBDLW9WOEYweWZkSEpwU0ptZUlKSXRaeklMbGJHVGUzdG8?oc=5",
+   "date": "2026-11-07",
+   "snippet": "",
+   "publisher": "ESPN Philippines",
+   "query": "\"Lamuno\"",
+   "first_seen": "2026-11-18T14:17:40+00:00",
+   "signal": []
+  },
+  {
+   "id": "fb2dbc6f26bdabaf",
+   "competitor": "AeHealth",
+   "source": "News",
+   "title": "Men's Basketball vs. Columbia",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MMU9GZWllS1N1M3huMHduN1B6Z0hBUDYyX1F0MXowSFJ3bnNrWk1rUjJLRTJ0d1phd1RCZUVENWpPc2NXNm5TVW1vM3hTTlRKeFA4R0s4WWswbjB6?oc=5",
+   "date": "2026-11-13",
+   "snippet": "",
+   "publisher": "Bucknell University Athletics",
+   "query": "\"Lamuno\"",
+   "first_seen": "2026-11-18T19:12:47+00:00",
+   "signal": []
+  },
+  {
+   "id": "f7d92386c21fe240",
+   "competitor": "Military TBI screening",
+   "source": "News",
+   "title": "Understanding the Long-Term Effects of Traumatic Brain Injury in Military Personnel: Clayton Mucha, MD",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGd4M05qU09VUldURDZkRDVkTFZTZVVBSjNEWWpvQmJpVTlXWDRYbnpjNFdqc1pzNXBGN1VpRmhaYXI2Z2RhelZsdktndGRBbGF3dFNiTmlVZDVsLVZmTWhpZnl4eDE1QnFVN1djVmctODFFUEI4am5CQVI5MDhlTjZXc3lob1ZsbURENmE1NURTRVNyMTh6MXE0b3FubW1Xek9RVEcxQVZXYmN5VW9PQmlJTWVaYjQyd0FOUC1pTGg1X1k?oc=5",
+   "date": "2026-11-11",
+   "snippet": "",
+   "publisher": "NeurologyLive",
+   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+   "first_seen": "2026-11-18T04:00:28+00:00",
+   "signal": []
+  },
+  {
+   "id": "d9275e8822b97d95",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "ALZAI Health Corp. Enters into MOU with Quanterix Corporation to Advance Early Alzheimer's Disease Identification",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQkljeTc5WmRHRnF6WVBBaVJSSW50Z05KWnVBSTl3S3NEMGZnTFpla091b0hyTXVaOUJZN3B3Y1FRUWpVQTQxMDFmbzNkaGxTR0JWWlNLeTU1cjE3cGZ1NnJqblB0RS1OTi1yNUxmVEdjS0gyV1pNRjh2bjlBV1ZQOVBrYVhLTk1wcmtmSGFmbGVUd2s?oc=5",
+   "date": "2026-11-13",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-18T04:00:28+00:00",
+   "signal": []
+  },
+  {
+   "id": "37405ec4b8d3ca04",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Less than a year into the job, Everett Cunningham steps down as Quanterix CEO",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVTRQSnEtQUJWNGw5RnhJM2dEdy1QNEI3cG1aU1RRNWtmcHplalQtaFFVajNLbk5kcENxSVpPSWw3TE43dGU3cE5QRTBFLUdueVdxNlFtWlBUamZoMURTd2ZzLTVnWWJCd0c2Unp4RVRTWDJNbnRWWnFlMzNDek1KOHdOQVA2SkJGcjd4NTh0R3ZpZ3NtVm5CWnhlVQ?oc=5",
+   "date": "2026-11-18",
+   "snippet": "",
+   "publisher": "Fierce Biotech",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-18T19:12:47+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbXhkbXFEY1NPa21yT3NKdURJNV9SSXJqQ0FJeE5SUUcwbFBfRmNCczdzZms0Q0ozaEhzRkhMM0pBUkVURGdTTFVfb2pPeEhQTlJfWV9QQlBOYm5lUWIyRUVHLUxXZkJCampmOXdENUxBQTA4X0wtSWxNM2hkUkZmYnlTMlo2bVdsSTRqM1R0cm9uZWwtUy1weVNSc1dVNXltVmRSYVFKWlQzWGhKbHhkS2xjdnhjSktGa2JvVUtuMS1tSklsSVE2bTZtVmViQzVsX29kag?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "d9129ac6bcc6a3fb",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Appoints Jim Gute as Interim President and CEO Following Everett Cunningham’s Departure, Reaffirms 2026 Outlook",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOVJGQTZwcUJoZktkMlQ1UXJnMHFMcWFJRDloSUU5YmhaTDYtWk84aV8tNXhDdGk3ZE5TampFclBPUTRMbXpjZGpxWmNZR3hONUVEd3h6N3BOVy0yLUlSTWhPOE1WQ1JtQ21YY0wzZy1IaExkNzNpX3hMSkQ1Qkw5UGFrSThaVkdCUWl2T0I4QTZkVy1FOUN2VmpkcVhRRHJEX2ZQdjl3QkQydFQ3elAyNTl4WHZJN28zQU5uVlFNYnVQRzI1VGN0YWVnVDlNRU5aNWFqRFNldXpYZ3ZjM3lEMjV6SDZYWGhiXzJNOEV3TQ?oc=5",
+   "date": "2026-11-18",
+   "snippet": "",
+   "publisher": "citybiz",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-18T19:12:47+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOV9vaXNubWRmMG1QQV9LaVpPV3VDa1ZvNUhRZzZpM2E2NkZJRks0TEFOdWJXS0xKU1EyWWdmLXRiLTBFaEdvU3BPeXJUZUZFRWFUb0NkNG10YkNKRjIwejZwQWc3Mm9ZejJ5bmx4OUNwWktJT0d4eEk2NVJHN2JFTFg5S05lVlBYNldRMlZWWDRhYzFoUmtWUm5kQTA1eHBSMmE2a0lOWGM3cWdzVkUzMGdnaDNYMEtBR3lHU19idjNJSTk1aTBoLVk2Zw?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "a98418fe1d08b41e",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix CEO steps down; CCO named interim chief",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRENuQ1FRZW9LMFBNMjBVZTA0UXhhVmJqdVNIUzFOdHV4bXM1QS1JSWNvWWhDZzIxZVJCWGtMOGY2dUU3V3U4YlFhdlp2Y2hOSk5uMmVUeS0yTHhYQzF0bC12ZTVlRjc3SndOTk9LZXRQN2JwSnB1Mm1mcUNXbDhWY3FLU1RSdU0xbkJNS1l1MUdoZnphMXc3QXFFN0ktNTdVZFJjVU9fR3kySEs2cDRr?oc=5",
+   "date": "2026-11-18",
+   "snippet": "",
+   "publisher": "StreetInsider",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-18T19:12:47+00:00",
+   "signal": []
+  },
+  {
+   "id": "e647c1fcaed14c44",
+   "competitor": "Quanterix",
+   "source": "News",
+   "title": "Quanterix Announces Leadership Transition Plan",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN2lUbnl5LWtlYWc4blNaSXFnYnR4QWZXdUNnRlZhRDBMNjY3Y0M3TDhTdmtJLWlHWmZHR2E5ek50MlY5cmJLeWpOSGtBdzlUVVdDeDF0V3hLZERKZVJ5X0NHUmRDazdqZkttR01ZdjNneTVWdW5ZMnBGR1p0aHV4RVJ2XzQ2MkxvQVNqOWJvMVpZdGc?oc=5",
+   "date": "2026-11-18",
+   "snippet": "",
+   "publisher": "Quantisnow",
+   "query": "\"Quanterix\"",
+   "first_seen": "2026-11-18T14:17:40+00:00",
+   "signal": []
+  },
+  {
+   "id": "b5e4ad85efc45e84",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho cuts revenue forecast, announces $1...",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ2lBOFNMVTlmd1V5MHhQcW1pMUFtN0Ntd1ZmbW1XTjg5TTFteHNGNTl4akZKYU9SdTFMU0FqVzNkRWRndENZV3RtTmZmMFpDdDByMnhzTmdRSVZwc0JVY3VLMGQ5UHJsd2NXcC1jVVc4N2hwaDZGeWdtdVBsblpZNEd0b2c0UHNKZFhxYU9HNzJtb2Z6WFR0ZWhCYlpxVWM?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "Pluang",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-18T14:17:40+00:00",
+   "signal": []
+  },
+  {
+   "id": "2715f409e9982591",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QDEL SHAREHOLDER INVESTIGATION: SueWallSt Notifies Investors of Potential Securities Claims Involving QuidelOrtho",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQdGhpc0dmb0VDZVhNdEdYdHFnRS1fVEtwMkpBN2dTNGNFRWNRN09tRkRIZXlwSHFSUWJ4aTFyUE1TNU5IdWIwTFY3M2dGcVpFeVpXTnB6VkdiRUpPX29ubFpTX21ReWhmSWdiT0VsRlk0V0NuMElYZDZIRzhTZDBKN2JuRERsRnA3ZXdRcWQ4YXEyT3pidWtibWROTDlrTnVsdzRGM1FHdlVkbHljbjE2bnBob3d4Vl83Y19FZ1ZVYmVqNVZEVDZxc0ZCeGxTV084OFJGWGpfcFp6RGMzOU5PZ3B5RFlyM09MdXV0MWlfb2ZobnhIVElEVDVQVFU?oc=5",
+   "date": "2026-11-10",
+   "snippet": "",
+   "publisher": "PR Newswire",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-17T22:46:00+00:00",
+   "signal": []
+  },
+  {
+   "id": "e3f787bc8f2a6a51",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Corp (QL1A.MU) Seasonal Returns Chart - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE05T05DWGtNV0c5dGdhY2dFUnpiQ2RDMGVtOHhtLVJKamozdlA0SVEzSnF4XzllLV96SXNoU09mMW5ESkJCMUItNnhpZ0drMWwyOXN1MEVHTnBpUnhTczB4aFJDQk53UQ?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "Yahoo! Finance Canada",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-18T14:17:40+00:00",
+   "signal": []
+  },
+  {
+   "id": "0311a29385ca0b00",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "Law firm investigates QuidelOrtho officers for possible shareholder rights breaches",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbURyaWIxUGhfOEpuY2dJMXY2UlRFenRBNVhCWjBlQTZhNE9UWDQ4ZXJNTGV5NjdKT012WDYwT0JWZzZ2S0xxb2hlT1lIMmFXVURVbjU1dHhGM3FaWlJaRVJHT1gtMjdvazdhbjJmcmREeG04d0xQNzBOMmQ4WU56TDl0aldBTllJamt1S284TjJzOXds?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "Pluang",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-18T14:17:40+00:00",
+   "signal": []
+  },
+  {
+   "id": "eb44125b34f8c53a",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho Earnings Call Signals Pressure and Profit Recovery",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUEZDYVVra3NtcWZBTERHTV84WGtNNjRkQkxEaEgya1RmS0R4amM5VzRwZWxZT1g3bk9heUc5clkwbzlsUk9wd1Q4NHBmcU5kd3hzUE9oZm4wZjJjbkJrS1o3c0xhdmhXakVxWTZIbXNrZ05QblJBTWZOY3h0dTc1QjNIZGFTZDBKV21aTXFGYV9oaFFmcVA2SlJ5eHJVV3pXZy11Z1hSMkFNOWhQYkZONXQtRlQ?oc=5",
+   "date": "2026-11-16",
+   "snippet": "",
+   "publisher": "TipRanks",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-18T19:12:47+00:00",
+   "signal": []
+  },
+  {
+   "id": "e172b3d314e836ca",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "QuidelOrtho (QDEL) Securities Investigation Notice - Levi & Korsinsky",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ284aGxDRncxdlZiU1lRQXBMRWNqY3ZsUXFDZWpNNzVPUG11LUFVWTl1YlFLQ2lWRE0yYWd6dWU5eERxb3ZoWHVWUEhMamZ0ZVVsOFNUcXdLZC05QUREOXRwbG0zM0pNY2VfUmFFZmtTM184SG9TZC1MXzh3RmNDRU1zUzFWa216RHhZYko5aEN0TVVWODNUa21kajdxZGhTMjJsd0hpbm9GY3RhampidVE0S0QxalR1SDhwVW8wNA?oc=5",
+   "date": "2026-11-16",
+   "snippet": "",
+   "publisher": "PR Newswire",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-18T14:17:40+00:00",
+   "signal": [],
+   "also": [
+    {
+     "publisher": "GlobeNewswire",
+     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZ1BFY3Z6Sl9DZDdDcG9TT3hyMEJHNmdtRE8wMHJLbW5BR3BZUEJZU0Zla0N1QlVZeWJSM0lfTTFLblJRWTZvcG1ySnNScjdzRDlHWnJtaXhkRkJtcDlpX0FaZXBreWtVOTVrdHMzamdzRW5lQ3Q2S3oyYnpIMER4U3BfVUZoSGk1eXlMaDhJZjhkN0lMWFpqSVpJU2xTUzhvNWpaaXpHRmc4MHMwWGdVU0Zfdk13YVE0Ymo3R19MQ1Ewak5fUU1CMkJvUTdBYXNBQ3FDU28tQ2RTSXd0RVkwNW1iZzVoUmhjQnFjYU5BWVY2RnJveXFaZnJna2VoQ29obWJucEI3VTNlaDB3ZmZ5aQ?oc=5"
+    }
+   ]
+  },
+  {
+   "id": "db80463320423f10",
+   "competitor": "QuidelOrtho",
+   "source": "News",
+   "title": "American Century Entities Disclose Over 5% Ownership in QuidelOrtho as of September 30, 2026",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYjVFQi1tMWZmVGFpLTFBd0NyUEtlM2tBTEpQR0hzTXYyTlZ2eG9DLTJiZ3JtSGNibjFiemh3Zi1XRklVbDVXeEJrYWZqX1JTSG9BbUFmVjhSX3k0dUo2MXVrWE4zYnBxRzltTWlhbjhySG1ZM19aU1hKS0NJVXFKc2diSFdacHlqbkg0dEkwQUFNSC12blVBdnM1WVZ6SUVjcXV4bEpQZVVTZFZFbW5wYnEzb2RrQzBMRnFMck85S25vT043cm5fY2hwSjZtd0lWeEVv?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "Kalkine Media",
+   "query": "\"QuidelOrtho\"",
+   "first_seen": "2026-11-17T22:46:00+00:00",
+   "signal": []
+  },
+  {
+   "id": "91c7c67091e5b721",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Study will test whether hyperbaric oxygen therapy can ease invisible brain injuries in veterans",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY19BT1BjSUVXWC1KQUlLeFlNNEZVdzRxWm1lT0hwNWVmYjJ6c2MwZkQ1YkNBV1BxUkhSdUladmxIZDY4bktBOEtXZy02cHFwRWZSanhwMXdMcGtsczdscWZTRlJmcmlyWDJJVWEzLVcwZEhFZnVFZUZCVzZrOV80cWRxb3I4X2V2WnVrVg?oc=5",
+   "date": "2026-11-09",
+   "snippet": "",
+   "publisher": "Medical Xpress",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-11-17T22:46:00+00:00",
+   "signal": []
+  },
+  {
+   "id": "4c39be3498033ac0",
+   "competitor": "TBI diagnostics market",
+   "source": "News",
+   "title": "Still opening doors: His traumatic brain injury recovery continues more than a decade later",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONi14TUtNbTlpZUtlZXVLNFo0blJyS3IxeHZWOWFjbWdCWnNreXZFSi1Hb1R6ZEhhUHF3UWhwZGc1LUN2cTdiaHFKR0NDamM5RF9DTWdick9HOFZmbDJCS3VXbmYxVkxsWEhPTHB0MGp1eTBkZURjVjBFZHk4dUdvbg?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "UCHealth",
+   "query": "\"traumatic brain injury\" blood test",
+   "first_seen": "2026-11-17T22:46:00+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}

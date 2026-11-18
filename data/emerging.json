@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-18T14:20:15+00:00",
+ "checked": "2026-11-18T19:14:56+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -327,6 +327,45 @@
    "first_seen": "2026-11-18T14:20:15+00:00"
   },
   {
+   "id": "43446e8ea47c2072",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Scrappy CRISPR Diagnostics Developers Keep Commercialization in Sight, With Reset Expectations",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaUctQUNkLUs4T2R6R0FOOV9VdW9kUWROTVBLQ1VBZGIwekJ6dkUtdkZlcTU2YjRZd0JwTUZ2NWxRNmc0VkxCcVlpd0VoVGswaC05eFhYYUtZdWJkVGRqM19iRU51Yl9wZFEwcmRaT21wcmV2cHktOHdpVkMwODBQVmFPNWY4UXlZRnJoMTN0aHlnRmdZTy1OVkhIajFzZW8zVE0xdC00bEFpdzV3?oc=5",
+   "date": "2026-11-18",
+   "snippet": "",
+   "publisher": "GenomeWeb",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-18T19:14:56+00:00"
+  },
+  {
+   "id": "4e5c2afc3ac11cf4",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Canadian Startup Myomar Molecular Brings Urine-Based Muscle Health Testing to Asia",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMUR3dWxLLUtkT19iWU80Sm5QTDFBaE1NMVZRb2FzSk15aFliejZKUWIzZDhFMzFhNEpTMFVmSzJzV0tqbmZJNDNfNmc1NFFMZFBjNVFmRlBQRjVYdVFhWVBjcWc1Ykcyem5fRW9TakY1eTJmdTNLQWdPQ1RkT2tjcHZXSHk?oc=5",
+   "date": "2026-11-18",
+   "snippet": "",
+   "publisher": "digitimes",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-18T19:14:56+00:00"
+  },
+  {
+   "id": "0c38247e9ac76901",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Nanobiosensors Accelerate Rapid Cardiac Biomarker Monitoring for Acute Coronary Syndrome",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV28zZEdHU3hCSE1JSGczZWVwaVRwVmhLRzZNdmxsZWkyWGhYeGsyOVJHVFNsY0R1UDVjVE9QZnRJOUxNbUJYbWJJV2ZhTGhTdkxrS3Z3UnJBcE5XREdFMDFWd0p4ZF9BV1RFYlpTbUdWMUY0NDBoRUtza0VXMHVDLXpTZkFYU0dXenFVdnVyY05tVlpoN3d1VWgyZ3E5b2VMYktsblpoelJPNEo4eW5GUUtNRQ?oc=5",
+   "date": "2026-11-18",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-18T19:14:56+00:00"
+  },
+  {
    "id": "831fba58799e692c",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -520,6 +559,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-11-13T18:22:17+00:00"
+  },
+  {
+   "id": "646237b5a42c5127",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Jets receiver Garrett Wilson nears concussion clearance and is expected to play Sunday vs. Bills",
+   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPelU1OGVDZHVnRkpQWTBtMGIyNk8xM0x4c0FwZFJOZHRSZnNSdEpsaVVmMW54RVl0elBIYUZyd2wzbk9lWXU5S3YySHdZYVBzNTI1TmJsRXBQTExVMEZjYjU2VVlUOUpsd2pLREVpbmZpSi04bEk0MUhlUGlGZnJqTWpaUFZKYlhqVTZTLW9MRHpzdGtiNUJUOUZrUGFjemZVRjdwMmNKU1VqSGFsYTZQemJKMGl0T3QxREpzWWg2NDNybFNLWV9seVpENW0tR18xUWt0bTN5TnBaWnVEN3lWbnpQbmJ4NVk3RkRBVG5MaXFKNjAxbnpra1JzWlBGTmp3YW91SjlLd1FGbWlranpodGRzUmJjM1BZdHlrLWp3S042d1A1T1E?oc=5",
+   "date": "2026-11-13",
+   "snippet": "",
+   "publisher": "Times Argus",
+   "query": "concussion blood test startup",
+   "tbi": true,
+   "first_seen": "2026-11-18T19:14:56+00:00"
   },
   {
    "id": "818ebef8b9376ae8",
