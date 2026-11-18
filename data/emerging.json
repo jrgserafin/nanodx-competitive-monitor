@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-17T22:48:17+00:00",
+ "checked": "2026-11-18T04:03:02+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -377,6 +377,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": true,
    "first_seen": "2026-11-17T19:32:39+00:00"
+  },
+  {
+   "id": "e89d7f605c1d5cb1",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Raul Esparza misses ‘Galileo’ shows on Broadway due to concussion",
+   "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPa3J4TUk0TDUwdUJmNkM1NUhrQTNIMHotOER5RUhwQkdFS2VzR09zXzhrQzJ6eDRMM2h5T3B5ay0tdU9EclI4VHdCOTNqZlUzTkRJY3JPNjg1VHBhaUd0WUt3SWxCZ0UzUDNfOUtmdXFJazQtZEdkSVJkQkVJYk13dS1GMTE5SllPNkJBdHhmam5HOUx5T2NCUGRGdXFNRTBObkxpeVF2c3VlR3lkMkJETHpWd1NxbGFoYUF5LWU1bnlrV0taNnhBZnpPa19ISnNFR0dMNkd0QWswZlZaakZEV3J1dGNpWHlJUXBXR1o2YkhGR3pGRG4wV0ktNFd3TFdaanc?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "Porterville Recorder",
+   "query": "concussion blood test startup",
+   "tbi": true,
+   "first_seen": "2026-11-18T04:03:02+00:00"
   },
   {
    "id": "799542a35d037580",

@@ -191,6 +191,19 @@
   "signal": []
  },
  {
+  "id": "d9275e8822b97d95",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "ALZAI Health Corp. Enters into MOU with Quanterix Corporation to Advance Early Alzheimer's Disease Identification",
+  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQkljeTc5WmRHRnF6WVBBaVJSSW50Z05KWnVBSTl3S3NEMGZnTFpla091b0hyTXVaOUJZN3B3Y1FRUWpVQTQxMDFmbzNkaGxTR0JWWlNLeTU1cjE3cGZ1NnJqblB0RS1OTi1yNUxmVEdjS0gyV1pNRjh2bjlBV1ZQOVBrYVhLTk1wcmtmSGFmbGVUd2s?oc=5",
+  "date": "2026-11-13",
+  "snippet": "",
+  "publisher": "Yahoo Finance",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-18T04:00:28+00:00",
+  "signal": []
+ },
+ {
   "id": "ad97df7256515ffe",
   "competitor": "TBI diagnostics market",
   "source": "News",
@@ -390,6 +403,19 @@
    "reimbursement"
   ],
   "alert": true
+ },
+ {
+  "id": "f7d92386c21fe240",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Understanding the Long-Term Effects of Traumatic Brain Injury in Military Personnel: Clayton Mucha, MD",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGd4M05qU09VUldURDZkRDVkTFZTZVVBSjNEWWpvQmJpVTlXWDRYbnpjNFdqc1pzNXBGN1VpRmhaYXI2Z2RhelZsdktndGRBbGF3dFNiTmlVZDVsLVZmTWhpZnl4eDE1QnFVN1djVmctODFFUEI4am5CQVI5MDhlTjZXc3lob1ZsbURENmE1NURTRVNyMTh6MXE0b3FubW1Xek9RVEcxQVZXYmN5VW9PQmlJTWVaYjQyd0FOUC1pTGg1X1k?oc=5",
+  "date": "2026-11-11",
+  "snippet": "",
+  "publisher": "NeurologyLive",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-18T04:00:28+00:00",
+  "signal": []
  },
  {
   "id": "7df9e100eed9ff49",
