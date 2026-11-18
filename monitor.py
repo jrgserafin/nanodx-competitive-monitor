@@ -1497,6 +1497,8 @@ def build_site():
             f.write_text(json.dumps(val))
     if (ROOT / "assets").exists():
         shutil.copytree(ROOT / "assets", out / "assets")
+    if (ROOT / "preview").exists():  # static design preview, served at /preview/
+        shutil.copytree(ROOT / "preview", out / "preview")
     (out / ".nojekyll").write_text("")
     print(f"Site built in {out}")
 

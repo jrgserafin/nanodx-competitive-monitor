@@ -24,7 +24,7 @@ on:
         default: false
   push:
     branches: [main]
-    paths: ["dashboard.html", "competitors.yaml", "monitor.py", "assets/**", ".github/workflows/monitor.yml"]
+    paths: ["dashboard.html", "competitors.yaml", "monitor.py", "assets/**", "preview/**", ".github/workflows/monitor.yml"]
 
 permissions:
   contents: write
@@ -84,7 +84,7 @@ jobs:
             # dashboard / music / docs only -> just rebuild and publish (about a minute, no data collection)
             CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "monitor.py")
             echo "Changed: $CHANGED"
-            if [ -n "$CHANGED" ] && ! echo "$CHANGED" | grep -qvE '^(dashboard\.html|README\.md|assets/.*)$'; then MODE=deploy; fi
+            if [ -n "$CHANGED" ] && ! echo "$CHANGED" | grep -qvE '^(dashboard\.html|README\.md|assets/.*|preview/.*)$'; then MODE=deploy; fi
           elif [ "$EVENT" = "workflow_dispatch" ]; then
             MODE="$IN_MODE"; SEND="$IN_SEND"
             if [ "$MODE" = "weekly" ]; then WEEKLY=true; fi

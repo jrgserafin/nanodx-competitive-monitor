@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NanoDx Competitive Intelligence</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#000000">
+  <script>window.CI_STATIC = true; document.documentElement.dataset.static = "";</script>
+  <script>
+    // Apply saved preferences before first paint to avoid a flash.
+    try {
+      const t = localStorage.getItem('ci.theme'); if (t) document.documentElement.dataset.theme = t;
+      const m = localStorage.getItem('ci.motion'); if (m) document.documentElement.dataset.motion = m;
+    } catch (e) { /* storage blocked */ }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="hdr-inner">
+      <a class="logo" href="#/" aria-label="NanoDx competitive intelligence, overview">
+        <!-- Save the official wordmark as public/brand/nanodx-wordmark.svg; the text stand-in shows until then. -->
+        <img class="brand-logo" src="brand/nanodx-wordmark.svg" alt="NanoDx" hidden onload="this.hidden=false;this.nextElementSibling.hidden=true">
+        <span class="brand-word grad-text">NanoDx</span>
+      </a>
+      <nav class="primary-nav" aria-label="Main">
+        <a href="#/" data-nav="dashboard">Overview</a>
+        <a href="#/competitors" data-nav="competitors">Competitors</a>
+        <a href="#/matrix" data-nav="matrix">Compare</a>
+        <a href="#/timeline" data-nav="timeline">Timeline</a>
+        <a href="#/alerts" data-nav="alerts">Alerts <span class="nav-count" id="nav-alerts"></span></a>
+        <a href="#/search" data-nav="search">Search</a>
+      </nav>
+      <div class="hdr-actions">
+        <form class="global-search" id="global-search" role="search">
+          <label class="sr-only" for="gs-input">Search all items</label>
+          <input id="gs-input" type="search" placeholder="Search intelligence">
+        </form>
+        <button class="btn primary small" id="refresh-all" type="button">Refresh all</button>
+        <button class="icon-btn motion-btn" id="motion-btn" type="button" aria-label="Animations" aria-pressed="true">&#8767;</button>
+        <button class="icon-btn" id="theme-btn" type="button" aria-label="Toggle dark mode" title="Toggle light/dark">&#9680;</button>
+        <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="drawer">Menu</button>
+      </div>
+    </div>
+  </header>
+  <div class="refresh-bar" id="refresh-bar" hidden></div>
+
+  <div class="drawer-backdrop" id="drawer-backdrop"></div>
+  <aside class="drawer" id="drawer" aria-label="Menu" inert>
+    <div class="drawer-head"><button class="icon-btn" id="drawer-close" type="button" aria-label="Close menu">&times;</button></div>
+    <form class="drawer-search" id="drawer-search" role="search">
+      <label class="sr-only" for="ds-input">Search all items</label>
+      <input id="ds-input" type="search" placeholder="Search intelligence">
+    </form>
+    <nav aria-label="All pages">
+      <a href="#/" data-nav="dashboard" style="--i:0">Overview</a>
+      <a href="#/competitors" data-nav="competitors" style="--i:1">Competitors</a>
+      <a href="#/matrix" data-nav="matrix" style="--i:2">Comparison matrix</a>
+      <a href="#/swot" data-nav="swot" style="--i:3">SWOT builder</a>
+      <a href="#/timeline" data-nav="timeline" style="--i:4">Timeline</a>
+      <a href="#/alerts" data-nav="alerts" style="--i:5">Alerts</a>
+      <a href="#/search" data-nav="search" style="--i:6">Search &amp; filter</a>
+      <a href="#/intel" data-nav="intel" style="--i:7">Add intel</a>
+      <a href="#/settings" data-nav="settings" style="--i:8">Sources &amp; settings</a>
+    </nav>
+    <div class="drawer-foot">
+      <div class="kicker">Semiconductor-grade precision. Point of care. In minutes.</div>
+      <div id="last-updated" aria-live="polite"></div>
+      <div id="sidebar-foot"></div>
+    </div>
+  </aside>
+
+  <div class="sample-banner" id="sample-banner" hidden></div>
+  <main id="main" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <span class="brand-word grad-text">NanoDx</span>
+    <span class="tagline">Semiconductor-grade precision. Point of care. In minutes.</span>
+    <span>NanoDx, Inc. &middot; Internal competitive intelligence &middot; Confidential</span>
+    <span id="foot-info"></span>
+  </footer>
+
+  <div class="modal-backdrop" id="modal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-head"><h2 id="modal-title"></h2><button class="icon-btn" data-close aria-label="Close">&times;</button></div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
