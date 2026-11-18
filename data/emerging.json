@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-18T04:03:02+00:00",
+ "checked": "2026-11-18T14:20:15+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -313,6 +313,19 @@
   }
  ],
  "news": [
+  {
+   "id": "029f847ae86df821",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Cas12a Nuclease Market To 2035: Diagnostic Adoption and Therapeutic Pipelines Drive Growth - News and Statistics",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZl9ScWNhMTRDT2o5Qi02ZGtyTWM1U3V4Y2oxbzJyYm4xQjBrUXpXX2hic2llQ2FEVjNQTjd3ZnZpd0VnQUR2SFlTR0MxSGtwX0tlLWRkdEVCQTV3UGFQWTJrRlRvM1YzLXdidXUxUWpwbDY3Zk8xdkwwVFEtZzdhNzUzRXVSMW01b0RtdTNtUkxPWEwyeDNrMEZkQkNLaDF0cld4UVo5c2pLZUFmeTVZZTZyelQtQUlDMWt6dVlwWG0zS1RYQUZVSDdVSmNYZms?oc=5",
+   "date": "2026-11-18",
+   "snippet": "",
+   "publisher": "IndexBox",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-18T14:20:15+00:00"
+  },
   {
    "id": "831fba58799e692c",
    "competitor": "Emerging (POC)",
@@ -845,6 +858,19 @@
    "query": "\"point-of-care\" test \"FDA clearance\"",
    "tbi": false,
    "first_seen": "2026-11-16T23:41:02+00:00"
+  },
+  {
+   "id": "8e634b233251996b",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Device Makers Should Start Preparing For FDA GenAI Oversight Now, MethodSense CEO Says",
+   "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOU0JvZW5yVEFFd18zZFlzSGp4UldJU01jd0N4ZXp3ZHA0azBqdFV3ajEwTS1BNFY5UERBbXBxQWM0dzk4TzdJY1FrWURyZ0xHekd2UVRYdy01QTh6OURuTDlqRGJhei1xRjdkb092R2JRWVdLVTlBcEp6ODVUSmotLWpPU0o5Szh0eW4wOThZWFNVUDdEZDhqdzZzeThRLUkycHRQcTZEbnlrdUlTdy1XVVVEZnFER3dVUVlqTzZGMWNpUEpZNDEwejg2TENJRXJVdmRaLUZjSEcwSHNLaU9UaC02eTI5Y0hab0dySnpIQ1NBMW1Rdy1KaUFPenlRRDlFOHlZUng1UHhPSmtYWmpZWV9OVFZVcTA?oc=5",
+   "date": "2026-11-06",
+   "snippet": "",
+   "publisher": "Medtech Insight",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-18T14:20:15+00:00"
   },
   {
    "id": "be29847ce311e02f",
