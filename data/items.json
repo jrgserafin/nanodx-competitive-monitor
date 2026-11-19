@@ -11,6 +11,32 @@
   "signal": []
  },
  {
+  "id": "636279ec0aa1f7f5",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix Corporation Announces Management Changes",
+  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc0ZCb2tuYU92Wl9EOElib0VTNDhac0wydE8zR3ZSYUpPV2xRSGtvQXB3THpfbDVIY1dFUUJybkZwRnBteE1LMmNqVUoxWUsxcHZYTmVnUldvVXA3WU9ESW9qX3FCTnRTWXBKZHJzOVlnQk9OX3RjUUt1TGFRSWdiWm9HXzNPeE05ZnJvUFF3X25zcXVKVUJONlpodzRDRmYxX3lZNVRn?oc=5",
+  "date": "2026-11-18",
+  "snippet": "",
+  "publisher": "www.marketscreener.com",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-19T03:57:24+00:00",
+  "signal": []
+ },
+ {
+  "id": "b1948aaec90edd2d",
+  "competitor": "Medicortex",
+  "source": "News",
+  "title": "Medicortex wants to be able to detect brain damage with a urine test",
+  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUHdkU1N0a0xCN0lLaURsYWUtc3dLOU84MG5RckdWWUtMWldUU0FUc1lrcFZVc3d2T3l3OE5wcTlNU3YtMW84UFVNZC11YS1WaTVWcFg5ZVd0QVBaRGd4ZzNLamthUlV3Vm9URm9TTVlieUxoaUtBc3NmYWRZbG9IcWxtUVdabldUOU45TzlibUN4Yy1MZGc?oc=5",
+  "date": "2026-11-18",
+  "snippet": "",
+  "publisher": "Biostock",
+  "query": "\"Medicortex\"",
+  "first_seen": "2026-11-19T03:57:24+00:00",
+  "signal": []
+ },
+ {
   "id": "8bba751e2d04b4e0",
   "competitor": "Quanterix",
   "source": "News",
@@ -436,6 +462,19 @@
   "publisher": "Bioengineer.org",
   "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
   "first_seen": "2026-11-13T18:19:13+00:00",
+  "signal": []
+ },
+ {
+  "id": "2affac21f3036e67",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Brain injury inspires Calgary artist to teach children creativity through Neuro Art",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMDQyLWY5eWZSNjNxaVJNdklSTzZWNDdJSy0ycWQ5NkJObVNScmN3OUZERXJ4S295VFhRV2haQ1NCaThESjc3ZVJqNnp0MkNZRTlJLWZheUd0b01GaVFWNEQ5enA3SnVpNl9qbS10V09kNDM0ZXE2NXVpRWdOZE1UWjBPZzNZc0RQZk9MSUhDQXFTcGJ5Qlg4Ykc5M1FfZDl4QmZPQlp1dGpiV0JaZVVkZ0NEeVpjX3Exc09zS3oxdEY?oc=5",
+  "date": "2026-11-12",
+  "snippet": "",
+  "publisher": "CTV News",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-19T03:57:24+00:00",
   "signal": []
  },
  {
