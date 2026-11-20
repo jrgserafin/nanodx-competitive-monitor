@@ -1131,14 +1131,14 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;background:var(--page)
   --bg:#fff;--bg2:#f5f6f7;--card:#f5f6f7;--card2:#eceff1;--panel:#f5f6f7;--panel-top:#f5f6f7;--panel-bot:#f5f6f7;
   --page:#fff;
   --line:rgba(7,14,33,.14);--line2:rgba(7,14,33,.32);
-  --ink:#0a0f1a;--ink2:#2b3645;--ink3:#475263;
+  --ink:#0a0f1a;--ink2:#2b3645;--ink3:#3d4757;
   --brand:#164f9e;--brand2:#0b5f57;--cyan:#0b5f57;--aqua:#0b5f57;--ice:#164f9e;--teal:#0b5f57;
   --brand-ink:#fff;--brand-soft:rgba(22,79,158,.1);
   --btnbg:rgba(7,14,33,.06);--btnbg2:rgba(7,14,33,.12);--trk:rgba(7,14,33,.1);--gridl:rgba(7,14,33,.1);
   --surf:#eceff1;--surf-line:rgba(7,14,33,.18);
   --hud:#0b5f57;--glow:rgba(11,95,87,.15);--grid:rgba(7,14,33,.04);
 }
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;overflow-x:clip}
 body{font:400 16px/1.6 var(--font);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 body::before{background:var(--bg)!important}
 #grid,#bgfield{display:none!important}
@@ -1399,7 +1399,7 @@ th{letter-spacing:.14em}
     <span class="status" title="Source status"><span class="dot" id="dot"></span><span id="statusTxt">Loading…</span></span>
     <a class="btn primary" id="runLink" href="#" target="_blank" rel="noopener"><svg class="i" aria-hidden="true"><use href="#i-play"/></svg>Run a lookup</a>
     <button class="btn icon-btn" id="soundBtn" type="button" aria-pressed="false" aria-label="Intro music" title="Intro music on / off"><svg class="i s-on" aria-hidden="true"><use href="#i-sound"/></svg><svg class="i s-off" aria-hidden="true"><use href="#i-mute"/></svg><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span></button>
-    <audio id="intro" src="assets/intro.mp3" preload="auto"></audio>
+    <audio id="intro" src="assets/intro.mp3" preload="none"></audio>
     <button class="btn icon-btn" id="themeBtn" type="button" aria-label="Switch light or dark mode" title="Light / dark">
       <svg class="i t-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="i t-moon" aria-hidden="true"><use href="#i-moon"/></svg>
     </button>
@@ -1421,7 +1421,7 @@ th{letter-spacing:.14em}
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><linearGradient id="lgS" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8fe0ff"/><stop offset="1" stop-color="#3d7dff"/></linearGradient></defs></svg>
 
-<div class="wrap" id="main" tabindex="-1">
+<div class="wrap" id="main" role="main" tabindex="-1">
   <!-- ================= OVERVIEW ================= -->
   <section class="view" id="v-overview">
     <div class="hero reveal" style="--i:0">
@@ -1841,7 +1841,7 @@ var NxWave = (function(){
   function show(name, push){
     if (VIEWS.indexOf(name) < 0) name = "overview";
     var xf = $("xfer");
-    if (push === false || name === curView || RM || !xf.animate || !$("loader").classList.contains("done")) return swapView(name, push);
+    if (push === false || name === curView || RM || document.hidden || !xf.animate || !$("loader").classList.contains("done")) return swapView(name, push);
     if (xbusy) return; xbusy = true;
     var H = innerHeight, ease = "cubic-bezier(.76,0,.24,1)";
     $("xn").textContent = pad2(VIEWS.indexOf(name) + 1) + " / " + pad2(VIEWS.length); $("xt").textContent = VNAME[name] || name; xf.hidden = false; decodeText(lastText($("xt")));
