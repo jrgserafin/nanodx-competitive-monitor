@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-19T22:35:50+00:00",
+ "checked": "2026-11-20T03:54:10+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -313,6 +313,19 @@
   }
  ],
  "news": [
+  {
+   "id": "15a2e6ec576db022",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Trinity Biotech stock: $9.5 million credit amendment disclosed",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTjRWUlNjbFJEOEZIbG5tSlowOXJBNU9zXzQyVWszb3Rrd0ZBTUVhcGItem1zOFpRM1NNY1pjVENKZ1h2Q3RPTXY0RFZuemI0NnF0VWNjVTFvRG02bHd4WGdTTF9pZHExRmRCQk9rVnBPcjZ5Y3Q5SjhhbmVVZE9qaGl1ZHhIN2tWTXJEei02NUwyRHRRa2NJd0ZBWk1kWWpIWEN4c0RUbndCcWhwQUZlZzBuS2VQMGp2T3Nv?oc=5",
+   "date": "2026-11-20",
+   "snippet": "",
+   "publisher": "ad-hoc-news.de",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-20T03:54:10+00:00"
+  },
   {
    "id": "029f847ae86df821",
    "competitor": "Emerging (POC)",
