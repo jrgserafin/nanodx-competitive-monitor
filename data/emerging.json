@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-20T03:54:10+00:00",
+ "checked": "2026-11-20T18:58:05+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -327,6 +327,19 @@
    "first_seen": "2026-11-20T03:54:10+00:00"
   },
   {
+   "id": "b0495ebcb7c1a3dd",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Santa Clara's Exo Imaging Lands $11.6M Gates Grant for Pocket Ultrasound",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSUhCejVZa0ktakhyUGhCcmFlZGdLUk1HSWRpdkhVVUtUTVFOckt4OFd6OWdEV0JJQ2FqX05kU2ljVUFGZnBYQlFJdEtNb2J2VzVMSUVyckNpekZQU1p0Tk4tLTFMT2N1ekRKR1lxMkw2ZDVYYTFONmZWMkhpX3lpUXFDek45V1l1b0ZGdERNTUdiVTZ0bU5IREJBZmEzcFZESFdR?oc=5",
+   "date": "2026-11-20",
+   "snippet": "",
+   "publisher": "Hoodline",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-20T18:58:05+00:00"
+  },
+  {
    "id": "029f847ae86df821",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -377,6 +390,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-11-18T19:14:56+00:00"
+  },
+  {
+   "id": "64a009d6de4fbba0",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "CorVista Health Launches Clinical Decision Support and Commercial Availability of PCWP Algorithm, Taking the CorVista® Platform from Testing to Guideline-Driven Action",
+   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQY0xsanI2TmRGSGVPN0Q5djJnQ1dsSldXamF5QWN0VkNHVXNPTUx3aUJjYjBBT1Zwb0NaTDVJcGJhLTVfQUVpNl83WEVNcjdNSldiMkItSmd0emVldUxJWkZNRUVzMGg5RTA4X1hkczZtQ2FiY0FEX1k0bEd4YWpTc2Nra1paa2VnTE1kamFIRkVkUnNSS3Vvb0lPZWN5ZGpNNGozbW9hd1Z3N1Q4dG93aENqaGNpVExDMHBoc2F2SUI5OUlPYUhNNE5jN2x2aGs1bm9pcXNVdGxXRk96NDdyaE1Lak5ZVUVSZFYxcFRUdVlTQXZpY1JFT3JxNWtENmxZakFySzBZRDcxNi1iZE9nMEhha0dEOGVCVzgxS1VRQjE0R1E1U2NWZVlqRFgxcldueEJvSkp6a3BBajJZOE1DenhWMlg?oc=5",
+   "date": "2026-11-18",
+   "snippet": "",
+   "publisher": "Business Wire",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-20T18:58:05+00:00"
   },
   {
    "id": "831fba58799e692c",

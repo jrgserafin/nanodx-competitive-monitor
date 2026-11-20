@@ -11,6 +11,32 @@
   "signal": []
  },
  {
+  "id": "e1464c612f481500",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Pentagon Funds $6.8M Hunt for Genes That Could Shield Troops and Veterans From Lasting Brain Injury Damage",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRHhWaHNXM1Z5aGhuTjZJQkx2NkxBTzVxbk5STWR3TXlRLWhtWEQ4S0NiRnlnbjFjdW5ZNTZUTjBteGM3TzkyZm41NjUxMWlNTXdJSXJKYnUxcGI1UlpwY3VseVNWQmQzRzVUbjJveXZrOFVSbGRMazRxNE1QZFhyQm9rdXFJRkxGNkYzRmhVQlZtWmIwOE5CTnMtRQ?oc=5",
+  "date": "2026-11-20",
+  "snippet": "",
+  "publisher": "Military.com",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-20T18:55:39+00:00",
+  "signal": []
+ },
+ {
+  "id": "280ab8113494d1fd",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "HSP70 Modulators Preserve Brain Mitochondria and Boost Survival in Rat Blast Injury",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeEhwaXFJb000bnpCNGp1WXN0dDYzNUhpUm9lX0JwajFNdDZUbEFwcWt5c3hrRlRPOEdBVGRPZEZubmJDWmk1MDZiemN1VmsxaEJhYzNuWXdlVFhRVXVGRWszRHU4d0ZjSVRDemQ2aEsybzlVNVNBdFJkaXJCUGQ1YklMR095X3diYXpoYUFhcURNN2p4ZktUaVZQQ2dfeUlTUWd5dHlQcVhmRWNu?oc=5",
+  "date": "2026-11-20",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-20T18:55:39+00:00",
+  "signal": []
+ },
+ {
   "id": "b0af0662e90ff5f6",
   "competitor": "Quanterix",
   "source": "News",
@@ -71,6 +97,20 @@
   "snippet": "Critical care medicine. Giglio A, Reccius A, Ferre A et al.",
   "first_seen": "2026-11-19T19:16:45+00:00",
   "signal": []
+ },
+ {
+  "id": "51e84352c3135d40",
+  "competitor": "Abbott",
+  "source": "Publication",
+  "title": "Feasibility of a prehospital point-of-care bioassay in patients with mild traumatic brain injury (GFAP-TBI): a pilot simulation study.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43061366/",
+  "date": "2026-11-18",
+  "snippet": "Trauma surgery & acute care open. Quinlan M, Levy MJ, Vetreno KG et al.",
+  "first_seen": "2026-11-20T18:55:39+00:00",
+  "signal": [
+   "point-of-care",
+   "GFAP"
+  ]
  },
  {
   "id": "7f683df78382130d",
@@ -213,6 +253,19 @@
   "publisher": "TradingView",
   "query": "\"Quanterix\"",
   "first_seen": "2026-11-18T14:17:40+00:00",
+  "signal": []
+ },
+ {
+  "id": "0aac9dfb869c1e76",
+  "competitor": "Lab reimbursement (CMS)",
+  "source": "News",
+  "title": "AHA urges Congress to act on key priorities for hospitals",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaHZOdnBROVJ0TFduNEZua2VPX0NuRmRrS3RtSDZGdkttRFlIYklZanJtMlI5eDdaOWo4MU5JNjRZb2kwZG1lLXVOVFhCTDl1ellrbnRXNnpMOFlyMmtvR2RwX01XUFdHam9oTXVTamhwOHl3d082RmF6WWh3SzBUbHo5dVFtQmx3YXlvN2dR?oc=5",
+  "date": "2026-11-17",
+  "snippet": "",
+  "publisher": "Medical Buyer",
+  "query": "CMS \"clinical laboratory fee schedule\"",
+  "first_seen": "2026-11-20T18:55:39+00:00",
   "signal": []
  },
  {
@@ -943,6 +996,19 @@
   "date": "2026-11-10",
   "snippet": "Neurology. Wang AY, Wood AJ, Zhang C et al.",
   "first_seen": "2026-10-09T17:58:55+00:00",
+  "signal": []
+ },
+ {
+  "id": "790bdb742a1b00e1",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix Corp (QTRX) Q3 2026 Earnings Call Transcript",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM1ZTRklieG14dnU0Z3l3bzdTY1pRS1NuekwyV0tBd1NRMFp5aEtCM0xvdElrVTBFYVdRemhhM3VsT2w2R1UtcjR0QUptbzRzSGJLUEpTa3o0azVzbXE3bkc4VmlVcWNIcnJQQ2VBTkphU0RKN1NpalVRQThBTGZ2SEU0OVlyM3d1azd2UFlGdVhScE9oRGdBWlRBQmhSMTZEcTNlbnE5RG91MHJLZlJCbg?oc=5",
+  "date": "2026-11-09",
+  "snippet": "",
+  "publisher": "The Motley Fool",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-20T18:55:39+00:00",
   "signal": []
  },
  {
