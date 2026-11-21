@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-20T22:08:55+00:00",
+ "checked": "2026-11-21T03:46:20+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -481,6 +481,19 @@
    "query": "concussion blood test startup",
    "tbi": true,
    "first_seen": "2026-11-18T04:03:02+00:00"
+  },
+  {
+   "id": "c5b1057c1278129c",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "This Insurance Stock Just Raised Its Dividend by Roughly 5%",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaUF4X3NUTkhUTkJ1ZWF4dHdLLVUxUE1zdmJjcGpnYkJvNFdmOGczUkNmOHZKSS13TWljNFFtVHcwa2Raa01WaG5VWktRajkzcTY1YzdPLTBXVW5ERlhsS1FzU3JlbDJONDFHZTFCZFJCMVZNd0tHX2hRQkhMZWIzWDkxUks3Z1NXUnh2YW95Mnc5M2JYejJTcGJGV0d2YTBxWWtRaw?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "Barchart.com",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-21T03:46:20+00:00"
   },
   {
    "id": "799542a35d037580",
