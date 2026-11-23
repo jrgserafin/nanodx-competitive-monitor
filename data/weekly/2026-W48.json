@@ -1,0 +1,376 @@
+{
+ "week": "2026-W48",
+ "start": "2026-11-16",
+ "end": "2026-11-23",
+ "generated": "2026-11-23T22:24:10+00:00",
+ "counts": [
+  {
+   "name": "Abbott",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 1
+  },
+  {
+   "name": "bioMérieux",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainScope",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "InfraScan",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "BrainBox Solutions",
+   "this_week": 1,
+   "last_week": 1,
+   "signal": 1
+  },
+  {
+   "name": "EzDiatech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "STATA DX",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "GLIA Diagnostics",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Quanterix",
+   "this_week": 14,
+   "last_week": 6,
+   "signal": 0
+  },
+  {
+   "name": "Genalyte",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Oculogica",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Sense Neuro Diagnostics",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Medicortex",
+   "this_week": 2,
+   "last_week": 2,
+   "signal": 0
+  },
+  {
+   "name": "Roche",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "AeHealth",
+   "this_week": 1,
+   "last_week": 8,
+   "signal": 0
+  },
+  {
+   "name": "Wondfo",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "ACON",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Hotgen",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "QuidelOrtho",
+   "this_week": 5,
+   "last_week": 10,
+   "signal": 0
+  },
+  {
+   "name": "Boditech Med",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Getein Biotech",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI diagnostics market",
+   "this_week": 3,
+   "last_week": 3,
+   "signal": 0
+  },
+  {
+   "name": "Lab reimbursement (CMS)",
+   "this_week": 1,
+   "last_week": 7,
+   "signal": 0
+  },
+  {
+   "name": "TBI biomarker evidence",
+   "this_week": 2,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "Point-of-care & capillary sampling",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "TBI epidemiology & ED burden",
+   "this_week": 2,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "CT avoidance & health economics",
+   "this_week": 0,
+   "last_week": 1,
+   "signal": 0
+  },
+  {
+   "name": "TBI clinical guidelines",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "TBI test reimbursement (CPT 0570U)",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "Military TBI screening",
+   "this_week": 2,
+   "last_week": 7,
+   "signal": 0
+  },
+  {
+   "name": "EMS & prehospital TBI",
+   "this_week": 0,
+   "last_week": 0,
+   "signal": 0
+  },
+  {
+   "name": "International TBI tests",
+   "this_week": 1,
+   "last_week": 0,
+   "signal": 0
+  }
+ ],
+ "top": [
+  {
+   "id": "51e84352c3135d40",
+   "competitor": "Abbott",
+   "source": "Publication",
+   "title": "Feasibility of a prehospital point-of-care bioassay in patients with mild traumatic brain injury (GFAP-TBI): a pilot simulation study.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43061366/",
+   "date": "2026-11-18",
+   "snippet": "Trauma surgery & acute care open. Quinlan M, Levy MJ, Vetreno KG et al.",
+   "first_seen": "2026-11-20T18:55:39+00:00",
+   "signal": [
+    "point-of-care",
+    "GFAP"
+   ]
+  },
+  {
+   "id": "c22dc2c7ca1ae002",
+   "competitor": "BrainBox Solutions",
+   "source": "News",
+   "title": "BRAINBox Solutions to Present Data Supporting Multimodal Concussion Diagnostic/Prognostic Testing in Geriatric and Young Adult Patient Populations",
+   "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPOVp5ZkJDYTEzWW5sQUZ1eDQ4eV9RU2JKQkg5RDVGQVBfZ3BUUExDZVFtUV9ZWWFlQTV4UFc4NklpbDVNTDl5YjI1a2doa3VnVGJJeExIaFZMclVhZDRpaTZDWndzZG9hTFdWRjd5ZmoxS1hVblAyaFVFdjI3ZUgxczM4dlpPUGNLbUdJdjNJNHRQN2p5QUNfVElJQ2dCMXA2QlpMbmRxWlJVbTVwc1ZXd290OXNvZVlYdEs5R2JPa084TW9yZHVnaUFQQks2U3lEX3Vzb2o2Ml9wd1EyWDVvMlY3VS0yMy1YckRsdDg0RGhnUVdZS3JMTFFWZjJ2YXBjWjZaRzJJRXVLMnRhdVVtdUpPV21KN2o2bHFQZGZmdE5DbXo1d19BMw?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "PR Newswire",
+   "query": "\"BrainBox Solutions\"",
+   "first_seen": "2026-11-17T19:30:06+00:00",
+   "signal": [
+    "concussion"
+   ]
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false,
+ "cites": [
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43061366/",
+   "title": "Feasibility of a prehospital point-of-care bioassay in patients with mild traumatic brain injury (GFAP-TBI): a pilot simulation study."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPOVp5ZkJDYTEzWW5sQUZ1eDQ4eV9RU2JKQkg5RDVGQVBfZ3BUUExDZVFtUV9ZWWFlQTV4UFc4NklpbDVNTDl5YjI1a2doa3VnVGJJeExIaFZMclVhZDRpaTZDWndzZG9hTFdWRjd5ZmoxS1hVblAyaFVFdjI3ZUgxczM4dlpPUGNLbUdJdjNJNHRQN2p5QUNfVElJQ2dCMXA2QlpMbmRxWlJVbTVwc1ZXd290OXNvZVlYdEs5R2JPa084TW9yZHVnaUFQQks2U3lEX3Vzb2o2Ml9wd1EyWDVvMlY3VS0yMy1YckRsdDg0RGhnUVdZS3JMTFFWZjJ2YXBjWjZaRzJJRXVLMnRhdVVtdUpPV21KN2o2bHFQZGZmdE5DbXo1d19BMw?oc=5",
+   "title": "BRAINBox Solutions to Present Data Supporting Multimodal Concussion Diagnostic/Prognostic Testing in Geriatric and Young Adult Patient Populations"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/42759081/",
+   "title": "Fighting for safety: head and spine injuries in martial arts presenting to U.S. emergency departments."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeXhSQmZPOHlFTEYyNVJqdjBZbmQ0TXZsWDdQYVk4MTZBOUxXdTBxVlRfT1lCZVEyUm5KQXhxd21JNEJ1Y3lZc1Q5SGRQVTljZ1oyV1JZUno3NE5PQ21mRGJOVXJfRVZiRkRRQURQdDJ2TjRpS1NhV09SMWxjV0V5eVZhRE11aVg4ME5ib1hIWTZ2Y1pKS1NYT0loUkgtdWt2aWl1SkhrZmJYRG1jS3lSeGpROHE4Zw?oc=5",
+   "title": "Reasons to Hold QuidelOrtho Stock in Your Portfolio for Now"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeVpFS1dMdDRDX29KT3lBQy1JdGotNEZVaHl0cklaOXVxeVhWd3JfVU9scExvWFZHaExsSDNpR05Nc2E0NlNwRWM5dkY5U0tFbHFYSElsczZGNWZ1Smd6T0dTNHBoRVR6Rm9DMXFJa2w2dXZTTm5YdHZsR0o2VndBdUpXMWM1YXM?oc=5",
+   "title": "Rocco Lamuno gets the basket plus the foul"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tc0hONVdGTFdvTHJZelpPZlgxQ3JuX29leXRuU1NoU1VrbXEzYXUyVjl0Y0VEZGJKSUcwQ1VyTU9fNHkxMUt3dXR3ZlFua2g4Z1RzeFpKRjBTQlByV3lDaGhfZTVfdw?oc=5",
+   "title": "QuidelOrtho Corp (QL1A.SG) Seasonal Returns Chart - Yahoo Finance"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLUEwM1lTdU9SYi1fVjZQWjFrOHItMWFnR01SSGpzVmJrSEFmOXA0MTVhb0wyRmFjVEd1VGxiZDdRVmhHQzdJc1dsLVBhdzVPeUN2c0NtZTFTOGpZMlhNMWpNdVhrQVZGZDhkaHdwbVhsOTVKVGw2b0NYVlZjaDlCX1BJTEpxRVlPNnpnNU1yR3RxZkFweHdzOGNIdVJaLUpKOGd1amtJVHVhTXdDNWZ5Ul93?oc=5",
+   "title": "Bronstein, Gewirtz & Grossman, LLC Encourages QuidelOrtho Corpora"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRHhWaHNXM1Z5aGhuTjZJQkx2NkxBTzVxbk5STWR3TXlRLWhtWEQ4S0NiRnlnbjFjdW5ZNTZUTjBteGM3TzkyZm41NjUxMWlNTXdJSXJKYnUxcGI1UlpwY3VseVNWQmQzRzVUbjJveXZrOFVSbGRMazRxNE1QZFhyQm9rdXFJRkxGNkYzRmhVQlZtWmIwOE5CTnMtRQ?oc=5",
+   "title": "Pentagon Funds $6.8M Hunt for Genes That Could Shield Troops and Veterans From Lasting Brain Injury Damage"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeEhwaXFJb000bnpCNGp1WXN0dDYzNUhpUm9lX0JwajFNdDZUbEFwcWt5c3hrRlRPOEdBVGRPZEZubmJDWmk1MDZiemN1VmsxaEJhYzNuWXdlVFhRVXVGRWszRHU4d0ZjSVRDemQ2aEsybzlVNVNBdFJkaXJCUGQ1YklMR095X3diYXpoYUFhcURNN2p4ZktUaVZQQ2dfeUlTUWd5dHlQcVhmRWNu?oc=5",
+   "title": "HSP70 Modulators Preserve Brain Mitochondria and Boost Survival in Rat Blast Injury"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwdEs1WFhzOFlLcEJLQUtCbkhwYkxZdVNrb3A3V1Z6eTZwSlhDMldsNDhYRi1mU3E0cGdoWUxLZXRxUTh6aUc4djltZ25wMG1WVWUxRlc5bUFycVVqODRRSUY0UHRaazc1QjQ1ekkxUWk?oc=5",
+   "title": "Boston University-Led Study Identifies Blood Test That May Detect Brain Disease CTE in Life"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nS3M2N3pfUThENC10SmJZUEE3Q2JRcUU3WEFXZjF1enUwVDNGT1ljMXpLLWo5cGF5aG9WY05MOFU5eUItRTlnWm00dVp1bjVSQldSMTkxMGFrNlJSV3NCWll4OUJ1T1U5WG9FQlJjVXpwcjc0QS1QbnlXYkU2R3c?oc=5",
+   "title": "Quanterix CEO Steps Down, Jim Gute Named Interim Leader"
+  },
+  {
+   "url": "https://medicortex.fi/2026/11/19/biostock-interview-with-medicortex-ceo/",
+   "title": "BioStock interview with Medicortex CEO"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdTJ5Wmw5MHQtcERxQTNVbmJaS01YSUpVM3hRQWpGVHdTTjIzMXVfbXFLdWRCSkhCcUtvQWthZzhZcFdkRDA4RGJWNGZFS1lBZ1NESzh0Ry1OMHh1Uk1IWHpOTVVYdGh2elFlNmQ0QTJxbElfckxHcGFSVE1EbGw4WnRKNnZhTnBUUERVdDZvNTVRSTI3bGRxQVJzMjBueDhFeTV0bmVYeWJ6TWdTYnNBOG9xc9IBuAFBVV95cUxPVDQxczAwZ203eEtOczd3N050QWpNeHZwZTI2UUYtS0xiREtqcUtTeHgzX0ZHU0N1Sm5rRmRmY3pyOFRFMmFIc1pJclJuY0RjcWtkN0FqT19COEd5X3Zhei1BdlE5QnMzQlk2UzJ4TC0wY1hBbHBWZDNYM25FWE40elFGS1FfcVZ2V0lldGpaNk1DNWdFVmpuckNPeU5qTVBYc3dhRVdVLWppV1NnMTBZWW1BVExDRnQ0?oc=5",
+   "title": "SEMEDLAB drives new blood biomarkers to assess brain damage after mild trauma"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdTJ5Wmw5MHQtcERxQTNVbmJaS01YSUpVM3hRQWpGVHdTTjIzMXVfbXFLdWRCSkhCcUtvQWthZzhZcFdkRDA4RGJWNGZFS1lBZ1NESzh0Ry1OMHh1Uk1IWHpOTVVYdGh2elFlNmQ0QTJxbElfckxHcGFSVE1EbGw4WnRKNnZhTnBUUERVdDZvNTVRSTI3bGRxQVJzMjBueDhFeTV0bmVYeWJ6TWdTYnNBOG9xc9IBuAFBVV95cUxPVDQxczAwZ203eEtOczd3N050QWpNeHZwZTI2UUYtS0xiREtqcUtTeHgzX0ZHU0N1Sm5rRmRmY3pyOFRFMmFIc1pJclJuY0RjcWtkN0FqT19COEd5X3Zhei1BdlE5QnMzQlk2UzJ4TC0wY1hBbHBWZDNYM25FWE40elFGS1FfcVZ2V0lldGpaNk1DNWdFVmpuckNPeU5qTVBYc3dhRVdVLWppV1NnMTBZWW1BVExDRnQ0?oc=5",
+   "title": "SEMEDLAB drives new blood biomarkers to assess brain damage after mild trauma"
+  },
+  {
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43055546/",
+   "title": "Prevalence and Characteristics of Coma in Latin American Critical Care Units: The COMA LATAM Study."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOWxvLURUeEFnYTdRNk5hbkxiWmg4d2NDaEpHcWVPTVVTZGtTeEhzNEV1M3VWQ2lqUzZQd1BFbTdXNDgzUDQ0S3JWOGRNLTlYeEd2UmZJWUtsX3FPZnVtbk5DbVZfc0Q5ZkQ5bERjQVM4NjJsSG81MndSbE9KN193SzBGQmV4bVQtZTdfTENnWnM4X0ttUGtqSnVkOXRsaWdwUndvSXlTektXRUJQODJrMjFZcUpIVjB3TzNmRw?oc=5",
+   "title": "Quanterix expands access to blood-based Alzheimer’s testing with LucentAD Complete"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc0ZCb2tuYU92Wl9EOElib0VTNDhac0wydE8zR3ZSYUpPV2xRSGtvQXB3THpfbDVIY1dFUUJybkZwRnBteE1LMmNqVUoxWUsxcHZYTmVnUldvVXA3WU9ESW9qX3FCTnRTWXBKZHJzOVlnQk9OX3RjUUt1TGFRSWdiWm9HXzNPeE05ZnJvUFF3X25zcXVKVUJONlpodzRDRmYxX3lZNVRn?oc=5",
+   "title": "Quanterix Corporation Announces Management Changes, Effective November 18, 2026"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTC1Hb2VrZjY4aG4zNjBEVkZqY0F2bEtTNzByYjVjckVjaHpVaTZNVk1LQzdXQWVyb3owOU5FX1hObldFdnc2QUF4a0U5a3ZXeVl4VFA1MVVEWGd6RmE2UjNIWjVVY09ocS04Ukc4X1RnQUxFN3dPZHMtU1JCcW8yTV9scjNPaWdTQmVpOU1ZaC1FaXRLNlpqbVJ0aVpXS0J2QmQyNHJQSTkzS3k3UGlsSm1NX2RRQjFVenZ4U1ZZaXJqQldCbmI0?oc=5",
+   "title": "GeneDx hires Quanterix CEO Everett Cunningham to replace Katherine Stueland, with $20 million in stock awards"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQakY4VzQxZ09iYy0wbEZ4SS0wakYzU2Y0ejJmYUs5SE9Td2NIQTh1T21UaDNuVHpFVUlHQ0NhTlpGWC1JNFZGbTNjMHNabkFjRFhLQ0RZZlVLeGR3QWRvN214ejl1emF6cWpQQUtRYWZOb2c1YW5YWXk4aXRuRnhOVjFoazRkNnpDOW82Zzk3SW5SNnBCRnRkQ0JYV2k?oc=5",
+   "title": "A CEO stepped down at Quanterix. Its board is searching for a new CEO."
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQajJhalVMR1l4R1ZlZGs2V3NIdnpPRElISGNBYlhub3dHOFhhOEZFWkN6OU9ESjVJTlFIaERybEVIemQ5cHRNSWttWF9xc0llRzBMUGwxMmw2VFY2U19iWDNXZ3Jhd00zQ3ZhQzdJdk5CbUNrUFhaRy00bk92TXhNY2ZYVUQxQ190SDZsRUxFc1JBVTBEOGU2S2VibXBJREpfRlNTag?oc=5",
+   "title": "GeneDx Replaces CEO Katherine Stueland With Former Quanterix Chief Everett Cunningham"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYVRuRlRoRFdDR2FISnZWQ3dVX3RuT3E1M0c5QkJyM0hvenJNN2xvRnVpcUl3M3hMaWpjY29ieVlYUE9qWmJsVlAxNUpfUzg3a0RqS25UcElhbjZUUzVyMi1TaDUzMC15ZTNzOUZRY2swM1M2SWpQNk9CUV9hc1AzNkxISzRqTlFmMXhGdlI1UmFHTlczdUZKaGlpY1VxbFJuNHZmLVFJSnUzN3ZHT3hERzhxczNHdjFMdUdJVk5YN0xlX1ZjTy1MeFdNUQ?oc=5",
+   "title": "Q3 rundown: QuidelOrtho vs other healthcare equipment and supplies stocks"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc0ZCb2tuYU92Wl9EOElib0VTNDhac0wydE8zR3ZSYUpPV2xRSGtvQXB3THpfbDVIY1dFUUJybkZwRnBteE1LMmNqVUoxWUsxcHZYTmVnUldvVXA3WU9ESW9qX3FCTnRTWXBKZHJzOVlnQk9OX3RjUUt1TGFRSWdiWm9HXzNPeE05ZnJvUFF3X25zcXVKVUJONlpodzRDRmYxX3lZNVRn?oc=5",
+   "title": "Quanterix Corporation Announces Management Changes"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUHdkU1N0a0xCN0lLaURsYWUtc3dLOU84MG5RckdWWUtMWldUU0FUc1lrcFZVc3d2T3l3OE5wcTlNU3YtMW84UFVNZC11YS1WaTVWcFg5ZVd0QVBaRGd4ZzNLamthUlV3Vm9URm9TTVlieUxoaUtBc3NmYWRZbG9IcWxtUVdabldUOU45TzlibUN4Yy1MZGc?oc=5",
+   "title": "Medicortex wants to be able to detect brain damage with a urine test"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN1lQaFBMb1VyNkYyQzJhSFM5NXQzVFJpUHZzQnJjWmlFYWJFYmo5MHFZQkZTUk5WeXZYOW5HNlZMQjJmS2thWmpETHFMQlNtNDd2X0dkTGVzd3hRNFFlXzRCczdRUmhOMC02QUdDckNjN1d0cVI1d3VvREh1ZENoMlJ3ZmxUQTJjeXNFTUVuMVRwUDVGbzFZQk11elgyMzBSU0hiSzlLSjRrTkRsaURmdkNtVGVlME0wLVJNVmNaY1c?oc=5",
+   "title": "Quanterix CEO Everett Cunningham steps down, Jim Gute named interim"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVTRQSnEtQUJWNGw5RnhJM2dEdy1QNEI3cG1aU1RRNWtmcHplalQtaFFVajNLbk5kcENxSVpPSWw3TE43dGU3cE5QRTBFLUdueVdxNlFtWlBUamZoMURTd2ZzLTVnWWJCd0c2Unp4RVRTWDJNbnRWWnFlMzNDek1KOHdOQVA2SkJGcjd4NTh0R3ZpZ3NtVm5CWnhlVQ?oc=5",
+   "title": "Less than a year into the job, Everett Cunningham steps down as Quanterix CEO"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOOVJGQTZwcUJoZktkMlQ1UXJnMHFMcWFJRDloSUU5YmhaTDYtWk84aV8tNXhDdGk3ZE5TampFclBPUTRMbXpjZGpxWmNZR3hONUVEd3h6N3BOVy0yLUlSTWhPOE1WQ1JtQ21YY0wzZy1IaExkNzNpX3hMSkQ1Qkw5UGFrSThaVkdCUWl2T0I4QTZkVy1FOUN2VmpkcVhRRHJEX2ZQdjl3QkQydFQ3elAyNTl4WHZJN28zQU5uVlFNYnVQRzI1VGN0YWVnVDlNRU5aNWFqRFNldXpYZ3ZjM3lEMjV6SDZYWGhiXzJNOEV3TQ?oc=5",
+   "title": "Quanterix Appoints Jim Gute as Interim President and CEO Following Everett Cunningham’s Departure, Reaffirms 2026 Outlook"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRENuQ1FRZW9LMFBNMjBVZTA0UXhhVmJqdVNIUzFOdHV4bXM1QS1JSWNvWWhDZzIxZVJCWGtMOGY2dUU3V3U4YlFhdlp2Y2hOSk5uMmVUeS0yTHhYQzF0bC12ZTVlRjc3SndOTk9LZXRQN2JwSnB1Mm1mcUNXbDhWY3FLU1RSdU0xbkJNS1l1MUdoZnphMXc3QXFFN0ktNTdVZFJjVU9fR3kySEs2cDRr?oc=5",
+   "title": "Quanterix CEO steps down; CCO named interim chief"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN2lUbnl5LWtlYWc4blNaSXFnYnR4QWZXdUNnRlZhRDBMNjY3Y0M3TDhTdmtJLWlHWmZHR2E5ek50MlY5cmJLeWpOSGtBdzlUVVdDeDF0V3hLZERKZVJ5X0NHUmRDazdqZkttR01ZdjNneTVWdW5ZMnBGR1p0aHV4RVJ2XzQ2MkxvQVNqOWJvMVpZdGc?oc=5",
+   "title": "Quanterix Announces Leadership Transition Plan"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbXhkbXFEY1NPa21yT3NKdURJNV9SSXJqQ0FJeE5SUUcwbFBfRmNCczdzZms0Q0ozaEhzRkhMM0pBUkVURGdTTFVfb2pPeEhQTlJfWV9QQlBOYm5lUWIyRUVHLUxXZkJCampmOXdENUxBQTA4X0wtSWxNM2hkUkZmYnlTMlo2bVdsSTRqM1R0cm9uZWwtUy1weVNSc1dVNXltVmRSYVFKWlQzWGhKbHhkS2xjdnhjSktGa2JvVUtuMS1tSklsSVE2bTZtVmViQzVsX29kag?oc=5",
+   "title": "Quanterix appoints Jim Gute as interim CEO as Everett Cunningham steps down"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOV9vaXNubWRmMG1QQV9LaVpPV3VDa1ZvNUhRZzZpM2E2NkZJRks0TEFOdWJXS0xKU1EyWWdmLXRiLTBFaEdvU3BPeXJUZUZFRWFUb0NkNG10YkNKRjIwejZwQWc3Mm9ZejJ5bmx4OUNwWktJT0d4eEk2NVJHN2JFTFg5S05lVlBYNldRMlZWWDRhYzFoUmtWUm5kQTA1eHBSMmE2a0lOWGM3cWdzVkUzMGdnaDNYMEtBR3lHU19idjNJSTk1aTBoLVk2Zw?oc=5",
+   "title": "Quanterix CEO Everett Cunningham resigns; James Gute named interim CEO"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaHZOdnBROVJ0TFduNEZua2VPX0NuRmRrS3RtSDZGdkttRFlIYklZanJtMlI5eDdaOWo4MU5JNjRZb2kwZG1lLXVOVFhCTDl1ellrbnRXNnpMOFlyMmtvR2RwX01XUFdHam9oTXVTamhwOHl3d082RmF6WWh3SzBUbHo5dVFtQmx3YXlvN2dR?oc=5",
+   "title": "AHA urges Congress to act on key priorities for hospitals"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYjVFQi1tMWZmVGFpLTFBd0NyUEtlM2tBTEpQR0hzTXYyTlZ2eG9DLTJiZ3JtSGNibjFiemh3Zi1XRklVbDVXeEJrYWZqX1JTSG9BbUFmVjhSX3k0dUo2MXVrWE4zYnBxRzltTWlhbjhySG1ZM19aU1hKS0NJVXFKc2diSFdacHlqbkg0dEkwQUFNSC12blVBdnM1WVZ6SUVjcXV4bEpQZVVTZFZFbW5wYnEzb2RrQzBMRnFMck85S25vT043cm5fY2hwSjZtd0lWeEVv?oc=5",
+   "title": "American Century Entities Disclose Over 5% Ownership in QuidelOrtho as of September 30, 2026"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONi14TUtNbTlpZUtlZXVLNFo0blJyS3IxeHZWOWFjbWdCWnNreXZFSi1Hb1R6ZEhhUHF3UWhwZGc1LUN2cTdiaHFKR0NDamM5RF9DTWdick9HOFZmbDJCS3VXbmYxVkxsWEhPTHB0MGp1eTBkZURjVjBFZHk4dUdvbg?oc=5",
+   "title": "Still opening doors: His traumatic brain injury recovery continues more than a decade later"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdDdIUTNwXzRfM2dfelR3ZXg2RW9qRlVLSWNYWlkxQURmbUt3Sk84c21QUlFiY1RhS2FUaC1HbUpzUW9LVmdlU0dYWU9jQnhvSm9Iem9yMmFncUNaSXMtT3ZJVmJheUVzRDZPTUdyV0plVjhyR1ktbjRYclBGQVVRQjZic05OakowdkFpTzVzb1hweWlzVFMtZkVPUC10MmtiZENzNnhWMEJTTlExNXJ5RQ?oc=5",
+   "title": "European Guidelines Support Brain Injury Biomarkers but Belgian Hospital Adoption Lags"
+  },
+  {
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdDdIUTNwXzRfM2dfelR3ZXg2RW9qRlVLSWNYWlkxQURmbUt3Sk84c21QUlFiY1RhS2FUaC1HbUpzUW9LVmdlU0dYWU9jQnhvSm9Iem9yMmFncUNaSXMtT3ZJVmJheUVzRDZPTUdyV0plVjhyR1ktbjRYclBGQVVRQjZic05OakowdkFpTzVzb1hweWlzVFMtZkVPUC10MmtiZENzNnhWMEJTTlExNXJ5RQ?oc=5",
+   "title": "European Guidelines Support Brain Injury Biomarkers but Belgian Hospital Adoption Lags"
+  }
+ ]
+}

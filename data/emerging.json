@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-21T03:46:20+00:00",
+ "checked": "2026-11-23T22:23:50+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -314,6 +314,32 @@
  ],
  "news": [
   {
+   "id": "43724a4c0bafefec",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "From PCR to Point-of-Care: Building Diagnostics Companies Inside BSL-2 Labs",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWDF3UjVBODB4eHhLREk5Z0VHZy01NEZWdldyMzRLNGxOWEhIM3BlNFhJQ0pUa0YzSWpINHNlR0txeG96V2JUbkJUZ1AwZVlPOUdrRGw5VDBLM3pFTTVmM1k1QWhzVWhxcXRaYkVaT21hYW9PRG1fTXVhdHhFNFJUdXNpRTdIMzV2bTJzeld2emJuVDRKRDBEUE9wQk1iUHRQOFFfSXFR?oc=5",
+   "date": "2026-11-23",
+   "snippet": "",
+   "publisher": "MedicalResearch.com",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-23T22:23:50+00:00"
+  },
+  {
+   "id": "350850764c3e171b",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Review Evaluates Sustainable Biodegradable Materials for Decentralized Point of Care Viral Diagnostics",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbzNlY1Fhd0VRc29tMnhrOVhVZFBVeFRtMmVRYXZRcDJrZjFIa2NDcVJmS1JYN2pNTF9vX0VPVy1SeThYZVBwbk5zcGM5anVkZW0zWjRvQmE0NGY1dkhDOS1nUzVPX2FQaUxhTVVaUWhLc2c1WnVCcFl4RTI3ajA4UlVTeFkwRnJ4ZV9wbXdyVzVDYW5YMENlM3UwcTlTZGc5WmdQUnpTWjRnMFExU2ZWNlByM0lXYTIwWEgzSnVIUnRnSFh5bVE?oc=5",
+   "date": "2026-11-23",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-23T22:23:50+00:00"
+  },
+  {
    "id": "15a2e6ec576db022",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -338,6 +364,32 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-11-20T18:58:05+00:00"
+  },
+  {
+   "id": "ae5c71bfccbc3c1b",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Israeli startup receives FDA Breakthrough status for urine test targeting treatable dementia",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KR1JybmhQbDVnZERsc0tDcWJWMFV1UVprTkxjbWVsUU5sU2hCTjFSX0J6MVRmVW1hYjhTUFpQRXRBbmlVa3JuS1lGb1hnb0piWmF3djhyRXJjVkFqMXVrczc2aHR3S2s?oc=5",
+   "date": "2026-11-20",
+   "snippet": "",
+   "publisher": "CTech",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-23T22:23:50+00:00"
+  },
+  {
+   "id": "9c0b0c8a5fcb4421",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "ABT vs MDT",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE43U0RxSFNyaFVxOFpkTmYteDJLelRMZXhKWF9Oc05ZYnhoX0pGaERTZEdELWdtYUt6LXRKWTVibmMzTC01ak9weDRHUF8zZzlSU0YxSVZaLVo?oc=5",
+   "date": "2026-11-19",
+   "snippet": "",
+   "publisher": "Quantisnow",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-23T22:23:50+00:00"
   },
   {
    "id": "029f847ae86df821",
@@ -496,6 +548,19 @@
    "first_seen": "2026-11-21T03:46:20+00:00"
   },
   {
+   "id": "e3931e9bd30aa68e",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Startups selected for Toronto Mobility Unlimited Hub",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX3Y2NTJCR1B1eVBsdUVFYi1FeUJiZlZXNDg0ajhxOVQ1MTQ1WkNzYTFob3JMRF9QdDh1Z2lIWHlQZlE4aEU3QTZEbEF6cFNEYWpsTzNuUmk5VURTRzJ2QlJaRXVHbUxNMjJsNU5YMTRuN1lTVHJtamxTX2lUZzNweDltakpfSkcwU0FPcGkyWGVHZ05Cb2hhZmpCckQ1ZlZKQ2dfVEFlV000c25JVFE?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "Smart Cities World",
+   "query": "\"traumatic brain injury\" diagnostic startup",
+   "tbi": false,
+   "first_seen": "2026-11-23T22:23:50+00:00"
+  },
+  {
    "id": "799542a35d037580",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -626,6 +691,19 @@
    "first_seen": "2026-11-18T19:14:56+00:00"
   },
   {
+   "id": "595f486338940ed6",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Molecular Designs Earns Its First FDA 510(k) Clearance with SimplicityDx™ Panel FluA/FluB/RSV",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd3BWRUMxeHluYkhXb05VcTRoYlcxcERoV2YzYmZ1RzRrbHRsTnBKUDk0TmVTLXF0YUJENGswRncxNmVTc2tONm9ZeGRxZUFNYTVob3Zna0h6R2RYQ1dNajh2dmRqVjJUWXNQTGlyTWlreVN0b2RidFc0WVpNaHc3RFdUejMxUFlpdUQ0MThtdXllZjB1Vmk4VWdR?oc=5",
+   "date": "2026-11-13",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-23T22:23:50+00:00"
+  },
+  {
    "id": "818ebef8b9376ae8",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -715,6 +793,32 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-11-12T18:42:06+00:00"
+  },
+  {
+   "id": "e725ac6bef7e2c9e",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Zus Health secures $33M to build the infrastructure for AI-powered clinical workflows",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUjZORTJVZzI2LVJwVXplRVB4Z3VqSEMyNFcwQU9IRnQySE5XMlA3a3p2a1ZEbEVrRHJWQmJSZWM0a19MTkRjZ2d5eEJqd21WZ1JGVXBXYU51TTQ1ZEZpNXJlMmNiVVk0NDI1WksxM01ucnZNMkdWM2FqdEhkRk9jZlZBM2VDZE5Ed2RxR1k3Z0Z4aFJrdXAzdlVRVnoyV0RwbnhBWU9raXdPZXZ1Z05idnJiWUplNm9nclE?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "Fierce Healthcare",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-23T22:23:50+00:00"
+  },
+  {
+   "id": "96288ac2f18f9e1b",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Nanopath Raises $25 Million in Series B Round",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNb1NqeVRYY0NTenJvNkpueVRCazExVUpiR1hBRjdLU2syQjNWM0ozWkg3cnRacmo3bVpsWmNTMTBsa3RCWG9wU3BHYXQ1YUVsUVRVdDBNblhHeVBDY3RERXU0enMtWWtDMjVHd1NkWmxnbUFrVWZKQ2JmV0NXQkJLWldDeGJGUGhZajdv?oc=5",
+   "date": "2026-11-12",
+   "snippet": "",
+   "publisher": "Wisevoter",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-23T22:23:50+00:00"
   },
   {
    "id": "2463016ce923218f",
