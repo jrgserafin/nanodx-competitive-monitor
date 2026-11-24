@@ -11,6 +11,58 @@
   "signal": []
  },
  {
+  "id": "da986ab1f3f7e836",
+  "competitor": "Abbott",
+  "source": "News",
+  "title": "Implementation Science Recommendations Proposed to Accelerate Brain Injury Biomarker Adoption",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTTlLa3VHcGRSMV85Rk9pZDAtMUo0NHQ3eFAyN2x3VFh6ZU8yYW1BLVJuMDBhd0VYMTd0d0xDazhzaFlqamg1UDFSWFVhdXhwYmF1TnBEQ0xYQWFsMDE1aDlCV2ZPalJDSktMaEhMVk9FUGFTQnZDNzAyU3dXZ3RRbW0zYXZXU0NEcFNhcUY5alhGbTlRcFlDdW55Q0RfRTh6WG1jSk1HSGI5dWphTVluNFdJLUFqeTg4OXc?oc=5",
+  "date": "2026-11-24",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "\"Alinity\" TBI",
+  "first_seen": "2026-11-24T23:44:32+00:00",
+  "signal": []
+ },
+ {
+  "id": "8c2d73785c6ee673",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "Implementation Science Recommendations Proposed to Accelerate Brain Injury Biomarker Adoption",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTTlLa3VHcGRSMV85Rk9pZDAtMUo0NHQ3eFAyN2x3VFh6ZU8yYW1BLVJuMDBhd0VYMTd0d0xDazhzaFlqamg1UDFSWFVhdXhwYmF1TnBEQ0xYQWFsMDE1aDlCV2ZPalJDSktMaEhMVk9FUGFTQnZDNzAyU3dXZ3RRbW0zYXZXU0NEcFNhcUY5alhGbTlRcFlDdW55Q0RfRTh6WG1jSk1HSGI5dWphTVluNFdJLUFqeTg4OXc?oc=5",
+  "date": "2026-11-24",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-24T23:44:32+00:00",
+  "signal": []
+ },
+ {
+  "id": "e2ddd293dba3166f",
+  "competitor": "TBI biomarker evidence",
+  "source": "News",
+  "title": "Implementation Science Recommendations Proposed to Accelerate Brain Injury Biomarker Adoption",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTTlLa3VHcGRSMV85Rk9pZDAtMUo0NHQ3eFAyN2x3VFh6ZU8yYW1BLVJuMDBhd0VYMTd0d0xDazhzaFlqamg1UDFSWFVhdXhwYmF1TnBEQ0xYQWFsMDE1aDlCV2ZPalJDSktMaEhMVk9FUGFTQnZDNzAyU3dXZ3RRbW0zYXZXU0NEcFNhcUY5alhGbTlRcFlDdW55Q0RfRTh6WG1jSk1HSGI5dWphTVluNFdJLUFqeTg4OXc?oc=5",
+  "date": "2026-11-24",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "(GFAP OR S100B OR \"UCH-L1\") \"brain injury\" blood test",
+  "first_seen": "2026-11-24T23:44:32+00:00",
+  "signal": []
+ },
+ {
+  "id": "dfc8da23c2ad9770",
+  "competitor": "Military TBI screening",
+  "source": "News",
+  "title": "Repeated Low-Level Blasts Drive Cumulative Neurovascular Damage Across Military Cohorts",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcWVqTWFVZUNGUVJHYjFGLTJZZ04tWkNWN3dWZ3JkeGlTSHpORDlOTzJPR0FTOWRBTDdqWFlyckRGdzU4a2RzWHpScmd3N3pzNEhydFVQcFBoRnNqUmZVY3JfZE5NeDltZzhrVHllaE05Vm5JUXJXTjlIRi1zb0llalZySmNpaXFxTXBSUy11TFNXd0poWENvbF9NRE51dXpxUElISzFoQkRDS3NPS2J4UWJR?oc=5",
+  "date": "2026-11-24",
+  "snippet": "",
+  "publisher": "Bioengineer.org",
+  "query": "military \"traumatic brain injury\" blood test OR screening OR biomarker",
+  "first_seen": "2026-11-24T23:44:32+00:00",
+  "signal": []
+ },
+ {
   "id": "1e4ea0996bbef48e",
   "competitor": "TBI biomarker evidence",
   "source": "Publication",
@@ -61,6 +113,32 @@
   "publisher": "ESPN",
   "query": "\"Lamuno\"",
   "first_seen": "2026-11-23T22:21:18+00:00",
+  "signal": []
+ },
+ {
+  "id": "908fa4bb29bc75d9",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "EMVision wins $3m grant to expand scanner into traumatic brain injury",
+  "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNcldmXzBTZGdQa1RqS3NJWmNTa3BBQktTYnhNTXpGekRQaVZPdWtXZm9TMFZPQ3dteHlJcmktcDM0WVdQVS00NlR3cnc2UXRuQk5GZTV3NmFfWjJPUFhNcW5IXzNrWnNTVm94VFc0cjV1cFQ4QjVoOXFQMDVfdzZCdmtORElndFhYSVdld21WWVIyNldnVndNRXFpUlZ5OHpocGI4d0tFdkd6djQ4OF9LQXU0YkgwdUp3VFU5eHRJdGJCeFFvMnZyX2ppcXpvX2pNSDhLcTczYjM0RHlhdm1UYmZxVzRBOVRhM1plVjhwbF9JVHhjWi1udVp2NDV3eGo4cGc?oc=5",
+  "date": "2026-11-20",
+  "snippet": "",
+  "publisher": "The Australian",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-24T23:44:32+00:00",
+  "signal": []
+ },
+ {
+  "id": "1ee64dd82be1c4b3",
+  "competitor": "TBI diagnostics market",
+  "source": "News",
+  "title": "EMVision Medical Devices Awarded $3m Grant to Expand Brain Scanner into Trauma Care",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeWUwaWZRcTVJWVFDS1hWZ0JseWJGeVhsS2xEcGVFWFVsRjBqMV9fRmVWRXVsdFFxQ1FZT0tYbVByM0dmVld6RnduMEttWnJreVpSaEtKeWNuZ2JDMm5jNEhZMnN5Z1dFMjBRb204a0J4S3ZDMWo4YU1kaEd3QVg1ZjZjNTdvbU9XbHd3RzJNTDdlZnZOTXhsR1pQWnJiT1lQSWY0ancxcGY2NG5qd3hKNS1SX2hGYjRjU0Z6NklB?oc=5",
+  "date": "2026-11-20",
+  "snippet": "",
+  "publisher": "Small Caps",
+  "query": "\"traumatic brain injury\" blood test",
+  "first_seen": "2026-11-24T23:44:32+00:00",
   "signal": []
  },
  {
@@ -188,6 +266,19 @@
   "date": "2026-11-19",
   "snippet": "Critical care medicine. Giglio A, Reccius A, Ferre A et al.",
   "first_seen": "2026-11-19T19:16:45+00:00",
+  "signal": []
+ },
+ {
+  "id": "17da4661acd186a4",
+  "competitor": "Quanterix",
+  "source": "News",
+  "title": "Quanterix CEO Everett Cunningham Resigns, Gute Named Interim",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYXB0c3VHQmlIWEJjRFpUbzBfSE9NODVzMFdYNDUtOUxTQ1YzcFlNODFtbnZ5bVlmQTFBNmVQMWR0NFo2R3Jud3FKQ0ctVGdOVG5HTW1aX3d4endfVHBIVHpteXVCSDVEMk9VbkZNVl8ybk5wWFNzOHl4eW5JRFVsTVI1TXRmUXRmOWJNRFA0Y0JUTTQzLUxtd0RmcTFtMXc?oc=5",
+  "date": "2026-11-18",
+  "snippet": "",
+  "publisher": "kalkine.com",
+  "query": "\"Quanterix\"",
+  "first_seen": "2026-11-24T23:44:32+00:00",
   "signal": []
  },
  {

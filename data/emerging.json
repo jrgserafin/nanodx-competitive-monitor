@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-24T21:00:54+00:00",
+ "checked": "2026-11-24T23:47:08+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -313,6 +313,71 @@
   }
  ],
  "news": [
+  {
+   "id": "cdc94d8e9aea9857",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "UT Health San Antonio Secures $2 Million CPRIT Grant to Expand AI Cancer Structural Biology",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPU0t4Q3htNEdUV29JSHhlRHRBYm5VdzJicFlxMGpJVjJmRGhHLWVMMjFOdDc5UkdZZ1hjMnVKUUNaNzY1UU5OdlFvUXpVMXdDWEl4VTg2V1B5dXFxZ1RpUnV6djBQVExVNTliYVAxWFc5NHVFNEJhLXhTdUE0bkxCTnJYY0llMTJCbTRpNG9yYTVaRDN0T1lqN25hNTdfT3VmdUFB?oc=5",
+   "date": "2026-11-24",
+   "snippet": "",
+   "publisher": "CASRAI",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-24T23:47:08+00:00"
+  },
+  {
+   "id": "bd637102e2526e6e",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "NIH diagnostics accelerator enables first-ever FDA authorization for a point-of-care test for active syphilis",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOTBaSFRUNFdsckNWOGhXN1l6SEVyY05haGgzUElQWVJtRTBZY3ZfZmc5Z2xWTXpWNUdWV1UzNXVkekFCSW9Uc2RYTEV4RGdmOS1NeFUyeGM2dXV0Y0s1LUxlTnZEdG42SHFGQl9xbzZuY291MU9VbW1mcGRiRmlMaExzVk1uWmZfbTE5am1teXNZUFdpU1k3MTQ1U2lSbktPU0tvRW5KSVY4ekNrZW1zMUhJci1TNTN0aHU1NVpUaE1ZbHdqUEZOS1lmM2pmdVdxY0RjZ24xc3dhdw?oc=5",
+   "date": "2026-11-24",
+   "snippet": "",
+   "publisher": "National Institutes of Health (NIH) | (.gov)",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-24T23:47:08+00:00"
+  },
+  {
+   "id": "bcaba655bee93009",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Comprehensive Global Study Maps Landscape of Point of Care Blood Testing Technology",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ09TRWtXR3I2dmxxVkttM2QxQWwwZkc0algzOWtOcjVlaUhBUnZQWDQxb1JkcU4tWnVIaG10T25YcW0zOTd1aWtIb3NsV0hxeVNtblA5UV9sTUducDF4Uy1SaWxBblZOdjNzU2hCTjRnWDV0SkpHMEFWS08wSkNGdU9Ed3BYMEJWb2ppMFR6elBxVEE2aVlZWUhrSlN4VTI3cU9PeWV5TzJuMXNY?oc=5",
+   "date": "2026-11-24",
+   "snippet": "",
+   "publisher": "Bioengineer.org",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-24T23:47:08+00:00"
+  },
+  {
+   "id": "0a99b1b4b089e9e8",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Nilocas raises £860K pre-seed for AI patch to detect heart disease",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWjVUMl9TUEdOejJHbkZVandPU2dyZm9rbzliVjJLUm1JajFlb3VXMGd5TGZYN2hISXgwY19IOUNGb05kczVrSWpFNHB6UzQ2S3o1SWYxOC0tWWtfNm1FWW1GbTM2d3VZYjdUMERvZXgzX2lqNmtMRzg2WDZPR0REQW41b0hCODZydUVlVUpDN25kRzA4aC1ZRVBLYUJxLS1l?oc=5",
+   "date": "2026-11-24",
+   "snippet": "",
+   "publisher": "Dealroom",
+   "query": "\"point-of-care\" biosensor raises",
+   "tbi": false,
+   "first_seen": "2026-11-24T23:47:08+00:00"
+  },
+  {
+   "id": "2ebeabce9cf6d648",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Innovation in healthcare roundup: Inuvi, Icon Oncology Group, Uniphar Medtech",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOblRYYnJ5cjNUb213T0xnMTk3bEIybjJXSjZ6RlgyYWFmYU5UejBqQ0NmVldCR3pRQTE0NWhnRTNDSkJ6cll2ZXp3eEFvOEVidUtFQVhqdi1HWUl6ekV2RUFKTnYwVjVxQzhSUU93NnhQN1k1a3hwblNVcjI0M2ZsQ1BQMzEzVXNvZEdDZmxKZWluM3ZqQ0hLbGhkTGdjNjdSM1BjbEhqTklpWkFoc2Z3?oc=5",
+   "date": "2026-11-24",
+   "snippet": "",
+   "publisher": "Healthcare Today",
+   "query": "\"rapid test\" \"brain injury\"",
+   "tbi": false,
+   "first_seen": "2026-11-24T23:47:08+00:00"
+  },
   {
    "id": "43724a4c0bafefec",
    "competitor": "Emerging (POC)",
