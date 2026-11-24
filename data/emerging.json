@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-23T22:23:50+00:00",
+ "checked": "2026-11-24T02:02:32+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -377,6 +377,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-11-23T22:23:50+00:00"
+  },
+  {
+   "id": "6382bf42c08747c2",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Polymedco Promotes Chris Mathews to Chief Executive Officer, Names John McDonough Executive Chairman of the Board",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNkdYbVhWX21ST25VOXRLLXdpN1Zfc0tRMXE5VzJfdWVLR0E3NHFJTE93cFpzNXcxSkp5UndGRzFZS29rM0UzQ09FQ1JfZi1lT0lDd0oyOVZ0SW5KMmJfWTZpZlJyb1h1V1l2RlBHbjl3Mmw4VEQ4aDZhN2RpNGZXSjZ0ZUpiTmg4MVJSX0ZjZ0hoRDhSOHZSZ2t2TDI4eHlaVi1HT1VOUkp5Vzk1YzMxdXlKMHZ2N0dkRTZLRHJQSkNKazJ6RWlXMVllZ2s5OTVZdHA5eGFCVHJZUEZtME56d3c0YklmeGc?oc=5",
+   "date": "2026-11-20",
+   "snippet": "",
+   "publisher": "BioSpace",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-24T02:02:32+00:00"
   },
   {
    "id": "9c0b0c8a5fcb4421",
