@@ -11,6 +11,20 @@
   "signal": []
  },
  {
+  "id": "1e4ea0996bbef48e",
+  "competitor": "TBI biomarker evidence",
+  "source": "Publication",
+  "title": "S100B, GFAP and UCH-L1 for the rule out of mTBI in a Belgian real-life setting prospective study: the MiTicBraIn cohort.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43074689/",
+  "date": "2026-11-24",
+  "snippet": "Acta clinica Belgica. Calluy E, Perot A, Lombard X et al.",
+  "first_seen": "2026-11-24T20:57:41+00:00",
+  "signal": [
+   "GFAP",
+   "UCH-L1"
+  ]
+ },
+ {
   "id": "6c0aa453e8411aee",
   "competitor": "QuidelOrtho",
   "source": "News",

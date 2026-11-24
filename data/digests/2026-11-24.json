@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-24",
+ "generated": "2026-11-24T21:00:54+00:00",
+ "title": "NanoDx Competitive Digest",
+ "items": [
+  {
+   "id": "1e4ea0996bbef48e",
+   "competitor": "TBI biomarker evidence",
+   "source": "Publication",
+   "title": "S100B, GFAP and UCH-L1 for the rule out of mTBI in a Belgian real-life setting prospective study: the MiTicBraIn cohort.",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/43074689/",
+   "date": "2026-11-24",
+   "snippet": "Acta clinica Belgica. Calluy E, Perot A, Lombard X et al.",
+   "first_seen": "2026-11-24T20:57:41+00:00",
+   "signal": [
+    "GFAP",
+    "UCH-L1"
+   ]
+  },
+  {
+   "id": "438642298d65ff9b",
+   "competitor": "AeHealth",
+   "source": "News",
+   "title": "Siena 93-87 Bucknell (21 Nov, 2026) Final Score",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNVllbTc4R1FQYlA3bm11U3laa1E2aGhhTkZYcGlKeENKcDMtXy16dDNUV2Y5S1JtS0ZMNk1rbTE5N195Qm9XYk1Nemo5SlZwUjN2MHpkeEFCMDk1V0JEMkt3dGFyTmdPRDhWbW12X3A3R19PSG9uTEdRVU11ZTBEZHhNaVVHQ3VRVmVxdFdn?oc=5",
+   "date": "2026-11-21",
+   "snippet": "",
+   "publisher": "ESPN",
+   "query": "\"Lamuno\"",
+   "first_seen": "2026-11-24T01:59:10+00:00",
+   "signal": []
+  }
+ ],
+ "brief": null,
+ "brief_html": "",
+ "brief_emailed": false
+}
