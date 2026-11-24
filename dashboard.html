@@ -549,6 +549,13 @@ input,select,textarea{font-size:15px!important}
 
 :root[data-theme="light"]{--lg0:#3a55b4;--lg1:#2a6fa0;--lg2:#1d7f86;--lg3:#16845c;--lg4:#157a52}
 .wm,.ldlogo{color:inherit}
+
+/* flow: skip control and the short boot for returning visitors */
+.ldskip{justify-self:center;background:none;border:1px solid rgba(255,255,255,.3);border-radius:999px;color:#d0d9e4;font:600 12px var(--font);letter-spacing:.2em;text-transform:uppercase;padding:9px 18px;cursor:pointer;transition:border-color .2s,color .2s}
+.ldskip:hover,.ldskip:focus-visible{color:#fff;border-color:#a5f2cc}
+#loader.quick .ldsteps,#loader.quick .ldskip,#loader.quick .ldgate{display:none}
+#loader.quick .ldlogo{animation-duration:.45s;animation-delay:0s}
+#loader.quick .ldsub{animation-delay:.1s}
 /* ---------- motion ---------- */
 .reveal.wait{animation-play-state:paused}
 .card h2.h{position:relative;padding-bottom:12px}
@@ -1345,32 +1352,12 @@ th{letter-spacing:.14em}
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="wm" viewBox="211.331 267.24 429.683 59.816"><g fill="url(#nxlogo)"><path fill-rule="evenodd" d="M632.902 270.011 L629.005 270.011 C628.916 270.011 628.875 270.065 628.875 270.156 L628.875 270.767 C628.875 270.856 628.916 270.912 629.005 270.912 L630.476 270.912 L630.476 274.68 C630.476 274.769 630.523 274.824 630.606 274.824 L631.301 274.824 C631.384 274.824 631.437 274.769 631.437 274.68 L631.437 270.912 L632.902 270.912 C632.991 270.912 633.032 270.856 633.032 270.767 L633.032 270.156 C633.032 270.065 632.991 270.011 632.902 270.011"/><path fill-rule="evenodd" d="M638.877 270.011 L637.59 270.011 C637.489 270.011 637.436 270.052 637.406 270.149 L636.273 273.71 L635.135 270.149 C635.105 270.052 635.051 270.011 634.951 270.011 L633.682 270.011 C633.593 270.011 633.551 270.065 633.551 270.156 L633.551 274.68 C633.551 274.769 633.593 274.824 633.682 274.824 L634.31 274.824 C634.394 274.824 634.441 274.769 634.441 274.68 L634.441 270.919 L635.674 274.687 C635.704 274.784 635.752 274.824 635.858 274.824 L636.641 274.824 C636.742 274.824 636.801 274.784 636.825 274.687 L638.053 270.932 L638.053 274.68 C638.053 274.769 638.1 274.824 638.183 274.824 L638.877 274.824 C638.966 274.824 639.013 274.769 639.013 274.68 L639.013 270.156 C639.013 270.065 638.966 270.011 638.877 270.011"/><path fill-rule="evenodd" d="M417.401 276.025 L408.46 276.025 C407.768 276.025 407.207 276.585 407.207 277.277 L407.207 310.588 L373.597 278.208 C371.585 276.269 368.805 275.197 366.039 275.595 C361.465 276.252 358.309 280.076 358.309 284.436 L358.309 305.322 C358.309 309.742 356.003 312.598 352.436 312.598 C347.003 312.598 344.828 307.676 341.16 297.761 C337.768 288.588 333.121 276.025 319.15 276.025 C305.18 276.025 300.532 288.588 297.139 297.761 C293.685 307.098 291.555 312.073 286.781 312.554 C286.279 312.604 285.863 313.006 285.863 313.51 L285.863 323.063 C285.863 323.607 286.32 324.046 286.863 324.022 C300.059 323.436 304.563 310.682 307.874 301.731 C311.542 291.816 313.717 287.471 319.15 287.471 C324.583 287.471 326.758 291.816 330.426 301.731 C333.819 310.904 338.466 324.044 352.436 324.044 C362.471 324.044 369.754 316.17 369.754 305.322 L369.754 290.398 L402.283 321.736 C404.121 323.509 406.533 324.444 408.984 324.444 C410.54 324.444 412.115 324.066 413.569 323.287 C416.438 321.75 418.654 317.594 418.654 314.34 L418.654 277.277 C418.654 276.585 418.092 276.025 417.401 276.025"/><path fill-rule="evenodd" d="M279.582 269.987 L270.068 269.987 C269.534 269.987 269.102 270.419 269.102 270.953 L269.102 310.734 L230.181 272.834 C227.31 270.038 223.062 269.24 219.358 270.805 C215.697 272.35 213.331 275.901 213.331 279.85 L213.331 323.328 C213.331 323.862 213.763 324.294 214.296 324.294 L223.811 324.294 C224.344 324.294 224.777 323.862 224.777 323.328 L224.777 283.547 L263.698 321.447 C266.569 324.243 270.818 325.039 274.52 323.477 C278.181 321.931 280.548 318.381 280.548 314.431 L280.548 270.953 C280.548 270.419 280.115 269.987 279.582 269.987"/><path fill-rule="evenodd" d="M474.744 305.008 L474.7 305.608 C474.395 309.757 471.032 313.059 466.878 313.289 C459.119 313.719 451.251 313.719 443.492 313.289 C439.338 313.059 435.975 309.757 435.671 305.609 L435.626 305.007 C435.383 301.691 435.387 298.332 435.64 295.018 C435.955 290.882 439.316 287.589 443.492 287.358 C447.367 287.143 451.269 287.036 455.176 287.036 C459.091 287.036 463.011 287.143 466.911 287.359 C471.054 287.589 474.415 290.882 474.731 295.018 C474.983 298.332 474.987 301.691 474.744 305.008 M467.511 275.928 C459.332 275.477 451.038 275.477 442.827 275.931 C432.973 276.475 424.976 284.309 424.226 294.15 C423.932 298.029 423.926 301.965 424.211 305.844 L424.256 306.447 C424.981 316.316 432.979 324.169 442.859 324.717 C446.949 324.944 451.067 325.057 455.185 325.057 C459.303 325.057 463.422 324.944 467.511 324.717 C477.391 324.169 485.389 316.316 486.115 306.445 L486.159 305.846 C486.444 301.965 486.439 298.029 486.144 294.15 C485.394 284.309 477.397 276.475 467.511 275.928"/><path fill-rule="evenodd" d="M540.524 270.011 L500.411 270.011 C495.6 270.011 491.717 273.887 491.717 278.697 L491.717 306.267 C491.717 306.801 492.149 307.233 492.683 307.233 L502.197 307.233 C502.73 307.233 503.163 306.801 503.163 306.267 L503.163 281.457 L540.524 281.457 C544.738 281.457 548.298 284.645 548.695 288.841 C549.221 294.407 549.221 300.054 548.694 305.619 C548.297 309.815 544.738 313.003 540.524 313.003 L492.666 313.003 C492.132 313.003 491.7 313.436 491.7 313.969 L491.7 323.483 C491.7 324.016 492.132 324.449 492.666 324.449 L540.524 324.449 C550.727 324.449 559.141 316.788 560.096 306.629 C560.682 300.392 560.682 294.068 560.096 287.829 C559.141 277.672 550.727 270.011 540.524 270.011"/><path fill-rule="evenodd" d="M627.482 286.075 L627.482 276.573 C627.482 276.033 627.036 275.587 626.496 275.604 C614.439 275.996 605.445 283.527 597.084 291.862 C588.724 283.527 579.73 275.996 567.673 275.604 C567.133 275.587 566.687 276.033 566.687 276.573 L566.687 286.075 C566.687 286.59 567.082 287.031 567.595 287.058 C575.44 287.471 582.201 293.188 589.051 300.019 C582.201 306.849 575.44 312.566 567.595 312.979 C567.082 313.007 566.687 313.448 566.687 313.963 L566.687 323.464 C566.687 324.005 567.133 324.451 567.673 324.433 C579.73 324.042 588.724 316.511 597.084 308.176 C605.445 316.511 614.439 324.042 626.496 324.433 C627.036 324.451 627.482 324.005 627.482 323.464 L627.482 313.963 C627.482 313.448 627.087 313.007 626.573 312.979 C618.729 312.566 611.967 306.849 605.118 300.019 C611.967 293.188 618.729 287.471 626.573 287.058 C627.087 287.031 627.482 286.59 627.482 286.075"/></g></symbol>
 </svg>
-<div id="grid" aria-hidden="true"></div>
-<canvas id="bgfield" aria-hidden="true"></canvas>
 <!-- ================= LOADING SCREEN ================= -->
 <div id="loader" class="gate" role="dialog" aria-modal="true" aria-label="NanoDx Competitive Intelligence">
   <canvas id="ldwave" aria-hidden="true"></canvas>
-  <canvas id="ldfx" aria-hidden="true"></canvas>
-  <div class="ldgrid" aria-hidden="true"></div>
-  <div class="ldscan" aria-hidden="true"></div>
-  <div class="ldhud" aria-hidden="true"><i></i><i></i><i></i><i></i>
-    <span class="hl t">NDX // CI-CONSOLE</span><span class="hl r" id="ldClock">--:--:--</span><span class="hl b">SECURE LINK · PUBLIC SOURCES</span><span class="hl l" id="ldCoord">SYS 0x0000</span></div>
   <div class="ld">
     <div class="ldcore">
-      <svg class="ldrings" viewBox="0 0 300 300" aria-hidden="true">
-        <defs>
-          <linearGradient id="ldg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9be7ff"/><stop offset="1" stop-color="#3d7dff"/></linearGradient>
-          <radialGradient id="ldsw" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(150 150) scale(128)"><stop offset="0" stop-color="#74d0ff" stop-opacity=".0"/><stop offset="1" stop-color="#74d0ff" stop-opacity=".35"/></radialGradient>
-        </defs>
-        <g class="rg r1"><circle cx="150" cy="150" r="142" fill="none" stroke="rgba(150,205,255,.35)" stroke-width="1" stroke-dasharray="2 6"/></g>
-        <g class="rg r2" stroke="rgba(150,205,255,.55)" stroke-width="1.2"><line x1="150" y1="16" x2="150" y2="30" transform="rotate(0 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(6 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(12 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(18 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(24 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(30 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(36 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(42 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(48 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(54 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(60 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(66 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(72 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(78 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(84 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(90 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(96 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(102 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(108 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(114 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(120 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(126 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(132 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(138 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(144 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(150 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(156 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(162 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(168 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(174 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(180 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(186 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(192 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(198 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(204 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(210 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(216 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(222 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(228 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(234 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(240 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(246 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(252 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(258 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(264 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(270 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(276 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(282 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(288 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(294 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(300 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(306 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(312 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(318 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(324 150 150)"/><line x1="150" y1="16" x2="150" y2="30" transform="rotate(330 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(336 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(342 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(348 150 150)"/><line x1="150" y1="16" x2="150" y2="24" transform="rotate(354 150 150)"/></g>
-        <g class="rg r3"><circle cx="150" cy="150" r="112" fill="none" stroke="url(#ldg)" stroke-width="2.5" stroke-dasharray="120 56 40 60 18 70" stroke-linecap="square"/></g>
-        <g class="rg r4"><circle cx="150" cy="150" r="98" fill="none" stroke="rgba(150,205,255,.4)" stroke-width="1" stroke-dasharray="1 4"/></g>
-        <g class="sweep"><path d="M150 150 L150 22 A128 128 0 0 1 240.5 59.5 Z" fill="url(#ldsw)"/><line x1="150" y1="150" x2="240.5" y2="59.5" stroke="#9be7ff" stroke-width="1.2" opacity=".9"/></g>
-        <circle class="pr-bg" cx="150" cy="150" r="84" fill="none" stroke="rgba(150,205,255,.16)" stroke-width="3"/>
-        <circle class="pr" id="ldRing" cx="150" cy="150" r="84" fill="none" stroke="url(#ldg)" stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" transform="rotate(-90 150 150)"/>
-        <g class="blips"><circle cx="205" cy="92" r="3"/><circle cx="86" cy="196" r="2.5"/><circle cx="214" cy="205" r="2"/><circle cx="96" cy="88" r="2"/></g>
-      </svg>
+      <svg class="ldring-stub" hidden aria-hidden="true"><circle id="ldRing"/></svg>
       <svg class="ldlogo" viewBox="0 0 429.683 59.816" aria-label="NanoDx"><use href="#wm"/></svg>
       <div class="ldpct" aria-hidden="true"><span id="ldn">0</span><small>%</small></div>
     </div>
@@ -1383,6 +1370,7 @@ th{letter-spacing:.14em}
       <div class="ldtrack"><i id="ldb"></i></div>
       <div class="ldrow"><span id="ldm">Calibrating sensor</span><b id="ldt">00.0s</b></div>
       <div class="ldstats"><div><b id="lsA">0</b><span>Sources</span></div><div><b id="lsB">0</b><span>Companies</span></div><div><b id="lsC">0</b><span>Signals</span></div><div><b id="lsD">0</b><span>Emerging</span></div></div>
+      <button type="button" class="ldskip" id="ldSkip">Skip intro <span aria-hidden="true">&rarr;</span></button>
       <ol class="ldsteps" id="ldSteps"><li>Sensor calibration</li><li>Live source uplink</li><li>FDA · trials · filings</li><li>Competitor mapping</li><li>Emerging radar</li></ol>
     </div>
   </div>
@@ -1719,7 +1707,8 @@ var NxWave = (function(){
   var loaded = 0, total = 11, lmsg = "Calibrating sensor", dataReady = false, booting = false, bootDone = false;
   function lprog(label){ loaded++; if (label) lmsg = label; }
   function hideLoader(){ dataReady = true; }
-  var BOOT_MS = 8000, seen = false; try { seen = sessionStorage.getItem("ndx-intro") === "1"; } catch(e){}
+  var BOOT_MS = 8000, seen = false, skipReq = false;
+  try { var lastIntro = +localStorage.getItem("ndx-intro-at") || 0; seen = sessionStorage.getItem("ndx-intro") === "1" || Date.now() - lastIntro < 12 * 3600e3; } catch(e){}
   var LD = $("loader"), music = $("intro"), fadeT, wantMusic = true;
   try { wantMusic = localStorage.getItem("ndx-sound") !== "off"; } catch(e){}
   function fadeTo(v, ms, done){ clearInterval(fadeT); var from = music.volume, t0 = performance.now();
@@ -1739,60 +1728,20 @@ var NxWave = (function(){
     if (document.hidden && !music.paused) { hiddenPaused = true; music.pause(); }
     else if (!document.hidden && hiddenPaused) { hiddenPaused = false; music.play().catch(function(){}); }
   });
-  /* HUD clock + coordinates */
-  var hudT = setInterval(function(){ if (bootDone) return clearInterval(hudT); var d = new Date();
-    $("ldClock").textContent = d.toTimeString().slice(0, 8); $("ldCoord").textContent = "SYS 0x" + (Math.random() * 65535 | 0).toString(16).toUpperCase().padStart(4, "0"); }, 250);
   /* scrambled step messages */
   var GL = "▓▒░<>/\\|#=+*01ABCDEFX";
   function scramble(el, txt){ if (RM) { el.textContent = txt; return; } var f = 0; clearInterval(el._sc);
     el._sc = setInterval(function(){ f++; var k = txt.length * f / 12; el.textContent = txt.replace(/\S/g, function(c, i){ return i < k ? c : GL[Math.random() * GL.length | 0]; }); if (f >= 12) clearInterval(el._sc); }, 30); }
-  /* background canvas: drifting sensor nodes in the gate, warp streaks while booting */
-  (function(){
-    var c = $("ldfx"), x = c.getContext("2d"), W, H, P = [], N = 140, speed = 0, SC = .75, floorOff = 0, BK = [[], [], []];
-    function size(){ W = innerWidth; H = innerHeight; c.width = Math.round(W * SC); c.height = Math.round(H * SC); x.setTransform(SC,0,0,SC,0,0); }
-    size(); addEventListener("resize", size);
-    for (var i = 0; i < N; i++) P.push({a: Math.random() * 6.283, r: Math.random() * Math.max(innerWidth, innerHeight) * .7, v: .2 + Math.random() * .8, s: .6 + Math.random() * 1.6});
-    /* perspective grid floor drawn as ~30 lines (a CSS 3D layer cost 4x more to composite) */
-    function floor(cx){
-      var y0 = H * .58, depth = H - y0, Z = 14, spd = .006 + speed * .05;
-      floorOff = (floorOff + spd) % 1;
-      var gr = x.createLinearGradient(0, y0, 0, H); gr.addColorStop(0, "rgba(120,180,255,0)"); gr.addColorStop(.35, "rgba(120,180,255,.07)"); gr.addColorStop(1, "rgba(120,180,255,.16)");
-      x.strokeStyle = gr; x.lineWidth = 1 / SC; x.beginPath();
-      for (var z = 1 - floorOff; z < Z; z += 1) { var y = y0 + depth / z; x.moveTo(0, y); x.lineTo(W, y); }
-      for (var k = -16; k <= 16; k++) { var bx = cx + k * W / 12; x.moveTo(bx, H); x.lineTo(cx + (bx - cx) / Z, y0 + depth / Z); }
-      x.stroke();
-    }
-    function frame(){
-      if (bootDone) return;
-      var cx = W / 2, cy = H * .45; x.clearRect(0, 0, W, H);
-      var target = booting ? 1 : 0.04; speed += (target - speed) * .03;
-      floor(cx);
-      BK[0].length = BK[1].length = BK[2].length = 0;
-      var maxR = Math.max(W, H) * .75;
-      for (var i = 0; i < N; i++) { var p = P[i], r0 = p.r;
-        p.r += p.v * (0.25 + speed * 14); p.a += booting ? 0 : .0008;
-        if (p.r > maxR) { p.r = 10 + Math.random() * 40; r0 = p.r; }
-        var ca = Math.cos(p.a), sa = Math.sin(p.a), tail = r0 - speed * 26 * p.v, al = Math.min(1, p.r / 220);
-        BK[al < .4 ? 2 : al < .8 ? 1 : 0].push(cx + ca * tail, cy + sa * tail, cx + ca * p.r + .01, cy + sa * p.r); }
-      x.lineWidth = 1.3 + speed * .6;
-      for (var b2 = 0; b2 < 3; b2++) { var L = BK[b2]; if (!L.length) continue; x.strokeStyle = "rgba(155,231,255," + [.85, .55, .25][b2] + ")"; x.beginPath();
-        for (var m = 0; m < L.length; m += 4) { x.moveTo(L[m], L[m + 1]); x.lineTo(L[m + 2], L[m + 3]); } x.stroke(); }
-      if (!booting) { x.strokeStyle = "rgba(120,180,255,.12)"; x.lineWidth = 1; x.beginPath();
-        for (var a = 0; a < 40; a++) for (var b = a + 1; b < 40; b++) { var A = P[a], B = P[b], ax = cx + Math.cos(A.a) * A.r, ay = cy + Math.sin(A.a) * A.r, bx = cx + Math.cos(B.a) * B.r, by = cy + Math.sin(B.a) * B.r;
-          if ((ax - bx) * (ax - bx) + (ay - by) * (ay - by) < 14000) { x.moveTo(ax, ay); x.lineTo(bx, by); } } x.stroke(); }
-      if (!RM) requestAnimationFrame(frame);
-    }
-    frame();
-  })();
   function count(el, to){ var v = +el.textContent || 0; if (v === to) return; el.textContent = Math.round(v + (to - v) * .18 + (to > v ? .5 : -.5)); }
   var STEPS = [["Calibrating sensor", 0], ["Uplinking live sources", .2], ["Scanning FDA, trials & filings", .4], ["Mapping the competitive landscape", .6], ["Sweeping the point-of-care radar", .8]];
   function boot(withMusic){
     if (booting) return; booting = true;
-    try { sessionStorage.setItem("ndx-intro", "1"); } catch(e){}
+    try { sessionStorage.setItem("ndx-intro", "1"); localStorage.setItem("ndx-intro-at", String(Date.now())); } catch(e){}
     if (withMusic && wantMusic) playMusic();
     LD.classList.remove("gate"); LD.classList.add("run");
     var dur = BOOT_MS, t0 = performance.now(), step = -1, lis = $("ldSteps").children;
     (function tick(){
+      if (skipReq) { t0 = Math.min(t0, performance.now() - dur); skipReq = false; }
       var el = performance.now() - t0, p = Math.min(1, el / dur);
       if (!dataReady) p = Math.min(p, .96);
       var e = p < 1 ? p : 1, pc = Math.floor(e * 100);
@@ -1814,6 +1763,10 @@ var NxWave = (function(){
     setTimeout(function(){ bootDone = true; LD.classList.add("done"); startAnimations(); setTimeout(function(){ LD.style.display = "none"; }, 950); }, RM ? 50 : 1150);
   }
   $("ldGo").onclick = function(){ boot(true); };
+  function skipBoot(){ if (booting && !bootDone) skipReq = true; }
+  $("ldSkip").onclick = skipBoot;
+  document.addEventListener("keydown", function(e){ if (!bootDone && booting && (e.key === "Escape" || e.key === "Enter" || e.key === " ")) { e.preventDefault(); skipBoot(); } });
+  if (seen) { BOOT_MS = 1400; LD.classList.add("quick"); boot(false); }
   setTimeout(function(){ try { $("ldGo").focus({preventScroll:true}); } catch(e){} }, 1200);
 
   /* ---------- theme / links ---------- */
@@ -1851,9 +1804,9 @@ var NxWave = (function(){
       $("xl").animate([{transform:"translateY(0)"},{transform:"translateY(" + H + "px)"}], o);
       inner.forEach(function(el){ if (el) el.animate([{transform:"translateY(" + (-from) + "%)"},{transform:"translateY(" + (-to) + "%)"}], o); });
       return xf.animate([{transform:"translateY(" + from + "%)"},{transform:"translateY(" + to + "%)"}], o).finished; }
-    pass(-100, 0, 320)
-      .then(function(){ swapView(name, push); return new Promise(function(r){ setTimeout(r, 160); }); })
-      .then(function(){ return pass(0, 100, 380); })
+    pass(-100, 0, 210)
+      .then(function(){ swapView(name, push); return new Promise(function(r){ setTimeout(r, 40); }); })
+      .then(function(){ return pass(0, 100, 220); })
       .then(function(){ xf.hidden = true; xbusy = false; })
       .catch(function(){ xf.hidden = true; xbusy = false; if (curView !== name) swapView(name, push); });
   }
@@ -2207,101 +2160,6 @@ var NxWave = (function(){
       if (h.indexOf("c=") === 0) { show("companies"); setTimeout(function(){ openCompany(decodeURIComponent(h.slice(2))); }, 900); }
       else { closeCompany(); show(h || "overview"); }
     });
-  }
-
-  /* ---------- hero network graphic ---------- */
-  function startNet(){
-    /* nanowire field from nanodx-site: particles drift, bind to a wire, glow, release */
-    var fc = $("net"), fx = fc.getContext("2d"), bgc = document.createElement("canvas"), W = 0, H = 0, rows = [], parts = [], raf, lightMode;
-    function cols(){ return lightMode ? ["#0090DD","#0E9C90","#369DD6"] : ["#4DB8F0","#4FD1C5","#A9DDF5"]; }
-    var sprites = [];
-    function mkSprites(){ sprites = cols().map(function(c){ var s = document.createElement("canvas"); s.width = s.height = 64; var g = s.getContext("2d"), r = g.createRadialGradient(32,32,0,32,32,32);
-      r.addColorStop(0, c); r.addColorStop(1, "rgba(0,0,0,0)"); g.fillStyle = r; g.fillRect(0,0,64,64); return s; }); }
-    function mk(){ return {x: Math.random() * W, y: Math.random() * H, vx: (Math.random() * .4 + .12) * (Math.random() < .5 ? -1 : 1), vy: (Math.random() - .5) * .2, k: Math.random() * 3 | 0, b: 0, l: 0, r: 0}; }
-    function size(){
-      lightMode = document.documentElement.dataset.theme === "light"; mkSprites();
-      var d = Math.min(1.25, devicePixelRatio || 1); W = fc.clientWidth; H = fc.clientHeight; if (!W || !H) return;
-      fc.width = W * d; fc.height = H * d; fx.setTransform(d,0,0,d,0,0);
-      bgc.width = fc.width; bgc.height = fc.height; var bx = bgc.getContext("2d"); bx.setTransform(d,0,0,d,0,0);
-      var gap = W < 600 ? 32 : 40; rows = []; bx.lineWidth = 1;
-      for (var y = gap, i = 0; y < H; y += gap, i++) { rows.push(y); bx.strokeStyle = (lightMode ? "rgba(0,93,125," : "rgba(140,200,240,") + (i % 3 ? .08 : .18) + ")"; bx.beginPath(); bx.moveTo(0, y + .5); bx.lineTo(W, y + .5); bx.stroke(); }
-      parts = []; for (var j = 0; j < (W < 600 ? 18 : 40); j++) parts.push(mk());
-    }
-    function draw(){
-      if (!W) return; var C = cols(); fx.clearRect(0,0,W,H); fx.drawImage(bgc, 0, 0, W, H);
-      for (var i = 0; i < parts.length; i++) { var p = parts[i];
-        if (p.b) { p.l--; if (p.l <= 0) { parts[i] = mk(); continue; } var a = Math.min(1, p.l / 40);
-          fx.globalAlpha = .55 * a; fx.drawImage(sprites[p.k], p.x - 28, p.r - 28, 56, 56);
-          fx.fillStyle = C[p.k]; fx.globalAlpha = .6 * a; fx.fillRect(p.x - 44, p.r, 88, 1);
-          fx.globalAlpha = a; fx.fillRect(p.x - 2, p.r - 2, 4, 4);
-        } else { p.x += p.vx; p.y += p.vy; if (p.x < -10) p.x = W + 10; if (p.x > W + 10) p.x = -10; if (p.y < 0 || p.y > H) p.vy *= -1;
-          for (var j = 0; j < rows.length; j++) { if (Math.abs(p.y - rows[j]) < .6 && Math.random() < .05) { p.b = 1; p.r = rows[j]; p.l = 150; break; } }
-          fx.globalAlpha = .8; fx.fillStyle = C[p.k]; fx.fillRect(p.x - 1, p.y - 1, 2, 2); }
-      }
-      fx.globalAlpha = 1;
-    }
-    var onScreen = true;
-    if ("IntersectionObserver" in window) new IntersectionObserver(function(es){ onScreen = es[0].isIntersecting; if (onScreen) run(); }).observe(fc);
-    var odd = false;
-    function tick(){ if (document.hidden || curView !== "overview" || !onScreen) { raf = 0; return; } odd = !odd; if (odd && !quiet()) draw(); raf = requestAnimationFrame(tick); }
-    function run(){ if (RM) { draw(); return; } if (!raf) raf = requestAnimationFrame(tick); }
-    size(); run();
-    var rt; addEventListener("resize", function(){ clearTimeout(rt); rt = setTimeout(size, 120); });
-    document.addEventListener("visibilitychange", run);
-    new MutationObserver(function(){ size(); run(); }).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
-    setInterval(function(){ if (curView === "overview" && onScreen && !raf && !document.hidden) { if (!W) size(); run(); } }, 500);
-  }
-
-  /* ---------- page-wide sensor field: dots drift, link up, and lock onto nanowires ---------- */
-  function startBgField(){
-    var cv = $("bgfield"); if (!cv || !cv.getContext) return;
-    var g = cv.getContext("2d"), W = 0, H = 0, rows = [], P = [], raf = 0, dark = false, sprites = [];
-    function cols(){ return dark ? ["#74d0ff","#5aa6ff","#a5b4fc"] : ["#1f6fd6","#0ea5e9","#6366f1"]; }
-    function lineRGB(){ return dark ? "150,205,255," : "31,111,214,"; }
-    function mkSprites(){ sprites = cols().map(function(c){ var s = document.createElement("canvas"); s.width = s.height = 64; var x = s.getContext("2d"), r = x.createRadialGradient(32,32,0,32,32,32);
-      r.addColorStop(0, c); r.addColorStop(1, "rgba(0,0,0,0)"); x.fillStyle = r; x.fillRect(0,0,64,64); return s; }); }
-    function mk(){ return {x: Math.random() * W, y: Math.random() * H, vx: (Math.random() * .35 + .08) * (Math.random() < .5 ? -1 : 1), vy: (Math.random() - .5) * .18, k: Math.random() * 3 | 0, b: 0, l: 0, r: 0}; }
-    var SC = 0.6, rowsCv = document.createElement("canvas");   /* soft background: render at 60% and let CSS scale it up */
-    function size(){
-      W = innerWidth; H = innerHeight; cv.width = Math.round(W * SC); cv.height = Math.round(H * SC); g.setTransform(SC,0,0,SC,0,0);
-      rows = []; for (var y = 64; y < H; y += 64) rows.push(y);
-      rowsCv.width = cv.width; rowsCv.height = cv.height; paintRows();
-      P = []; var n = W < 700 ? 16 : Math.min(48, Math.round(W / 32)); for (var i = 0; i < n; i++) P.push(mk());
-      dark = document.documentElement.dataset.theme !== "light"; mkSprites(); paintRows();
-    }
-    function paintRows(){   /* the grid lines never move: draw them once */
-      if (!rowsCv.width) return; var x = rowsCv.getContext("2d"); x.setTransform(SC,0,0,SC,0,0); x.clearRect(0, 0, W, H); x.lineWidth = 1 / SC;
-      for (var r = 0; r < rows.length; r++) { x.strokeStyle = "rgba(" + lineRGB() + (r % 3 ? .06 : .13) + ")"; x.beginPath(); x.moveTo(0, rows[r]); x.lineTo(W, rows[r]); x.stroke(); }
-    }
-    var BK = [[], [], []];
-    function draw(){
-      var C = cols(); g.setTransform(1,0,0,1,0,0); g.clearRect(0, 0, cv.width, cv.height); g.drawImage(rowsCv, 0, 0); g.setTransform(SC,0,0,SC,0,0);
-      g.lineWidth = 1 / SC * .9; BK[0].length = BK[1].length = BK[2].length = 0;
-      for (var i = 0; i < P.length; i++) { var p = P[i], py = p.b ? p.r : p.y;
-        for (var j = i + 1; j < P.length; j++) { var q = P[j], dx = p.x - q.x, qy = q.b ? q.r : q.y, dy = py - qy, dd = dx * dx + dy * dy;
-          if (dd < 16000) BK[dd < 5000 ? 0 : dd < 10000 ? 1 : 2].push(p.x, py, q.x, qy); } }
-      for (var b = 0; b < 3; b++) { var L = BK[b]; if (!L.length) continue; g.strokeStyle = "rgba(" + lineRGB() + [.17, .11, .05][b] + ")"; g.beginPath();
-        for (var m = 0; m < L.length; m += 4) { g.moveTo(L[m], L[m + 1]); g.lineTo(L[m + 2], L[m + 3]); } g.stroke(); }
-      for (i = 0; i < P.length; i++) { p = P[i];
-        if (p.b) { p.l--; if (p.l <= 0) { P[i] = mk(); continue; } var a = Math.min(1, p.l / 40);
-          g.globalAlpha = .45 * a; g.drawImage(sprites[p.k], p.x - 30, p.r - 30, 60, 60);
-          g.globalAlpha = .55 * a; g.fillStyle = C[p.k]; g.fillRect(p.x - 50, p.r, 100, 1.2);
-          g.globalAlpha = a; g.fillRect(p.x - 2.5, p.r - 2.5, 5, 5);
-        } else {
-          if (!RM) { p.x += p.vx; p.y += p.vy; }
-          if (p.x < -10) p.x = W + 10; if (p.x > W + 10) p.x = -10; if (p.y < 0 || p.y > H) p.vy *= -1;
-          for (var k = 0; k < rows.length; k++) if (Math.abs(p.y - rows[k]) < .5 && Math.random() < .05) { p.b = 1; p.r = rows[k]; p.l = 170; break; }
-          g.globalAlpha = .85; g.fillStyle = C[p.k]; g.fillRect(p.x - 2.2, p.y - 2.2, 4.4, 4.4);
-        }
-      }
-      g.globalAlpha = 1;
-    }
-    var odd = false;
-    function tick(){ if (document.hidden) { raf = 0; return; } odd = !odd; if (odd && !quiet()) draw(); raf = requestAnimationFrame(tick); }
-    size(); if (RM) { draw(); } else raf = requestAnimationFrame(tick);
-    var rt; addEventListener("resize", function(){ clearTimeout(rt); rt = setTimeout(function(){ size(); if (RM) draw(); }, 150); });
-    document.addEventListener("visibilitychange", function(){ if (!document.hidden && !raf && !RM) raf = requestAnimationFrame(tick); });
-    new MutationObserver(function(){ dark = document.documentElement.dataset.theme !== "light"; mkSprites(); paintRows(); if (RM) draw(); }).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
   }
 
   /* ---------- overview widgets ---------- */
