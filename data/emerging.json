@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-24T23:47:08+00:00",
+ "checked": "2026-11-25T20:22:52+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -313,6 +313,19 @@
   }
  ],
  "news": [
+  {
+   "id": "24ce4964b234e612",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "FDA Authorizes First Point-of-Care Test for Active Syphilis",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZEVSX1FiRTM1RXJ3MVFjWFlqVWkxNHE4REs3NnRZdG5xdHZ0ak5PanRZM2xjQTdaVi1jM0ljbVpyZktqUjUxNWxDRnUyV0QwLWhzTDBWWWZrbk9PYmpMb21WTVVMTG9hbG9Xb1huOTJVRU8zUGJmcUNzV1F3Xy1EbUlDXzI5V2lPeGI0UHBJQWJCVEI0TXkwYkN4SmpITnBWeVJzQU9JOA?oc=5",
+   "date": "2026-11-25",
+   "snippet": "",
+   "publisher": "Clinical Lab Products",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-25T20:22:52+00:00"
+  },
   {
    "id": "cdc94d8e9aea9857",
    "competitor": "Emerging (POC)",
