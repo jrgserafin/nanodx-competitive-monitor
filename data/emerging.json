@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-25T23:30:05+00:00",
+ "checked": "2026-11-26T19:58:58+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -313,6 +313,19 @@
   }
  ],
  "news": [
+  {
+   "id": "51115b12168bdaaa",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Prolight Diagnostics publishes interim report Q3, 2026",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOamRaWFFpUkpJbDVhVUNYaExPM09Nano5S1V0U2Rwb2hHdnF0NXZQUDJ6Wk9GcE1Vc1FHMnN6QkRUaU5pd0pBTS1aU0QzUC1xczEyMkI0alZNSExSNEUzem1QZEF3VXFzUExHX3JiaXlRLWhSNVNjWGh3NjFKZ1JraHNER2JhVS1RS2ZkNlpCalRPWmtORi1LS0hwaGptaWJsRWY1MHNMTjZ0a1ZvbUJGeEVwVVkxLS03R0Jz?oc=5",
+   "date": "2026-11-26",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-26T19:58:58+00:00"
+  },
   {
    "id": "24ce4964b234e612",
    "competitor": "Emerging (POC)",
@@ -650,6 +663,19 @@
    "query": "\"traumatic brain injury\" diagnostic startup",
    "tbi": false,
    "first_seen": "2026-11-23T22:23:50+00:00"
+  },
+  {
+   "id": "9b5d95eec6471874",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Can AI Catch Eye Disease in 75 Seconds? Why Remidio’s Innovation Won the Anjani Mashelkar Prize",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdXR1RVRvb2RrUnU5dUlKdWw2TlNWeUpVQi1JQTlSWnljZkx5V2JWOE5SSVlUMUZpOUJXNkNidmlkS2E5Q1ZRc3RpUGw0d0k4bi1EVERhTFVEaEpYcWw4d0tUeXZkUjZxLTRBcUdjWnBNcS1FVjNRVm9heW1wRE5EZnRodWhwYXB0ODBIZEVmb3BGSFUwNk5uYlRnNEk1MUFUcmtmdHZNY2hIVWo3TW5zMFBYYWFFbW9HWkoydlpFelhYWFRyMWFpNjJaUjA0Zw?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "Sahyadri Startups",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-26T19:58:58+00:00"
   },
   {
    "id": "799542a35d037580",
