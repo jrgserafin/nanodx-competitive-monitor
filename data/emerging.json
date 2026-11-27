@@ -1,6 +1,6 @@
 {
  "version": 2,
- "checked": "2026-11-26T23:30:35+00:00",
+ "checked": "2026-11-27T19:47:32+00:00",
  "companies": [
   {
    "key": "karl storz se co kg",
@@ -314,6 +314,32 @@
  ],
  "news": [
   {
+   "id": "764484072e192e5f",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "2026 bowed out with record deals; 2027 brings the bill",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRnRUeXd3VzdEUzQ0WnozNG43MDJFZkktRWp2UFI4dHo0dHpCaXNqT1RuVExpLTFXLWg4Zm5NVWRoN1NGQlFZNWs2dktwUXk1TnlTUmVzZkJqUDJWY2hmdHdXOFVob3pVa3BVT21WMU8zUG52WUVUNWxtUTRkWkk4Vjc1Wno0N1ZS?oc=5",
+   "date": "2026-11-27",
+   "snippet": "",
+   "publisher": "Medical Buyer",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-27T19:47:32+00:00"
+  },
+  {
+   "id": "f780f83bcf7497ac",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Here's Why You Should Retain WAT Stock in Your Portfolio for Now",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS1BlT3F3bVNtLXFQQ0NGUEFuVExRWi13NHozeUZidVVwMExrb3hRVVJwMXlvaldibHBvVkU5MlBGaFVOLWV4VXRWR0p5SGRrdU15Y3RCRGpxNnVRSklZRmQ1UjctdEFUeUFHeDRoX0JqSGpKWmZ3UTFkOHdNeDdSMWl6TkpPb3diOWhNTVlULWYtMzREajFmUGhIWDZGY2pNV20yZUtua093MXBjMDk2N3NtQTVpRzRvdFVtTA?oc=5",
+   "date": "2026-11-27",
+   "snippet": "",
+   "publisher": "TradingView",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-27T19:47:32+00:00"
+  },
+  {
    "id": "51115b12168bdaaa",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -405,6 +431,19 @@
    "first_seen": "2026-11-24T23:47:08+00:00"
   },
   {
+   "id": "305c586032426579",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Life sciences entrepreneur out to create another 'Philadelphia success story'",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRFBnbno0dVh4ZVl1U3VMY3JiaHdYYVNMbHktenQ0aHpYYlh0MjVvZG9jbEt5bVRDaENwYTNoOFBTS0JqOWpkQl9Pd1QtTDhWVWRsZmRtVVR3TFFQdG1sWXJxa3VjZkxqaWhVOXIwWmFpeTRUcm0xRF90SWhURWZMampGZ2FUTzNKa0Q5ZEtPMHJVNzREV0pGRUVDV3RFc3Y4ajAwSzh4NndmenVpTXNHUQ?oc=5",
+   "date": "2026-11-24",
+   "snippet": "",
+   "publisher": "The Business Journals",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-27T19:47:32+00:00"
+  },
+  {
    "id": "43724a4c0bafefec",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -481,6 +520,19 @@
    "query": "\"point-of-care\" diagnostics startup funding",
    "tbi": false,
    "first_seen": "2026-11-24T02:02:32+00:00"
+  },
+  {
+   "id": "0c8384e1b63ec00b",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "IndoUSrare & GORD Announce Pitch4RARE 2026, Inviting Global Innovators to Advance Rare Disease Solutions",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQWDVzel95blhyVzh2RHd0VDdDWFJKUWZld1g4dTNndmdIUEhpeGpNMExaaGcyUGNDaWtTTXZRUDRLQktRSjJ6SkFNMHM1dVhEeGtudU03cUkxNUJIWW1WQ2tFTVRtLWZxemJlaFlLakZRenhoNXhGeXpWdFRlUXYxVEhkQTVUT2hrcnpjSERSWXR4NG1uYzdCNmlkbEk4YUVrYXpXQWQ1U0h0Z0lTMTk2ZGNqTDZSZU9CNk9vU2xnUVpycF9IU0trb1N1czk2OFMzaUVrd05LMkNKdlduWXR4RE1RRDVTU3VqQVRJbDZ3?oc=5",
+   "date": "2026-11-20",
+   "snippet": "",
+   "publisher": "The Detroit News",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-27T19:47:32+00:00"
   },
   {
    "id": "9c0b0c8a5fcb4421",
@@ -678,6 +730,19 @@
    "first_seen": "2026-11-26T19:58:58+00:00"
   },
   {
+   "id": "7df7179c7bb71998",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "Barracuda Bowl 2026",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zMzZ4LTU3MVUyUFVxd3BkeU1vUEY2WHYtY3JOc1Z5ZlFmWVRvcGt6NnVneFhvTldoQ1VEZTV2WXdYMmt5YU9fbEpKckhHUGFGcl9kOTVSTWQ0WnBRMGtvSUxOZ2ZUbDJENF9hcVdJcU85UG03eXA2Xw?oc=5",
+   "date": "2026-11-17",
+   "snippet": "",
+   "publisher": "Mintz",
+   "query": "\"point-of-care\" diagnostics startup funding",
+   "tbi": false,
+   "first_seen": "2026-11-27T19:47:32+00:00"
+  },
+  {
    "id": "799542a35d037580",
    "competitor": "Emerging (POC)",
    "source": "News",
@@ -741,6 +806,19 @@
    "query": "\"point-of-care\" biosensor raises",
    "tbi": false,
    "first_seen": "2026-11-16T20:47:59+00:00"
+  },
+  {
+   "id": "9a061e8660478c79",
+   "competitor": "Emerging (POC)",
+   "source": "News",
+   "title": "FDA clears Molecular Designs’ multiplex test for flu and RSV",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOFA2c2h6LUMyaU1Ya0ZhX2VEV0VkM3d6eGx5TGo5TWRmalJ6ZUtNdWROUGN1VTR4MDFYSTFMWTc0ZGFOc2ROLU82bDN5aVdidTMycy1nNEZpa3VsSGNITkhCcEVmNnUyNXJsYmxEQXdLaklDSVZWUnJHZlRNZkFMc0RnMTFGY09aMV83eQ?oc=5",
+   "date": "2026-11-16",
+   "snippet": "",
+   "publisher": "Yahoo Finance",
+   "query": "\"point-of-care\" test \"FDA clearance\"",
+   "tbi": false,
+   "first_seen": "2026-11-27T19:47:32+00:00"
   },
   {
    "id": "2cc942029a859a62",
